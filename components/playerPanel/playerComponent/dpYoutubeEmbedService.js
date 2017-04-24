@@ -15,7 +15,7 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 	scriptTag.type = 'text/javascript';
 	scriptTag.async = true;
 	//TODO - consider change to https
-	scriptTag.src = 'http://www.youtube.com/iframe_api';
+	scriptTag.src = 'https://www.youtube.com/iframe_api';
 	scriptTag.onreadystatechange = function () {
 		if (this.readyState == 'complete')
 			onScriptLoad();
