@@ -1,6 +1,38 @@
 body {
 
-    background: rgb(26, 24, 41);
     color: white;
+
+    .toolbar {
+        background: #690505;
+    }
+
+    .main-view {
+        background: rgb(26, 24, 41); 
+
+        .genre-widget-manager {
+            padding : 10px;
+            max-width: 450px;
+
+
+            .genre-container {
+
+            }
+
+            .slider-container {
+                width: 400px;
+
+                    .md-track {
+                        background: rgba(247, 223, 193, 0.64);
+                    }
+
+                    .md-track-fill {
+                        background: rgb(255,171,64); 
+                    }
+                
+            }
+        }
+    }
+
+
 
 }

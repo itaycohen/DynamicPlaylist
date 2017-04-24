@@ -40,29 +40,28 @@
 <body>
 
     <!--Toolbar-->
-
-    <md-toolbar style="max-height:66px">
+    <md-toolbar class="toolbar" style="max-height:66px">
         <h2 class="md-toolbar-tools">Dynamic Playlist</h2>
     </md-toolbar>
 
     <!--The app-->
-    <div layout="column" layout-align="start center">
+    <div class="main-view" layout="column" layout-align="start center">
         <!--Player Panel-->
         <!--<div layout="column" layout-align="start center">-->
             <dp-youtube-embed-directive></dp-youtube-embed-directive>
         <!--</div>-->
 
         <!--Control Panel-->
-        <div layout="column" layout-align="start strat">
+        <!--<div layout="column" layout-align="start stretch">-->
             <!--Controls Bar-->
             <!--GOES HERE-->
             <!--Current Playing-->
             <dp-current-playing-bar></dp-current-playing-bar>
             <!--Smart Widgets-->
-            <dp-genre-widget-manager></dp-genre-widget-manager>
+            <dp-genre-widget-manager ></dp-genre-widget-manager>
             <!--Dynamic Playlist-->
             <dp-dynamic-playlist></dp-dynamic-playlist>
-        </div>
+        <!--</div>-->
     </div>
 </body>
 
