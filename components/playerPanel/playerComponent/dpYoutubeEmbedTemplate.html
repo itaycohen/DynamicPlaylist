@@ -1,6 +1,6 @@
 <div class="youtube-embed-container" layout="column" layout-align="start center">
     <div id="player"></div>
-    <div class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()">
+    <d    margin-topiv class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()">
         <div flex="20" layout="row" layout-align="center">
             <!--<md-icon md-svg-icon="img/icons/menu.svg"></md-icon>-->
             <md-button class="next-song-botton" ng-click="onNextSongClick()">
@@ -8,7 +8,7 @@
                 <md-icon md-svg-icon="media/icons/ic_skip_next_white_24px.svg"></md-icon>
             </md-button>
         </div>
-        <div flex="60" style="margin-top: 5px" layout="row" layout-align="center center">
+        <div flex="60" layout="row" layout-align="center center">
             <h4>{{logicService.getSongArtistAndNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h4>
         </div>
         <div flex="20"></div>
