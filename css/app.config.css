@@ -4,6 +4,12 @@ body {
     background: #690505; }
   body .main-view {
     background: #1a1829; }
+    body .main-view .youtube-embed-container {
+      background: #615e79; }
+      body .main-view .youtube-embed-container .current-playing-bar {
+        background: rgba(0, 0, 0, 0.57); }
+        body .main-view .youtube-embed-container .current-playing-bar .next-song-botton {
+          min-width: 26px; }
     body .main-view .genre-widget-manager {
       padding: 10px;
       max-width: 450px; }

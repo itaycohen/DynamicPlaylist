@@ -45,23 +45,24 @@
     </md-toolbar>
 
     <!--The app-->
-    <div class="main-view" layout="column" layout-align="start center">
+    <div class="main-view" layout="column" layout-align="start stretch">
         <!--Player Panel-->
-        <!--<div layout="column" layout-align="start center">-->
+        <div layout="column" layout-align="start stretch">
             <dp-youtube-embed-directive></dp-youtube-embed-directive>
-        <!--</div>-->
+        </div>
 
-        <!--Control Panel-->
-        <!--<div layout="column" layout-align="start stretch">-->
+        <div layout="column" layout-align="start center">
+
+            <!--Control Panel-->
             <!--Controls Bar-->
             <!--GOES HERE-->
             <!--Current Playing-->
             <dp-current-playing-bar></dp-current-playing-bar>
             <!--Smart Widgets-->
-            <dp-genre-widget-manager ></dp-genre-widget-manager>
+            <dp-genre-widget-manager></dp-genre-widget-manager>
             <!--Dynamic Playlist-->
             <dp-dynamic-playlist></dp-dynamic-playlist>
-        <!--</div>-->
+        </div>
     </div>
 </body>
 
