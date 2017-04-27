@@ -153,11 +153,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     //pop song for the application loading
     function initCurrentSongIndex() {
-        popSongIndexFromListAndUpdate();
+        popSongIndexFromListAndUpdate(false);
     }
 
     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
-    function popSongIndexFromListAndUpdate() {
+    function popSongIndexFromListAndUpdate(byAction) {
+        console.log("popSongIndexFromListAndUpdate");
         // get the first song index in list
         var songIndex = $rootScope.songsIndexesList[0];
 
@@ -174,7 +175,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
         updateSongsIndexesList();
 
-        $rootScope.$apply();
+        if (!byAction) {
+            $rootScope.$apply();
+        }
     }
 
     // update the songs indexes list after change in genre weights 
