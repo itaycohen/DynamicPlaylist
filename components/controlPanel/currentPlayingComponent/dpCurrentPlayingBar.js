@@ -1,6 +1,6 @@
 angular
     .module('dpCurrentPlayingBar', [])
-    .directive("dpCurrentPlayingBar", dpCurrentPlayingBar);
+    .directive("dpCurrentPlayingBar",dpCurrentPlayingBar);
 
 dpCurrentPlayingBar.$inject = ["dpSongsListLogic"];
 function dpCurrentPlayingBar() {
@@ -14,5 +14,8 @@ function dpCurrentPlayingBar() {
 
 dpCurrentPlayingBarController.$inject = ["$scope", "dpSongsListLogic"];
 function dpCurrentPlayingBarController($scope, dpSongsListLogic) {
+
+    //hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
+
 }

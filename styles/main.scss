@@ -9,6 +9,21 @@ body {
     .main-view {
         background: rgb(26, 24, 41); 
 
+        .youtube-embed-container {
+            background: #615e79;
+
+            .current-playing-bar {
+                background: rgba(0, 0, 0, 0.57);
+
+                .next-song-botton {
+                    min-width: 26px;
+                } 
+            }
+
+        }
+
+
+
         .genre-widget-manager {
             padding : 10px;
             max-width: 450px;
