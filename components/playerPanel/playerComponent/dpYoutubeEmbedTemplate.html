@@ -1,16 +1,23 @@
 <div class="youtube-embed-container" layout="column" layout-align="start center">
     <div id="player"></div>
     <d    margin-topiv class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()">
-        <div flex="20" layout="row" layout-align="center">
-            <!--<md-icon md-svg-icon="img/icons/menu.svg"></md-icon>-->
-            <md-button class="next-song-botton" ng-click="onNextSongClick()">
+        <div flex="25" layout="row" layout-align="start">
+            <md-button class="control-song-botton" ng-hide="false" ng-click="onPlaySongClick()">
                 <!--next-->
-                <md-icon md-svg-icon="media/icons/ic_skip_next_white_24px.svg"></md-icon>
+                <md-icon md-svg-icon="media/icons/ic_play_arrow_white_36px.svg"></md-icon>
+            </md-button>
+            <md-button class="control-song-botton" ng-click="onPauseSongClick()">
+                <!--next-->
+                <md-icon md-svg-icon="media/icons/ic_pause_white_36px.svg"></md-icon>
+            </md-button>
+            <md-button class="control-song-botton" ng-click="onNextSongClick()">
+                <!--next-->
+                <md-icon md-svg-icon="media/icons/ic_skip_next_white_36px.svg"></md-icon>
             </md-button>
         </div>
-        <div flex="60" layout="row" layout-align="center center">
+        <div flex="50" layout="row" layout-align="center center">
             <h4>{{logicService.getSongArtistAndNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h4>
         </div>
-        <div flex="20"></div>
+        <div flex="25"></div>
     </div>
 </div>
