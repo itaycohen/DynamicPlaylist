@@ -148,6 +148,16 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	};
 
+	$scope.onPauseSongClick = function () {
+		console.log("pasue was clicked");
+		$scope.player.pauseVideo();
+	};
+
+	$scope.onPlaySongClick = function () {
+		console.log("play was clicked");
+		$scope.player.playVideo();
+	};
+
 	$scope.getPlayerHeight = function () {
 		return $scope.getPlayerWidth() * playerScreenRatio;
 	};
