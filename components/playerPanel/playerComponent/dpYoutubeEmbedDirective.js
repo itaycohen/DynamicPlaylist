@@ -36,6 +36,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					}
 				});
 
+
+
 				function getFirstSongId() {
 					// return 'oyEuk8j8imI';
 					return dpSongsListLogic.getNextSongId();
@@ -44,6 +46,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				function onPlayerReadyCB(event) {
 					//TODO - aff name of directive
 					console.log("Youtube Player Event - Player is ready");
+					$scope.isPlayingState = true;
 					event.target.playVideo();
 					// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 				}
@@ -61,13 +64,13 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 							handlePlayerEnded();
 							break;
 						case YT.PlayerState.UNSTARTED:
-							// console.log('unstarted');
+							console.log('unstarted');
 							break;
 						case YT.PlayerState.BUFFERING:
-							// console.log('buffering');
+							console.log('buffering');
 							break;
 						case YT.PlayerState.CUED:
-							// console.log('video cued');
+							console.log('video cued');
 							break;
 					}
 				}
@@ -117,6 +120,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				}
 
 
+
+
 			};
 
 		});
@@ -133,6 +138,21 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
 
+	$scope.isPlaying = true;
+
+	$scope.onPauseSongClick = function () {
+		console.log("pasue was clicked");
+		$scope.isPlaying = false;
+		$scope.player.pauseVideo();
+	};
+
+	$scope.onPlaySongClick = function () {
+		console.log("play was clicked");
+		$scope.isPlaying = true;
+		$scope.player.playVideo();
+	};
+
+
 	$scope.executePlayerEndedActions = function (byAction) {
 		dpSongsListLogic.popSongIndexFromListAndUpdate(byAction);
 		$scope.player.videoId = dpSongsListLogic.getNextSongId();
@@ -148,14 +168,44 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	};
 
-	$scope.onPauseSongClick = function () {
-		console.log("pasue was clicked");
-		$scope.player.pauseVideo();
+
+
+	/**
+	 *  when do we show play/pause buttons
+	 * -1 – unstarted 	-> show play
+	 * 	0 – ended		-> show play
+	 * 	1 – playing		-> show pause
+	 * 	2 – paused		-> show play
+	 * 	3 – buffering	-> show pause
+	 * 	5 – video cued	-> show pause
+	 */
+	// NOT IN USE - TEMP FOR MORE STATES
+	function isPlayState() {
+		var playerState = $scope.getPlayerState();
+		switch (playerState) {
+			case '-1':
+				return true;
+			case '0':
+				return true;
+			case '1':
+				return false;
+			case '2':
+				return true;
+			case '3':
+				return false;
+			case '5':
+				return false;
+			default:
+				return true;
+		}
+	}
+
+	$scope.shoudShowPlayButton = function () {
+		return $scope.isPlayingState;
 	};
 
-	$scope.onPlaySongClick = function () {
-		console.log("play was clicked");
-		$scope.player.playVideo();
+	$scope.shoudShowPauseButton = function () {
+		return !$scope.shoudShowPlayButton();
 	};
 
 	$scope.getPlayerHeight = function () {
@@ -175,5 +225,41 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		return { "width": playerWidth + "px" };
 
 	};
+
+
+	/**
+	 * return player state code
+	 * -1 – unstarted
+	 * 	0 – ended
+	 * 	1 – playing
+	 * 	2 – paused
+	 * 	3 – buffering
+	 * 	5 – video cued
+	 * otherwise return null
+	 */
+	$scope.getPlayerState = function () {
+		return angular.isDefined($scope.player) ? $scope.player.getPlayerState() : 0;
+	};
+
+
+	// watchers
+
+	// $scope.$watch("getPlayerState", showMeTheState);
+	// $scope.$watch(function () {
+	// 	return $scope.getPlayerState();
+	// }, showMeTheState);
+
+	// $scope.$watch(function () {
+	// 	return $scope.isPlayingState;
+	// }, [$scope.shoudShowPlayButton, $scope.shoudShowPauseButton]);
+
+	// $scope.$watch(function () {
+	// 	return $scope.isPlayingState;
+	// }, $scope.shoudShowPauseButton);
+
+	// function showMeTheState() {
+	// 	var state = $scope.getPlayerState();
+	// 	console.log("state was change to " + state);
+	// }
 
 }
