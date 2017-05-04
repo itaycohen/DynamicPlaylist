@@ -83,7 +83,6 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				function handlePlayerPlaying() {
 					$scope.isPlaying = true;
 					$scope.$apply();
-					
 					console.log("Youtube Player Event - handlePlayerPlaying");
 				}
 
@@ -143,7 +142,7 @@ dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic"];
 function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	var playerScreenRatio = 0.52;
-	
+
 	var maxPlayerWidth = 960;
 
 	//hooking the dpSongsListLogic on logicService for html access
