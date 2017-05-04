@@ -19,13 +19,19 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 
 		dpYoutubeEmbedService.getYoutubeEmbed().then(function () {
+			console.log("dpYoutubeEmbedService.getYoutubeEmbed().then");
 			$window.onYouTubePlayerAPIReady = function () {
+				console.log("$window.onYouTubePlayerAPIReady");
 				$scope.player = new YT.Player('player', {
 					width: $scope.getPlayerWidth(),
 					height: $scope.getPlayerHeight(),
 					// TODO - consider handle list with Ids
 					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
-					playerVars: { 'autoplay': 1, 'controls': 1 },
+					playerVars: {
+						'autoplay': 1,
+						'controls': 1,
+						'showinfo' : 0
+					},
 					videoId: getFirstSongId(),
 					events: {
 						'onReady': onPlayerReadyCB,
@@ -46,7 +52,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				function onPlayerReadyCB(event) {
 					//TODO - aff name of directive
 					console.log("Youtube Player Event - Player is ready");
-					$scope.isPlayingState = true;
+					// $scope.isPlayingState = true;
+					$scope.isPlaying = true;
 					event.target.playVideo();
 					// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 				}
@@ -76,10 +83,14 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				}
 
 				function handlePlayerPlaying() {
+					$scope.isPlaying = true;
+					$scope.$apply();
 					console.log("Youtube Player Event - handlePlayerPlaying");
 				}
 
 				function handlePlayerPaused() {
+					$scope.isPlaying = false;
+					$scope.$apply();
 					//TODO - save time of video to session user - for recover
 					console.log("Youtube Player Event - handlePlayerPaused");
 				}
@@ -133,12 +144,13 @@ dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic"];
 function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	var playerScreenRatio = 0.52;
+
 	var maxPlayerWidth = 960;
 
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
 
-	$scope.isPlaying = true;
+	$scope.isPlaying = getIsPlayingValue();
 
 	$scope.onPauseSongClick = function () {
 		console.log("pasue was clicked");
@@ -151,7 +163,6 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		$scope.isPlaying = true;
 		$scope.player.playVideo();
 	};
-
 
 	$scope.executePlayerEndedActions = function (byAction) {
 		dpSongsListLogic.popSongIndexFromListAndUpdate(byAction);
@@ -167,6 +178,11 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		$scope.executePlayerEndedActions(true);
 
 	};
+
+	function getIsPlayingValue() {
+		var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+		return !isIOSDevice;
+	}
 
 
 
@@ -200,13 +216,13 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		}
 	}
 
-	$scope.shoudShowPlayButton = function () {
-		return $scope.isPlayingState;
-	};
+	// $scope.shoudShowPlayButton = function () {
+	// 	return $scope.isPlayingState;
+	// };
 
-	$scope.shoudShowPauseButton = function () {
-		return !$scope.shoudShowPlayButton();
-	};
+	// $scope.shoudShowPauseButton = function () {
+	// 	return !$scope.shoudShowPlayButton();
+	// };
 
 	$scope.getPlayerHeight = function () {
 		return $scope.getPlayerWidth() * playerScreenRatio;

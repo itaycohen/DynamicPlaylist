@@ -2,10 +2,10 @@
     <div id="player"></div>
     <d margin-topiv class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()">
         <div flex="25" layout="row" layout-align="start">
-            <md-button ng-hide="isPlaying" class="control-song-button" ng-click="onPlaySongClick()" aria-label="Play">
+            <md-button ng-hide="isPlaying == true" class="control-song-button" ng-click="onPlaySongClick()" aria-label="Play" ng-model="isPlaying">
                 <md-icon md-svg-icon="media/icons/ic_play_arrow_white_36px.svg"></md-icon>
             </md-button>
-            <md-button ng-hide="!isPlaying" class="control-song-button" ng-click="onPauseSongClick()" aria-label="Pause">
+            <md-button ng-hide="isPlaying == false" class="control-song-button" ng-click="onPauseSongClick()" aria-label="Pause" ng-model="isPlaying">
                 <md-icon md-svg-icon="media/icons/ic_pause_white_36px.svg"></md-icon>
             </md-button>
             <md-button class="control-song-button" ng-click="onNextSongClick()" aria-label="Next">
