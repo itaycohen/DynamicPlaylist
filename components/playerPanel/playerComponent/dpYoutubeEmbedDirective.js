@@ -19,7 +19,9 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 
 		dpYoutubeEmbedService.getYoutubeEmbed().then(function () {
+			console.log("dpYoutubeEmbedService.getYoutubeEmbed().then");
 			$window.onYouTubePlayerAPIReady = function () {
+				console.log("$window.onYouTubePlayerAPIReady");
 				$scope.player = new YT.Player('player', {
 					width: $scope.getPlayerWidth(),
 					height: $scope.getPlayerHeight(),
