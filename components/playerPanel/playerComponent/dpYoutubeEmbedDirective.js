@@ -25,7 +25,11 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					height: $scope.getPlayerHeight(),
 					// TODO - consider handle list with Ids
 					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
-					playerVars: { 'autoplay': 1, 'controls': 1 },
+					playerVars: {
+						'autoplay': 1,
+						'controls': 0,
+						'showinfo' : 0
+					},
 					videoId: getFirstSongId(),
 					events: {
 						'onReady': onPlayerReadyCB,
