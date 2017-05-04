@@ -81,6 +81,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				}
 
 				function handlePlayerPaused() {
+					$scope.isPlaying = false;
 					//TODO - save time of video to session user - for recover
 					console.log("Youtube Player Event - handlePlayerPaused");
 				}
