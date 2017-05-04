@@ -18,17 +18,12 @@ var app = angular.module('dynamicPlaylistApp', [
 //     the names in  angular.module('dpGenreWidgetComponent', [])
 
 
-
-
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
-    $rootScope.bodyClass = 'loading';
-    $rootScope.test = "hello";
 
     $rootScope.rawSongsList = dpSongsListLoaderService.getSongsList();
 
     dpSongsListLogic.initCalcSongsList();
 
-    // $rootScope.initSongId = dpSongsListUtils.findInitSongId($rootScope.rawSongsList);
 
     console.log("runner");
 }]);
