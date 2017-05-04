@@ -1,5 +1,4 @@
 body {
-
     color: white;
 
     .toolbar {
@@ -8,46 +7,5 @@ body {
 
     .main-view {
         background: rgb(26, 24, 41); 
-
-        .youtube-embed-container {
-            background: #615e79;
-
-            .current-playing-bar {
-                background: rgba(0, 0, 0, 0.57);
-
-                .control-song-button {
-                    min-width: 26px;
-                } 
-            }
-
-        }
-
-
-
-        .genre-widget-manager {
-            padding : 10px;
-            max-width: 450px;
-
-
-            .genre-container {
-
-            }
-
-            .slider-container {
-                width: 400px;
-
-                    .md-track {
-                        background: rgba(247, 223, 193, 0.64);
-                    }
-
-                    .md-track-fill {
-                        background: rgb(255,171,64); 
-                    }
-                
-            }
-        }
     }
-
-
-
 }

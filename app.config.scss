@@ -13,6 +13,8 @@ $em-base : 16px; //same as default, just in order to keep it explicit
 // @import "styles/_constants.scss";
 @import "styles/main.scss";
 @import "components/playerPanel/playerComponent/dpYoutubeEmbedStyle.scss";
+@import "components/controlPanel/smartBarsComponent/genreWidgetManager/dpGenreWidgetManager.scss";
+@import "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidget.scss";
 
 // --------------- NODES -----------------
 

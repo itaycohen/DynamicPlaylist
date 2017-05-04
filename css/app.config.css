@@ -4,18 +4,21 @@ body {
     background: #690505; }
   body .main-view {
     background: #1a1829; }
-    body .main-view .youtube-embed-container {
-      background: #615e79; }
-      body .main-view .youtube-embed-container .current-playing-bar {
-        background: rgba(0, 0, 0, 0.57); }
-        body .main-view .youtube-embed-container .current-playing-bar .control-song-button {
-          min-width: 26px; }
-    body .main-view .genre-widget-manager {
-      padding: 10px;
-      max-width: 450px; }
-      body .main-view .genre-widget-manager .slider-container {
-        width: 400px; }
-        body .main-view .genre-widget-manager .slider-container .md-track {
-          background: rgba(247, 223, 193, 0.64); }
-        body .main-view .genre-widget-manager .slider-container .md-track-fill {
-          background: #ffab40; }
+
+.youtube-embed-container {
+  background: #615e79; }
+  .youtube-embed-container .current-playing-bar {
+    background: rgba(0, 0, 0, 0.57); }
+    .youtube-embed-container .current-playing-bar .control-song-button {
+      min-width: 26px; }
+
+.genre-widget-manager {
+  padding: 10px;
+  max-width: 450px; }
+
+.slider-container {
+  width: 400px; }
+  .slider-container .md-track {
+    background: rgba(247, 223, 193, 0.64); }
+  .slider-container .md-track-fill {
+    background: #ffab40; }
