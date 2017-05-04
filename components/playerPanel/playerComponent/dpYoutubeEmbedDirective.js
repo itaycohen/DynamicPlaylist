@@ -143,6 +143,7 @@ dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic"];
 function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	var playerScreenRatio = 0.52;
+	
 	var maxPlayerWidth = 960;
 
 	//hooking the dpSongsListLogic on logicService for html access
