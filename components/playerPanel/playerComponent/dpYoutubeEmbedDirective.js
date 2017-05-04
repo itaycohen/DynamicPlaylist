@@ -47,6 +47,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					//TODO - aff name of directive
 					console.log("Youtube Player Event - Player is ready");
 					// $scope.isPlayingState = true;
+					$scope.isPlaying = true;
 					event.target.playVideo();
 					// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 				}
