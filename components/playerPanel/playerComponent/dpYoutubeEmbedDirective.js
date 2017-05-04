@@ -46,7 +46,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				function onPlayerReadyCB(event) {
 					//TODO - aff name of directive
 					console.log("Youtube Player Event - Player is ready");
-					$scope.isPlayingState = true;
+					// $scope.isPlayingState = true;
 					event.target.playVideo();
 					// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 				}
@@ -138,7 +138,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
 
-	$scope.isPlaying = true;
+	$scope.isPlaying = getIsPlayingValue();
 
 	$scope.onPauseSongClick = function () {
 		console.log("pasue was clicked");
@@ -151,7 +151,6 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		$scope.isPlaying = true;
 		$scope.player.playVideo();
 	};
-
 
 	$scope.executePlayerEndedActions = function (byAction) {
 		dpSongsListLogic.popSongIndexFromListAndUpdate(byAction);
@@ -167,6 +166,11 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		$scope.executePlayerEndedActions(true);
 
 	};
+
+	function getIsPlayingValue() {
+		var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+		return !isIOSDevice;
+	}
 
 
 
@@ -200,13 +204,13 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 		}
 	}
 
-	$scope.shoudShowPlayButton = function () {
-		return $scope.isPlayingState;
-	};
+	// $scope.shoudShowPlayButton = function () {
+	// 	return $scope.isPlayingState;
+	// };
 
-	$scope.shoudShowPauseButton = function () {
-		return !$scope.shoudShowPlayButton();
-	};
+	// $scope.shoudShowPauseButton = function () {
+	// 	return !$scope.shoudShowPlayButton();
+	// };
 
 	$scope.getPlayerHeight = function () {
 		return $scope.getPlayerWidth() * playerScreenRatio;
