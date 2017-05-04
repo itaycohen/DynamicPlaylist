@@ -27,7 +27,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
 					playerVars: {
 						'autoplay': 1,
-						'controls': 0,
+						'controls': 1,
 						'showinfo' : 0
 					},
 					videoId: getFirstSongId(),
@@ -81,11 +81,15 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 				}
 
 				function handlePlayerPlaying() {
+					$scope.isPlaying = true;
+					$scope.$apply();
+					
 					console.log("Youtube Player Event - handlePlayerPlaying");
 				}
 
 				function handlePlayerPaused() {
 					$scope.isPlaying = false;
+					$scope.$apply();
 					//TODO - save time of video to session user - for recover
 					console.log("Youtube Player Event - handlePlayerPaused");
 				}
