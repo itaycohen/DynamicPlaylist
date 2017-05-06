@@ -24,6 +24,10 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 	//TODO - consider change to https
 	scriptTag.src = 'https://www.youtube.com/iframe_api';
 	scriptTag.onreadystatechange = function () {
+		var time0 = new Date();
+		var mili0 = time0.getMilliseconds();
+		console.log("onreadystatechange was loaded, time: " + time0);
+		console.log("onreadystatechange was loaded, mili: " + mili0);
 		if (this.readyState == 'complete')
 			onScriptLoad();
 	};
