@@ -11,6 +11,10 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 
 	var defer = $q.defer();
 	function onScriptLoad() {
+		var time0 = new Date();
+		var mili0 = time0.getMilliseconds();
+		console.log("service was loaded, time: " + time0);
+		console.log("service was loaded, mili: " + mili0);
 		defer.resolve(window.getYoutubeEmbed);
 	}
 
@@ -67,6 +71,10 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 
 		function loadYoutubeEmbed() {
+			var time1 = new Date();
+			var mili = time1.getMilliseconds();
+			console.log("onYouTubePlayerAPIReady loading, time: " + time1);
+			console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
 			$window.onYouTubePlayerAPIReady = function () {
 				console.log("$window.onYouTubePlayerAPIReady");
 				$scope.player = new YT.Player('player', {
