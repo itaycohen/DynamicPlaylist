@@ -20,7 +20,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 		dpYoutubeEmbedService.getYoutubeEmbed().then(
 			setTimeout(function () {
 				loadYoutubeEmbed();
-			}, 2)
+			}, 2000)
 		);
 
 
