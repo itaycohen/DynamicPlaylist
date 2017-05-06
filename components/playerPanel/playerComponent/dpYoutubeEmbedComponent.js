@@ -29,9 +29,20 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 	};
 	scriptTag.onload = onScriptLoad();
 	var s = $document[0].getElementsByTagName('body')[0];
+
+	var time0 = new Date();
+	var mili0 = time0.getMilliseconds();
+	console.log("appendChild was loaded, time: " + time0);
+	console.log("appendChild was loaded, mili: " + mili0);
+
 	s.appendChild(scriptTag);
 
 	function getYoutubeEmbed() {
+		var time0 = new Date();
+		var mili0 = time0.getMilliseconds();
+		console.log("promise was loaded, time: " + time0);
+		console.log("promise was loaded, mili: " + mili0);
+
 		return defer.promise;
 	}
 
