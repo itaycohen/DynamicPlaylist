@@ -22,7 +22,10 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
 
         // move
-        getSongArtistAndNameByIndex: getSongArtistAndNameByIndex
+        getSongArtistAndNameByIndex: getSongArtistAndNameByIndex,
+        getSongNameByIndex : getSongNameByIndex,
+        getSongArtistByIndex : getSongArtistByIndex
+
     };
     return service;
 
@@ -299,6 +302,17 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // TODO - const " "
         return songDetails.artist + " - " + songDetails.songName;
     }
+
+    function getSongNameByIndex(index) {
+        var songDetails = $rootScope.rawSongsList[index].details;
+        return songDetails.songName;
+    }
+
+    function getSongArtistByIndex(index) {
+        var songDetails = $rootScope.rawSongsList[index].details;
+        return songDetails.artist;
+    }
+
 
 
 
