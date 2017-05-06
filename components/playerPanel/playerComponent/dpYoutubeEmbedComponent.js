@@ -1,10 +1,48 @@
 angular
-	.module('dpYoutubeEmbedDirective', ['dpYoutubeEmbedService'])
+	.module('dpYoutubeEmbedComponent', [])
+	.factory('dpYoutubeEmbedService', dpYoutubeEmbedService)
 	.directive("dpYoutubeEmbedDirective", dpYoutubeEmbedDirective);
 
 
-dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
+dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope'];
 
+//TODO - investigate & change as our format
+function dpYoutubeEmbedService($document, $q, $rootScope) {
+
+	var defer = $q.defer();
+	function onScriptLoad() {
+		defer.resolve(window.getYoutubeEmbed);
+	}
+
+	var scriptTag = $document[0].createElement('script');
+	scriptTag.type = 'text/javascript';
+	scriptTag.async = true;
+	//TODO - consider change to https
+	scriptTag.src = 'https://www.youtube.com/iframe_api';
+	scriptTag.onreadystatechange = function () {
+		if (this.readyState == 'complete')
+			onScriptLoad();
+	};
+	scriptTag.onload = onScriptLoad();
+	var s = $document[0].getElementsByTagName('body')[0];
+	s.appendChild(scriptTag);
+
+	function getYoutubeEmbed() {
+		return defer.promise;
+	}
+
+	//////////
+
+	var service = {
+		getYoutubeEmbed: getYoutubeEmbed
+	};
+	return service;
+}
+
+
+
+
+dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
 
 function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $window, $http) {
 	var directive = {
@@ -24,7 +62,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 		// );
 
 		dpYoutubeEmbedService.getYoutubeEmbed().then(
-				loadYoutubeEmbed()
+			loadYoutubeEmbed()
 		);
 
 
