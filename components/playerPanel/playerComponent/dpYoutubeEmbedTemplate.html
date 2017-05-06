@@ -14,10 +14,13 @@
             </md-button>
         </div>
         <div flex="50" layout="row" layout-align="center center">
-            <h4>{{logicService.getSongArtistAndNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h4>
+            <div class="song-fullname-container" layout="column" layout-align="start center">  <!--need for showing sing and artist in 2 lins-->
+                <h4 class="song-name-container">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h4>
+                <h5 class="artist-name-container">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</h5>
+            </div>
         </div>
         <div flex="25">
         </div>
-        
+
 </div>
 </div>

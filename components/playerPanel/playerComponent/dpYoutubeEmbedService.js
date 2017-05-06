@@ -9,7 +9,13 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 
 	var defer = $q.defer();
 	function onScriptLoad() {
+		setTimeout(function () {
+
+			console.log('sleep');
+			// defer.resolve(window.getYoutubeEmbed);
+		}, 5000);
 		defer.resolve(window.getYoutubeEmbed);
+
 	}
 	var scriptTag = $document[0].createElement('script');
 	scriptTag.type = 'text/javascript';
