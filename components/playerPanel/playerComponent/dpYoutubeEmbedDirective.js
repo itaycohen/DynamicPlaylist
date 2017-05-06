@@ -17,10 +17,14 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
 
+		// dpYoutubeEmbedService.getYoutubeEmbed().then(
+		// 	setTimeout(function () {
+		// 		loadYoutubeEmbed();
+		// 	}, 2)
+		// );
+
 		dpYoutubeEmbedService.getYoutubeEmbed().then(
-			setTimeout(function () {
-				loadYoutubeEmbed();
-			}, 2000)
+				loadYoutubeEmbed()
 		);
 
 
