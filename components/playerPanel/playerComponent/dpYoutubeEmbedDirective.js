@@ -17,7 +17,6 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
 
-
 		dpYoutubeEmbedService.getYoutubeEmbed().then(function () {
 			console.log("dpYoutubeEmbedService.getYoutubeEmbed().then");
 			$window.onYouTubePlayerAPIReady = function () {
@@ -30,7 +29,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					playerVars: {
 						'autoplay': 1,
 						'controls': 1,
-						'showinfo' : 0
+						'showinfo' : 1
 					},
 					videoId: getFirstSongId(),
 					events: {
