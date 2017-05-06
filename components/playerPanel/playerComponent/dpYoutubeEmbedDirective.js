@@ -17,8 +17,14 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
 
-		dpYoutubeEmbedService.getYoutubeEmbed().then(function () {
-			console.log("dpYoutubeEmbedService.getYoutubeEmbed().then");
+		dpYoutubeEmbedService.getYoutubeEmbed().then(
+			setTimeout(function () {
+				loadYoutubeEmbed();
+			}, 2)
+		);
+
+
+		function loadYoutubeEmbed() {
 			$window.onYouTubePlayerAPIReady = function () {
 				console.log("$window.onYouTubePlayerAPIReady");
 				$scope.player = new YT.Player('player', {
@@ -29,7 +35,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					playerVars: {
 						'autoplay': 1,
 						'controls': 1,
-						'showinfo' : 1
+						'showinfo': 1
 					},
 					videoId: getFirstSongId(),
 					events: {
@@ -43,98 +49,97 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 
 
-				function getFirstSongId() {
-					// return 'oyEuk8j8imI';
-					return dpSongsListLogic.getNextSongId();
-				}
-
-				function onPlayerReadyCB(event) {
-					//TODO - aff name of directive
-					console.log("Youtube Player Event - Player is ready");
-					// $scope.isPlayingState = true;
-					$scope.isPlaying = true;
-					event.target.playVideo();
-					// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
-				}
-
-				function onPlayerStateChangeCB(event) {
-					var playerStatus = event.data;
-					switch (playerStatus) {
-						case YT.PlayerState.PLAYING:
-							handlePlayerPlaying();
-							break;
-						case YT.PlayerState.PAUSED:
-							handlePlayerPaused();
-							break;
-						case YT.PlayerState.ENDED:
-							handlePlayerEnded();
-							break;
-						case YT.PlayerState.UNSTARTED:
-							console.log('unstarted');
-							break;
-						case YT.PlayerState.BUFFERING:
-							console.log('buffering');
-							break;
-						case YT.PlayerState.CUED:
-							console.log('video cued');
-							break;
-					}
-				}
-
-				function handlePlayerPlaying() {
-					$scope.isPlaying = true;
-					$scope.$apply();
-					console.log("Youtube Player Event - handlePlayerPlaying");
-				}
-
-				function handlePlayerPaused() {
-					$scope.isPlaying = false;
-					$scope.$apply();
-					//TODO - save time of video to session user - for recover
-					console.log("Youtube Player Event - handlePlayerPaused");
-				}
-
-
-				function handlePlayerEnded() {
-					console.log("Youtube Player Event - handlePlayerEnded");
-					$scope.executePlayerEndedActions(false);
-				}
-
-				function onPlaybackQualityChangeCB(playbackQuality) {
-					// console.log("Youtube Player Event - onPlaybackQualityChangeCB");
-					// console.log('	playback quality changed to ' + playbackQuality.data);
-				}
-
-				function onPlaybackRateChangeCB(playbackRate) {
-					// console.log("Youtube Player Event - onPlaybackRateChangeCB");
-					// console.log('	playback rate changed to ' + playbackRate.data);
-				}
-
-
-				function onErrorCB(error) {
-					console.log("Youtube Player Event - onErrorCB");
-					console.log("	Error Data: " + e.data);
-
-				}
-
-				function getPlayerHeight() {
-					return getPlayerWidth() * playerScreenRatio;
-				}
-
-				function getPlayerWidth() {
-					var screenWidth = window.innerWidth;
-					if (screenWidth > maxPlayerWidth) {
-						return maxPlayerWidth;
-					}
-					return screenWidth;
-				}
-
-
-
-
 			};
+		}
 
-		});
+
+		function getFirstSongId() {
+			// return 'oyEuk8j8imI';
+			return dpSongsListLogic.getNextSongId();
+		}
+
+		function onPlayerReadyCB(event) {
+			//TODO - aff name of directive
+			console.log("Youtube Player Event - Player is ready");
+			// $scope.isPlayingState = true;
+			$scope.isPlaying = true;
+			event.target.playVideo();
+			// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
+		}
+
+		function onPlayerStateChangeCB(event) {
+			var playerStatus = event.data;
+			switch (playerStatus) {
+				case YT.PlayerState.PLAYING:
+					handlePlayerPlaying();
+					break;
+				case YT.PlayerState.PAUSED:
+					handlePlayerPaused();
+					break;
+				case YT.PlayerState.ENDED:
+					handlePlayerEnded();
+					break;
+				case YT.PlayerState.UNSTARTED:
+					console.log('unstarted');
+					break;
+				case YT.PlayerState.BUFFERING:
+					console.log('buffering');
+					break;
+				case YT.PlayerState.CUED:
+					console.log('video cued');
+					break;
+			}
+		}
+
+		function handlePlayerPlaying() {
+			$scope.isPlaying = true;
+			$scope.$apply();
+			console.log("Youtube Player Event - handlePlayerPlaying");
+		}
+
+		function handlePlayerPaused() {
+			$scope.isPlaying = false;
+			$scope.$apply();
+			//TODO - save time of video to session user - for recover
+			console.log("Youtube Player Event - handlePlayerPaused");
+		}
+
+
+		function handlePlayerEnded() {
+			console.log("Youtube Player Event - handlePlayerEnded");
+			$scope.executePlayerEndedActions(false);
+		}
+
+		function onPlaybackQualityChangeCB(playbackQuality) {
+			// console.log("Youtube Player Event - onPlaybackQualityChangeCB");
+			// console.log('	playback quality changed to ' + playbackQuality.data);
+		}
+
+		function onPlaybackRateChangeCB(playbackRate) {
+			// console.log("Youtube Player Event - onPlaybackRateChangeCB");
+			// console.log('	playback rate changed to ' + playbackRate.data);
+		}
+
+
+		function onErrorCB(error) {
+			console.log("Youtube Player Event - onErrorCB");
+			console.log("	Error Data: " + e.data);
+
+		}
+
+		function getPlayerHeight() {
+			return getPlayerWidth() * playerScreenRatio;
+		}
+
+		function getPlayerWidth() {
+			var screenWidth = window.innerWidth;
+			if (screenWidth > maxPlayerWidth) {
+				return maxPlayerWidth;
+			}
+			return screenWidth;
+		}
+
+
 	} // dpPlayerBoxPostLink
 } // dpYoutubeEmbedDirective
 
