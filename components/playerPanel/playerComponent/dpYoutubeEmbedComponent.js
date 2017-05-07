@@ -10,8 +10,13 @@ dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope', '$window'];
 function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 
 
+	service = {};
+
+
 	// https://github.com/brandly/angular-youtube-embed/blob/master/src/angular-youtube-embed.js
-	var isReady = false;
+	// var isReady = false;
+
+	// $scope.isReady2 = false;
 
 	var defer = $q.defer();
 	function onScriptLoad() {
@@ -47,9 +52,14 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 
 	function applyServiceIsReady() {
         $rootScope.$apply(function () {
-            isReady = true;
+            // isReady = true;
+			// $scope.isReady2 = true;
+			service.ready = true;
+
         });
     }
+
+	service.ready = false;
 
 	// If the library isn't here at all,
     if (typeof YT === "undefined") {
@@ -57,30 +67,43 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
         $window.onYouTubeIframeAPIReady = applyServiceIsReady;
         console.log('Unable to find YouTube iframe library on this page.')
     } else if (YT.loaded) {
-        isReady = true;
+		service.ready = true;
+        // isReady = true;
+		// $scope.isReady2 = true;
     } else {
         YT.ready(applyServiceIsReady);
     }
 
-	function getYoutubeEmbed() {
+	// function getYoutubeEmbed() {
+	// 	var time0 = new Date();
+	// 	var mili0 = time0.getMilliseconds();
+	// 	console.log("promise was loaded, time: " + time0);
+	// 	console.log("promise was loaded, mili: " + mili0);
+
+	// 	return defer.promise;
+	// }
+
+	service.getYoutubeEmbed = function () {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
 		console.log("promise was loaded, time: " + time0);
 		console.log("promise was loaded, mili: " + mili0);
 
 		return defer.promise;
-	}
+	};
 
-	function isAPIReady() {
-		return isReady;
-	}
+	// function isAPIReady() {
+	// 	return isReady;
+	// }
 
 	//////////
 
-	var service = {
-		getYoutubeEmbed: getYoutubeEmbed,
-		isAPIReady: isAPIReady
-	};
+	// var service = {
+	// 	getYoutubeEmbed: getYoutubeEmbed,
+	// 	isAPIReady: isAPIReady
+	// };
+	// return service;
+
 	return service;
 }
 
@@ -99,6 +122,9 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 	return directive;
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
+
+		// allows us to $watch `ready`
+		$scope.utils = dpYoutubeEmbedService;
 
 		// dpYoutubeEmbedService.getYoutubeEmbed().then(
 		// 	setTimeout(function () {
@@ -232,7 +258,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 		var stopWatchingReady = $scope.$watch(
 			function () {
-				return dpYoutubeEmbedService.isAPIReady();
+				return $scope.utils.ready;
 			},
 			function (isReady) {
 				if (isReady) {
