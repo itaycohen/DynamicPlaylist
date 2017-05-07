@@ -4,10 +4,14 @@ angular
 	.directive("dpYoutubeEmbedDirective", dpYoutubeEmbedDirective);
 
 
-dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope'];
+dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope', '$window'];
 
 //TODO - investigate & change as our format
-function dpYoutubeEmbedService($document, $q, $rootScope) {
+function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
+
+
+	// https://github.com/brandly/angular-youtube-embed/blob/master/src/angular-youtube-embed.js
+	var isReady = false;
 
 	var defer = $q.defer();
 	function onScriptLoad() {
@@ -41,6 +45,23 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 
 	s.appendChild(scriptTag);
 
+	function applyServiceIsReady() {
+        $rootScope.$apply(function () {
+            isReady = true;
+        });
+    }
+
+	// If the library isn't here at all,
+    if (typeof YT === "undefined") {
+        // ...grab on to global callback, in case it's eventually loaded
+        $window.onYouTubeIframeAPIReady = applyServiceIsReady;
+        console.log('Unable to find YouTube iframe library on this page.')
+    } else if (YT.loaded) {
+        isReady = true;
+    } else {
+        YT.ready(applyServiceIsReady);
+    }
+
 	function getYoutubeEmbed() {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
@@ -50,10 +71,15 @@ function dpYoutubeEmbedService($document, $q, $rootScope) {
 		return defer.promise;
 	}
 
+	function isAPIReady() {
+		return isReady;
+	}
+
 	//////////
 
 	var service = {
-		getYoutubeEmbed: getYoutubeEmbed
+		getYoutubeEmbed: getYoutubeEmbed,
+		isAPIReady: isAPIReady
 	};
 	return service;
 }
@@ -204,6 +230,17 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			return screenWidth;
 		}
 
+		var stopWatchingReady = $scope.$watch(
+			function () {
+				return dpYoutubeEmbedService.isAPIReady();
+			},
+			function (isReady) {
+				if (isReady) {
+					stopWatchingReady();
+					loadYoutubeEmbed();
+				}
+			});
+
 
 	} // dpPlayerBoxPostLink
 } // dpYoutubeEmbedDirective
@@ -346,5 +383,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	// 	var state = $scope.getPlayerState();
 	// 	console.log("state was change to " + state);
 	// }
+
+
 
 }
