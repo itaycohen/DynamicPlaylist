@@ -124,7 +124,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					// TODO - consider handle list with Ids
 					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
 					playerVars: {
-						'autoplay': 1,
+						'autoplay': 0,
 						'controls': 1,
 						'showinfo': 1
 					},
@@ -153,8 +153,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			//TODO - aff name of directive
 			console.log("Youtube Player Event - Player is ready");
 			// $scope.isPlayingState = true;
-			$scope.isPlaying = true;
-			event.target.playVideo();
+			//$scope.isPlaying = true;
+			//event.target.playVideo();
 			// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 		}
 
@@ -256,7 +256,8 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
 
-	$scope.isPlaying = getIsPlayingValue();
+	// $scope.isPlaying = getIsPlayingValue();
+	$scope.isPlaying = false;
 
 	$scope.onPauseSongClick = function () {
 		console.log("pasue was clicked");
@@ -285,10 +286,10 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	};
 
-	function getIsPlayingValue() {
-		var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-		return !isIOSDevice;
-	}
+	// function getIsPlayingValue() {
+	// 	var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+	// 	return !isIOSDevice;
+	// }
 
 
 
