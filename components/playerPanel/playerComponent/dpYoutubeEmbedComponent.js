@@ -119,8 +119,10 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			// $window.onYouTubePlayerAPIReady = function () {
 				console.log("$window.onYouTubePlayerAPIReady");
 				$scope.player = new YT.Player('player', {
-					width: $scope.getPlayerWidth(),
-					height: $scope.getPlayerHeight(),
+					// width: $scope.getPlayerWidth(),
+					// height: $scope.getPlayerHeight(),
+					// width: "100%",
+					// height: "100%",
 					// TODO - consider handle list with Ids
 					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
 					playerVars: {
@@ -250,8 +252,10 @@ dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic"];
 function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	var playerScreenRatio = 0.52;
+	var playerwidthReducerFactor = 0.5; // factor that decide how wide the player width can be
+	var MINIMUM_WIDTH_OF_SCREEN = 768;
 
-	var maxPlayerWidth = 960;
+	var maxPlayerWidth = 820; 
 
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
@@ -336,8 +340,12 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	$scope.getPlayerWidth = function () {
 		var screenWidth = window.innerWidth;
-		if (screenWidth > maxPlayerWidth) {
-			return maxPlayerWidth;
+		if (screenWidth <= MINIMUM_WIDTH_OF_SCREEN) {
+			return screenWidth;
+		}
+		var calculatedPlayerWidth = screenWidth * playerwidthReducerFactor;
+		if (screenWidth > calculatedPlayerWidth) {
+			return calculatedPlayerWidth > maxPlayerWidth ? maxPlayerWidth : calculatedPlayerWidth;
 		}
 		return screenWidth;
 	};
