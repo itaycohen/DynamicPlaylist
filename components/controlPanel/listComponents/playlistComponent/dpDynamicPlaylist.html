@@ -1,6 +1,6 @@
-<div md-content layout="column" layout-padding>
+<div ng-class="getPlaylistContainerClass()" class="playlist" flex layout="column" layout-padding>
     <h4> Next Songs To Be Played </h4>
-    <div ng-repeat="songIndex in songsIndexesList | limitTo:15">
+    <div ng-repeat="songIndex in songsIndexesList | limitTo:35">
         <div>
             {{$index + 1}}. {{logicService.getSongArtistAndNameByIndex(songIndex)}}
             <br>

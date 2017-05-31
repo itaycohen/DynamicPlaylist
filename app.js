@@ -28,8 +28,18 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
     console.log("runner");
 }]);
 
-app.config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('default')
-    .primaryPalette('deep-purple')
-    .accentPalette('orange');
+app.config(function ($mdThemingProvider) {
+    $mdThemingProvider.theme('default')
+        .primaryPalette('deep-purple')
+        .accentPalette('orange');
+});
+
+
+app.controller('appController', function ($mdMedia, $scope) {
+
+    $scope.getMainViewClass = function () {
+        if (!$mdMedia('max-width: 959px')) { //big view
+            return "main-view-big";
+        }
+    };
 });

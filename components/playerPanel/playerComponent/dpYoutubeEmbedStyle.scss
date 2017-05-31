@@ -1,5 +1,21 @@
-.youtube-embed-container {
-    background: #615e79;
+// .youtube-embed-component {
+    
+    .youtube-embed-container {
+        background: #615e79;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px; 
+        height: 0; 
+        overflow: hidden;
+
+        .player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
 
     .current-playing-bar {
         background: rgba(0, 0, 0, 0.57);
@@ -22,7 +38,8 @@
             }
 
         }
-
-
     }
-}
+
+
+
+// }

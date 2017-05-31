@@ -1,6 +1,8 @@
-<div class="youtube-embed-container" layout="column" layout-align="start center">
-    <div id="player"></div>
-    <d margin-topiv class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()">
+<!--<div class="youtube-embed-component" layout="column" layout-align="start center">-->
+    <div class="youtube-embed-container">
+        <div class="player" id="player"></div>
+    </div>
+    <div class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()">
         <div flex="25" layout="row" layout-align="start">
             <md-button ng-hide="isPlaying == true" class="control-song-button" ng-click="onPlaySongClick()" aria-label="Play" ng-model="isPlaying">
                 <md-icon md-svg-icon="media/icons/ic_play_arrow_white_36px.svg"></md-icon>
@@ -14,13 +16,13 @@
             </md-button>
         </div>
         <div flex="50" layout="row" layout-align="center center">
-            <div class="song-fullname-container" layout="column" layout-align="start center">  <!--need for showing sing and artist in 2 lins-->
+            <div class="song-fullname-container" layout="column" layout-align="start center">
+                <!--need for showing sing and artist in 2 lins-->
                 <h4 class="song-name-container">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h4>
                 <h5 class="artist-name-container">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</h5>
             </div>
         </div>
         <div flex="25">
         </div>
-
-</div>
-</div>
+    </div>
+<!--</div>-->
