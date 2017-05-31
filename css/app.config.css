@@ -5,6 +5,8 @@ body {
     background: #690505; }
   body .main-view .boxWithHeight {
     box-sizing: border-box; }
+  body .main-view .widget-manager-container {
+    overflow-y: auto; }
   body .main-view-big {
     height: calc(100% - 64px); }
 
