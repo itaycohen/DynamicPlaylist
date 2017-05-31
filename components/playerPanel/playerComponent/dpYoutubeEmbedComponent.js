@@ -1,10 +1,93 @@
 angular
-	.module('dpYoutubeEmbedDirective', ['dpYoutubeEmbedService'])
+	.module('dpYoutubeEmbedComponent', [])
+	.factory('dpYoutubeEmbedService', dpYoutubeEmbedService)
 	.directive("dpYoutubeEmbedDirective", dpYoutubeEmbedDirective);
 
 
-dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
+dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope', '$window'];
 
+//TODO - investigate & change as our format
+function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
+
+
+	// https://github.com/brandly/angular-youtube-embed/blob/master/src/angular-youtube-embed.js
+	var isReady = false;
+
+	var defer = $q.defer();
+	function onScriptLoad() {
+		var time0 = new Date();
+		var mili0 = time0.getMilliseconds();
+		console.log("service was loaded, time: " + time0);
+		console.log("service was loaded, mili: " + mili0);
+		defer.resolve(window.getYoutubeEmbed);
+	}
+
+	var scriptTag = $document[0].createElement('script');
+	scriptTag.type = 'text/javascript';
+	scriptTag.async = true;
+	//TODO - consider change to https
+	scriptTag.src = 'https://www.youtube.com/iframe_api';
+	scriptTag.onreadystatechange = function () {
+		var time0 = new Date();
+		var mili0 = time0.getMilliseconds();
+		console.log("onreadystatechange was loaded, time: " + time0);
+		console.log("onreadystatechange was loaded, mili: " + mili0);
+		if (this.readyState == 'complete')
+			onScriptLoad();
+	};
+	scriptTag.onload = onScriptLoad();
+	var s = $document[0].getElementsByTagName('body')[0];
+
+	var time0 = new Date();
+	var mili0 = time0.getMilliseconds();
+	console.log("appendChild was loaded, time: " + time0);
+	console.log("appendChild was loaded, mili: " + mili0);
+
+	s.appendChild(scriptTag);
+
+	function applyServiceIsReady() {
+        $rootScope.$apply(function () {
+            isReady = true;
+        });
+    }
+
+	// If the library isn't here at all,
+    if (typeof YT === "undefined") {
+        // ...grab on to global callback, in case it's eventually loaded
+        $window.onYouTubeIframeAPIReady = applyServiceIsReady;
+        console.log('Unable to find YouTube iframe library on this page.');
+    } else if (YT.loaded) {
+        isReady = true;
+    } else {
+        YT.ready(applyServiceIsReady);
+    }
+
+	function getYoutubeEmbed() {
+		var time0 = new Date();
+		var mili0 = time0.getMilliseconds();
+		console.log("promise was loaded, time: " + time0);
+		console.log("promise was loaded, mili: " + mili0);
+
+		return defer.promise;
+	}
+
+	function isAPIReady() {
+		return isReady;
+	}
+
+	//////////
+
+	var service = {
+		getYoutubeEmbed: getYoutubeEmbed,
+		isAPIReady: isAPIReady
+	};
+	return service;
+}
+
+
+
+
+dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
 
 function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $window, $http) {
 	var directive = {
@@ -17,15 +100,23 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
 
-		dpYoutubeEmbedService.getYoutubeEmbed().then(
-			setTimeout(function () {
-				loadYoutubeEmbed();
-			}, 2)
-		);
+		// dpYoutubeEmbedService.getYoutubeEmbed().then(
+		// 	setTimeout(function () {
+		// 		loadYoutubeEmbed();
+		// 	}, 2)
+		// );
+
+		// dpYoutubeEmbedService.getYoutubeEmbed().then(
+		// 	loadYoutubeEmbed()
+		// );
 
 
 		function loadYoutubeEmbed() {
-			$window.onYouTubePlayerAPIReady = function () {
+			var time1 = new Date();
+			var mili = time1.getMilliseconds();
+			console.log("onYouTubePlayerAPIReady loading, time: " + time1);
+			console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
+			// $window.onYouTubePlayerAPIReady = function () {
 				console.log("$window.onYouTubePlayerAPIReady");
 				$scope.player = new YT.Player('player', {
 					width: $scope.getPlayerWidth(),
@@ -33,7 +124,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					// TODO - consider handle list with Ids
 					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
 					playerVars: {
-						'autoplay': 1,
+						'autoplay': 0,
 						'controls': 1,
 						'showinfo': 1
 					},
@@ -49,7 +140,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 
 
-			};
+			// };
 		}
 
 
@@ -62,8 +153,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			//TODO - aff name of directive
 			console.log("Youtube Player Event - Player is ready");
 			// $scope.isPlayingState = true;
-			$scope.isPlaying = true;
-			event.target.playVideo();
+			//$scope.isPlaying = true;
+			//event.target.playVideo();
 			// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 		}
 
@@ -139,6 +230,17 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			return screenWidth;
 		}
 
+		var stopWatchingReady = $scope.$watch(
+			function () {
+				return dpYoutubeEmbedService.isAPIReady();
+			},
+			function (isReady) {
+				if (isReady) {
+					stopWatchingReady();
+					loadYoutubeEmbed();
+				}
+			});
+
 
 	} // dpPlayerBoxPostLink
 } // dpYoutubeEmbedDirective
@@ -154,7 +256,8 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
 
-	$scope.isPlaying = getIsPlayingValue();
+	// $scope.isPlaying = getIsPlayingValue();
+	$scope.isPlaying = false;
 
 	$scope.onPauseSongClick = function () {
 		console.log("pasue was clicked");
@@ -183,10 +286,10 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 
 	};
 
-	function getIsPlayingValue() {
-		var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-		return !isIOSDevice;
-	}
+	// function getIsPlayingValue() {
+	// 	var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+	// 	return !isIOSDevice;
+	// }
 
 
 
@@ -281,5 +384,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	// 	var state = $scope.getPlayerState();
 	// 	console.log("state was change to " + state);
 	// }
+
+
 
 }
