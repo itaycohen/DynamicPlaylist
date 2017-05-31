@@ -48,29 +48,35 @@
 
 </head>
 
-<body>
+<body ng-cloak>
 
     <!--Toolbar-->
-    <md-toolbar class="toolbar" style="max-height:66px">
+    <md-toolbar class="toolbar">
         <h2 class="md-toolbar-tools">Jumble Music List</h2>
     </md-toolbar>
 
     <!--The app-->
-    <div class="main-view" layout="column" layout-align="start stretch">
-        <!--Player Panel-->
-        <div layout="column" layout-align="start stretch">
-            <dp-youtube-embed-directive></dp-youtube-embed-directive>
+    <!--space-between: for stretching the left part-->
+    <div class="main-view" layout="row" layout-align="start space-between" layout-xs="column" layout-sm="column">
+
+        <!--Left side-->
+
+        <div flex="40" flex-xs="100" flex-sm="100" layout="column" layout-align="start center" class="boxWithHeight" style="background : green;">
+            <!--Youtube Player Container-->
+            <!--<div flex >-->
+                <!--Youtube Player-->
+                <dp-youtube-embed-directive></dp-youtube-embed-directive>
+            <!--</div>-->
+            <!--Smart Widgets Container-->
+            <!--<div flex layout="row" layout-align="center center">-->
+                <!--Smart Widgets-->
+                <dp-genre-widget-manager></dp-genre-widget-manager>
+            <!--</div>-->
         </div>
 
-        <div layout="column" layout-align="start center">
+        <!--Right side-->
+        <div flex layout="column" layout-align="start stretch" class="boxWithHeight" style="background : red;">
 
-            <!--Control Panel-->
-            <!--Controls Bar-->
-            <!--GOES HERE-->
-            <!--Current Playing-->
-            <dp-current-playing-bar></dp-current-playing-bar>
-            <!--Smart Widgets-->
-            <dp-genre-widget-manager></dp-genre-widget-manager>
             <!--Dynamic Playlist-->
             <dp-dynamic-playlist></dp-dynamic-playlist>
         </div>
