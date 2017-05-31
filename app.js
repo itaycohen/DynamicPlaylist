@@ -20,9 +20,11 @@ var app = angular.module('dynamicPlaylistApp', [
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
 
+    //TODELETE
     $rootScope.rawSongsList = dpSongsListLoaderService.getSongsList();
 
     dpSongsListLogic.initCalcSongsList();
+
 
 
     console.log("runner");
@@ -34,12 +36,11 @@ app.config(function ($mdThemingProvider) {
         .accentPalette('orange');
 });
 
-
 app.controller('appController', function ($mdMedia, $scope) {
-
-    $scope.getMainViewClass = function () {
+        $scope.getMainViewClass = function () {
         if (!$mdMedia('max-width: 959px')) { //big view
             return "main-view-big";
         }
     };
 });
+
