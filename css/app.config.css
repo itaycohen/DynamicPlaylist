@@ -3,11 +3,12 @@ body {
   background: #1a1829; }
   body .toolbar {
     background: #690505; }
-  body .main-view {
-    height: calc(100% - 60px); }
-    body .main-view .boxWithHeight {
-      box-sizing: border-box;
-      height: 100%; }
+  body .main-view .boxWithHeight {
+    box-sizing: border-box; }
+  body .main-view .widget-manager-container {
+    overflow-y: auto; }
+  body .main-view-big {
+    height: calc(100% - 64px); }
 
 .youtube-embed-container {
   background: #615e79;
@@ -41,8 +42,15 @@ body {
   max-width: 450px; }
 
 .slider-container {
-  width: 400px; }
+  width: 400px;
+  height: 60px; }
   .slider-container .md-track {
     background: rgba(247, 223, 193, 0.64); }
   .slider-container .md-track-fill {
     background: #ffab40; }
+
+.playlist {
+  height: 100%; }
+
+.container-with-overflow-y {
+  overflow-y: auto; }
