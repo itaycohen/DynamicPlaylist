@@ -38,13 +38,8 @@ app.config(function ($mdThemingProvider) {
 app.controller('appController', function ($mdMedia, $scope) {
 
     $scope.getMainViewClass = function () {
-        if ($mdMedia('max-width: 959px')) { //small view
-            if ($mdMedia('portrait')) { // portrait
-                return "main-view-small-portrait";
-            } else { //landscape
-                return "main-view-small-landscape";
-            }
+        if (!$mdMedia('max-width: 959px')) { //big view
+            return "main-view-big";
         }
-        return "main-view-big";
     };
 });

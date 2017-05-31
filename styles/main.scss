@@ -10,30 +10,30 @@ body {
     .main-view {
         .boxWithHeight {
             box-sizing: border-box;
-            height: 100%;
         }
 
         .widget-manager-container {
-            overflow-y: auto;
+            //overflow-y: auto;
         }
     }
 
+    // CAN BE DELETED - ONLY FOR REF
     // default toolbar height is 64px
     .main-view-big {
-        height: calc(100% - 64px);
+       height: calc(100% - 64px);
     }
 
     // toolbar height is 56px
     // in @media (max-width: 959px) and (min-width: 0) and (orientation: portrait) {
 
     .main-view-small-portrait {
-        height: calc(100% - 56px);
+    //    height: calc(100% - 56px);
     }
 
     // toolbar height is 48px
     // in @media (min-width: 0) and (max-width:959px) and (orientation:landscape)
     .main-view-small-landscape {
-        height: calc(100% - 48px);
+        // height: calc(100% - 48px);
     }
 
 
