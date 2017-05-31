@@ -12,17 +12,18 @@ function dpDynamicPlaylist() {
     return directive;
 }
 
-dpDynamicPlaylistController.$inject = ["$scope", "$mdMedia", "dpSongsListLogic"];
-function dpDynamicPlaylistController($scope, $mdMedia, dpSongsListLogic) {
+dpDynamicPlaylistController.$inject = ["$rootScope", "$mdMedia", "dpSongsListLogic"];
+function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
 
-    $scope.logicService = dpSongsListLogic;
+
+    $rootScope.logicService = dpSongsListLogic;
 
     // workaround - can't hook on ng reapeat 
-    $scope.songsIndexesList = dpSongsListLogic.getSongsIndexesList();
+    $rootScope.songsIndexesList = dpSongsListLogic.getSongsIndexesList();
 
-    $scope.alreadyPlayedSongsIndexesListFull = dpSongsListLogic.getAlreadyPlayedSongsIndexesListFull();
+    $rootScope.alreadyPlayedSongsIndexesListFull = dpSongsListLogic.getAlreadyPlayedSongsIndexesListFull();
 
-    $scope.getPlaylistContainerClass = function () {
+    $rootScope.getPlaylistContainerClass = function () {
         if ($mdMedia('min-width: 960px')) { 
             //big view - row layout (not small as in mobile - row)
             // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)

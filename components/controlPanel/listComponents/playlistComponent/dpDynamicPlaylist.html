@@ -1,16 +1,14 @@
 <div ng-class="getPlaylistContainerClass()" class="playlist" flex layout="column" layout-padding>
     <h4> Next Songs To Be Played </h4>
-    <div ng-repeat="songIndex in songsIndexesList | limitTo:35">
+    <div ng-repeat="songIndex in songsIndexesList | limitTo:7">
         <div>
             {{$index + 1}}. {{logicService.getSongArtistAndNameByIndex(songIndex)}}
             <br>
         </div>
     </div>
 
-
-
     <h4> Already Played Songs </h4>
-    <div ng-repeat="songIndex in alreadyPlayedSongsIndexesListFull track by $index | limitTo:10" ng-if="$index < alreadyPlayedSongsIndexesListFull.length - 1">
+    <div ng-repeat="songIndex in alreadyPlayedSongsIndexesListFull | limitTo:5 track by $index" ng-if="$index < alreadyPlayedSongsIndexesListFull.length - 1">
         <div>
             {{$index + 1}}. {{logicService.getSongArtistAndNameByIndex(songIndex)}}
             <br>
