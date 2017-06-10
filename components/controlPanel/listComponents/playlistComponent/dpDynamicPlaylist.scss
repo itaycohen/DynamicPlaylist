@@ -1,6 +1,79 @@
 .playlist {
     height : 100%;
     background: #2d1416;
+
+    .playlist-title {
+        padding-left: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        color: #c5b8ba;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .song-item {
+        // color: #333333;
+        // font-family: Century Gothic, sans-serif;
+         
+        font-family: Verdana, Geneva, sans-serif;
+
+        .song-number {
+            opacity: 0.8;
+            font-size: 28px;
+            display: inline;   
+             font-style: italic;
+        }
+
+        .full-song-name {
+            font-size: 20px;
+            display: inline;   
+            
+            .song-name {
+                display: inline;  
+                font-weight: bold;
+            }
+
+            .song-by {
+                font-size: 19px;
+                display: inline;  
+                font-style: italic;
+            }
+
+            .song-by-desktop {
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+
+            .artist-name {
+                display: inline;  
+
+            }
+        }
+    }
+
+    .item-green {
+        background: #9e9193;
+
+    }
+
+    .item-red {
+        background: #635557;
+
+    }
+    
+    .hover-icon {
+        display: none;
+    }
+
+    .hover-item:hover {
+            .hover-icon {
+            display : block;
+        }
+    }
+
+
 }
 
 .container-with-overflow-y {

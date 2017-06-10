@@ -31,4 +31,17 @@ function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
         }
     };
 
+    $rootScope.getItemClass = function(index) {
+        if (index % 2 === 0 ) {
+            return "item-green";
+        }
+        return "item-red";
+    };
+
+    $rootScope.getDesktopClass = function() {
+        if ($mdMedia('min-width: 960px')) { 
+            return "song-by-desktop";
+        }
+    };
+
 }
