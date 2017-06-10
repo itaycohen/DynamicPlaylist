@@ -1,17 +1,31 @@
-<div ng-class="getPlaylistContainerClass()" class="playlist" flex layout="column" layout-padding>
-    <h4> Next Songs To Be Played </h4>
-    <div ng-repeat="songIndex in songsIndexesList | limitTo:7">
-        <div>
-            {{$index + 1}}. {{logicService.getSongArtistAndNameByIndex(songIndex)}}
-            <br>
-        </div>
+<div ng-class="getPlaylistContainerClass()" class="playlist" flex layout="column">
+    <div class="playlist-title"> Up Next </div>
+    <div ng-repeat="songIndex in songsIndexesList | limitTo:12">
+
+        <md-list-item ng-class=getItemClass($index) class="md-2-line hover-item">
+            <div class="md-list-item-text" layout="column">
+                <div class="song-item">
+                    <div class="song-number">
+                        {{$index + 1}}
+                    </div>
+                    <div class="full-song-name">
+                        <div class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</div>
+                        <div class="song-by" ng-class="getDesktopClass()">by</div>
+                        <div class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</div>
+                    </div>
+                </div>
+            </div>
+            <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon">
+        </md-list-item>
+
+
     </div>
 
-    <h4> Already Played Songs </h4>
+    <!--<h4> Already Played Songs </h4>
     <div ng-repeat="songIndex in alreadyPlayedSongsIndexesListFull | limitTo:5 track by $index" ng-if="$index < alreadyPlayedSongsIndexesListFull.length - 1">
         <div>
             {{$index + 1}}. {{logicService.getSongArtistAndNameByIndex(songIndex)}}
             <br>
         </div>
-    </div>
+    </div>-->
 </div>

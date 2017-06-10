@@ -53,6 +53,44 @@ body {
 .playlist {
   height: 100%;
   background: #2d1416; }
+  .playlist .playlist-title {
+    padding-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #c5b8ba;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; }
+  .playlist .song-item {
+    font-family: Verdana, Geneva, sans-serif; }
+    .playlist .song-item .song-number {
+      opacity: 0.8;
+      font-size: 28px;
+      display: inline;
+      font-style: italic; }
+    .playlist .song-item .full-song-name {
+      font-size: 20px;
+      display: inline; }
+      .playlist .song-item .full-song-name .song-name {
+        display: inline;
+        font-weight: bold; }
+      .playlist .song-item .full-song-name .song-by {
+        font-size: 19px;
+        display: inline;
+        font-style: italic; }
+      .playlist .song-item .full-song-name .song-by-desktop {
+        padding-left: 2px;
+        padding-right: 2px; }
+      .playlist .song-item .full-song-name .artist-name {
+        display: inline; }
+  .playlist .item-green {
+    background: #9e9193; }
+  .playlist .item-red {
+    background: #635557; }
+  .playlist .hover-icon {
+    display: none; }
+  .playlist .hover-item:hover .hover-icon {
+    display: block; }
 
 .container-with-overflow-y {
   overflow-y: auto; }
