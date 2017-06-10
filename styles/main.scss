@@ -8,12 +8,13 @@ body {
 
 
     .main-view {
+        background: #1a1829;
+
         .boxWithHeight {
             box-sizing: border-box;
         }
 
         .widget-manager-container {
-            background: #1a1829;
             overflow-y: auto;
         }
     }

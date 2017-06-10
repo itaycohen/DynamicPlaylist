@@ -3,11 +3,12 @@ body {
   background: #1a1829; }
   body .toolbar {
     background: #690505; }
-  body .main-view .boxWithHeight {
-    box-sizing: border-box; }
-  body .main-view .widget-manager-container {
-    background: #1a1829;
-    overflow-y: auto; }
+  body .main-view {
+    background: #1a1829; }
+    body .main-view .boxWithHeight {
+      box-sizing: border-box; }
+    body .main-view .widget-manager-container {
+      overflow-y: auto; }
   body .main-view-big {
     height: calc(100% - 64px); }
 
