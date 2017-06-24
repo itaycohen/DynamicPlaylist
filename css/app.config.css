@@ -1,6 +1,10 @@
 body {
   color: white;
   background: #1a1829; }
+  body md-toolbar {
+    min-height: 56px; }
+    body md-toolbar .md-toolbar-tools {
+      height: 56px; }
   body .toolbar {
     background: #690505; }
   body .main-view {
@@ -10,12 +14,12 @@ body {
     body .main-view .widget-manager-container {
       overflow-y: auto; }
   body .main-view-big {
-    height: calc(100% - 64px); }
+    height: calc(100% - 56px); }
 
 .youtube-embed-container {
   background: #615e79;
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 40%;
   padding-top: 30px;
   height: 0;
   overflow: hidden; }

@@ -2,6 +2,14 @@ body {
     color: white;
     background: rgb(26, 24, 41); 
 
+    md-toolbar {
+        min-height:56px;
+
+        .md-toolbar-tools {
+            height: 56px;
+        }
+    }
+
     .toolbar {
         background: #690505;
     }
@@ -20,9 +28,9 @@ body {
     }
 
     // CAN BE DELETED - ONLY FOR REF
-    // default toolbar height is 64px
+    // default toolbar height is 56
     .main-view-big {
-       height: calc(100% - 64px);
+       height: calc(100% - 56px);
     }
 
     // toolbar height is 56px
