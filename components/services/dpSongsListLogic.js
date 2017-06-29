@@ -9,22 +9,30 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var FAKE_GENRE_WEIGHT = 2.5;
     var WEIGHT_DISTANCE_FACTOR = 1.9;
     var isFirstCycle;
+    // var defaultGenres = ['House', 'Pop', 'R&B', 'Indie-Rock'];
+    var defaultGenres = ['House', 'Pop'];
+    var allGenres = ['House', 'Pop', 'R&B', 'Indie-Rock', 'Soul'];
 
     var service = {
         initCalcSongsList: initCalcSongsList,
         // TODO - think what to do with these 3
         getRawSongsList: getRawSongsList,
         getSongsIndexesList: getSongsIndexesList,
+        getDefaultSelectedGenres: getDefaultSelectedGenres,
+        getHiddenGenres : getHiddenGenres,
+        geAllGenres: geAllGenres,
         getAlreadyPlayedSongsIndexesListFull: getAlreadyPlayedSongsIndexesListFull,
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
+        getGenreLabel: getGenreLabel,
+
 
         // move
         getSongArtistAndNameByIndex: getSongArtistAndNameByIndex,
-        getSongNameByIndex : getSongNameByIndex,
-        getSongArtistByIndex : getSongArtistByIndex
+        getSongNameByIndex: getSongNameByIndex,
+        getSongArtistByIndex: getSongArtistByIndex
 
     };
     return service;
@@ -62,6 +70,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 	// 		Will be updated after each song is played (and not in the end of the playing).
     */
 
+
+
+
     /**
      * Init the calculation of songs list methods
      */
@@ -70,6 +81,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // init genres weights list
         initGenreWeightsDistancesList();
         initAlreadyPlayedSongsIndexes();
+
+        //update the list according to the existing genre widgets
+        updateGenreWeightsDistancesListByCurrentWidget();
+        // PLACEHOLDER - this method should go over all the current widget (selectedGenre) and init the hidden ones to zero
+        //TODO - consider to moive to a new service widget genres service
+
         // init current song index
         initCurrentSongIndex();
         isFirstCycle = true;
@@ -82,6 +99,17 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function getSongsIndexesList() {
         return $rootScope.songsIndexesList;
     }
+
+    function getDefaultSelectedGenres() {
+        $rootScope.selectedGenres = defaultGenres;
+        return $rootScope.selectedGenres;
+    }
+
+    function geAllGenres() {
+        return allGenres;
+    }
+
+
 
     function getAlreadyPlayedSongsIndexesListFull() {
         return $rootScope.alreadyPlayedSongsIndexesListFull;
@@ -97,7 +125,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         var lengthOfRawSongsList = $rootScope.rawSongsList.length;
         // create songListIndexes - only the indexes of the songes 
         var songsListIndexes = Array.apply(null, { length: lengthOfRawSongsList }).map(Number.call, Number);
-        dpSongsListUtils.shuffle(songsListIndexes);
+        // dpSongsListUtils.shuffle(songsListIndexes);
         $rootScope.songsIndexesList = songsListIndexes;
     }
 
@@ -245,7 +273,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     function updateGenreWeightsDistancesList(genre, newWeightValue) {
         // start of time stamp
-        var time0 = new Date();
+        // var time0 = new Date();
         //printArrayWithObjToConsole($scope.genreWeightsDistancesList);
 
         var len = $rootScope.genreWeightsDistancesList.length;
@@ -273,9 +301,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
         //$scope.$apply();
         // end of time stamp
-        var time1 = new Date();
-        var difTime = (time1 - time0) / 1000;
-        console.log("updateGenreWeightsDistancesList - duration: " + difTime);
+        // var time1 = new Date();
+        // var difTime = (time1 - time0) / 1000;
+        // console.log("updateGenreWeightsDistancesList - duration: " + difTime);
     }
 
     function getSongSpecificGenreWeightByIndex(index, genre) {
@@ -313,8 +341,62 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return songDetails.artist;
     }
 
+    function getHiddenGenres() {
+        var selectedGenres = $rootScope.selectedGenres;
+        if (angular.isUndefined(selectedGenres)) {
+            selectedGenres = getDefaultSelectedGenres();
+        }
+        var allHiddenGenres = allGenres.filter(function (el) {
+            return selectedGenres.indexOf(el) < 0;
+        });
+        return allHiddenGenres;
+    }
 
 
+    function updateGenreWeightsDistancesListByCurrentWidget() {
+        var hiddenGenres = getHiddenGenres();
+        //go over all hidden and set to zero their genre
+        for (var i = 0; i < hiddenGenres.length; i++) {
+            hiddenGenre = hiddenGenres[i];
+            updateGenreWeightsDistancesList(getGenreShortName(hiddenGenre), 0);
+        }
+    }
+
+    function getGenreLabel(genre) {
+        switch (genre) {
+            case "house":
+                return "House";
+            case "pop":
+                return "Pop";
+            case "rb":
+                return "R&B";
+            case "ir":
+                return "Indie-Rock";
+            case "soul":
+                return "Soul";
+            default:
+                return "Genre";
+
+        }
+    }
+
+        function getGenreShortName(genre) {
+        switch (genre) {
+            case "House":
+                return "house";
+            case "Pop":
+                return "pop";
+            case "R&B":
+                return "rb";
+            case "Indie-Rock":
+                return "ir";
+            case "Soul":
+                return "soul";
+            default:
+                return "Genre";
+
+        }
+    }
 
 
 }

@@ -2,8 +2,11 @@ angular
     .module('dpGenreWidgetComponent', []) // TOHELP - [] can not be deleted
     .directive("dpGenreWidget", dpGenreWidget);
 
-dpGenreWidget.$inject = ["$rootScope"];
-function dpGenreWidget($rootScope) {
+dpGenreWidget.$inject = ["$rootScope", "dpSongsListLogic"];
+
+dpGenreWidgetManager.$inject = ['dpSongsListLogic'];
+
+function dpGenreWidget($rootScope, dpSongsListLogic) {
     var directive = {
         restrict: "E",
         scope: {
@@ -20,8 +23,8 @@ function dpGenreWidget($rootScope) {
     return directive;
 }
 
-dpGenreWidgetController.$inject = ["$scope"];
-function dpGenreWidgetController($scope) {
+dpGenreWidgetController.$inject = ["$scope", "dpSongsListLogic"];
+function dpGenreWidgetController($scope, dpSongsListLogic) {
 
     // init the weight
     // TODO - save and load from chache for each user
@@ -36,21 +39,7 @@ function dpGenreWidgetController($scope) {
     };
 
     $scope.getGenreLabel = function () {
-        switch ($scope.genre) {
-            case "house":
-                return "House";
-            case "pop":
-                return "Pop";
-            case "rb":
-                return "R&B";
-            case "ir":
-                return "Indie-Rock";
-            case "soul":
-                return "Soul";
-            default:
-                return "Genre";
-
-        }
+        return dpSongsListLogic.getGenreLabel($scope.genre);
     };
 
     // TODO - Ticket 001 
