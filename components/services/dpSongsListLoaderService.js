@@ -571,18 +571,18 @@ function dpSongsListLoaderService() {
     },
     {
         index: 35,
-        id: 'GzU8KqOY8YA',
+        id: 'kJQP7kiw5Fk',
         genreWeights: {
             house: 2,
             pop: 4,
-            rb: 4,
+            rb: 1,
             ir: 0,
-            soul: 0
+            soul: 3
         },
         details:
         {
-            artist: 'Sean Paul',
-            songName: 'No Lie ft. Dua Lipa'
+            artist: 'Luis Fonsi',
+            songName: 'Despacito ft. Daddy Yankee'
         }
     },
     {

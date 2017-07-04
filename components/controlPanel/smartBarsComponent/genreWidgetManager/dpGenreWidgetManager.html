@@ -1,9 +1,32 @@
 <!--TODO Ticket 001-->
 <!--House:      <dp-genre-widget change-handler="updateSongIndexesList(obj.widgetObject)" genre="house"></dp-genre-widget>-->
-<div class="genre-widget-manager" layout="column" layout-align="start stretch">
-    <dp-genre-widget genre="house"></dp-genre-widget>
-    <dp-genre-widget genre="pop"></dp-genre-widget>
-    <dp-genre-widget genre="rb"></dp-genre-widget>
-    <dp-genre-widget genre="ir"></dp-genre-widget>
-    <dp-genre-widget genre="soul"></dp-genre-widget>
+
+<!--<div ng-controller="dpGenreWidgetManagerController" class="md-padding" ng-cloak>-->
+<div class="md-padding" ng-cloak>
+
+    <!--<h1 class="md-title">Pick a genre below</h1>-->
+    <div class="genre-selector-container" layout="column" layout-align="center center">
+        <!--<md-input-container>-->
+        <label>Pick a genre below</label>
+        <md-select class="genre-selector-wrapper" data-md-container-class="selectGenreSelectorHeader" ng-model="selectedGenres" md-on-close="clearSearchTerm()"
+            ng-change="onChange()" multiple>
+
+            <md-select-header class="genre-selector-header">
+                <input ng-model="searchTerm" type="search" placeholder="Search for a genre.." class="demo-header-searchbox md-text">
+            </md-select-header>
+            <md-optgroup label="allGenres">
+                <md-option ng-value="genre" ng-repeat="genre in allGenres | filter:searchTerm">{{genre}}</md-option>
+            </md-optgroup>
+        </md-select>
+        <!--</md-input-container>-->
+    </div>
+
+    <div class="genre-widget-area" layout="column" layout-align="start stretch">
+        <dp-genre-widget genre="house" ng-if="showHouse"></dp-genre-widget>
+        <dp-genre-widget genre="pop" ng-if="showPop"></dp-genre-widget>
+        <dp-genre-widget genre="rb" ng-if="showRb"></dp-genre-widget>
+        <dp-genre-widget genre="ir" ng-if="showIr"></dp-genre-widget>
+        <dp-genre-widget genre="soul" ng-if="showSoul"></dp-genre-widget>
+    </div>
+
 </div>
