@@ -9,8 +9,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var FAKE_GENRE_WEIGHT = 2.5;
     var WEIGHT_DISTANCE_FACTOR = 1.9;
     var isFirstCycle;
-    // var defaultGenres = ['House', 'Pop', 'R&B', 'Indie-Rock'];
-    var defaultGenres = ['House', 'Pop'];
+    var defaultGenres = ['House', 'Pop', 'R&B'];
     var allGenres = ['House', 'Pop', 'R&B', 'Indie-Rock', 'Soul'];
 
     var service = {
