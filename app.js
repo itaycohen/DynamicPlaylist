@@ -32,7 +32,7 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
 
 app.config(function ($mdThemingProvider) {
     $mdThemingProvider.theme('default')
-        .primaryPalette('deep-purple')
+        .primaryPalette('orange')
         .accentPalette('orange');
 });
 

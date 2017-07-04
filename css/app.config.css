@@ -4,11 +4,16 @@ body {
   body md-toolbar {
     min-height: 56px; }
     body md-toolbar .md-toolbar-tools {
-      height: 56px; }
+      height: 56px;
+      color: white;
+      opacity: 0.92;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: bold; }
   body .toolbar {
     background: #690505; }
   body .main-view {
-    background: deepskyblue; }
+    background: #1a1829; }
     body .main-view .boxWithHeight {
       box-sizing: border-box; }
     body .main-view .widget-manager-container {
@@ -43,17 +48,31 @@ body {
       margin-top: 2px;
       margin-bottom: 4px; }
 
-.selectdemoSelectHeader {
-  /* Please note: All these selectors are only applied to children of elements with the 'selectdemoSelectHeader' class */ }
+.genre-selector-container {
+  padding-top: 5px; }
+  .genre-selector-container label {
+    color: #dacdcf;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold; }
+  .genre-selector-container md-select {
+    margin: 15px 0 15px 0; }
+  .genre-selector-container .genre-selector-wrapper .md-select-value {
+    color: #ffab40; }
+  .genre-selector-container md-select.md-default-theme:not([disabled]):focus .md-select-value, .genre-selector-container md-select:not([disabled]):focus .md-select-value {
+    color: #ffab40; }
 
-.selectdemoSelectHeader .demo-header-searchbox {
+.selectGenreSelectorHeader {
+  /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */ }
+
+.selectGenreSelectorHeader .demo-header-searchbox {
   border: none;
   outline: none;
   height: 100%;
   width: 100%;
   padding: 0; }
 
-.selectdemoSelectHeader .demo-select-header {
+.selectGenreSelectorHeader .genre-selector-header {
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
   padding-left: 10.667px;
   height: 48px;
@@ -63,11 +82,10 @@ body {
   align-items: center;
   width: auto; }
 
-.selectdemoSelectHeader md-content._md {
+.selectGenreSelectorHeader md-content._md {
   max-height: 240px; }
 
-.genre-widget-manager {
-  padding: 10px;
+.genre-widget-area {
   max-width: 450px; }
 
 .slider-container {

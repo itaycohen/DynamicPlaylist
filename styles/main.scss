@@ -7,6 +7,11 @@ body {
 
         .md-toolbar-tools {
             height: 56px;
+            color: white;
+            opacity: 0.92;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: bold;
         }
     }
 
@@ -16,8 +21,8 @@ body {
 
 
     .main-view {
-        // background: #1a1829;
-        background: deepskyblue;
+        background: #1a1829;
+        // background: deepskyblue;
 
         .boxWithHeight {
             box-sizing: border-box;

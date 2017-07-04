@@ -16,7 +16,7 @@ function dpGenreWidgetManager(dpSongsListLogic) {
 dpGenreWidgetManagerController.$inject = ["$scope", "$element", "dpSongsListLogic"];
 function dpGenreWidgetManagerController($scope, $element, dpSongsListLogic) {
 
-    $scope.selectedGenres = dpSongsListLogic.getDefaultSelectedGenres();
+    $scope.selectedGenres = dpSongsListLogic.getSelectedGenres();
     $scope.allGenres = dpSongsListLogic.geAllGenres();
 
     $scope.initAllGenresShowToFalse = function () {
@@ -51,25 +51,25 @@ function dpGenreWidgetManagerController($scope, $element, dpSongsListLogic) {
     }
 
 
-    $scope.updateShownGenres = function () {
+    $scope.updateShownAndHiddenGenres = function () {
         //set selected genres to be shown
         for (var i = 0; i < $scope.selectedGenres.length; i++) {
             var genreToShow = $scope.selectedGenres[i];
             setGenreAttVisibilty(genreToShow, true);
         }
 
-        // var hiddenGenres = dpSongsListLogic.getHiddenGenres();
+         var hiddenGenres = dpSongsListLogic.getHiddenGenres();
 
-        // //set hidden genres to be hide
-        // for (var j = 0; j < hiddenGenres.length; j++) {
-        //     var genreToHide = hiddenGenres[j];
-        //     setGenreAttVisibilty(genreToHide, false);
-        // }
+        //set hidden genres to be hide
+        for (var j = 0; j < hiddenGenres.length; j++) {
+            var genreToHide = hiddenGenres[j];
+            setGenreAttVisibilty(genreToHide, false);
+        }
 
     };
 
     $scope.initAllGenresShowToFalse();
-    $scope.updateShownGenres();
+    $scope.updateShownAndHiddenGenres();
 
     // TODO - Ticket 001 
     // $scope.updateSongIndexesList = function (widgetObject) {
@@ -84,7 +84,9 @@ function dpGenreWidgetManagerController($scope, $element, dpSongsListLogic) {
 
     // when changing the 
     $scope.onChange = function () {
-        $scope.updateShownGenres();
+        dpSongsListLogic.setSelectedGenres($scope.selectedGenres);
+        $scope.updateShownAndHiddenGenres();
+        dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
     };
 
     // The md-select directive eats keydown events for some quick select

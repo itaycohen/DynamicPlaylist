@@ -19,14 +19,18 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         getRawSongsList: getRawSongsList,
         getSongsIndexesList: getSongsIndexesList,
         getDefaultSelectedGenres: getDefaultSelectedGenres,
-        getHiddenGenres : getHiddenGenres,
+        getSelectedGenres: getSelectedGenres,
+        setSelectedGenres: setSelectedGenres,
+        getHiddenGenres: getHiddenGenres,
         geAllGenres: geAllGenres,
         getAlreadyPlayedSongsIndexesListFull: getAlreadyPlayedSongsIndexesListFull,
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
+        updateGenreWeightsDistancesListByCurrentWidget : updateGenreWeightsDistancesListByCurrentWidget,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
         getGenreLabel: getGenreLabel,
+        updateSongsIndexesList: updateSongsIndexesList,
 
 
         // move
@@ -86,6 +90,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         updateGenreWeightsDistancesListByCurrentWidget();
         // PLACEHOLDER - this method should go over all the current widget (selectedGenre) and init the hidden ones to zero
         //TODO - consider to moive to a new service widget genres service
+        $rootScope.selectedGenres = getDefaultSelectedGenres();
 
         // init current song index
         initCurrentSongIndex();
@@ -99,16 +104,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function getSongsIndexesList() {
         return $rootScope.songsIndexesList;
     }
-
-    function getDefaultSelectedGenres() {
-        $rootScope.selectedGenres = defaultGenres;
-        return $rootScope.selectedGenres;
-    }
-
-    function geAllGenres() {
-        return allGenres;
-    }
-
 
 
     function getAlreadyPlayedSongsIndexesListFull() {
@@ -341,6 +336,30 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return songDetails.artist;
     }
 
+    function getDefaultSelectedGenres() {
+        $rootScope.selectedGenres = defaultGenres;
+        return $rootScope.selectedGenres;
+    }
+
+    function getSelectedGenres() {
+        if (angular.isUndefined($rootScope.selectedGenres)) {
+            return defaultGenres;
+        }
+        return $rootScope.selectedGenres;
+    }
+
+    function setSelectedGenres(updatedSelectedGenres) {
+         $rootScope.selectedGenres = updatedSelectedGenres;
+    }
+
+    
+
+
+
+    function geAllGenres() {
+        return allGenres;
+    }
+
     function getHiddenGenres() {
         var selectedGenres = $rootScope.selectedGenres;
         if (angular.isUndefined(selectedGenres)) {
@@ -354,10 +373,16 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
 
     function updateGenreWeightsDistancesListByCurrentWidget() {
+        var selectedGenres = getSelectedGenres();
+        //go over all hidden and set to zero their genre
+        for (var i = 0; i < selectedGenres.length; i++) {
+            selectedGenre = selectedGenres[i];
+            updateGenreWeightsDistancesList(getGenreShortName(selectedGenre), 3);
+        }
         var hiddenGenres = getHiddenGenres();
         //go over all hidden and set to zero their genre
-        for (var i = 0; i < hiddenGenres.length; i++) {
-            hiddenGenre = hiddenGenres[i];
+        for (var j = 0; j < hiddenGenres.length; j++) {
+            hiddenGenre = hiddenGenres[j];
             updateGenreWeightsDistancesList(getGenreShortName(hiddenGenre), 0);
         }
     }
@@ -380,7 +405,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         }
     }
 
-        function getGenreShortName(genre) {
+    function getGenreShortName(genre) {
         switch (genre) {
             case "House":
                 return "house";
