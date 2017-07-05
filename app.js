@@ -12,7 +12,6 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpYoutubeEmbedComponent',
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
-    'dpCurrentPlayingBar',
     'dpDynamicPlaylist'
 ]); // TOHELP - these names should be equal to
 //     the names in  angular.module('dpGenreWidgetComponent', [])
