@@ -40,7 +40,8 @@ body {
   .current-playing-bar .control-song-button {
     min-width: 26px; }
   .current-playing-bar .song-fullname-container {
-    white-space: normal; }
+    white-space: normal;
+    padding-left: 5px; }
     .current-playing-bar .song-fullname-container .song-name-container {
       margin-top: 4px;
       margin-bottom: 2px; }

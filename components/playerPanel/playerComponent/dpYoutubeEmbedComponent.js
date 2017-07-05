@@ -87,9 +87,9 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 
 
 
-dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
+dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', "$mdMedia", '$window', '$http'];
 
-function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $window, $http) {
+function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMedia, $window, $http) {
 	var directive = {
 		restrict: "E",
 		templateUrl: "components/playerPanel/playerComponent/dpYoutubeEmbedTemplate.html",
@@ -117,28 +117,28 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			console.log("onYouTubePlayerAPIReady loading, time: " + time1);
 			console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
 			// $window.onYouTubePlayerAPIReady = function () {
-				console.log("$window.onYouTubePlayerAPIReady");
-				$scope.player = new YT.Player('player', {
-					// width: $scope.getPlayerWidth(),
-					// height: $scope.getPlayerHeight(),
-					// width: "100%",
-					// height: "100%",
-					// TODO - consider handle list with Ids
-					// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
-					playerVars: {
-						'autoplay': 0,
-						'controls': 1,
-						'showinfo': 1
-					},
-					videoId: getFirstSongId(),
-					events: {
-						'onReady': onPlayerReadyCB,
-						'onStateChange': onPlayerStateChangeCB,
-						'onPlaybackQualityChange': onPlaybackQualityChangeCB,
-						'onPlaybackRateChange': onPlaybackRateChangeCB,
-						'onError': onErrorCB
-					}
-				});
+			console.log("$window.onYouTubePlayerAPIReady");
+			$scope.player = new YT.Player('player', {
+				// width: $scope.getPlayerWidth(),
+				// height: $scope.getPlayerHeight(),
+				// width: "100%",
+				// height: "100%",
+				// TODO - consider handle list with Ids
+				// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
+				playerVars: {
+					'autoplay': 0,
+					'controls': 1,
+					'showinfo': 1
+				},
+				videoId: getFirstSongId(),
+				events: {
+					'onReady': onPlayerReadyCB,
+					'onStateChange': onPlayerStateChangeCB,
+					'onPlaybackQualityChange': onPlaybackQualityChangeCB,
+					'onPlaybackRateChange': onPlaybackRateChangeCB,
+					'onError': onErrorCB
+				}
+			});
 
 
 
@@ -248,14 +248,14 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 } // dpYoutubeEmbedDirective
 
 
-dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic"];
-function dpYoutubeEmbedController($scope, dpSongsListLogic) {
+dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic", "$mdMedia"];
+function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 
 	var playerScreenRatio = 0.52;
 	var playerwidthReducerFactor = 0.5; // factor that decide how wide the player width can be
 	var MINIMUM_WIDTH_OF_SCREEN = 768;
 
-	var maxPlayerWidth = 800; 
+	var maxPlayerWidth = 800;
 
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
@@ -392,6 +392,11 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic) {
 	// 	var state = $scope.getPlayerState();
 	// 	console.log("state was change to " + state);
 	// }
+
+	$scope.isSmartPhoneLayout = function () {
+		// we want to hide the fake dic (25%) when we are in mobile so the song name will not wrap 
+		return $mdMedia('max-width: 320px');
+	};
 
 
 

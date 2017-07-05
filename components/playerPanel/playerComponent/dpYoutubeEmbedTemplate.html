@@ -15,14 +15,14 @@
                 <md-icon md-svg-icon="media/icons/ic_skip_next_white_36px.svg"></md-icon>
             </md-button>
         </div>
-        <div flex="grow" layout="row" layout-align="center center">
+        <div flex="75" layout="row" layout-align="center center">
             <div flex="grow" class="song-fullname-container" layout="column" layout-align="start center">
                 <!--need for showing sing and artist in 2 lins-->
                 <h4 class="song-name-container">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h4>
                 <h5 class="artist-name-container">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</h5>
             </div>
         </div>
-        <div flex="25">
+        <div ng-hide="isSmartPhoneLayout()" flex="25">
         </div>
     </div>
 <!--</div>-->
