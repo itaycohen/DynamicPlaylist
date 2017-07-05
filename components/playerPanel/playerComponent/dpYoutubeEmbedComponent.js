@@ -395,7 +395,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 
 	$scope.isSmartPhoneLayout = function () {
 		// we want to hide the fake dic (25%) when we are in mobile so the song name will not wrap 
-		return $mdMedia('max-width: 320px');
+		return $mdMedia('max-width: 375px');
 	};
 
 
