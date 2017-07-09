@@ -169,22 +169,22 @@ function dpSongsListLoaderService() {
             songName: 'Hey Brother'
         }
     },
-    {
-        index: 10,
-        id: 'UtF6Jej8yb4',
-        genreWeights: {
-            house: 5,
-            pop: 4,
-            rb: 0,
-            ir: 0,
-            soul: 1
-        },
-        details:
-        {
-            artist: 'Avicii',
-            songName: 'The Nights'
-        }
-    },
+    // {
+    //     index: 10,
+    //     id: 'UtF6Jej8yb4',
+    //     genreWeights: {
+    //         house: 5,
+    //         pop: 4,
+    //         rb: 0,
+    //         ir: 0,
+    //         soul: 1
+    //     },
+    //     details:
+    //     {
+    //         artist: 'Avicii',
+    //         songName: 'The Nights'
+    //     }
+    // },
     {
         index: 11,
         id: 'papuvlVeZg8',
@@ -313,22 +313,22 @@ function dpSongsListLoaderService() {
             songName: 'Paris Lyric'
         }
     },
-    {
-        index: 19,
-        id: 'UtF6Jej8yb4',
-        genreWeights: {
-            house: 5,
-            pop: 4,
-            rb: 0,
-            ir: 0,
-            soul: 1
-        },
-        details:
-        {
-            artist: 'Avicii',
-            songName: 'The Nights'
-        }
-    },
+    // {
+    //     index: 19,
+    //     id: 'UtF6Jej8yb4',
+    //     genreWeights: {
+    //         house: 5,
+    //         pop: 4,
+    //         rb: 0,
+    //         ir: 0,
+    //         soul: 1
+    //     },
+    //     details:
+    //     {
+    //         artist: 'Avicii',
+    //         songName: 'The Nights'
+    //     }
+    // },
     {
         index: 20,
         id: '7Qp5vcuMIlk',
