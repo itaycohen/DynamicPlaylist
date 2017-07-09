@@ -50,18 +50,31 @@ body {
       margin-bottom: 4px; }
 
 .genre-selector-container {
-  padding-top: 5px; }
+  padding-top: 3px; }
   .genre-selector-container label {
-    color: #dacdcf;
+    color: #c9d6ff;
     font-size: 21px;
     font-style: italic;
     font-weight: bold; }
   .genre-selector-container md-select {
-    margin: 15px 0 15px 0; }
-  .genre-selector-container .genre-selector-wrapper .md-select-value {
-    color: #ffab40; }
+    margin: 10px 0 8px 0; }
+  .genre-selector-container .genre-selector-wrapper .md-select-value span {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    color: #1a1829; }
+  .genre-selector-container .genre-selector-wrapper .md-select-value .md-text {
+    border: 1px solid transparent;
+    border-radius: 11px;
+    padding: 3px 5px 3px 5px;
+    color: #1a1829;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2); }
+  .genre-selector-container .genre-selector-wrapper .md-select-value .md-select-icon {
+    margin-left: 0;
+    color: #c9d6ff; }
   .genre-selector-container md-select.md-default-theme:not([disabled]):focus .md-select-value, .genre-selector-container md-select:not([disabled]):focus .md-select-value {
     color: #ffab40; }
+  .genre-selector-container md-select:not([disabled]):focus .md-select-value {
+    border-bottom: none; }
 
 .selectGenreSelectorHeader {
   /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */ }
