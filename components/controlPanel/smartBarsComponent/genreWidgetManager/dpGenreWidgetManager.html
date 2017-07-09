@@ -9,7 +9,7 @@
         <!--<md-input-container>-->
         <label>Pick a genre below</label>
         <md-select class="genre-selector-wrapper" data-md-container-class="selectGenreSelectorHeader" ng-model="selectedGenres" md-on-close="clearSearchTerm()"
-            ng-change="onChange()" multiple>
+            ng-change="onChange()" aria-label="Pick a genre below" multiple>
 
             <md-select-header class="genre-selector-header">
                 <input ng-model="searchTerm" type="search" placeholder="Search for a genre.." class="demo-header-searchbox md-text">

@@ -17,8 +17,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	function onScriptLoad() {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
-		console.log("service was loaded, time: " + time0);
-		console.log("service was loaded, mili: " + mili0);
+		// console.log("service was loaded, time: " + time0);
+		// console.log("service was loaded, mili: " + mili0);
 		defer.resolve(window.getYoutubeEmbed);
 	}
 
@@ -30,8 +30,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	scriptTag.onreadystatechange = function () {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
-		console.log("onreadystatechange was loaded, time: " + time0);
-		console.log("onreadystatechange was loaded, mili: " + mili0);
+		// console.log("onreadystatechange was loaded, time: " + time0);
+		// console.log("onreadystatechange was loaded, mili: " + mili0);
 		if (this.readyState == 'complete')
 			onScriptLoad();
 	};
@@ -40,8 +40,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 
 	var time0 = new Date();
 	var mili0 = time0.getMilliseconds();
-	console.log("appendChild was loaded, time: " + time0);
-	console.log("appendChild was loaded, mili: " + mili0);
+	// console.log("appendChild was loaded, time: " + time0);
+	// console.log("appendChild was loaded, mili: " + mili0);
 
 	s.appendChild(scriptTag);
 
@@ -55,7 +55,7 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
     if (typeof YT === "undefined") {
         // ...grab on to global callback, in case it's eventually loaded
         $window.onYouTubeIframeAPIReady = applyServiceIsReady;
-        console.log('Unable to find YouTube iframe library on this page.');
+        // console.log('Unable to find YouTube iframe library on this page.');
     } else if (YT.loaded) {
         isReady = true;
     } else {
@@ -65,8 +65,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	function getYoutubeEmbed() {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
-		console.log("promise was loaded, time: " + time0);
-		console.log("promise was loaded, mili: " + mili0);
+		// console.log("promise was loaded, time: " + time0);
+		// console.log("promise was loaded, mili: " + mili0);
 
 		return defer.promise;
 	}
@@ -114,10 +114,10 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 		function loadYoutubeEmbed() {
 			var time1 = new Date();
 			var mili = time1.getMilliseconds();
-			console.log("onYouTubePlayerAPIReady loading, time: " + time1);
-			console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
+			// console.log("onYouTubePlayerAPIReady loading, time: " + time1);
+			// console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
 			// $window.onYouTubePlayerAPIReady = function () {
-			console.log("$window.onYouTubePlayerAPIReady");
+			// console.log("$window.onYouTubePlayerAPIReady");
 			$scope.player = new YT.Player('player', {
 				// width: $scope.getPlayerWidth(),
 				// height: $scope.getPlayerHeight(),
@@ -153,7 +153,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 
 		function onPlayerReadyCB(event) {
 			//TODO - aff name of directive
-			console.log("Youtube Player Event - Player is ready");
+			// console.log("Youtube Player Event - Player is ready");
 			// $scope.isPlayingState = true;
 			//$scope.isPlaying = true;
 			//event.target.playVideo();
@@ -173,13 +173,13 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 					handlePlayerEnded();
 					break;
 				case YT.PlayerState.UNSTARTED:
-					console.log('unstarted');
+					// console.log('unstarted');
 					break;
 				case YT.PlayerState.BUFFERING:
-					console.log('buffering');
+					// console.log('buffering');
 					break;
 				case YT.PlayerState.CUED:
-					console.log('video cued');
+					// console.log('video cued');
 					break;
 			}
 		}
@@ -187,19 +187,19 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 		function handlePlayerPlaying() {
 			$scope.isPlaying = true;
 			$scope.$apply();
-			console.log("Youtube Player Event - handlePlayerPlaying");
+			// console.log("Youtube Player Event - handlePlayerPlaying");
 		}
 
 		function handlePlayerPaused() {
 			$scope.isPlaying = false;
 			$scope.$apply();
 			//TODO - save time of video to session user - for recover
-			console.log("Youtube Player Event - handlePlayerPaused");
+			// console.log("Youtube Player Event - handlePlayerPaused");
 		}
 
 
 		function handlePlayerEnded() {
-			console.log("Youtube Player Event - handlePlayerEnded");
+			// console.log("Youtube Player Event - handlePlayerEnded");
 			$scope.executePlayerEndedActions(false);
 		}
 
@@ -264,13 +264,13 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 	$scope.isPlaying = false;
 
 	$scope.onPauseSongClick = function () {
-		console.log("pasue was clicked");
+		// console.log("pasue was clicked");
 		$scope.isPlaying = false;
 		$scope.player.pauseVideo();
 	};
 
 	$scope.onPlaySongClick = function () {
-		console.log("play was clicked");
+		// console.log("play was clicked");
 		$scope.isPlaying = true;
 		$scope.player.playVideo();
 	};
@@ -284,7 +284,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 	};
 
 	$scope.onNextSongClick = function () {
-		console.log("Next Song was clicked");
+		// console.log("Next Song was clicked");
 		$scope.player.stopVideo();
 		$scope.executePlayerEndedActions(true);
 

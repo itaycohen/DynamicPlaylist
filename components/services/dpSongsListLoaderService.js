@@ -646,7 +646,7 @@ function dpSongsListLoaderService() {
         details:
         {
             artist: 'The Weeknd',
-            songName: 'Starboy (official) ft. Daft Punk'
+            songName: 'Starboy ft. Daft Punk'
         }
     },
     {
@@ -872,6 +872,310 @@ function dpSongsListLoaderService() {
             artist: 'Alan Walker',
             songName: 'Faded'
         }
+    },
+    {
+        index: 54,
+        id: 'fyaI4-5849w',
+        genreWeights: {
+            house: 2,
+            pop: 3,
+            rb: 5,
+            ir: 0,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'DJ Khaled',
+            songName: 'Wild Thoughts ft. Rihanna, Bryson Tiller'
+        }
+    },
+    {
+        index: 55,
+        id: 'nfs8NYg7yQM',
+        genreWeights: {
+            house: 0,
+            pop: 5,
+            rb: 0,
+            ir: 1,
+            soul: 4
+        },
+        details:
+        {
+            artist: 'Charlie Puth',
+            songName: 'Attention'
+        }
+    },
+    {
+        index: 56,
+        id: 'ozv4q2ov3Mk',
+        genreWeights: {
+            house: 2,
+            pop: 5,
+            rb: 0,
+            ir: 1,
+            soul: 1
+        },
+        details:
+        {
+            artist: 'Calvin Harris',
+            songName: 'Feels ft. Pharrell Williams, Katy Perry, Big Sean'
+        }
+    },
+    {
+        index: 57,
+        id: 'JGwWNGJdvx8',
+        genreWeights: {
+            house: 2,
+            pop: 5,
+            rb: 0,
+            ir: 1,
+            soul: 3
+        },
+        details:
+        {
+            artist: 'Ed Sheeran',
+            songName: 'Shape of You'
+        }
+    },
+    {
+        index: 58,
+        id: 'CTFtOOh47oo',
+        genreWeights: {
+            house: 0,
+            pop: 3,
+            rb: 5,
+            ir: 0,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'French Montana',
+            songName: 'Unforgettable ft. Swae Lee'
+        }
+    },
+    {
+        index: 59,
+        id: '7wtfhZwyrcc',
+        genreWeights: {
+            house: 1,
+            pop: 3,
+            rb: 0,
+            ir: 5,
+            soul: 1
+        },
+        details:
+        {
+            artist: 'Imagine Dragons',
+            songName: 'Believer'
+        }
+    },
+    {
+        index: 60,
+        id: 'FM7MFYoylVs',
+        genreWeights: {
+            house: 1,
+            pop: 5,
+            rb: 0,
+            ir: 2,
+            soul: 3
+        },
+        details:
+        {
+            artist: 'The Chainsmokers & Coldplay',
+            songName: 'Something Just Like This'
+        }
+    },
+    {
+        index: 61,
+        id: 'weeI1G46q0o',
+        genreWeights: {
+            house: 0,
+            pop: 3,
+            rb: 5,
+            ir: 0,
+            soul: 1
+        },
+        details:
+        {
+            artist: 'DJ Khaled',
+            songName: "I'm the One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne"
+        }
+    },
+    {
+        index: 62,
+        id: 'NGLxoKOvzu4',
+        genreWeights: {
+            house: 2,
+            pop: 3,
+            rb: 5,
+            ir: 0,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'Jason Derulo',
+            songName: 'Swalla (feat. Nicki Minaj & Ty Dolla $ign)'
+        }
+    },
+    {
+        index: 63,
+        id: 'aatr_2MstrI',
+        genreWeights: {
+            house: 3.5,
+            pop: 4,
+            rb: 0,
+            ir: 0,
+            soul: 1
+        },
+        details:
+        {
+            artist: 'Clean Bandit',
+            songName: 'Symphony feat. Zara Larsson'
+        }
+    },
+    {
+        index: 64,
+        id: 'xvZqHgFz51I',
+        genreWeights: {
+            house: 0,
+            pop: 0,
+            rb: 5,
+            ir: 0,
+            soul: 1
+        },
+        details:
+        {
+            artist: 'Future',
+            songName: 'Mask Off'
+        }
+    },
+    {
+        index: 65,
+        id: 'PKB4cioGs98',
+        genreWeights: {
+            house: 4,
+            pop: 3,
+            rb: 0,
+            ir: 0,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'Jax Jones',
+            songName: "You Don't Know Me ft. RAYE"
+        }
+    },
+    {
+        index: 66,
+        id: 'Y1_VsyLAGuk',
+        genreWeights: {
+            house: 3,
+            pop: 2,
+            rb: 0,
+            ir: 2,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'Burak Yeter',
+            songName: 'Tuesday ft. Danelle Sandoval'
+        }
+    },
+    {
+        index: 67,
+        id: '9sg-A-eS6Ig',
+        genreWeights: {
+            house: 2,
+            pop: 4,
+            rb: 0,
+            ir: 0,
+            soul: 2
+        },
+        details:
+        {
+            artist: 'Enrique Iglesias',
+            songName: 'SUBEME LA RADIO ft. Descemer Bueno, Zion & Lennox'
+        }
+    },
+    {
+        index: 68,
+        id: '0yW7w8F2TVA',
+        genreWeights: {
+            house: 0,
+            pop: 2,
+            rb: 0,
+            ir: 0,
+            soul: 5
+        },
+        details:
+        {
+            artist: 'James Arthur',
+            songName: "Say You Won't Let Go"
+        }
+    },
+    {
+        index: 69,
+        id: 'PMivT7MJ41M',
+        genreWeights: {
+            house: 0,
+            pop: 4,
+            rb: 0,
+            ir: 0,
+            soul: 2
+        },
+        details:
+        {
+            artist: 'Bruno Mars',
+            songName: 'That’s What I Like'
+        }
+    },
+    {
+        index: 70,
+        id: 'tvTRZJ-4EyI',
+        genreWeights: {
+            house: 0,
+            pop: 1,
+            rb: 5,
+            ir: 0,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'Kendrick Lamar',
+            songName: 'HUMBLE'
+        }
+    },
+    {
+        index: 71,
+        id: '6Mgqbai3fKo',
+        genreWeights: {
+            house: 1,
+            pop: 3,
+            rb: 0,
+            ir: 0,
+            soul: 2
+        },
+        details:
+        {
+            artist: 'Shakira',
+            songName: 'Chantaje ft. Maluma'
+        }
+    },
+    {
+        index: 72,
+        id: 'h--P8HzYZ74',
+        genreWeights: {
+            house: 3.8,
+            pop: 3,
+            rb: 0,
+            ir: 0,
+            soul: 0
+        },
+        details:
+        {
+            artist: 'Zedd, Alessia Cara',
+            songName: 'Stay '
+        }
     }
 
 
@@ -892,6 +1196,27 @@ function dpSongsListLoaderService() {
 	// 		$scope.myNewFile = res;
 	// 		alert("Success");
 	// 	});
+
+
+
+
+    // ,
+    // {
+    //     index: XXX,
+    //     id: 'AAA',
+    //     genreWeights: {
+    //         house: 0,
+    //         pop: 0,
+    //         rb: 0,
+    //         ir: 0,
+    //         soul: 0
+    //     },
+    //     details:
+    //     {
+    //         artist: 'BBB',
+    //         songName: 'CCC'
+    //     }
+    // }
 
 }
 

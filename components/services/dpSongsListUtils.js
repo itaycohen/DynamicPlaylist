@@ -32,19 +32,19 @@ function dpSongsListUtils() {
     }
 
     function printArrayToConsole(arr) {
-        console.log("PRINTING - START");
+        // console.log("PRINTING - START");
         for (var i = 0; i < arr.length; i++) {
             console.log(i + ". " + arr[i]);
         }
-        console.log("PRINTING - END");
+        // console.log("PRINTING - END");
     }
 
     function printArrayWithObjToConsole(arr) {
-        console.log("PRINTING - START");
+        // console.log("PRINTING - START");
         for (var i = 0; i < arr.length; i++) {
             console.log(i + ". " + JSON.stringify(arr[i], null, 4));
         }
-        console.log("PRINTING - END");
+        // console.log("PRINTING - END");
     }
 
 
