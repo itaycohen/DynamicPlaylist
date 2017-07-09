@@ -183,7 +183,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
     function popSongIndexFromListAndUpdate(byAction) {
-        console.log("popSongIndexFromListAndUpdate");
+        // console.log("popSongIndexFromListAndUpdate");
         // get the first song index in list
         var songIndex = $rootScope.songsIndexesList[0];
 
@@ -233,6 +233,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // special sort, songs that alrady played will be after songs that never played
         lowerGenreWeightDistancesListToSort.sort(
             function (genreWeightsDistanceA, genreWeightsDistanceB) {
+                var dif;
                 if (isIndexAlreadyPlayedInCycle(genreWeightsDistanceA.index) &&
                     !isIndexAlreadyPlayedInCycle(genreWeightsDistanceB.index)) {
                     return 1;
@@ -240,7 +241,13 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                     isIndexAlreadyPlayedInCycle(genreWeightsDistanceB.index)) {
                     return -1;
                 } else {
-                    return genreWeightsDistanceA.avgDistance - genreWeightsDistanceB.avgDistance;
+                     dif = genreWeightsDistanceA.avgDistance - genreWeightsDistanceB.avgDistance;
+                     if (dif !== 0) {
+                         return dif;
+                     } else {
+                         // in case the dif is the same we want to give each song unique order
+                         return genreWeightsDistanceA.index - genreWeightsDistanceB.index;
+                     }
                 }
             });
         for (var j = 0; j < lowerGenreWeightDistancesListToSort.length; j++) {
