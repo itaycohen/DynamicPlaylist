@@ -105,10 +105,13 @@ body {
 .slider-container {
   width: 400px;
   height: 60px; }
-  .slider-container .md-track {
-    background: rgba(247, 223, 193, 0.64); }
-  .slider-container .md-track-fill {
-    background: #ffab40; }
+  .slider-container md-slider .md-track {
+    background: dimgray; }
+  .slider-container md-slider .md-track-fill {
+    background: #c9d6ff; }
+  .slider-container md-slider .md-thumb::after {
+    border-color: #c9d6ff;
+    background-color: #c9d6ff; }
 
 .playlist {
   height: 100%;

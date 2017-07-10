@@ -2,12 +2,22 @@
     width: 400px;
     height: 60px;
 
+    md-slider {
         .md-track {
-            background: rgba(247, 223, 193, 0.64);
+            background: dimgray;
         }
 
         .md-track-fill {
-            background: rgb(255,171,64); 
+            background: #c9d6ff; 
         }
+
+        .md-thumb::after {
+            border-color: #c9d6ff; 
+            background-color: #c9d6ff;  
+        }
+
+
+    }
+
     
 }
