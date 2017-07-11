@@ -21,7 +21,8 @@
         span {
           padding-top: 5px;
           padding-bottom: 4px;
-          color: #1a1829;
+          // changing the color of the ',' between genres
+          color: #1d2e44;
         }
 
         .md-text {
@@ -42,8 +43,12 @@
   }
     
     //change the color of the genres when not hovering
-    md-select.md-default-theme:not([disabled]):focus .md-select-value, md-select:not([disabled]):focus .md-select-value {
-      color: #ffab40;
+    // md-select.md-default-theme:not([disabled]):focus .md-select-value, md-select:not([disabled]):focus .md-select-value {
+    //   color: #ffab40;
+    // }
+
+    md-select.md-default-theme .md-select-value, md-select .md-select-value {
+    border-bottom-color: transparent;
     }
 
     md-select:not([disabled]):focus .md-select-value {
