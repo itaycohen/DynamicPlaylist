@@ -1,26 +1,29 @@
 <div ng-class="getPlaylistContainerClass()" class="playlist" flex layout="column">
-    <div class="playlist-title"> Up Next </div>
-    <div ng-repeat="songIndex in songsIndexesList | limitTo:12">
+    <div class="playlist-wrapper">
+        <div class="playlist-title"> Up Next </div>
+        <div ng-repeat="songIndex in songsIndexesList | limitTo:12">
 
-        <md-list-item ng-class=getItemClass($index) class="md-2-line hover-item">
-            <div class="md-list-item-text" layout="column">
-                <div class="song-item">
-                    <div class="song-number">
-                        {{$index + 1}}
-                    </div>
-                    <div class="full-song-name">
-                        <div class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</div>
-                        <div class="song-by" ng-class="getDesktopClass()">by</div>
-                        <div class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</div>
+            <md-list-item  class="md-2-line hover-item item-list">
+                <div class="md-list-item-text" layout="column">
+                    <div class="song-item">
+                        <div class="song-number">
+                            {{$index + 1}}
+                        </div>
+                        <div class="full-song-name">
+                            <div class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</div>
+                            <div class="song-by" ng-class="getDesktopClass()">by</div>
+                            <div class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--TODO - PLAYBUTTON-->
-            <!--<img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon">  -->
-        </md-list-item>
+                <!--TODO - PLAYBUTTON-->
+                <!--<img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon">  -->
+            </md-list-item>
 
 
+        </div>
     </div>
+
 
     <!--<h4> Already Played Songs </h4>
     <div ng-repeat="songIndex in alreadyPlayedSongsIndexesListFull | limitTo:5 track by $index" ng-if="$index < alreadyPlayedSongsIndexesListFull.length - 1">

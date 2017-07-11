@@ -11,13 +11,15 @@ body {
       font-style: italic;
       font-weight: bold; }
   body .toolbar {
-    background: #690505; }
+    background: linear-gradient(to bottom, #243B55, #1a293e); }
   body .main-view {
-    background: #1a1829; }
+    background: linear-gradient(to bottom, #243B55, #141E30); }
     body .main-view .boxWithHeight {
       box-sizing: border-box; }
     body .main-view .widget-manager-container {
       overflow-y: auto; }
+    body .main-view .right-side {
+      background: #283048; }
   body .main-view-big {
     height: calc(100% - 56px); }
 
@@ -61,7 +63,7 @@ body {
   .genre-selector-container .genre-selector-wrapper .md-select-value span {
     padding-top: 5px;
     padding-bottom: 4px;
-    color: #1a1829; }
+    color: #1d2e44; }
   .genre-selector-container .genre-selector-wrapper .md-select-value .md-text {
     border: 1px solid transparent;
     border-radius: 11px;
@@ -71,8 +73,8 @@ body {
   .genre-selector-container .genre-selector-wrapper .md-select-value .md-select-icon {
     margin-left: 0;
     color: #c9d6ff; }
-  .genre-selector-container md-select.md-default-theme:not([disabled]):focus .md-select-value, .genre-selector-container md-select:not([disabled]):focus .md-select-value {
-    color: #ffab40; }
+  .genre-selector-container md-select.md-default-theme .md-select-value, .genre-selector-container md-select .md-select-value {
+    border-bottom-color: transparent; }
   .genre-selector-container md-select:not([disabled]):focus .md-select-value {
     border-bottom: none; }
 
@@ -114,46 +116,47 @@ body {
     background-color: #c9d6ff; }
 
 .playlist {
-  height: 100%;
-  background: #2d1416; }
-  .playlist .playlist-title {
-    padding-left: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #c5b8ba;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: bold; }
-  .playlist .song-item {
-    font-family: Verdana, Geneva, sans-serif; }
-    .playlist .song-item .song-number {
-      opacity: 0.8;
-      font-size: 28px;
-      display: inline;
-      font-style: italic; }
-    .playlist .song-item .full-song-name {
-      font-size: 20px;
-      display: inline; }
-      .playlist .song-item .full-song-name .song-name {
-        display: inline;
-        font-weight: bold; }
-      .playlist .song-item .full-song-name .song-by {
-        font-size: 19px;
+  height: 100%; }
+  .playlist .playlist-wrapper {
+    background: -webkit-linear-gradient(#74818a, #283048);
+    background: -o-linear-gradient(#74818a, #283048);
+    background: linear-gradient(#74818a, #283048); }
+    .playlist .playlist-wrapper .playlist-title {
+      padding-left: 18px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #fbfcff;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: bold; }
+    .playlist .playlist-wrapper .song-item {
+      font-family: Verdana, Geneva, sans-serif; }
+      .playlist .playlist-wrapper .song-item .song-number {
+        opacity: 0.8;
+        font-size: 28px;
         display: inline;
         font-style: italic; }
-      .playlist .song-item .full-song-name .song-by-desktop {
-        padding-left: 2px;
-        padding-right: 2px; }
-      .playlist .song-item .full-song-name .artist-name {
+      .playlist .playlist-wrapper .song-item .full-song-name {
+        font-size: 20px;
         display: inline; }
-  .playlist .item-green {
-    background: #9e9193; }
-  .playlist .item-red {
-    background: #635557; }
-  .playlist .hover-icon {
-    display: none; }
-  .playlist .hover-item:hover .hover-icon {
-    display: block; }
+        .playlist .playlist-wrapper .song-item .full-song-name .song-name {
+          display: inline;
+          font-weight: bold; }
+        .playlist .playlist-wrapper .song-item .full-song-name .song-by {
+          font-size: 19px;
+          display: inline;
+          font-style: italic; }
+        .playlist .playlist-wrapper .song-item .full-song-name .song-by-desktop {
+          padding-left: 2px;
+          padding-right: 2px; }
+        .playlist .playlist-wrapper .song-item .full-song-name .artist-name {
+          display: inline; }
+    .playlist .playlist-wrapper .item-list {
+      box-shadow: -7px -21px 0px -20px white; }
+    .playlist .playlist-wrapper .hover-icon {
+      display: none; }
+    .playlist .playlist-wrapper .hover-item:hover .hover-icon {
+      display: block; }
 
 .container-with-overflow-y {
   overflow-y: auto; }
