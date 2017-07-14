@@ -27,7 +27,6 @@ body {
   background: #615e79;
   position: relative;
   padding-bottom: 40%;
-  padding-top: 30px;
   height: 0;
   overflow: hidden; }
   .youtube-embed-container .player {
@@ -66,7 +65,7 @@ body {
     color: #1d2e44; }
   .genre-selector-container .genre-selector-wrapper .md-select-value .md-text {
     border: 1px solid transparent;
-    border-radius: 11px;
+    border-radius: 15px;
     padding: 3px 5px 3px 5px;
     color: #1a1829;
     background: linear-gradient(to right, #c9d6ff, #e2e2e2); }

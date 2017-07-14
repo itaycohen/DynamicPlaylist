@@ -255,7 +255,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 	var playerwidthReducerFactor = 0.5; // factor that decide how wide the player width can be
 	var MINIMUM_WIDTH_OF_SCREEN = 768;
 
-	var maxPlayerWidth = 800;
+	var maxPlayerWidth = 850;
 
 	//hooking the dpSongsListLogic on logicService for html access
     $scope.logicService = dpSongsListLogic;
