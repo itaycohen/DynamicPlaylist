@@ -182,16 +182,26 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
-    function popSongIndexFromListAndUpdate(byAction) {
+    function popSongIndexFromListAndUpdate(byAction, indexOfSong) {
+
+        var orderOfSong;
+
+        if (angular.isUndefined(indexOfSong)) {
+            orderOfSong = 0;
+        } else {
+            orderOfSong = $rootScope.songsIndexesList.indexOf(indexOfSong);
+        }
         // console.log("popSongIndexFromListAndUpdate");
         // get the first song index in list
-        var songIndex = $rootScope.songsIndexesList[0];
+        var songIndex = $rootScope.songsIndexesList[orderOfSong];
 
         // update currentPlayingSongIndex
         $rootScope.currentPlayingSongIndex = songIndex;
 
         // remove songIndex out from songsIndexesList
-        $rootScope.songsIndexesList.shift();
+        // $rootScope.songsIndexesList.shift();
+        // cut orderOfSong=numberOf elements from the array from index 0 
+        $rootScope.songsIndexesList.splice(0, orderOfSong+1);
         // remove from genreWeightsDistancesList
 
         // insert to alreadyPlayedSongsIndexesListSingleCycle
