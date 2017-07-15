@@ -37,7 +37,7 @@ function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
         }
     };
 
-    $rootScope.playSelectedSong = function(songIndex) {
+    $rootScope.playSelectedSong = function(songIndex) { 
         dpSongsListLogic.popSongIndexFromListAndUpdate(true, songIndex);
         loadNextSong();
     };
