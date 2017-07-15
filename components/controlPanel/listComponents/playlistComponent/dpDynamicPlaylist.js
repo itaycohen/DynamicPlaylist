@@ -37,4 +37,24 @@ function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
         }
     };
 
+    $rootScope.playSelectedSong = function(songIndex) {
+        dpSongsListLogic.popSongIndexFromListAndUpdate(true, songIndex);
+        loadNextSong();
+    };
+
+
+    // this function acts the same as loadNextSong
+    // function loadNextSong() {
+	// 	$scope.player.videoId = dpSongsListLogic.getNextSongId();
+	// 	$scope.player.loadVideoById($scope.player.videoId);
+	// 	$scope.player.playVideo();
+	// }
+    function loadNextSong() {
+        var playerRef = YT.get("player");
+        playerRef.videoId = dpSongsListLogic.getNextSongId();
+		playerRef.loadVideoById(playerRef.videoId);
+		playerRef.playVideo();
+    }
+
+
 }

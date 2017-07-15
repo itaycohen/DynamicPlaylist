@@ -156,6 +156,8 @@ body {
       display: none; }
     .playlist .playlist-wrapper .hover-item:hover .hover-icon {
       display: block; }
+    .playlist .playlist-wrapper .play-button {
+      cursor: pointer; }
 
 .container-with-overflow-y {
   overflow-y: auto; }

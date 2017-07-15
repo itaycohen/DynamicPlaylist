@@ -15,8 +15,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 
 	var defer = $q.defer();
 	function onScriptLoad() {
-		var time0 = new Date();
-		var mili0 = time0.getMilliseconds();
+		// var time0 = new Date();
+		// var mili0 = time0.getMilliseconds();
 		// console.log("service was loaded, time: " + time0);
 		// console.log("service was loaded, mili: " + mili0);
 		defer.resolve(window.getYoutubeEmbed);
@@ -63,8 +63,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
     }
 
 	function getYoutubeEmbed() {
-		var time0 = new Date();
-		var mili0 = time0.getMilliseconds();
+		// var time0 = new Date();
+		// var mili0 = time0.getMilliseconds();
 		// console.log("promise was loaded, time: " + time0);
 		// console.log("promise was loaded, mili: " + mili0);
 
@@ -112,8 +112,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 
 
 		function loadYoutubeEmbed() {
-			var time1 = new Date();
-			var mili = time1.getMilliseconds();
+			// var time1 = new Date();
+			// var mili = time1.getMilliseconds();
 			// console.log("onYouTubePlayerAPIReady loading, time: " + time1);
 			// console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
 			// $window.onYouTubePlayerAPIReady = function () {
@@ -207,13 +207,10 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 			// console.log("Youtube Player Event - onPlaybackQualityChangeCB");
 			// console.log('	playback quality changed to ' + playbackQuality.data);
 		}
-
 		function onPlaybackRateChangeCB(playbackRate) {
 			// console.log("Youtube Player Event - onPlaybackRateChangeCB");
 			// console.log('	playback rate changed to ' + playbackRate.data);
 		}
-
-
 		function onErrorCB(error) {
 			console.log("Youtube Player Event - onErrorCB");
 			console.log("	Error Data: " + e.data);
@@ -277,11 +274,15 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 
 	$scope.executePlayerEndedActions = function (byAction) {
 		dpSongsListLogic.popSongIndexFromListAndUpdate(byAction);
+		loadNextSong();
+
+	};
+
+	function loadNextSong() {
 		$scope.player.videoId = dpSongsListLogic.getNextSongId();
 		$scope.player.loadVideoById($scope.player.videoId);
 		$scope.player.playVideo();
-
-	};
+	}
 
 	$scope.onNextSongClick = function () {
 		// console.log("Next Song was clicked");
