@@ -26,7 +26,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
-        updateGenreWeightsDistancesListByCurrentWidget : updateGenreWeightsDistancesListByCurrentWidget,
+        updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
         getGenreLabel: getGenreLabel,
         updateSongsIndexesList: updateSongsIndexesList,
@@ -185,15 +185,16 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function popSongIndexFromListAndUpdate(byAction, indexOfSong) {
 
         var orderOfSong;
+        var songIndex;
 
         if (angular.isUndefined(indexOfSong)) {
             orderOfSong = 0;
+            // get the first song index in list
+            songIndex = $rootScope.songsIndexesList[0];
         } else {
             orderOfSong = $rootScope.songsIndexesList.indexOf(indexOfSong);
+            songIndex = indexOfSong;
         }
-        // console.log("popSongIndexFromListAndUpdate");
-        // get the first song index in list
-        var songIndex = $rootScope.songsIndexesList[orderOfSong];
 
         // update currentPlayingSongIndex
         $rootScope.currentPlayingSongIndex = songIndex;
@@ -201,12 +202,15 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // remove songIndex out from songsIndexesList
         // $rootScope.songsIndexesList.shift();
         // cut orderOfSong=numberOf elements from the array from index 0 
-        $rootScope.songsIndexesList.splice(0, orderOfSong+1);
-        // remove from genreWeightsDistancesList
-
-        // insert to alreadyPlayedSongsIndexesListSingleCycle
-        $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-        $rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
+        var removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
+        var i, len, playedSongIndex;
+        for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
+            // note: this index can be of song that was skipped by click on other song play button
+            playedSongIndex = removedSongsIndexes[i];
+            // insert to alreadyPlayedSongsIndexesListSingleCycle
+            $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
+            $rootScope.alreadyPlayedSongsIndexesListFull.push(playedSongIndex);
+        }
 
         updateSongsIndexesList();
 
@@ -251,13 +255,13 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                     isIndexAlreadyPlayedInCycle(genreWeightsDistanceB.index)) {
                     return -1;
                 } else {
-                     dif = genreWeightsDistanceA.avgDistance - genreWeightsDistanceB.avgDistance;
-                     if (dif !== 0) {
-                         return dif;
-                     } else {
-                         // in case the dif is the same we want to give each song unique order
-                         return genreWeightsDistanceA.index - genreWeightsDistanceB.index;
-                     }
+                    dif = genreWeightsDistanceA.avgDistance - genreWeightsDistanceB.avgDistance;
+                    if (dif !== 0) {
+                        return dif;
+                    } else {
+                        // in case the dif is the same we want to give each song unique order
+                        return genreWeightsDistanceA.index - genreWeightsDistanceB.index;
+                    }
                 }
             });
         for (var j = 0; j < lowerGenreWeightDistancesListToSort.length; j++) {
@@ -365,10 +369,10 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function setSelectedGenres(updatedSelectedGenres) {
-         $rootScope.selectedGenres = updatedSelectedGenres;
+        $rootScope.selectedGenres = updatedSelectedGenres;
     }
 
-    
+
 
 
 
