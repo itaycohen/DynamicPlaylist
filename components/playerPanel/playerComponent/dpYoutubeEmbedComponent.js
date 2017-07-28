@@ -394,9 +394,11 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 	// 	console.log("state was change to " + state);
 	// }
 
-	$scope.isSmartPhoneLayout = function () {
-		// we want to hide the fake dic (25%) when we are in mobile so the song name will not wrap 
-		return $mdMedia('max-width: 375px');
+	$scope.getPlayingBarTempByDevice = function () {
+		if ($mdMedia('max-width: 375px')) {
+			return "components/playerPanel/playerComponent/playingBarTemplateSmall.html";
+		}
+		return "components/playerPanel/playerComponent/playingBarTemplateBig.html";
 	};
 
 
