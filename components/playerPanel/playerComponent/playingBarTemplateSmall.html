@@ -1,0 +1,25 @@
+<div flex="25" layout="row" layout-align="start">
+    <md-button ng-hide="isPlaying == true" class="control-song-button" ng-click="onPlaySongClick()" aria-label="Play" ng-model="isPlaying">
+        <md-icon md-svg-icon="media/icons/ic_play_arrow_white_36px.svg"></md-icon>
+    </md-button>
+    <md-button ng-hide="isPlaying == false" class="control-song-button" ng-click="onPauseSongClick()" aria-label="Pause" ng-model="isPlaying">
+        <md-icon md-svg-icon="media/icons/ic_pause_white_36px.svg"></md-icon>
+    </md-button>
+    <md-button class="control-song-button" ng-click="onNextSongClick()" aria-label="Next">
+        <!--next-->
+        <md-icon md-svg-icon="media/icons/ic_skip_next_white_36px.svg"></md-icon>
+    </md-button>
+</div>
+<div flex="75" layout="row" layout-align="center center">
+    <div flex="grow" class="song-fullname-container" layout="column" layout-align="start center">
+        <div class="scrolling-song-fullname">
+            <div class="song-fullname-text">
+                {{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}} - 
+                    {{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- <div ng-hide="isSmartPhoneLayout()" flex="25">
+        </div> -->
