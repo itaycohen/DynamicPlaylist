@@ -2,11 +2,17 @@
     height : 100%;
     // background: #2d1416;
 
+    background-image: url("../media/images/32.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
     .playlist-wrapper {
     
-        background: -webkit-linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
-        background: -o-linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
-        background: linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
+        // background: -webkit-linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
+        // background: -o-linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
+        // background: linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
+
             
     
             .playlist-title {
