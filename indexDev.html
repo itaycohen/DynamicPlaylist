@@ -2,9 +2,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="<b>Mixshake<b>, Listen to your favorite music genres for free."> 
+    <meta name="description" content="<b>Mixshake<b>, Listen to your favorite music genres for free.">
     <!-- <meta name="description" content="Free Streaming YouTube Music by Your Taste"> -->
-    <meta name="keywords" content="streaming,youtube,music,free,genre,genres,taste,mix,shake,mixshake,listen,infinity,online,playlist"> 
+    <meta name="keywords" content="streaming,youtube,music,free,genre,genres,taste,mix,shake,mixshake,listen,infinity,online,playlist">
     <title>Mixshake | Your Taste of Music</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
 
     <!-- Angular Material requires Angular.js Libraries -->
+
+    <script id="roadmap-widget" src="https://drofij53yrdlb.cloudfront.net/init.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
@@ -48,6 +51,8 @@
 
 </head>
 
+
+
 <body ng-cloak>
 
     <!--The app-->
@@ -60,7 +65,20 @@
 
         <!--Toolbar-->
         <md-toolbar class="toolbar">
-            <h2 class="md-toolbar-tools">Mixshake</h2>
+            <div class="md-toolbar-tools">
+                <h2 flex md-truncate class="md-toolbar-tools">Mixshake</h2>
+                <md-menu>
+                    <!-- <md-button ng-click="$mdMenu.open($event)" class="md-icon-button" aria-label="Send Feedback"> -->
+                    <md-button ng-click="$mdOpenMenu($event)" class="md-icon-button" aria-label="Send Feedback">
+                        <md-icon md-svg-icon="media/icons/ic_comment_white_36px.svg"></md-icon>
+                    </md-button>
+                    <md-menu-content>
+                        <md-menu-item>
+                            <md-button ng-click="openFeedbackForm()">Send Feedback</md-button>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+            </div>
         </md-toolbar>
 
         <!--Main View-->
