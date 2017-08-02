@@ -1,5 +1,6 @@
 var app = angular.module('dynamicPlaylistApp', [
     'ngMaterial',
+    'dpAppUtils',
     'dpSongsListLoaderService',
     'dpSongsListUtils',
     'dpSongsListLogic',
@@ -22,10 +23,10 @@ app.config(function ($mdThemingProvider) {
 });
 
 app.controller('appController', appController);
-appController.$inject = ["$scope", "$mdMedia"];
-function appController($scope, $mdMedia) {
+appController.$inject = ['$scope', 'dpAppUtils'];
+function appController($scope, dpAppUtils) {
     $scope.getMainViewClass = function () {
-        if (!$mdMedia('max-width: 959px')) {
+        if (dpAppUtils.isDesktop()) {
             return "main-view-big";
         }
     };

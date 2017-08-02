@@ -87,9 +87,9 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 
 
 
-dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', "$mdMedia", '$window', '$http'];
+dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
 
-function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMedia, $window, $http) {
+function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $window, $http) {
 	var directive = {
 		restrict: "E",
 		templateUrl: "components/playerPanel/playerComponent/dpYoutubeEmbedTemplate.html",
@@ -245,8 +245,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $mdMed
 } // dpYoutubeEmbedDirective
 
 
-dpYoutubeEmbedController.$inject = ["$scope", "dpSongsListLogic", "$mdMedia"];
-function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
+dpYoutubeEmbedController.$inject = ['$scope', 'dpSongsListLogic', 'dpAppUtils'];
+function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 
 	var playerScreenRatio = 0.52;
 	var playerwidthReducerFactor = 0.5; // factor that decide how wide the player width can be
@@ -394,8 +394,9 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, $mdMedia) {
 	// 	console.log("state was change to " + state);
 	// }
 
+
 	$scope.getPlayingBarTempByDevice = function () {
-		if ($mdMedia('max-width: 375px')) {
+		if (dpAppUtils.isSmartphone()) {
 			return "components/playerPanel/playerComponent/playingBarTemplateSmall.html";
 		}
 		return "components/playerPanel/playerComponent/playingBarTemplateBig.html";

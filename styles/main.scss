@@ -1,6 +1,12 @@
 body {
     color: white;
-    background: rgb(26, 24, 41); 
+    background: rgb(26, 24, 41);  
+    background-image: url("../media/images/32.jpg"); 
+    // background-repeat: repeat-y;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
 
     md-toolbar {
         min-height:56px;
@@ -25,7 +31,7 @@ body {
     .main-view {
         // background: #1a1829;
         // background: deepskyblue;
-        background-image: url("../media/images/32.jpg");
+        // background-image: url("../media/images/32.jpg");
         // background: linear-gradient(to bottom, #243B55, #141E30); 
 
         .boxWithHeight {
@@ -37,7 +43,7 @@ body {
         }
 
         .right-side {
-            background: #283048;
+            // background: #283048;
         }
     }
 

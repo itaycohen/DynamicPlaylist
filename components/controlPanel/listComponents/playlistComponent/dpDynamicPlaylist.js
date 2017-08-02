@@ -12,8 +12,8 @@ function dpDynamicPlaylist() {
     return directive;
 }
 
-dpDynamicPlaylistController.$inject = ["$rootScope", "$mdMedia", "dpSongsListLogic"];
-function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
+dpDynamicPlaylistController.$inject = ['$rootScope', 'dpSongsListLogic', 'dpAppUtils'];
+function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils) {
 
 
     $rootScope.logicService = dpSongsListLogic;
@@ -24,7 +24,7 @@ function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
     $rootScope.alreadyPlayedSongsIndexesListFull = dpSongsListLogic.getAlreadyPlayedSongsIndexesListFull();
 
     $rootScope.getPlaylistContainerClass = function () {
-        if ($mdMedia('min-width: 960px')) { 
+        if (dpAppUtils.isDesktop()) { 
             //big view - row layout (not small as in mobile - row)
             // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
             return "container-with-overflow-y";
@@ -32,7 +32,7 @@ function dpDynamicPlaylistController($rootScope, $mdMedia, dpSongsListLogic) {
     };
 
     $rootScope.getDesktopClass = function() {
-        if ($mdMedia('min-width: 960px')) { 
+        if (dpAppUtils.isDesktop()) { 
             return "song-by-desktop";
         }
     };

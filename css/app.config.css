@@ -1,6 +1,10 @@
 body {
   color: white;
-  background: #1a1829; }
+  background: #1a1829;
+  background-image: url("../media/images/32.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
   body md-toolbar {
     min-height: 56px; }
     body md-toolbar .md-toolbar-tools {
@@ -12,14 +16,10 @@ body {
       font-weight: bold; }
   body .toolbar {
     background: linear-gradient(to bottom, #243B55, #1a293e); }
-  body .main-view {
-    background-image: url("../media/images/32.jpg"); }
-    body .main-view .boxWithHeight {
-      box-sizing: border-box; }
-    body .main-view .widget-manager-container {
-      overflow-y: auto; }
-    body .main-view .right-side {
-      background: #283048; }
+  body .main-view .boxWithHeight {
+    box-sizing: border-box; }
+  body .main-view .widget-manager-container {
+    overflow-y: auto; }
   body .main-view-big {
     height: calc(100% - 56px); }
 
@@ -150,49 +150,48 @@ body {
     background-color: #c9d6ff; }
 
 .playlist {
-  height: 100%;
-  background-image: url("../media/images/32.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; }
-  .playlist .playlist-wrapper .playlist-title {
-    padding-left: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #fbfcff;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: bold; }
-  .playlist .playlist-wrapper .song-item {
-    font-family: Verdana, Geneva, sans-serif; }
-    .playlist .playlist-wrapper .song-item .song-number {
-      opacity: 0.8;
-      font-size: 28px;
-      display: inline;
-      font-style: italic; }
-    .playlist .playlist-wrapper .song-item .full-song-name {
-      font-size: 20px;
-      display: inline; }
-      .playlist .playlist-wrapper .song-item .full-song-name .song-name {
-        display: inline;
-        font-weight: bold; }
-      .playlist .playlist-wrapper .song-item .full-song-name .song-by {
-        font-size: 19px;
+  height: 100%; }
+  .playlist .playlist-wrapper {
+    margin: 12px;
+    background: rgba(0, 0, 0, 0.25); }
+    .playlist .playlist-wrapper .playlist-title {
+      padding-left: 18px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #fbfcff;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: bold; }
+    .playlist .playlist-wrapper .song-item {
+      font-family: Verdana, Geneva, sans-serif; }
+      .playlist .playlist-wrapper .song-item .song-number {
+        opacity: 0.8;
+        font-size: 28px;
         display: inline;
         font-style: italic; }
-      .playlist .playlist-wrapper .song-item .full-song-name .song-by-desktop {
-        padding-left: 2px;
-        padding-right: 2px; }
-      .playlist .playlist-wrapper .song-item .full-song-name .artist-name {
+      .playlist .playlist-wrapper .song-item .full-song-name {
+        font-size: 20px;
         display: inline; }
-  .playlist .playlist-wrapper .item-list {
-    box-shadow: -7px -21px 0px -20px white; }
-  .playlist .playlist-wrapper .hover-icon {
-    display: none; }
-  .playlist .playlist-wrapper .hover-item:hover .hover-icon {
-    display: block; }
-  .playlist .playlist-wrapper .play-button {
-    cursor: pointer; }
+        .playlist .playlist-wrapper .song-item .full-song-name .song-name {
+          display: inline;
+          font-weight: bold; }
+        .playlist .playlist-wrapper .song-item .full-song-name .song-by {
+          font-size: 19px;
+          display: inline;
+          font-style: italic; }
+        .playlist .playlist-wrapper .song-item .full-song-name .song-by-desktop {
+          padding-left: 2px;
+          padding-right: 2px; }
+        .playlist .playlist-wrapper .song-item .full-song-name .artist-name {
+          display: inline; }
+    .playlist .playlist-wrapper .item-list {
+      box-shadow: -7px -21px 0px -20px white; }
+    .playlist .playlist-wrapper .hover-icon {
+      display: none; }
+    .playlist .playlist-wrapper .hover-item:hover .hover-icon {
+      display: block; }
+    .playlist .playlist-wrapper .play-button {
+      cursor: pointer; }
 
 .container-with-overflow-y {
   overflow-y: auto; }
