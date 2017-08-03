@@ -13,8 +13,6 @@
 
     <!-- Angular Material requires Angular.js Libraries -->
 
-    <script id="roadmap-widget" src="https://drofij53yrdlb.cloudfront.net/init.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
@@ -40,41 +38,31 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
         ga('create', 'UA-99014397-1', 'auto');
         ga('send', 'pageview');
-
     </script>-->
 
     <!-- Styles -->
     <link href="css/app.config.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 
 
 <body ng-cloak>
-
     <!--The app-->
     <div class="app" ng-controller="appController">
-        <!--<div class="app">-->
-
-        <!-- <header style="display:none;">
-            <h1>Free Streaming YouTube Music by Your Taste</h1>
-        </header> -->
-
         <!--Toolbar-->
         <md-toolbar class="toolbar">
             <div class="md-toolbar-tools">
                 <h2 flex md-truncate class="md-toolbar-tools">Mixshake</h2>
                 <md-menu>
-                    <!-- <md-button ng-click="$mdMenu.open($event)" class="md-icon-button" aria-label="Send Feedback"> -->
                     <md-button ng-click="$mdOpenMenu($event)" class="md-icon-button" aria-label="Send Feedback">
+
                         <md-icon md-svg-icon="media/icons/ic_comment_white_36px.svg"></md-icon>
                     </md-button>
                     <md-menu-content>
                         <md-menu-item>
-                            <md-button ng-click="openFeedbackForm()">Send Feedback</md-button>
+                            <md-button id="feedback" ng-click="openFeedbackForm()">Send Feedback</md-button>
                         </md-menu-item>
                     </md-menu-content>
                 </md-menu>
@@ -90,15 +78,11 @@
             <div flex-gt-sm="43" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start center" class="boxWithHeight">
 
                 <!--Youtube Player Container-->
-                <!--<div flex >-->
                 <!--Youtube Player-->
                 <dp-youtube-embed-directive></dp-youtube-embed-directive>
-                <!--</div>-->
                 <!--Smart Widgets Container-->
-                <!--<div flex layout="row" layout-align="center center">-->
                 <!--Smart Widgets-->
                 <dp-genre-widget-manager class="widget-manager-container"></dp-genre-widget-manager>
-                <!--</div>-->
             </div>
 
             <!--Right side-->
@@ -109,6 +93,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        !function () { function e(e) { this.queue = [], this.udid = e; var n = e + ((new Date).getTime() + Math.floor(1e3 * Math.random())); t[n] = this } for (var t = {}, n = ["open", "close", "addMeta", "removeMeta"], a = 0; a < n.length; a++)!function (t) { e.prototype[t] = function () { this.queue.push([t, arguments]) } }(n[a]); t && function (e) { var t = document.createElement("script"); t.type = "text/javascript", t.async = !0, t.defer = !0, t.src = e, (document.getElementsByTagName("body")[0] || document.getElementsByTagName("head")[0]).appendChild(t) }("https://survey.feedbackly.com" + "/dist/plugin-v2.min.js?id=" + (new Date).getTime()), window.Fbly = e, window._FblyInst = t }();
+        var plugin_H1IyjxbPW = new Fbly("H1IyjxbPW");
+    </script>
+
 </body>
 
 </html>
