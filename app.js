@@ -8,7 +8,7 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
     'dpDynamicPlaylist'
-]); 
+]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
     $rootScope.rawSongsList = dpSongsListLoaderService.getSongsList();
@@ -22,12 +22,18 @@ app.config(function ($mdThemingProvider) {
 });
 
 app.controller('appController', appController);
-appController.$inject = ["$scope", "$mdMedia"];
-function appController($scope, $mdMedia) {
+appController.$inject = ["$scope", "$mdMedia", "$mdDialog"];
+function appController($scope, $mdMedia, $mdDialog) {
+
     $scope.getMainViewClass = function () {
         if (!$mdMedia('max-width: 959px')) {
             return "main-view-big";
         }
     };
+
+    $scope.openFeedbackForm = function () {
+        plugin_H1IyjxbPW.open();
+    };
+
 }
 
