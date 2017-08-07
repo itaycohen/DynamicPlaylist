@@ -37,6 +37,10 @@ body {
   to {
     left: -100%; } }
 
+.player-wrapper-horizontal {
+  margin-left: 12px;
+  margin-top: 12px; }
+
 .youtube-embed-container {
   background: #615e79;
   position: relative;
@@ -86,6 +90,17 @@ body {
       -webkit-animation-iteration-count: infinite;
       font-family: Roboto, sans-serif;
       font-weight: 500; }
+
+.genre-manager-wrapper {
+  margin-left: 12px;
+  margin-top: 12px;
+  background: rgba(0, 0, 0, 0.25); }
+
+.genre-manager-wrapper-horizontal {
+  margin-bottom: 12px; }
+
+.genre-manager-wrapper-vertical {
+  margin-right: 12px; }
 
 .genre-selector-container {
   padding-top: 3px; }

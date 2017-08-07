@@ -46,21 +46,21 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	s.appendChild(scriptTag);
 
 	function applyServiceIsReady() {
-        $rootScope.$apply(function () {
-            isReady = true;
-        });
-    }
+		$rootScope.$apply(function () {
+			isReady = true;
+		});
+	}
 
 	// If the library isn't here at all,
-    if (typeof YT === "undefined") {
-        // ...grab on to global callback, in case it's eventually loaded
-        $window.onYouTubeIframeAPIReady = applyServiceIsReady;
-        // console.log('Unable to find YouTube iframe library on this page.');
-    } else if (YT.loaded) {
-        isReady = true;
-    } else {
-        YT.ready(applyServiceIsReady);
-    }
+	if (typeof YT === "undefined") {
+		// ...grab on to global callback, in case it's eventually loaded
+		$window.onYouTubeIframeAPIReady = applyServiceIsReady;
+		// console.log('Unable to find YouTube iframe library on this page.');
+	} else if (YT.loaded) {
+		isReady = true;
+	} else {
+		YT.ready(applyServiceIsReady);
+	}
 
 	function getYoutubeEmbed() {
 		// var time0 = new Date();
@@ -255,7 +255,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 	var maxPlayerWidth = 850;
 
 	//hooking the dpSongsListLogic on logicService for html access
-    $scope.logicService = dpSongsListLogic;
+	$scope.logicService = dpSongsListLogic;
 
 	// $scope.isPlaying = getIsPlayingValue();
 	$scope.isPlaying = false;
@@ -402,6 +402,12 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		return "components/playerPanel/playerComponent/playingBarTemplateBig.html";
 	};
 
+	$scope.getPlayerWarpperClass = function () {
+		if (dpAppUtils.isDesktop()) {
+			return "player-wrapper-horizontal";
+		}
+		return "player-wrapper-vertical";
+	};
 
 
 }

@@ -1,4 +1,22 @@
+.genre-manager-wrapper {
+  // we always want left and top
+    margin-left: 12px;
+    margin-top: 12px;
+    background: rgba(0, 0, 0, 0.25);
+  
+}
 
+.genre-manager-wrapper-horizontal {
+    margin-bottom: 12px;
+  
+
+}
+
+.genre-manager-wrapper-vertical {
+    margin-right: 12px;
+  
+  
+}
 
 .genre-selector-container {
   padding-top: 3px;
