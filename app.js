@@ -9,7 +9,7 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
     'dpDynamicPlaylist'
-]); 
+]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
     $rootScope.rawSongsList = dpSongsListLoaderService.getSongsList();
@@ -29,6 +29,13 @@ function appController($scope, dpAppUtils) {
         if (dpAppUtils.isDesktop()) {
             return "main-view-big";
         }
+    };
+
+    $scope.getAppClass = function () {
+        if (dpAppUtils.isDesktop()) {
+            return "app-horizontal";
+        }
+        return "app-vertical";
     };
 }
 

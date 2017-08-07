@@ -1,12 +1,12 @@
 body {
     color: white;
-    background: rgb(26, 24, 41);  
-    background-image: url("../media/images/app_bg_xlarge.jpg"); 
-    
-    // background-repeat: repeat-y;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center; 
+
+    .app {
+
+        background: rgb(26, 24, 41);   
+        background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
+        background-size:cover;
+        background-position: center; 
 
     //https://camo.githubusercontent.com/ad81ae92f8b4285747ce4e48007bf3f104dd5630/
     //687474703a2f2f6d6174657269616c2d64657369676e2e73746f726167652e676f6f676c6561
@@ -100,6 +100,11 @@ body {
         // height: calc(100% - 48px);
     }
 
+    } 
+
+    .app-vertical {
+        background-image: url("../media/images/app_bg_xlarge_vertical.jpg");
+    }
 
 
 }

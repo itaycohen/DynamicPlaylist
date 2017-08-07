@@ -1,27 +1,29 @@
 body {
-  color: white;
-  background: #1a1829;
-  background-image: url("../media/images/app_bg_xlarge.jpg");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-position: center; }
-  body md-toolbar {
-    min-height: 56px; }
-    body md-toolbar .md-toolbar-tools {
-      height: 56px;
-      color: white;
-      opacity: 0.92;
-      font-size: 24px;
-      font-style: italic;
-      font-weight: bold; }
-  body .toolbar {
-    background: linear-gradient(to bottom, #243B55, #1a293e); }
-  body .main-view .boxWithHeight {
-    box-sizing: border-box; }
-  body .main-view .widget-manager-container {
-    overflow-y: auto; }
-  body .main-view-big {
-    height: calc(100% - 56px); }
+  color: white; }
+  body .app {
+    background: #1a1829;
+    background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
+    background-size: cover;
+    background-position: center; }
+    body .app md-toolbar {
+      min-height: 56px; }
+      body .app md-toolbar .md-toolbar-tools {
+        height: 56px;
+        color: white;
+        opacity: 0.92;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold; }
+    body .app .toolbar {
+      background: linear-gradient(to bottom, #243B55, #1a293e); }
+    body .app .main-view .boxWithHeight {
+      box-sizing: border-box; }
+    body .app .main-view .widget-manager-container {
+      overflow-y: auto; }
+    body .app .main-view-big {
+      height: calc(100% - 56px); }
+  body .app-vertical {
+    background-image: url("../media/images/app_bg_xlarge_vertical.jpg"); }
 
 @keyframes slide {
   from {
