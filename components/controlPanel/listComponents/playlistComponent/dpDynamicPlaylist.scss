@@ -1,102 +1,89 @@
 .playlist {
     height : 100%;
-    // background: #2d1416;
+}
 
-    // background-image: url("../media/images/32.jpg");
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-position: center; 
 
     .playlist-wrapper {
-    
-
+ 
         margin: 12px;
         background: rgba(0,0,0,0.25);
-        // background: -webkit-linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
-        // background: -o-linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
-        // background: linear-gradient(rgb(116, 129, 138), rgb(40, 48, 72));
+    
+        .playlist-title {
+            padding-left: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
 
+            color: #fbfcff;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: bold;
             
+        }
     
-            .playlist-title {
-                padding-left: 18px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-    
-                color: #fbfcff;
-                font-size: 24px;
+        .song-item {
+            font-family: Verdana, Geneva, sans-serif;
+
+            .song-number {
+                opacity: 0.8;
+                font-size: 28px;
+                display: inline;   
                 font-style: italic;
-                font-weight: bold;
-                
             }
-    
-            .song-item {
-                // color: #333333;
-                // font-family: Century Gothic, sans-serif;
+
+            .full-song-name {
+                font-size: 20px;
+                display: inline;   
                 
-                font-family: Verdana, Geneva, sans-serif;
-    
-                .song-number {
-                    opacity: 0.8;
-                    font-size: 28px;
-                    display: inline;   
+                .song-name {
+                    display: inline;  
+                    font-weight: bold;
+                }
+
+                .song-by {
+                    font-size: 19px;
+                    display: inline;  
                     font-style: italic;
                 }
-    
-                .full-song-name {
-                    font-size: 20px;
-                    display: inline;   
-                    
-                    .song-name {
-                        display: inline;  
-                        font-weight: bold;
-                    }
-    
-                    .song-by {
-                        font-size: 19px;
-                        display: inline;  
-                        font-style: italic;
-                    }
-    
-                    .song-by-desktop {
-                        padding-left: 2px;
-                        padding-right: 2px;
-                    }
-    
-                    .artist-name {
-                        display: inline;  
-    
-                    }
+
+                .song-by-desktop {
+                    padding-left: 2px;
+                    padding-right: 2px;
+                }
+
+                .artist-name {
+                    display: inline;  
+
                 }
             }
+        }
     
-            .item-list {
-                // background: #9e9193;
-                // background: #635557;
-                box-shadow: -7px -21px 0px -20px white;
-    
-            }
-    
-            
-            .hover-icon {
-                display: none;
-            }
-    
-            .hover-item:hover {
-                    .hover-icon {
-                    display : block;
-                }
-            }
+        .item-list {
+            box-shadow: -7px -21px 0px -20px white;
+        }
 
-            .play-button {
-                cursor: pointer;
+        .hover-icon {
+            display: none;
+        }
 
+        .hover-item:hover {
+                .hover-icon {
+                display : block;
             }
+        }
+
+        .play-button {
+            cursor: pointer;
+
+        }
     
         }
 
-}
+        // making the playlist to be scrollable (only in desktop)
+        //big view - row layout (not small as in mobile - row)
+        // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
+        .wrapper-with-scroll {
+            overflow-y: auto;
+        }
 
-.container-with-overflow-y {
-    overflow-y: auto;
-}
+
+

@@ -1,8 +1,8 @@
 body {
   color: white;
   background: #1a1829;
-  background-image: url("../media/images/32.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../media/images/app_bg_xlarge.jpg");
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: center; }
   body md-toolbar {
@@ -151,47 +151,48 @@ body {
 
 .playlist {
   height: 100%; }
-  .playlist .playlist-wrapper {
-    margin: 12px;
-    background: rgba(0, 0, 0, 0.25); }
-    .playlist .playlist-wrapper .playlist-title {
-      padding-left: 18px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: #fbfcff;
-      font-size: 24px;
-      font-style: italic;
-      font-weight: bold; }
-    .playlist .playlist-wrapper .song-item {
-      font-family: Verdana, Geneva, sans-serif; }
-      .playlist .playlist-wrapper .song-item .song-number {
-        opacity: 0.8;
-        font-size: 28px;
+
+.playlist-wrapper {
+  margin: 12px;
+  background: rgba(0, 0, 0, 0.25); }
+  .playlist-wrapper .playlist-title {
+    padding-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fbfcff;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; }
+  .playlist-wrapper .song-item {
+    font-family: Verdana, Geneva, sans-serif; }
+    .playlist-wrapper .song-item .song-number {
+      opacity: 0.8;
+      font-size: 28px;
+      display: inline;
+      font-style: italic; }
+    .playlist-wrapper .song-item .full-song-name {
+      font-size: 20px;
+      display: inline; }
+      .playlist-wrapper .song-item .full-song-name .song-name {
+        display: inline;
+        font-weight: bold; }
+      .playlist-wrapper .song-item .full-song-name .song-by {
+        font-size: 19px;
         display: inline;
         font-style: italic; }
-      .playlist .playlist-wrapper .song-item .full-song-name {
-        font-size: 20px;
+      .playlist-wrapper .song-item .full-song-name .song-by-desktop {
+        padding-left: 2px;
+        padding-right: 2px; }
+      .playlist-wrapper .song-item .full-song-name .artist-name {
         display: inline; }
-        .playlist .playlist-wrapper .song-item .full-song-name .song-name {
-          display: inline;
-          font-weight: bold; }
-        .playlist .playlist-wrapper .song-item .full-song-name .song-by {
-          font-size: 19px;
-          display: inline;
-          font-style: italic; }
-        .playlist .playlist-wrapper .song-item .full-song-name .song-by-desktop {
-          padding-left: 2px;
-          padding-right: 2px; }
-        .playlist .playlist-wrapper .song-item .full-song-name .artist-name {
-          display: inline; }
-    .playlist .playlist-wrapper .item-list {
-      box-shadow: -7px -21px 0px -20px white; }
-    .playlist .playlist-wrapper .hover-icon {
-      display: none; }
-    .playlist .playlist-wrapper .hover-item:hover .hover-icon {
-      display: block; }
-    .playlist .playlist-wrapper .play-button {
-      cursor: pointer; }
+  .playlist-wrapper .item-list {
+    box-shadow: -7px -21px 0px -20px white; }
+  .playlist-wrapper .hover-icon {
+    display: none; }
+  .playlist-wrapper .hover-item:hover .hover-icon {
+    display: block; }
+  .playlist-wrapper .play-button {
+    cursor: pointer; }
 
-.container-with-overflow-y {
+.wrapper-with-scroll {
   overflow-y: auto; }

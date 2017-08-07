@@ -6,7 +6,7 @@ dpDynamicPlaylist.$inject = ["dpSongsListLogic"];
 function dpDynamicPlaylist() {
     var directive = {
         restrict: "E",
-        templateUrl: "components/controlPanel/listComponents/playlistComponent/dpDynamicPlaylist.html",
+        template: "<ng-include src='getTemplateUrl()'/>",
         controller: dpDynamicPlaylistController
     };
     return directive;
@@ -15,7 +15,6 @@ function dpDynamicPlaylist() {
 dpDynamicPlaylistController.$inject = ['$rootScope', 'dpSongsListLogic', 'dpAppUtils'];
 function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils) {
 
-
     $rootScope.logicService = dpSongsListLogic;
 
     // workaround - can't hook on ng reapeat 
@@ -23,38 +22,25 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils) {
 
     $rootScope.alreadyPlayedSongsIndexesListFull = dpSongsListLogic.getAlreadyPlayedSongsIndexesListFull();
 
-    $rootScope.getPlaylistContainerClass = function () {
-        if (dpAppUtils.isDesktop()) { 
+    $rootScope.getTemplateUrl = function () {
+        if (dpAppUtils.isDesktop()) {
             //big view - row layout (not small as in mobile - row)
             // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
-            return "container-with-overflow-y";
+            return "components/controlPanel/listComponents/playlistComponent/dpDynamicPlaylistFixWideScreen.html";
         }
+        return "components/controlPanel/listComponents/playlistComponent/dpDynamicPlaylistLongVerticalScreen.html";
     };
 
-    $rootScope.getDesktopClass = function() {
-        if (dpAppUtils.isDesktop()) { 
-            return "song-by-desktop";
-        }
-    };
-
-    $rootScope.playSelectedSong = function(songIndex) { 
+    $rootScope.playSelectedSong = function (songIndex) {
         dpSongsListLogic.popSongIndexFromListAndUpdate(true, songIndex);
         loadNextSong();
     };
 
-
-    // this function acts the same as loadNextSong
-    // function loadNextSong() {
-	// 	$scope.player.videoId = dpSongsListLogic.getNextSongId();
-	// 	$scope.player.loadVideoById($scope.player.videoId);
-	// 	$scope.player.playVideo();
-	// }
     function loadNextSong() {
         var playerRef = YT.get("player");
         playerRef.videoId = dpSongsListLogic.getNextSongId();
-		playerRef.loadVideoById(playerRef.videoId);
-		playerRef.playVideo();
+        playerRef.loadVideoById(playerRef.videoId);
+        playerRef.playVideo();
     }
-
 
 }
