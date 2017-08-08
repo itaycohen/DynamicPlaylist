@@ -1,23 +1,20 @@
+.genre-container {
+    padding-left: 5px;
+}
+
 .slider-container {
     width: 400px;
     height: 60px;
-
     md-slider {
         .md-track {
             background: dimgray;
         }
-
         .md-track-fill {
-            background: #c9d6ff; 
+            background: #c9d6ff;
         }
-
         .md-thumb::after {
-            border-color: #c9d6ff; 
-            background-color: #c9d6ff;  
+            border-color: #c9d6ff;
+            background-color: #c9d6ff;
         }
-
-
     }
-
-    
 }

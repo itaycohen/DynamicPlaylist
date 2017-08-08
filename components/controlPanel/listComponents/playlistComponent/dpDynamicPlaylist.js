@@ -31,6 +31,13 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils) {
         return "components/controlPanel/listComponents/playlistComponent/dpDynamicPlaylistLongVerticalScreen.html";
     };
 
+    $rootScope.getPlaylistWarpperClass = function () {
+        if (dpAppUtils.isDesktop()) {
+            return "playlist-wrapper-horizontal";
+        }
+        return "playlist-wrapper-vertical";
+    };
+
     $rootScope.playSelectedSong = function (songIndex) {
         dpSongsListLogic.popSongIndexFromListAndUpdate(true, songIndex);
         loadNextSong();
