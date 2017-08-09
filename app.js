@@ -8,7 +8,7 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpYoutubeEmbedComponent',
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
-    'dpDynamicPlaylist'
+    'dpDynamicPlaylist' 
 ]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
