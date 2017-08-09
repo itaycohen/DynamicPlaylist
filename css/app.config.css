@@ -1,27 +1,29 @@
 body {
-  color: white;
-  background: #1a1829; }
-  body md-toolbar {
-    min-height: 56px; }
-    body md-toolbar .md-toolbar-tools {
-      height: 56px;
-      color: white;
-      opacity: 0.92;
-      font-size: 24px;
-      font-style: italic;
-      font-weight: bold; }
-  body .toolbar {
-    background: linear-gradient(to bottom, #243B55, #1a293e); }
-  body .main-view {
-    background: linear-gradient(to bottom, #243B55, #141E30); }
-    body .main-view .boxWithHeight {
+  color: white; }
+  body .app {
+    background: #1a1829;
+    background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
+    background-size: cover;
+    background-position: center; }
+    body .app md-toolbar {
+      min-height: 56px; }
+      body .app md-toolbar .md-toolbar-tools {
+        height: 56px;
+        color: white;
+        opacity: 0.92;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold; }
+    body .app .toolbar {
+      background: linear-gradient(to bottom, #351e4c, #160b2f); }
+    body .app .main-view .boxWithHeight {
       box-sizing: border-box; }
-    body .main-view .widget-manager-container {
+    body .app .main-view .widget-manager-container {
       overflow-y: auto; }
-    body .main-view .right-side {
-      background: #283048; }
-  body .main-view-big {
-    height: calc(100% - 56px); }
+    body .app .main-view-big {
+      height: calc(100% - 56px); }
+  body .app-vertical {
+    background-image: url("../media/images/app_bg_xlarge_vertical.jpg"); }
 
 @keyframes slide {
   from {
@@ -34,6 +36,10 @@ body {
     left: 100%; }
   to {
     left: -100%; } }
+
+.player-wrapper-horizontal {
+  margin-left: 12px;
+  margin-top: 12px; }
 
 .youtube-embed-container {
   background: #615e79;
@@ -85,6 +91,20 @@ body {
       font-family: Roboto, sans-serif;
       font-weight: 500; }
 
+.genre-manager-wrapper {
+  background: rgba(0, 0, 0, 0.25); }
+
+.genre-manager-wrapper-horizontal {
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  overflow-y: auto; }
+
+.genre-manager-wrapper-vertical {
+  margin-left: 6px;
+  margin-top: 6px;
+  margin-right: 6px; }
+
 .genre-selector-container {
   padding-top: 3px; }
   .genre-selector-container label {
@@ -107,7 +127,8 @@ body {
   .genre-selector-container .genre-selector-wrapper .md-select-value .md-select-icon {
     margin-left: 0;
     color: #c9d6ff; }
-  .genre-selector-container md-select.md-default-theme .md-select-value, .genre-selector-container md-select .md-select-value {
+  .genre-selector-container md-select.md-default-theme .md-select-value,
+  .genre-selector-container md-select .md-select-value {
     border-bottom-color: transparent; }
   .genre-selector-container md-select:not([disabled]):focus .md-select-value {
     border-bottom: none; }
@@ -136,7 +157,11 @@ body {
   max-height: 240px; }
 
 .genre-widget-area {
-  max-width: 450px; }
+  padding-left: 5px;
+  padding-right: 8px; }
+
+.genre-container {
+  padding-left: 5px; }
 
 .slider-container {
   width: 400px;
@@ -151,48 +176,53 @@ body {
 
 .playlist {
   height: 100%; }
-  .playlist .playlist-wrapper {
-    background: -webkit-linear-gradient(#74818a, #283048);
-    background: -o-linear-gradient(#74818a, #283048);
-    background: linear-gradient(#74818a, #283048); }
-    .playlist .playlist-wrapper .playlist-title {
-      padding-left: 18px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: #fbfcff;
-      font-size: 24px;
-      font-style: italic;
-      font-weight: bold; }
-    .playlist .playlist-wrapper .song-item {
-      font-family: Verdana, Geneva, sans-serif; }
-      .playlist .playlist-wrapper .song-item .song-number {
-        opacity: 0.8;
-        font-size: 28px;
+
+.playlist-wrapper {
+  background: rgba(0, 0, 0, 0.25); }
+  .playlist-wrapper .playlist-title {
+    padding-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fbfcff;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; }
+  .playlist-wrapper .song-item {
+    font-family: Verdana, Geneva, sans-serif; }
+    .playlist-wrapper .song-item .song-number {
+      opacity: 0.8;
+      font-size: 28px;
+      display: inline;
+      font-style: italic; }
+    .playlist-wrapper .song-item .full-song-name {
+      font-size: 20px;
+      display: inline; }
+      .playlist-wrapper .song-item .full-song-name .song-name {
+        display: inline;
+        font-weight: bold; }
+      .playlist-wrapper .song-item .full-song-name .song-by {
+        font-size: 19px;
         display: inline;
         font-style: italic; }
-      .playlist .playlist-wrapper .song-item .full-song-name {
-        font-size: 20px;
+      .playlist-wrapper .song-item .full-song-name .song-by-desktop {
+        padding-left: 2px;
+        padding-right: 2px; }
+      .playlist-wrapper .song-item .full-song-name .artist-name {
         display: inline; }
-        .playlist .playlist-wrapper .song-item .full-song-name .song-name {
-          display: inline;
-          font-weight: bold; }
-        .playlist .playlist-wrapper .song-item .full-song-name .song-by {
-          font-size: 19px;
-          display: inline;
-          font-style: italic; }
-        .playlist .playlist-wrapper .song-item .full-song-name .song-by-desktop {
-          padding-left: 2px;
-          padding-right: 2px; }
-        .playlist .playlist-wrapper .song-item .full-song-name .artist-name {
-          display: inline; }
-    .playlist .playlist-wrapper .item-list {
-      box-shadow: -7px -21px 0px -20px white; }
-    .playlist .playlist-wrapper .hover-icon {
-      display: none; }
-    .playlist .playlist-wrapper .hover-item:hover .hover-icon {
-      display: block; }
-    .playlist .playlist-wrapper .play-button {
-      cursor: pointer; }
+  .playlist-wrapper .item-list {
+    box-shadow: -7px -21px 0px -20px white; }
+  .playlist-wrapper .hover-icon {
+    display: none; }
+  .playlist-wrapper .hover-item:hover .hover-icon {
+    display: block; }
+  .playlist-wrapper .play-button {
+    cursor: pointer; }
 
-.container-with-overflow-y {
+.wrapper-with-scroll {
   overflow-y: auto; }
+
+.playlist-wrapper-horizontal {
+  margin: 12px; }
+
+.playlist-wrapper-vertical {
+  margin: 6px; }

@@ -13,8 +13,8 @@ function dpGenreWidgetManager(dpSongsListLogic) {
     return directive;
 }
 
-dpGenreWidgetManagerController.$inject = ["$scope", "$element", "dpSongsListLogic"];
-function dpGenreWidgetManagerController($scope, $element, dpSongsListLogic) {
+dpGenreWidgetManagerController.$inject = ["$scope", "$element", 'dpAppUtils', "dpSongsListLogic"];
+function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsListLogic) {
 
     $scope.selectedGenres = dpSongsListLogic.getSelectedGenres();
     $scope.allGenres = dpSongsListLogic.geAllGenres();
@@ -58,7 +58,7 @@ function dpGenreWidgetManagerController($scope, $element, dpSongsListLogic) {
             setGenreAttVisibilty(genreToShow, true);
         }
 
-         var hiddenGenres = dpSongsListLogic.getHiddenGenres();
+        var hiddenGenres = dpSongsListLogic.getHiddenGenres();
 
         //set hidden genres to be hide
         for (var j = 0; j < hiddenGenres.length; j++) {
@@ -99,6 +99,11 @@ function dpGenreWidgetManagerController($scope, $element, dpSongsListLogic) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
     };
 
-
+    $scope.getGenreManagerWarpperClass = function () {
+        if (dpAppUtils.isDesktop()) {
+            return "genre-manager-wrapper-horizontal";
+        }
+        return "genre-manager-wrapper-vertical";
+    };
 
 }

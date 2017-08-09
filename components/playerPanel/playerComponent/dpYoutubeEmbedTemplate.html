@@ -1,8 +1,9 @@
-<!--<div class="youtube-embed-component" layout="column" layout-align="start center">-->
+<div class="player-wrapper" ng-class="getPlayerWarpperClass()">
     <div class="youtube-embed-container">
         <div class="player" id="player"></div>
     </div>
-    <!-- <div class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()"> -->
-        <div class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()" ng-include src="getPlayingBarTempByDevice()"></div>
-    </div>
-<!--</div>-->
+    <!-- <div class="current-playing-bar" layout="row" layout-align="space-between center" ng-style="getBarWidth()" ng-include src="getPlayingBarTempByDevice()"></div> -->
+    <div class="current-playing-bar" layout="row" layout-align="space-between center" ng-include src="getPlayingBarTempByDevice()"></div>
+    
+</div>
+</div>
