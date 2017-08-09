@@ -348,9 +348,12 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		var calculatedPlayerWidth = screenWidth * playerwidthReducerFactor;
 		if (screenWidth > calculatedPlayerWidth) {
 			return calculatedPlayerWidth > maxPlayerWidth ? maxPlayerWidth : calculatedPlayerWidth;
+			
 		}
 		return screenWidth;
 	};
+
+	
 
 	$scope.getBarWidth = function () {
 		var playerWidth = $scope.getPlayerWidth();

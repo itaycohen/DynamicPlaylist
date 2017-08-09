@@ -97,7 +97,8 @@ body {
 .genre-manager-wrapper-horizontal {
   margin-left: 12px;
   margin-top: 12px;
-  margin-bottom: 12px; }
+  margin-bottom: 12px;
+  overflow-y: auto; }
 
 .genre-manager-wrapper-vertical {
   margin-left: 6px;

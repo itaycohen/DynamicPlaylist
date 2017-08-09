@@ -10,6 +10,9 @@
 
     //different side
     margin-bottom: 12px;
+
+    // adding scroll bar when the window heigt is too small for all the genres
+    overflow-y: auto;
 }
 
 .genre-manager-wrapper-vertical {
