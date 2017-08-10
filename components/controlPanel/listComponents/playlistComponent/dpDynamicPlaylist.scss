@@ -56,7 +56,27 @@
     .play-button {
         cursor: pointer;
     }
-} // making the playlist to be scrollable (only in desktop)
+}
+
+.playlist-wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.playlist-wrapper::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: hsla(0, 0%, 100%, .23);
+}
+
+.playlist-wrapper::-webkit-scrollbar-track {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: hsla(0, 0%, 100%, .15);
+}
+
+// making the playlist to be scrollable (only in desktop)
 //big view - row layout (not small as in mobile - row)
 // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
 .wrapper-with-scroll {
@@ -70,3 +90,38 @@
 .playlist-wrapper-vertical {
     margin: 6px;
 }
+
+.inf-icon svg {
+    fill: white;
+}
+
+#bars {
+    height: 30px;
+    position: absolute;
+}
+
+
+.bar {
+   background: white;
+    bottom: 0px;
+    position: absolute;
+    width: 4px;      
+    animation: sound 0ms -950ms linear infinite alternate;
+}
+
+@keyframes sound {
+    0% {
+       opacity: .35;
+        height: 3px; 
+    }
+    100% {
+        opacity: 1;       
+        height: 26px;        
+    }
+}
+
+.bar:nth-child(1)  { left: 1px; animation-duration: 524ms; }
+.bar:nth-child(2)  { left: 6px; animation-duration: 483ms; }
+.bar:nth-child(3)  { left: 11px; animation-duration: 457ms; }
+.bar:nth-child(4)  { left: 16px; animation-duration: 508ms; }
+.bar:nth-child(5)  { left: 21px; animation-duration: 450ms; }

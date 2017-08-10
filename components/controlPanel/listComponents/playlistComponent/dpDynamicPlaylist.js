@@ -43,6 +43,18 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils) {
         loadNextSong();
     };
 
+    // for sound bars
+    $rootScope.isPlayerPlaying = function () {
+        if (typeof YT !== 'undefined' && typeof YT.get === "function") {
+            var playerRef = YT.get("player");
+            if (typeof playerRef.getPlayerState === "function") {
+                var playerState = typeof playerRef !== "undefined" ? playerRef.getPlayerState() : 2;
+                return playerState === 1;
+            }
+        }
+        return false;
+    };
+
     function loadNextSong() {
         var playerRef = YT.get("player");
         playerRef.videoId = dpSongsListLogic.getNextSongId();

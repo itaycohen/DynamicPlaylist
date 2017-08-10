@@ -94,16 +94,31 @@ body {
 .genre-manager-wrapper {
   background: rgba(0, 0, 0, 0.25); }
 
+.genre-manager-wrapper-vertical {
+  margin-left: 6px;
+  margin-top: 6px;
+  margin-right: 6px; }
+
 .genre-manager-wrapper-horizontal {
   margin-left: 12px;
   margin-top: 12px;
   margin-bottom: 12px;
   overflow-y: auto; }
 
-.genre-manager-wrapper-vertical {
-  margin-left: 6px;
-  margin-top: 6px;
-  margin-right: 6px; }
+.genre-manager-wrapper-horizontal::-webkit-scrollbar {
+  width: 8px; }
+
+.genre-manager-wrapper-horizontal::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.23); }
+
+.genre-manager-wrapper-horizontal::-webkit-scrollbar-track {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: rgba(255, 255, 255, 0.15); }
 
 .genre-selector-container {
   padding-top: 3px; }
@@ -218,6 +233,21 @@ body {
   .playlist-wrapper .play-button {
     cursor: pointer; }
 
+.playlist-wrapper::-webkit-scrollbar {
+  width: 8px; }
+
+.playlist-wrapper::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.23); }
+
+.playlist-wrapper::-webkit-scrollbar-track {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: rgba(255, 255, 255, 0.15); }
+
 .wrapper-with-scroll {
   overflow-y: auto; }
 
@@ -226,3 +256,45 @@ body {
 
 .playlist-wrapper-vertical {
   margin: 6px; }
+
+.inf-icon svg {
+  fill: white; }
+
+#bars {
+  height: 30px;
+  position: absolute; }
+
+.bar {
+  background: white;
+  bottom: 0px;
+  position: absolute;
+  width: 4px;
+  animation: sound 0ms -950ms linear infinite alternate; }
+
+@keyframes sound {
+  0% {
+    opacity: .35;
+    height: 3px; }
+  100% {
+    opacity: 1;
+    height: 26px; } }
+
+.bar:nth-child(1) {
+  left: 1px;
+  animation-duration: 524ms; }
+
+.bar:nth-child(2) {
+  left: 6px;
+  animation-duration: 483ms; }
+
+.bar:nth-child(3) {
+  left: 11px;
+  animation-duration: 457ms; }
+
+.bar:nth-child(4) {
+  left: 16px;
+  animation-duration: 508ms; }
+
+.bar:nth-child(5) {
+  left: 21px;
+  animation-duration: 450ms; }

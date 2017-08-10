@@ -1,8 +1,30 @@
 <div class="playlist" flex layout="column">
     <div class="playlist-wrapper wrapper-with-scroll playlist-wrapper-horizontal">
+        <div class="playlist-title"> Playing Now </div>
+        <md-list-item class="md-2-line item-list">
+            <div class="md-list-item-text" layout="column">
+                <div class="song-item">
+                    <div class="full-song-name">
+                        <div class="song-name">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</div>
+                        <div class="song-by song-by-desktop">by</div>
+                        <div class="artist-name"> {{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="md-avatar" >
+                <div id="bars" ng-show="isPlayerPlaying()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </md-list-item>
+
         <div class="playlist-title"> Up Next </div>
-        <div ng-repeat="songIndex in songsIndexesList | limitTo:12">
-            <md-list-item  class="md-2-line hover-item item-list">
+        <div ng-repeat="songIndex in songsIndexesList | limitTo:10">
+            <md-list-item class="md-2-line hover-item item-list">
                 <div class="md-list-item-text" layout="column">
                     <div class="song-item">
                         <div class="song-number">
@@ -15,8 +37,20 @@
                         </div>
                     </div>
                 </div>
-                <img src="media/icons/ic_play_arrow_white_36px.svg" ng-click="playSelectedSong(songIndex)" class="play-button md-avatar hover-icon">  
+                <img src="media/icons/ic_play_arrow_white_36px.svg" ng-click="playSelectedSong(songIndex)" class="play-button md-avatar hover-icon">
             </md-list-item>
         </div>
+
+        <md-list-item class="md-2-line item-list">
+            <div class="md-list-item-text inf-icon" layout="row" layout-align="center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                    <path d="M5.428 6c6.018 0 8.414 10 13.143 10 2.114 0 3.48-1.578 3.48-4s-1.366-4-3.48-4c-1.665
+                        0-2.861 1.069-4.017 2.395l-1.244-1.562c1.499-1.532 3.049-2.833 5.26-2.833 3.198 0 5.43 2.455 5.43
+                        6s-2.232 6-5.43 6c-6.003 0-8.406-10-13.142-10-2.113 0-3.479 1.578-3.479 4s1.365 4 3.479 4c1.664
+                        0 2.86-1.068 4.015-2.392l1.244 1.561c-1.499 1.531-3.05 2.831-5.259 2.831-3.197 0-5.428-2.455-5.428-6s2.231-6 5.428-6z"
+                    />
+                </svg>
+            </div>
+        </md-list-item>
     </div>
 </div>
