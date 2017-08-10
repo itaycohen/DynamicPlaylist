@@ -399,7 +399,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 
 
 	$scope.getPlayingBarTempByDevice = function () {
-		if (dpAppUtils.isSmartphone()) {
+		if (dpAppUtils.isMobile()) {
 			return "components/playerPanel/playerComponent/playingBarTemplateSmall.html";
 		}
 		return "components/playerPanel/playerComponent/playingBarTemplateBig.html";

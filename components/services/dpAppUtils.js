@@ -20,7 +20,7 @@ function dpAppUtils($mdMedia) {
     }
 
     function isMobile() {
-        return $mdMedia('max-width: 959');
+        return $mdMedia('max-width: 1024px');
     }
 
     function isDesktop() {
