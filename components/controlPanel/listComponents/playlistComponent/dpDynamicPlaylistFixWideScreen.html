@@ -1,6 +1,6 @@
 <div class="playlist" flex layout="column">
     <div class="playlist-wrapper wrapper-with-scroll playlist-wrapper-horizontal">
-        <div class="playlist-title"> Playing Now </div>
+        <div class="playlist-title"> Now Playing </div>
         <md-list-item class="md-2-line item-list">
             <div class="md-list-item-text" layout="column">
                 <div class="song-item">
@@ -22,7 +22,7 @@
             </div>
         </md-list-item>
 
-        <div class="playlist-title"> Up Next </div>
+        <div class="playlist-title"> Next Up </div>
         <div ng-repeat="songIndex in songsIndexesList | limitTo:10">
             <md-list-item class="md-2-line hover-item item-list">
                 <div class="md-list-item-text" layout="column">

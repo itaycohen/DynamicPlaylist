@@ -263,20 +263,20 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // remove songIndex out from songsIndexesList
         // $rootScope.songsIndexesList.shift();
         // cut orderOfSong=numberOf elements from the array from index 0 
-        // var removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
-        // var i, len, playedSongIndex;
+        var removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
+        var i, len, playedSongIndex;
 
 
-        // $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-        // $rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
+        //$rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
+        //$rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
 
-        // for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
-        //     // note: this index can be of song that was skipped by click on other song play button
-        //     playedSongIndex = removedSongsIndexes[i];
-        //     // insert to alreadyPlayedSongsIndexesListSingleCycle
-        //     $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
-        //     $rootScope.alreadyPlayedSongsIndexesListFull.push(playedSongIndex);
-        // }
+        for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
+            // note: this index can be of song that was skipped by click on other song play button
+            playedSongIndex = removedSongsIndexes[i];
+            // insert to alreadyPlayedSongsIndexesListSingleCycle
+            $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
+            $rootScope.alreadyPlayedSongsIndexesListFull.push(playedSongIndex);
+        }
 
         updateSongsIndexesList();
 
