@@ -18,8 +18,8 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
 
 app.config(function ($mdThemingProvider) {
     $mdThemingProvider.theme('default')
-        .primaryPalette('cyan')
-        .accentPalette('cyan');
+        .primaryPalette('deep-purple')
+        .accentPalette('deep-purple');
 });
 
 app.controller('appController', appController);
