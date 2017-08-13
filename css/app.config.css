@@ -121,7 +121,7 @@ body {
   background: rgba(255, 255, 255, 0.15); }
 
 .genre-selector-container {
-  padding-top: 3px; }
+  padding-top: 8px; }
   .genre-selector-container label {
     color: #c9d6ff;
     font-size: 21px;
@@ -210,7 +210,6 @@ body {
       display: inline;
       font-style: italic; }
     .playlist-wrapper .song-item .full-song-name {
-      font-size: 20px;
       display: inline; }
       .playlist-wrapper .song-item .full-song-name .song-name {
         display: inline;
@@ -224,8 +223,17 @@ body {
         padding-right: 2px; }
       .playlist-wrapper .song-item .full-song-name .artist-name {
         display: inline; }
+    .playlist-wrapper .song-item .song-number-big {
+      padding-right: 7px; }
+    .playlist-wrapper .song-item .full-song-name-big {
+      font-size: 18px; }
+    .playlist-wrapper .song-item .full-song-name-small {
+      font-size: 16px; }
   .playlist-wrapper .item-list {
-    box-shadow: -7px -21px 0px -20px white; }
+    box-shadow: -7px -21px 0px -20px white;
+    cursor: pointer; }
+    .playlist-wrapper .item-list .md-button.md-default-theme:not([disabled]):hover, .playlist-wrapper .item-list .md-button:not([disabled]):hover {
+      background-color: transparent; }
   .playlist-wrapper .hover-icon {
     display: none; }
   .playlist-wrapper .hover-item:hover .hover-icon {
