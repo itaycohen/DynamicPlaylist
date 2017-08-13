@@ -22,7 +22,6 @@
             font-style: italic;
         }
         .full-song-name {
-            font-size: 20px;
             display: inline;
             .song-name {
                 display: inline;
@@ -41,9 +40,30 @@
                 display: inline;
             }
         }
+
+        .song-number-big {
+            padding-right: 7px;
+        }
+
+        .full-song-name-big {
+            font-size: 18px;
+            
+
+        }
+
+        .full-song-name-small {
+
+            font-size: 16px;
+
+        }
     }
     .item-list {
         box-shadow: -7px -21px 0px -20px white;
+        cursor: pointer;
+
+        .md-button.md-default-theme:not([disabled]):hover, .md-button:not([disabled]):hover {
+            background-color: transparent;;
+        }
     }
     .hover-icon {
         display: none;
