@@ -19,8 +19,9 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
 app.config(function ($mdThemingProvider) {
     $mdThemingProvider.theme('default')
         .primaryPalette('deep-purple')
-        .accentPalette('deep-purple');
+        .accentPalette('deep-purple'); 
 });
+    
 
 app.controller('appController', appController);
 appController.$inject = ["$scope", "$mdMedia", "$mdDialog", 'dpAppUtils'];
