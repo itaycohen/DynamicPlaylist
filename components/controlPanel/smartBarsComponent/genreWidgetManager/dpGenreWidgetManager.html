@@ -15,11 +15,14 @@
     </div>
 
     <div class="genre-widget-area" layout="column" layout-align="start stretch">
-        <dp-genre-widget genre="house" ng-if="showHouse"></dp-genre-widget>
+        <!-- TODO change to ngrepeat  -->
+         <dp-genre-widget genre="house" ng-if="showHouse"></dp-genre-widget>
         <dp-genre-widget genre="pop" ng-if="showPop"></dp-genre-widget>
         <dp-genre-widget genre="rb" ng-if="showRb"></dp-genre-widget>
         <dp-genre-widget genre="ir" ng-if="showIr"></dp-genre-widget>
-        <dp-genre-widget genre="soul" ng-if="showSoul"></dp-genre-widget>
+        <dp-genre-widget genre="soul" ng-if="showSoul"></dp-genre-widget> 
+
+        <!-- <dp-genre-widget ng-repeat="thisGenre in allGenres" genre=thisGenre ng-if="shouldShow(thisGenre)"></dp-genre-widget>  -->
     </div>
 
 </div>

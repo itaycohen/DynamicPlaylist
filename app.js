@@ -4,24 +4,30 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpSongsListLoaderService',
     'dpSongsListUtils',
     'dpSongsListLogic',
-    'dpPlayerPanelService',
     'dpYoutubeEmbedComponent',
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
-    'dpDynamicPlaylist' 
+    'dpDynamicPlaylist'
 ]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
-    $rootScope.rawSongsList = dpSongsListLoaderService.getSongsList();
-    dpSongsListLogic.initCalcSongsList();
+
+    dpSongsListLoaderService.loadSongsList().then(
+        function (data) {
+            $rootScope.rawSongsList = data;
+            dpSongsListLogic.initCalcSongsList();
+            
+        }
+    );
+    
 }]);
 
 app.config(function ($mdThemingProvider) {
     $mdThemingProvider.theme('default')
         .primaryPalette('deep-purple')
-        .accentPalette('deep-purple'); 
+        .accentPalette('deep-purple');
 });
-    
+
 
 app.controller('appController', appController);
 appController.$inject = ["$scope", "$mdMedia", "$mdDialog", 'dpAppUtils'];
