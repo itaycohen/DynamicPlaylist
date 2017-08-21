@@ -17,6 +17,7 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
             dpSongsListLogic.initCalcSongsList();
         }
     );
+    //TODO test
     
 }]);
 
