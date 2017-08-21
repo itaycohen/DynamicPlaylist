@@ -1,0 +1,1067 @@
+[
+    {
+        "index": 0,
+        "id": "oyEuk8j8imI",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Love Yourself"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 1,
+            "pop": 5,
+            "rb": 0,
+            "soul": 4
+        }
+    },
+    {
+        "index": 1,
+        "id": "9NwZdxiLvGo",
+        "details": {
+            "artist": "Skrillex & Diplo",
+            "songName": "To Ü ft AlunaGeorge"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 2,
+        "id": "lp-EO5I60KA",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Thinking Out Loud"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 3,
+            "pop": 4,
+            "rb": 0,
+            "soul": 5
+        }
+    },
+    {
+        "index": 3,
+        "id": "fRh_vgS2dFE",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Sorry"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 1,
+            "pop": 5,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 4,
+        "id": "kOkQ4T5WO9E",
+        "details": {
+            "artist": "Calvin Harris ft. Rihanna",
+            "songName": "This Is What You Came For"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 1,
+            "soul": 2
+        }
+    },
+    {
+        "index": 5,
+        "id": "ebXbLfLACGM",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "Summer"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 6,
+        "id": "JRfuAukYTKg",
+        "details": {
+            "artist": "David Guetta ft. Sia",
+            "songName": "Titanium"
+        },
+        "genreWeights": {
+            "house": 4,
+            "ir": 0,
+            "pop": 5,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 7,
+        "id": "PVzljDmoPVs",
+        "details": {
+            "artist": "David Guetta ft. Sia",
+            "songName": "She Wolf (Falling To Pieces)"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 8,
+        "id": "UtF6Jej8yb4",
+        "details": {
+            "artist": "Avicii",
+            "songName": "The Nights"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 9,
+        "id": "YxIiPLVR6NA",
+        "details": {
+            "artist": "Avicii",
+            "songName": "Hey Brother"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 11,
+        "id": "papuvlVeZg8",
+        "details": {
+            "artist": "Clean Bandit",
+            "songName": "Rockabye ft. Sean Paul & Anne-Marie"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 12,
+        "id": "L3wKzyIN1yk",
+        "details": {
+            "artist": "Human",
+            "songName": "Rag'n'Bone Man"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 2,
+            "pop": 4,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 13,
+        "id": "59Q_lhgGANc",
+        "details": {
+            "artist": "Jain",
+            "songName": "Makeba"
+        },
+        "genreWeights": {
+            "house": 3,
+            "ir": 2,
+            "pop": 5,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 14,
+        "id": "nYh-n7EOtMA",
+        "details": {
+            "artist": "Sia",
+            "songName": "Cheap Thrills"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 5,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 15,
+        "id": "iOxzG3jjFkY",
+        "details": {
+            "artist": "WILLY WILLIAM",
+            "songName": "Ego"
+        },
+        "genreWeights": {
+            "house": 4,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 16,
+        "id": "euCqAq6BRa4",
+        "details": {
+            "artist": "DJ Snake",
+            "songName": "Let Me Love You ft. Justin Bieber"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 5,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 17,
+        "id": "-2U0Ivkn2Ds",
+        "details": {
+            "artist": "A Great Big World, Christina Aguilera",
+            "songName": "Say Something"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 5
+        }
+    },
+    {
+        "index": 18,
+        "id": "RhU9MZ98jxo",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Paris Lyric"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 2,
+            "pop": 2,
+            "rb": 0,
+            "soul": 4
+        }
+    },
+    {
+        "index": 20,
+        "id": "7Qp5vcuMIlk",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Castle On The Hill"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 3,
+            "pop": 1,
+            "rb": 0,
+            "soul": 4
+        }
+    },
+    {
+        "index": 21,
+        "id": "qFLhGq0060w",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "I Feel It Coming ft. Daft Punk"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 4,
+            "rb": 4,
+            "soul": 2
+        }
+    },
+    {
+        "index": 22,
+        "id": "hn3wJ1_1Zsg",
+        "details": {
+            "artist": "LP",
+            "songName": "Lost On You"
+        },
+        "genreWeights": {
+            "house": 3,
+            "ir": 1,
+            "pop": 4,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 23,
+        "id": "GzU8KqOY8YA",
+        "details": {
+            "artist": "Sean Paul",
+            "songName": "No Lie ft. Dua Lipa"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 2,
+            "rb": 4,
+            "soul": 0
+        }
+    },
+    {
+        "index": 24,
+        "id": "IcrbM1l_BoI",
+        "details": {
+            "artist": "Avicii",
+            "songName": "Wake Me Up"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 25,
+        "id": "UqyT8IEBkvY",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "24K Magic"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 5,
+            "rb": 2,
+            "soul": 1
+        }
+    },
+    {
+        "index": 26,
+        "id": "b4Bj7Zb-YD4",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "My Way"
+        },
+        "genreWeights": {
+            "house": 4,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 27,
+        "id": "sG6aWhZnbfw",
+        "details": {
+            "artist": "Sia",
+            "songName": "The Greatest ft. Kendrick Lamar"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 28,
+        "id": "UprcpdwuwCg",
+        "details": {
+            "artist": "twenty one pilots",
+            "songName": "Heathens"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 2,
+            "pop": 3,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 29,
+        "id": "450p7goxZqg",
+        "details": {
+            "artist": "John Legend",
+            "songName": "All of Me"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 1,
+            "pop": 1,
+            "rb": 0,
+            "soul": 5
+        }
+    },
+    {
+        "index": 30,
+        "id": "ru0K8uYEZWw",
+        "details": {
+            "artist": "Justin Timberlake",
+            "songName": "CAN'T STOP THE FEELING!"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 31,
+        "id": "Io0fBr1XBUA",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Don't Let Me Down ft. Daya"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 4,
+            "pop": 4,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 32,
+        "id": "MYSVMgRr6pw",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Take Me To Church"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 1,
+            "pop": 2,
+            "rb": 0,
+            "soul": 4
+        }
+    },
+    {
+        "index": 33,
+        "id": "uEJuoEs1UxY",
+        "details": {
+            "artist": "Bebe Rexha",
+            "songName": "I Got You"
+        },
+        "genreWeights": {
+            "house": 4,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 34,
+        "id": "PT2_F-1esPk",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Closer (Lyric) ft. Halsey"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 3,
+            "pop": 2,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 35,
+        "id": "kJQP7kiw5Fk",
+        "details": {
+            "artist": "Luis Fonsi",
+            "songName": "Despacito ft. Daddy Yankee"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 4,
+            "rb": 1,
+            "soul": 3
+        }
+    },
+    {
+        "index": 36,
+        "id": "1LXsm9y-z3I",
+        "details": {
+            "artist": "Matt Simons",
+            "songName": "Catch & Release"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 37,
+        "id": "BR_DFMUzX4E",
+        "details": {
+            "artist": "Armin van Buuren feat. Trevor Guthrie",
+            "songName": "This Is What It Feels Like"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 38,
+        "id": "7F37r50VUTQ",
+        "details": {
+            "artist": "ZAYN, Taylor Swift",
+            "songName": "I Don’t Wanna Live Forever"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 3,
+            "rb": 1,
+            "soul": 3
+        }
+    },
+    {
+        "index": 39,
+        "id": "34Na4j8AVgA",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Starboy ft. Daft Punk"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 3,
+            "rb": 4,
+            "soul": 3
+        }
+    },
+    {
+        "index": 40,
+        "id": "OPf0YbXqDm0",
+        "details": {
+            "artist": "Mark Ronson",
+            "songName": "Uptown Funk ft. Bruno Mars"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 4,
+            "rb": 1,
+            "soul": 2
+        }
+    },
+    {
+        "index": 41,
+        "id": "hT_nvWreIhg",
+        "details": {
+            "artist": "OneRepublic",
+            "songName": "Counting Stars"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 42,
+        "id": "2zNSgSzhBfM",
+        "details": {
+            "artist": "MACKLEMORE & RYAN LEWIS",
+            "songName": "CAN'T HOLD US"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 43,
+        "id": "QK8mJJJvaes",
+        "details": {
+            "artist": "MACKLEMORE & RYAN LEWIS",
+            "songName": "THRIFT SHOP FEAT. WANZ"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 4,
+            "rb": 2,
+            "soul": 0
+        }
+    },
+    {
+        "index": 44,
+        "id": "jGflUbPQfW8",
+        "details": {
+            "artist": "OMI",
+            "songName": "Cheerleader (Felix Jaehn Remix)"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 4,
+            "rb": 1,
+            "soul": 2
+        }
+    },
+    {
+        "index": 45,
+        "id": "m-M1AtrxztU",
+        "details": {
+            "artist": "Clean Bandit",
+            "songName": "Rather Be ft. Jess Glynne"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 1,
+            "pop": 3,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 46,
+        "id": "YqeW9_5kURI",
+        "details": {
+            "artist": "Major Lazer & DJ Snake",
+            "songName": "Lean On (feat. MØ)"
+        },
+        "genreWeights": {
+            "house": 3,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 47,
+        "id": "ktvTqknDobU",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Radioactive"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 2,
+            "pop": 3,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 48,
+        "id": "pUjE9H8QlA4",
+        "details": {
+            "artist": "Mr. Probz",
+            "songName": "Waves (Robin Schulz Remix Radio Edit)"
+        },
+        "genreWeights": {
+            "house": 3,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 49,
+        "id": "DuFUtL8zUAk",
+        "details": {
+            "artist": "Martin Garrix",
+            "songName": "Animals"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 0,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 50,
+        "id": "9Sc-ir2UwGU",
+        "details": {
+            "artist": "Kygo",
+            "songName": "Firestone ft. Conrad Sewell"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 3,
+            "pop": 2,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 51,
+        "id": "foE1mO2yM04",
+        "details": {
+            "artist": "Mike Posner",
+            "songName": "I Took A Pill In Ibiza (Seeb Remix)"
+        },
+        "genreWeights": {
+            "house": 4,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 52,
+        "id": "pXRviuL6vMY",
+        "details": {
+            "artist": "twenty one pilots",
+            "songName": "Stressed Out"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 2,
+            "pop": 3,
+            "rb": 1,
+            "soul": 1
+        }
+    },
+    {
+        "index": 53,
+        "id": "60ItHLz5WEA",
+        "details": {
+            "artist": "Alan Walker",
+            "songName": "Faded"
+        },
+        "genreWeights": {
+            "house": 5,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 54,
+        "id": "fyaI4-5849w",
+        "details": {
+            "artist": "DJ Khaled",
+            "songName": "Wild Thoughts ft. Rihanna, Bryson Tiller"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 3,
+            "rb": 5,
+            "soul": 0
+        }
+    },
+    {
+        "index": 55,
+        "id": "nfs8NYg7yQM",
+        "details": {
+            "artist": "Charlie Puth",
+            "songName": "Attention"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 1,
+            "pop": 5,
+            "rb": 0,
+            "soul": 4
+        }
+    },
+    {
+        "index": 56,
+        "id": "ozv4q2ov3Mk",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "Feels ft. Pharrell Williams, Katy Perry, Big Sean"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 1,
+            "pop": 5,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 57,
+        "id": "JGwWNGJdvx8",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Shape of You"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 1,
+            "pop": 5,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 58,
+        "id": "CTFtOOh47oo",
+        "details": {
+            "artist": "French Montana",
+            "songName": "Unforgettable ft. Swae Lee"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 3,
+            "rb": 5,
+            "soul": 0
+        }
+    },
+    {
+        "index": 59,
+        "id": "7wtfhZwyrcc",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Believer"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 5,
+            "pop": 3,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 60,
+        "id": "FM7MFYoylVs",
+        "details": {
+            "artist": "The Chainsmokers & Coldplay",
+            "songName": "Something Just Like This"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 2,
+            "pop": 5,
+            "rb": 0,
+            "soul": 3
+        }
+    },
+    {
+        "index": 61,
+        "id": "weeI1G46q0o",
+        "details": {
+            "artist": "DJ Khaled",
+            "songName": "I'm the One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 3,
+            "rb": 5,
+            "soul": 1
+        }
+    },
+    {
+        "index": 62,
+        "id": "NGLxoKOvzu4",
+        "details": {
+            "artist": "Jason Derulo",
+            "songName": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 3,
+            "rb": 5,
+            "soul": 0
+        }
+    },
+    {
+        "index": 63,
+        "id": "aatr_2MstrI",
+        "details": {
+            "artist": "Clean Bandit",
+            "songName": "Symphony feat. Zara Larsson"
+        },
+        "genreWeights": {
+            "house": 3.5,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 1
+        }
+    },
+    {
+        "index": 64,
+        "id": "xvZqHgFz51I",
+        "details": {
+            "artist": "Future",
+            "songName": "Mask Off"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 0,
+            "rb": 5,
+            "soul": 1
+        }
+    },
+    {
+        "index": 65,
+        "id": "PKB4cioGs98",
+        "details": {
+            "artist": "Jax Jones",
+            "songName": "You Don't Know Me ft. RAYE"
+        },
+        "genreWeights": {
+            "house": 4,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 66,
+        "id": "Y1_VsyLAGuk",
+        "details": {
+            "artist": "Burak Yeter",
+            "songName": "Tuesday ft. Danelle Sandoval"
+        },
+        "genreWeights": {
+            "house": 3,
+            "ir": 2,
+            "pop": 2,
+            "rb": 0,
+            "soul": 0
+        }
+    },
+    {
+        "index": 67,
+        "id": "9sg-A-eS6Ig",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "SUBEME LA RADIO ft. Descemer Bueno, Zion & Lennox"
+        },
+        "genreWeights": {
+            "house": 2,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 68,
+        "id": "0yW7w8F2TVA",
+        "details": {
+            "artist": "James Arthur",
+            "songName": "Say You Won't Let Go"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 2,
+            "rb": 0,
+            "soul": 5
+        }
+    },
+    {
+        "index": 69,
+        "id": "PMivT7MJ41M",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "That’s What I Like"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 4,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 70,
+        "id": "tvTRZJ-4EyI",
+        "details": {
+            "artist": "Kendrick Lamar",
+            "songName": "HUMBLE"
+        },
+        "genreWeights": {
+            "house": 0,
+            "ir": 0,
+            "pop": 1,
+            "rb": 5,
+            "soul": 0
+        }
+    },
+    {
+        "index": 71,
+        "id": "6Mgqbai3fKo",
+        "details": {
+            "artist": "Shakira",
+            "songName": "Chantaje ft. Maluma"
+        },
+        "genreWeights": {
+            "house": 1,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 2
+        }
+    },
+    {
+        "index": 72,
+        "id": "h--P8HzYZ74",
+        "details": {
+            "artist": "Zedd, Alessia Cara",
+            "songName": "Stay "
+        },
+        "genreWeights": {
+            "house": 3.8,
+            "ir": 0,
+            "pop": 3,
+            "rb": 0,
+            "soul": 0
+        }
+    }
+]
