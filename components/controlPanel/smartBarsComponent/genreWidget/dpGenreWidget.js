@@ -11,7 +11,6 @@ function dpGenreWidget($rootScope, dpSongsListLogic) {
         restrict: "E",
         scope: {
             genre: "@",
-
             // TODO - Ticket 001 
             //callback
             changeHandler: "&"
@@ -36,10 +35,6 @@ function dpGenreWidgetController($scope, dpSongsListLogic) {
         // $scope.changeHandler($scope.widgetValue);
         // updating dpGenreWidgetManager 
         $scope.$parent.updateSongIndexesList($scope.genre, $scope.widgetValue);
-    };
-
-    $scope.getGenreLabel = function () {
-        return dpSongsListLogic.getGenreLabel($scope.genre);
     };
 
     // TODO - Ticket 001 
