@@ -11,7 +11,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var isFirstCycle;
     var defaultGenres = ['House', 'Pop', 'R&B'];
     var allGenres = ['House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
-    var allGenresShort = ["house", "ir", "pop", "rb", "soul"];
 
     var service = {
         initCalcSongsList: initCalcSongsList,
@@ -29,7 +28,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
         updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
-        getGenreLabel: getGenreLabel,
         updateSongsIndexesList: updateSongsIndexesList,
 
 
@@ -47,7 +45,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     /** 								ALL LISTS - DOC
 	// --------------------------------------------------------------------------
 	// 1. songsList
-	// 		Structure: { index, id, genreWeights {house, pop, rb, ir, soul } }  
+	// 		Structure: { index, id, genreWeights {'House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'} }  
 	//		The original static songs list.
 	// 		This list will never changed, order is fix.
 
@@ -57,7 +55,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 	//		This list will be updated after each change in ranges.
 
 	// 3. genreWeightsDistancesList
-    // 		Structure: {index, avgDistance, genreWeightsDistance {house, pop, rb, ir, soul } }
+    // 		Structure: {index, avgDistance, genreWeightsDistance {'House', 'Indie-Rock', 'Pop', 'R&B', 'Soul' } }
 	// 		New Structure: {index, avgDistance, genreWeightsDistance [distances] }
 	// 		The calculated current genres weights ditances list - the absoulte distance between 
 	//		 the original song genre weight and the curent genre range value.
@@ -323,6 +321,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         }
         var sortedLowerGenreWeightsDistancesList = [];
         // special sort, songs that alrady played will be after songs that never played
+        var date = new Date();
+        var indexOfDay = date.getDay() * date.getMonth();
         lowerGenreWeightDistancesListToSort.sort(
             function (genreWeightsDistanceA, genreWeightsDistanceB) {
                 var dif;
@@ -338,7 +338,10 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                         return dif;
                     } else {
                         // in case the dif is the same we want to give each song unique order
-                        return genreWeightsDistanceA.index - genreWeightsDistanceB.index;
+                        // but we want it to be different from time to time
+                        var uniqueValueA = genreWeightsDistanceA.index % indexOfDay;
+                        var uniqueValueB = genreWeightsDistanceB.index % indexOfDay;
+                        return uniqueValueA - uniqueValueB;
                     }
                 }
             });
@@ -378,7 +381,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
             var currentSongGenreWeight = getSongSpecificGenreWeightByIndex(i, genre);
             var newGenreWeightDistance = Math.abs(currentSongGenreWeight - newWeightValue);
             // update the genre weight distances object with the new genre weight distances of the genre
-            var genreIndex = allGenresShort.indexOf(genre);
+            var genreIndex = allGenres.indexOf(genre);
             currentSongGenreWeightDistances.genreWeightsDistance[genreIndex] = newGenreWeightDistance;
 
             // calculate the avg ditances of all genres toghter 
@@ -402,12 +405,17 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function getSongSpecificGenreWeightByIndex(index, genre) {
-        return getSongGenreWeightsByIndex(index)[allGenresShort.indexOf(genre)];
+        var songGenreWeights = getSongGenreWeightsByIndex(index);
+        var indexOfGenre = allGenres.indexOf(genre);
+        var songSpecificGenreWeight = songGenreWeights[indexOfGenre];
+        return songSpecificGenreWeight;
     }
 
     // move to list utils
     function getSongGenreWeightsByIndex(index) {
-        return getSongObjectByIndex(index).g;
+        var songObject = getSongObjectByIndex(index);
+        var songGenreWeights = songObject.g;
+        return songGenreWeights;
     }
 
     //TODO - add list to signture
@@ -473,51 +481,14 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         //go over all hidden and set to zero their genre
         for (var i = 0; i < selectedGenres.length; i++) {
             selectedGenre = selectedGenres[i];
-            updateGenreWeightsDistancesList(getGenreShortName(selectedGenre), 3);
+            updateGenreWeightsDistancesList(selectedGenre, 3);
         }
         var hiddenGenres = getHiddenGenres();
         //go over all hidden and set to zero their genre
         for (var j = 0; j < hiddenGenres.length; j++) {
             hiddenGenre = hiddenGenres[j];
-            updateGenreWeightsDistancesList(getGenreShortName(hiddenGenre), 0);
+            updateGenreWeightsDistancesList(hiddenGenre, 0);
         }
     }
-
-    function getGenreLabel(genre) {
-        switch (genre) {
-            case "house":
-                return "House";
-            case "pop":
-                return "Pop";
-            case "rb":
-                return "R&B";
-            case "ir":
-                return "Indie-Rock";
-            case "soul":
-                return "Soul";
-            default:
-                return "Genre";
-
-        }
-    }
-
-    function getGenreShortName(genre) {
-        switch (genre) {
-            case "House":
-                return "house";
-            case "Pop":
-                return "pop";
-            case "R&B":
-                return "rb";
-            case "Indie-Rock":
-                return "ir";
-            case "Soul":
-                return "soul";
-            default:
-                return "Genre";
-
-        }
-    }
-
 
 }

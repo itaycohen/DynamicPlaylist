@@ -59,7 +59,7 @@ function appUtilsController($rootScope, dpAppUtils) {
     };
 
     function convertRawSongListToShrinkSongList() {
-        var mapOfGenres = ["house", "ir", "pop", "rb", "soul"];
+        var mapOfGenres = ['House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
         var rawSongList = $rootScope.songsRaw;
         var shrinkSongList = [];
         for (var i = 0; i < rawSongList.length; i++) {
@@ -83,7 +83,7 @@ function appUtilsController($rootScope, dpAppUtils) {
 
 
     function convertShrinkSongsListToRawSongsList() {
-        var mapOfGenres = ["house", "ir", "pop", "rb", "soul"];
+        var mapOfGenres = ['House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
         var shrinkList = $rootScope.songsShrink;
         var rawSongsList = [];
         for (var i = 0; i < shrinkList.length; i++) {
