@@ -1,6 +1,27 @@
 {
     "version": "0.1.0",
-    "command": "node-sass",
-    "isShellCommand": true,
-    "args": ["-w", "${workspaceRoot}/app.config.scss", "${workspaceRoot}/css/app.config.css"]
+    "tasks": [
+        {
+            "taskName": "mainCss",
+            "command": "node-sass",
+            "isShellCommand": true,
+            "isBuildCommand" : true,
+            "args": [
+                "-w",
+                "${workspaceRoot}/app.config.scss",
+                "${workspaceRoot}/css/app.config.css"
+            ]
+        }
+        // ,{
+        //     "taskName": "apputilsCss",
+        //     "command": "node-sass",
+        //     "isShellCommand": true,
+        //     "isBuildCommand" : true,
+        //     "args": [
+        //         "-w",
+        //         "${workspaceRoot}/utils/appUtils.scss",
+        //         "${workspaceRoot}/utils/appUtils.css"
+        //     ]
+        // }
+    ]
 }
