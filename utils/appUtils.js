@@ -31,6 +31,9 @@ app.controller('appUtilsController', appUtilsController);
 appUtilsController.$inject = ["$rootScope", 'dpAppUtils'];
 function appUtilsController($rootScope, dpAppUtils) {
 
+
+     $rootScope.currentNavItem = 'page1';
+
     // Adding Songs
 
     $rootScope.song = {
