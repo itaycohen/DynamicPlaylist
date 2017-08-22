@@ -360,6 +360,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     // TODO - conisder to move to differnt service
     function getNextSongId() {
+        console.log("getNextSongId");
         var songIndex = $rootScope.currentPlayingSongIndex;
         return $rootScope.rawSongsList[songIndex].id;
     }
