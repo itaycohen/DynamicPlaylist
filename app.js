@@ -11,6 +11,9 @@ var app = angular.module('dynamicPlaylistApp', [
 ]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
+
+    //$rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();
+
     dpSongsListLoaderService.loadSongsList().then(
         function (data) {
             console.log("finish loading data");
@@ -18,7 +21,6 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
             dpSongsListLogic.initCalcSongsList();
         }
     );
-    //TODO test
     
 }]);
 
