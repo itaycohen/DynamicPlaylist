@@ -12,15 +12,18 @@ var app = angular.module('dynamicPlaylistApp', [
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
 
-    //$rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();
+    //section 01
+    $rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();
+    dpSongsListLogic.initCalcSongsList();
 
-    dpSongsListLoaderService.loadSongsList().then(
-        function (data) {
-            console.log("finish loading data");
-            $rootScope.rawSongsList = data;
-            dpSongsListLogic.initCalcSongsList();
-        }
-    );
+    //section 02
+    // dpSongsListLoaderService.loadSongsList().then(
+    //     function (data) {
+    //         console.log("finish loading data");
+    //         $rootScope.rawSongsList = data;
+    //         dpSongsListLogic.initCalcSongsList();
+    //     }
+    // );
     
 }]);
 
