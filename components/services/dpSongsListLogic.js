@@ -9,8 +9,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var FAKE_GENRE_WEIGHT = 2.5;
     var WEIGHT_DISTANCE_FACTOR = 2;
     var isFirstCycle;
-    var defaultGenres = ['House', 'Pop', 'R&B'];
-    var allGenres = ['House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
+    //TODO - change to order of song [2,4,5]
+    var defaultGenres = ['Pop', 'R&B', 'Dance'];
+    // var allGenres = ['Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
+    //consider change to AB
+    var allGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+
 
     var service = {
         initCalcSongsList: initCalcSongsList,
@@ -45,7 +49,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     /** 								ALL LISTS - DOC
 	// --------------------------------------------------------------------------
 	// 1. songsList
-	// 		Structure: { index, id, genreWeights {'House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'} }  
+	// 		Structure: { index, id, genreWeights {'Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul'} }  
 	//		The original static songs list.
 	// 		This list will never changed, order is fix.
 
@@ -55,7 +59,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 	//		This list will be updated after each change in ranges.
 
 	// 3. genreWeightsDistancesList
-    // 		Structure: {index, avgDistance, genreWeightsDistance {'House', 'Indie-Rock', 'Pop', 'R&B', 'Soul' } }
+    // 		Structure: {index, avgDistance, genreWeightsDistance {'Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul' } }
 	// 		New Structure: {index, avgDistance, genreWeightsDistance [distances] }
 	// 		The calculated current genres weights ditances list - the absoulte distance between 
 	//		 the original song genre weight and the curent genre range value.
@@ -125,7 +129,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     // createGenreWeightsDistancesList
     // structure:
-    // index: i  / avgDistance: dis / genreWeightsDistance: {house:x, pop: y ...}
+    // index: i  / avgDistance: dis / genreWeightsDistance: {dance:x, pop: y ...}
     // new structure:
     // index: i  / avgDistance: dis / genreWeightsDistance: []
 
@@ -363,7 +367,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     // TODO - conisder to move to differnt service
     function getNextSongId() {
-        console.log("getNextSongId");
         var songIndex = $rootScope.currentPlayingSongIndex;
         return $rootScope.rawSongsList[songIndex].id;
     }

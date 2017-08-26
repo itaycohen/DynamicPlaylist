@@ -32,7 +32,9 @@ appUtilsController.$inject = ["$rootScope", 'dpAppUtils'];
 function appUtilsController($rootScope, dpAppUtils) {
 
 
-     $rootScope.currentNavItem = 'page1';
+    $rootScope.currentNavItem = 'page1';
+
+    var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop']
 
     // Adding Songs
 
@@ -62,7 +64,7 @@ function appUtilsController($rootScope, dpAppUtils) {
     };
 
     function convertRawSongListToShrinkSongList() {
-        var mapOfGenres = ['House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
+        // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
         var rawSongList = $rootScope.songsRaw;
         var shrinkSongList = [];
         for (var i = 0; i < rawSongList.length; i++) {
@@ -86,7 +88,7 @@ function appUtilsController($rootScope, dpAppUtils) {
 
 
     function convertShrinkSongsListToRawSongsList() {
-        var mapOfGenres = ['House', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
+        // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
         var shrinkList = $rootScope.songsShrink;
         var rawSongsList = [];
         for (var i = 0; i < shrinkList.length; i++) {
