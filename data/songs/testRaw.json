@@ -1,4 +1,4 @@
-[
+ [
     {
         "index": 0,
         "id": "oyEuk8j8imI",
@@ -7,11 +7,11 @@
             "songName": "Love Yourself"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 1,
-            "pop": 5,
-            "rb": 0,
-            "soul": 4
+            "House": 0,
+            "Indie-Rock": 1,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 4
         }
     },
     {
@@ -22,11 +22,11 @@
             "songName": "To Ü ft AlunaGeorge"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 0
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -37,11 +37,11 @@
             "songName": "Thinking Out Loud"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 3,
-            "pop": 4,
-            "rb": 0,
-            "soul": 5
+            "House": 0,
+            "Indie-Rock": 3,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 5
         }
     },
     {
@@ -52,11 +52,11 @@
             "songName": "Sorry"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 1,
-            "pop": 5,
-            "rb": 0,
-            "soul": 3
+            "House": 2,
+            "Indie-Rock": 1,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -67,11 +67,11 @@
             "songName": "This Is What You Came For"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 1,
-            "soul": 2
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Soul": 2
         }
     },
     {
@@ -82,11 +82,11 @@
             "songName": "Summer"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 0
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -97,11 +97,11 @@
             "songName": "Titanium"
         },
         "genreWeights": {
-            "house": 4,
-            "ir": 0,
-            "pop": 5,
-            "rb": 0,
-            "soul": 2
+            "House": 4,
+            "Indie-Rock": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -112,11 +112,11 @@
             "songName": "She Wolf (Falling To Pieces)"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -127,11 +127,11 @@
             "songName": "The Nights"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -142,11 +142,11 @@
             "songName": "Hey Brother"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -157,11 +157,11 @@
             "songName": "Rockabye ft. Sean Paul & Anne-Marie"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 0
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -172,11 +172,11 @@
             "songName": "Rag'n'Bone Man"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 2,
-            "pop": 4,
-            "rb": 0,
-            "soul": 3
+            "House": 0,
+            "Indie-Rock": 2,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -187,11 +187,11 @@
             "songName": "Makeba"
         },
         "genreWeights": {
-            "house": 3,
-            "ir": 2,
-            "pop": 5,
-            "rb": 0,
-            "soul": 2
+            "House": 3,
+            "Indie-Rock": 2,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -202,11 +202,11 @@
             "songName": "Cheap Thrills"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 5,
-            "rb": 0,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -217,11 +217,11 @@
             "songName": "Ego"
         },
         "genreWeights": {
-            "house": 4,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 0
+            "House": 4,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -232,11 +232,11 @@
             "songName": "Let Me Love You ft. Justin Bieber"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 5,
-            "rb": 0,
-            "soul": 3
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -247,11 +247,11 @@
             "songName": "Say Something"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 5
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 5
         }
     },
     {
@@ -262,11 +262,11 @@
             "songName": "Paris Lyric"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 2,
-            "pop": 2,
-            "rb": 0,
-            "soul": 4
+            "House": 0,
+            "Indie-Rock": 2,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 4
         }
     },
     {
@@ -277,11 +277,11 @@
             "songName": "Castle On The Hill"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 3,
-            "pop": 1,
-            "rb": 0,
-            "soul": 4
+            "House": 0,
+            "Indie-Rock": 3,
+            "Pop": 1,
+            "R&B": 0,
+            "Soul": 4
         }
     },
     {
@@ -292,11 +292,11 @@
             "songName": "I Feel It Coming ft. Daft Punk"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 4,
-            "rb": 4,
-            "soul": 2
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 4,
+            "Soul": 2
         }
     },
     {
@@ -307,11 +307,11 @@
             "songName": "Lost On You"
         },
         "genreWeights": {
-            "house": 3,
-            "ir": 1,
-            "pop": 4,
-            "rb": 0,
-            "soul": 3
+            "House": 3,
+            "Indie-Rock": 1,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -322,11 +322,11 @@
             "songName": "No Lie ft. Dua Lipa"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 2,
-            "rb": 4,
-            "soul": 0
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 4,
+            "Soul": 0
         }
     },
     {
@@ -337,11 +337,11 @@
             "songName": "Wake Me Up"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 1
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -352,11 +352,11 @@
             "songName": "24K Magic"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 5,
-            "rb": 2,
-            "soul": 1
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 5,
+            "R&B": 2,
+            "Soul": 1
         }
     },
     {
@@ -367,11 +367,11 @@
             "songName": "My Way"
         },
         "genreWeights": {
-            "house": 4,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 1
+            "House": 4,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -382,11 +382,11 @@
             "songName": "The Greatest ft. Kendrick Lamar"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 3
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -397,11 +397,11 @@
             "songName": "Heathens"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 2,
-            "pop": 3,
-            "rb": 0,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 2,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -412,11 +412,11 @@
             "songName": "All of Me"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 1,
-            "pop": 1,
-            "rb": 0,
-            "soul": 5
+            "House": 0,
+            "Indie-Rock": 1,
+            "Pop": 1,
+            "R&B": 0,
+            "Soul": 5
         }
     },
     {
@@ -427,11 +427,11 @@
             "songName": "CAN'T STOP THE FEELING!"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -442,11 +442,11 @@
             "songName": "Don't Let Me Down ft. Daya"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 4,
-            "pop": 4,
-            "rb": 0,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 4,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -457,11 +457,11 @@
             "songName": "Take Me To Church"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 1,
-            "pop": 2,
-            "rb": 0,
-            "soul": 4
+            "House": 0,
+            "Indie-Rock": 1,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 4
         }
     },
     {
@@ -472,11 +472,11 @@
             "songName": "I Got You"
         },
         "genreWeights": {
-            "house": 4,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 0
+            "House": 4,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -487,11 +487,11 @@
             "songName": "Closer (Lyric) ft. Halsey"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 3,
-            "pop": 2,
-            "rb": 0,
-            "soul": 1
+            "House": 0,
+            "Indie-Rock": 3,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -502,11 +502,11 @@
             "songName": "Despacito ft. Daddy Yankee"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 4,
-            "rb": 1,
-            "soul": 3
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Soul": 3
         }
     },
     {
@@ -517,11 +517,11 @@
             "songName": "Catch & Release"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 3
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -532,11 +532,11 @@
             "songName": "This Is What It Feels Like"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 0
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -547,11 +547,11 @@
             "songName": "I Don’t Wanna Live Forever"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 3,
-            "rb": 1,
-            "soul": 3
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 1,
+            "Soul": 3
         }
     },
     {
@@ -562,11 +562,11 @@
             "songName": "Starboy ft. Daft Punk"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 3,
-            "rb": 4,
-            "soul": 3
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 4,
+            "Soul": 3
         }
     },
     {
@@ -577,11 +577,11 @@
             "songName": "Uptown Funk ft. Bruno Mars"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 4,
-            "rb": 1,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Soul": 2
         }
     },
     {
@@ -592,11 +592,11 @@
             "songName": "Counting Stars"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -607,11 +607,11 @@
             "songName": "CAN'T HOLD US"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 2
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -622,11 +622,11 @@
             "songName": "THRIFT SHOP FEAT. WANZ"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 4,
-            "rb": 2,
-            "soul": 0
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 2,
+            "Soul": 0
         }
     },
     {
@@ -637,11 +637,11 @@
             "songName": "Cheerleader (Felix Jaehn Remix)"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 4,
-            "rb": 1,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Soul": 2
         }
     },
     {
@@ -652,11 +652,11 @@
             "songName": "Rather Be ft. Jess Glynne"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 1,
-            "pop": 3,
-            "rb": 0,
-            "soul": 2
+            "House": 2,
+            "Indie-Rock": 1,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -667,11 +667,11 @@
             "songName": "Lean On (feat. MØ)"
         },
         "genreWeights": {
-            "house": 3,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 3,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -682,11 +682,11 @@
             "songName": "Radioactive"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 2,
-            "pop": 3,
-            "rb": 0,
-            "soul": 2
+            "House": 2,
+            "Indie-Rock": 2,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -697,11 +697,11 @@
             "songName": "Waves (Robin Schulz Remix Radio Edit)"
         },
         "genreWeights": {
-            "house": 3,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 0
+            "House": 3,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -712,11 +712,11 @@
             "songName": "Animals"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 0,
-            "rb": 0,
-            "soul": 0
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -727,11 +727,11 @@
             "songName": "Firestone ft. Conrad Sewell"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 3,
-            "pop": 2,
-            "rb": 0,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 3,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -742,11 +742,11 @@
             "songName": "I Took A Pill In Ibiza (Seeb Remix)"
         },
         "genreWeights": {
-            "house": 4,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 0
+            "House": 4,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -757,11 +757,11 @@
             "songName": "Stressed Out"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 2,
-            "pop": 3,
-            "rb": 1,
-            "soul": 1
+            "House": 0,
+            "Indie-Rock": 2,
+            "Pop": 3,
+            "R&B": 1,
+            "Soul": 1
         }
     },
     {
@@ -772,11 +772,11 @@
             "songName": "Faded"
         },
         "genreWeights": {
-            "house": 5,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 0
+            "House": 5,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -787,11 +787,11 @@
             "songName": "Wild Thoughts ft. Rihanna, Bryson Tiller"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 3,
-            "rb": 5,
-            "soul": 0
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 5,
+            "Soul": 0
         }
     },
     {
@@ -802,11 +802,11 @@
             "songName": "Attention"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 1,
-            "pop": 5,
-            "rb": 0,
-            "soul": 4
+            "House": 0,
+            "Indie-Rock": 1,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 4
         }
     },
     {
@@ -817,11 +817,11 @@
             "songName": "Feels ft. Pharrell Williams, Katy Perry, Big Sean"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 1,
-            "pop": 5,
-            "rb": 0,
-            "soul": 1
+            "House": 2,
+            "Indie-Rock": 1,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -832,11 +832,11 @@
             "songName": "Shape of You"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 1,
-            "pop": 5,
-            "rb": 0,
-            "soul": 3
+            "House": 2,
+            "Indie-Rock": 1,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -847,11 +847,11 @@
             "songName": "Unforgettable ft. Swae Lee"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 3,
-            "rb": 5,
-            "soul": 0
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 5,
+            "Soul": 0
         }
     },
     {
@@ -862,11 +862,11 @@
             "songName": "Believer"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 5,
-            "pop": 3,
-            "rb": 0,
-            "soul": 1
+            "House": 1,
+            "Indie-Rock": 5,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -877,11 +877,11 @@
             "songName": "Something Just Like This"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 2,
-            "pop": 5,
-            "rb": 0,
-            "soul": 3
+            "House": 1,
+            "Indie-Rock": 2,
+            "Pop": 5,
+            "R&B": 0,
+            "Soul": 3
         }
     },
     {
@@ -892,11 +892,11 @@
             "songName": "I'm the One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 3,
-            "rb": 5,
-            "soul": 1
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 5,
+            "Soul": 1
         }
     },
     {
@@ -907,11 +907,11 @@
             "songName": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 3,
-            "rb": 5,
-            "soul": 0
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 5,
+            "Soul": 0
         }
     },
     {
@@ -922,11 +922,11 @@
             "songName": "Symphony feat. Zara Larsson"
         },
         "genreWeights": {
-            "house": 3.5,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 1
+            "House": 3.5,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 1
         }
     },
     {
@@ -937,11 +937,11 @@
             "songName": "Mask Off"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 0,
-            "rb": 5,
-            "soul": 1
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 0,
+            "R&B": 5,
+            "Soul": 1
         }
     },
     {
@@ -952,11 +952,11 @@
             "songName": "You Don't Know Me ft. RAYE"
         },
         "genreWeights": {
-            "house": 4,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 0
+            "House": 4,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -967,11 +967,11 @@
             "songName": "Tuesday ft. Danelle Sandoval"
         },
         "genreWeights": {
-            "house": 3,
-            "ir": 2,
-            "pop": 2,
-            "rb": 0,
-            "soul": 0
+            "House": 3,
+            "Indie-Rock": 2,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 0
         }
     },
     {
@@ -982,11 +982,11 @@
             "songName": "SUBEME LA RADIO ft. Descemer Bueno, Zion & Lennox"
         },
         "genreWeights": {
-            "house": 2,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 2
+            "House": 2,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -997,11 +997,11 @@
             "songName": "Say You Won't Let Go"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 2,
-            "rb": 0,
-            "soul": 5
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Soul": 5
         }
     },
     {
@@ -1012,11 +1012,11 @@
             "songName": "That’s What I Like"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 4,
-            "rb": 0,
-            "soul": 2
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -1027,11 +1027,11 @@
             "songName": "HUMBLE"
         },
         "genreWeights": {
-            "house": 0,
-            "ir": 0,
-            "pop": 1,
-            "rb": 5,
-            "soul": 0
+            "House": 0,
+            "Indie-Rock": 0,
+            "Pop": 1,
+            "R&B": 5,
+            "Soul": 0
         }
     },
     {
@@ -1042,11 +1042,11 @@
             "songName": "Chantaje ft. Maluma"
         },
         "genreWeights": {
-            "house": 1,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 2
+            "House": 1,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 2
         }
     },
     {
@@ -1057,11 +1057,11 @@
             "songName": "Stay "
         },
         "genreWeights": {
-            "house": 3.8,
-            "ir": 0,
-            "pop": 3,
-            "rb": 0,
-            "soul": 0
+            "House": 3.8,
+            "Indie-Rock": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Soul": 0
         }
     }
 ]
