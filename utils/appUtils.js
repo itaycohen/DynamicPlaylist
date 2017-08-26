@@ -1,7 +1,7 @@
 var app = angular.module('appUtils', [
     'ngMaterial',
     'dpAppUtils'
-    
+
 ]);
 
 app.run(['$rootScope', '$http', function ($rootScope, $http) {
@@ -39,18 +39,71 @@ function appUtilsController($rootScope, dpAppUtils) {
     // Adding Songs
 
     $rootScope.song = {
-        id : '',
-        artist: '',
-        songName : ''
-
+        "id": '',
+        "artist": '',
+        "songName": '',
+        "songGenres": [0, 0, 0, 0, 0, 0, 0]
     };
+
+    $rootScope.songToAdd = '';
+
+    $rootScope.loadSongDetails = function () {
+        var songId = $rootScope.song.id;
+        if (angular.isDefined(songId) && songId !== '') {
+
+            var gdata = document.createElement("script");
+            gdata.src = "http://gdata.youtube.com/feeds/api/videos/" + songId + "?v=2&alt=jsonc&callback=storeInfo";
+            var body = document.getElementsByTagName("body")[0];
+            body.appendChild(gdata);
+            alert(info.data.title);
+        }
+        alert('song id error');
+    };
+
 
     $rootScope.addSong = function () {
-        alert("song: " + $rootScope.song.songName);
+        validateSong();
+        var currentSong = $rootScope.song;
+        var newSong = {};
+        newSong.index = 'xxx';
+        newSong.id = currentSong.id;
+        newSong.details = {};
+        newSong.details.artist = currentSong.artist;
+        newSong.details.songName = currentSong.songName;
+        newSong.genreWeights = {};
+        for (var i = 0; i < mapOfGenres.length; i++) {
+            var key = mapOfGenres[i];
+            newSong.genreWeights[key] = currentSong.songGenres[i];
+        }
+        var newSongStr = JSON.stringify(newSong);
+        console.log(newSongStr);
+
+        $rootScope.songToAdd += newSongStr;
+        $rootScope.songToAdd += ",";
+
 
     };
 
+    function validateSong() {
+        var currentSong = $rootScope.song;
+        if (angular.isUndefined(currentSong) || currentSong.id === '' || currentSong.artist === '' || currentSong.songName === '') {
+            alert("Error in song details");
+            return;
+        }
+    }
 
+    $rootScope.cleanSong = function () {
+        $rootScope.song = {
+            "id": '',
+            "artist": '',
+            "songName": '',
+            "songGenres": [0, 0, 0, 0, 0, 0, 0]
+        };
+    };
+
+    $rootScope.cleanAllSongs = function () {
+        $rootScope.songToAdd = '';
+    };
 
 
     // Convertors
