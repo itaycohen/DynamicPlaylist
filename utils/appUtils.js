@@ -105,6 +105,19 @@ function appUtilsController($rootScope, dpAppUtils) {
         $rootScope.songToAdd = '';
     };
 
+    $rootScope.isNewSong = function (songId) {
+        var shrinkSongList =  $rootScope.songsShrink;
+        for (var i in shrinkSongList) {
+            if (shrinkSongList[i].id === songId) {
+                return false;
+            }
+        }
+        //TODO - check if the song is in the new songs to add
+        return true;
+
+    };
+
+
 
     // Convertors
 
