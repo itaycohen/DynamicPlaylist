@@ -1063,5 +1063,170 @@
             0,
             2
         ]
+    },
+    {
+        "i": "71",
+        "id": "qPTfXwPf_HM",
+        "a": "Jonas Blue",
+        "s": "Mama ft. William Singe",
+        "g": [
+            3,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "i": "72",
+        "id": "SC4xMk98Pdc",
+        "a": "Post Malone",
+        "s": "Congratulations ft. Quavo",
+        "g": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            5
+        ]
+    },
+    {
+        "i": "73",
+        "id": "-FyjEnoIgTM",
+        "a": "Bruno Mars",
+        "s": "Versace On The Floor",
+        "g": [
+            2,
+            0,
+            0,
+            3,
+            0,
+            4,
+            0
+        ]
+    },
+    {
+        "i": "74",
+        "id": "k2qgadSvNyU",
+        "a": "Dua Lipa",
+        "s": "New Rules",
+        "g": [
+            4,
+            0,
+            3,
+            1,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "75",
+        "id": "RqcjBLMaWCg",
+        "a": "David Guetta ft Justin Bieber",
+        "s": "2U",
+        "g": [
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "76",
+        "id": "72UO0v5ESUo",
+        "a": "Luis Fonsi, Daddy Yankee",
+        "s": "Despacito ft. Justin Bieber",
+        "g": [
+            4,
+            0,
+            2,
+            0,
+            3,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "77",
+        "id": "87gWaABqGYs",
+        "a": "Ed Sheeran",
+        "s": "Galway Girl",
+        "g": [
+            4,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "i": "78",
+        "id": "dmJefsOErr0",
+        "a": "Rae Sremmurd",
+        "s": "Swang",
+        "g": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            5
+        ]
+    },
+    {
+        "i": "79",
+        "id": "Um7pMggPnug",
+        "a": "Katy Perry",
+        "s": "Chained To The Rhythm ft. Skip Marley",
+        "g": [
+            5,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "80",
+        "id": "qN4ooNx77u0",
+        "a": "Harry Styles",
+        "s": "Sign of the Times",
+        "g": [
+            2,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "i": "81",
+        "id": "S-sJp1FfG7Q",
+        "a": "Migos",
+        "s": "Bad and Boujee ft Lil Uzi Vert",
+        "g": [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            4
+        ]
     }
 ]

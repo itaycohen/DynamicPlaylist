@@ -1,0 +1,187 @@
+{
+    "index": "xxx",
+    "id": "qPTfXwPf_HM",
+    "details": {
+        "artist": "Jonas Blue",
+        "songName": "Mama ft. William Singe"
+    },
+    "genreWeights": {
+        "Pop": 3,
+        "Alternative": 0,
+        "Dance": 4,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 1
+    }
+},
+{
+    "index": "xxx",
+    "id": "SC4xMk98Pdc",
+    "details": {
+        "artist": "Post Malone",
+        "songName": "Congratulations ft. Quavo"
+    },
+    "genreWeights": {
+        "Pop": 0,
+        "Alternative": 0,
+        "Dance": 0,
+        "R&B": 3,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 5
+    }
+},
+{
+    "index": "xxx",
+    "id": "-FyjEnoIgTM",
+    "details": {
+        "artist": "Bruno Mars",
+        "songName": "Versace On The Floor"
+    },
+    "genreWeights": {
+        "Pop": 2,
+        "Alternative": 0,
+        "Dance": 0,
+        "R&B": 3,
+        "Latin": 0,
+        "Soul": 4,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "k2qgadSvNyU",
+    "details": {
+        "artist": "Dua Lipa",
+        "songName": "New Rules"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 0,
+        "Dance": 3,
+        "R&B": 1,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "RqcjBLMaWCg",
+    "details": {
+        "artist": "David Guetta ft Justin Bieber",
+        "songName": "2U"
+    },
+    "genreWeights": {
+        "Pop": 3,
+        "Alternative": 0,
+        "Dance": 3,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "72UO0v5ESUo",
+    "details": {
+        "artist": "Luis Fonsi, Daddy Yankee",
+        "songName": "Despacito"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 0,
+        "Dance": 2,
+        "R&B": 0,
+        "Latin": 3,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "87gWaABqGYs",
+    "details": {
+        "artist": "Ed Sheeran",
+        "songName": "Galway Girl"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 0,
+        "Dance": 0,
+        "R&B": 1,
+        "Latin": 0,
+        "Soul": 1,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "dmJefsOErr0",
+    "details": {
+        "artist": "Rae Sremmurd",
+        "songName": "Swang"
+    },
+    "genreWeights": {
+        "Pop": 0,
+        "Alternative": 0,
+        "Dance": 0,
+        "R&B": 3,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 5
+    }
+},
+{
+    "index": "xxx",
+    "id": "Um7pMggPnug",
+    "details": {
+        "artist": "Katy Perry",
+        "songName": "Chained To The Rhythm ft. Skip Marley"
+    },
+    "genreWeights": {
+        "Pop": 5,
+        "Alternative": 0,
+        "Dance": 1,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "qN4ooNx77u0",
+    "details": {
+        "artist": "Harry Styles",
+        "songName": "Sign of the Times"
+    },
+    "genreWeights": {
+        "Pop": 2,
+        "Alternative": 3,
+        "Dance": 0,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 1,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "S-sJp1FfG7Q",
+    "details": {
+        "artist": "Migos",
+        "songName": "Bad and Boujee ft Lil Uzi Vert"
+    },
+    "genreWeights": {
+        "Pop": 0,
+        "Alternative": 0,
+        "Dance": 0,
+        "R&B": 4,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 4
+    }
+},
