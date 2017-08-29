@@ -1392,5 +1392,345 @@
             "Soul": 0,
             "Hip-Hop": 4
         }
+    },
+    {
+        "index": "82",
+        "id": "5JxgDJvqGmM",
+        "details": {
+            "artist": "Mike Perry",
+            "songName": "The Ocean ft. Shy Martin"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "83",
+        "id": "xUVz4nRmxn4",
+        "details": {
+            "artist": "Galantis",
+            "songName": "No Money"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "84",
+        "id": "Ey_hgKCCYU4",
+        "details": {
+            "artist": "Jonas Blue",
+            "songName": "Perfect Strangers ft. JP Cooper"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "85",
+        "id": "GTyN-DB_v5M",
+        "details": {
+            "artist": "Zara Larsson, MNEK",
+            "songName": "Never Forget You"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "86",
+        "id": "D5drYkLiLI8",
+        "details": {
+            "artist": "Kygo, Selena Gomez",
+            "songName": "It Ain't Me"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "87",
+        "id": "waU75jdUnYw",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Earned It"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 3,
+            "Latin": 0,
+            "Soul": 4,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "88",
+        "id": "RgKAFK5djSk",
+        "details": {
+            "artist": "Wiz Khalifa",
+            "songName": "See You Again ft. Charlie Puth"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 4
+        }
+    },
+    {
+        "index": "89",
+        "id": "4NJlUribp3c",
+        "details": {
+            "artist": "Desiigner",
+            "songName": "Panda"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 2,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 4
+        }
+    },
+    {
+        "index": "90",
+        "id": "KEI4qSrkPAs",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Can't Feel My Face"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 4,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 1
+        }
+    },
+    {
+        "index": "91",
+        "id": "wnJ6LuUFpMo",
+        "details": {
+            "artist": "J. Balvin, Willy William",
+            "songName": "Mi Gente"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 4,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "92",
+        "id": "Km4BayZykwE",
+        "details": {
+            "artist": "J. Balvin",
+            "songName": "Si Tu Novio Te Deja Sola ft. Bad Bunny"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 3,
+            "Latin": 5,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "93",
+        "id": "iOe6dI2JhgU",
+        "details": {
+            "artist": "Ricky Martin",
+            "songName": "Vente Pa' Ca ft. Maluma"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "94",
+        "id": "1-xGerv5FOk",
+        "details": {
+            "artist": "Alan Walker",
+            "songName": "Alone"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "95",
+        "id": "yzTuBuRdAyA",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "The Hills"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 3,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "96",
+        "id": "mWRsgZuwf_8",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Demons"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": null,
+            "Latin": 0,
+            "Soul": null,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "97",
+        "id": "AJtDXIazrMo",
+        "details": {
+            "artist": "Ellie Goulding",
+            "songName": "Love Me Like You Do"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "98",
+        "id": "C_3d6GntKbk",
+        "details": {
+            "artist": "ZAYN",
+            "songName": "PILLOWTALK"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 1,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "99",
+        "id": "uxpDa-c-4Mc",
+        "details": {
+            "artist": "Drake",
+            "songName": "Hotline Bling"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 2,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 4
+        }
+    },
+    {
+        "index": "100",
+        "id": "YQHsXMglC9A",
+        "details": {
+            "artist": "Adele",
+            "songName": "Hello"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 4,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "101",
+        "id": "SXiSVQZLje8",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Side To Side ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 2,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 1
+        }
     }
 ]

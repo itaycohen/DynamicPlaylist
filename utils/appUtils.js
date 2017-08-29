@@ -68,8 +68,8 @@ function appUtilsController($rootScope, dpAppUtils) {
         newSong.index = 'xxx';
         newSong.id = currentSong.id;
         newSong.details = {};
-        newSong.details.artist = currentSong.artist;
-        newSong.details.songName = currentSong.songName;
+        newSong.details.artist = currentSong.artist.trim();
+        newSong.details.songName = currentSong.songName.trim();
         newSong.genreWeights = {};
         for (var i = 0; i < mapOfGenres.length; i++) {
             var key = mapOfGenres[i];

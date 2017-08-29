@@ -1228,5 +1228,305 @@
             0,
             4
         ]
+    },
+    {
+        "i": "82",
+        "id": "5JxgDJvqGmM",
+        "a": "Mike Perry",
+        "s": "The Ocean ft. Shy Martin",
+        "g": [
+            3,
+            0,
+            4,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "i": "83",
+        "id": "xUVz4nRmxn4",
+        "a": "Galantis",
+        "s": "No Money",
+        "g": [
+            2,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "84",
+        "id": "Ey_hgKCCYU4",
+        "a": "Jonas Blue",
+        "s": "Perfect Strangers ft. JP Cooper",
+        "g": [
+            2,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "85",
+        "id": "GTyN-DB_v5M",
+        "a": "Zara Larsson, MNEK",
+        "s": "Never Forget You",
+        "g": [
+            3,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "86",
+        "id": "D5drYkLiLI8",
+        "a": "Kygo, Selena Gomez",
+        "s": "It Ain't Me",
+        "g": [
+            3,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "87",
+        "id": "waU75jdUnYw",
+        "a": "The Weeknd",
+        "s": "Earned It",
+        "g": [
+            1,
+            0,
+            0,
+            3,
+            0,
+            4,
+            0
+        ]
+    },
+    {
+        "i": "88",
+        "id": "RgKAFK5djSk",
+        "a": "Wiz Khalifa",
+        "s": "See You Again ft. Charlie Puth",
+        "g": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            3,
+            4
+        ]
+    },
+    {
+        "i": "89",
+        "id": "4NJlUribp3c",
+        "a": "Desiigner",
+        "s": "Panda",
+        "g": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            4
+        ]
+    },
+    {
+        "i": "90",
+        "id": "KEI4qSrkPAs",
+        "a": "The Weeknd",
+        "s": "Can't Feel My Face",
+        "g": [
+            2,
+            0,
+            2,
+            4,
+            0,
+            2,
+            1
+        ]
+    },
+    {
+        "i": "91",
+        "id": "wnJ6LuUFpMo",
+        "a": "J. Balvin, Willy William",
+        "s": "Mi Gente",
+        "g": [
+            2,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "92",
+        "id": "Km4BayZykwE",
+        "a": "J. Balvin",
+        "s": "Si Tu Novio Te Deja Sola ft. Bad Bunny",
+        "g": [
+            1,
+            0,
+            0,
+            3,
+            5,
+            1,
+            0
+        ]
+    },
+    {
+        "i": "93",
+        "id": "iOe6dI2JhgU",
+        "a": "Ricky Martin",
+        "s": "Vente Pa' Ca ft. Maluma",
+        "g": [
+            3,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "94",
+        "id": "1-xGerv5FOk",
+        "a": "Alan Walker",
+        "s": "Alone",
+        "g": [
+            1,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "i": "95",
+        "id": "yzTuBuRdAyA",
+        "a": "The Weeknd",
+        "s": "The Hills",
+        "g": [
+            3,
+            0,
+            0,
+            3,
+            0,
+            2,
+            0
+        ]
+    },
+    {
+        "i": "96",
+        "id": "mWRsgZuwf_8",
+        "a": "Imagine Dragons",
+        "s": "Demons",
+        "g": [
+            3,
+            5,
+            0,
+            null,
+            0,
+            null,
+            0
+        ]
+    },
+    {
+        "i": "97",
+        "id": "AJtDXIazrMo",
+        "a": "Ellie Goulding",
+        "s": "Love Me Like You Do",
+        "g": [
+            3,
+            0,
+            2,
+            0,
+            0,
+            3,
+            0
+        ]
+    },
+    {
+        "i": "98",
+        "id": "C_3d6GntKbk",
+        "a": "ZAYN",
+        "s": "PILLOWTALK",
+        "g": [
+            3,
+            0,
+            0,
+            1,
+            0,
+            3,
+            0
+        ]
+    },
+    {
+        "i": "99",
+        "id": "uxpDa-c-4Mc",
+        "a": "Drake",
+        "s": "Hotline Bling",
+        "g": [
+            2,
+            0,
+            0,
+            2,
+            0,
+            1,
+            4
+        ]
+    },
+    {
+        "i": "100",
+        "id": "YQHsXMglC9A",
+        "a": "Adele",
+        "s": "Hello",
+        "g": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0
+        ]
+    },
+    {
+        "i": "101",
+        "id": "SXiSVQZLje8",
+        "a": "Ariana Grande",
+        "s": "Side To Side ft. Nicki Minaj",
+        "g": [
+            4,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1
+        ]
     }
 ]
