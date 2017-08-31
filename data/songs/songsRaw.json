@@ -1732,5 +1732,226 @@
             "Soul": 0,
             "Hip-Hop": 1
         }
+    },
+    {
+        "index": "102",
+        "id": "fKopy74weus",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Thunder"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "103",
+        "id": "w5tWYmIOWGk",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "On Top Of The World"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 4,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "104",
+        "id": "NRWUoDpo2fo",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Left Hand Free"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "105",
+        "id": "rVeMiVU77wo",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Breezeblocks"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "106",
+        "id": "S3fTw_D3l10",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Taro"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "107",
+        "id": "dCCXq9QB-dQ",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Hunger Of The Pine"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 5,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "108",
+        "id": "Q06wFUi5OM8",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Matilda"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "109",
+        "id": "hi4pzKvuEQM",
+        "details": {
+            "artist": "Chet Faker",
+            "songName": "Gold"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 3,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 2
+        }
+    },
+    {
+        "index": "110",
+        "id": "Qg6BwvDcANg",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Tessellate"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 5,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "111",
+        "id": "bpOSxM0rNPM",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Do I Wanna Know?"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "112",
+        "id": "VQH8ZTgna3Q",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "R U Mine?"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "113",
+        "id": "Y4NGoS330HE",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "I Wanna Be Yours"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "114",
+        "id": "Y4NGoS330HE",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Fluorescent Adolescent"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
     }
 ]

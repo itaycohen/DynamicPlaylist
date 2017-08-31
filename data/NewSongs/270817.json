@@ -1,82 +1,14 @@
 {
     "index": "xxx",
-    "id": "qPTfXwPf_HM",
+    "id": "fKopy74weus",
     "details": {
-        "artist": "Jonas Blue",
-        "songName": "Mama ft. William Singe"
-    },
-    "genreWeights": {
-        "Pop": 3,
-        "Alternative": 0,
-        "Dance": 4,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 1
-    }
-},
-{
-    "index": "xxx",
-    "id": "SC4xMk98Pdc",
-    "details": {
-        "artist": "Post Malone",
-        "songName": "Congratulations ft. Quavo"
-    },
-    "genreWeights": {
-        "Pop": 0,
-        "Alternative": 0,
-        "Dance": 0,
-        "R&B": 3,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 5
-    }
-},
-{
-    "index": "xxx",
-    "id": "-FyjEnoIgTM",
-    "details": {
-        "artist": "Bruno Mars",
-        "songName": "Versace On The Floor"
+        "artist": "Imagine Dragons",
+        "songName": "Thunder"
     },
     "genreWeights": {
         "Pop": 2,
-        "Alternative": 0,
+        "Alternative": 5,
         "Dance": 0,
-        "R&B": 3,
-        "Latin": 0,
-        "Soul": 4,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "k2qgadSvNyU",
-    "details": {
-        "artist": "Dua Lipa",
-        "songName": "New Rules"
-    },
-    "genreWeights": {
-        "Pop": 4,
-        "Alternative": 0,
-        "Dance": 3,
-        "R&B": 1,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "RqcjBLMaWCg",
-    "details": {
-        "artist": "David Guetta ft Justin Bieber",
-        "songName": "2U"
-    },
-    "genreWeights": {
-        "Pop": 3,
-        "Alternative": 0,
-        "Dance": 3,
         "R&B": 0,
         "Latin": 0,
         "Soul": 0,
@@ -85,33 +17,33 @@
 },
 {
     "index": "xxx",
-    "id": "72UO0v5ESUo",
+    "id": "w5tWYmIOWGk",
     "details": {
-        "artist": "Luis Fonsi, Daddy Yankee",
-        "songName": "Despacito"
+        "artist": "Imagine Dragons",
+        "songName": "On Top Of The World"
     },
     "genreWeights": {
-        "Pop": 4,
-        "Alternative": 0,
-        "Dance": 2,
+        "Pop": 2,
+        "Alternative": 4,
+        "Dance": 0,
         "R&B": 0,
-        "Latin": 3,
+        "Latin": 0,
         "Soul": 0,
         "Hip-Hop": 0
     }
 },
 {
     "index": "xxx",
-    "id": "87gWaABqGYs",
+    "id": "NRWUoDpo2fo",
     "details": {
-        "artist": "Ed Sheeran",
-        "songName": "Galway Girl"
+        "artist": "alt-J",
+        "songName": "Left Hand Free"
     },
     "genreWeights": {
-        "Pop": 4,
-        "Alternative": 0,
+        "Pop": 2,
+        "Alternative": 5,
         "Dance": 0,
-        "R&B": 1,
+        "R&B": 0,
         "Latin": 0,
         "Soul": 1,
         "Hip-Hop": 0
@@ -119,48 +51,133 @@
 },
 {
     "index": "xxx",
-    "id": "dmJefsOErr0",
+    "id": "rVeMiVU77wo",
     "details": {
-        "artist": "Rae Sremmurd",
-        "songName": "Swang"
+        "artist": "alt-J",
+        "songName": "Breezeblocks"
     },
     "genreWeights": {
-        "Pop": 0,
-        "Alternative": 0,
+        "Pop": 1,
+        "Alternative": 5,
         "Dance": 0,
-        "R&B": 3,
+        "R&B": 0,
         "Latin": 0,
         "Soul": 0,
-        "Hip-Hop": 5
+        "Hip-Hop": 0
     }
 },
 {
     "index": "xxx",
-    "id": "Um7pMggPnug",
+    "id": "S3fTw_D3l10",
     "details": {
-        "artist": "Katy Perry",
-        "songName": "Chained To The Rhythm ft. Skip Marley"
+        "artist": "alt-J",
+        "songName": "Taro"
     },
     "genreWeights": {
-        "Pop": 5,
-        "Alternative": 0,
+        "Pop": 1,
+        "Alternative": 5,
+        "Dance": 0,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 1,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "dCCXq9QB-dQ",
+    "details": {
+        "artist": "alt-J",
+        "songName": "Hunger Of The Pine"
+    },
+    "genreWeights": {
+        "Pop": 1,
+        "Alternative": 5,
         "Dance": 1,
         "R&B": 0,
         "Latin": 0,
+        "Soul": 1,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "Q06wFUi5OM8",
+    "details": {
+        "artist": "alt-J",
+        "songName": "Matilda"
+    },
+    "genreWeights": {
+        "Pop": 0,
+        "Alternative": 5,
+        "Dance": 0,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 2,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "hi4pzKvuEQM",
+    "details": {
+        "artist": "Chet Faker",
+        "songName": "Gold"
+    },
+    "genreWeights": {
+        "Pop": 0,
+        "Alternative": 3,
+        "Dance": 2,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 2
+    }
+},
+{
+    "index": "xxx",
+    "id": "Qg6BwvDcANg",
+    "details": {
+        "artist": "alt-J",
+        "songName": "Tessellate"
+    },
+    "genreWeights": {
+        "Pop": 1,
+        "Alternative": 5,
+        "Dance": 2,
+        "R&B": 0,
+        "Latin": 0,
         "Soul": 0,
         "Hip-Hop": 0
     }
 },
 {
     "index": "xxx",
-    "id": "qN4ooNx77u0",
+    "id": "bpOSxM0rNPM",
     "details": {
-        "artist": "Harry Styles",
-        "songName": "Sign of the Times"
+        "artist": "Arctic Monkeys",
+        "songName": "Do I Wanna Know?"
     },
     "genreWeights": {
-        "Pop": 2,
-        "Alternative": 3,
+        "Pop": 1,
+        "Alternative": 5,
+        "Dance": 0,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 3,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "VQH8ZTgna3Q",
+    "details": {
+        "artist": "Arctic Monkeys",
+        "songName": "R U Mine?"
+    },
+    "genreWeights": {
+        "Pop": 0,
+        "Alternative": 5,
         "Dance": 0,
         "R&B": 0,
         "Latin": 0,
@@ -170,18 +187,35 @@
 },
 {
     "index": "xxx",
-    "id": "S-sJp1FfG7Q",
+    "id": "Y4NGoS330HE",
     "details": {
-        "artist": "Migos",
-        "songName": "Bad and Boujee ft Lil Uzi Vert"
+        "artist": "Arctic Monkeys",
+        "songName": "I Wanna Be Yours"
     },
     "genreWeights": {
         "Pop": 0,
-        "Alternative": 0,
+        "Alternative": 5,
         "Dance": 0,
-        "R&B": 4,
+        "R&B": 0,
         "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 4
+        "Soul": 3,
+        "Hip-Hop": 0
     }
 },
+{
+    "index": "xxx",
+    "id": "Y4NGoS330HE",
+    "details": {
+        "artist": "Arctic Monkeys",
+        "songName": "Fluorescent Adolescent"
+    },
+    "genreWeights": {
+        "Pop": 2,
+        "Alternative": 5,
+        "Dance": 0,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+}

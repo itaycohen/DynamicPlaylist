@@ -1537,6 +1537,201 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1
             ]
+        },
+        {
+            "i": "102",
+            "id": "fKopy74weus",
+            "a": "Imagine Dragons",
+            "s": "Thunder",
+            "g": [
+                2,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "103",
+            "id": "w5tWYmIOWGk",
+            "a": "Imagine Dragons",
+            "s": "On Top Of The World",
+            "g": [
+                2,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "104",
+            "id": "NRWUoDpo2fo",
+            "a": "alt-J",
+            "s": "Left Hand Free",
+            "g": [
+                2,
+                5,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "i": "105",
+            "id": "rVeMiVU77wo",
+            "a": "alt-J",
+            "s": "Breezeblocks",
+            "g": [
+                1,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "106",
+            "id": "S3fTw_D3l10",
+            "a": "alt-J",
+            "s": "Taro",
+            "g": [
+                1,
+                5,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "i": "107",
+            "id": "dCCXq9QB-dQ",
+            "a": "alt-J",
+            "s": "Hunger Of The Pine",
+            "g": [
+                1,
+                5,
+                1,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "i": "108",
+            "id": "Q06wFUi5OM8",
+            "a": "alt-J",
+            "s": "Matilda",
+            "g": [
+                0,
+                5,
+                0,
+                0,
+                0,
+                2,
+                0
+            ]
+        },
+        {
+            "i": "109",
+            "id": "hi4pzKvuEQM",
+            "a": "Chet Faker",
+            "s": "Gold",
+            "g": [
+                0,
+                3,
+                2,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "i": "110",
+            "id": "Qg6BwvDcANg",
+            "a": "alt-J",
+            "s": "Tessellate",
+            "g": [
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "111",
+            "id": "bpOSxM0rNPM",
+            "a": "Arctic Monkeys",
+            "s": "Do I Wanna Know?",
+            "g": [
+                1,
+                5,
+                0,
+                0,
+                0,
+                3,
+                0
+            ]
+        },
+        {
+            "i": "112",
+            "id": "VQH8ZTgna3Q",
+            "a": "Arctic Monkeys",
+            "s": "R U Mine?",
+            "g": [
+                0,
+                5,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "i": "113",
+            "id": "Y4NGoS330HE",
+            "a": "Arctic Monkeys",
+            "s": "I Wanna Be Yours",
+            "g": [
+                0,
+                5,
+                0,
+                0,
+                0,
+                3,
+                0
+            ]
+        },
+        {
+            "i": "114",
+            "id": "Y4NGoS330HE",
+            "a": "Arctic Monkeys",
+            "s": "Fluorescent Adolescent",
+            "g": [
+                2,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
         }
     ];
 
