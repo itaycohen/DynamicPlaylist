@@ -1953,5 +1953,243 @@
             "Soul": 0,
             "Hip-Hop": 0
         }
+    },
+    {
+        "index": "115",
+        "id": "PVjiKRfKpPI",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Take Me To Church"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "116",
+        "id": "nntGTK2Fhb0",
+        "details": {
+            "artist": "Skrillex and Diplo",
+            "songName": "Where Are Ü Now with Justin Bieber"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "117",
+        "id": "-HjpL-Ns6_A",
+        "details": {
+            "artist": "Louis Tomlinson",
+            "songName": "Back to You ft. Bebe Rexha, Digital Farm Animals"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "118",
+        "id": "3AtDnEC4zak",
+        "details": {
+            "artist": "Charlie Puth",
+            "songName": "We Don't Talk Anymore (feat. Selena Gomez)"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "119",
+        "id": "dT2owtxkU8k",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "There's Nothing Holdin' Me Back"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 2,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "120",
+        "id": "pBkHHoOIIn8",
+        "details": {
+            "artist": "Portugal. The Man",
+            "songName": "Feel It Still"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 4,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "121",
+        "id": "YykjpeuMNEk",
+        "details": {
+            "artist": "Coldplay",
+            "songName": "Hymn For The Weekend"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 1,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "122",
+        "id": "HL1UzIK-flA",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Work ft. Drake"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 1,
+            "R&B": 4,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "123",
+        "id": "tD4HCZe-tew",
+        "details": {
+            "artist": "Zara Larsson",
+            "songName": "Lush Life"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 1,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "124",
+        "id": "XNWlrawfRAI",
+        "details": {
+            "artist": "Fifth Harmony",
+            "songName": "Down ft. Gucci Mane"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 1,
+            "R&B": 1,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 1
+        }
+    },
+    {
+        "index": "125",
+        "id": "lY2yjAdbvdQ",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "Treat You Better"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "126",
+        "id": "Pw-0pbY9JeU",
+        "details": {
+            "artist": "twenty one pilots",
+            "songName": "Ride"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 4,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 2
+        }
+    },
+    {
+        "index": "127",
+        "id": "VbfpW0pbvaU",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "Stitches"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 1,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": "128",
+        "id": "2vjPBrBU-TM",
+        "details": {
+            "artist": "Sia",
+            "songName": "Chandelier"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 1,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
     }
 ]

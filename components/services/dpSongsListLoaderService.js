@@ -1732,6 +1732,216 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0
             ]
+        },
+        {
+            "i": "115",
+            "id": "PVjiKRfKpPI",
+            "a": "Hozier",
+            "s": "Take Me To Church",
+            "g": [
+                2,
+                5,
+                0,
+                0,
+                0,
+                2,
+                0
+            ]
+        },
+        {
+            "i": "116",
+            "id": "nntGTK2Fhb0",
+            "a": "Skrillex and Diplo",
+            "s": "Where Are Ü Now with Justin Bieber",
+            "g": [
+                3,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "117",
+            "id": "-HjpL-Ns6_A",
+            "a": "Louis Tomlinson",
+            "s": "Back to You ft. Bebe Rexha, Digital Farm Animals",
+            "g": [
+                3,
+                0,
+                2,
+                0,
+                0,
+                2,
+                0
+            ]
+        },
+        {
+            "i": "118",
+            "id": "3AtDnEC4zak",
+            "a": "Charlie Puth",
+            "s": "We Don't Talk Anymore (feat. Selena Gomez)",
+            "g": [
+                4,
+                0,
+                1,
+                0,
+                0,
+                3,
+                0
+            ]
+        },
+        {
+            "i": "119",
+            "id": "dT2owtxkU8k",
+            "a": "Shawn Mendes",
+            "s": "There's Nothing Holdin' Me Back",
+            "g": [
+                4,
+                2,
+                3,
+                0,
+                0,
+                3,
+                0
+            ]
+        },
+        {
+            "i": "120",
+            "id": "pBkHHoOIIn8",
+            "a": "Portugal. The Man",
+            "s": "Feel It Still",
+            "g": [
+                1,
+                4,
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "121",
+            "id": "YykjpeuMNEk",
+            "a": "Coldplay",
+            "s": "Hymn For The Weekend",
+            "g": [
+                4,
+                1,
+                2,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "i": "122",
+            "id": "HL1UzIK-flA",
+            "a": "Rihanna",
+            "s": "Work ft. Drake",
+            "g": [
+                2,
+                0,
+                1,
+                4,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "123",
+            "id": "tD4HCZe-tew",
+            "a": "Zara Larsson",
+            "s": "Lush Life",
+            "g": [
+                3,
+                1,
+                3,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "124",
+            "id": "XNWlrawfRAI",
+            "a": "Fifth Harmony",
+            "s": "Down ft. Gucci Mane",
+            "g": [
+                4,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "i": "125",
+            "id": "lY2yjAdbvdQ",
+            "a": "Shawn Mendes",
+            "s": "Treat You Better",
+            "g": [
+                5,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "i": "126",
+            "id": "Pw-0pbY9JeU",
+            "a": "twenty one pilots",
+            "s": "Ride",
+            "g": [
+                1,
+                4,
+                2,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "i": "127",
+            "id": "VbfpW0pbvaU",
+            "a": "Shawn Mendes",
+            "s": "Stitches",
+            "g": [
+                5,
+                0,
+                2,
+                1,
+                0,
+                2,
+                0
+            ]
+        },
+        {
+            "i": "128",
+            "id": "2vjPBrBU-TM",
+            "a": "Sia",
+            "s": "Chandelier",
+            "g": [
+                4,
+                1,
+                2,
+                0,
+                0,
+                1,
+                0
+            ]
         }
     ];
 

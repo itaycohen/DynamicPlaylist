@@ -1,114 +1,12 @@
 {
     "index": "xxx",
-    "id": "fKopy74weus",
+    "id": "PVjiKRfKpPI",
     "details": {
-        "artist": "Imagine Dragons",
-        "songName": "Thunder"
+        "artist": "Hozier",
+        "songName": "Take Me To Church"
     },
     "genreWeights": {
         "Pop": 2,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "w5tWYmIOWGk",
-    "details": {
-        "artist": "Imagine Dragons",
-        "songName": "On Top Of The World"
-    },
-    "genreWeights": {
-        "Pop": 2,
-        "Alternative": 4,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "NRWUoDpo2fo",
-    "details": {
-        "artist": "alt-J",
-        "songName": "Left Hand Free"
-    },
-    "genreWeights": {
-        "Pop": 2,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 1,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "rVeMiVU77wo",
-    "details": {
-        "artist": "alt-J",
-        "songName": "Breezeblocks"
-    },
-    "genreWeights": {
-        "Pop": 1,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "S3fTw_D3l10",
-    "details": {
-        "artist": "alt-J",
-        "songName": "Taro"
-    },
-    "genreWeights": {
-        "Pop": 1,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 1,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "dCCXq9QB-dQ",
-    "details": {
-        "artist": "alt-J",
-        "songName": "Hunger Of The Pine"
-    },
-    "genreWeights": {
-        "Pop": 1,
-        "Alternative": 5,
-        "Dance": 1,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 1,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "Q06wFUi5OM8",
-    "details": {
-        "artist": "alt-J",
-        "songName": "Matilda"
-    },
-    "genreWeights": {
-        "Pop": 0,
         "Alternative": 5,
         "Dance": 0,
         "R&B": 0,
@@ -119,14 +17,184 @@
 },
 {
     "index": "xxx",
-    "id": "hi4pzKvuEQM",
+    "id": "nntGTK2Fhb0",
     "details": {
-        "artist": "Chet Faker",
-        "songName": "Gold"
+        "artist": "Skrillex and Diplo",
+        "songName": "Where Are Ü Now with Justin Bieber"
     },
     "genreWeights": {
-        "Pop": 0,
-        "Alternative": 3,
+        "Pop": 3,
+        "Alternative": 0,
+        "Dance": 4,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "-HjpL-Ns6_A",
+    "details": {
+        "artist": "Louis Tomlinson",
+        "songName": "Back to You ft. Bebe Rexha, Digital Farm Animals"
+    },
+    "genreWeights": {
+        "Pop": 3,
+        "Alternative": 0,
+        "Dance": 2,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 2,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "3AtDnEC4zak",
+    "details": {
+        "artist": "Charlie Puth",
+        "songName": "We Don't Talk Anymore (feat. Selena Gomez)"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 0,
+        "Dance": 1,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 3,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "dT2owtxkU8k",
+    "details": {
+        "artist": "Shawn Mendes",
+        "songName": "There's Nothing Holdin' Me Back"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 2,
+        "Dance": 3,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 3,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "pBkHHoOIIn8",
+    "details": {
+        "artist": "Portugal. The Man",
+        "songName": "Feel It Still"
+    },
+    "genreWeights": {
+        "Pop": 1,
+        "Alternative": 4,
+        "Dance": 1,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "YykjpeuMNEk",
+    "details": {
+        "artist": "Coldplay",
+        "songName": "Hymn For The Weekend"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 1,
+        "Dance": 2,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 1,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "HL1UzIK-flA",
+    "details": {
+        "artist": "Rihanna",
+        "songName": "Work ft. Drake"
+    },
+    "genreWeights": {
+        "Pop": 2,
+        "Alternative": 0,
+        "Dance": 1,
+        "R&B": 4,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "tD4HCZe-tew",
+    "details": {
+        "artist": "Zara Larsson",
+        "songName": "Lush Life"
+    },
+    "genreWeights": {
+        "Pop": 3,
+        "Alternative": 1,
+        "Dance": 3,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "XNWlrawfRAI",
+    "details": {
+        "artist": "Fifth Harmony",
+        "songName": "Down ft. Gucci Mane"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 0,
+        "Dance": 1,
+        "R&B": 1,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 1
+    }
+},
+{
+    "index": "xxx",
+    "id": "lY2yjAdbvdQ",
+    "details": {
+        "artist": "Shawn Mendes",
+        "songName": "Treat You Better"
+    },
+    "genreWeights": {
+        "Pop": 5,
+        "Alternative": 0,
+        "Dance": 1,
+        "R&B": 0,
+        "Latin": 0,
+        "Soul": 0,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "Pw-0pbY9JeU",
+    "details": {
+        "artist": "twenty one pilots",
+        "songName": "Ride"
+    },
+    "genreWeights": {
+        "Pop": 1,
+        "Alternative": 4,
         "Dance": 2,
         "R&B": 0,
         "Latin": 0,
@@ -136,86 +204,35 @@
 },
 {
     "index": "xxx",
-    "id": "Qg6BwvDcANg",
+    "id": "VbfpW0pbvaU",
     "details": {
-        "artist": "alt-J",
-        "songName": "Tessellate"
+        "artist": "Shawn Mendes",
+        "songName": "Stitches"
     },
     "genreWeights": {
-        "Pop": 1,
-        "Alternative": 5,
+        "Pop": 5,
+        "Alternative": 0,
+        "Dance": 2,
+        "R&B": 1,
+        "Latin": 0,
+        "Soul": 2,
+        "Hip-Hop": 0
+    }
+},
+{
+    "index": "xxx",
+    "id": "2vjPBrBU-TM",
+    "details": {
+        "artist": "Sia",
+        "songName": "Chandelier"
+    },
+    "genreWeights": {
+        "Pop": 4,
+        "Alternative": 1,
         "Dance": 2,
         "R&B": 0,
         "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "bpOSxM0rNPM",
-    "details": {
-        "artist": "Arctic Monkeys",
-        "songName": "Do I Wanna Know?"
-    },
-    "genreWeights": {
-        "Pop": 1,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 3,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "VQH8ZTgna3Q",
-    "details": {
-        "artist": "Arctic Monkeys",
-        "songName": "R U Mine?"
-    },
-    "genreWeights": {
-        "Pop": 0,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
         "Soul": 1,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "Y4NGoS330HE",
-    "details": {
-        "artist": "Arctic Monkeys",
-        "songName": "I Wanna Be Yours"
-    },
-    "genreWeights": {
-        "Pop": 0,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 3,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "Y4NGoS330HE",
-    "details": {
-        "artist": "Arctic Monkeys",
-        "songName": "Fluorescent Adolescent"
-    },
-    "genreWeights": {
-        "Pop": 2,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
         "Hip-Hop": 0
     }
 }
