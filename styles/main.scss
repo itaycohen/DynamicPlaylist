@@ -50,7 +50,7 @@ body {
             color: white;
             opacity: 0.92;
             font-size: 24px;
-            font-style: italic;
+            // font-style: italic; 
             font-weight: bold;
         }
     }
@@ -59,6 +59,11 @@ body {
         background: linear-gradient(to bottom, #351e4c, #160b2f);
     } 
 
+    .feedback-button {
+        background: #e7eaf3; 
+        color: #1a1829; 
+        font-weight: 600;  
+    }
 
     .main-view {
         // background: #1a1829;
