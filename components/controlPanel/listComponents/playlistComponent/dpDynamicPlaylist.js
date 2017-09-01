@@ -20,8 +20,6 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
     // workaround - can't hook on ng reapeat 
     $rootScope.songsIndexesList = dpSongsListLogic.getSongsIndexesList();
 
-    $rootScope.alreadyPlayedSongsIndexesListFull = dpSongsListLogic.getAlreadyPlayedSongsIndexesListFull();
-
     $rootScope.getTemplateUrl = function () {
         if (dpAppUtils.isDesktop()) {
             //big view - row layout (not small as in mobile - row)
@@ -53,8 +51,8 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
     $rootScope.isPlayerPlaying = function () {
         if (typeof YT !== 'undefined' && typeof YT.get === "function") {
             var playerRef = YT.get("player");
-            if (typeof playerRef.getPlayerState === "function") {
-                var playerState = typeof playerRef !== "undefined" ? playerRef.getPlayerState() : 2;
+            if (typeof playerRef !== 'undefined' && typeof playerRef.getPlayerState === "function") {
+                var playerState = playerRef.getPlayerState();
                 return playerState === 1;
             }
         }
