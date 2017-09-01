@@ -10,6 +10,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var WEIGHT_DISTANCE_FACTOR = 1.8;
     //TODO - change to order of song [2,4,5]
     var defaultGenres = ['Pop', 'R&B', 'Dance'];
+    var userStoredGenres;
     // var allGenres = ['Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
     //consider change to AB
     var allGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
@@ -17,10 +18,11 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     var service = {
         initCalcSongsList: initCalcSongsList,
+        initUserData: initUserData,
         // TODO - think what to do with these 3
         getRawSongsList: getRawSongsList,
         getSongsIndexesList: getSongsIndexesList,
-        getDefaultSelectedGenres: getDefaultSelectedGenres,
+        getUserSelectedGenres: getUserSelectedGenres,
         getSelectedGenres: getSelectedGenres,
         setSelectedGenres: setSelectedGenres,
         getHiddenGenres: getHiddenGenres,
@@ -91,10 +93,48 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         updateGenreWeightsDistancesListByCurrentWidget();
         // PLACEHOLDER - this method should go over all the current widget (selectedGenre) and init the hidden ones to zero
         //TODO - consider to moive to a new service widget genres service
-        $rootScope.selectedGenres = getDefaultSelectedGenres();
+        $rootScope.selectedGenres = getUserSelectedGenres();
 
         // init current song index
         initCurrentSongIndex();
+    }
+
+    function initUserData() {
+        debugger;
+
+        // user browser supports in localStorage
+        if (localStorage) {
+            //setting function for leaving the application
+            window.onbeforeunload = storoUserGenresData;
+            // Retrieve the users data.
+            var userGenresData = localStorage.getItem('mm-data-genres');
+            if (typeof userGenresData !== 'undefined' && userGenresData != 'undefined' && userGenresData !== null) {
+                var userGenresDataArr = JSON.parse(userGenresData);
+                if (isValidGenresData(userGenresDataArr)) {
+                    userStoredGenres = userGenresDataArr;
+                    return;
+                }
+                // doc else - userStoredGenres = defaultGenres;
+            } else { //the user doesn't have the app data (mmData) - first login or clear cache
+                // setting the default genres for the user data 
+                var newUserGenresData = {};
+                newUserGenresData = JSON.stringify(defaultGenres);
+                localStorage.setItem('mm-data-genres', newUserGenresData);
+                return;
+            }
+        }
+        //doc else  // No support
+        userStoredGenres = defaultGenres;
+
+    }
+
+    function isValidGenresData(genresArr) {
+        return true;
+    }
+
+    function storoUserGenresData() {
+        var userGenresDataToStore = JSON.stringify($rootScope.selectedGenres);
+        localStorage.setItem('mm-data-genres', userGenresDataToStore);
     }
 
     function getRawSongsList() {
@@ -420,8 +460,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return songDetails.a;
     }
 
-    function getDefaultSelectedGenres() {
-        $rootScope.selectedGenres = defaultGenres;
+    function getUserSelectedGenres() {
+        $rootScope.selectedGenres = userStoredGenres ? userStoredGenres : defaultGenres;
         return $rootScope.selectedGenres;
     }
 
@@ -443,7 +483,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function getHiddenGenres() {
         var selectedGenres = $rootScope.selectedGenres;
         if (angular.isUndefined(selectedGenres)) {
-            selectedGenres = getDefaultSelectedGenres();
+            selectedGenres = getUserSelectedGenres();
         }
         var allHiddenGenres = allGenres.filter(function (el) {
             return selectedGenres.indexOf(el) < 0;
