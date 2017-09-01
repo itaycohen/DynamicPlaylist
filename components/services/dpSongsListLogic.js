@@ -7,8 +7,7 @@ dpSongsListLogic.$inject = ['$rootScope', 'dpSongsListUtils'];
 function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     var FAKE_GENRE_WEIGHT = 2.5;
-    var WEIGHT_DISTANCE_FACTOR = 2;
-    var isFirstCycle;
+    var WEIGHT_DISTANCE_FACTOR = 1.8;
     //TODO - change to order of song [2,4,5]
     var defaultGenres = ['Pop', 'R&B', 'Dance'];
     // var allGenres = ['Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
@@ -26,7 +25,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         setSelectedGenres: setSelectedGenres,
         getHiddenGenres: getHiddenGenres,
         geAllGenres: geAllGenres,
-        getAlreadyPlayedSongsIndexesListFull: getAlreadyPlayedSongsIndexesListFull,
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
@@ -97,7 +95,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
         // init current song index
         initCurrentSongIndex();
-        isFirstCycle = true;
     }
 
     function getRawSongsList() {
@@ -107,12 +104,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function getSongsIndexesList() {
         return $rootScope.songsIndexesList;
     }
-
-
-    function getAlreadyPlayedSongsIndexesListFull() {
-        return $rootScope.alreadyPlayedSongsIndexesListFull;
-    }
-
 
     /**
      * Init & Create the songs indexes list
@@ -156,7 +147,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     function initAlreadyPlayedSongsIndexes() {
         $rootScope.alreadyPlayedSongsIndexesListSingleCycle = [];
-        $rootScope.alreadyPlayedSongsIndexesListFull = [];
     }
 
     function calculateAvgDistance(songWeights, isInitialCreation) {
@@ -208,7 +198,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     //         $rootScope.songsIndexesList.shift();
 
     //         $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-    //         $rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
 
     //     } else { // play by pressing on soong
     //         orderOfSong = $rootScope.songsIndexesList.indexOf(indexOfSong);
@@ -226,14 +215,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
 
     //     // $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-    //     // $rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
 
     //     // for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
     //     //     // note: this index can be of song that was skipped by click on other song play button
     //     //     playedSongIndex = removedSongsIndexes[i];
     //     //     // insert to alreadyPlayedSongsIndexesListSingleCycle
     //     //     $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
-    //     //     $rootScope.alreadyPlayedSongsIndexesListFull.push(playedSongIndex);
     //     // }
 
     //     updateSongsIndexesList();
@@ -254,14 +241,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         if (angular.isUndefined(indexOfSong)) {
             orderOfSong = 0;
             // get the first song index in list
-
             songIndex = $rootScope.songsIndexesList[0];
-
-            $rootScope.songsIndexesList.shift();
-
-            $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-            $rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
-
         } else { // play by pressing on soong
             orderOfSong = $rootScope.songsIndexesList.indexOf(indexOfSong);
             songIndex = indexOfSong;
@@ -275,17 +255,11 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // cut orderOfSong=numberOf elements from the array from index 0 
         var removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
         var i, len, playedSongIndex;
-
-
-        //$rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-        //$rootScope.alreadyPlayedSongsIndexesListFull.push(songIndex);
-
         for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
             // note: this index can be of song that was skipped by click on other song play button
             playedSongIndex = removedSongsIndexes[i];
             // insert to alreadyPlayedSongsIndexesListSingleCycle
             $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
-            $rootScope.alreadyPlayedSongsIndexesListFull.push(playedSongIndex);
         }
 
         updateSongsIndexesList();
@@ -319,9 +293,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         }
         // if we've played all the lowerGenreWeightDistances songs (+1 first random song) we would like to init
         // 	the alreadyPlayedSongsIndexesListSingleCycle 
-        if (lowerGenreWeightDistancesListToSort.length === $rootScope.alreadyPlayedSongsIndexesListSingleCycle.length - (isFirstCycle ? 1 : 0)) {
+        if (lowerGenreWeightDistancesListToSort.length <= $rootScope.alreadyPlayedSongsIndexesListSingleCycle.length) {
             $rootScope.alreadyPlayedSongsIndexesListSingleCycle = [];
-            isFirstCycle = false;
         }
         var sortedLowerGenreWeightsDistancesList = [];
         // special sort, songs that alrady played will be after songs that never played
