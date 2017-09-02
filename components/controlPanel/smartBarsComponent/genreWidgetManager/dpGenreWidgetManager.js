@@ -16,22 +16,23 @@ function dpGenreWidgetManager(dpSongsListLogic) {
 dpGenreWidgetManagerController.$inject = ["$scope", "$element", 'dpAppUtils', 'dpSongsListLogic'];
 function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsListLogic) {
 
-    $scope.selectedGenres = dpSongsListLogic.getSelectedGenres();
-    $scope.allGenres = dpSongsListLogic.geAllGenres();
+    // getting the genres NAMES from the logic
+    $scope.selectedGenresNames = dpSongsListLogic.getUserGenresNames();
+    $scope.allGenresNames = dpSongsListLogic.geAllGenresNames();
 
     $scope.shouldShowGenre = function (genre) {
-        return $scope.selectedGenres.indexOf(genre) > -1;
+        return $scope.selectedGenresNames.indexOf(genre) > -1;
     };
 
     $scope.isGenreDisabled = function (genre) {
         //checking if the genre is already selected, 
         // if yes, we want to enabled this genre in order to remove it
-        if ($scope.selectedGenres.indexOf(genre) > -1) {
-            return $scope.selectedGenres.length <= 1;
+        if ($scope.selectedGenresNames.indexOf(genre) > -1) {
+            return $scope.selectedGenresNames.length <= 1;
         }
         // else we want to check if there are more than 4 genres selected
         // if yes, we want to disabled this genre adding
-        return $scope.selectedGenres.length >= 4;
+        return $scope.selectedGenresNames.length >= 4;
     };
 
     // $scope.onOptionClick = function (genre) {
@@ -45,9 +46,9 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         $scope.searchTerm = '';
     };
 
-    // when changing the 
-    $scope.onChange = function () {
-        dpSongsListLogic.setSelectedGenres($scope.selectedGenres);
+    // when changing the genres selector OR (IMPORTNAT) in page loading
+    $scope.onGenreSelectorChange = function () {
+        dpSongsListLogic.setSelectedGenresByNames($scope.selectedGenresNames);
         dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
     };
 
@@ -64,6 +65,8 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     $scope.updateSongIndexesList = function (genre, widgetValue) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
+        // we save the user genres data after each change
+        dpSongsListLogic.storeUserGenresData();
     };
 
     $scope.getGenreManagerWarpperClass = function () {

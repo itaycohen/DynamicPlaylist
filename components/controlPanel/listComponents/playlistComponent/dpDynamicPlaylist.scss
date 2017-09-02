@@ -59,11 +59,14 @@
     }
     .item-list {
         box-shadow: -7px -21px 0px -20px white;
-        cursor: pointer;
 
         .md-button.md-default-theme:not([disabled]):hover, .md-button:not([disabled]):hover {
             background-color: transparent;;
         }
+    }
+
+    .clickable-item {
+        cursor: pointer;
     }
     .hover-icon {
         display: none;

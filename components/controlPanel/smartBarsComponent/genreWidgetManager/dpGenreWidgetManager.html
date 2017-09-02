@@ -2,14 +2,14 @@
 
     <div class="genre-selector-container" layout="column" layout-align="center center">
         <label>Choose Your Genres</label>
-        <md-select class="genre-selector-wrapper" data-md-container-class="selectGenreSelectorHeader" ng-model="selectedGenres" md-on-close="clearSearchTerm()"
-            ng-change="onChange()" aria-label="Choose Your Genres" multiple>
+        <md-select class="genre-selector-wrapper" data-md-container-class="selectGenreSelectorHeader" ng-model="selectedGenresNames" md-on-close="clearSearchTerm()"
+            ng-change="onGenreSelectorChange()" aria-label="Choose Your Genres" multiple>
 
             <md-select-header class="genre-selector-header">
                 <input ng-model="searchTerm" type="search" placeholder="Search for a genre.." class="demo-header-searchbox md-text">
             </md-select-header>
-            <md-optgroup label="allGenres">
-                <md-option ng-click="onOptionClick(genre)" ng-value="genre" ng-repeat="genre in allGenres | filter:searchTerm" ng-disabled="isGenreDisabled(genre)">
+            <md-optgroup label="allGenresNames">
+                <md-option ng-click="onOptionClick(genre)" ng-value="genre" ng-repeat="genre in allGenresNames | filter:searchTerm" ng-disabled="isGenreDisabled(genre)">
                     {{genre}}
                 </md-option>
             </md-optgroup>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="genre-widget-area" layout="column" layout-align="start stretch">
-         <dp-genre-widget ng-repeat="thisGenre in allGenres" genre={{thisGenre}} ng-if="shouldShowGenre(thisGenre)"></dp-genre-widget>  
+         <dp-genre-widget ng-repeat="thisGenre in allGenresNames" genre={{thisGenre}} ng-if="shouldShowGenre(thisGenre)"></dp-genre-widget>  
     </div>
 
 </div>

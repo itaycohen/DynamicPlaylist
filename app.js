@@ -11,6 +11,7 @@ var app = angular.module('dynamicPlaylistApp', [
 ]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
+    dpSongsListLogic.initUserData();
 
     //section 01
     $rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();

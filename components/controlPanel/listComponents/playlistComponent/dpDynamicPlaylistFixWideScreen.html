@@ -24,7 +24,7 @@
 
         <div class="playlist-title"> Next Up </div>
         <div ng-repeat="songIndex in songsIndexesList | limitTo:10">
-            <md-list-item class="md-2-line hover-item item-list" ng-click="playSelectedSong(songIndex)" >
+            <md-list-item class="md-2-line hover-item item-list clickable-item" ng-click="playSelectedSong(songIndex)" >
                 <div class="md-list-item-text" layout="column">
                     <div class="song-item">
                         <div class="song-number song-number-big">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="media/icons/ic_play_arrow_white_36px.svg" class="play-button md-avatar hover-icon" ng-show="shouldShowPlayButton()">
+                <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" ng-show="shouldShowPlayButton()">
             </md-list-item>
         </div>
 

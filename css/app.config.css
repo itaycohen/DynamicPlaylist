@@ -230,10 +230,11 @@ body {
     .playlist-wrapper .song-item .full-song-name-small {
       font-size: 16px; }
   .playlist-wrapper .item-list {
-    box-shadow: -7px -21px 0px -20px white;
-    cursor: pointer; }
+    box-shadow: -7px -21px 0px -20px white; }
     .playlist-wrapper .item-list .md-button.md-default-theme:not([disabled]):hover, .playlist-wrapper .item-list .md-button:not([disabled]):hover {
       background-color: transparent; }
+  .playlist-wrapper .clickable-item {
+    cursor: pointer; }
   .playlist-wrapper .hover-icon {
     display: none; }
   .playlist-wrapper .hover-item:hover .hover-icon {
