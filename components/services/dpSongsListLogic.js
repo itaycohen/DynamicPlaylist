@@ -9,40 +9,29 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var FAKE_GENRE_WEIGHT = 2.5;
     var WEIGHT_DISTANCE_FACTOR = 1.8;
     var DEFAULT_WEIGHT = 3;
-    //TODO - change to order of song [2,4,5]
-    // var defaultGenresMap = ['Pop', 'R&B', 'Dance'];
-    var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
-    
-    var userGenresMap;
-    // var allGenresNames = ['Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul'];
-    //consider change to AB
     var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
-
+    var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
 
     var service = {
         initCalcSongsList: initCalcSongsList,
         initUserData: initUserData,
         // TODO - think what to do with these 3
-        getRawSongsList: getRawSongsList,
         getSongsIndexesList: getSongsIndexesList,
-        getUserGenresMap: getUserGenresMap,
-        getUserGenresNames : getUserGenresNames,
-        setSelectedGenres: setSelectedGenres,
-        getHiddenGenres: getHiddenGenres,
+        getUserGenresNames: getUserGenresNames,
+        setSelectedGenresByNames: setSelectedGenresByNames,
+        getWeightOfGenre: getWeightOfGenre,
         geAllGenresNames: geAllGenresNames,
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
-        // updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
+        updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
         updateSongsIndexesList: updateSongsIndexesList,
-
-
         // move
-        getSongArtistAndNameByIndex: getSongArtistAndNameByIndex,
         getSongNameByIndex: getSongNameByIndex,
-        getSongArtistByIndex: getSongArtistByIndex
+        getSongArtistByIndex: getSongArtistByIndex,
 
+        storeUserGenresData: storeUserGenresData
     };
     return service;
 
@@ -81,8 +70,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     */
 
 
-
-
     /**
      * Init the calculation of songs list methods
      */
@@ -101,12 +88,11 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function initUserData() {
-        debugger;
-
         // user browser supports in localStorage
         if (localStorage) {
             //setting function for leaving the application
-            window.onbeforeunload = storeUserGenresData;
+            // window.onbeforeunload = storeUserGenresData;
+
             // Retrieve the users data.
             var userGenresData = localStorage.getItem('mm-data-genres');
             if (typeof userGenresData !== 'undefined' && userGenresData != 'undefined' && userGenresData !== null) {
@@ -139,8 +125,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         localStorage.setItem('mm-data-genres', userGenresDataToStore);
     }
 
-    function getRawSongsList() {
-        return $rootScope.rawSongsList;
+    function storeUserGenresData2() {
+        alert("second");
     }
 
     function getSongsIndexesList() {
@@ -165,7 +151,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     // index: i  / avgDistance: dis / genreWeightsDistance: {dance:x, pop: y ...}
     // new structure:
     // index: i  / avgDistance: dis / genreWeightsDistance: []
-
     function initGenreWeightsDistancesList() {
         var arr = [];
         var rawSongsList = $rootScope.rawSongsList;
@@ -222,55 +207,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function initCurrentSongIndex() {
         popSongIndexFromListAndUpdate(false);
     }
-
-    //     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
-    // function popSongIndexFromListAndUpdate(byAction, indexOfSong) {
-
-    //     var orderOfSong;
-    //     var songIndex;
-
-
-    //     // regular play (auto)
-    //     if (angular.isUndefined(indexOfSong)) {
-    //         orderOfSong = 0;
-    //         // get the first song index in list
-
-    //         songIndex = $rootScope.songsIndexesList[0];
-
-    //         $rootScope.songsIndexesList.shift();
-
-    //         $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-
-    //     } else { // play by pressing on soong
-    //         orderOfSong = $rootScope.songsIndexesList.indexOf(indexOfSong);
-    //         songIndex = indexOfSong;
-    //     }
-
-    //     // update currentPlayingSongIndex
-    //     $rootScope.currentPlayingSongIndex = songIndex;
-
-    //     // remove songIndex out from songsIndexesList
-    //     // $rootScope.songsIndexesList.shift();
-    //     // cut orderOfSong=numberOf elements from the array from index 0 
-    //     var removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
-    //     var i, len, playedSongIndex;
-
-
-    //     // $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(songIndex);
-
-    //     // for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
-    //     //     // note: this index can be of song that was skipped by click on other song play button
-    //     //     playedSongIndex = removedSongsIndexes[i];
-    //     //     // insert to alreadyPlayedSongsIndexesListSingleCycle
-    //     //     $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
-    //     // }
-
-    //     updateSongsIndexesList();
-
-    //     if (!byAction) {
-    //         $rootScope.$apply();
-    //     }
-    // }
 
     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
     function popSongIndexFromListAndUpdate(byAction, indexOfSong) {
@@ -415,6 +351,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         //printArrayWithObjToConsole($rootScope.genreWeightsDistancesList);
         updateSongsIndexesList();
 
+        //update $rootScope.userGenresMap 
+        $rootScope.userGenresMap[allGenresNames.indexOf(genre)] = newWeightValue;
+
         //$scope.$apply();
         // end of time stamp
         // var time1 = new Date();
@@ -445,13 +384,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return $rootScope.currentPlayingSongIndex;
     }
 
-    //TODO - add list to signture
-    function getSongArtistAndNameByIndex(index) {
-        var songDetails = $rootScope.rawSongsList[index];
-        // TODO - const " "
-        return songDetails.a + " - " + songDetails.s;
-    }
-
     function getSongNameByIndex(index) {
         var songDetails = $rootScope.rawSongsList[index];
         return songDetails.s;
@@ -467,19 +399,21 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function getUserGenresMap() {
-        //TODO 007
-        consoloe.log($rootScope.userGenresMap);
-        // return $rootScope.userGenresMap;
-        return $rootScope.userGenresMap ? $rootScope.userGenresMap : defaultGenresMap;
+        if (typeof $rootScope.userGenresMap !== 'undefined' && $rootScope.userGenresMap != 'undefined' && $rootScope.userGenresMap !== null) {
+            return $rootScope.userGenresMap;
+        }
+        console.error("$rootScope.userGenresMap was npt defined, $rootScope.userGenresMap: " + $rootScope.userGenresMap);
+        $rootScope.userGenresMap = defaultGenresMap;
+        return $rootScope.userGenresMap;
     }
-    
+
 
     // [3, -1, 3, 3, -1, -1, -1] --> ['Pop', 'R&B', 'Dance']
     function convertGenresMapToNames(genresMap) {
         var genresNames = [];
         for (var i = 0; i < genresMap.length; i++) {
             currentGenreEntry = genresMap[i];
-            if (currentGenreEntry !== '-1') {
+            if (currentGenreEntry !== -1) {
                 genresNames.push(allGenresNames[i]);
             }
         }
@@ -487,68 +421,50 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     // ['Pop', 'R&B', 'Dance'] --> [3, -1, 3, 3, -1, -1, -1] 
-    function convertGenresNamesToMapAndUpdateGenreWeightsDistances(selectedGenresNames) {
+    function convertGenresNamesToMap(selectedGenresNames) {
         var genresMap = [];
         // going over all genres names
         for (var i = 0; i < allGenresNames.length; i++) {
             currentGenreName = allGenresNames[i];
             // the current genre name is one of the selected genres
             if (selectedGenresNames.indexOf(currentGenreName) > -1) {
-                genresMap.push(DEFAULT_WEIGHT);
-                updateGenreWeightsDistancesList(currentGenreName, DEFAULT_WEIGHT);
+                var existingGenreWeight = $rootScope.userGenresMap[i];
+                // it's a new genre which was added by the user using the genre selector
+                if (existingGenreWeight === -1) {
+                    genresMap.push(DEFAULT_WEIGHT);
+                } else { // it's an existing genre - (prob) onloading flow
+                    genresMap.push(existingGenreWeight);
+                }
             } else { // the current genre name is not selected
                 genresMap.push(-1);
-                updateGenreWeightsDistancesList(currentGenreName, 0);
             }
-            
-
-            genresMap.push(allGenresNames[i]);
         }
         return genresMap;
     }
 
-    // function getSelectedGenresMap() {
-    //     if (angular.isUndefined($rootScope.selectedGenresMap)) {
-    //         return defaultGenresMap;
-    //     }
-    //     return $rootScope.selectedGenresMap;
-    // }
-
     function setSelectedGenresByNames(updatedSelectedGenres) {
-        // 007
-        //todo convert names to map
-        $rootScope.selectedGenresMap = updatedSelectedGenres;
+        $rootScope.userGenresMap = convertGenresNamesToMap(updatedSelectedGenres);
     }
 
     function geAllGenresNames() {
         return allGenresNames;
     }
 
-    function getHiddenGenres() {
-        var selectedGenres = $rootScope.userGenresMap;
-        if (angular.isUndefined(selectedGenres)) {
-            selectedGenres = getUserGenresMap();
-        }
-        var allHiddenGenres = allGenresNames.filter(function (el) {
-            return selectedGenres.indexOf(el) < 0;
-        });
-        return allHiddenGenres;
+    function getWeightOfGenre(genre) {
+        return $rootScope.userGenresMap[allGenresNames.indexOf(genre)];
+
     }
 
-
     function updateGenreWeightsDistancesListByCurrentWidget() {
-        //007
-        var selectedGenres = $rootScope.userGenresMap;
-        //go over all hidden and set to zero their genre
-        for (var i = 0; i < selectedGenres.length; i++) {
-            selectedGenre = selectedGenres[i];
-            updateGenreWeightsDistancesList(selectedGenre, 3);
-        }
-        var hiddenGenres = getHiddenGenres();
-        //go over all hidden and set to zero their genre
-        for (var j = 0; j < hiddenGenres.length; j++) {
-            hiddenGenre = hiddenGenres[j];
-            updateGenreWeightsDistancesList(hiddenGenre, 0);
+        var selectedGenresMap = $rootScope.userGenresMap;
+        for (var i = 0; i < selectedGenresMap.length; i++) {
+            currentGenreWeight = selectedGenresMap[i];
+            currentGenreName = allGenresNames[i];
+            if (currentGenreWeight !== -1) {
+                updateGenreWeightsDistancesList(currentGenreName, currentGenreWeight);
+            } else { //currentGenreWeight == -1 -> genre is not selected
+                updateGenreWeightsDistancesList(currentGenreName, -1);
+            }
         }
     }
 

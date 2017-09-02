@@ -27,7 +27,7 @@ function dpGenreWidgetController($scope, dpSongsListLogic) {
 
     // init the weight
     // TODO - save and load from chache for each user
-    $scope.widgetValue = 3;
+    $scope.widgetValue = dpSongsListLogic.getWeightOfGenre($scope.genre);
 
     $scope.onWidgetChange = function () {
         // TODO - Ticket 001 
@@ -35,6 +35,8 @@ function dpGenreWidgetController($scope, dpSongsListLogic) {
         // $scope.changeHandler($scope.widgetValue);
         // updating dpGenreWidgetManager 
         $scope.$parent.updateSongIndexesList($scope.genre, $scope.widgetValue);
+        dpSongsListLogic.storeUserGenresData();
+        
     };
 
     // TODO - Ticket 001 

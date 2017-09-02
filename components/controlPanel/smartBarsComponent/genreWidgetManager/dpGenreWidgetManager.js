@@ -46,10 +46,10 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         $scope.searchTerm = '';
     };
 
-    // when changing the 
-    $scope.onChange = function () {
+    // when changing the genres selector OR (IMPORTNAT) in page loading
+    $scope.onGenreSelectorChange = function () {
         dpSongsListLogic.setSelectedGenresByNames($scope.selectedGenresNames);
-        // dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
+        dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
     };
 
     // The md-select directive eats keydown events for some quick select
@@ -65,6 +65,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     $scope.updateSongIndexesList = function (genre, widgetValue) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
+        dpSongsListLogic.storeUserGenresData();
     };
 
     $scope.getGenreManagerWarpperClass = function () {

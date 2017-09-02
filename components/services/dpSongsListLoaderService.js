@@ -7,6 +7,8 @@ dpSongsListLoaderService.$inject = ["$http", "$q"];
 
 function dpSongsListLoaderService($http, $q) {
 
+    // allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+
     var songsShrink = [
         {
             "i": 0,

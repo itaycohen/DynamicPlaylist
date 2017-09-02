@@ -3,7 +3,7 @@
     <div class="genre-selector-container" layout="column" layout-align="center center">
         <label>Choose Your Genres</label>
         <md-select class="genre-selector-wrapper" data-md-container-class="selectGenreSelectorHeader" ng-model="selectedGenresNames" md-on-close="clearSearchTerm()"
-            ng-change="onChange()" aria-label="Choose Your Genres" multiple>
+            ng-change="onGenreSelectorChange()" aria-label="Choose Your Genres" multiple>
 
             <md-select-header class="genre-selector-header">
                 <input ng-model="searchTerm" type="search" placeholder="Search for a genre.." class="demo-header-searchbox md-text">
