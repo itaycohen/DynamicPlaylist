@@ -97,10 +97,15 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
             // Retrieve the users data.
             var userGenresData = localStorage.getItem(LOCAL_STORAGE_KEY);
             if (typeof userGenresData !== 'undefined' && userGenresData != 'undefined' && userGenresData !== null) {
-                var userGenresDataArr = JSON.parse(userGenresData);
-                if (isValidGenresData(userGenresDataArr)) {
-                    $rootScope.userGenresMap = userGenresDataArr;
-                    return;
+                var userGenresDataArr;
+                try {
+                    userGenresDataArr = JSON.parse(userGenresData);
+                    if (isValidGenresData(userGenresDataArr)) {
+                        $rootScope.userGenresMap = userGenresDataArr;
+                        return;
+                    }
+                } catch(e) {
+                    console.error("Error: " + e + " | Unable to parse local storage data. value: " +  userGenresData);
                 }
                 // doc else - userGenresMap = defaultGenresMap;
             } else { //the user doesn't have the app data (mmData) - first login or clear cache
