@@ -107,8 +107,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                         $rootScope.userGenresMap = userGenresDataArr;
                         return;
                     }
-                } catch(e) {
-                    console.error("Error: " + e + " | Unable to parse local storage data. value: " +  userGenresData);
+                } catch (e) {
+                    console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresData);
                 }
                 // doc else - userGenresMap = defaultGenresMap;
             } else { //the user doesn't have the app data (mmData) - first login or clear cache
@@ -116,7 +116,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                 $rootScope.userGenresMap = defaultGenresMap;
                 var newUserGenresData = {};
                 newUserGenresData = JSON.stringify(defaultGenresMap);
-                localStorage.setItem(LOCAL_STORAGE_KEY, newUserGenresData);
+                try {
+                    localStorage.setItem(LOCAL_STORAGE_KEY, newUserGenresData);
+                }
+                catch (e) {
+                    console.error("Error: " + e + " | Unable to set item to local storage data");
+                }
                 return;
             }
         }
@@ -131,7 +136,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     function storeUserGenresData() {
         var userGenresDataToStore = JSON.stringify($rootScope.userGenresMap);
-        localStorage.setItem(LOCAL_STORAGE_KEY, userGenresDataToStore);
+        try {
+            localStorage.setItem(LOCAL_STORAGE_KEY, userGenresDataToStore);
+        }
+        catch (e) {
+            console.error("Error: " + e + " | Unable to set item to local storage data");
+        }
     }
 
     function getSongsIndexesList() {
