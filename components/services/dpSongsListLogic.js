@@ -11,6 +11,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var DEFAULT_WEIGHT = 3;
     var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
     var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
+    var LOCAL_STORAGE_KEY = 'mm-data-genres';
 
     var service = {
         initCalcSongsList: initCalcSongsList,
@@ -94,7 +95,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
             // window.onbeforeunload = storeUserGenresData;
 
             // Retrieve the users data.
-            var userGenresData = localStorage.getItem('mm-data-genres');
+            var userGenresData = localStorage.getItem(LOCAL_STORAGE_KEY);
             if (typeof userGenresData !== 'undefined' && userGenresData != 'undefined' && userGenresData !== null) {
                 var userGenresDataArr = JSON.parse(userGenresData);
                 if (isValidGenresData(userGenresDataArr)) {
@@ -107,7 +108,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                 $rootScope.userGenresMap = defaultGenresMap;
                 var newUserGenresData = {};
                 newUserGenresData = JSON.stringify(defaultGenresMap);
-                localStorage.setItem('mm-data-genres', newUserGenresData);
+                localStorage.setItem(LOCAL_STORAGE_KEY, newUserGenresData);
                 return;
             }
         }
@@ -117,16 +118,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function isValidGenresData(genresArr) {
-        return true;
+        return genresArr.length === allGenresNames.length;
     }
 
     function storeUserGenresData() {
         var userGenresDataToStore = JSON.stringify($rootScope.userGenresMap);
-        localStorage.setItem('mm-data-genres', userGenresDataToStore);
-    }
-
-    function storeUserGenresData2() {
-        alert("second");
+        localStorage.setItem(LOCAL_STORAGE_KEY, userGenresDataToStore);
     }
 
     function getSongsIndexesList() {

@@ -65,6 +65,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     $scope.updateSongIndexesList = function (genre, widgetValue) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
+        // we save the user genres data after each change
         dpSongsListLogic.storeUserGenresData();
     };
 
