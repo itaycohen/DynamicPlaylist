@@ -11,7 +11,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var DEFAULT_WEIGHT = 3;
     var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
     var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
-    var LOCAL_STORAGE_KEY = 'mm-data-genres2';
+    var LOCAL_STORAGE_KEY = 'mm-data-genres';
 
     var service = {
         initCalcSongsList: initCalcSongsList,
