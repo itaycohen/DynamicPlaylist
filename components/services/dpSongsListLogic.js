@@ -11,7 +11,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var DEFAULT_WEIGHT = 3;
     var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
     var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
-    var LOCAL_STORAGE_KEY = 'mm-data-genres';
+    var LOCAL_STORAGE_KEY = 'mm-data-genres2';
 
     var service = {
         initCalcSongsList: initCalcSongsList,
@@ -89,6 +89,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function initUserData() {
+        //fallback 
+        $rootScope.userGenresMap = defaultGenresMap;
+
         // user browser supports in localStorage
         if (localStorage) {
             //setting function for leaving the application
@@ -118,7 +121,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
             }
         }
         //doc else  // No support
-        $rootScope.userGenresMap = defaultGenresMap;
+        // $rootScope.userGenresMap = defaultGenresMap;
 
     }
 
