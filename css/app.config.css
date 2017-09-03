@@ -12,10 +12,16 @@ body {
         color: white;
         opacity: 0.92;
         font-size: 24px;
-        font-style: italic;
         font-weight: bold; }
+        body .app md-toolbar .md-toolbar-tools .feedback-button {
+          min-height: 33px;
+          line-height: 33px; }
     body .app .toolbar {
       background: linear-gradient(to bottom, #351e4c, #160b2f); }
+    body .app .feedback-button {
+      background: #fbf7ff;
+      color: #1a1829;
+      font-weight: 600; }
     body .app .main-view .boxWithHeight {
       box-sizing: border-box; }
     body .app .main-view .widget-manager-container {
@@ -24,6 +30,12 @@ body {
       height: calc(100% - 56px); }
   body .app-vertical {
     background-image: url("../media/images/app_bg_xlarge_vertical.jpg"); }
+    body .app-vertical .md-toolbar-tools h1 {
+      padding-left: 0;
+      font-size: 22px; }
+    body .app-vertical .md-toolbar-tools .feedback-button {
+      min-height: 30px;
+      line-height: 30px; }
 
 @keyframes slide {
   from {

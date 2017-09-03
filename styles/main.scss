@@ -1,108 +1,71 @@
 body {
     color: white;
-
     .app {
-
-        background: rgb(26, 24, 41);   
+        background: rgb(26, 24, 41);
         background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
-        background-size:cover;
-        background-position: center; 
-
-    //https://camo.githubusercontent.com/ad81ae92f8b4285747ce4e48007bf3f104dd5630/
-    //687474703a2f2f6d6174657269616c2d64657369676e2e73746f726167652e676f6f676c6561
-    //7069732e636f6d2f7075626c6973682f6d6174657269616c5f765f342f6d6174657269616c5f65
-    //78745f7075626c6973682f3042386f6c5631354a3761625053474678656d46695156527462316b
-    //2f6c61796f75745f61646170746976655f627265616b706f696e74735f30312e706e67
-
-    // // 1920 < size
-    // .background_xlarge {
-    //     background-image: url("../media/images/app_bg_xlarge.jpg"); 
-    // }
-
-    // // 1280 < size <= 1920    
-    // .background_large {
-    //     background-image: url("../media/images/app_bg_large.jpg"); 
-    // }
-
-
-    // // 960 < size <= 1280 
-    // .background_medium {
-        
-    // }
-    
-    // // 480 < size <= 480
-    // .background_small {
-        
-    // }
-
-    // // 0 < size <= 480
-    // .background_xsmall {
-        
-    // }
-
-
-
-    md-toolbar {
-        min-height:56px;
-
-        .md-toolbar-tools {
-            height: 56px;
-            color: white;
-            opacity: 0.92;
-            font-size: 24px;
-            font-style: italic;
-            font-weight: bold;
+        background-size: cover;
+        background-position: center;
+        md-toolbar {
+            min-height: 56px;
+            .md-toolbar-tools {
+                height: 56px;
+                color: white;
+                opacity: 0.92;
+                font-size: 24px; // font-style: italic; 
+                font-weight: bold;
+                .feedback-button {
+                    min-height: 33px;
+                    line-height: 33px;
+                }
+            }
+        }
+        .toolbar {
+            background: linear-gradient(to bottom, #351e4c, #160b2f);
+        }
+        .feedback-button {
+            background: rgb(251, 247, 255);
+            color: #1a1829;
+            font-weight: 600;
+        }
+        .main-view {
+            // background: #1a1829;
+            // background: deepskyblue;
+            // background-image: url("../media/images/32.jpg");
+            // background: linear-gradient(to bottom, #243B55, #141E30); 
+            .boxWithHeight {
+                box-sizing: border-box;
+            }
+            .widget-manager-container {
+                overflow-y: auto;
+            }
+            .right-side {
+                // background: #283048;
+            }
+        } // CAN BE DELETED - ONLY FOR REF
+        // default toolbar height is 56
+        .main-view-big {
+            height: calc(100% - 56px);
+        } // toolbar height is 56px
+        // in @media (max-width: 959px) and (min-width: 0) and (orientation: portrait) {
+        .main-view-small-portrait {
+            //    height: calc(100% - 56px);
+        } // toolbar height is 48px
+        // in @media (min-width: 0) and (max-width:959px) and (orientation:landscape)
+        .main-view-small-landscape {
+            // height: calc(100% - 48px);
         }
     }
-
-    .toolbar {
-        background: linear-gradient(to bottom, #351e4c, #160b2f);
-    } 
-
-
-    .main-view {
-        // background: #1a1829;
-        // background: deepskyblue;
-        // background-image: url("../media/images/32.jpg");
-        // background: linear-gradient(to bottom, #243B55, #141E30); 
-
-        .boxWithHeight {
-            box-sizing: border-box;
-        }
-
-        .widget-manager-container {
-            overflow-y: auto;
-        }
-
-        .right-side {
-            // background: #283048;
-        }
-    }
-
-    // CAN BE DELETED - ONLY FOR REF
-    // default toolbar height is 56
-    .main-view-big {
-       height: calc(100% - 56px);
-    }
-
-    // toolbar height is 56px
-    // in @media (max-width: 959px) and (min-width: 0) and (orientation: portrait) {
-
-    .main-view-small-portrait {
-    //    height: calc(100% - 56px);
-    }
-
-    // toolbar height is 48px
-    // in @media (min-width: 0) and (max-width:959px) and (orientation:landscape)
-    .main-view-small-landscape {
-        // height: calc(100% - 48px);
-    }
-
-    } 
-
     .app-vertical {
         background-image: url("../media/images/app_bg_xlarge_vertical.jpg");
+        .md-toolbar-tools {
+            h1 {
+                padding-left: 0;
+                font-size: 22px;
+            }
+            .feedback-button {
+                min-height: 30px;
+                line-height: 30px;
+            }
+        }
     }
-
-
 }
