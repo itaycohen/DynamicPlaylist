@@ -1,6 +1,4 @@
 body {
-
-    // font-family: "Myriad_Pro_Regular";
     color: white;
     .app {
         background: rgb(26, 24, 41);
@@ -8,7 +6,6 @@ body {
         background-size: cover;
         background-position: center;
         .toolbar {
-            // background: linear-gradient(to bottom, #351e4c, #160b2f);
             background: transparent;
             min-height: 56px;
             .md-toolbar-tools {
@@ -16,7 +13,7 @@ body {
                 color: white;
                 .toolbar-title {
                     font-weight: bold;
-                    font-size: 24px; // font-style: italic; 
+                    font-size: 24px; 
                     opacity: 0.98;
                     span {
                         color: #53f9ff;
@@ -40,10 +37,6 @@ body {
             }
         }
         .main-view {
-            // background: #1a1829;
-            // background: deepskyblue;
-            // background-image: url("../media/images/32.jpg");
-            // background: linear-gradient(to bottom, #243B55, #141E30); 
             .boxWithHeight {
                 box-sizing: border-box;
             }
@@ -51,7 +44,6 @@ body {
                 overflow-y: auto;
             }
             .right-side {
-                // background: rgba(0, 0, 0, 0.15);
             }
         } // CAN BE DELETED - ONLY FOR REF
         // default toolbar height is 56
