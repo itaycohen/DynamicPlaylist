@@ -1,72 +1,97 @@
 .playlist {
-    height: 100%;
+    height: 100%; // background: rgba(0, 0, 0, 0.25);
 }
 
 .playlist-wrapper {
-    background: rgba(0, 0, 0, 0.25);
+    font-family: "Myriad_Pro_Regular";
+    
+    background: rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
     .playlist-title {
-        padding-left: 18px;
-        margin-top: 10px;
+        padding-left: 13px;
+        margin-top: 11px;
         margin-bottom: 10px;
-        color: #fbfcff;
+        color: white;
+        opacity: 0.98;
+    }
+
+    .main-title {
         font-size: 24px;
-        font-style: italic;
-        font-weight: bold;
+    }
+
+    .sub-title {
+        font-size: 21px;
     }
     .song-item {
-        font-family: Verdana, Geneva, sans-serif;
         .song-number {
-            opacity: 0.8;
-            font-size: 28px;
-            display: inline;
-            font-style: italic;
+            width: 20px;
+            color: #998d9f;
+        }
+        .song-number-big {
+            font-size: 20px;
+            padding-right: 20px;
+            padding-left: 10px;
+        }
+        .song-number-small {
+            font-size: 20px;
+            padding-right: 14px;
+            padding-left: 2px;
         }
         .full-song-name {
-            display: inline;
             .song-name {
-                display: inline;
-                font-weight: bold;
-            }
-            .song-by {
-                font-size: 19px;
-                display: inline;
-                font-style: italic;
-            }
-            .song-by-desktop {
-                padding-left: 2px;
-                padding-right: 2px;
+                color: #ebe8ec;
+                padding-bottom: 5px;
             }
             .artist-name {
-                display: inline;
+                color: #13e3ed;
             }
         }
-
-        .song-number-big {
-            padding-right: 7px;
-        }
-
         .full-song-name-big {
             font-size: 18px;
-            
-
+            .song-name {
+                letter-spacing: 1px;
+                font-size: 17px;
+            }
+            .artist-name {
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
         }
-
         .full-song-name-small {
-
-            font-size: 16px;
-
+            .song-name {
+                font-size: 14.5px;
+            }
+            .artist-name {
+                font-size: 13.5px;
+            }
+        }
+    }
+    .song-item-container-last {
+        .song-number-big {
+            padding-left: 5px;
+        }
+        .full-song-name-big {
+            padding-left: 5px;
+        }
+        .song-number-small {
+            padding-left: 0;
+        }
+        .full-song-name-small {
+            padding-left: 2px;
         }
     }
     .item-list {
-        box-shadow: -7px -21px 0px -20px white;
-
-        .md-button.md-default-theme:not([disabled]):hover, .md-button:not([disabled]):hover {
-            background-color: transparent;;
-        }
+        box-shadow: -3px -18px 0px -17px rgba(255, 255, 255, 0.5);
+        padding-top: 2px;
+        padding-bottom: 2px; // TEMP - hovering background on item list
+        // .md-button.md-default-theme:not([disabled]):hover,
+        // .md-button:not([disabled]):hover {
+        //     background-color: transparent;
+        //     ;
+        // }
     }
-
-    .clickable-item {
-        cursor: pointer;
+    .now-playing-song {
+        padding-bottom: 10px;
     }
     .hover-icon {
         display: none;
@@ -107,7 +132,9 @@
 }
 
 .playlist-wrapper-horizontal {
-    margin: 12px;
+    margin: 0 12px 12px 12px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .playlist-wrapper-vertical {
@@ -115,7 +142,9 @@
 }
 
 .inf-icon svg {
+    padding: 3px;
     fill: white;
+    opacity: 0.8;
 }
 
 #bars {
@@ -123,28 +152,46 @@
     position: absolute;
 }
 
-
 .bar {
-   background: white;
+    background: #fb5095;
     bottom: 0px;
     position: absolute;
-    width: 4px;      
+    width: 4px;
     animation: sound 0ms -950ms linear infinite alternate;
 }
 
 @keyframes sound {
     0% {
-       opacity: .35;
-        height: 3px; 
+        opacity: .35;
+        height: 3px;
     }
     100% {
-        opacity: 1;       
-        height: 26px;        
+        opacity: 1;
+        height: 26px;
     }
 }
 
-.bar:nth-child(1)  { left: 1px; animation-duration: 524ms; }
-.bar:nth-child(2)  { left: 6px; animation-duration: 483ms; }
-.bar:nth-child(3)  { left: 11px; animation-duration: 457ms; }
-.bar:nth-child(4)  { left: 16px; animation-duration: 508ms; }
-.bar:nth-child(5)  { left: 21px; animation-duration: 450ms; }
+.bar:nth-child(1) {
+    left: 1px;
+    animation-duration: 524ms;
+}
+
+.bar:nth-child(2) {
+    left: 6px;
+    animation-duration: 483ms;
+}
+
+.bar:nth-child(3) {
+    left: 11px;
+    animation-duration: 457ms;
+}
+
+.bar:nth-child(4) {
+    left: 16px;
+    animation-duration: 508ms;
+}
+
+.bar:nth-child(5) {
+    left: 21px;
+    animation-duration: 450ms;
+}

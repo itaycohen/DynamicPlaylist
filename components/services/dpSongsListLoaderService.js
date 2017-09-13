@@ -734,7 +734,7 @@ function dpSongsListLoaderService($http, $q) {
             "i": 48,
             "id": "pUjE9H8QlA4",
             "a": "Mr. Probz",
-            "s": "Waves (Robin Schulz Remix Radio Edit)",
+            "s": "Waves (Robin Schulz Remix)",
             "g": [
                 3,
                 0,

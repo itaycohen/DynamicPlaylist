@@ -25,7 +25,7 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
     //         dpSongsListLogic.initCalcSongsList();
     //     }
     // );
-    
+
 }]);
 
 app.config(function ($mdThemingProvider) {
@@ -43,6 +43,13 @@ function appController($scope, $mdMedia, $mdDialog, dpAppUtils) {
         if (dpAppUtils.isDesktop()) {
             return "main-view-big";
         }
+    };
+
+    $scope.getToolbarTemplateUrl = function () {
+        if (dpAppUtils.isDesktop()) {
+            return "components/app/toolbar/dpToolbarBig.html";
+        }
+        return "components/app/toolbar/dpToolbarSmall.html";
     };
 
     $scope.openFeedbackForm = function () {

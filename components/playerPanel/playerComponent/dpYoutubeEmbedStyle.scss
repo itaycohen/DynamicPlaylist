@@ -18,10 +18,15 @@
 
 .player-wrapper-horizontal {
     margin-left: 12px;
-    margin-top: 12px;
-    
+    .youtube-embed-container {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+    .current-playing-bar {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
 }
-
 
 .youtube-embed-container {
     background: #615e79;
@@ -48,6 +53,7 @@
     .song-fullname-container {
         white-space: normal;
         padding-left: 5px;
+        font-family: Roboto, sans-serif;
         .song-name-container {
             margin-top: 4px;
             margin-bottom: 2px;
@@ -77,7 +83,8 @@
             -webkit-animation-duration: 15s;
             -webkit-animation-timing-function: linear;
             -webkit-animation-iteration-count: infinite;
-            font-family: Roboto, sans-serif;
+            
+            
             font-weight: 500;
         }
     }

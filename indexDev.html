@@ -51,12 +51,7 @@
     <div class="app" ng-class="getAppClass()" ng-controller="appController">
 
         <!--Toolbar-->
-        <md-toolbar class="toolbar">
-            <div class="md-toolbar-tools">
-                <h1 flex md-truncate class="md-toolbar-tools">MIXSHAKE</h1>
-                <md-button class="md-raised feedback-button" ng-click="openFeedbackForm()">FEEDBACK</md-button>
-            </div>
-        </md-toolbar>
+        <ng-include src='getToolbarTemplateUrl()'></ng-include>
 
         <!--Main View-->
         <!--space-between: for stretching the left part-->
@@ -64,22 +59,20 @@
         <div class="main-view" ng-class="getMainViewClass()" layout="row" layout-align="start space-between" layout-xs="column" layout-sm="column">
 
             <!--Left side-->
-            <div flex-gt-sm="45" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start stretch" class="boxWithHeight">
+            <div flex-gt-sm="55" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start stretch" class="boxWithHeight">
 
 
                 <!--Youtube Player Container-->
                 <!--Youtube Player-->
                 <dp-youtube-embed-directive></dp-youtube-embed-directive>
+                
                 <!--Smart Widgets Container-->
                 <!--Smart Widgets-->
                 <dp-genre-widget-manager flex layout="column" layout-align="start stretch" class="widget-manager-container"></dp-genre-widget-manager>
-                <!--</div>-->
             </div>
 
             <!--Right side-->
             <div flex-gt-sm layout="column" layout-align="start stretch" class="right-side boxWithHeight">
-
-                <!--Dynamic Playlist-->
                 <dp-dynamic-playlist></dp-dynamic-playlist>
             </div>
         </div>
