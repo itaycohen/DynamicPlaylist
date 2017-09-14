@@ -301,6 +301,9 @@ body {
     box-shadow: -3px -18px 0px -17px rgba(255, 255, 255, 0.5);
     padding-top: 2px;
     padding-bottom: 2px; }
+    .playlist-wrapper .item-list .md-button.md-default-theme:not([disabled]):hover,
+    .playlist-wrapper .item-list .md-button:not([disabled]):hover {
+      background-color: transparent; }
   .playlist-wrapper .now-playing-song {
     padding-bottom: 10px; }
   .playlist-wrapper .hover-icon {

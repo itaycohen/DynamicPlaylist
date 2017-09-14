@@ -84,13 +84,13 @@
         box-shadow: -3px -18px 0px -17px rgba(255, 255, 255, 0.5);
         padding-top: 2px;
         padding-bottom: 2px; // TEMP - hovering background on item list
-        // .md-button.md-default-theme:not([disabled]):hover,
-        // .md-button:not([disabled]):hover {
-        //     background-color: transparent;
-        //     ;
-        // }
+        .md-button.md-default-theme:not([disabled]):hover,
+        .md-button:not([disabled]):hover {
+            background-color: transparent;
+            ;
+        }
     }
-    .now-playing-song {
+    .now-playing-song { 
         padding-bottom: 10px;
     }
     .hover-icon {
