@@ -12,8 +12,8 @@ function dpDynamicPlaylist() {
     return directive;
 }
 
-dpDynamicPlaylistController.$inject = ['$rootScope', 'dpSongsListLogic', 'dpAppUtils', '$window'];
-function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $window) {
+dpDynamicPlaylistController.$inject = ['$rootScope', 'dpSongsListLogic', 'dpAppUtils', '$window', '$timeout'];
+function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $window, $timeout) {
 
     $rootScope.logicService = dpSongsListLogic;
 
@@ -38,9 +38,11 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
 
     $rootScope.playSelectedSong = function (songIndex) {
         //TODO - smooth scrolling
-        $window.scrollTo(0,0);
-        dpSongsListLogic.popSongIndexFromListAndUpdate(true, songIndex);
-        loadNextSong();
+        $timeout(function() {
+            $window.scrollTo(0, 0);
+            dpSongsListLogic.popSongIndexFromListAndUpdate(true, songIndex);
+            loadNextSong();
+            }, 200);
     };
 
     $rootScope.shouldShowPlayButton = function () {

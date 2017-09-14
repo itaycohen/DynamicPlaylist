@@ -1,33 +1,91 @@
 .genre-manager-wrapper {
     // we always want left and top
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    .genre-selector-container {
+        // in order to catch the hover & active event of the user pointer
+        width: 136px;
+        height: 47px;
+        .add-genre-button {
+            font-family: Arial, sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 13px;
+            padding-left: 14px;
+            letter-spacing: 0.5px;
+            width: 132px;
+            line-height: 38px;
+            height: 37px;
+            min-height: 37px;
+            border-radius: 20px;
+            background: #fb3c89;
+            .plus-sign {
+                padding-right: 6px;
+                margin-top: 11px;
+            }
+        }
+        .md-select:hover+.add-genre-button {
+            background: #FB38A6; // #ff00de
+            transform: scale(1.025);
+        }
+        .genre-selector-wrapper {
+            margin: -43px 0 0 0; // background: red;
+            width: 136px;
+            height: 47px;
+            min-height: 47px;
+            .md-select-value {
+                span {
+                    display: none;
+                }
+            }
+        }
+        md-select.md-default-theme .md-select-value,
+        md-select .md-select-value {
+            border-bottom-color: transparent;
+        }
+        md-select:not([disabled]):focus .md-select-value {
+            border-bottom: none;
+        }
+    }
+    .genre-selector-container:hover {
+        .add-genre-button {
+            background: #FB38A6;
+            transform: scale(1.025);
+        }
+    }
+    .genre-selector-container:active {
+        .add-genre-button {
+            // background: #FB38A6; // #ff00de
+            transform: scale(0.97);
+        }
+    }
+    .genre-widget-area {
+        padding-left: 5px;
+        padding-right: 8px; 
+    }
 }
 
 .genre-manager-wrapper-vertical {
-    // common sides
+    padding-top: 4px; // common sides
     margin-left: 6px;
-    margin-top: 6px;
-
-    //different side
+    margin-top: 6px; //different side
     margin-right: 6px;
+    .genre-selector-container {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
 }
 
 .genre-manager-wrapper-horizontal {
-    // common sides
+    padding: 15px 15px 0 15px; // common sides
     margin-left: 12px;
-    margin-top: 12px;
-
-    //different side
-    margin-bottom: 12px;
-
-    // adding scroll bar when the window heigt is too small for all the genres
+    margin-top: 12px; //different side
+    margin-bottom: 12px; // adding scroll bar when the window heigt is too small for all the genres
     overflow-y: auto;
 }
 
-
-
 .genre-manager-wrapper-horizontal::-webkit-scrollbar {
-    width: 8px; 
+    width: 8px;
 }
 
 .genre-manager-wrapper-horizontal::-webkit-scrollbar-thumb {
@@ -44,52 +102,9 @@
     background: hsla(0, 0%, 100%, .15);
 }
 
-.genre-selector-container {
-    padding-top: 8px; 
-    label {
-        color: #c9d6ff;
-        font-size: 21px;
-        font-style: italic;
-        font-weight: bold;
-    }
-    md-select {
-        margin: 10px 0 8px 0;
-    }
-    .genre-selector-wrapper {
-        .md-select-value {
-            // color: #ffab40;  
-            span {
-                padding-top: 5px;
-                padding-bottom: 4px; // changing the color of the ',' between genres
-                color: #160d1e;
-            }
-            .md-text {
-                border: 1px solid transparent;
-                border-radius: 15px;
-                padding: 3px 5px 3px 5px;
-                color: #1a1829;
-                background: #c9d6ff;
-            }
-            .md-select-icon {
-                margin-left: 0;
-                color: #c9d6ff;
-            }
-        }
-    } //change the color of the genres when not hovering
-    // md-select.md-default-theme:not([disabled]):focus .md-select-value, md-select:not([disabled]):focus .md-select-value {
-    //   color: #ffab40;
-    // }
-    md-select.md-default-theme .md-select-value,
-    md-select .md-select-value {
-        border-bottom-color: transparent;
-    }
-    md-select:not([disabled]):focus .md-select-value {
-        border-bottom: none; // color: rgba(0,0,0,0.87);
-    }
-}
-
 .selectGenreSelectorHeader {
     /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */
+    margin-left: 50px;
 }
 
 .selectGenreSelectorHeader .demo-header-searchbox {
@@ -113,10 +128,4 @@
 
 .selectGenreSelectorHeader md-content._md {
     max-height: 240px;
-}
-
-.genre-widget-area {
-    padding-left: 5px;
-    padding-right: 8px; // padding : 10px;
-    // max-width: 450px;
 }

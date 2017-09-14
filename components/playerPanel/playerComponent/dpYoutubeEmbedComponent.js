@@ -3,12 +3,10 @@ angular
 	.factory('dpYoutubeEmbedService', dpYoutubeEmbedService)
 	.directive("dpYoutubeEmbedDirective", dpYoutubeEmbedDirective);
 
-
 dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope', '$window'];
 
 //TODO - investigate & change as our format
 function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
-
 
 	// https://github.com/brandly/angular-youtube-embed/blob/master/src/angular-youtube-embed.js
 	var isReady = false;
@@ -85,8 +83,6 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 }
 
 
-
-
 dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
 
 function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $window, $http) {
@@ -100,35 +96,20 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
 
-		// dpYoutubeEmbedService.getYoutubeEmbed().then(
-		// 	setTimeout(function () {
-		// 		loadYoutubeEmbed();
-		// 	}, 2)
-		// );
-
-		// dpYoutubeEmbedService.getYoutubeEmbed().then(
-		// 	loadYoutubeEmbed()
-		// );
-
-
 		function loadYoutubeEmbed() {
 			// var time1 = new Date();
 			// var mili = time1.getMilliseconds();
 			// console.log("onYouTubePlayerAPIReady loading, time: " + time1);
 			// console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
-			// $window.onYouTubePlayerAPIReady = function () {
 			// console.log("$window.onYouTubePlayerAPIReady");
 			$scope.player = new YT.Player('player', {
-				// width: $scope.getPlayerWidth(),
-				// height: $scope.getPlayerHeight(),
-				// width: "100%",
-				// height: "100%",
-				// TODO - consider handle list with Ids
-				// playerVars: { 'autoplay': 0, 'controls': 1, 'playlist': ['oyEuk8j8imI', 'lp-EO5I60KA'] },
 				playerVars: {
 					'autoplay': 0,
 					'controls': 1,
-					'showinfo': 1
+					'showinfo': 0,
+					'enablejsapi' : 1,
+					'iv_load_policy' : 3,
+					'rel' : 0
 				},
 				videoId: getFirstSongId(),
 				events: {
@@ -139,12 +120,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					'onError': onErrorCB
 				}
 			});
-
-
-
-			// };
 		}
-
 
 		function getFirstSongId() {
 			// return 'oyEuk8j8imI';
@@ -197,7 +173,6 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			// console.log("Youtube Player Event - handlePlayerPaused");
 		}
 
-
 		function handlePlayerEnded() {
 			// console.log("Youtube Player Event - handlePlayerEnded");
 			$scope.executePlayerEndedActions(false);
@@ -244,20 +219,16 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 	} // dpPlayerBoxPostLink
 } // dpYoutubeEmbedDirective
 
-
 dpYoutubeEmbedController.$inject = ['$scope', 'dpSongsListLogic', 'dpAppUtils'];
 function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 
 	var playerScreenRatio = 0.52;
 	var playerwidthReducerFactor = 0.5; // factor that decide how wide the player width can be
 	var MINIMUM_WIDTH_OF_SCREEN = 768;
-
 	var maxPlayerWidth = 850;
 
 	//hooking the dpSongsListLogic on logicService for html access
 	$scope.logicService = dpSongsListLogic;
-
-	// $scope.isPlaying = getIsPlayingValue();
 	$scope.isPlaying = false;
 
 	$scope.onPauseSongClick = function () {
@@ -291,13 +262,6 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 
 	};
 
-	// function getIsPlayingValue() {
-	// 	var isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-	// 	return !isIOSDevice;
-	// }
-
-
-
 	/**
 	 *  when do we show play/pause buttons
 	 * -1 – unstarted 	-> show play
@@ -328,14 +292,6 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		}
 	}
 
-	// $scope.shoudShowPlayButton = function () {
-	// 	return $scope.isPlayingState;
-	// };
-
-	// $scope.shoudShowPauseButton = function () {
-	// 	return !$scope.shoudShowPlayButton();
-	// };
-
 	$scope.getPlayerHeight = function () {
 		return $scope.getPlayerWidth() * playerScreenRatio;
 	};
@@ -353,14 +309,11 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		return screenWidth;
 	};
 
-	
-
 	$scope.getBarWidth = function () {
 		var playerWidth = $scope.getPlayerWidth();
 		return { "width": playerWidth + "px" };
 
 	};
-
 
 	/**
 	 * return player state code
@@ -376,28 +329,6 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		return angular.isDefined($scope.player) ? $scope.player.getPlayerState() : 0;
 	};
 
-
-	// watchers
-
-	// $scope.$watch("getPlayerState", showMeTheState);
-	// $scope.$watch(function () {
-	// 	return $scope.getPlayerState();
-	// }, showMeTheState);
-
-	// $scope.$watch(function () {
-	// 	return $scope.isPlayingState;
-	// }, [$scope.shoudShowPlayButton, $scope.shoudShowPauseButton]);
-
-	// $scope.$watch(function () {
-	// 	return $scope.isPlayingState;
-	// }, $scope.shoudShowPauseButton);
-
-	// function showMeTheState() {
-	// 	var state = $scope.getPlayerState();
-	// 	console.log("state was change to " + state);
-	// }
-
-
 	$scope.getPlayingBarTempByDevice = function () {
 		if (dpAppUtils.isMobile()) {
 			return "components/playerPanel/playerComponent/playingBarTemplateSmall.html";
@@ -411,6 +342,5 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		}
 		return "player-wrapper-vertical";
 	};
-
 
 }

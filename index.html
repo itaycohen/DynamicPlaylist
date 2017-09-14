@@ -36,13 +36,11 @@
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-99014397-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 
     <script type="text/javascript">
         window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = t.forceSSL || "https:" === document.location.protocol, a = document.createElement("script"); a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(a, n); for (var o = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++)heap[p[c]] = o(p[c]) };
         heap.load("2822657134");
-
     </script>
 
     <link href="css/app.config.min.css" rel="stylesheet" type="text/css">
@@ -52,36 +50,28 @@
     <!--The app-->
     <div class="app" ng-class="getAppClass()" ng-controller="appController">
         <!--Toolbar-->
-        <md-toolbar class="toolbar">
-            <div class="md-toolbar-tools">
-                <h1 flex md-truncate class="md-toolbar-tools">MIXSHAKE</h1>
-                <md-button  class="md-raised feedback-button" ng-click="openFeedbackForm()">FEEDBACK</md-button>
-            </div>
-        </md-toolbar>
+        <ng-include src='getToolbarTemplateUrl()'></ng-include>
         <!--Main View-->
         <!--space-between: for stretching the left part-->
         <!--layout-xs="column" layout-sm="column" - when width is smaller than 960px we change to column layout-->
         <div class="main-view" ng-class="getMainViewClass()" layout="row" layout-align="start space-between" layout-xs="column" layout-sm="column">
             <!--Left side-->
-            <div flex-gt-sm="45" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start stretch" class="boxWithHeight">
+            <div flex-gt-sm="55" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start stretch" class="boxWithHeight">
                 <!--Youtube Player Container-->
                 <!--Youtube Player-->
                 <dp-youtube-embed-directive></dp-youtube-embed-directive>
                 <!--Smart Widgets Container-->
                 <!--Smart Widgets-->
                 <dp-genre-widget-manager flex layout="column" layout-align="start stretch" class="widget-manager-container"></dp-genre-widget-manager>
-                <!--</div>-->
             </div>
             <!--Right side-->
             <div flex-gt-sm layout="column" layout-align="start stretch" class="right-side boxWithHeight">
-                <!--Dynamic Playlist-->
                 <dp-dynamic-playlist></dp-dynamic-playlist>
             </div>
         </div>
     </div>
     <script>
         !function () { function e(e) { this.queue = [], this.udid = e; var n = e + ((new Date).getTime() + Math.floor(1e3 * Math.random())); t[n] = this } for (var t = {}, n = ["open", "close", "addMeta", "removeMeta"], a = 0; a < n.length; a++)!function (t) { e.prototype[t] = function () { this.queue.push([t, arguments]) } }(n[a]); t && function (e) { var t = document.createElement("script"); t.type = "text/javascript", t.async = !0, t.defer = !0, t.src = e, (document.getElementsByTagName("body")[0] || document.getElementsByTagName("head")[0]).appendChild(t) }("https://survey.feedbackly.com/dist/plugin-v2.min.js?id=" + (new Date).getTime()), window.Fbly = e, window._FblyInst = t }(); var plugin_H1IyjxbPW = new Fbly("H1IyjxbPW")
-
     </script>
 
 </body>

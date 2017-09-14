@@ -16,14 +16,15 @@ function dpGenreWidget($rootScope, dpSongsListLogic) {
             changeHandler: "&"
             // function & onValueChange 
         },
+        // template: "<ng-include src='getTemplateUrl()'/>",
         templateUrl: "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidget.html",
         controller: dpGenreWidgetController
     };
     return directive;
 }
 
-dpGenreWidgetController.$inject = ["$scope", "dpSongsListLogic"];
-function dpGenreWidgetController($scope, dpSongsListLogic) {
+dpGenreWidgetController.$inject = ["$scope", "dpSongsListLogic", "dpAppUtils"];
+function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
 
     // init the weight
     // TODO - save and load from chache for each user
@@ -37,8 +38,24 @@ function dpGenreWidgetController($scope, dpSongsListLogic) {
         $scope.$parent.updateSongIndexesList($scope.genre, $scope.widgetValue);
         // we save the user genres data after each change
         dpSongsListLogic.storeUserGenresData();
-        
+
     };
+
+    $scope.getGenreContainerClass = function () {
+        if (!dpAppUtils.isDesktop()) {
+            return "genre-name-container-small";
+        }
+        return "genre-name-container-big";
+    };
+
+    // $scope.getTemplateUrl = function () {
+    //     if (dpAppUtils.isDesktop()) {
+    //         //big view - row layout (not small as in mobile - row)
+    //         // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
+    //         return "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidgeFixWideScreen.html";
+    //     }
+    //     return "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidgetLongVerticalScreen.html";
+    // };
 
     // TODO - Ticket 001 
     // $scope.onWidgetChange = function() {

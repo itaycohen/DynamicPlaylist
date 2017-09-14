@@ -1,24 +1,13 @@
-
-// --------------- BOURBON ---------------
-$em-base : 16px; //same as default, just in order to keep it explicit
-// @import "_dev_components/bourbon/_bourbon.scss"; 
-
-// --------------- INFRA -----------------
-// @import "styles/_mixins.scss";
-
-// --------------- THEME -----------------
-// @import "styles/_constants.scss";
+@font-face {
+    font-family: "Myriad_Pro_Regular";
+    src: url(/media/fonts/MyriadPro-Regular.otf);
+ }
 
 // --------------- INFRA COMPONENTS ------ 
-// @import "styles/_constants.scss";
 @import "styles/main.scss";
 @import "components/playerPanel/playerComponent/dpYoutubeEmbedStyle.scss";
 @import "components/controlPanel/smartBarsComponent/genreWidgetManager/dpGenreWidgetManager.scss";
 @import "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidget.scss";
 @import "components/controlPanel/listComponents/playlistComponent/dpDynamicPlaylist.scss";
 
-// --------------- NODES -----------------
 
-
-//test - dev
-//test - from dev

@@ -5,33 +5,38 @@ body {
         background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
         background-size: cover;
         background-position: center;
-        md-toolbar {
+        .toolbar {
+            background: transparent;
             min-height: 56px;
             .md-toolbar-tools {
                 height: 56px;
                 color: white;
-                opacity: 0.92;
-                font-size: 24px; // font-style: italic; 
-                font-weight: bold;
+                .toolbar-title {
+                    font-weight: bold;
+                    font-size: 24px; 
+                    opacity: 0.98;
+                    span {
+                        color: #53f9ff;
+                    }
+                }
                 .feedback-button {
                     min-height: 33px;
                     line-height: 33px;
                 }
             }
         }
-        .toolbar {
-            background: linear-gradient(to bottom, #351e4c, #160b2f);
-        }
         .feedback-button {
             background: rgb(251, 247, 255);
             color: #1a1829;
             font-weight: 600;
+            opacity: 0.95;
+        }
+        .toolbar-big {
+            .feedback-button {
+                margin-right: -4px;
+            }
         }
         .main-view {
-            // background: #1a1829;
-            // background: deepskyblue;
-            // background-image: url("../media/images/32.jpg");
-            // background: linear-gradient(to bottom, #243B55, #141E30); 
             .boxWithHeight {
                 box-sizing: border-box;
             }
@@ -39,7 +44,6 @@ body {
                 overflow-y: auto;
             }
             .right-side {
-                // background: #283048;
             }
         } // CAN BE DELETED - ONLY FOR REF
         // default toolbar height is 56
@@ -57,14 +61,18 @@ body {
     }
     .app-vertical {
         background-image: url("../media/images/app_bg_xlarge_vertical.jpg");
-        .md-toolbar-tools {
-            h1 {
-                padding-left: 0;
-                font-size: 22px;
-            }
-            .feedback-button {
-                min-height: 30px;
-                line-height: 30px;
+        .toolbar {
+            .md-toolbar-tools {
+                h1 {
+                    padding-left: 0;
+                    font-size: 22px;
+                }
+                .feedback-button {
+                    min-height: 25px;
+                    line-height: 25px;
+                    min-width: 77px;
+                    font-size: 10px;
+                }
             }
         }
     }
