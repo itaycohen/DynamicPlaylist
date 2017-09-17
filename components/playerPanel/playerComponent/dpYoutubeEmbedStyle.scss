@@ -1,91 +1,104 @@
-@keyframes slide {
-    from {
-        left: 100%;
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
     }
-    to {
-        left: -100%;
-    }
-}
-
-@-webkit-keyframes slide {
-    from {
-        left: 100%;
-    }
-    to {
-        left: -100%;
+    100% {
+        -moz-transform: translateX(-100%);
     }
 }
 
-.player-wrapper-horizontal {
-    margin-left: 12px;
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        /* Browser bug fix */
+        -webkit-transform: translateX(100%);
+        /* Browser bug fix */
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        /* Browser bug fix */
+        -webkit-transform: translateX(-100%);
+        /* Browser bug fix */
+        transform: translateX(-100%);
+    }
+}
+    .player-wrapper-horizontal {
+        margin-left: 12px;
+        .youtube-embed-container {
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+        .current-playing-bar {
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
+        }
+    }
     .youtube-embed-container {
-        border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
-    }
-    .current-playing-bar {
-        border-bottom-left-radius: 16px;
-        border-bottom-right-radius: 16px;
-    }
-}
-
-.youtube-embed-container {
-    background: #615e79;
-    position: relative;
-    padding-bottom: 40%; //was 56.25%
-    //padding-top: 30px; 
-    height: 0;
-    overflow: hidden;
-    .player {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-.current-playing-bar {
-    background: rgba(0, 0, 0, 0.57);
-    height: 48px;
-    .control-song-button {
-        min-width: 26px;
-    }
-    .song-fullname-container {
-        white-space: normal;
-        padding-left: 5px;
-        font-family: Roboto, sans-serif;
-        .song-name-container {
-            margin-top: 4px;
-            margin-bottom: 2px;
-        }
-        .artist-name-container {
-            margin-top: 2px;
-            margin-bottom: 4px;
-        }
-        .scrolling-song-fullname {
-            color: white;
-            height: 48px;
-            line-height: 48px;
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-        .song-fullname-text {
+        background: #615e79;
+        position: relative;
+        padding-bottom: 40%; //was 56.25%
+        //padding-top: 30px; 
+        height: 0;
+        overflow: hidden;
+        .player {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            animation-name: slide;
-            animation-duration: 15s;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-            -webkit-animation-name: slide;
-            -webkit-animation-duration: 15s;
-            -webkit-animation-timing-function: linear;
-            -webkit-animation-iteration-count: infinite;
-            
-            
-            font-weight: 500;
+            height: 100%;
         }
     }
-}
+    .current-playing-bar {
+        background: rgba(0, 0, 0, 0.57);
+        height: 48px;
+        .control-song-button {
+            min-width: 26px;
+        }
+        .song-fullname-container {
+            white-space: normal;
+            padding-left: 5px;
+            font-family: Roboto, sans-serif;
+            .song-name-container {
+                margin-top: 4px;
+                margin-bottom: 2px;
+            }
+            .artist-name-container {
+                margin-top: 2px;
+                margin-bottom: 4px;
+            }
+            .scrolling-song-fullname {
+                color: white;
+                height: 48px;
+                line-height: 48px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+            }
+            .song-fullname-text {
+                position: absolute;
+                width: 150%;
+                height: 100%;
+                margin: 0;
+                line-height: 50px;
+                text-align: center;
+                /* Starting position */
+                -moz-transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+                /* Apply animation to this element */
+                -moz-animation: scroll-left 16s linear infinite;
+                -webkit-animation: scroll-left 16s linear infinite;
+                animation: scroll-left 16s linear infinite;
+            }
+        }
+    }
