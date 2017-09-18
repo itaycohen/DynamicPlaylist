@@ -70,13 +70,17 @@
                                 <div layout="row">
 
                                     <!-- <h3> Song Details </h3> -->
+                                    <md-input-container style="width: 400px" md-no-float class="md-block">
+                                        <label>Full Title</label>
+                                        <input ng-model="song.fullTitle" type="text">
+                                    </md-input-container>
                                     <md-input-container md-no-float class="md-block">
                                         <label>Artist</label>
-                                        <input ng-model="song.artist" type="text">
+                                        <input ng-model="getSongArtist()" type="text">
                                     </md-input-container>
-                                    <md-input-container class="md-block">
+                                    <md-input-container style="width: 300px" class="md-block">
                                         <label>Song Name</label>
-                                        <input ng-model="song.songName" type="text">
+                                        <input ng-model="getSongName()" type="text">
                                     </md-input-container>
                                 </div>
 

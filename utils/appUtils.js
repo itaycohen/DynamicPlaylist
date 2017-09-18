@@ -68,8 +68,10 @@ function appUtilsController($rootScope, dpAppUtils) {
         newSong.index = 'xxx';
         newSong.id = currentSong.id;
         newSong.details = {};
-        newSong.details.artist = currentSong.artist.trim();
-        newSong.details.songName = currentSong.songName.trim();
+        // newSong.details.artist = currentSong.artist.trim();
+        // newSong.details.songName = currentSong.songName.trim();
+        newSong.details.artist = currentSong.artist;
+        newSong.details.songName = currentSong.songName;
         newSong.genreWeights = {};
         for (var i = 0; i < mapOfGenres.length; i++) {
             var key = mapOfGenres[i];
@@ -117,9 +119,36 @@ function appUtilsController($rootScope, dpAppUtils) {
 
     };
 
+    $rootScope.getSongArtist = function() {
+        var fullSongTitle = $rootScope.song.fullTitle;
+        if (angular.isDefined(fullSongTitle)) {
+            var dashIndex = fullSongTitle.indexOf("-");
+            var artist = fullSongTitle.substring(0, dashIndex - 1).trim();
+            var songName = fullSongTitle.substring(dashIndex + 1).trim();
+            $rootScope.song.artist = artist;
+            return artist;
+            // console.log(artist);
+            // console.log(songName);
+        }
+        return "";
+    };
+
+
+    $rootScope.getSongName = function() {
+        var fullSongTitle = $rootScope.song.fullTitle;
+        if (angular.isDefined(fullSongTitle)) {
+            var dashIndex = fullSongTitle.indexOf("-");
+            var songName = fullSongTitle.substring(dashIndex + 1).trim();
+            $rootScope.song.songName = songName;
+            return songName;
+        }
+        return "";
+    };
+
 
 
     // Convertors
+    ////////////////////////////////////
 
     $rootScope.convertFromShrinkToRaw = function () {
         convertShrinkSongsListToRawSongsList();
