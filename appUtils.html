@@ -11,16 +11,20 @@
 
     <!-- Angular Material requires Angular.js Libraries -->
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
 
+    <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+
+    <script src="utils/dist/ngclipboard.min.js"></script>
+
     <!-- Angular Material Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
 
     <!-- Application sources -->
-    <!-- <script src="app.js" type="text/javascript"></script> -->
     <script src="utils/appUtils.js" type="text/javascript"></script>
     <script src="components/services/dpAppUtils.js" type="text/javascript"></script>
 
@@ -32,7 +36,7 @@
 
 <body>
     <div class="appUtils" ng-controller="appUtilsController">
-        <h2> App Utils </h2>
+        <!-- <h2> App Utils </h2> -->
         <div ng-cloak>
             <md-content class="md-padding">
                 <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
@@ -49,7 +53,7 @@
                 <div class="ext-content">
 
                     <div ng-show="currentNavItem === 'page1'">
-                        <h2> Adding Songs</h2>
+                        <!-- <h2> Adding Songs</h2> -->
                         <div layout="column" layout-padding ng-cloak>
                             <md-content class="md-no-momentum">
 
@@ -68,59 +72,99 @@
                                 </div>
 
                                 <div layout="row">
-
                                     <!-- <h3> Song Details </h3> -->
                                     <md-input-container style="width: 400px" md-no-float class="md-block">
                                         <label>Full Title</label>
                                         <input ng-model="song.fullTitle" type="text">
+                                        <md-button ng-click="parseFullTitle()" class="md-raised">Parse</md-button>
                                     </md-input-container>
                                     <md-input-container md-no-float class="md-block">
                                         <label>Artist</label>
-                                        <input ng-model="getSongArtist()" type="text">
+                                        <input id="artist" ng-model="song.artist" type="text" style="color : blue">
+                                        <md-button ngclipboard data-clipboard-target="#artist" class="md-raised">Copy</md-button>
                                     </md-input-container>
                                     <md-input-container style="width: 300px" class="md-block">
                                         <label>Song Name</label>
-                                        <input ng-model="getSongName()" type="text">
+                                        <input id="songName" ng-model="song.songName" type="text" ng-style="getSelectedSongNameStyle(data.takeSongName)">
+                                        <md-button ngclipboard data-clipboard-target="#songName" class="md-raised">Copy</md-button>
+                                        <md-checkbox ng-model="data.takeSongName" aria-label="Checkbox 1">
+                                            Take me to json
+                                        </md-checkbox>
+                                    </md-input-container>
+                                    <md-input-container style="width: 300px" class="md-block">
+                                        <label>Song Name For API</label>
+                                        <input id="songName" ng-model="song.songNameAPI" type="text" ng-style="getSelectedSongNameStyle(!data.takeSongName)">
+                                        <md-button ng-click="parseSongName()" class="md-raised">Parse</md-button>
                                     </md-input-container>
                                 </div>
 
+                                <!-- genre area -->
+                                <div div layout="row">
+                                    <div style="width: 600px">
+                                        <h3> Song API </h3>
+                                        <md-button ng-click="getSongGneres()" class="md-raised md-primary">Get Data</md-button>
+                                        <md-button ng-click="cleanResult()" class="md-raised ">Clean Data</md-button>
 
-                                <h3> Song Genres </h3>
-                                <div layout="row">
-                                    <md-input-container class="md-block">
-                                        <label>Pop</label>
-                                        <input ng-model="song.songGenres[0]" type="number">
-                                    </md-input-container>
-                                    <md-input-container class="md-block">
-                                        <label>Alternative</label>
-                                        <input ng-model="song.songGenres[1]" type="number">
-                                    </md-input-container>
-                                    <md-input-container class="md-block">
-                                        <label>Dance</label>
-                                        <input ng-model="song.songGenres[2]" type="number">
-                                    </md-input-container>
-                                    <md-input-container class="md-block">
-                                        <label>R&B</label>
-                                        <input ng-model="song.songGenres[3]" type="number">
-                                    </md-input-container>
-                                </div>
-                                <div layout="row">
-                                    <md-input-container class="md-block">
-                                        <label>Latin</label>
-                                        <input ng-model="song.songGenres[4]" type="number">
-                                    </md-input-container>
-                                    <md-input-container class="md-block">
-                                        <label>Soul</label>
-                                        <input ng-model="song.songGenres[5]" type="number">
-                                    </md-input-container>
-                                    <md-input-container class="md-block">
-                                        <label>Hip-Hop</label>
-                                        <input ng-model="song.songGenres[6]" type="number">
-                                    </md-input-container>
+                                        <md-input-container class="md-block">
+                                            <textarea ng-model="APIResult" style="font-size: 16px"></textarea>
+                                            </textarea>
+                                        </md-input-container>
+                                    </div>
+
+
+                                    <div>
+                                        <h3> Song Genres </h3>
+                                        <div layout="column">
+                                            <div layout="row">
+                                                <md-input-container ng-style=genreInputStyle class="md-block">
+                                                    <label>Pop</label>
+                                                    <input ng-model="song.songGenres[0]" type="number">
+                                                </md-input-container>
+                                                <md-input-container ng-style="genreInputStyle" class="md-block">
+                                                    <label>Alternative</label>
+                                                    <input ng-model="song.songGenres[1]" type="number">
+                                                </md-input-container>
+                                                <md-input-container ng-style="genreInputStyle" class="md-block">
+                                                    <label>Dance</label>
+                                                    <input ng-model="song.songGenres[2]" type="number">
+                                                </md-input-container>
+                                            </div>
+                                            <div layout="row">
+                                                <md-input-container ng-style="genreInputStyle" class="md-block">
+                                                    <label>R&B</label>
+                                                    <input ng-model="song.songGenres[3]" type="number">
+                                                </md-input-container>
+                                                <md-input-container ng-style="genreInputStyle" class="md-block">
+                                                    <label>Latin</label>
+                                                    <input ng-model="song.songGenres[4]" type="number">
+                                                </md-input-container>
+                                            </div>
+                                            <div layout="row">
+                                                <md-input-container ng-style="genreInputStyle" class="md-block">
+                                                    <label>Soul</label>
+                                                    <input ng-model="song.songGenres[5]" type="number">
+                                                </md-input-container>
+                                                <md-input-container ng-style="genreInputStyle" class="md-block">
+                                                    <label>Hip-Hop</label>
+                                                    <input ng-model="song.songGenres[6]" type="number">
+                                                </md-input-container>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
                                 </div>
 
+
+
+
+
+
+
+
                                 <div layout="row">
-                                    <md-button ng-click="addSong()" class="md-raised">Add Song</md-button>
+                                    <md-button ng-click="addSong()" class="md-raised md-primary">Add Song & Clean</md-button>
                                     <md-button ng-click="cleanSong()" class="md-raised">Clean Song</md-button>
                                 </div>
 
@@ -130,7 +174,7 @@
                                     <textarea rows="2" cols="50" ng-model="songToAdd">
                                     </textarea>
                                 </md-input-container>
-                                <md-button ng-click="cleanAllSongs()" class="md-raised">Clean All Songs</md-button>
+                                <md-button ng-click="cleanAllSongs()" class="md-raised md-warn">Clean All Songs</md-button>
 
 
 

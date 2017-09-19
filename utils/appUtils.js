@@ -1,10 +1,12 @@
 var app = angular.module('appUtils', [
     'ngMaterial',
-    'dpAppUtils'
-
+    'dpAppUtils',
+    'ngclipboard'
 ]);
 
 app.run(['$rootScope', '$http', function ($rootScope, $http) {
+
+    // debugger;
 
     $http.get("data/songs/songsShrink.json")
         .then(function (response) {
@@ -20,19 +22,19 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
 }]);
 
-// app.config(function ($mdThemingProvider) {
-//     $mdThemingProvider.theme('default')
-//         .primaryPalette('deep-purple')
-//         .accentPalette('deep-purple');
-// });
-
 
 app.controller('appUtilsController', appUtilsController);
-appUtilsController.$inject = ["$rootScope", 'dpAppUtils'];
-function appUtilsController($rootScope, dpAppUtils) {
+appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http'];
+function appUtilsController($rootScope, dpAppUtils, $http) {
 
 
     $rootScope.currentNavItem = 'page1';
+    $rootScope.data = {};
+    $rootScope.data.takeSongName = true;
+    $rootScope.genreInputStyle = { "width": "100px" };
+    // $rootScope.APIResult = "text'<br/>'text";
+
+
 
     var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop']
 
@@ -71,7 +73,7 @@ function appUtilsController($rootScope, dpAppUtils) {
         // newSong.details.artist = currentSong.artist.trim();
         // newSong.details.songName = currentSong.songName.trim();
         newSong.details.artist = currentSong.artist;
-        newSong.details.songName = currentSong.songName;
+        newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
         newSong.genreWeights = {};
         for (var i = 0; i < mapOfGenres.length; i++) {
             var key = mapOfGenres[i];
@@ -82,6 +84,9 @@ function appUtilsController($rootScope, dpAppUtils) {
 
         $rootScope.songToAdd += newSongStr;
         $rootScope.songToAdd += ",";
+
+        $rootScope.cleanSong();
+        $rootScope.data.takeSongName = true;
 
 
     };
@@ -101,6 +106,7 @@ function appUtilsController($rootScope, dpAppUtils) {
             "songName": '',
             "songGenres": [0, 0, 0, 0, 0, 0, 0]
         };
+        $rootScope.APIResult = "";
     };
 
     $rootScope.cleanAllSongs = function () {
@@ -108,7 +114,7 @@ function appUtilsController($rootScope, dpAppUtils) {
     };
 
     $rootScope.isNewSong = function (songId) {
-        var shrinkSongList =  $rootScope.songsShrink;
+        var shrinkSongList = $rootScope.songsShrink;
         for (var i in shrinkSongList) {
             if (shrinkSongList[i].id === songId) {
                 return false;
@@ -119,32 +125,107 @@ function appUtilsController($rootScope, dpAppUtils) {
 
     };
 
-    $rootScope.getSongArtist = function() {
-        var fullSongTitle = $rootScope.song.fullTitle;
-        if (angular.isDefined(fullSongTitle)) {
-            var dashIndex = fullSongTitle.indexOf("-");
-            var artist = fullSongTitle.substring(0, dashIndex - 1).trim();
-            var songName = fullSongTitle.substring(dashIndex + 1).trim();
-            $rootScope.song.artist = artist;
-            return artist;
-            // console.log(artist);
-            // console.log(songName);
-        }
-        return "";
+    $rootScope.parseFullTitle = function () {
+        $rootScope.getSongArtist();
+        $rootScope.getSongName();
+        // TEMP
+        // $rootScope.APIResult = "Genre: dance | Count: 100"+ '\n' +"Genre: House | Count: 100" + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100";
     };
 
 
-    $rootScope.getSongName = function() {
+
+    $rootScope.getSongArtist = function () {
+        var fullSongTitle = $rootScope.song.fullTitle;
+        if (angular.isDefined(fullSongTitle)) {
+            var dashIndex = fullSongTitle.indexOf("-");
+            var artist = fullSongTitle.substring(0, dashIndex).trim();
+            $rootScope.song.artist = artist;
+        }
+    };
+
+
+    $rootScope.getSongName = function () {
         var fullSongTitle = $rootScope.song.fullTitle;
         if (angular.isDefined(fullSongTitle)) {
             var dashIndex = fullSongTitle.indexOf("-");
             var songName = fullSongTitle.substring(dashIndex + 1).trim();
             $rootScope.song.songName = songName;
-            return songName;
         }
-        return "";
     };
 
+    $rootScope.parseSongName = function () {
+        var songName = $rootScope.song.songName;
+        if (angular.isDefined(songName)) {
+            var bracket = songName.indexOf("(");
+            var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
+            $rootScope.song.songNameAPI = songNameAPI;
+        }
+    };
+
+
+
+
+    $rootScope.getSongGneres = function () {
+        var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
+        url += "&artist=";
+        url += $rootScope.song.artist;
+        url += "&track=";
+        url += $rootScope.song.songNameAPI;
+        $http.get(url).
+            then(function (response) {
+                $rootScope.APIResultRaw = response.data;
+                parseAPIResult();
+            });
+    };
+
+    $rootScope.cleanResult = function () {
+        $rootScope.APIResultRaw = "";
+    };
+
+    
+
+
+    function parseAPIResult() {
+        var textResult = "";
+        dataToParse = $rootScope.APIResultRaw;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            // alert("No API Result");
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.toptags) || dataToParse.toptags === '') {
+            // alert("Error in Result - no toptags");
+            textResult = "Error in Result - no toptags";
+        } else {
+            // var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
+            var genresScores = dataToParse.toptags.tag;
+            for (var i = 0; i < genresScores.length; i++) {
+                currentScore = genresScores[i];
+                // textResult += "Genre: ";
+                textResult += currentScore.name;
+                textResult += " | ";
+                
+                // textResult += " | Count: ";
+                textResult += currentScore.count;
+                textResult += "\n";
+            }
+        }
+        $rootScope.APIResult = textResult;
+    }
+
+
+    $rootScope.getSelectedSongNameStyle = function (takeMeToJson) {
+        if (takeMeToJson) {
+            return {"color": "blue" };
+        }
+        else return "";
+    };
+
+
+
+
+
+
+
+    // http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json&artist=davidguetta&track=titanium
 
 
     // Convertors
@@ -159,7 +240,6 @@ function appUtilsController($rootScope, dpAppUtils) {
     };
 
     function convertRawSongListToShrinkSongList() {
-        // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
         var rawSongList = $rootScope.songsRaw;
         var shrinkSongList = [];
         for (var i = 0; i < rawSongList.length; i++) {
@@ -183,7 +263,6 @@ function appUtilsController($rootScope, dpAppUtils) {
 
 
     function convertShrinkSongsListToRawSongsList() {
-        // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
         var shrinkList = $rootScope.songsShrink;
         var rawSongsList = [];
         for (var i = 0; i < shrinkList.length; i++) {
