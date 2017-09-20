@@ -343,4 +343,18 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 		return "player-wrapper-vertical";
 	};
 
+	$scope.getSongFullNameWidth = function () {
+		var textWidth = 150;
+		var songFullNameElement = document.getElementsByClassName("song-fullname-text");
+		// var songFullNameElement2 = angular.element('#fullNameSong');
+		var songFullNameLength = songFullNameElement[0].innerText.length;
+		var songFullNameWidth = songFullNameLength * 9;
+		// var duration = songFullNameLength/2 ;
+		// var durationCss = duration + "s";
+		// duration = "2s";
+		// return {"width" : songFullNameWidth + "px", "animation-duration" :  };
+		return {"width" : songFullNameWidth + "px" };
+		
+	};
+
 }

@@ -12,7 +12,7 @@
 <div flex="75" layout="row" layout-align="center center">
     <div flex="grow" class="song-fullname-container" layout="column" layout-align="start center">
         <div class="scrolling-song-fullname">
-            <div class="song-fullname-text">
+            <div id="fullNameSong" class="song-fullname-text" ng-style="getSongFullNameWidth()">
                 {{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}} - {{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}
             </div>
 
