@@ -120,7 +120,7 @@ body {
       position: relative; }
     .current-playing-bar .song-fullname-container .song-fullname-text {
       position: absolute;
-      width: 150%;
+      width: 100%;
       height: 100%;
       margin: 0;
       line-height: 50px;
