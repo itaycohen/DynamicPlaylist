@@ -8,17 +8,27 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     // debugger;
 
+    // $rootScope.readyToValidate = false;
+
     $http.get("data/songs/songsShrink.json")
         .then(function (response) {
             $rootScope.songsShrink = response.data;
+
+            $http.get("data/songs/songsRaw.json")
+                .then(function (response) {
+                    $rootScope.songsRaw = response.data;
+                    validateSongLists();
+                });
+            // $rootScope.readyToValidate = true;
         });
 
-    $http.get("data/songs/songsRaw.json")
-        .then(function (response) {
-            $rootScope.songsRaw = response.data;
-        });
+    function validateSongLists() {
+        if ($rootScope.songsShrink.length != $rootScope.songsRaw.length) {
+            alert("raw list and shring list are different");
 
-
+        }
+        $rootScope.runningSongIndex = $rootScope.songsShrink.length;
+    }
 
 }]);
 
@@ -36,7 +46,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
 
 
-    var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop']
+    var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
 
     // Adding Songs
 
@@ -46,6 +56,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         "songName": '',
         "songGenres": [0, 0, 0, 0, 0, 0, 0]
     };
+    
 
     $rootScope.songToAdd = '';
 
@@ -67,7 +78,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         validateSong();
         var currentSong = $rootScope.song;
         var newSong = {};
-        newSong.index = 'xxx';
+        newSong.index = $rootScope.runningSongIndex;
         newSong.id = currentSong.id;
         newSong.details = {};
         // newSong.details.artist = currentSong.artist.trim();
@@ -84,6 +95,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
         $rootScope.songToAdd += newSongStr;
         $rootScope.songToAdd += ",";
+        $rootScope.runningSongIndex++;
 
         $rootScope.cleanSong();
         $rootScope.data.takeSongName = true;
@@ -182,7 +194,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         $rootScope.APIResultRaw = "";
     };
 
-    
+
 
 
     function parseAPIResult() {
@@ -202,7 +214,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
                 // textResult += "Genre: ";
                 textResult += currentScore.name;
                 textResult += " | ";
-                
+
                 // textResult += " | Count: ";
                 textResult += currentScore.count;
                 textResult += "\n";
@@ -214,7 +226,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     $rootScope.getSelectedSongNameStyle = function (takeMeToJson) {
         if (takeMeToJson) {
-            return {"color": "blue" };
+            return { "color": "blue" };
         }
         else return "";
     };
@@ -285,6 +297,81 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     }
 
+
+    /// Test
+
+    
+
+    $rootScope.runAllTests = function () {
+        checkDuplicates();
+    };
+
+    function checkDuplicates() {
+        $rootScope.duplicatesStatus = true;
+        var songsData = $rootScope.songsShrink;
+        var songsIds = songsData.map(function(songObj) {
+            return songObj.id;
+         });
+        var sortedSongsIds = songsIds.slice().sort();
+        var duplicatesArr = [];
+        for (var i = 0; i < songsIds.length - 1; i++) {
+            if (sortedSongsIds[i + 1] == sortedSongsIds[i]) {
+                duplicatesArr.push(sortedSongsIds[i]);
+            }
+        }
+        if (duplicatesArr.length !== 0) {
+            $rootScope.duplicatesStatus = false;
+        }
+    }
+
+    $rootScope.getDuplicatesTestResult = function() {
+        if (angular.isDefined($rootScope.duplicatesStatus)) {
+            if ($rootScope.duplicatesStatus) {
+                return "PASS";
+            } else {
+                return "FAIL";
+            }
+        }
+        return "CLICK ON RUN TEST";
+    };
+
+
+
+    //// Statistics
+
+    $rootScope.createMapOfGenresDataStat = function () {
+        // initallGenresStat();
+        var genresStatData = calculateGenresStatData();
+
+        $rootScope.allGenresStat = [];
+        for (var i=0; i < mapOfGenres.length; i++) {
+            var currentGenre = mapOfGenres[i];
+            var currentGenreStat = {};
+            currentGenreStat.name = currentGenre;
+            currentGenreStat.weight = genresStatData[i];
+            $rootScope.allGenresStat[i] = currentGenreStat;
+        }
+
+    };
+
+    function calculateGenresStatData() {
+        var songsData = $rootScope.songsShrink;
+        var mapOfAveragesByGenres = Array.apply(null, Array(mapOfGenres.length)).map(Number.prototype.valueOf,0);
+        var lengthOfSongData = songsData.length;
+        for (var i = 0; i < lengthOfSongData; i++) {
+            var currentSongData = songsData[i];
+            for (var j = 0; j < currentSongData.g.length; j++) {
+                mapOfAveragesByGenres[j] += currentSongData.g[j];
+            }
+        }
+
+        for (var k = 0; k < mapOfAveragesByGenres.length; k++) {
+            
+            mapOfAveragesByGenres[k] = Math.round((mapOfAveragesByGenres[k]/lengthOfSongData) * 100) / 100;
+        }
+        return mapOfAveragesByGenres;
+
+    }
 
 }
 

@@ -820,7 +820,7 @@
         "id": "pUjE9H8QlA4",
         "details": {
             "artist": "Mr. Probz",
-            "songName": "Waves (Robin Schulz Remix Radio Edit)"
+            "songName": "Waves (Robin Schulz Remix)"
         },
         "genreWeights": {
             "Pop": 3,
@@ -1939,7 +1939,7 @@
     },
     {
         "index": "114",
-        "id": "Y4NGoS330HE",
+        "id": "ma9I9VBKPiw",
         "details": {
             "artist": "Arctic Monkeys",
             "songName": "Fluorescent Adolescent"
@@ -2189,6 +2189,958 @@
             "R&B": 0,
             "Latin": 0,
             "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 129,
+        "id": "J_ub7Etch2U",
+        "details": {
+            "artist": "Sam Smith",
+            "songName": "Too Good At Goodbyes"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 4,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 130,
+        "id": "AeGfss2vsZg",
+        "details": {
+            "artist": "Martin Garrix & Bebe Rexha",
+            "songName": "In The Name Of Love"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 131,
+        "id": "7t3Re2VIbHE",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Bibia Be Ye Ye"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 1,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 132,
+        "id": "kkx-7fsiWgg",
+        "details": {
+            "artist": "Hasta el Amanecer",
+            "songName": "Nicky Jam"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 1,
+            "Hip-Hop": 1
+        }
+    },
+    {
+        "index": 133,
+        "id": "ghb6eDopW8I",
+        "details": {
+            "artist": "Of Monsters And Men",
+            "songName": "Little Talks"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 5,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 134,
+        "id": "9WbCfHutDSE",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Dangerous Woman"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 3,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 135,
+        "id": "hLQl3WQQoQ0",
+        "details": {
+            "artist": "Adele",
+            "songName": "Someone Like You"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 5,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 136,
+        "id": "SYM-RJwSGQ8",
+        "details": {
+            "artist": "Tove Lo",
+            "songName": "Habits (Stay High) - Hippie Sabotage Remix"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 3,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 137,
+        "id": "iX-QaNzd-0Y",
+        "details": {
+            "artist": "Milky Chance",
+            "songName": "Stolen Dance"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 4,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 138,
+        "id": "pFptt7Cargc",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "Let It Happen"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 139,
+        "id": "sBzrzS1Ag_g",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "The Less I Know The Better"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 140,
+        "id": "wycjnCCgUes",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "Feels Like We Only Go Backwards"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 141,
+        "id": "SDTZ7iX4vTQ",
+        "details": {
+            "artist": "Foster The People",
+            "songName": "Pumped up Kicks"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 142,
+        "id": "Nj8r3qmOoZ8",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Arabella"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 143,
+        "id": "H8tLS_NOWLs",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Snap Out Of It"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 144,
+        "id": "6366dxFf-Os",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Why'd You Only Call Me When You're High?"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 145,
+        "id": "AmAaWCFlxEE",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Chapter 1, Waste a Moment"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 1,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 146,
+        "id": "gFp7q-IJqno",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Pyro"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 1,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 147,
+        "id": "RF0HhrwIwp0",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Sex on Fire"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 148,
+        "id": "gnhXHvRoUd0",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Use Somebody"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 149,
+        "id": "izzY55ACUQo",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Supersoaker"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 5,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 150,
+        "id": "VjHMDlAPMUw",
+        "details": {
+            "artist": "Lost Frequencies",
+            "songName": "Are You With Me"
+        },
+        "genreWeights": {
+            "Pop": 1,
+            "Alternative": 1,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 151,
+        "id": "3tmd-ClpJxA",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Look What You Made Me Do"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 152,
+        "id": "iGk5fR-t5AU",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Swish Swish ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 1
+        }
+    },
+    {
+        "index": 153,
+        "id": "8j9zMok6two",
+        "details": {
+            "artist": "Miley Cyrus",
+            "songName": "Malibu"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 1,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 154,
+        "id": "vSW2M-BB1NE",
+        "details": {
+            "artist": "Liam Payne",
+            "songName": "Strip That Down ft. Quavo"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 2,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 3
+        }
+    },
+    {
+        "index": 155,
+        "id": "-MsvER1dpjM",
+        "details": {
+            "artist": "Demi Lovato",
+            "songName": "Sorry Not Sorry"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 1,
+            "R&B": 3,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 156,
+        "id": "e2vBLd5Egnk",
+        "details": {
+            "artist": "Martin Garrix & Dua Lipa",
+            "songName": "Scared To Be Lonely"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 157,
+        "id": "GsF05B8TFWg",
+        "details": {
+            "artist": "Axwell Λ Ingrosso",
+            "songName": "More Than You Know"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 0,
+            "Dance": 5,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 158,
+        "id": "NUsoVlDFqZg",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "Bailando ft. Descemer Bueno, Gente De Zona"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 159,
+        "id": "RBumgq5yVrA",
+        "details": {
+            "artist": "Passenger",
+            "songName": "Let Her Go"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 5,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 160,
+        "id": "nfWlot6h_JM",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Shake It Off"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 161,
+        "id": "09R8_2nJtjg",
+        "details": {
+            "artist": "Maroon 5",
+            "songName": "Sugar"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 162,
+        "id": "CevxZvSJLk8",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Roar"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 163,
+        "id": "e-ORhEE9VVg",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Blank Space"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 164,
+        "id": "0KSOMA3QBU0",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Dark Horse ft. Juicy J"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 2,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 165,
+        "id": "7PCkvCPvDXk",
+        "details": {
+            "artist": "Meghan Trainor",
+            "songName": "All About That Bass"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 166,
+        "id": "DK_0jXPuIr0",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "What Do You Mean?"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 167,
+        "id": "5GL9JoH4Sws",
+        "details": {
+            "artist": "Fifth Harmony",
+            "songName": "Work from Home ft. Ty Dolla $ign"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 168,
+        "id": "TapXs54Ah3E",
+        "details": {
+            "artist": "J. Balvin",
+            "songName": "Ay Vamos"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 169,
+        "id": "CGyEd0aKWZE",
+        "details": {
+            "artist": "Ellie Goulding",
+            "songName": "Burn"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 4,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 170,
+        "id": "RqpKDkVzlqU",
+        "details": {
+            "artist": "Joey Montana",
+            "songName": "Picky"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 171,
+        "id": "uO59tfQ2TbA",
+        "details": {
+            "artist": "David Guetta",
+            "songName": "Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 5,
+            "R&B": 2,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 172,
+        "id": "QcIy9NiNbmo",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Bad Blood ft. Kendrick Lamar"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 3,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 173,
+        "id": "7jpqqBX-Myw",
+        "details": {
+            "artist": "CNCO",
+            "songName": "Reggaetón Lento (Bailemos)"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 174,
+        "id": "hXI8RQYC36Q",
+        "details": {
+            "artist": "El Perdón",
+            "songName": "Nicky Jam y Enrique Iglesias"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 2,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 175,
+        "id": "iS1g8G_njx8",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Problem ft. Iggy Azalea"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 3,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 2
+        }
+    },
+    {
+        "index": 176,
+        "id": "PJniSb91tvo",
+        "details": {
+            "artist": "Maluma",
+            "songName": "El Perdedor"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 177,
+        "id": "VMp55KH_3wo",
+        "details": {
+            "artist": "Gente de Zona",
+            "songName": "La Gozadera ft. Marc Anthony"
+        },
+        "genreWeights": {
+            "Pop": 2,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 178,
+        "id": "7zp1TbLFPp8",
+        "details": {
+            "artist": "Don Omar",
+            "songName": "Danza Kuduro ft. Lucenzo"
+        },
+        "genreWeights": {
+            "Pop": 0,
+            "Alternative": 0,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 5,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 179,
+        "id": "L8eRzOYhLuw",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Break Free ft. Zedd"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 180,
+        "id": "nCkpzqqog4k",
+        "details": {
+            "artist": "Sam Smith",
+            "songName": "I'm Not The Only One"
+        },
+        "genreWeights": {
+            "Pop": 4,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 4,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 181,
+        "id": "KWZGAExj-es",
+        "details": {
+            "artist": "Sia",
+            "songName": "Elastic Heart feat. Shia LaBeouf & Maddie Ziegler"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 3,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 182,
+        "id": "a59gmGkq_pw",
+        "details": {
+            "artist": "Major Lazer",
+            "songName": "Cold Water (feat. Justin Bieber & MØ)"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 3,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 183,
+        "id": "lf_wVfwpfp8",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Focus"
+        },
+        "genreWeights": {
+            "Pop": 5,
+            "Alternative": 0,
+            "Dance": 2,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 0,
+            "Hip-Hop": 0
+        }
+    },
+    {
+        "index": 184,
+        "id": "OpQFFLBMEPI",
+        "details": {
+            "artist": "P!nk",
+            "songName": "Just Give Me A Reason ft. Nate Ruess"
+        },
+        "genreWeights": {
+            "Pop": 3,
+            "Alternative": 2,
+            "Dance": 0,
+            "R&B": 0,
+            "Latin": 0,
+            "Soul": 5,
             "Hip-Hop": 0
         }
     }
