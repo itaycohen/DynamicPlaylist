@@ -6,7 +6,7 @@ var app = angular.module('appUtils', [
 
 app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
-    // debugger;
+    /// debugger; 
 
     // $rootScope.readyToValidate = false;
 
