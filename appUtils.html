@@ -49,6 +49,9 @@
                     <md-nav-item md-nav-click="goto('page3')" name="page3">
                         Tests
                     </md-nav-item>
+                    <md-nav-item md-nav-click="goto('page4')" name="page4">
+                        Statistics
+                    </md-nav-item>
                 </md-nav-bar>
                 <div class="ext-content">
 
@@ -160,12 +163,13 @@
 
 
 
-
-
-
                                 <div layout="row">
                                     <md-button ng-click="addSong()" class="md-raised md-primary">Add Song & Clean</md-button>
                                     <md-button ng-click="cleanSong()" class="md-raised">Clean Song</md-button>
+                                    <md-input-container class="md-block">
+                                        <label>Running index</label>
+                                        <input ng-model="runningSongIndex" type="number">
+                                    </md-input-container>
                                 </div>
 
                                 <md-input-container class="md-block">
@@ -189,16 +193,46 @@
                         <h2> Convertors </h2>
                         <div>
                             <p> Convert from Shrink song list to Raw song list </p>
-                            <button type="button" ng-click="convertFromShrinkToRaw()">Convert </button>
+                            <md-button type="button" class="md-raised" ng-click="convertFromShrinkToRaw()">Convert </md-button>
                         </div>
                         <div>
                             <p> Convert from Raw song list to Shrink song list </p>
-                            <button type="button" ng-click="convertFromRawToShrink()">Convert </button>
+                            <md-button type="button" class="md-raised" ng-click="convertFromRawToShrink()">Convert </md-button>
                         </div>
                     </div>
 
                     <div ng-show="currentNavItem === 'page3'">
                         <h2> Tests </h2>
+                        <md-button type="button" class="md-raised" ng-click="runAllTests()">Run All Tests</md-button>
+                        <md-content>
+                                <md-list flex>
+                                    <!-- <md-list-item class="md-2-line"> -->
+                                    <md-list-item class="md-2-line">
+                                        <div class="md-list-item-text">
+                                            <h3>Duplicats Test</h3>
+                                            <h4>{{getDuplicatesTestResult()}}</h4>
+                                        </div>
+                                    </md-list-item>
+                                </md-list>
+                            </md-content>
+                        
+
+                    </div>
+
+                    <div ng-show="currentNavItem === 'page4'">
+                        <h2> Statistics </h2>
+                        <md-button type="button" class="md-raised" ng-click="createMapOfGenresDataStat()">Calculate</md-button>
+                        <md-content>
+                            <md-list flex>
+                                <!-- <md-list-item class="md-2-line"> -->
+                                <md-list-item class="md-2-line" ng-repeat="genreStat in allGenresStat">
+                                    <div class="md-list-item-text">
+                                        <h3>{{ genreStat.name }}</h3>
+                                        <h4>{{ genreStat.weight }}</h4>
+                                    </div>
+                                </md-list-item>
+                            </md-list>
+                        </md-content>
                     </div>
 
                 </div>

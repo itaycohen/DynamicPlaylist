@@ -7,7 +7,7 @@ dpSongsListLogic.$inject = ['$rootScope', 'dpSongsListUtils'];
 function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     var FAKE_GENRE_WEIGHT = 2.5;
-    var WEIGHT_DISTANCE_FACTOR = 1.8;
+    var WEIGHT_DISTANCE_FACTOR = 1.6;
     var DEFAULT_WEIGHT = 3;
     var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
     var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
