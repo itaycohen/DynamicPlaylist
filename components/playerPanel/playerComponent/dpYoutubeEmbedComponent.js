@@ -109,7 +109,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 					'showinfo': 0,
 					'enablejsapi' : 1,
 					'iv_load_policy' : 3,
-					'rel' : 0
+					'rel' : 0,
+					'playsinline' : 1
 				},
 				videoId: getFirstSongId(),
 				events: {
