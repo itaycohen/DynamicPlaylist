@@ -56,7 +56,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         "songName": '',
         "songGenres": [0, 0, 0, 0, 0, 0, 0]
     };
-    
+
 
     $rootScope.songToAdd = '';
 
@@ -119,6 +119,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             "songGenres": [0, 0, 0, 0, 0, 0, 0]
         };
         $rootScope.APIResult = "";
+        $rootScope.data.takeSongName = true;
     };
 
     $rootScope.cleanAllSongs = function () {
@@ -137,11 +138,40 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     };
 
-    $rootScope.parseFullTitle = function () {
+    $rootScope.getSongNameAndParseFullTitle = function () {
+        var url = "https://www.googleapis.com/youtube/v3/videos?";
+        url += "id=";
+        url += $rootScope.song.id;
+        url += "&part=snippet";
+        url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
+        $http.get(url).
+            then(function (response) {
+                $rootScope.YTSongResult = response.data;
+                parseYTSongResult();
+            });
+
+
+    };
+
+
+    $rootScope.getSongGneres = function () {
+        var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
+        url += "&artist=";
+        url += $rootScope.song.artist;
+        url += "&track=";
+        url += $rootScope.song.songNameAPI;
+        $http.get(url).
+            then(function (response) {
+                $rootScope.APIResultRaw = response.data;
+                parseAPIResult();
+            });
+    };
+
+    $rootScope.parseFullTitleAndGetData = function () {
         $rootScope.getSongArtist();
         $rootScope.getSongName();
-        // TEMP
-        // $rootScope.APIResult = "Genre: dance | Count: 100"+ '\n' +"Genre: House | Count: 100" + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100"  + '\n' +"Genre: House | Count: 100";
+        $rootScope.parseSongName();
+        $rootScope.getSongGneres();
     };
 
 
@@ -150,6 +180,9 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         var fullSongTitle = $rootScope.song.fullTitle;
         if (angular.isDefined(fullSongTitle)) {
             var dashIndex = fullSongTitle.indexOf("-");
+            if (dashIndex === -1) {
+                dashIndex = fullSongTitle.indexOf(":");
+            }
             var artist = fullSongTitle.substring(0, dashIndex).trim();
             $rootScope.song.artist = artist;
         }
@@ -160,19 +193,50 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         var fullSongTitle = $rootScope.song.fullTitle;
         if (angular.isDefined(fullSongTitle)) {
             var dashIndex = fullSongTitle.indexOf("-");
+            if (dashIndex === -1) {
+                dashIndex = fullSongTitle.indexOf(":");
+            }
             var songName = fullSongTitle.substring(dashIndex + 1).trim();
             $rootScope.song.songName = songName;
         }
     };
 
+    // $rootScope.parseSongName = function () {
+    //     var songName = $rootScope.song.songName;
+    //     if (angular.isDefined(songName)) {
+    //         var bracket = songName.indexOf("(");
+    //         if (bracket === -1) {
+    //             bracket = songName.indexOf("[");
+    //         }
+    //         if (bracket !== -1) {
+    //             $rootScope.data.takeSongName = false;
+    //         }
+    //         var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
+    //         $rootScope.song.songNameAPI = songNameAPI;
+    //     }
+    // };
+
     $rootScope.parseSongName = function () {
         var songName = $rootScope.song.songName;
         if (angular.isDefined(songName)) {
             var bracket = songName.indexOf("(");
+            if (bracket === -1) {
+                bracket = songName.indexOf("[");
+            }
+            if (bracket !== -1) {
+                $rootScope.data.takeSongName = false;
+            }
+            //remove all brackets and it's content
+            songName = songName.replace(/ *\([^)]*\) */g, " ").trim();
+
+            bracket = songName.indexOf("ft");
             var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
+
             $rootScope.song.songNameAPI = songNameAPI;
         }
     };
+
+    
 
 
 
@@ -194,6 +258,28 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         $rootScope.APIResultRaw = "";
     };
 
+    function parseYTSongResult() {
+        var songTitle = "";
+        dataToParse = $rootScope.YTSongResult;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            songTitle = "No YT Result";
+        } else if (angular.isUndefined(dataToParse.items) || dataToParse.items === '') {
+            songTitle = "Error in Result - no items";
+        } else if (dataToParse.items.length === 0) {
+            songTitle = "No Results results";
+        } else if (dataToParse.items.length > 1) {
+            songTitle = "Too many results";
+        } else if (angular.isUndefined(dataToParse.items[0].snippet) || dataToParse.items[0].snippet === '') {
+            songTitle = "Error in Result - no snippet";
+        } else {
+            songTitle = dataToParse.items[0].snippet.title;
+        }
+        $rootScope.song.fullTitle = songTitle;
+        $rootScope.parseFullTitleAndGetData();
+
+    }
+
+
 
 
 
@@ -207,7 +293,6 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             // alert("Error in Result - no toptags");
             textResult = "Error in Result - no toptags";
         } else {
-            // var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
             var genresScores = dataToParse.toptags.tag;
             for (var i = 0; i < genresScores.length; i++) {
                 currentScore = genresScores[i];
@@ -300,7 +385,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     /// Test
 
-    
+
 
     $rootScope.runAllTests = function () {
         checkDuplicates();
@@ -309,9 +394,9 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
     function checkDuplicates() {
         $rootScope.duplicatesStatus = true;
         var songsData = $rootScope.songsShrink;
-        var songsIds = songsData.map(function(songObj) {
+        var songsIds = songsData.map(function (songObj) {
             return songObj.id;
-         });
+        });
         var sortedSongsIds = songsIds.slice().sort();
         var duplicatesArr = [];
         for (var i = 0; i < songsIds.length - 1; i++) {
@@ -324,7 +409,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         }
     }
 
-    $rootScope.getDuplicatesTestResult = function() {
+    $rootScope.getDuplicatesTestResult = function () {
         if (angular.isDefined($rootScope.duplicatesStatus)) {
             if ($rootScope.duplicatesStatus) {
                 return "PASS";
@@ -344,7 +429,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         var genresStatData = calculateGenresStatData();
 
         $rootScope.allGenresStat = [];
-        for (var i=0; i < mapOfGenres.length; i++) {
+        for (var i = 0; i < mapOfGenres.length; i++) {
             var currentGenre = mapOfGenres[i];
             var currentGenreStat = {};
             currentGenreStat.name = currentGenre;
@@ -356,7 +441,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     function calculateGenresStatData() {
         var songsData = $rootScope.songsShrink;
-        var mapOfAveragesByGenres = Array.apply(null, Array(mapOfGenres.length)).map(Number.prototype.valueOf,0);
+        var mapOfAveragesByGenres = Array.apply(null, Array(mapOfGenres.length)).map(Number.prototype.valueOf, 0);
         var lengthOfSongData = songsData.length;
         for (var i = 0; i < lengthOfSongData; i++) {
             var currentSongData = songsData[i];
@@ -366,8 +451,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         }
 
         for (var k = 0; k < mapOfAveragesByGenres.length; k++) {
-            
-            mapOfAveragesByGenres[k] = Math.round((mapOfAveragesByGenres[k]/lengthOfSongData) * 100) / 100;
+
+            mapOfAveragesByGenres[k] = Math.round((mapOfAveragesByGenres[k] / lengthOfSongData) * 100) / 100;
         }
         return mapOfAveragesByGenres;
 
