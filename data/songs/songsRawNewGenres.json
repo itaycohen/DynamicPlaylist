@@ -1,0 +1,4442 @@
+[
+    {
+        "index": 0,
+        "id": "oyEuk8j8imI",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Love Yourself"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": 1,
+        "id": "9NwZdxiLvGo",
+        "details": {
+            "artist": "Skrillex & Diplo",
+            "songName": "To Ü ft AlunaGeorge"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 2,
+        "id": "lp-EO5I60KA",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Thinking Out Loud"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 5
+        }
+    },
+    {
+        "index": 3,
+        "id": "fRh_vgS2dFE",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Sorry"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 4,
+        "id": "kOkQ4T5WO9E",
+        "details": {
+            "artist": "Calvin Harris ft. Rihanna",
+            "songName": "This Is What You Came For"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 5,
+        "id": "ebXbLfLACGM",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "Summer"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 6,
+        "id": "JRfuAukYTKg",
+        "details": {
+            "artist": "David Guetta ft. Sia",
+            "songName": "Titanium"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 7,
+        "id": "PVzljDmoPVs",
+        "details": {
+            "artist": "David Guetta ft. Sia",
+            "songName": "She Wolf (Falling To Pieces)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 8,
+        "id": "UtF6Jej8yb4",
+        "details": {
+            "artist": "Avicii",
+            "songName": "The Nights"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 9,
+        "id": "YxIiPLVR6NA",
+        "details": {
+            "artist": "Avicii",
+            "songName": "Hey Brother"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 10,
+        "id": "h--P8HzYZ74",
+        "details": {
+            "artist": "Zedd, Alessia Cara",
+            "songName": "Stay "
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 11,
+        "id": "papuvlVeZg8",
+        "details": {
+            "artist": "Clean Bandit",
+            "songName": "Rockabye ft. Sean Paul & Anne-Marie"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 12,
+        "id": "L3wKzyIN1yk",
+        "details": {
+            "artist": "Rag'n'Bone Man",
+            "songName": "Human"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 13,
+        "id": "59Q_lhgGANc",
+        "details": {
+            "artist": "Jain",
+            "songName": "Makeba"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 14,
+        "id": "nYh-n7EOtMA",
+        "details": {
+            "artist": "Sia",
+            "songName": "Cheap Thrills"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 15,
+        "id": "iOxzG3jjFkY",
+        "details": {
+            "artist": "WILLY WILLIAM",
+            "songName": "Ego"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 16,
+        "id": "euCqAq6BRa4",
+        "details": {
+            "artist": "DJ Snake",
+            "songName": "Let Me Love You ft. Justin Bieber"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 17,
+        "id": "-2U0Ivkn2Ds",
+        "details": {
+            "artist": "A Great Big World, Christina Aguilera",
+            "songName": "Say Something"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 5
+        }
+    },
+    {
+        "index": 18,
+        "id": "RhU9MZ98jxo",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Paris"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": 19,
+        "id": "6Mgqbai3fKo",
+        "details": {
+            "artist": "Shakira",
+            "songName": "Chantaje ft. Maluma"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 20,
+        "id": "7Qp5vcuMIlk",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Castle On The Hill"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 21,
+        "id": "qFLhGq0060w",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "I Feel It Coming ft. Daft Punk"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 22,
+        "id": "hn3wJ1_1Zsg",
+        "details": {
+            "artist": "LP",
+            "songName": "Lost On You"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 23,
+        "id": "GzU8KqOY8YA",
+        "details": {
+            "artist": "Sean Paul",
+            "songName": "No Lie ft. Dua Lipa"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 24,
+        "id": "IcrbM1l_BoI",
+        "details": {
+            "artist": "Avicii",
+            "songName": "Wake Me Up"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 25,
+        "id": "UqyT8IEBkvY",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "24K Magic"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 26,
+        "id": "b4Bj7Zb-YD4",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "My Way"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 27,
+        "id": "sG6aWhZnbfw",
+        "details": {
+            "artist": "Sia",
+            "songName": "The Greatest ft. Kendrick Lamar"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 28,
+        "id": "UprcpdwuwCg",
+        "details": {
+            "artist": "twenty one pilots",
+            "songName": "Heathens"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 29,
+        "id": "450p7goxZqg",
+        "details": {
+            "artist": "John Legend",
+            "songName": "All of Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 5
+        }
+    },
+    {
+        "index": 30,
+        "id": "ru0K8uYEZWw",
+        "details": {
+            "artist": "Justin Timberlake",
+            "songName": "CAN'T STOP THE FEELING!"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 31,
+        "id": "Io0fBr1XBUA",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Don't Let Me Down ft. Daya"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 32,
+        "id": "MYSVMgRr6pw",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Take Me To Church"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 33,
+        "id": "uEJuoEs1UxY",
+        "details": {
+            "artist": "Bebe Rexha",
+            "songName": "I Got You"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 34,
+        "id": "PT2_F-1esPk",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Closer ft. Halsey"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 35,
+        "id": "kJQP7kiw5Fk",
+        "details": {
+            "artist": "Luis Fonsi",
+            "songName": "Despacito ft. Daddy Yankee"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 36,
+        "id": "1LXsm9y-z3I",
+        "details": {
+            "artist": "Matt Simons",
+            "songName": "Catch & Release"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 37,
+        "id": "BR_DFMUzX4E",
+        "details": {
+            "artist": "Armin van Buuren feat. Trevor Guthrie",
+            "songName": "This Is What It Feels Like"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 38,
+        "id": "7F37r50VUTQ",
+        "details": {
+            "artist": "ZAYN, Taylor Swift",
+            "songName": "I Don’t Wanna Live Forever"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 39,
+        "id": "34Na4j8AVgA",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Starboy ft. Daft Punk"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 40,
+        "id": "OPf0YbXqDm0",
+        "details": {
+            "artist": "Mark Ronson",
+            "songName": "Uptown Funk ft. Bruno Mars"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 41,
+        "id": "hT_nvWreIhg",
+        "details": {
+            "artist": "OneRepublic",
+            "songName": "Counting Stars"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 42,
+        "id": "2zNSgSzhBfM",
+        "details": {
+            "artist": "MACKLEMORE & RYAN LEWIS",
+            "songName": "CAN'T HOLD US"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 43,
+        "id": "QK8mJJJvaes",
+        "details": {
+            "artist": "MACKLEMORE & RYAN LEWIS",
+            "songName": "THRIFT SHOP FEAT. WANZ"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 44,
+        "id": "jGflUbPQfW8",
+        "details": {
+            "artist": "OMI",
+            "songName": "Cheerleader (Felix Jaehn Remix)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 45,
+        "id": "m-M1AtrxztU",
+        "details": {
+            "artist": "Clean Bandit",
+            "songName": "Rather Be ft. Jess Glynne"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 46,
+        "id": "YqeW9_5kURI",
+        "details": {
+            "artist": "Major Lazer & DJ Snake",
+            "songName": "Lean On (feat. MØ)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 47,
+        "id": "ktvTqknDobU",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Radioactive"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 48,
+        "id": "pUjE9H8QlA4",
+        "details": {
+            "artist": "Mr. Probz",
+            "songName": "Waves (Robin Schulz Remix)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 49,
+        "id": "DuFUtL8zUAk",
+        "details": {
+            "artist": "Martin Garrix",
+            "songName": "Animals"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 50,
+        "id": "9Sc-ir2UwGU",
+        "details": {
+            "artist": "Kygo",
+            "songName": "Firestone ft. Conrad Sewell"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 51,
+        "id": "foE1mO2yM04",
+        "details": {
+            "artist": "Mike Posner",
+            "songName": "I Took A Pill In Ibiza (Seeb Remix)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 52,
+        "id": "pXRviuL6vMY",
+        "details": {
+            "artist": "twenty one pilots",
+            "songName": "Stressed Out"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 53,
+        "id": "60ItHLz5WEA",
+        "details": {
+            "artist": "Alan Walker",
+            "songName": "Faded"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 54,
+        "id": "fyaI4-5849w",
+        "details": {
+            "artist": "DJ Khaled",
+            "songName": "Wild Thoughts ft. Rihanna, Bryson Tiller"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 5,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 55,
+        "id": "nfs8NYg7yQM",
+        "details": {
+            "artist": "Charlie Puth",
+            "songName": "Attention"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": 56,
+        "id": "ozv4q2ov3Mk",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "Feels ft. Pharrell Williams, Katy Perry, Big Sean"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 57,
+        "id": "JGwWNGJdvx8",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Shape of You"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 58,
+        "id": "CTFtOOh47oo",
+        "details": {
+            "artist": "French Montana",
+            "songName": "Unforgettable ft. Swae Lee"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 59,
+        "id": "7wtfhZwyrcc",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Believer"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 60,
+        "id": "FM7MFYoylVs",
+        "details": {
+            "artist": "The Chainsmokers & Coldplay",
+            "songName": "Something Just Like This"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 61,
+        "id": "weeI1G46q0o",
+        "details": {
+            "artist": "DJ Khaled",
+            "songName": "I'm the One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 5,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 62,
+        "id": "NGLxoKOvzu4",
+        "details": {
+            "artist": "Jason Derulo",
+            "songName": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 5,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 63,
+        "id": "aatr_2MstrI",
+        "details": {
+            "artist": "Clean Bandit",
+            "songName": "Symphony feat. Zara Larsson"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 64,
+        "id": "xvZqHgFz51I",
+        "details": {
+            "artist": "Future",
+            "songName": "Mask Off"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 65,
+        "id": "PKB4cioGs98",
+        "details": {
+            "artist": "Jax Jones",
+            "songName": "You Don't Know Me ft. RAYE"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 66,
+        "id": "Y1_VsyLAGuk",
+        "details": {
+            "artist": "Burak Yeter",
+            "songName": "Tuesday ft. Danelle Sandoval"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 67,
+        "id": "9sg-A-eS6Ig",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "SUBEME LA RADIO ft. Descemer Bueno, Zion & Lennox"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 68,
+        "id": "0yW7w8F2TVA",
+        "details": {
+            "artist": "James Arthur",
+            "songName": "Say You Won't Let Go"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": 69,
+        "id": "PMivT7MJ41M",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "That’s What I Like"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 70,
+        "id": "tvTRZJ-4EyI",
+        "details": {
+            "artist": "Kendrick Lamar",
+            "songName": "HUMBLE"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 5,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "71",
+        "id": "qPTfXwPf_HM",
+        "details": {
+            "artist": "Jonas Blue",
+            "songName": "Mama ft. William Singe"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "72",
+        "id": "SC4xMk98Pdc",
+        "details": {
+            "artist": "Post Malone",
+            "songName": "Congratulations ft. Quavo"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "73",
+        "id": "-FyjEnoIgTM",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "Versace On The Floor"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": "74",
+        "id": "k2qgadSvNyU",
+        "details": {
+            "artist": "Dua Lipa",
+            "songName": "New Rules"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "75",
+        "id": "RqcjBLMaWCg",
+        "details": {
+            "artist": "David Guetta ft Justin Bieber",
+            "songName": "2U"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "76",
+        "id": "72UO0v5ESUo",
+        "details": {
+            "artist": "Luis Fonsi, Daddy Yankee",
+            "songName": "Despacito ft. Justin Bieber"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 3,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "77",
+        "id": "87gWaABqGYs",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Galway Girl"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "78",
+        "id": "dmJefsOErr0",
+        "details": {
+            "artist": "Rae Sremmurd",
+            "songName": "Swang"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "79",
+        "id": "Um7pMggPnug",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Chained To The Rhythm ft. Skip Marley"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "80",
+        "id": "qN4ooNx77u0",
+        "details": {
+            "artist": "Harry Styles",
+            "songName": "Sign of the Times"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "81",
+        "id": "S-sJp1FfG7Q",
+        "details": {
+            "artist": "Migos",
+            "songName": "Bad and Boujee ft Lil Uzi Vert"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "82",
+        "id": "5JxgDJvqGmM",
+        "details": {
+            "artist": "Mike Perry",
+            "songName": "The Ocean ft. Shy Martin"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "83",
+        "id": "xUVz4nRmxn4",
+        "details": {
+            "artist": "Galantis",
+            "songName": "No Money"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "84",
+        "id": "Ey_hgKCCYU4",
+        "details": {
+            "artist": "Jonas Blue",
+            "songName": "Perfect Strangers ft. JP Cooper"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "85",
+        "id": "GTyN-DB_v5M",
+        "details": {
+            "artist": "Zara Larsson, MNEK",
+            "songName": "Never Forget You"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "86",
+        "id": "D5drYkLiLI8",
+        "details": {
+            "artist": "Kygo, Selena Gomez",
+            "songName": "It Ain't Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "87",
+        "id": "waU75jdUnYw",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Earned It"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": "88",
+        "id": "RgKAFK5djSk",
+        "details": {
+            "artist": "Wiz Khalifa",
+            "songName": "See You Again ft. Charlie Puth"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "89",
+        "id": "4NJlUribp3c",
+        "details": {
+            "artist": "Desiigner",
+            "songName": "Panda"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "90",
+        "id": "KEI4qSrkPAs",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Can't Feel My Face"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": "91",
+        "id": "wnJ6LuUFpMo",
+        "details": {
+            "artist": "J. Balvin, Willy William",
+            "songName": "Mi Gente"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "92",
+        "id": "Km4BayZykwE",
+        "details": {
+            "artist": "J. Balvin",
+            "songName": "Si Tu Novio Te Deja Sola ft. Bad Bunny"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "93",
+        "id": "iOe6dI2JhgU",
+        "details": {
+            "artist": "Ricky Martin",
+            "songName": "Vente Pa' Ca ft. Maluma"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "94",
+        "id": "1-xGerv5FOk",
+        "details": {
+            "artist": "Alan Walker",
+            "songName": "Alone"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "95",
+        "id": "yzTuBuRdAyA",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "The Hills"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": "96",
+        "id": "mWRsgZuwf_8",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Demons"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": null,
+            "Rock": 0,
+            "Soul": null
+        }
+    },
+    {
+        "index": "97",
+        "id": "AJtDXIazrMo",
+        "details": {
+            "artist": "Ellie Goulding",
+            "songName": "Love Me Like You Do"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "98",
+        "id": "C_3d6GntKbk",
+        "details": {
+            "artist": "ZAYN",
+            "songName": "PILLOWTALK"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "99",
+        "id": "uxpDa-c-4Mc",
+        "details": {
+            "artist": "Drake",
+            "songName": "Hotline Bling"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "100",
+        "id": "YQHsXMglC9A",
+        "details": {
+            "artist": "Adele",
+            "songName": "Hello"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": "101",
+        "id": "SXiSVQZLje8",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Side To Side ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "102",
+        "id": "fKopy74weus",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Thunder"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "103",
+        "id": "w5tWYmIOWGk",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "On Top Of The World"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "104",
+        "id": "NRWUoDpo2fo",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Left Hand Free"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "105",
+        "id": "rVeMiVU77wo",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Breezeblocks"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "106",
+        "id": "S3fTw_D3l10",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Taro"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "107",
+        "id": "dCCXq9QB-dQ",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Hunger Of The Pine"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "108",
+        "id": "Q06wFUi5OM8",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Matilda"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": "109",
+        "id": "hi4pzKvuEQM",
+        "details": {
+            "artist": "Chet Faker",
+            "songName": "Gold"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "110",
+        "id": "Qg6BwvDcANg",
+        "details": {
+            "artist": "alt-J",
+            "songName": "Tessellate"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "111",
+        "id": "bpOSxM0rNPM",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Do I Wanna Know?"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "112",
+        "id": "VQH8ZTgna3Q",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "R U Mine?"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "113",
+        "id": "Y4NGoS330HE",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "I Wanna Be Yours"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "114",
+        "id": "ma9I9VBKPiw",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Fluorescent Adolescent"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "115",
+        "id": "PVjiKRfKpPI",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Take Me To Church"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": "116",
+        "id": "nntGTK2Fhb0",
+        "details": {
+            "artist": "Skrillex and Diplo",
+            "songName": "Where Are Ü Now with Justin Bieber"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "117",
+        "id": "-HjpL-Ns6_A",
+        "details": {
+            "artist": "Louis Tomlinson",
+            "songName": "Back to You ft. Bebe Rexha, Digital Farm Animals"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": "118",
+        "id": "3AtDnEC4zak",
+        "details": {
+            "artist": "Charlie Puth",
+            "songName": "We Don't Talk Anymore (feat. Selena Gomez)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "119",
+        "id": "dT2owtxkU8k",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "There's Nothing Holdin' Me Back"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": "120",
+        "id": "pBkHHoOIIn8",
+        "details": {
+            "artist": "Portugal. The Man",
+            "songName": "Feel It Still"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "121",
+        "id": "YykjpeuMNEk",
+        "details": {
+            "artist": "Coldplay",
+            "songName": "Hymn For The Weekend"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": "122",
+        "id": "HL1UzIK-flA",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Work ft. Drake"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 4,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "123",
+        "id": "tD4HCZe-tew",
+        "details": {
+            "artist": "Zara Larsson",
+            "songName": "Lush Life"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "124",
+        "id": "XNWlrawfRAI",
+        "details": {
+            "artist": "Fifth Harmony",
+            "songName": "Down ft. Gucci Mane"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "125",
+        "id": "lY2yjAdbvdQ",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "Treat You Better"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "126",
+        "id": "Pw-0pbY9JeU",
+        "details": {
+            "artist": "twenty one pilots",
+            "songName": "Ride"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": "127",
+        "id": "VbfpW0pbvaU",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "Stitches"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 1,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": "128",
+        "id": "2vjPBrBU-TM",
+        "details": {
+            "artist": "Sia",
+            "songName": "Chandelier"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 129,
+        "id": "J_ub7Etch2U",
+        "details": {
+            "artist": "Sam Smith",
+            "songName": "Too Good At Goodbyes"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": 130,
+        "id": "AeGfss2vsZg",
+        "details": {
+            "artist": "Martin Garrix & Bebe Rexha",
+            "songName": "In The Name Of Love"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 131,
+        "id": "7t3Re2VIbHE",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Bibia Be Ye Ye"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 132,
+        "id": "kkx-7fsiWgg",
+        "details": {
+            "artist": "Hasta el Amanecer",
+            "songName": "Nicky Jam"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 133,
+        "id": "ghb6eDopW8I",
+        "details": {
+            "artist": "Of Monsters And Men",
+            "songName": "Little Talks"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 134,
+        "id": "9WbCfHutDSE",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Dangerous Woman"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 135,
+        "id": "hLQl3WQQoQ0",
+        "details": {
+            "artist": "Adele",
+            "songName": "Someone Like You"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 5
+        }
+    },
+    {
+        "index": 136,
+        "id": "SYM-RJwSGQ8",
+        "details": {
+            "artist": "Tove Lo",
+            "songName": "Habits (Stay High) - Hippie Sabotage Remix"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 137,
+        "id": "iX-QaNzd-0Y",
+        "details": {
+            "artist": "Milky Chance",
+            "songName": "Stolen Dance"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 138,
+        "id": "pFptt7Cargc",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "Let It Happen"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 139,
+        "id": "sBzrzS1Ag_g",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "The Less I Know The Better"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 140,
+        "id": "wycjnCCgUes",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "Feels Like We Only Go Backwards"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 141,
+        "id": "SDTZ7iX4vTQ",
+        "details": {
+            "artist": "Foster The People",
+            "songName": "Pumped up Kicks"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 142,
+        "id": "Nj8r3qmOoZ8",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Arabella"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 143,
+        "id": "H8tLS_NOWLs",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Snap Out Of It"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 144,
+        "id": "6366dxFf-Os",
+        "details": {
+            "artist": "Arctic Monkeys",
+            "songName": "Why'd You Only Call Me When You're High?"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 145,
+        "id": "AmAaWCFlxEE",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Chapter 1, Waste a Moment"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 146,
+        "id": "gFp7q-IJqno",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Pyro"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 1
+        }
+    },
+    {
+        "index": 147,
+        "id": "RF0HhrwIwp0",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Sex on Fire"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 148,
+        "id": "gnhXHvRoUd0",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Use Somebody"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 149,
+        "id": "izzY55ACUQo",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Supersoaker"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 150,
+        "id": "VjHMDlAPMUw",
+        "details": {
+            "artist": "Lost Frequencies",
+            "songName": "Are You With Me"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 151,
+        "id": "3tmd-ClpJxA",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Look What You Made Me Do"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 152,
+        "id": "iGk5fR-t5AU",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Swish Swish ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 153,
+        "id": "8j9zMok6two",
+        "details": {
+            "artist": "Miley Cyrus",
+            "songName": "Malibu"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 154,
+        "id": "vSW2M-BB1NE",
+        "details": {
+            "artist": "Liam Payne",
+            "songName": "Strip That Down ft. Quavo"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 155,
+        "id": "-MsvER1dpjM",
+        "details": {
+            "artist": "Demi Lovato",
+            "songName": "Sorry Not Sorry"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 156,
+        "id": "e2vBLd5Egnk",
+        "details": {
+            "artist": "Martin Garrix & Dua Lipa",
+            "songName": "Scared To Be Lonely"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 157,
+        "id": "GsF05B8TFWg",
+        "details": {
+            "artist": "Axwell Λ Ingrosso",
+            "songName": "More Than You Know"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 158,
+        "id": "NUsoVlDFqZg",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "Bailando ft. Descemer Bueno, Gente De Zona"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 159,
+        "id": "RBumgq5yVrA",
+        "details": {
+            "artist": "Passenger",
+            "songName": "Let Her Go"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 5
+        }
+    },
+    {
+        "index": 160,
+        "id": "nfWlot6h_JM",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Shake It Off"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 161,
+        "id": "09R8_2nJtjg",
+        "details": {
+            "artist": "Maroon 5",
+            "songName": "Sugar"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 162,
+        "id": "CevxZvSJLk8",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Roar"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 163,
+        "id": "e-ORhEE9VVg",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Blank Space"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 164,
+        "id": "0KSOMA3QBU0",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Dark Horse ft. Juicy J"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 165,
+        "id": "7PCkvCPvDXk",
+        "details": {
+            "artist": "Meghan Trainor",
+            "songName": "All About That Bass"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 166,
+        "id": "DK_0jXPuIr0",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "What Do You Mean?"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 167,
+        "id": "5GL9JoH4Sws",
+        "details": {
+            "artist": "Fifth Harmony",
+            "songName": "Work from Home ft. Ty Dolla $ign"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 168,
+        "id": "TapXs54Ah3E",
+        "details": {
+            "artist": "J. Balvin",
+            "songName": "Ay Vamos"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 169,
+        "id": "CGyEd0aKWZE",
+        "details": {
+            "artist": "Ellie Goulding",
+            "songName": "Burn"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 170,
+        "id": "RqpKDkVzlqU",
+        "details": {
+            "artist": "Joey Montana",
+            "songName": "Picky"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 171,
+        "id": "uO59tfQ2TbA",
+        "details": {
+            "artist": "David Guetta",
+            "songName": "Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 2,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 172,
+        "id": "QcIy9NiNbmo",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Bad Blood ft. Kendrick Lamar"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 173,
+        "id": "7jpqqBX-Myw",
+        "details": {
+            "artist": "CNCO",
+            "songName": "Reggaetón Lento (Bailemos)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 174,
+        "id": "hXI8RQYC36Q",
+        "details": {
+            "artist": "El Perdón",
+            "songName": "Nicky Jam y Enrique Iglesias"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 2
+        }
+    },
+    {
+        "index": 175,
+        "id": "iS1g8G_njx8",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Problem ft. Iggy Azalea"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 3,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 176,
+        "id": "PJniSb91tvo",
+        "details": {
+            "artist": "Maluma",
+            "songName": "El Perdedor"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 177,
+        "id": "VMp55KH_3wo",
+        "details": {
+            "artist": "Gente de Zona",
+            "songName": "La Gozadera ft. Marc Anthony"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 178,
+        "id": "7zp1TbLFPp8",
+        "details": {
+            "artist": "Don Omar",
+            "songName": "Danza Kuduro ft. Lucenzo"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 179,
+        "id": "L8eRzOYhLuw",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Break Free ft. Zedd"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 180,
+        "id": "nCkpzqqog4k",
+        "details": {
+            "artist": "Sam Smith",
+            "songName": "I'm Not The Only One"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 4
+        }
+    },
+    {
+        "index": 181,
+        "id": "KWZGAExj-es",
+        "details": {
+            "artist": "Sia",
+            "songName": "Elastic Heart feat. Shia LaBeouf & Maddie Ziegler"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 3
+        }
+    },
+    {
+        "index": 182,
+        "id": "a59gmGkq_pw",
+        "details": {
+            "artist": "Major Lazer",
+            "songName": "Cold Water (feat. Justin Bieber & MØ)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 183,
+        "id": "lf_wVfwpfp8",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Focus"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 0
+        }
+    },
+    {
+        "index": 184,
+        "id": "OpQFFLBMEPI",
+        "details": {
+            "artist": "P!nk",
+            "songName": "Just Give Me A Reason ft. Nate Ruess"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "R&B": 0,
+            "Rock": 0,
+            "Soul": 5
+        }
+    }
+]

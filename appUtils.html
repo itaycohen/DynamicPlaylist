@@ -52,6 +52,9 @@
                     <md-nav-item md-nav-click="goto('page4')" name="page4">
                         Statistics
                     </md-nav-item>
+                    <md-nav-item md-nav-click="goto('page5')" name="page5">
+                        Fix List
+                    </md-nav-item>
                 </md-nav-bar>
                 <div class="ext-content">
 
@@ -272,6 +275,12 @@
                                     </div>
                                 </md-list-item>
                             </md-list>
+                        </md-content>
+                    </div>
+                    
+                    <div ng-show="currentNavItem === 'page5'">
+                        <h2> Fix List </h2>
+                        <md-button type="button" class="md-raised" ng-click="fixSongList()">Fix List</md-button>
                         </md-content>
                     </div>
 

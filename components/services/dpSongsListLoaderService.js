@@ -16,13 +16,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Justin Bieber",
             "s": "Love Yourself",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
                 0,
                 0,
-                0,
-                0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -31,13 +38,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Skrillex & Diplo",
             "s": "To Ü ft AlunaGeorge",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 5,
                 0,
+                2,
                 0,
                 0,
-                2
+                0,
+                0,
+                2,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -46,13 +60,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ed Sheeran",
             "s": "Thinking Out Loud",
             "g": [
-                4,
                 2,
                 0,
                 0,
                 0,
-                5,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                5
             ]
         },
         {
@@ -61,12 +82,19 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Justin Bieber",
             "s": "Sorry",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
                 0,
-                0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
                 1
             ]
         },
@@ -76,12 +104,19 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Calvin Harris ft. Rihanna",
             "s": "This Is What You Came For",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
-                1,
                 0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                4,
+                1,
+                0,
                 1
             ]
         },
@@ -91,10 +126,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Calvin Harris",
             "s": "Summer",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 0,
                 0,
                 0
@@ -106,13 +148,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "David Guetta ft. Sia",
             "s": "Titanium",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 4,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -121,13 +170,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "David Guetta ft. Sia",
             "s": "She Wolf (Falling To Pieces)",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -136,13 +192,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Avicii",
             "s": "The Nights",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -151,13 +214,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Avicii",
             "s": "Hey Brother",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -166,10 +236,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Zedd, Alessia Cara",
             "s": "Stay ",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -181,10 +258,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Clean Bandit",
             "s": "Rockabye ft. Sean Paul & Anne-Marie",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 0,
                 0,
                 0
@@ -196,13 +280,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Rag'n'Bone Man",
             "s": "Human",
             "g": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
-                3,
                 0,
                 0,
-                0,
-                3,
-                0
+                3
             ]
         },
         {
@@ -211,13 +302,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Jain",
             "s": "Makeba",
             "g": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
                 0,
-                2,
                 0,
-                0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -226,13 +324,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sia",
             "s": "Cheap Thrills",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 1,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -241,10 +346,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "WILLY WILLIAM",
             "s": "Ego",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 0,
                 0,
                 0
@@ -256,13 +368,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "DJ Snake",
             "s": "Let Me Love You ft. Justin Bieber",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 3,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -271,13 +390,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "A Great Big World, Christina Aguilera",
             "s": "Say Something",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
                 0,
-                0,
-                0,
-                5,
-                0
+                5
             ]
         },
         {
@@ -286,13 +412,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Chainsmokers",
             "s": "Paris",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 2,
                 0,
                 0,
-                4,
-                0
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                4
             ]
         },
         {
@@ -301,13 +434,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Shakira",
             "s": "Chantaje ft. Maluma",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 1,
                 0,
+                0,
+                0,
                 4,
-                2,
-                0
+                0,
+                0,
+                3,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -317,12 +457,19 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Castle On The Hill",
             "g": [
                 3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
                 0,
-                0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -331,13 +478,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Weeknd",
             "s": "I Feel It Coming ft. Daft Punk",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                4,
                 4,
                 0,
-                2,
-                1
+                2
             ]
         },
         {
@@ -346,13 +500,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "LP",
             "s": "Lost On You",
             "g": [
+                2,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
-                2,
-                2,
                 0,
                 0,
-                3,
-                0
+                3
             ]
         },
         {
@@ -361,13 +522,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sean Paul",
             "s": "No Lie ft. Dua Lipa",
             "g": [
+                0,
+                0,
+                0,
                 2,
+                0,
+                2,
+                0,
+                0,
+                0,
                 0,
                 2,
                 3,
                 0,
-                0,
-                2
+                0
             ]
         },
         {
@@ -376,13 +544,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Avicii",
             "s": "Wake Me Up",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 5,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -391,13 +566,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Bruno Mars",
             "s": "24K Magic",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 1,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                5,
                 3,
                 0,
-                1,
-                2
+                1
             ]
         },
         {
@@ -406,13 +588,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Calvin Harris",
             "s": "My Way",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 4,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -421,13 +610,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sia",
             "s": "The Greatest ft. Kendrick Lamar",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 1,
+                0,
                 2,
                 0,
+                0,
+                0,
+                0,
                 3,
-                2
+                2,
+                0,
+                3
             ]
         },
         {
@@ -437,11 +633,18 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Heathens",
             "g": [
                 3,
-                3,
+                0,
+                0,
                 1,
                 0,
-                0,
                 2,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
                 2
             ]
         },
@@ -451,13 +654,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "John Legend",
             "s": "All of Me",
             "g": [
-                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 3,
+                3,
                 0,
-                5,
-                0
+                5
             ]
         },
         {
@@ -466,13 +676,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Justin Timberlake",
             "s": "CAN'T STOP THE FEELING!",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 2,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -481,13 +698,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Chainsmokers",
             "s": "Don't Let Me Down ft. Daya",
             "g": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
                 0,
-                2,
                 0,
-                0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -496,13 +720,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Hozier",
             "s": "Take Me To Church",
             "g": [
-                2,
                 4,
                 0,
                 0,
                 0,
-                3,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                3
             ]
         },
         {
@@ -511,13 +742,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Bebe Rexha",
             "s": "I Got You",
             "g": [
+                0,
+                0,
+                0,
                 4,
                 0,
+                2,
+                0,
+                0,
+                0,
+                0,
                 4,
                 0,
                 0,
-                0,
-                2
+                0
             ]
         },
         {
@@ -526,13 +764,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Chainsmokers",
             "s": "Closer ft. Halsey",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 3,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -541,13 +786,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Luis Fonsi",
             "s": "Despacito ft. Daddy Yankee",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 2,
-                1,
+                0,
+                0,
+                0,
                 4,
-                3,
-                0
+                0,
+                0,
+                4,
+                1,
+                0,
+                3
             ]
         },
         {
@@ -556,13 +808,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Matt Simons",
             "s": "Catch & Release",
             "g": [
+                2,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
-                2,
-                2,
                 0,
                 0,
-                1,
-                0
+                1
             ]
         },
         {
@@ -571,10 +830,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Armin van Buuren feat. Trevor Guthrie",
             "s": "This Is What It Feels Like",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 5,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -586,13 +852,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "ZAYN, Taylor Swift",
             "s": "I Don’t Wanna Live Forever",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
-                0,
-                0,
                 2,
                 0,
-                1,
-                0
+                1
             ]
         },
         {
@@ -601,13 +874,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Weeknd",
             "s": "Starboy ft. Daft Punk",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 1,
-                4,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 3,
-                0
+                4,
+                0,
+                3
             ]
         },
         {
@@ -616,13 +896,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Mark Ronson",
             "s": "Uptown Funk ft. Bruno Mars",
             "g": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
-                0,
-                1,
                 1,
                 0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -631,13 +918,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "OneRepublic",
             "s": "Counting Stars",
             "g": [
-                4,
                 3,
-                1,
                 0,
                 0,
                 1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -646,13 +940,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "MACKLEMORE & RYAN LEWIS",
             "s": "CAN'T HOLD US",
             "g": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
-                2,
                 0,
-                0,
-                2,
-                4
+                2
             ]
         },
         {
@@ -661,13 +962,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "MACKLEMORE & RYAN LEWIS",
             "s": "THRIFT SHOP FEAT. WANZ",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 1,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                4,
                 2,
                 0,
-                0,
-                4
+                0
             ]
         },
         {
@@ -676,13 +984,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "OMI",
             "s": "Cheerleader (Felix Jaehn Remix)",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 2,
                 0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -691,13 +1006,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Clean Bandit",
             "s": "Rather Be ft. Jess Glynne",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 3,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -706,13 +1028,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Major Lazer & DJ Snake",
             "s": "Lean On (feat. MØ)",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 3,
                 0,
+                2,
                 0,
-                1,
-                2
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -721,13 +1050,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Imagine Dragons",
             "s": "Radioactive",
             "g": [
-                2,
                 5,
-                1,
                 0,
                 0,
                 1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -736,13 +1072,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Mr. Probz",
             "s": "Waves (Robin Schulz Remix)",
             "g": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
                 3,
-                0,
-                2,
                 2,
                 0,
-                0,
-                1
+                0
             ]
         },
         {
@@ -753,7 +1096,14 @@ function dpSongsListLoaderService($http, $q) {
             "g": [
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -766,13 +1116,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kygo",
             "s": "Firestone ft. Conrad Sewell",
             "g": [
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
                 0,
-                3,
                 0,
-                0,
-                3,
-                0
+                3
             ]
         },
         {
@@ -781,10 +1138,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Mike Posner",
             "s": "I Took A Pill In Ibiza (Seeb Remix)",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -796,13 +1160,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "twenty one pilots",
             "s": "Stressed Out",
             "g": [
-                2,
                 4,
                 0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                2,
                 1,
                 0,
-                0,
-                2
+                0
             ]
         },
         {
@@ -811,10 +1182,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Alan Walker",
             "s": "Faded",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 5,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -826,13 +1204,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "DJ Khaled",
             "s": "Wild Thoughts ft. Rihanna, Bryson Tiller",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 1,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                2,
                 5,
                 0,
-                1,
-                4
+                1
             ]
         },
         {
@@ -841,13 +1226,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Charlie Puth",
             "s": "Attention",
             "g": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                2,
                 2,
                 0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -856,13 +1248,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Calvin Harris",
             "s": "Feels ft. Pharrell Williams, Katy Perry, Big Sean",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 1,
                 0,
-                1,
-                0
+                1
             ]
         },
         {
@@ -871,13 +1270,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ed Sheeran",
             "s": "Shape of You",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 1,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -886,13 +1292,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "French Montana",
             "s": "Unforgettable ft. Swae Lee",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
                 3,
-                0,
-                0,
                 4,
                 0,
-                1,
-                5
+                1
             ]
         },
         {
@@ -901,13 +1314,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Imagine Dragons",
             "s": "Believer",
             "g": [
-                3,
                 5,
-                1,
                 0,
                 0,
                 1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -916,13 +1336,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Chainsmokers & Coldplay",
             "s": "Something Just Like This",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -931,13 +1358,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "DJ Khaled",
             "s": "I'm the One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
             "g": [
-                3,
+                0,
+                0,
+                0,
                 0,
                 0,
                 5,
                 0,
-                1,
-                5
+                0,
+                0,
+                0,
+                3,
+                5,
+                0,
+                1
             ]
         },
         {
@@ -946,13 +1380,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Jason Derulo",
             "s": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 2,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                3,
                 5,
                 0,
-                0,
-                4
+                0
             ]
         },
         {
@@ -961,13 +1402,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Clean Bandit",
             "s": "Symphony feat. Zara Larsson",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -979,10 +1427,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
-                1,
-                5
+                1
             ]
         },
         {
@@ -991,10 +1446,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Jax Jones",
             "s": "You Don't Know Me ft. RAYE",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -1006,10 +1468,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Burak Yeter",
             "s": "Tuesday ft. Danelle Sandoval",
             "g": [
-                1,
+                0,
+                0,
                 0,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -1021,13 +1490,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Enrique Iglesias",
             "s": "SUBEME LA RADIO ft. Descemer Bueno, Zion & Lennox",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 1,
+                0,
+                0,
                 0,
                 4,
-                1,
-                0
+                0,
+                0,
+                3,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1036,13 +1512,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "James Arthur",
             "s": "Say You Won't Let Go",
             "g": [
-                3,
                 2,
                 0,
                 0,
                 0,
-                4,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                4
             ]
         },
         {
@@ -1051,12 +1534,19 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Bruno Mars",
             "s": "That’s What I Like",
             "g": [
-                4,
                 0,
                 0,
-                4,
+                0,
+                0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
+                4,
+                4,
+                0,
                 2
             ]
         },
@@ -1066,13 +1556,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kendrick Lamar",
             "s": "HUMBLE",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
                 1,
-                0,
-                0,
                 5,
                 0,
-                0,
-                2
+                0
             ]
         },
         {
@@ -1081,13 +1578,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Jonas Blue",
             "s": "Mama ft. William Singe",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
+                1,
                 0,
                 0,
-                1
+                0,
+                0,
+                3,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -1099,10 +1603,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
-                0,
-                5
+                0
             ]
         },
         {
@@ -1111,13 +1622,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Bruno Mars",
             "s": "Versace On The Floor",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
-                0,
-                0,
                 3,
                 0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -1126,11 +1644,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Dua Lipa",
             "s": "New Rules",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 3,
-                1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                1,
                 0,
                 0
             ]
@@ -1141,10 +1666,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "David Guetta ft Justin Bieber",
             "s": "2U",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -1156,11 +1688,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Luis Fonsi, Daddy Yankee",
             "s": "Despacito ft. Justin Bieber",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 2,
                 0,
+                0,
+                0,
                 3,
+                0,
+                0,
+                4,
+                0,
                 0,
                 0
             ]
@@ -1171,13 +1710,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ed Sheeran",
             "s": "Galway Girl",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
-                0,
-                0,
                 1,
                 0,
-                1,
-                0
+                1
             ]
         },
         {
@@ -1189,10 +1735,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
-                0,
-                5
+                0
             ]
         },
         {
@@ -1201,10 +1754,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Katy Perry",
             "s": "Chained To The Rhythm ft. Skip Marley",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -1216,13 +1776,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Harry Styles",
             "s": "Sign of the Times",
             "g": [
-                2,
                 3,
                 0,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1234,10 +1801,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
                 4,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0,
+                0
             ]
         },
         {
@@ -1246,13 +1820,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Mike Perry",
             "s": "The Ocean ft. Shy Martin",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1261,10 +1842,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Galantis",
             "s": "No Money",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -1276,10 +1864,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Jonas Blue",
             "s": "Perfect Strangers ft. JP Cooper",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -1291,10 +1886,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Zara Larsson, MNEK",
             "s": "Never Forget You",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -1306,10 +1908,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kygo, Selena Gomez",
             "s": "It Ain't Me",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 2,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -1321,13 +1930,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Weeknd",
             "s": "Earned It",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
-                0,
-                0,
                 3,
                 0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -1336,13 +1952,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Wiz Khalifa",
             "s": "See You Again ft. Charlie Puth",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
                 2,
                 0,
                 0,
-                0,
-                0,
-                3,
-                4
+                3
             ]
         },
         {
@@ -1354,10 +1977,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
                 0,
-                0,
-                4
+                0
             ]
         },
         {
@@ -1366,13 +1996,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Weeknd",
             "s": "Can't Feel My Face",
             "g": [
+                0,
+                0,
+                0,
                 2,
+                0,
+                1,
+                0,
+                0,
+                0,
                 0,
                 2,
                 4,
                 0,
-                2,
-                1
+                2
             ]
         },
         {
@@ -1381,11 +2018,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "J. Balvin, Willy William",
             "s": "Mi Gente",
             "g": [
-                2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 4,
+                0,
+                0,
+                2,
+                0,
                 0,
                 0
             ]
@@ -1396,13 +2040,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "J. Balvin",
             "s": "Si Tu Novio Te Deja Sola ft. Bad Bunny",
             "g": [
-                1,
                 0,
                 0,
-                3,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
+                0,
+                0,
                 1,
-                0
+                3,
+                0,
+                1
             ]
         },
         {
@@ -1411,11 +2062,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ricky Martin",
             "s": "Vente Pa' Ca ft. Maluma",
             "g": [
-                3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 5,
+                0,
+                0,
+                3,
+                0,
                 0,
                 0
             ]
@@ -1426,10 +2084,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Alan Walker",
             "s": "Alone",
             "g": [
-                1,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -1441,13 +2106,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "The Weeknd",
             "s": "The Hills",
             "g": [
-                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 3,
+                3,
                 0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -1456,13 +2128,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Imagine Dragons",
             "s": "Demons",
             "g": [
-                3,
                 5,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 null,
                 0,
-                null,
-                0
+                null
             ]
         },
         {
@@ -1471,13 +2150,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ellie Goulding",
             "s": "Love Me Like You Do",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 2,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
                 3,
-                0
+                0,
+                0,
+                3
             ]
         },
         {
@@ -1486,13 +2172,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "ZAYN",
             "s": "PILLOWTALK",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
-                0,
-                0,
                 1,
                 0,
-                3,
-                0
+                3
             ]
         },
         {
@@ -1501,13 +2194,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Drake",
             "s": "Hotline Bling",
             "g": [
-                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
                 0,
                 0,
                 2,
+                2,
                 0,
-                1,
-                4
+                1
             ]
         },
         {
@@ -1516,13 +2216,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Adele",
             "s": "Hello",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
                 0,
-                0,
-                0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -1531,13 +2238,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ariana Grande",
             "s": "Side To Side ft. Nicki Minaj",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
                 4,
-                0,
-                0,
                 2,
                 0,
-                0,
-                1
+                0
             ]
         },
         {
@@ -1546,10 +2260,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Imagine Dragons",
             "s": "Thunder",
             "g": [
-                2,
                 5,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -1561,10 +2282,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Imagine Dragons",
             "s": "On Top Of The World",
             "g": [
-                2,
                 4,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -1576,13 +2304,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "alt-J",
             "s": "Left Hand Free",
             "g": [
-                2,
                 5,
                 0,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1591,10 +2326,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "alt-J",
             "s": "Breezeblocks",
             "g": [
-                1,
                 5,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -1606,13 +2348,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "alt-J",
             "s": "Taro",
             "g": [
-                1,
                 5,
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
-                0
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1621,13 +2370,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "alt-J",
             "s": "Hunger Of The Pine",
             "g": [
-                1,
                 5,
-                1,
                 0,
                 0,
                 1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1636,13 +2392,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "alt-J",
             "s": "Matilda",
             "g": [
-                0,
                 5,
                 0,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -1651,13 +2414,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Chet Faker",
             "s": "Gold",
             "g": [
-                0,
                 3,
+                0,
+                0,
+                2,
+                0,
                 2,
                 0,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -1666,10 +2436,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "alt-J",
             "s": "Tessellate",
             "g": [
-                1,
                 5,
+                0,
+                0,
                 2,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -1681,13 +2458,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "Do I Wanna Know?",
             "g": [
-                1,
                 5,
                 0,
                 0,
                 0,
-                3,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                3
             ]
         },
         {
@@ -1696,13 +2480,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "R U Mine?",
             "g": [
-                0,
                 5,
                 0,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1711,13 +2502,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "I Wanna Be Yours",
             "g": [
-                0,
                 5,
                 0,
                 0,
                 0,
-                3,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
             ]
         },
         {
@@ -1726,10 +2524,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "Fluorescent Adolescent",
             "g": [
-                2,
                 5,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -1741,13 +2546,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Hozier",
             "s": "Take Me To Church",
             "g": [
-                2,
                 5,
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
-                0
+                0,
+                0,
+                2
             ]
         },
         {
@@ -1756,10 +2568,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Skrillex and Diplo",
             "s": "Where Are Ü Now with Justin Bieber",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -1771,13 +2590,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Louis Tomlinson",
             "s": "Back to You ft. Bebe Rexha, Digital Farm Animals",
             "g": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
-                2,
                 0,
-                0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -1786,13 +2612,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Charlie Puth",
             "s": "We Don't Talk Anymore (feat. Selena Gomez)",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 1,
                 0,
                 0,
-                3,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                3
             ]
         },
         {
@@ -1801,13 +2634,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Shawn Mendes",
             "s": "There's Nothing Holdin' Me Back",
             "g": [
-                4,
                 2,
-                3,
                 0,
                 0,
                 3,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                3
             ]
         },
         {
@@ -1816,10 +2656,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Portugal. The Man",
             "s": "Feel It Still",
             "g": [
-                1,
                 4,
+                0,
+                0,
                 1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -1831,13 +2678,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Coldplay",
             "s": "Hymn For The Weekend",
             "g": [
-                4,
                 1,
+                0,
+                0,
                 2,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1846,11 +2700,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Rihanna",
             "s": "Work ft. Drake",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 1,
-                4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                4,
                 0,
                 0
             ]
@@ -1861,10 +2722,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Zara Larsson",
             "s": "Lush Life",
             "g": [
-                3,
                 1,
+                0,
+                0,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
                 0,
                 0,
                 0
@@ -1876,13 +2744,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Fifth Harmony",
             "s": "Down ft. Gucci Mane",
             "g": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
                 4,
-                0,
-                1,
                 1,
                 0,
-                0,
-                1
+                0
             ]
         },
         {
@@ -1891,10 +2766,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Shawn Mendes",
             "s": "Treat You Better",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -1906,13 +2788,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "twenty one pilots",
             "s": "Ride",
             "g": [
-                1,
                 4,
+                0,
+                0,
+                2,
+                0,
                 2,
                 0,
                 0,
                 0,
-                2
+                0,
+                1,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -1921,13 +2810,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Shawn Mendes",
             "s": "Stitches",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 1,
                 0,
-                2,
-                0
+                2
             ]
         },
         {
@@ -1936,13 +2832,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sia",
             "s": "Chandelier",
             "g": [
-                4,
                 1,
+                0,
+                0,
                 2,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -1951,13 +2854,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sam Smith",
             "s": "Too Good At Goodbyes",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
                 0,
                 0,
-                0,
-                0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -1966,13 +2876,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Martin Garrix & Bebe Rexha",
             "s": "In The Name Of Love",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 4,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -1981,10 +2898,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ed Sheeran",
             "s": "Bibia Be Ye Ye",
             "g": [
-                4,
                 1,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 0,
                 0,
                 0
@@ -1996,12 +2920,19 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Hasta el Amanecer",
             "s": "Nicky Jam",
             "g": [
-                3,
+                0,
+                0,
                 0,
                 2,
                 0,
-                5,
                 1,
+                0,
+                5,
+                0,
+                0,
+                3,
+                0,
+                0,
                 1
             ]
         },
@@ -2011,10 +2942,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Of Monsters And Men",
             "s": "Little Talks",
             "g": [
-                2,
                 5,
+                0,
+                0,
                 1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -2026,13 +2964,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ariana Grande",
             "s": "Dangerous Woman",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
                 3,
                 0,
-                3,
-                0
+                3
             ]
         },
         {
@@ -2041,13 +2986,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Adele",
             "s": "Someone Like You",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
                 0,
                 0,
-                0,
-                0,
-                5,
-                0
+                5
             ]
         },
         {
@@ -2056,13 +3008,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Tove Lo",
             "s": "Habits (Stay High) - Hippie Sabotage Remix",
             "g": [
-                2,
                 3,
+                0,
+                0,
                 1,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
                 2,
-                0
+                0,
+                0,
+                2
             ]
         },
         {
@@ -2071,10 +3030,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Milky Chance",
             "s": "Stolen Dance",
             "g": [
-                2,
                 4,
+                0,
+                0,
                 1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -2086,9 +3052,16 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Tame Impala",
             "s": "Let It Happen",
             "g": [
-                0,
                 5,
+                0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2101,9 +3074,16 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Tame Impala",
             "s": "The Less I Know The Better",
             "g": [
-                0,
                 5,
+                0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2116,8 +3096,15 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Tame Impala",
             "s": "Feels Like We Only Go Backwards",
             "g": [
-                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2131,10 +3118,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Foster The People",
             "s": "Pumped up Kicks",
             "g": [
-                2,
                 5,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 0,
                 0,
                 0
@@ -2146,8 +3140,15 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "Arabella",
             "g": [
-                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2161,8 +3162,15 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "Snap Out Of It",
             "g": [
-                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2176,13 +3184,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Arctic Monkeys",
             "s": "Why'd You Only Call Me When You're High?",
             "g": [
-                0,
                 5,
                 0,
                 0,
                 0,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -2191,9 +3206,16 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kings Of Leon",
             "s": "Chapter 1, Waste a Moment",
             "g": [
-                0,
                 5,
+                0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2206,13 +3228,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kings Of Leon",
             "s": "Pyro",
             "g": [
-                0,
                 5,
                 0,
                 0,
                 0,
-                1,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
             ]
         },
         {
@@ -2221,8 +3250,15 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kings Of Leon",
             "s": "Sex on Fire",
             "g": [
-                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2236,8 +3272,15 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kings Of Leon",
             "s": "Use Somebody",
             "g": [
-                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2251,8 +3294,15 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Kings Of Leon",
             "s": "Supersoaker",
             "g": [
-                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2267,9 +3317,16 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Are You With Me",
             "g": [
                 1,
-                1,
+                0,
+                0,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -2281,10 +3338,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Taylor Swift",
             "s": "Look What You Made Me Do",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -2296,13 +3360,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Katy Perry",
             "s": "Swish Swish ft. Nicki Minaj",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 3,
                 0,
+                1,
                 0,
                 0,
-                1
+                0,
+                0,
+                5,
+                0,
+                0,
+                0
             ]
         },
         {
@@ -2311,10 +3382,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Miley Cyrus",
             "s": "Malibu",
             "g": [
-                5,
                 1,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -2326,13 +3404,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Liam Payne",
             "s": "Strip That Down ft. Quavo",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
                 4,
-                0,
-                0,
                 2,
                 0,
-                0,
-                3
+                0
             ]
         },
         {
@@ -2341,11 +3426,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Demi Lovato",
             "s": "Sorry Not Sorry",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 1,
-                3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                3,
                 0,
                 0
             ]
@@ -2356,10 +3448,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Martin Garrix & Dua Lipa",
             "s": "Scared To Be Lonely",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 0,
                 0,
                 0
@@ -2373,7 +3472,14 @@ function dpSongsListLoaderService($http, $q) {
             "g": [
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2386,11 +3492,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Enrique Iglesias",
             "s": "Bailando ft. Descemer Bueno, Gente De Zona",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 2,
                 0,
+                0,
+                0,
                 5,
+                0,
+                0,
+                4,
+                0,
                 0,
                 0
             ]
@@ -2401,13 +3514,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Passenger",
             "s": "Let Her Go",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
                 0,
                 0,
-                0,
-                0,
-                5,
-                0
+                5
             ]
         },
         {
@@ -2416,10 +3536,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Taylor Swift",
             "s": "Shake It Off",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0
@@ -2431,10 +3558,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Maroon 5",
             "s": "Sugar",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0
@@ -2446,10 +3580,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Katy Perry",
             "s": "Roar",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0
@@ -2461,10 +3602,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Taylor Swift",
             "s": "Blank Space",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0
@@ -2476,11 +3624,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Katy Perry",
             "s": "Dark Horse ft. Juicy J",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
                 2,
-                0,
                 0,
                 0
             ]
@@ -2491,10 +3646,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Meghan Trainor",
             "s": "All About That Bass",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0
@@ -2506,10 +3668,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Justin Bieber",
             "s": "What Do You Mean?",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -2521,10 +3690,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Fifth Harmony",
             "s": "Work from Home ft. Ty Dolla $ign",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0
@@ -2540,9 +3716,16 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
                 5,
-                2,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
             ]
         },
         {
@@ -2551,10 +3734,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ellie Goulding",
             "s": "Burn",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 4,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
                 0,
                 0,
                 0
@@ -2566,11 +3756,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Joey Montana",
             "s": "Picky",
             "g": [
-                2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 5,
+                0,
+                0,
+                2,
+                0,
                 0,
                 0
             ]
@@ -2581,11 +3778,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "David Guetta",
             "s": "Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack",
             "g": [
-                4,
+                0,
+                0,
                 0,
                 5,
-                2,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                2,
                 0,
                 0
             ]
@@ -2596,11 +3800,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Taylor Swift",
             "s": "Bad Blood ft. Kendrick Lamar",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
-                0,
-                0,
                 3,
-                0,
                 0,
                 0
             ]
@@ -2611,11 +3822,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "CNCO",
             "s": "Reggaetón Lento (Bailemos)",
             "g": [
-                2,
+                0,
+                0,
                 0,
                 2,
+                0,
+                0,
                 0,
                 5,
+                0,
+                0,
+                2,
+                0,
                 0,
                 0
             ]
@@ -2626,13 +3844,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "El Perdón",
             "s": "Nicky Jam y Enrique Iglesias",
             "g": [
-                2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 5,
+                0,
+                0,
                 2,
-                0
+                0,
+                0,
+                2
             ]
         },
         {
@@ -2641,13 +3866,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ariana Grande",
             "s": "Problem ft. Iggy Azalea",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                5,
                 3,
                 0,
-                0,
-                2
+                0
             ]
         },
         {
@@ -2656,11 +3888,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Maluma",
             "s": "El Perdedor",
             "g": [
-                2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 5,
+                0,
+                0,
+                2,
+                0,
                 0,
                 0
             ]
@@ -2671,11 +3910,18 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Gente de Zona",
             "s": "La Gozadera ft. Marc Anthony",
             "g": [
-                2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 5,
+                0,
+                0,
+                2,
+                0,
                 0,
                 0
             ]
@@ -2688,9 +3934,16 @@ function dpSongsListLoaderService($http, $q) {
             "g": [
                 0,
                 0,
+                0,
                 3,
                 0,
+                0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -2701,10 +3954,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ariana Grande",
             "s": "Break Free ft. Zedd",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -2716,13 +3976,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sam Smith",
             "s": "I'm Not The Only One",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
                 0,
                 0,
-                0,
-                0,
-                4,
-                0
+                4
             ]
         },
         {
@@ -2731,13 +3998,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Sia",
             "s": "Elastic Heart feat. Shia LaBeouf & Maddie Ziegler",
             "g": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 5,
                 0,
                 0,
-                0,
-                0,
-                3,
-                0
+                3
             ]
         },
         {
@@ -2746,10 +4020,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Major Lazer",
             "s": "Cold Water (feat. Justin Bieber & MØ)",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 3,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -2761,10 +4042,17 @@ function dpSongsListLoaderService($http, $q) {
             "a": "Ariana Grande",
             "s": "Focus",
             "g": [
-                5,
+                0,
+                0,
                 0,
                 2,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
                 0,
                 0,
                 0
@@ -2776,13 +4064,20 @@ function dpSongsListLoaderService($http, $q) {
             "a": "P!nk",
             "s": "Just Give Me A Reason ft. Nate Ruess",
             "g": [
-                3,
                 2,
                 0,
                 0,
                 0,
-                5,
-                0
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                5
             ]
         }
     ];

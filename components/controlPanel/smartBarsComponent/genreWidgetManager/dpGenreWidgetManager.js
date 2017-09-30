@@ -16,6 +16,9 @@ function dpGenreWidgetManager(dpSongsListLogic) {
 dpGenreWidgetManagerController.$inject = ["$scope", "$element", 'dpAppUtils', 'dpSongsListLogic'];
 function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsListLogic) {
 
+    var MAXIMUM_GENRES = 5;
+    var MINIMUM_GENRES = 1;
+
     // getting the genres NAMES from the logic
     $scope.selectedGenresNames = dpSongsListLogic.getUserGenresNames();
     $scope.allGenresNames = dpSongsListLogic.geAllGenresNames();
@@ -28,11 +31,11 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         //checking if the genre is already selected, 
         // if yes, we want to enabled this genre in order to remove it
         if ($scope.selectedGenresNames.indexOf(genre) > -1) {
-            return $scope.selectedGenresNames.length <= 1;
+            return $scope.selectedGenresNames.length <= MINIMUM_GENRES;
         }
-        // else we want to check if there are more than 4 genres selected
+        // else we want to check if there are more than 2 genres selected
         // if yes, we want to disabled this genre adding
-        return $scope.selectedGenresNames.length >= 4;
+        return $scope.selectedGenresNames.length >= MAXIMUM_GENRES;
     };
 
     // $scope.onOptionClick = function (genre) {

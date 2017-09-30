@@ -10,16 +10,15 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     // $rootScope.readyToValidate = false;
 
-    $http.get("data/songs/songsShrink.json")
+    $http.get("data/songs/songsShrinkNewGenres.json")
         .then(function (response) {
             $rootScope.songsShrink = response.data;
 
-            $http.get("data/songs/songsRaw.json")
+            $http.get("data/songs/songsRawNewGenres.json")
                 .then(function (response) {
                     $rootScope.songsRaw = response.data;
                     validateSongLists();
                 });
-            // $rootScope.readyToValidate = true;
         });
 
     function validateSongLists() {
@@ -47,6 +46,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
 
     var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
+    
 
     // Adding Songs
 
@@ -86,8 +87,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         newSong.details.artist = currentSong.artist;
         newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
         newSong.genreWeights = {};
-        for (var i = 0; i < mapOfGenres.length; i++) {
-            var key = mapOfGenres[i];
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            var key = newMapOfGenres[i];
             newSong.genreWeights[key] = currentSong.songGenres[i];
         }
         var newSongStr = JSON.stringify(newSong);
@@ -348,8 +349,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             newSong.s = currentSong.details.songName;
             var genres = currentSong.genreWeights;
             var genresweightsOfSong = [];
-            for (var j = 0; j < mapOfGenres.length; j++) {
-                var currentGenre = mapOfGenres[j];
+            for (var j = 0; j < newMapOfGenres.length; j++) {
+                var currentGenre = newMapOfGenres[j];
                 genresweightsOfSong[j] = genres[currentGenre];
             }
             newSong.g = genresweightsOfSong;
@@ -372,7 +373,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             newSong.details.songName = currentSong.s;
             newSong.genreWeights = {};
             for (var j = 0; j < currentSong.g.length; j++) {
-                var key = mapOfGenres[j];
+                var key = newMapOfGenres[j];
                 newSong.genreWeights[key] = currentSong.g[j];
             }
             rawSongsList[i] = newSong;
@@ -429,8 +430,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         var genresStatData = calculateGenresStatData();
 
         $rootScope.allGenresStat = [];
-        for (var i = 0; i < mapOfGenres.length; i++) {
-            var currentGenre = mapOfGenres[i];
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            var currentGenre = newMapOfGenres[i];
             var currentGenreStat = {};
             currentGenreStat.name = currentGenre;
             currentGenreStat.weight = genresStatData[i];
@@ -441,7 +442,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     function calculateGenresStatData() {
         var songsData = $rootScope.songsShrink;
-        var mapOfAveragesByGenres = Array.apply(null, Array(mapOfGenres.length)).map(Number.prototype.valueOf, 0);
+        var mapOfAveragesByGenres = Array.apply(null, Array(newMapOfGenres.length)).map(Number.prototype.valueOf, 0);
         var lengthOfSongData = songsData.length;
         for (var i = 0; i < lengthOfSongData; i++) {
             var currentSongData = songsData[i];
@@ -457,6 +458,32 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         return mapOfAveragesByGenres;
 
     }
+
+
+
+    /// fixSongList
+
+
+    $rootScope.fixSongList = function () {
+        var rawSongList = $rootScope.songsRaw;
+        var newRawSongList = [];
+        for (var i = 0; i < rawSongList.length; i++) {
+            var currentSong = rawSongList[i];
+            var oldGenres = currentSong.genreWeights;
+            var newGenresWeightsOfSongObj = {};
+            for (var k = 0; k < newMapOfGenres.length; k++) {
+                var key = newMapOfGenres[k];
+                newGenresWeightsOfSongObj[key] = 0;
+            }
+            for (var genre in oldGenres) {
+                var currentGenreWeight = oldGenres[genre];
+                newGenresWeightsOfSongObj[genre] = currentGenreWeight;
+            }
+            currentSong.genreWeights = newGenresWeightsOfSongObj;
+            newRawSongList[i] = currentSong;
+        }
+        console.log(JSON.stringify(newRawSongList));
+    };
 
 }
 
