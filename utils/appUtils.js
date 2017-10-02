@@ -10,11 +10,11 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     // $rootScope.readyToValidate = false;
 
-    $http.get("data/songs/songsShrinkNewGenres.json")
+    $http.get("data/songs/songsShrink19Genres.json")
         .then(function (response) {
             $rootScope.songsShrink = response.data;
 
-            $http.get("data/songs/songsRawNewGenres.json")
+            $http.get("data/songs/songsRaw19Genres.json")
                 .then(function (response) {
                     $rootScope.songsRaw = response.data;
                     validateSongLists();
@@ -33,11 +33,11 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
 
 app.controller('appUtilsController', appUtilsController);
-appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http'];
-function appUtilsController($rootScope, dpAppUtils, $http) {
+appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window',];
+function appUtilsController($rootScope, dpAppUtils, $http , $window) {
 
 
-    $rootScope.currentNavItem = 'page1';
+    $rootScope.currentNavItem = 'page6';
     $rootScope.data = {};
     $rootScope.data.takeSongName = true;
     $rootScope.genreInputStyle = { "width": "100px" };
@@ -45,8 +45,10 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
 
 
-    var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
-    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
+    // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+    // var newMapOfGenres2 = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
+    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
+    
     
 
     // Adding Songs
@@ -55,7 +57,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         "id": '',
         "artist": '',
         "songName": '',
-        "songGenres": [0, 0, 0, 0, 0, 0, 0]
+        "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     };
 
 
@@ -117,7 +119,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             "id": '',
             "artist": '',
             "songName": '',
-            "songGenres": [0, 0, 0, 0, 0, 0, 0]
+            "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         };
         $rootScope.APIResult = "";
         $rootScope.data.takeSongName = true;
@@ -158,7 +160,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
     $rootScope.getSongGneres = function () {
         var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
         url += "&artist=";
-        url += $rootScope.song.artist;
+        url += $rootScope.song.artistAPI;
         url += "&track=";
         url += $rootScope.song.songNameAPI;
         $http.get(url).
@@ -186,6 +188,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             }
             var artist = fullSongTitle.substring(0, dashIndex).trim();
             $rootScope.song.artist = artist;
+            $rootScope.song.artistAPI = artist;
         }
     };
 
@@ -229,6 +232,9 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             }
             //remove all brackets and it's content
             songName = songName.replace(/ *\([^)]*\) */g, " ").trim();
+            songName = songName.replace(/ *\[[^\]]*]/, '').trim();
+            
+            // songName = songName.replace(/[\[\]']+/g,'').trim();
 
             bracket = songName.indexOf("ft");
             var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
@@ -258,6 +264,12 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
     $rootScope.cleanResult = function () {
         $rootScope.APIResultRaw = "";
     };
+
+    $rootScope.goToBottom = function () {
+        $window.scrollTo(0,document.body.scrollHeight);
+    };
+
+    
 
     function parseYTSongResult() {
         var songTitle = "";
@@ -483,6 +495,51 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             newRawSongList[i] = currentSong;
         }
         console.log(JSON.stringify(newRawSongList));
+    };
+
+
+    /// FIX SONGS
+
+
+    $rootScope.runningSongIndexFromList = 0;
+
+    $rootScope.loadSongFromList = function () {
+        var rawSongList = $rootScope.songsRaw;
+        var currentSong = rawSongList[$rootScope.runningSongIndexFromList];
+        $rootScope.song.id = currentSong.id;
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            $rootScope.song.songGenres[i] = currentSong.genreWeights[newMapOfGenres[i]];
+        }
+        $rootScope.getSongNameAndParseFullTitle();
+    };
+
+    $rootScope.addSong2 = function () {
+        validateSong();
+        var currentSong = $rootScope.song;
+        var newSong = {};
+        newSong.index = $rootScope.runningSongIndexFromList;
+        newSong.id = currentSong.id;
+        newSong.details = {};
+        // newSong.details.artist = currentSong.artist.trim();
+        // newSong.details.songName = currentSong.songName.trim();
+        newSong.details.artist = currentSong.artist;
+        newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
+        newSong.genreWeights = {};
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            var key = newMapOfGenres[i];
+            newSong.genreWeights[key] = currentSong.songGenres[i];
+        }
+        var newSongStr = JSON.stringify(newSong);
+        console.log(newSongStr);
+
+        $rootScope.songToAdd += newSongStr;
+        $rootScope.songToAdd += ",";
+        $rootScope.runningSongIndexFromList++;
+
+        $rootScope.cleanSong();
+        $rootScope.data.takeSongName = true;
+
+
     };
 
 }

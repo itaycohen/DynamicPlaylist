@@ -7,8 +7,6 @@ dpSongsListLoaderService.$inject = ["$http", "$q"];
 
 function dpSongsListLoaderService($http, $q) {
 
-    // allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
-
     var songsShrink = [
         {
             "i": 0,
@@ -26,10 +24,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -43,12 +46,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 5,
                 0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
-                2,
                 0,
                 0,
                 0
@@ -70,10 +78,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                5
+                0,
+                0,
+                0,
+                5,
+                0
             ]
         },
         {
@@ -87,6 +100,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 1,
                 0,
                 0,
@@ -95,7 +109,11 @@ function dpSongsListLoaderService($http, $q) {
                 5,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -109,15 +127,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 5,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
                 1,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -136,7 +159,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -158,10 +186,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -180,10 +213,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -202,10 +240,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -224,10 +267,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -246,7 +294,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -268,7 +321,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -290,10 +348,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -312,10 +375,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -334,10 +402,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -356,7 +429,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -378,10 +456,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -400,10 +483,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                5
+                0,
+                0,
+                0,
+                5,
+                0
             ]
         },
         {
@@ -422,10 +510,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -441,13 +534,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -466,10 +564,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -483,15 +586,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
                 4,
                 0,
-                2
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -510,10 +618,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -527,13 +640,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
-                2,
-                0,
-                0,
-                0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
                 3,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -554,10 +672,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -571,15 +694,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 5,
+                0,
                 3,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -598,10 +726,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -615,15 +748,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 3,
+                0,
                 2,
                 0,
-                3
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -637,6 +775,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
+                0,
                 2,
                 0,
                 0,
@@ -645,7 +784,11 @@ function dpSongsListLoaderService($http, $q) {
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -664,10 +807,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                3,
+                0,
                 3,
                 0,
-                5
+                3,
+                0,
+                0,
+                0,
+                5,
+                0
             ]
         },
         {
@@ -686,10 +834,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -708,10 +861,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -730,10 +888,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -747,12 +910,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 4,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -774,10 +942,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -793,13 +966,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
                 4,
+                0,
                 1,
                 0,
-                3
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -818,10 +996,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -840,7 +1023,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -862,10 +1050,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
                 2,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -884,10 +1077,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
                 4,
                 0,
-                3
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -906,10 +1104,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
                 1,
                 0,
-                2
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -928,10 +1131,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -945,6 +1153,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 4,
                 0,
                 0,
@@ -953,7 +1162,11 @@ function dpSongsListLoaderService($http, $q) {
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -967,13 +1180,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
-                4,
-                0,
-                0,
-                0,
                 0,
                 4,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -994,10 +1212,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
                 2,
                 0,
-                2
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -1016,10 +1239,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -1033,6 +1261,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 3,
                 0,
+                0,
                 2,
                 0,
                 0,
@@ -1041,7 +1270,11 @@ function dpSongsListLoaderService($http, $q) {
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1060,10 +1293,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1077,13 +1315,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 3,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1098,6 +1341,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -1126,10 +1374,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -1148,7 +1401,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1165,13 +1423,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                2,
-                0,
-                0,
-                0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
                 1,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1192,7 +1455,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1209,15 +1477,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
+                0,
                 4,
                 0,
                 0,
                 0,
                 0,
                 2,
+                0,
                 5,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1236,10 +1509,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 2,
                 0,
-                4
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -1258,10 +1536,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 1,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1280,10 +1563,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -1297,15 +1585,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 0,
                 0,
                 3,
+                0,
                 4,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1324,10 +1617,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1346,10 +1644,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1363,15 +1666,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 0,
                 0,
                 3,
+                0,
                 5,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1385,13 +1693,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 4,
                 0,
                 0,
                 0,
                 0,
                 3,
+                0,
                 5,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1412,10 +1725,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1429,7 +1747,9 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 0,
                 0,
                 0,
@@ -1437,7 +1757,10 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 3,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1456,7 +1779,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1478,7 +1806,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1497,13 +1830,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
                 3,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1522,10 +1860,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -1539,15 +1882,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
                 4,
                 0,
-                2
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -1561,13 +1909,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 1,
+                0,
                 5,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1583,12 +1936,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 4,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1605,13 +1963,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1632,10 +1995,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
                 3,
                 0,
-                4
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -1654,8 +2022,13 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
                 1,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1676,7 +2049,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1695,10 +2073,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1720,10 +2103,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
                 1,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1737,13 +2125,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -1764,7 +2157,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1786,10 +2184,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1803,13 +2206,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 4,
                 0,
                 0,
                 0,
-                0,
-                0,
-                4,
                 0,
                 0
             ]
@@ -1830,10 +2238,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -1852,7 +2265,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1874,7 +2292,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1896,7 +2319,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1918,7 +2346,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -1940,10 +2373,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
                 3,
                 0,
-                4
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -1957,6 +2395,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
@@ -1965,7 +2404,11 @@ function dpSongsListLoaderService($http, $q) {
                 2,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -1979,13 +2422,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -2001,15 +2449,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 2,
+                0,
                 4,
                 0,
-                2
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2025,10 +2478,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2047,13 +2505,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 1,
+                0,
                 3,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2069,10 +2532,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2094,7 +2562,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2116,10 +2589,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                3,
+                0,
                 3,
                 0,
-                2
+                3,
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2138,10 +2616,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
                 null,
                 0,
-                null
+                0,
+                0,
+                null,
+                0
             ]
         },
         {
@@ -2160,10 +2643,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2182,10 +2670,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
                 1,
                 0,
-                3
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2199,15 +2692,20 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
                 0,
                 0,
                 2,
+                0,
                 2,
                 0,
-                1
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2226,10 +2724,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -2243,13 +2746,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -2270,7 +2778,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2292,7 +2805,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2314,10 +2832,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2336,7 +2859,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2358,10 +2886,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2380,10 +2913,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2405,7 +2943,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2419,7 +2962,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -2446,7 +2994,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2468,10 +3021,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2493,7 +3051,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2515,7 +3078,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2534,7 +3102,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2556,10 +3129,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2578,7 +3156,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2600,10 +3183,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2622,10 +3210,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2644,10 +3237,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2666,7 +3264,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2688,10 +3291,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2710,8 +3318,13 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
                 4,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -2732,7 +3345,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2749,13 +3367,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
                 1,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -2776,7 +3399,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2793,12 +3421,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2820,10 +3453,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 1,
                 0,
-                2
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2842,10 +3480,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2864,10 +3507,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -2886,10 +3534,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -2908,7 +3561,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2925,6 +3583,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 1,
                 0,
                 5,
@@ -2933,7 +3592,11 @@ function dpSongsListLoaderService($http, $q) {
                 3,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -2952,7 +3615,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -2974,10 +3642,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 3,
                 0,
-                3
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -2996,10 +3669,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                5
+                0,
+                0,
+                0,
+                5,
+                0
             ]
         },
         {
@@ -3018,10 +3696,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -3040,7 +3723,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3056,6 +3744,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3087,6 +3780,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0
             ]
         },
@@ -3097,6 +3795,11 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Feels Like We Only Go Backwards",
             "g": [
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3128,7 +3831,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3141,6 +3849,11 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Arabella",
             "g": [
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3175,6 +3888,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0
             ]
         },
@@ -3197,7 +3915,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -3210,6 +3933,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3241,7 +3969,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
             ]
         },
         {
@@ -3251,6 +3984,11 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Sex on Fire",
             "g": [
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3285,6 +4023,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0
             ]
         },
@@ -3295,6 +4038,11 @@ function dpSongsListLoaderService($http, $q) {
             "s": "Supersoaker",
             "g": [
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3326,7 +4074,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3348,7 +4101,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3365,12 +4123,17 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 3,
                 0,
+                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3392,7 +4155,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3409,13 +4177,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
                 0,
                 0,
                 4,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -3436,8 +4209,13 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 3,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -3458,7 +4236,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3474,6 +4257,11 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3499,10 +4287,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3524,10 +4317,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 2,
                 0,
                 0,
-                5
+                0,
+                0,
+                0,
+                5,
+                0
             ]
         },
         {
@@ -3546,7 +4344,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3568,7 +4371,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3590,7 +4398,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3612,7 +4425,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3634,8 +4452,13 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -3656,7 +4479,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3678,7 +4506,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3700,7 +4533,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3719,13 +4557,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 0,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -3744,7 +4587,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3763,10 +4611,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3788,8 +4641,13 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
+                0,
                 2,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -3810,8 +4668,13 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
                 3,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -3829,10 +4692,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3851,13 +4719,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 2,
                 0,
                 0,
-                2
+                0,
+                0,
+                0,
+                2,
+                0
             ]
         },
         {
@@ -3871,13 +4744,18 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 0,
+                0,
                 2,
                 0,
                 0,
                 0,
                 0,
                 5,
+                0,
                 3,
+                0,
+                0,
+                0,
                 0,
                 0
             ]
@@ -3895,10 +4773,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3917,10 +4800,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
                 2,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3939,7 +4827,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -3964,7 +4857,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -3986,10 +4884,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 4,
                 0,
                 0,
-                4
+                0,
+                0,
+                0,
+                4,
+                0
             ]
         },
         {
@@ -4008,10 +4911,15 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
                 0,
                 0,
-                3
+                0,
+                0,
+                0,
+                3,
+                0
             ]
         },
         {
@@ -4030,7 +4938,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -4052,7 +4965,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 5,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0
@@ -4074,13 +4992,19 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
+                0,
                 3,
                 0,
                 0,
-                5
+                0,
+                0,
+                0,
+                5,
+                0
             ]
         }
     ];
+
 
     var service = {
         loadSongsList: loadSongsList,
