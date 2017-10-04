@@ -59,6 +59,18 @@ body {
       border-width: 0 !important; }
   body #webklipper-publisher-widget-container-content[style] {
     border-width: 0 !important; }
+  body webengagedata #webklipper-publisher-widget-container-frame-container {
+    margin-top: 1px !important; }
+    body webengagedata #webklipper-publisher-widget-container-frame-container #webklipper-publisher-widget-container-content {
+      border-width: 0 !important; }
+  body webengagedata #webklipper-publisher-widget-container-content {
+    border-width: 0 !important; }
+  body #webklipper-publisher-widget-container-frame-container {
+    margin-top: 1px !important; }
+    body #webklipper-publisher-widget-container-frame-container #webklipper-publisher-widget-container-content {
+      border-width: 0 !important; }
+  body #webklipper-publisher-widget-container-content {
+    border-width: 0 !important; }
 
 @-moz-keyframes scroll-left {
   0% {
