@@ -47,8 +47,10 @@ body {
       line-height: 25px;
       min-width: 77px;
       font-size: 10px; }
-  body #webklipper-publisher-widget-container-frame-container #webklipper-publisher-widget-container-content {
-    border-width: 0; }
+  body webengagedata #webklipper-publisher-widget-container-frame-container {
+    margin-top: 1px; }
+    body webengagedata #webklipper-publisher-widget-container-frame-container #webklipper-publisher-widget-container-content {
+      border-width: 0; }
 
 @-moz-keyframes scroll-left {
   0% {

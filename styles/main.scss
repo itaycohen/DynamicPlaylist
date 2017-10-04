@@ -80,8 +80,9 @@ body {
     }
 
 
-    // webengagedata {
+    webengagedata {
         #webklipper-publisher-widget-container-frame-container {
+            margin-top: 1px;
             #webklipper-publisher-widget-container-content {
                 border-width: 0;
             }
@@ -93,5 +94,5 @@ body {
                 }
             }
         }
-    // }
+    }
 }
