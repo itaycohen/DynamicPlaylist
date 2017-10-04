@@ -49,7 +49,7 @@ body {
       font-size: 10px; }
   body webengagedata #webklipper-publisher-widget-container-frame-container[style] {
     margin-top: 1px !important; }
-    body webengagedata #webklipper-publisher-widget-container-frame-container[style] #webklipper-publisher-widget-container-content {
+    body webengagedata #webklipper-publisher-widget-container-frame-container[style] #webklipper-publisher-widget-container-content[style] {
       border-width: 0 !important; }
 
 @-moz-keyframes scroll-left {
