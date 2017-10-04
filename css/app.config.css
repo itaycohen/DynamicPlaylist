@@ -47,14 +47,6 @@ body {
       line-height: 25px;
       min-width: 77px;
       font-size: 10px; }
-  body webengagedata #webklipper-publisher-widget-container-frame-container[style] #webklipper-publisher-widget-container-content[style] {
-    border-width: 0 !important; }
-  body webengagedata #webklipper-publisher-widget-container-content[style] {
-    border-width: 0 !important; }
-  body #webklipper-publisher-widget-container-frame-container[style] #webklipper-publisher-widget-container-content[style] {
-    border-width: 0 !important; }
-  body #webklipper-publisher-widget-container-content[style] {
-    border-width: 0 !important; }
 
 @-moz-keyframes scroll-left {
   0% {
