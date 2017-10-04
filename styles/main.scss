@@ -16,7 +16,9 @@ body {
                     font-size: 24px; 
                     opacity: 0.98;
                     span {
-                        color: #53f9ff;
+                        // color: #53f9ff;
+                        color: #42F6FC;
+                        
                     }
                 }
                 .feedback-button {
@@ -78,7 +80,7 @@ body {
     }
 
 
-    webengagedata {
+    // webengagedata {
         #webklipper-publisher-widget-container-frame-container {
             #webklipper-publisher-widget-container-content {
                 border-width: 0;
@@ -91,5 +93,5 @@ body {
                 }
             }
         }
-    }
+    // }
 }

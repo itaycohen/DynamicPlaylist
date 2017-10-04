@@ -20,7 +20,7 @@ body {
           font-size: 24px;
           opacity: 0.98; }
           body .app .toolbar .md-toolbar-tools .toolbar-title span {
-            color: #53f9ff; }
+            color: #42F6FC; }
         body .app .toolbar .md-toolbar-tools .feedback-button {
           min-height: 33px;
           line-height: 33px; }
@@ -47,7 +47,7 @@ body {
       line-height: 25px;
       min-width: 77px;
       font-size: 10px; }
-  body webengagedata #webklipper-publisher-widget-container-frame-container #webklipper-publisher-widget-container-content {
+  body #webklipper-publisher-widget-container-frame-container #webklipper-publisher-widget-container-content {
     border-width: 0; }
 
 @-moz-keyframes scroll-left {
