@@ -10,11 +10,11 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     // $rootScope.readyToValidate = false;
 
-    $http.get("data/songs/songsShrink19Genres.json")
+    $http.get("data/songs/songsShrink20Genres.json")
         .then(function (response) {
             $rootScope.songsShrink = response.data;
 
-            $http.get("data/songs/songsRaw19Genres.json")
+            $http.get("data/songs/songsRaw20Genres.json")
                 .then(function (response) {
                     $rootScope.songsRaw = response.data;
                     validateSongLists();
@@ -47,7 +47,9 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
 
     // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
     // var newMapOfGenres2 = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
-    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
+    // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
+    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    
     
     
 
