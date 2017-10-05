@@ -147,7 +147,7 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
         var url = "https://www.googleapis.com/youtube/v3/videos?";
         url += "id=";
         url += $rootScope.song.id;
-        url += "&part=snippet";
+        url += "&part=snippet, statistics";
         url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
         $http.get(url).
             then(function (response) {
@@ -275,6 +275,8 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
 
     function parseYTSongResult() {
         var songTitle = "";
+        var publishDate = "";
+        var viewCount = 0;
         dataToParse = $rootScope.YTSongResult;
         if (angular.isUndefined(dataToParse) || dataToParse === '') {
             songTitle = "No YT Result";
@@ -288,8 +290,13 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             songTitle = "Error in Result - no snippet";
         } else {
             songTitle = dataToParse.items[0].snippet.title;
+            publishDate = dataToParse.items[0].snippet.publishedAt;
+            viewCount = dataToParse.items[0].statistics.viewCount;
         }
         $rootScope.song.fullTitle = songTitle;
+        $rootScope.song.publishDate = publishDate.substring(0, 10).trim();
+        $rootScope.song.viewCount = viewCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        
         $rootScope.parseFullTitleAndGetData();
 
     }

@@ -77,9 +77,16 @@
                                     <md-input-container class="md-icon-float md-block">
                                         <p ng-if="isNewSong(song.id)">New Song</p>
                                         <p ng-if="!isNewSong(song.id)" style="color : red; font-size: 25px">Already Exist</p>
-
                                     </md-input-container>
                                     <md-button ng-click="getSongNameAndParseFullTitle()" class="md-raised md-primary">Get Name + Parse</md-button>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>Publish Date</label>
+                                        <input ng-model="song.publishDate" type="text">
+                                    </md-input-container>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>View Count </label>
+                                        <input ng-model="song.viewCount" type="text">
+                                    </md-input-container>
                                 </div>
 
                                 <div layout="row">
@@ -295,7 +302,7 @@
                                                 </md-slider-container>
 
                                                 <md-slider-container>
-                                                    <span>Reggaeton</span>
+                                                    <span>Reggae-ton</span>
                                                     <md-slider flex min="0" max="5" ng-model="song.songGenres[16]" aria-label="reggaeton" id="reggaeton-slider">
                                                     </md-slider>
                                                     <md-input-container>
@@ -427,6 +434,14 @@
 
                                     </md-input-container>
                                     <md-button ng-click="getSongNameAndParseFullTitle()" class="md-raised md-primary">Get Name + Parse</md-button>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>Publish Date</label>
+                                        <input ng-model="song.publishDate" type="text">
+                                    </md-input-container>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>View Count </label>
+                                        <input ng-model="song.viewCount" type="text">
+                                    </md-input-container>
                                 </div>
 
                                 <div layout="row">
@@ -633,7 +648,7 @@
                                                 </md-slider-container>
 
                                                 <md-slider-container>
-                                                    <span style="color : red;">Reggaeton</span>
+                                                    <span style="color : red;">Reggae-ton</span>
                                                     <md-slider flex min="0" max="5" ng-model="song.songGenres[16]" aria-label="reggaeton" id="reggaeton-slider">
                                                     </md-slider>
                                                     <md-input-container>
