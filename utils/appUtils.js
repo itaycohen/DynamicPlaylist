@@ -41,7 +41,6 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
     $rootScope.data = {};
     $rootScope.data.takeSongName = true;
     $rootScope.genreInputStyle = { "width": "100px" };
-    // $rootScope.APIResult = "text'<br/>'text";
 
 
 
@@ -124,6 +123,7 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         };
         $rootScope.APIResult = "";
+        // $rootScope.musixAPIResult = "";
         $rootScope.data.takeSongName = true;
     };
 
@@ -172,11 +172,31 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             });
     };
 
+
+    //http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1&q_artist=Bruno Mars&24k
+
+    //http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1&q_artist=John Legend&q_track=All of Me
+
+
+    // $rootScope.getSongGneresMusix = function () {
+    //     var url = "http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1";
+    //     url += "&q_artist=";
+    //     url += $rootScope.song.artistAPI;
+    //     url += "&q_track=";
+    //     url += $rootScope.song.songNameAPI;
+    //     $http.get(url).
+    //         then(function (response) {
+    //             $rootScope.musixAPIResultRaw = response.data;
+    //             parseMusixAPIResult();
+    //         });
+    // };
+
     $rootScope.parseFullTitleAndGetData = function () {
         $rootScope.getSongArtist();
         $rootScope.getSongName();
         $rootScope.parseSongName();
         $rootScope.getSongGneres();
+        // $rootScope.getSongGneresMusix();
     };
 
 
@@ -246,25 +266,9 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
     };
 
     
-
-
-
-
-    $rootScope.getSongGneres = function () {
-        var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
-        url += "&artist=";
-        url += $rootScope.song.artist;
-        url += "&track=";
-        url += $rootScope.song.songNameAPI;
-        $http.get(url).
-            then(function (response) {
-                $rootScope.APIResultRaw = response.data;
-                parseAPIResult();
-            });
-    };
-
     $rootScope.cleanResult = function () {
         $rootScope.APIResultRaw = "";
+        // $rootScope.musixAPIResultRaw = "";
     };
 
     $rootScope.goToBottom = function () {
@@ -304,6 +308,31 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
 
 
 
+
+    // function parseMusixAPIResult() {
+    //     var textResult = "";
+    //     dataToParse = $rootScope.musixAPIesultRaw;
+    //     if (angular.isUndefined(dataToParse) || dataToParse === '') {
+    //         // alert("No API Result");
+    //         textResult = "No API Result";
+    //     } else if (angular.isUndefined(dataToParse.toptags) || dataToParse.toptags === '') {
+    //         // alert("Error in Result - no toptags");
+    //         textResult = "Error in Result - no toptags";
+    //     } else {
+    //         var genresScores = dataToParse.toptags.tag;
+    //         for (var i = 0; i < genresScores.length; i++) {
+    //             currentScore = genresScores[i];
+    //             // textResult += "Genre: ";
+    //             textResult += currentScore.name;
+    //             textResult += " | ";
+
+    //             // textResult += " | Count: ";
+    //             textResult += currentScore.count;
+    //             textResult += "\n";
+    //         }
+    //     }
+    //     $rootScope.musixAPIResult = textResult;
+    // }
 
     function parseAPIResult() {
         var textResult = "";
@@ -510,7 +539,7 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
     /// FIX SONGS
 
 
-    $rootScope.runningSongIndexFromList = 0;
+    $rootScope.runningSongIndexFromList = 89;
 
     $rootScope.loadSongFromList = function () {
         var rawSongList = $rootScope.songsRaw;

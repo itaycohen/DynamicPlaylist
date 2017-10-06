@@ -1,238 +1,68 @@
 {
-    "index": "xxx",
-    "id": "PVjiKRfKpPI",
-    "details": {
-        "artist": "Hozier",
-        "songName": "Take Me To Church"
-    },
-    "genreWeights": {
-        "Pop": 2,
-        "Alternative": 5,
-        "Dance": 0,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 2,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "nntGTK2Fhb0",
-    "details": {
-        "artist": "Skrillex and Diplo",
-        "songName": "Where Are Ü Now with Justin Bieber"
-    },
-    "genreWeights": {
-        "Pop": 3,
-        "Alternative": 0,
-        "Dance": 4,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "-HjpL-Ns6_A",
-    "details": {
-        "artist": "Louis Tomlinson",
-        "songName": "Back to You ft. Bebe Rexha, Digital Farm Animals"
-    },
-    "genreWeights": {
-        "Pop": 3,
-        "Alternative": 0,
-        "Dance": 2,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 2,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "3AtDnEC4zak",
-    "details": {
-        "artist": "Charlie Puth",
-        "songName": "We Don't Talk Anymore (feat. Selena Gomez)"
-    },
-    "genreWeights": {
-        "Pop": 4,
-        "Alternative": 0,
-        "Dance": 1,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 3,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "dT2owtxkU8k",
-    "details": {
-        "artist": "Shawn Mendes",
-        "songName": "There's Nothing Holdin' Me Back"
-    },
-    "genreWeights": {
-        "Pop": 4,
-        "Alternative": 2,
-        "Dance": 3,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 3,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "pBkHHoOIIn8",
-    "details": {
-        "artist": "Portugal. The Man",
-        "songName": "Feel It Still"
-    },
-    "genreWeights": {
-        "Pop": 1,
-        "Alternative": 4,
-        "Dance": 1,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "YykjpeuMNEk",
-    "details": {
-        "artist": "Coldplay",
-        "songName": "Hymn For The Weekend"
-    },
-    "genreWeights": {
-        "Pop": 4,
-        "Alternative": 1,
-        "Dance": 2,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 1,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "HL1UzIK-flA",
-    "details": {
-        "artist": "Rihanna",
-        "songName": "Work ft. Drake"
-    },
-    "genreWeights": {
-        "Pop": 2,
-        "Alternative": 0,
-        "Dance": 1,
-        "R&B": 4,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "tD4HCZe-tew",
-    "details": {
-        "artist": "Zara Larsson",
-        "songName": "Lush Life"
-    },
-    "genreWeights": {
-        "Pop": 3,
-        "Alternative": 1,
-        "Dance": 3,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "XNWlrawfRAI",
-    "details": {
-        "artist": "Fifth Harmony",
-        "songName": "Down ft. Gucci Mane"
-    },
-    "genreWeights": {
-        "Pop": 4,
-        "Alternative": 0,
-        "Dance": 1,
-        "R&B": 1,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 1
-    }
-},
-{
-    "index": "xxx",
-    "id": "lY2yjAdbvdQ",
-    "details": {
-        "artist": "Shawn Mendes",
-        "songName": "Treat You Better"
-    },
-    "genreWeights": {
-        "Pop": 5,
-        "Alternative": 0,
-        "Dance": 1,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "Pw-0pbY9JeU",
-    "details": {
-        "artist": "twenty one pilots",
-        "songName": "Ride"
-    },
-    "genreWeights": {
-        "Pop": 1,
-        "Alternative": 4,
-        "Dance": 2,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 0,
-        "Hip-Hop": 2
-    }
-},
-{
-    "index": "xxx",
-    "id": "VbfpW0pbvaU",
-    "details": {
-        "artist": "Shawn Mendes",
-        "songName": "Stitches"
-    },
-    "genreWeights": {
-        "Pop": 5,
-        "Alternative": 0,
-        "Dance": 2,
-        "R&B": 1,
-        "Latin": 0,
-        "Soul": 2,
-        "Hip-Hop": 0
-    }
-},
-{
-    "index": "xxx",
-    "id": "2vjPBrBU-TM",
-    "details": {
-        "artist": "Sia",
-        "songName": "Chandelier"
-    },
-    "genreWeights": {
-        "Pop": 4,
-        "Alternative": 1,
-        "Dance": 2,
-        "R&B": 0,
-        "Latin": 0,
-        "Soul": 1,
-        "Hip-Hop": 0
+    "message": {
+        "header": {
+            "status_code": 200,
+            "execute_time": 0.010839939117432,
+            "available": 2
+        },
+        "body": {
+            "track_list": [
+                {
+                    "track": {
+                        "track_id": 128565566,
+                        "track_mbid": "",
+                        "track_isrc": "",
+                        "track_spotify_id": "",
+                        "track_soundcloud_id": "",
+                        "track_xboxmusic_id": "",
+                        "track_name": "Sign of the Times",
+                        "track_name_translation_list": [],
+                        "track_rating": 94,
+                        "track_length": 341,
+                        "commontrack_id": 71111123,
+                        "instrumental": 0,
+                        "explicit": 0,
+                        "has_lyrics": 1,
+                        "has_lyrics_crowd": 0,
+                        "has_subtitles": 1,
+                        "has_richsync": 1,
+                        "num_favourite": 7611,
+                        "lyrics_id": 16565750,
+                        "subtitle_id": 17380867,
+                        "album_id": 25933589,
+                        "album_name": "Harry Styles",
+                        "artist_id": 24505463,
+                        "artist_mbid": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+                        "artist_name": "Harry Styles",
+                        "album_coverart_100x100": "http:\/\/s.mxmcdn.net\/images-storage\/albums\/nocover.png",
+                        "album_coverart_350x350": "",
+                        "album_coverart_500x500": "",
+                        "album_coverart_800x800": "",
+                        "track_share_url": "https:\/\/www.musixmatch.com\/lyrics\/Harry-Styles\/Sign-of-the-Times?utm_source=application&utm_campaign=api&utm_medium=",
+                        "track_edit_url": "https:\/\/www.musixmatch.com\/lyrics\/Harry-Styles\/Sign-of-the-Times\/edit?utm_source=application&utm_campaign=api&utm_medium=",
+                        "commontrack_vanity_id": "Harry-Styles\/Sign-of-the-Times",
+                        "restricted": 0,
+                        "first_release_date": "2017-04-10T00:00:00Z",
+                        "updated_time": "2017-04-07T10:25:40Z",
+                        "primary_genres": {
+                            "music_genre_list": [
+                                {
+                                    "music_genre": {
+                                        "music_genre_id": 14,
+                                        "music_genre_parent_id": 34,
+                                        "music_genre_name": "Pop",
+                                        "music_genre_name_extended": "Pop",
+                                        "music_genre_vanity": "Pop"
+                                    }
+                                }
+                            ]
+                        },
+                        "secondary_genres": {
+                            "music_genre_list": []
+                        }
+                    }
+                }
+            ]
+        }
     }
 }
