@@ -9,8 +9,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var FAKE_GENRE_WEIGHT = 2.5;
     var WEIGHT_DISTANCE_FACTOR = 1.6;
     var DEFAULT_WEIGHT = 3;
-    var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
-    var defaultGenresMap = [3, -1, 3, 3, -1, -1, -1];
+    // var allGenresNames = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+    // var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
+    // var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
+    var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    
+    var defaultGenresMap = [3, -1, -1, 3, -1, -1, -1, 3, -1, -1, -1, 3, -1, -1, -1, -1, -1, -1, -1, -1];
     var LOCAL_STORAGE_KEY = 'mm-data-genres';
 
     var service = {
@@ -89,7 +93,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function initUserData() {
-        //fallback 
+        //fallback if the user doesnt have localStorage
         $rootScope.userGenresMap = defaultGenresMap;
 
         // user browser supports in localStorage
@@ -106,6 +110,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                     if (isValidGenresData(userGenresDataArr)) {
                         $rootScope.userGenresMap = userGenresDataArr;
                         return;
+                    } else {
+                        // thu user has the an old data structure of userData
+                        setNewUserData();
                     }
                 } catch (e) {
                     console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresData);
@@ -113,21 +120,24 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                 // doc else - userGenresMap = defaultGenresMap;
             } else { //the user doesn't have the app data (mmData) - first login or clear cache
                 // setting the default genres for the user data 
-                $rootScope.userGenresMap = defaultGenresMap;
-                var newUserGenresData = {};
-                newUserGenresData = JSON.stringify(defaultGenresMap);
-                try {
-                    localStorage.setItem(LOCAL_STORAGE_KEY, newUserGenresData);
-                }
-                catch (e) {
-                    console.error("Error: " + e + " | Unable to set item to local storage data");
-                }
-                return;
+                setNewUserData();
             }
         }
         //doc else  // No support
         // $rootScope.userGenresMap = defaultGenresMap;
+    }
 
+    function setNewUserData() {
+        $rootScope.userGenresMap = defaultGenresMap;
+        var newUserGenresData = {};
+        newUserGenresData = JSON.stringify(defaultGenresMap);
+        try {
+            localStorage.setItem(LOCAL_STORAGE_KEY, newUserGenresData);
+        }
+        catch (e) {
+            console.error("Error: " + e + " | Unable to set item to local storage data");
+        }
+        return;
     }
 
     function isValidGenresData(genresArr) {

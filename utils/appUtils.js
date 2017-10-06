@@ -10,16 +10,15 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     // $rootScope.readyToValidate = false;
 
-    $http.get("data/songs/songsShrink.json")
+    $http.get("data/songs/songsShrink20Genres.json")
         .then(function (response) {
             $rootScope.songsShrink = response.data;
 
-            $http.get("data/songs/songsRaw.json")
+            $http.get("data/songs/songsRaw20Genres.json")
                 .then(function (response) {
                     $rootScope.songsRaw = response.data;
                     validateSongLists();
                 });
-            // $rootScope.readyToValidate = true;
         });
 
     function validateSongLists() {
@@ -34,19 +33,24 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
 
 app.controller('appUtilsController', appUtilsController);
-appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http'];
-function appUtilsController($rootScope, dpAppUtils, $http) {
+appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window',];
+function appUtilsController($rootScope, dpAppUtils, $http , $window) {
 
 
-    $rootScope.currentNavItem = 'page1';
+    $rootScope.currentNavItem = 'page6';
     $rootScope.data = {};
     $rootScope.data.takeSongName = true;
     $rootScope.genreInputStyle = { "width": "100px" };
-    // $rootScope.APIResult = "text'<br/>'text";
 
 
 
-    var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+    // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
+    // var newMapOfGenres2 = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
+    // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
+    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    
+    
+    
 
     // Adding Songs
 
@@ -54,7 +58,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         "id": '',
         "artist": '',
         "songName": '',
-        "songGenres": [0, 0, 0, 0, 0, 0, 0]
+        "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     };
 
 
@@ -86,8 +90,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         newSong.details.artist = currentSong.artist;
         newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
         newSong.genreWeights = {};
-        for (var i = 0; i < mapOfGenres.length; i++) {
-            var key = mapOfGenres[i];
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            var key = newMapOfGenres[i];
             newSong.genreWeights[key] = currentSong.songGenres[i];
         }
         var newSongStr = JSON.stringify(newSong);
@@ -116,9 +120,10 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             "id": '',
             "artist": '',
             "songName": '',
-            "songGenres": [0, 0, 0, 0, 0, 0, 0]
+            "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         };
         $rootScope.APIResult = "";
+        // $rootScope.musixAPIResult = "";
         $rootScope.data.takeSongName = true;
     };
 
@@ -142,7 +147,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         var url = "https://www.googleapis.com/youtube/v3/videos?";
         url += "id=";
         url += $rootScope.song.id;
-        url += "&part=snippet";
+        url += "&part=snippet, statistics";
         url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
         $http.get(url).
             then(function (response) {
@@ -157,7 +162,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
     $rootScope.getSongGneres = function () {
         var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
         url += "&artist=";
-        url += $rootScope.song.artist;
+        url += $rootScope.song.artistAPI;
         url += "&track=";
         url += $rootScope.song.songNameAPI;
         $http.get(url).
@@ -167,11 +172,31 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             });
     };
 
+
+    //http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1&q_artist=Bruno Mars&24k
+
+    //http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1&q_artist=John Legend&q_track=All of Me
+
+
+    // $rootScope.getSongGneresMusix = function () {
+    //     var url = "http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1";
+    //     url += "&q_artist=";
+    //     url += $rootScope.song.artistAPI;
+    //     url += "&q_track=";
+    //     url += $rootScope.song.songNameAPI;
+    //     $http.get(url).
+    //         then(function (response) {
+    //             $rootScope.musixAPIResultRaw = response.data;
+    //             parseMusixAPIResult();
+    //         });
+    // };
+
     $rootScope.parseFullTitleAndGetData = function () {
         $rootScope.getSongArtist();
         $rootScope.getSongName();
         $rootScope.parseSongName();
         $rootScope.getSongGneres();
+        // $rootScope.getSongGneresMusix();
     };
 
 
@@ -185,6 +210,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             }
             var artist = fullSongTitle.substring(0, dashIndex).trim();
             $rootScope.song.artist = artist;
+            $rootScope.song.artistAPI = artist;
         }
     };
 
@@ -228,6 +254,9 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             }
             //remove all brackets and it's content
             songName = songName.replace(/ *\([^)]*\) */g, " ").trim();
+            songName = songName.replace(/ *\[[^\]]*]/, '').trim();
+            
+            // songName = songName.replace(/[\[\]']+/g,'').trim();
 
             bracket = songName.indexOf("ft");
             var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
@@ -237,29 +266,21 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
     };
 
     
-
-
-
-
-    $rootScope.getSongGneres = function () {
-        var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
-        url += "&artist=";
-        url += $rootScope.song.artist;
-        url += "&track=";
-        url += $rootScope.song.songNameAPI;
-        $http.get(url).
-            then(function (response) {
-                $rootScope.APIResultRaw = response.data;
-                parseAPIResult();
-            });
-    };
-
     $rootScope.cleanResult = function () {
         $rootScope.APIResultRaw = "";
+        // $rootScope.musixAPIResultRaw = "";
     };
+
+    $rootScope.goToBottom = function () {
+        $window.scrollTo(0,document.body.scrollHeight);
+    };
+
+    
 
     function parseYTSongResult() {
         var songTitle = "";
+        var publishDate = "";
+        var viewCount = 0;
         dataToParse = $rootScope.YTSongResult;
         if (angular.isUndefined(dataToParse) || dataToParse === '') {
             songTitle = "No YT Result";
@@ -273,8 +294,13 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             songTitle = "Error in Result - no snippet";
         } else {
             songTitle = dataToParse.items[0].snippet.title;
+            publishDate = dataToParse.items[0].snippet.publishedAt;
+            viewCount = dataToParse.items[0].statistics.viewCount;
         }
         $rootScope.song.fullTitle = songTitle;
+        $rootScope.song.publishDate = publishDate.substring(0, 10).trim();
+        $rootScope.song.viewCount = viewCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        
         $rootScope.parseFullTitleAndGetData();
 
     }
@@ -282,6 +308,31 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
 
 
+
+    // function parseMusixAPIResult() {
+    //     var textResult = "";
+    //     dataToParse = $rootScope.musixAPIesultRaw;
+    //     if (angular.isUndefined(dataToParse) || dataToParse === '') {
+    //         // alert("No API Result");
+    //         textResult = "No API Result";
+    //     } else if (angular.isUndefined(dataToParse.toptags) || dataToParse.toptags === '') {
+    //         // alert("Error in Result - no toptags");
+    //         textResult = "Error in Result - no toptags";
+    //     } else {
+    //         var genresScores = dataToParse.toptags.tag;
+    //         for (var i = 0; i < genresScores.length; i++) {
+    //             currentScore = genresScores[i];
+    //             // textResult += "Genre: ";
+    //             textResult += currentScore.name;
+    //             textResult += " | ";
+
+    //             // textResult += " | Count: ";
+    //             textResult += currentScore.count;
+    //             textResult += "\n";
+    //         }
+    //     }
+    //     $rootScope.musixAPIResult = textResult;
+    // }
 
     function parseAPIResult() {
         var textResult = "";
@@ -348,8 +399,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             newSong.s = currentSong.details.songName;
             var genres = currentSong.genreWeights;
             var genresweightsOfSong = [];
-            for (var j = 0; j < mapOfGenres.length; j++) {
-                var currentGenre = mapOfGenres[j];
+            for (var j = 0; j < newMapOfGenres.length; j++) {
+                var currentGenre = newMapOfGenres[j];
                 genresweightsOfSong[j] = genres[currentGenre];
             }
             newSong.g = genresweightsOfSong;
@@ -372,7 +423,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
             newSong.details.songName = currentSong.s;
             newSong.genreWeights = {};
             for (var j = 0; j < currentSong.g.length; j++) {
-                var key = mapOfGenres[j];
+                var key = newMapOfGenres[j];
                 newSong.genreWeights[key] = currentSong.g[j];
             }
             rawSongsList[i] = newSong;
@@ -429,8 +480,8 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         var genresStatData = calculateGenresStatData();
 
         $rootScope.allGenresStat = [];
-        for (var i = 0; i < mapOfGenres.length; i++) {
-            var currentGenre = mapOfGenres[i];
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            var currentGenre = newMapOfGenres[i];
             var currentGenreStat = {};
             currentGenreStat.name = currentGenre;
             currentGenreStat.weight = genresStatData[i];
@@ -441,7 +492,7 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
 
     function calculateGenresStatData() {
         var songsData = $rootScope.songsShrink;
-        var mapOfAveragesByGenres = Array.apply(null, Array(mapOfGenres.length)).map(Number.prototype.valueOf, 0);
+        var mapOfAveragesByGenres = Array.apply(null, Array(newMapOfGenres.length)).map(Number.prototype.valueOf, 0);
         var lengthOfSongData = songsData.length;
         for (var i = 0; i < lengthOfSongData; i++) {
             var currentSongData = songsData[i];
@@ -457,6 +508,77 @@ function appUtilsController($rootScope, dpAppUtils, $http) {
         return mapOfAveragesByGenres;
 
     }
+
+
+
+    /// fixSongList
+
+
+    $rootScope.fixSongList = function () {
+        var rawSongList = $rootScope.songsRaw;
+        var newRawSongList = [];
+        for (var i = 0; i < rawSongList.length; i++) {
+            var currentSong = rawSongList[i];
+            var oldGenres = currentSong.genreWeights;
+            var newGenresWeightsOfSongObj = {};
+            for (var k = 0; k < newMapOfGenres.length; k++) {
+                var key = newMapOfGenres[k];
+                newGenresWeightsOfSongObj[key] = 0;
+            }
+            for (var genre in oldGenres) {
+                var currentGenreWeight = oldGenres[genre];
+                newGenresWeightsOfSongObj[genre] = currentGenreWeight;
+            }
+            currentSong.genreWeights = newGenresWeightsOfSongObj;
+            newRawSongList[i] = currentSong;
+        }
+        console.log(JSON.stringify(newRawSongList));
+    };
+
+
+    /// FIX SONGS
+
+
+    $rootScope.runningSongIndexFromList = 89;
+
+    $rootScope.loadSongFromList = function () {
+        var rawSongList = $rootScope.songsRaw;
+        var currentSong = rawSongList[$rootScope.runningSongIndexFromList];
+        $rootScope.song.id = currentSong.id;
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            $rootScope.song.songGenres[i] = currentSong.genreWeights[newMapOfGenres[i]];
+        }
+        $rootScope.getSongNameAndParseFullTitle();
+    };
+
+    $rootScope.addSong2 = function () {
+        validateSong();
+        var currentSong = $rootScope.song;
+        var newSong = {};
+        newSong.index = $rootScope.runningSongIndexFromList;
+        newSong.id = currentSong.id;
+        newSong.details = {};
+        // newSong.details.artist = currentSong.artist.trim();
+        // newSong.details.songName = currentSong.songName.trim();
+        newSong.details.artist = currentSong.artist;
+        newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
+        newSong.genreWeights = {};
+        for (var i = 0; i < newMapOfGenres.length; i++) {
+            var key = newMapOfGenres[i];
+            newSong.genreWeights[key] = currentSong.songGenres[i];
+        }
+        var newSongStr = JSON.stringify(newSong);
+        console.log(newSongStr);
+
+        $rootScope.songToAdd += newSongStr;
+        $rootScope.songToAdd += ",";
+        $rootScope.runningSongIndexFromList++;
+
+        $rootScope.cleanSong();
+        $rootScope.data.takeSongName = true;
+
+
+    };
 
 }
 

@@ -52,6 +52,12 @@
                     <md-nav-item md-nav-click="goto('page4')" name="page4">
                         Statistics
                     </md-nav-item>
+                    <md-nav-item md-nav-click="goto('page5')" name="page5">
+                        Fix List
+                    </md-nav-item>
+                    <md-nav-item md-nav-click="goto('page6')" name="page6">
+                        Fix Songs
+                    </md-nav-item>
                 </md-nav-bar>
                 <div class="ext-content">
 
@@ -71,9 +77,16 @@
                                     <md-input-container class="md-icon-float md-block">
                                         <p ng-if="isNewSong(song.id)">New Song</p>
                                         <p ng-if="!isNewSong(song.id)" style="color : red; font-size: 25px">Already Exist</p>
-
                                     </md-input-container>
                                     <md-button ng-click="getSongNameAndParseFullTitle()" class="md-raised md-primary">Get Name + Parse</md-button>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>Publish Date</label>
+                                        <input ng-model="song.publishDate" type="text">
+                                    </md-input-container>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>View Count </label>
+                                        <input ng-model="song.viewCount" type="text">
+                                    </md-input-container>
                                 </div>
 
                                 <div layout="row">
@@ -96,6 +109,14 @@
                                             Take me to json
                                         </md-checkbox>
                                     </md-input-container>
+                                </div>
+
+                                <div style="padding-left : 450px" layout="row">
+                                    <md-input-container md-no-float class="md-block">
+                                        <label>Artist For API</label>
+                                        <input id="artist" ng-model="song.artistAPI" type="text">
+                                        <md-button ngclipboard data-clipboard-target="#artist" class="md-raised">Copy</md-button>
+                                    </md-input-container>
                                     <md-input-container style="width: 300px" class="md-block">
                                         <label>Song Name For API</label>
                                         <input id="songName" ng-model="song.songNameAPI" type="text" ng-style="getSelectedSongNameStyle(!data.takeSongName)">
@@ -108,77 +129,87 @@
 
                                 <!-- genre area -->
                                 <div div layout="row">
-                                    <div style="width: 600px">
+                                    <div style="width: 400px">
                                         <h3> Song API </h3>
                                         <md-button ng-click="getSongGneres()" class="md-raised md-primary">Get Data</md-button>
                                         <md-button ng-click="cleanResult()" class="md-raised ">Clean Data</md-button>
+                                        <md-button ng-click="goToBottom()" class="md-raised ">Go Bottom</md-button>
 
                                         <md-input-container class="md-block">
-                                            <textarea ng-model="APIResult" style="font-size: 16px"></textarea>
+                                            <textarea ng-model="APIResult" style="font-size: 16px" aria-label="APIResult"></textarea>
                                             </textarea>
                                         </md-input-container>
+
                                     </div>
+                                    <!-- <div style="width: 300px">
+                                        <h3> Song MusixAPI </h3>
+                                        <md-input-container class="md-block" style=" margin-top: 84px; ">
+                                            <textarea ng-model="MusixAPIResult" style="font-size: 16px" aria-label="MusixAPIResult"></textarea>
+                                            </textarea>
+                                        </md-input-container>
+                                    </div> -->
 
 
                                     <div>
                                         <h3> Song Genres </h3>
+                                        <!-- ["Alternative", "Chill Out", "Country", "Dance", "Folk"| "Funk", "Hip-Hop", "Indie", "Latin", "Love"|
+                                 "Metal", "Pop", "Punk", "R&B", "Rap"| "Reggae", "Rock", "Soul", "Trance"]; -->
+
                                         <div layout="row">
                                             <div layout="column">
                                                 <md-slider-container>
-                                                    <span>Pop</span>
-                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[0]" aria-label="pop" id="pop-slider">
+                                                    <span>Alter-native</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[0]" aria-label="alternative" id="alternative-slider">
                                                     </md-slider>
                                                     <md-input-container>
-                                                        <input flex type="number" ng-model="song.songGenres[0]" aria-label="pop" aria-controls="pop-slider">
+                                                        <input flex type="number" ng-model="song.songGenres[0]" aria-label="alternative" aria-controls="alternative-slider">
                                                     </md-input-container>
                                                 </md-slider-container>
 
                                                 <md-slider-container>
-                                                    <span>Alter-native</span>
-                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[1]" aria-label="" id="alternative-slider">
+                                                    <span>Chill-Out</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[1]" aria-label="chill-out" id="chill-out-slider">
                                                     </md-slider>
                                                     <md-input-container>
-                                                        <input flex type="number" ng-model="song.songGenres[1]" aria-label="alternative" aria-controls="alternative-slider">
+                                                        <input flex type="number" ng-model="song.songGenres[1]" aria-label="chill-out" aria-controls="chill-out-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Country</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[2]" aria-label="country" id="country-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[2]" aria-label="country" aria-controls="country-slider">
                                                     </md-input-container>
                                                 </md-slider-container>
 
                                                 <md-slider-container>
                                                     <span>Dance</span>
-                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[2]" aria-label="dance" id="dance-slider">
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[3]" aria-label="dance" id="dance-slider">
                                                     </md-slider>
                                                     <md-input-container>
-                                                        <input flex type="number" ng-model="song.songGenres[2]" aria-label="dance" aria-controls="dance-slider">
+                                                        <input flex type="number" ng-model="song.songGenres[3]" aria-label="dance" aria-controls="dance-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Folk</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[4]" aria-label="folk" id="folk-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[4]" aria-label="folk" aria-controls="folk-slider">
                                                     </md-input-container>
                                                 </md-slider-container>
                                             </div>
                                             <div layout="column">
-                                                <md-slider-container>
-                                                    <span>R&B</span>
-                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[3]" aria-label="rnb" id="rnb-slider">
-                                                    </md-slider>
-                                                    <md-input-container>
-                                                        <input flex type="number" ng-model="song.songGenres[3]" aria-label="rnb" aria-controls="rnb-slider">
-                                                    </md-input-container>
-                                                </md-slider-container>
 
                                                 <md-slider-container>
-                                                    <span>Latin</span>
-                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[4]" aria-label="latin" id="latin-slider">
+                                                    <span>Funk</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[5]" aria-label="funk" id="funk-slider">
                                                     </md-slider>
                                                     <md-input-container>
-                                                        <input flex type="number" ng-model="song.songGenres[4]" aria-label="latin" aria-controls="latin-slider">
-                                                    </md-input-container>
-                                                </md-slider-container>
-
-
-                                            </div>
-                                            <div layout="column">
-                                                <md-slider-container>
-                                                    <span>Soul</span>
-                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[5]" aria-label="soul" id="soul-slider">
-                                                    </md-slider>
-                                                    <md-input-container>
-                                                        <input flex type="number" ng-model="song.songGenres[5]" aria-label="soul" aria-controls="soul-slider">
+                                                        <input flex type="number" ng-model="song.songGenres[5]" aria-label="funk" aria-controls="funk-slider">
                                                     </md-input-container>
                                                 </md-slider-container>
 
@@ -191,17 +222,134 @@
                                                     </md-input-container>
                                                 </md-slider-container>
 
+                                                <md-slider-container>
+                                                    <span>Indie</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[7]" aria-label="indie" id="indie-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[7]" aria-label="indie" aria-controls="indie-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+
+                                                <md-slider-container>
+                                                    <span>Latin</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[8]" aria-label="latin" id="latin-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[8]" aria-label="latin" aria-controls="latin-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Love</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[9]" aria-label="love" id="love-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[9]" aria-label="love" aria-controls="love-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
                                             </div>
+                                            <div layout="column">
 
+                                                <md-slider-container>
+                                                    <span>Metal</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[10]" aria-label="metal" id="metal-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[10]" aria-label="metal" aria-controls="metal-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
 
+                                                <md-slider-container>
+                                                    <span>Pop</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[11]" aria-label="pop" id="pop-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[11]" aria-label="pop" aria-controls="pop-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Punk</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[12]" aria-label="punk" id="punk-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[12]" aria-label="punk" aria-controls="punk-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>R&B</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[13]" aria-label="rnb" id="rnb-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[13]" aria-label="rnb" aria-controls="rnb-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Rap</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[14]" aria-label="rap" id="rap-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[14]" aria-label="rap" aria-controls="rap-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                            </div>
+                                            <div layout="column">
+
+                                                <md-slider-container>
+                                                    <span>Reggae</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[15]" aria-label="reggae" id="reggae-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[15]" aria-label="reggae" aria-controls="reggae-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Reggae-ton</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[16]" aria-label="reggaeton" id="reggaeton-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[16]" aria-label="reggaeton" aria-controls="reggaeton-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Rock</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[17]" aria-label="rock" id="rock-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[17]" aria-label="rock" aria-controls="rock-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Soul</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[18]" aria-label="soul" id="soul-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[18]" aria-label="soul" aria-controls="soul-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Trance</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[19]" aria-label="trance" id="trance-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[19]" aria-label="trance" aria-controls="trance-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+                                            </div>
                                         </div>
 
                                     </div>
                                 </div>
-
-
-
-
 
                                 <div layout="row">
                                     <md-button ng-click="addSong()" class="md-raised md-primary">Add Song & Clean</md-button>
@@ -219,10 +367,6 @@
                                     </textarea>
                                 </md-input-container>
                                 <md-button ng-click="cleanAllSongs()" class="md-raised md-warn">Clean All Songs</md-button>
-
-
-
-
 
                             </md-content>
 
@@ -275,7 +419,344 @@
                         </md-content>
                     </div>
 
+                    <div ng-show="currentNavItem === 'page5'">
+                        <h2> Fix List </h2>
+                        <md-button type="button" class="md-raised" ng-click="fixSongList()">Fix List</md-button>
+                    </div>
+
+                    <div ng-show="currentNavItem === 'page6'">
+                        <!-- <h2> Adding Songs 2 </h2> -->
+                        <div layout="column" layout-padding ng-cloak>
+                            <md-content class="md-no-momentum">
+
+                                <div layout="row">
+
+                                    <!-- <h3> YouTube ID </h3> -->
+                                    <md-input-container class="md-icon-float md-block">
+                                        <label>Video Id</label>
+                                        <input ng-model="song.id" type="text">
+                                        <md-button ng-click="loadSongFromList()" class="md-raised">Load Details</md-button>
+                                    </md-input-container>
+                                    <md-input-container class="md-icon-float md-block">
+                                        <p ng-if="isNewSong(song.id)">New Song</p>
+                                        <p ng-if="!isNewSong(song.id)" style="color : red; font-size: 25px">Already Exist</p>
+
+                                    </md-input-container>
+                                    <md-button ng-click="getSongNameAndParseFullTitle()" class="md-raised md-primary">Get Name + Parse</md-button>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>Publish Date</label>
+                                        <input ng-model="song.publishDate" type="text">
+                                    </md-input-container>
+                                    <md-input-container style="width: 350px" md-no-float class="md-block">
+                                        <label>View Count </label>
+                                        <input ng-model="song.viewCount" type="text">
+                                    </md-input-container>
+                                </div>
+
+                                <!-- <div layout="row">
+                                    <md-input-container style="width: 450px" md-no-float class="md-block">
+                                        <label>Full Title</label>
+                                        <input ng-model="song.fullTitle" type="text">
+                                        <md-button ng-click="parseFullTitleAndGetData()" class="md-raised">Parse</md-button>
+                                    </md-input-container>
+                                    <md-input-container md-no-float class="md-block">
+                                        <label>Artist</label>
+                                        <input id="artist" ng-model="song.artist" type="text" style="color : blue">
+                                        <md-button ngclipboard data-clipboard-target="#artist" class="md-raised">Copy</md-button>
+                                    </md-input-container>
+                                    <md-input-container style="width: 400px" class="md-block">
+                                        <label>Song Name</label>
+                                        <input id="songName" ng-model="song.songName" type="text" ng-style="getSelectedSongNameStyle(data.takeSongName)">
+                                        <md-button ngclipboard data-clipboard-target="#songName" class="md-raised">Copy</md-button>
+                                        <md-checkbox ng-model="data.takeSongName" aria-label="Checkbox 1">
+                                            Take me to json
+                                        </md-checkbox>
+                                    </md-input-container>
+                                    <md-input-container style="width: 300px" class="md-block">
+                                        <label>Song Name For API</label>
+                                        <input id="songName" ng-model="song.songNameAPI" type="text" ng-style="getSelectedSongNameStyle(!data.takeSongName)">
+                                        <md-button ng-click="parseSongName()" class="md-raised">Parse</md-button>
+                                        <md-checkbox ng-model="!data.takeSongName" aria-label="Checkbox 2">
+                                            Take me to json
+                                        </md-checkbox>
+                                    </md-input-container>
+                                </div> -->
+
+                                <div layout="row">
+                                    <!-- <h3> Song Details </h3> -->
+                                    <md-input-container style="width: 450px" md-no-float class="md-block">
+                                        <label>Full Title</label>
+                                        <input ng-model="song.fullTitle" type="text">
+                                        <md-button ng-click="parseFullTitleAndGetData()" class="md-raised">Parse</md-button>
+                                    </md-input-container>
+                                    <md-input-container md-no-float class="md-block">
+                                        <label>Artist</label>
+                                        <input id="artist" ng-model="song.artist" type="text" style="color : blue">
+                                        <md-button ngclipboard data-clipboard-target="#artist" class="md-raised">Copy</md-button>
+                                    </md-input-container>
+                                    <md-input-container style="width: 400px" class="md-block">
+                                        <label>Song Name</label>
+                                        <input id="songName" ng-model="song.songName" type="text" ng-style="getSelectedSongNameStyle(data.takeSongName)">
+                                        <md-button ngclipboard data-clipboard-target="#songName" class="md-raised">Copy</md-button>
+                                        <md-checkbox ng-model="data.takeSongName" aria-label="Checkbox 1">
+                                            Take me to json
+                                        </md-checkbox>
+                                    </md-input-container>
+                                </div>
+
+                                <div style="padding-left : 450px" layout="row">
+                                    <md-input-container md-no-float class="md-block">
+                                        <label>Artist For API</label>
+                                        <input id="artist" ng-model="song.artistAPI" type="text">
+                                        <md-button ngclipboard data-clipboard-target="#artist" class="md-raised">Copy</md-button>
+                                    </md-input-container>
+                                    <md-input-container style="width: 300px" class="md-block">
+                                        <label>Song Name For API</label>
+                                        <input id="songName" ng-model="song.songNameAPI" type="text" ng-style="getSelectedSongNameStyle(!data.takeSongName)">
+                                        <md-button ng-click="parseSongName()" class="md-raised">Parse</md-button>
+                                        <md-checkbox ng-model="!data.takeSongName" aria-label="Checkbox 2">
+                                            Take me to json
+                                        </md-checkbox>
+                                    </md-input-container>
+                                </div>
+
+                                <!-- genre area -->
+                                <div div layout="row">
+                                    <div style="width: 600px">
+                                        <h3> Song API </h3>
+                                        <md-button ng-click="getSongGneres()" class="md-raised md-primary">Get Data</md-button>
+                                        <md-button ng-click="cleanResult()" class="md-raised ">Clean Data</md-button>
+                                        <md-button ng-click="goToBottom()" class="md-raised ">Go Bottom</md-button>
+
+                                        <md-input-container class="md-block">
+                                            <textarea ng-model="APIResult" style="font-size: 16px" aria-label="api-result"></textarea>
+                                            </textarea>
+                                        </md-input-container>
+                                    </div>
+
+
+                                    <div>
+                                        <h3> Song Genres </h3>
+                                        <!-- ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"]; -->
+                                        <div layout="row">
+                                            <div layout="column">
+                                                <md-slider-container>
+                                                    <span>Alter-native</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[0]" aria-label="alternative" id="alternative-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[0]" aria-label="alternative" aria-controls="alternative-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Chill-Out</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[1]" aria-label="chill-out" id="chill-out-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[1]" aria-label="chill-out" aria-controls="chill-out-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Country</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[2]" aria-label="country" id="country-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[2]" aria-label="country" aria-controls="country-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Dance</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[3]" aria-label="dance" id="dance-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[3]" aria-label="dance" aria-controls="dance-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Folk</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[4]" aria-label="folk" id="folk-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[4]" aria-label="folk" aria-controls="folk-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+                                            </div>
+                                            <div layout="column">
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Funk</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[5]" aria-label="funk" id="funk-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[5]" aria-label="funk" aria-controls="funk-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Hip-Hop</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[6]" aria-label="hiphop" id="hiphop-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[6]" aria-label="hiphop" aria-controls="hiphop-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Indie</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[7]" aria-label="indie" id="indie-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[7]" aria-label="indie" aria-controls="indie-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+
+                                                <md-slider-container>
+                                                    <span>Latin</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[8]" aria-label="latin" id="latin-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[8]" aria-label="latin" aria-controls="latin-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Love</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[9]" aria-label="love" id="love-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[9]" aria-label="love" aria-controls="love-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                            </div>
+                                            <div layout="column">
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Metal</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[10]" aria-label="metal" id="metal-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[10]" aria-label="metal" aria-controls="metal-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Pop</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[11]" aria-label="pop" id="pop-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[11]" aria-label="pop" aria-controls="pop-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Punk</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[12]" aria-label="punk" id="punk-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[12]" aria-label="punk" aria-controls="punk-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>R&B</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[13]" aria-label="rnb" id="rnb-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[13]" aria-label="rnb" aria-controls="rnb-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Rap</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[14]" aria-label="rap" id="rap-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[14]" aria-label="rap" aria-controls="rap-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                            </div>
+                                            <div layout="column">
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Reggae</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[15]" aria-label="reggae" id="reggae-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[15]" aria-label="reggae" aria-controls="reggae-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Reggae-ton</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[16]" aria-label="reggaeton" id="reggaeton-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[16]" aria-label="reggaeton" aria-controls="reggaeton-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Rock</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[17]" aria-label="rock" id="rock-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[17]" aria-label="rock" aria-controls="rock-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span>Soul</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[18]" aria-label="soul" id="soul-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[18]" aria-label="soul" aria-controls="soul-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+
+                                                <md-slider-container>
+                                                    <span style="color : red;">Trance</span>
+                                                    <md-slider flex min="0" max="5" ng-model="song.songGenres[19]" aria-label="trance" id="trance-slider">
+                                                    </md-slider>
+                                                    <md-input-container>
+                                                        <input flex type="number" ng-model="song.songGenres[19]" aria-label="trance" aria-controls="trance-slider">
+                                                    </md-input-container>
+                                                </md-slider-container>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div layout="row">
+                                    <md-button ng-click="addSong2()" class="md-raised md-primary">Add Song & Clean</md-button>
+                                    <md-button ng-click="cleanSong()" class="md-raised">Clean Song</md-button>
+                                    <md-input-container class="md-block">
+                                        <label>Running index</label>
+                                        <input ng-model="runningSongIndexFromList" type="number">
+                                    </md-input-container>
+                                </div>
+
+                                <md-input-container class="md-block">
+                                    <label>Songs To Add</label>
+                                    <!-- <input ng-model="songToAdd" type="text"> -->
+                                    <textarea rows="2" cols="50" ng-model="songToAdd">
+                                        </textarea>
+                                </md-input-container>
+                                <md-button ng-click="cleanAllSongs()" class="md-raised md-warn">Clean All Songs</md-button>
+
+                            </md-content>
+
+                        </div>
+                    </div>
                 </div>
+
 
             </md-content>
         </div>
