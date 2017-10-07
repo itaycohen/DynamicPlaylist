@@ -23,7 +23,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     $scope.selectedGenresNames = dpSongsListLogic.getUserGenresNames();
     // $scope.allGenresNames = dpSongsListLogic.geAllGenresNames();
     // TEMP
-    $scope.allGenresNames = ["Alternative", "Chill Out", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Pop", "R&B", "Rap", "Reggaeton", "Rock", "Soul"];
+    $scope.allGenresNames = ["Alternative", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Pop", "R&B", "Rap", "Reggaeton", "Rock", "Soul"];
 
     $scope.shouldShowGenre = function (genre) {
         return $scope.selectedGenresNames.indexOf(genre) > -1;
