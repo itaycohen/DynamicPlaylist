@@ -54,6 +54,8 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     // when changing the genres selector OR (IMPORTNAT) in page loading
     $scope.onGenreSelectorChange = function () {
         dpSongsListLogic.setSelectedGenresByNames($scope.selectedGenresNames);
+        // update the number WeightDistanceFactor
+        dpSongsListLogic.updateWeightDistanceFactor();
         dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
     };
 
