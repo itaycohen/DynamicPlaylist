@@ -13,12 +13,11 @@ body {
                 color: white;
                 .toolbar-title {
                     font-weight: bold;
-                    font-size: 24px; 
+                    font-size: 24px;
                     opacity: 0.98;
                     span {
                         // color: #53f9ff;
                         color: #42F6FC;
-                        
                     }
                 }
                 .feedback-button {
@@ -45,8 +44,7 @@ body {
             .widget-manager-container {
                 overflow-y: auto;
             }
-            .right-side {
-            }
+            .right-side {}
         } // CAN BE DELETED - ONLY FOR REF
         // default toolbar height is 56
         .main-view-big {
@@ -78,28 +76,22 @@ body {
             }
         }
     }
-
-
-    // webengagedata {
-    //     #webklipper-publisher-widget-container-frame-container[style] {
-    //         #webklipper-publisher-widget-container-content[style] {
-    //             border-width: 0 !important;
-    //         }
-    //     }
-
-    //     #webklipper-publisher-widget-container-content[style] {
-    //         border-width: 0 !important;
-    //     }
-    // }
-
-    // #webklipper-publisher-widget-container-frame-container[style] {
-    //     #webklipper-publisher-widget-container-content[style] {
-    //         border-width: 0 !important;
-    //     }
-    // }
-
-    // #webklipper-publisher-widget-container-content[style] {
-    //     border-width: 0 !important;
-    // }
-    
+    webengagedata {
+        #webklipper-publisher-widget-container-frame-container[style] {
+            #webklipper-publisher-widget-container-content[style] {
+                border-width: 0 !important;
+            }
+        }
+        #webklipper-publisher-widget-container-content[style] {
+            border-width: 0 !important;
+        }
+    }
+    #webklipper-publisher-widget-container-frame-container[style] {
+        #webklipper-publisher-widget-container-content[style] {
+            border-width: 0 !important;
+        }
+    }
+    #webklipper-publisher-widget-container-content[style] {
+        border-width: 0 !important;
+    }
 }
