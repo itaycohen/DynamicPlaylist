@@ -1,7 +1,7 @@
 .genre-manager-wrapper {
     // we always want left and top
     background: rgba(0, 0, 0, 0.09);
-    border-radius: 16px;
+    border-radius: 12px;
     .genre-selector-container {
         // in order to catch the hover & active event of the user pointer
         width: 136px;
@@ -61,7 +61,7 @@
     }
     .genre-widget-area {
         padding-left: 5px;
-        padding-right: 8px; 
+        padding-right: 8px;
     }
 }
 
@@ -126,6 +126,11 @@
     width: auto;
 }
 
-.selectGenreSelectorHeader md-content._md {
-    max-height: 240px;
+
+md-select-menu {
+    min-height: 275px;
 }
+.selectGenreSelectorHeader md-content._md {
+    max-height: 440px;
+}
+

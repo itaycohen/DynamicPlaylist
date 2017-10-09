@@ -85,11 +85,11 @@ body {
 .player-wrapper-horizontal {
   margin-left: 12px; }
   .player-wrapper-horizontal .youtube-embed-container {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px; }
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; }
   .player-wrapper-horizontal .current-playing-bar {
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px; }
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px; }
 
 .youtube-embed-container {
   background: #615e79;
@@ -144,7 +144,7 @@ body {
 
 .genre-manager-wrapper {
   background: rgba(0, 0, 0, 0.09);
-  border-radius: 16px; }
+  border-radius: 12px; }
   .genre-manager-wrapper .genre-selector-container {
     width: 136px;
     height: 47px; }
@@ -240,8 +240,11 @@ body {
   align-items: center;
   width: auto; }
 
+md-select-menu {
+  min-height: 275px; }
+
 .selectGenreSelectorHeader md-content._md {
-  max-height: 240px; }
+  max-height: 440px; }
 
 .genre-widget {
   height: 60px; }
@@ -273,7 +276,7 @@ body {
 .playlist-wrapper {
   font-family: "Myriad_Pro_Regular";
   background: rgba(0, 0, 0, 0.09);
-  border-radius: 16px; }
+  border-radius: 12px; }
   .playlist-wrapper .playlist-title {
     padding-left: 13px;
     margin-top: 11px;
