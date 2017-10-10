@@ -1,0 +1,899 @@
+{
+    "index": 185,
+    "id": "o0Pt7M0weUI",
+    "details": {
+        "artist": "The Revivalists",
+        "songName": "Wish I Knew You"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 3,
+        "Hip-Hop": 0,
+        "Indie": 1,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 186,
+    "id": "w3xcybdis1k",
+    "details": {
+        "artist": "The Killers",
+        "songName": "The Man"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 2,
+        "Hip-Hop": 0,
+        "Indie": 4,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 187,
+    "id": "FA2w-PMKspo",
+    "details": {
+        "artist": "Thirty Seconds To Mars",
+        "songName": "Walk On Water"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 1,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 188,
+    "id": "7YAAyUFL1GQ",
+    "details": {
+        "artist": "Fall Out Boy",
+        "songName": "The Last Of The Real Ones"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 5,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 189,
+    "id": "TRqiFPpw2fY",
+    "details": {
+        "artist": "Foo Fighters",
+        "songName": "The Sky Is A Neighborhood"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 1,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 1,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 3
+    }
+},
+{
+    "index": 190,
+    "id": "rGlEZpOVjGo",
+    "details": {
+        "artist": "Imagine Dragons",
+        "songName": "Whatever It Takes"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 1,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 191,
+    "id": "nd_EYo96lmo",
+    "details": {
+        "artist": "U2",
+        "songName": "You’re The Best Thing About Me"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 192,
+    "id": "_II0fc7hgNY",
+    "details": {
+        "artist": "The Lumineers",
+        "songName": "Angela"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 3,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 5,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 193,
+    "id": "GvyNyFXHj4k",
+    "details": {
+        "artist": "Queens of the Stone Age",
+        "songName": "The Way You Used to Do"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 1,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 194,
+    "id": "oomkO5nHxnY",
+    "details": {
+        "artist": "Judah & the Lion",
+        "songName": "Take It All Back 2.0"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 4,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0
+    }
+},
+{
+    "index": 195,
+    "id": "efPWrIvzGgc",
+    "details": {
+        "artist": "Weezer",
+        "songName": "Feels Like Summer"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 4,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0
+    }
+},
+{
+    "index": 196,
+    "id": "ifwc5xgI3QM",
+    "details": {
+        "artist": "Foo Fighters",
+        "songName": "Run"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 1,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 3,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 197,
+    "id": "zC30BYR3CUk",
+    "details": {
+        "artist": "Arcade Fire",
+        "songName": "Everything Now"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0
+    }
+},
+{
+    "index": 198,
+    "id": "AEB6ibtdPZc",
+    "details": {
+        "artist": "Paramore",
+        "songName": "Hard Times"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0
+    }
+},
+{
+    "index": 199,
+    "id": "qIOaU7Sm-ZE",
+    "details": {
+        "artist": "Sir Sly",
+        "songName": "High"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 5,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 200,
+    "id": "B06qqB7bp-w",
+    "details": {
+        "artist": "Bleachers",
+        "songName": "Don't Take The Money"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 4,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0
+    }
+},
+{
+    "index": 201,
+    "id": "b4ozdiGys5g",
+    "details": {
+        "artist": "MUSE",
+        "songName": "Dig Down"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 202,
+    "id": "1nv9br7P7g0",
+    "details": {
+        "artist": "Imagine Dragons",
+        "songName": "Walking The Wire"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 2,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0
+    }
+},
+{
+    "index": 203,
+    "id": "eP4eqhWc7sI",
+    "details": {
+        "artist": "Lana Del Rey",
+        "songName": "Lust For Life ft. The Weeknd"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 2,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0
+    }
+},
+{
+    "index": 204,
+    "id": "yw-RPm1uOM4",
+    "details": {
+        "artist": "Paramore",
+        "songName": "Told You So"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 3,
+        "Hip-Hop": 0,
+        "Indie": 5,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0
+    }
+},
+{
+    "index": 205,
+    "id": "3-NTv0CdFCk",
+    "details": {
+        "artist": "Lana Del Rey",
+        "songName": "Love"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 4,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0
+    }
+},
+{
+    "index": 206,
+    "id": "PEGccV-NOm8",
+    "details": {
+        "artist": "Cardi B",
+        "songName": "Bodak Yellow"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 207,
+    "id": "WrsFXgQk5UI",
+    "details": {
+        "artist": "Lil Uzi Vert",
+        "songName": "XO Tour Llif3"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 208,
+    "id": "lwk5OUII9Vc",
+    "details": {
+        "artist": "Ayo & Teo",
+        "songName": "Rolex"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 209,
+    "id": "44Vk5KyQbiA",
+    "details": {
+        "artist": "YFN Lucci",
+        "songName": "Everyday We Lit ft. PnB Rock"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 2,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 210,
+    "id": "Hm1YFszJWbQ",
+    "details": {
+        "artist": "Migos",
+        "songName": "Slippery feat. Gucci Mane"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 211,
+    "id": "FG9M0aEpJGE",
+    "details": {
+        "artist": "G-Eazy & Kehlani",
+        "songName": "Good Life"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 1,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 4,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 212,
+    "id": "uo14xGYwWd4",
+    "details": {
+        "artist": "Gucci Mane",
+        "songName": "I Get The Bag feat. Migos"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 213,
+    "id": "IPfJnp1guPc",
+    "details": {
+        "artist": "Khalid",
+        "songName": "Young Dumb & Broke"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 2,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 4,
+        "Rap": 2,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 214,
+    "id": "K_9tX4eHztY",
+    "details": {
+        "artist": "Future",
+        "songName": "Low Life ft. The Weeknd"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 4,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+},
+{
+    "index": 216,
+    "id": "b8m9zhNAgKs",
+    "details": {
+        "artist": "Rae Sremmurd",
+        "songName": "Black Beatles ft. Gucci Mane"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0
+    }
+}
