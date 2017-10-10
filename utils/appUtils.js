@@ -37,7 +37,7 @@ appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window',];
 function appUtilsController($rootScope, dpAppUtils, $http , $window) {
 
 
-    $rootScope.currentNavItem = 'page6';
+    $rootScope.currentNavItem = 'page1';
     $rootScope.data = {};
     $rootScope.data.takeSongName = true;
     $rootScope.genreInputStyle = { "width": "100px" };
@@ -58,7 +58,10 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
         "id": '',
         "artist": '',
         "songName": '',
-        "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "songGenres": [0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0]
     };
 
 
@@ -120,7 +123,10 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             "id": '',
             "artist": '',
             "songName": '',
-            "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            "songGenres": [0, 0, 0, 0, 0,
+                           0, 0, 0, 0, 0,
+                           0, 0, 0, 0, 0,
+                           0, 0, 0, 0, 0]
         };
         $rootScope.APIResult = "";
         // $rootScope.musixAPIResult = "";
