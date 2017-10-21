@@ -365,8 +365,9 @@
                                 <md-input-container class="md-block">
                                     <label>Songs To Add</label>
                                     <!-- <input ng-model="songToAdd" type="text"> -->
-                                    <textarea rows="2" cols="50" ng-model="songToAdd">
+                                    <textarea id="songToAdd" rows="2" cols="50" ng-model="songToAdd">
                                     </textarea>
+                                    <md-button ngclipboard data-clipboard-target="#songToAdd" class="md-raised">Copy</md-button>
                                 </md-input-container>
                                 <md-button ng-click="cleanAllSongs()" class="md-raised md-warn">Clean All Songs</md-button>
 
@@ -377,13 +378,26 @@
 
                     <div ng-show="currentNavItem === 'page2'">
                         <h2> Convertors </h2>
+
                         <div>
-                            <p> Convert from Shrink song list to Raw song list </p>
-                            <md-button type="button" class="md-raised" ng-click="convertFromShrinkToRaw()">Convert </md-button>
+                            <p> <b>Convert from Raw song list to Shrink song list </b> </p>
+                            <md-button type="button" class="md-raised" ng-click="convertFromRawToShrink()">Convert </md-button>
+                            <md-input-container class="md-block">
+                                <textarea id="fromRawToShrink" rows="2" cols="50" ng-model="fromRawToShrink">
+                                </textarea>
+                                <md-button ngclipboard data-clipboard-target="#fromRawToShrink" class="md-raised">Copy</md-button>
+                            </md-input-container>
                         </div>
                         <div>
-                            <p> Convert from Raw song list to Shrink song list </p>
-                            <md-button type="button" class="md-raised" ng-click="convertFromRawToShrink()">Convert </md-button>
+                            <p><b> Convert from Shrink song list to Raw song list</b> </p>
+                            <md-button type="button" class="md-raised" ng-click="convertFromShrinkToRaw()">Convert </md-button>
+                            <md-input-container class="md-block">
+                                <textarea id="fromShrinkToRaw" rows="2" cols="50" ng-model="fromShrinkToRaw">
+                                </textarea>
+                                <md-button ngclipboard data-clipboard-target="#fromShrinkToRaw" class="md-raised">Copy</md-button>
+                            </md-input-container>
+
+
                         </div>
                     </div>
 

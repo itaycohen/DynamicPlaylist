@@ -66,6 +66,10 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
 
     $rootScope.songToAdd = '';
+    $rootScope.fromRawToShrink = '';
+    $rootScope.fromShrinkToRaw = '';
+    
+    
 
     $rootScope.loadSongDetails = function () {
         var songId = $rootScope.song.id;
@@ -416,7 +420,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             newSong.g = genresweightsOfSong;
             shrinkSongList[i] = newSong;
         }
-        console.log(JSON.stringify(shrinkSongList));
+        var fromRawToShrink = JSON.stringify(shrinkSongList);
+        console.log(fromRawToShrink);
+        $rootScope.fromRawToShrink = fromRawToShrink;
     }
 
 
@@ -438,8 +444,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             }
             rawSongsList[i] = newSong;
         }
-
-        console.log(JSON.stringify(rawSongsList));
+        var fromShrinkToRaw = JSON.stringify(rawSongsList);
+        console.log(fromShrinkToRaw);
+        $rootScope.fromShrinkToRaw = fromShrinkToRaw;
 
     }
 
