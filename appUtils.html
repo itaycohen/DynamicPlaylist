@@ -93,8 +93,9 @@
                                     <!-- <h3> Song Details </h3> -->
                                     <md-input-container style="width: 450px" md-no-float class="md-block">
                                         <label>Full Title</label>
-                                        <input ng-model="song.fullTitle" type="text">
+                                        <input id="fullTitle" ng-model="song.fullTitle" type="text">
                                         <md-button ng-click="parseFullTitleAndGetData()" class="md-raised">Parse</md-button>
+                                        <md-button ngclipboard data-clipboard-target="#fullTitle" class="md-raised">Copy</md-button>
                                     </md-input-container>
                                     <md-input-container md-no-float class="md-block">
                                         <label>Artist</label>
@@ -119,7 +120,8 @@
                                     </md-input-container>
                                     <md-input-container style="width: 300px" class="md-block">
                                         <label>Song Name For API</label>
-                                        <input id="songName" ng-model="song.songNameAPI" type="text" ng-style="getSelectedSongNameStyle(!data.takeSongName)">
+                                        <input id="songNameAPI" ng-model="song.songNameAPI" type="text" ng-style="getSelectedSongNameStyle(!data.takeSongName)">
+                                        <md-button ngclipboard data-clipboard-target="#songNameAPI" class="md-raised">Copy</md-button>
                                         <md-button ng-click="parseSongName()" class="md-raised">Parse</md-button>
                                         <md-checkbox ng-model="!data.takeSongName" aria-label="Checkbox 2">
                                             Take me to json

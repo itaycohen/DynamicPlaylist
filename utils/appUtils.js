@@ -34,7 +34,7 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
 app.controller('appUtilsController', appUtilsController);
 appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window',];
-function appUtilsController($rootScope, dpAppUtils, $http , $window) {
+function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
 
     $rootScope.currentNavItem = 'page1';
@@ -48,9 +48,9 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
     // var newMapOfGenres2 = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
     // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
     var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
-    
-    
-    
+
+
+
 
     // Adding Songs
 
@@ -124,9 +124,9 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             "artist": '',
             "songName": '',
             "songGenres": [0, 0, 0, 0, 0,
-                           0, 0, 0, 0, 0,
-                           0, 0, 0, 0, 0,
-                           0, 0, 0, 0, 0]
+                0, 0, 0, 0, 0,
+                0, 0, 0, 0, 0,
+                0, 0, 0, 0, 0]
         };
         $rootScope.APIResult = "";
         // $rootScope.musixAPIResult = "";
@@ -143,6 +143,10 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             if (shrinkSongList[i].id === songId) {
                 return false;
             }
+        }
+        var songToAddstr = $rootScope.songToAdd;
+        if (songId !== "" && songToAddstr.indexOf(songId) !== -1) {
+            return false;
         }
         //TODO - check if the song is in the new songs to add
         return true;
@@ -261,7 +265,7 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
             //remove all brackets and it's content
             songName = songName.replace(/ *\([^)]*\) */g, " ").trim();
             songName = songName.replace(/ *\[[^\]]*]/, '').trim();
-            
+
             // songName = songName.replace(/[\[\]']+/g,'').trim();
 
             bracket = songName.indexOf("ft");
@@ -271,17 +275,17 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
         }
     };
 
-    
+
     $rootScope.cleanResult = function () {
         $rootScope.APIResultRaw = "";
         // $rootScope.musixAPIResultRaw = "";
     };
 
     $rootScope.goToBottom = function () {
-        $window.scrollTo(0,document.body.scrollHeight);
+        $window.scrollTo(0, document.body.scrollHeight);
     };
 
-    
+
 
     function parseYTSongResult() {
         var songTitle = "";
@@ -306,7 +310,7 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
         $rootScope.song.fullTitle = songTitle;
         $rootScope.song.publishDate = publishDate.substring(0, 10).trim();
         $rootScope.song.viewCount = viewCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        
+
         $rootScope.parseFullTitleAndGetData();
 
     }
@@ -459,6 +463,7 @@ function appUtilsController($rootScope, dpAppUtils, $http , $window) {
         for (var i = 0; i < songsIds.length - 1; i++) {
             if (sortedSongsIds[i + 1] == sortedSongsIds[i]) {
                 duplicatesArr.push(sortedSongsIds[i]);
+                console.log(sortedSongsIds[i]);
             }
         }
         if (duplicatesArr.length !== 0) {
