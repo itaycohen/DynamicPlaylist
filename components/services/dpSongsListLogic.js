@@ -368,7 +368,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                 lowerGenreWeightDistancesListToSort.push(currentGenreWeightDistance);
             }
         }
-        console.log("length of lowerGenreWeightDistancesListToSort: " + lowerGenreWeightDistancesListToSort.length);
+        // console.log("length of lowerGenreWeightDistancesListToSort: " + lowerGenreWeightDistancesListToSort.length);
         // handle case when lowerGenreWeightDistancesListToSort length is lower than 10
         //// BUG - songs are withput order
         var lowerGenreWeightDistancesListToSortLen = lowerGenreWeightDistancesListToSort.length;
