@@ -34,7 +34,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // move
         getSongNameByIndex: getSongNameByIndex,
         getSongArtistByIndex: getSongArtistByIndex,
-        updateWeightDistanceFactor : updateWeightDistanceFactor,
+        updateWeightDistanceFactor: updateWeightDistanceFactor,
 
         storeUserGenresData: storeUserGenresData
     };
@@ -57,7 +57,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
 	// 3. genreWeightsDistancesList
     // 		Structure: {index, avgDistance, genreWeightsDistance {'Dance', 'Indie-Rock', 'Pop', 'R&B', 'Soul' } }
-	// 		New Structure: {index, avgDistance, genreWeightsDistance [distances] }
+    // 		New Structure: {index, avgDistance, genreWeightsDistance [distances] }
+	// 		New Structure2: {index, score, genreWeightsDistance [distances] }
 	// 		The calculated current genres weights ditances list - the absoulte distance between 
 	//		 the original song genre weight and the curent genre range value.
 	// 		This list values will be updated according to change in the ranged,
@@ -94,14 +95,39 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     function updateWeightDistanceFactor() {
-        var userGenresMap = getUserGenresMap();
+        var factor;
         var count = 0;
+        var userGenresMap = getUserGenresMap();
         for (var i = 0; i < userGenresMap.length; i++) {
             if (userGenresMap[i] > 0) {
                 count++;
             }
         }
-        $rootScope.weightDistanceFactor = count >= 4 ? 1.5 : 4.9 - count;
+        switch (count) {
+            case 1:
+                factor = 6.5;
+                break;
+            case 2:
+                factor = 7;
+                break;
+            case 3:
+                factor = 9;
+                break;
+            case 4:
+                factor = 10;
+                break;
+            case 5:
+                factor = 11;
+                break;
+            default:
+                factor = 7;
+                break;
+        }
+        // 1 genre -> low
+        // 4,5 genres -> high 
+        // $rootScope.weightDistanceFactor = count >= 4 ? 15 : 5 - count;
+        $rootScope.weightDistanceFactor = factor;
+
     }
 
     function initUserData() {
@@ -188,20 +214,25 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     // index: i  / avgDistance: dis / genreWeightsDistance: {dance:x, pop: y ...}
     // new structure:
     // index: i  / avgDistance: dis / genreWeightsDistance: []
+    // new structure 2:
+    // index: i  / score: score / genreWeightsDistance: []
     function initGenreWeightsDistancesList() {
         var arr = [];
         var rawSongsList = $rootScope.rawSongsList;
         var len = rawSongsList.length;
+        var userGenresMap = getUserGenresMap();
         for (var i = 0; i < len; i++) {
 
             var currentSong = rawSongsList[i];
             var currentSongWeights = currentSong.g;
-            var avgDistance = calculateAvgDistance(currentSongWeights/*, true*/);
+            // var avgDistance = calculateAvgDistance(currentSongWeights/*, true*/);
+            var songScore = calculateSongScore(currentSongWeights, userGenresMap/*, true*/);
+
             // var genreWeightsDistanceMap = buildGenreWeightsDistance(currentSongWeights);
 
             arr.push({
                 index: i,
-                avgDistance: avgDistance,
+                score: songScore,
                 // genreWeightsDistance: genreWeightsDistanceMap
             });
         }
@@ -213,18 +244,26 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         $rootScope.alreadyPlayedSongsIndexesListSingleCycle = [];
     }
 
-    function calculateAvgDistance(songWeights/*, isInitialCreation*/) {
-        var dif = 0,
-            total = 0,
-            count = 0;
-        var userGenresMap = getUserGenresMap();
+    function calculateSongScore(songWeights, userGenresMap/*, isInitialCreation*/) {
+        var calculatedCurrentScore = 0,
+            totalScore = 0;
+        var numberOfGenresBiggerThanZero = calculateNumberOfGenresBiggerThanZero(songWeights);
+        var relativeScoreFactor = numberOfGenresBiggerThanZero !== 0 ? 1 / numberOfGenresBiggerThanZero : 1;
         for (var i = 0; i < userGenresMap.length; i++) {
-            var currentGenreweight = userGenresMap[i];
+            var currentGenreWeight = userGenresMap[i];
             var currentSongWeight = songWeights[i];
-            if (currentGenreweight > 0 && currentSongWeight > 0) {
-                dif = Math.abs(currentGenreweight - currentSongWeight);
-                total += dif;
-                count++;
+            if (currentGenreWeight > 0 && currentSongWeight > 0) {
+                calculatedCurrentScore = Math.pow(5 - Math.abs(currentGenreWeight - currentSongWeight), 2);
+
+                totalScore += currentGenreWeight === currentSongWeight ?
+                    (calculatedCurrentScore + 10) * relativeScoreFactor : calculatedCurrentScore * relativeScoreFactor;
+            } else if ((currentGenreWeight === 0 || currentGenreWeight === -1) && currentSongWeight === 0) {
+                //increase total score by one for each 'zero match'
+                totalScore += 0.25;
+            } else if (currentGenreWeight === 0 || currentSongWeight === 0) {
+                // one of the weights is zero (and the other is more than it) -> need to reduce total score
+                calculatedCurrentScore = 5 - Math.abs(currentGenreWeight - currentSongWeight);
+                totalScore -= calculatedCurrentScore;
             }
         }
         // for (var genre in songWeights) {
@@ -235,7 +274,17 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         //     total += genreWeight;
         //     count++;
         // }
-        return count !== 0 ? total / count : 10;
+        return Math.round(totalScore * 100) / 100;
+    }
+
+    function calculateNumberOfGenresBiggerThanZero(songWeights) {
+        var count = 0;
+        for (var i = 0; i < songWeights.length; i++) {
+            if (songWeights[i] > 0) {
+                count++;
+            }
+        }
+        return count;
     }
 
     // function buildGenreWeightsDistance(songWeights) {
@@ -298,10 +347,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     // update the songs indexes list after change in genre weights 
     // sort it by avgDistance
     //TODO - break to sub methods
+    // TODO - check number of calls - check cal lstack - on update genres weight - 
+    // check if we can call this function only one time in the end
     function updateSongsIndexesList() {
 
         // avoiding the case where the last played song is playing again
-        var lastPlayedIndex = $rootScope.alreadyPlayedSongsIndexesListSingleCycle[$rootScope.alreadyPlayedSongsIndexesListSingleCycle.length - 1];
+        // var lastPlayedIndex = $rootScope.alreadyPlayedSongsIndexesListSingleCycle[$rootScope.alreadyPlayedSongsIndexesListSingleCycle.length - 1];
 
         var rawGenreWeightsDistancesList = $rootScope.genreWeightsDistancesList.slice();
         // array for genre weights distances OBJECTS that are smaller or equal to WeightDistanceFactor
@@ -311,12 +362,13 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         // splitting the rawGenreWeightsDistancesList to 2 arrays 
         for (var i = 0; i < rawGenreWeightsDistancesList.length; i++) {
             var currentGenreWeightDistance = rawGenreWeightsDistancesList[i];
-            if (currentGenreWeightDistance.avgDistance > getWeightDistanceFactor()) {
+            if (currentGenreWeightDistance.score < getWeightDistanceFactor()) {
                 biggerGenreWeightDistancesIndexesToNotSort.push(currentGenreWeightDistance.index);
             } else {
                 lowerGenreWeightDistancesListToSort.push(currentGenreWeightDistance);
             }
         }
+        console.log("length of lowerGenreWeightDistancesListToSort: " + lowerGenreWeightDistancesListToSort.length);
         // handle case when lowerGenreWeightDistancesListToSort length is lower than 10
         //// BUG - songs are withput order
         var lowerGenreWeightDistancesListToSortLen = lowerGenreWeightDistancesListToSort.length;
@@ -336,7 +388,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         var sortedLowerGenreWeightsDistancesList = [];
         // special sort, songs that alrady played will be after songs that never played
         var date = new Date();
-        var indexOfDay = date.getDay() * date.getMonth();
+        var indexOfDay = (date.getDay() + 1) * (date.getMonth() + 1);
         lowerGenreWeightDistancesListToSort.sort(
             function (genreWeightsDistanceA, genreWeightsDistanceB) {
                 var dif;
@@ -347,7 +399,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                     isIndexAlreadyPlayedInCycle(genreWeightsDistanceB.index)) {
                     return -1;
                 } else {
-                    dif = genreWeightsDistanceA.avgDistance - genreWeightsDistanceB.avgDistance;
+                    dif = genreWeightsDistanceB.score - genreWeightsDistanceA.score;
                     if (dif !== 0) {
                         return dif;
                     } else {
@@ -355,7 +407,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                         // but we want it to be different from time to time
                         var uniqueValueA = genreWeightsDistanceA.index % indexOfDay;
                         var uniqueValueB = genreWeightsDistanceB.index % indexOfDay;
-                        return uniqueValueA - uniqueValueB;
+                        return uniqueValueB - uniqueValueA;
                     }
                 }
             });
@@ -430,13 +482,13 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         $rootScope.userGenresMap[allGenresNames.indexOf(genre)] = newWeightValue;
         updateWeightDistanceFactor();
 
-
+        var userGenresMap = getUserGenresMap();
         var len = $rootScope.genreWeightsDistancesList.length;
         for (var i = 0; i < len; i++) {
             var currentSongGenreWeightDistances = $rootScope.genreWeightsDistancesList[i];
             var songGenreWeights = getSongGenreWeightsByIndex(i);
-            var newAvgDistance = calculateAvgDistance(songGenreWeights);
-            currentSongGenreWeightDistances.avgDistance = newAvgDistance;
+            var newSongScore = calculateSongScore(songGenreWeights, userGenresMap);
+            currentSongGenreWeightDistances.score = newSongScore;
             $rootScope.genreWeightsDistancesList[i] = currentSongGenreWeightDistances;
         }
 
