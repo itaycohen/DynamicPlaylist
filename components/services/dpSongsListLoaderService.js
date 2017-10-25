@@ -6928,7 +6928,7 @@ function dpSongsListLoaderService($http, $q) {
             "i": 247,
             "id": "dX3k_QDnzHE",
             "a": "M83",
-            "s": "M83 'Midnight City' Official video",
+            "s": "Midnight City",
             "g": [
                 0,
                 0,
