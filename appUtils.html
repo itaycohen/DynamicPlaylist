@@ -58,6 +58,9 @@
                     <md-nav-item md-nav-click="goto('page6')" name="page6">
                         Fix Songs
                     </md-nav-item>
+                    <md-nav-item md-nav-click="goto('page7')" name="page7">
+                        Update Tagging
+                    </md-nav-item>
                 </md-nav-bar>
                 <div class="ext-content">
 
@@ -383,7 +386,7 @@
                             <p> <b>Convert from Raw song list to Shrink song list </b> </p>
                             <md-button type="button" class="md-raised" ng-click="convertFromRawToShrink()">Convert </md-button>
                             <md-input-container class="md-block">
-                                <textarea id="fromRawToShrink" rows="2" cols="50" ng-model="fromRawToShrink">
+                                <textarea id="fromRawToShrink" rows="2" cols="50" ng-model="fromRawToShrink" aria-label="fromRawToShrink">
                                 </textarea>
                                 <md-button ngclipboard data-clipboard-target="#fromRawToShrink" class="md-raised">Copy</md-button>
                             </md-input-container>
@@ -392,7 +395,7 @@
                             <p><b> Convert from Shrink song list to Raw song list</b> </p>
                             <md-button type="button" class="md-raised" ng-click="convertFromShrinkToRaw()">Convert </md-button>
                             <md-input-container class="md-block">
-                                <textarea id="fromShrinkToRaw" rows="2" cols="50" ng-model="fromShrinkToRaw">
+                                <textarea id="fromShrinkToRaw" rows="2" cols="50" ng-model="fromShrinkToRaw" aria-label="fromShrinkToRaw">
                                 </textarea>
                                 <md-button ngclipboard data-clipboard-target="#fromShrinkToRaw" class="md-raised">Copy</md-button>
                             </md-input-container>
@@ -432,12 +435,26 @@
                                     </div>
                                 </md-list-item>
                             </md-list>
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Number of new songs</label>
+                                <input ng-model="songStat.numOfNew" type="text">
+                            </md-input-container>
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Number of hits songs</label>
+                                <input ng-model="songStat.numOfHit" type="text">
+                            </md-input-container>
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Number of trending songs</label>
+                                <input ng-model="songStat.numOfTrending" type="text">
+                            </md-input-container>
                         </md-content>
                     </div>
 
                     <div ng-show="currentNavItem === 'page5'">
                         <h2> Fix List </h2>
                         <md-button type="button" class="md-raised" ng-click="fixSongList()">Fix List</md-button>
+                        <md-button type="button" class="md-raised" ng-click="fixSongListTagging()">Fix List with Tagging</md-button>
+                        
                     </div>
 
                     <div ng-show="currentNavItem === 'page6'">
@@ -770,6 +787,17 @@
                             </md-content>
 
                         </div>
+                    </div>
+
+                    <div ng-show="currentNavItem === 'page7'">
+                        <h2> Update Tagging </h2>
+                        <md-button type="button" class="md-raised" ng-click="updateTagging()">Update Tagging </md-button>
+                        <md-input-container class="md-block">
+                            <textarea id="updatedRawSongList" rows="2" cols="50" ng-model="updatedRawSongList" aria-label="updatedRawSongList">
+                            </textarea>
+                            <md-button ngclipboard data-clipboard-target="#updatedRawSongList" class="md-raised">Copy</md-button>
+                        </md-input-container>
+                        
                     </div>
                 </div>
 

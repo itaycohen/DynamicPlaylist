@@ -27,6 +27,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -57,6 +62,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 3
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -87,6 +97,11 @@
             "Rock": 1,
             "Soul": 5,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -117,6 +132,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -147,6 +167,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -177,6 +202,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -207,6 +237,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -237,6 +272,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -267,6 +307,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -297,6 +342,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -327,6 +377,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -357,6 +412,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -387,6 +447,11 @@
             "Rock": 0,
             "Soul": 5,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -417,6 +482,11 @@
             "Rock": 0,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -447,6 +517,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -477,6 +552,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -507,6 +587,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -537,6 +622,11 @@
             "Rock": 0,
             "Soul": 5,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -567,6 +657,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -597,6 +692,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -627,6 +727,11 @@
             "Rock": 3,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -657,6 +762,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -687,6 +797,11 @@
             "Rock": 2,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -717,6 +832,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -747,6 +867,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -777,6 +902,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -807,6 +937,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -837,6 +972,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -867,6 +1007,11 @@
             "Rock": 2,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -897,6 +1042,11 @@
             "Rock": 0,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -927,6 +1077,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -957,6 +1112,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -987,6 +1147,11 @@
             "Rock": 1,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1017,6 +1182,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -1047,6 +1217,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1077,6 +1252,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1107,6 +1287,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -1137,6 +1322,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 5
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -1167,6 +1357,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1197,6 +1392,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1227,6 +1427,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1257,6 +1462,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1287,6 +1497,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1317,6 +1532,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1347,6 +1567,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1377,6 +1602,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1407,6 +1637,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1437,6 +1672,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1467,6 +1707,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1497,6 +1742,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 3
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -1527,6 +1777,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1557,6 +1812,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1587,6 +1847,11 @@
             "Rock": 2,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1617,6 +1882,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -1647,6 +1917,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1677,6 +1952,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1707,6 +1987,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1737,6 +2022,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1767,6 +2057,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1797,6 +2092,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1827,6 +2127,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1857,6 +2162,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1887,6 +2197,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1917,6 +2232,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -1947,6 +2267,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -1977,6 +2302,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -2007,6 +2337,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -2037,6 +2372,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2067,6 +2407,11 @@
             "Rock": 0,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2097,6 +2442,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2127,6 +2477,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2157,6 +2512,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2187,6 +2547,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2217,6 +2582,11 @@
             "Rock": 0,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -2247,6 +2617,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2277,6 +2652,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2307,6 +2687,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2337,6 +2722,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2367,6 +2757,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2397,6 +2792,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2427,6 +2827,11 @@
             "Rock": 5,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2457,6 +2862,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2487,6 +2897,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -2517,6 +2932,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2547,6 +2967,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2577,6 +3002,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2607,6 +3037,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2637,6 +3072,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2667,6 +3107,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2697,6 +3142,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2727,6 +3177,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2757,6 +3212,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2787,6 +3247,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -2817,6 +3282,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2847,6 +3317,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2877,6 +3352,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2907,6 +3387,11 @@
             "Rock": 5,
             "Soul": null,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2937,6 +3422,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2967,6 +3457,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -2997,6 +3492,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3027,6 +3527,11 @@
             "Rock": 0,
             "Soul": 5,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3057,6 +3562,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3087,6 +3597,11 @@
             "Rock": 4,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -3117,13 +3632,18 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
         "index": 104,
         "id": "NRWUoDpo2fo",
         "details": {
-            "artist": "alt-J",
+            "artist": "Alt-J",
             "songName": "Left Hand Free"
         },
         "genreWeights": {
@@ -3147,13 +3667,18 @@
             "Rock": 4,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
         "index": 105,
         "id": "rVeMiVU77wo",
         "details": {
-            "artist": "alt-J",
+            "artist": "Alt-J",
             "songName": "Breezeblocks"
         },
         "genreWeights": {
@@ -3177,6 +3702,11 @@
             "Rock": 4,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3207,6 +3737,11 @@
             "Rock": 4,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3237,6 +3772,11 @@
             "Rock": 3,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3267,6 +3807,11 @@
             "Rock": 4,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3297,6 +3842,11 @@
             "Rock": 3,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3327,6 +3877,11 @@
             "Rock": 3,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3357,6 +3912,11 @@
             "Rock": 5,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3387,6 +3947,11 @@
             "Rock": 5,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3417,6 +3982,11 @@
             "Rock": 5,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3447,6 +4017,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3477,6 +4052,11 @@
             "Rock": 3,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3507,6 +4087,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3537,6 +4122,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -3567,6 +4157,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3597,6 +4192,11 @@
             "Rock": 2,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -3627,6 +4227,11 @@
             "Rock": 3,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3657,6 +4262,11 @@
             "Rock": 4,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3687,6 +4297,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3717,6 +4332,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3747,6 +4367,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3777,6 +4402,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3807,6 +4437,11 @@
             "Rock": 3,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3837,6 +4472,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3867,6 +4507,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3897,6 +4542,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -3927,6 +4577,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -3957,6 +4612,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -3987,6 +4647,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4017,6 +4682,11 @@
             "Rock": 4,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4047,6 +4717,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4077,6 +4752,11 @@
             "Rock": 0,
             "Soul": 5,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4107,6 +4787,11 @@
             "Rock": 1,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4137,6 +4822,11 @@
             "Rock": 2,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4167,6 +4857,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4197,6 +4892,11 @@
             "Rock": 3,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4227,6 +4927,11 @@
             "Rock": 4,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4257,6 +4962,11 @@
             "Rock": 4,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4287,6 +4997,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4317,6 +5032,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4347,6 +5067,11 @@
             "Rock": 5,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4377,6 +5102,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4407,6 +5137,11 @@
             "Rock": 5,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4437,6 +5172,11 @@
             "Rock": 5,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4467,6 +5207,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4497,6 +5242,11 @@
             "Rock": 5,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4527,6 +5277,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -4557,6 +5312,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -4587,6 +5347,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -4617,6 +5382,11 @@
             "Rock": 1,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -4647,6 +5417,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -4677,6 +5452,11 @@
             "Rock": 0,
             "Soul": 1,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -4707,6 +5487,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
         }
     },
     {
@@ -4737,6 +5522,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -4767,6 +5557,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4797,6 +5592,11 @@
             "Rock": 0,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4827,6 +5627,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4857,6 +5662,11 @@
             "Rock": 1,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4887,6 +5697,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4917,6 +5732,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4947,6 +5767,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4977,6 +5802,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5007,6 +5837,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5037,6 +5872,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5067,6 +5907,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5097,6 +5942,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5127,6 +5977,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5157,6 +6012,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5187,6 +6047,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5217,6 +6082,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5247,6 +6117,11 @@
             "Rock": 0,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5277,6 +6152,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5307,6 +6187,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5337,6 +6222,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5367,6 +6257,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5397,6 +6292,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5427,6 +6327,11 @@
             "Rock": 0,
             "Soul": 4,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5457,6 +6362,11 @@
             "Rock": 0,
             "Soul": 3,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5487,6 +6397,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5517,6 +6432,11 @@
             "Rock": 0,
             "Soul": 0,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -5547,6 +6467,4386 @@
             "Rock": 3,
             "Soul": 2,
             "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 185,
+        "id": "o0Pt7M0weUI",
+        "details": {
+            "artist": "The Revivalists",
+            "songName": "Wish I Knew You"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 3,
+            "Hip-Hop": 0,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 186,
+        "id": "w3xcybdis1k",
+        "details": {
+            "artist": "The Killers",
+            "songName": "The Man"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 2,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 187,
+        "id": "FA2w-PMKspo",
+        "details": {
+            "artist": "Thirty Seconds To Mars",
+            "songName": "Walk On Water"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 188,
+        "id": "7YAAyUFL1GQ",
+        "details": {
+            "artist": "Fall Out Boy",
+            "songName": "The Last Of The Real Ones"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 5,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 189,
+        "id": "TRqiFPpw2fY",
+        "details": {
+            "artist": "Foo Fighters",
+            "songName": "The Sky Is A Neighborhood"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 1,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 190,
+        "id": "rGlEZpOVjGo",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Whatever It Takes"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 1,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 191,
+        "id": "nd_EYo96lmo",
+        "details": {
+            "artist": "U2",
+            "songName": "You’re The Best Thing About Me"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 192,
+        "id": "_II0fc7hgNY",
+        "details": {
+            "artist": "The Lumineers",
+            "songName": "Angela"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 193,
+        "id": "GvyNyFXHj4k",
+        "details": {
+            "artist": "Queens of the Stone Age",
+            "songName": "The Way You Used to Do"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 1,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 194,
+        "id": "oomkO5nHxnY",
+        "details": {
+            "artist": "Judah & the Lion",
+            "songName": "Take It All Back 2.0"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 195,
+        "id": "efPWrIvzGgc",
+        "details": {
+            "artist": "Weezer",
+            "songName": "Feels Like Summer"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 196,
+        "id": "ifwc5xgI3QM",
+        "details": {
+            "artist": "Foo Fighters",
+            "songName": "Run"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 3,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 197,
+        "id": "zC30BYR3CUk",
+        "details": {
+            "artist": "Arcade Fire",
+            "songName": "Everything Now"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 198,
+        "id": "AEB6ibtdPZc",
+        "details": {
+            "artist": "Paramore",
+            "songName": "Hard Times"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 199,
+        "id": "qIOaU7Sm-ZE",
+        "details": {
+            "artist": "Sir Sly",
+            "songName": "High"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 200,
+        "id": "B06qqB7bp-w",
+        "details": {
+            "artist": "Bleachers",
+            "songName": "Don't Take The Money"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 201,
+        "id": "b4ozdiGys5g",
+        "details": {
+            "artist": "MUSE",
+            "songName": "Dig Down"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 202,
+        "id": "1nv9br7P7g0",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Walking The Wire"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 203,
+        "id": "eP4eqhWc7sI",
+        "details": {
+            "artist": "Lana Del Rey",
+            "songName": "Lust For Life ft. The Weeknd"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 204,
+        "id": "yw-RPm1uOM4",
+        "details": {
+            "artist": "Paramore",
+            "songName": "Told You So"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 3,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 205,
+        "id": "3-NTv0CdFCk",
+        "details": {
+            "artist": "Lana Del Rey",
+            "songName": "Love"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 206,
+        "id": "PEGccV-NOm8",
+        "details": {
+            "artist": "Cardi B",
+            "songName": "Bodak Yellow"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 207,
+        "id": "WrsFXgQk5UI",
+        "details": {
+            "artist": "Lil Uzi Vert",
+            "songName": "XO Tour Llif3"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 208,
+        "id": "lwk5OUII9Vc",
+        "details": {
+            "artist": "Ayo & Teo",
+            "songName": "Rolex"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 209,
+        "id": "44Vk5KyQbiA",
+        "details": {
+            "artist": "YFN Lucci",
+            "songName": "Everyday We Lit ft. PnB Rock"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 210,
+        "id": "Hm1YFszJWbQ",
+        "details": {
+            "artist": "Migos",
+            "songName": "Slippery feat. Gucci Mane"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 211,
+        "id": "FG9M0aEpJGE",
+        "details": {
+            "artist": "G-Eazy & Kehlani",
+            "songName": "Good Life"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 212,
+        "id": "uo14xGYwWd4",
+        "details": {
+            "artist": "Gucci Mane",
+            "songName": "I Get The Bag feat. Migos"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 213,
+        "id": "IPfJnp1guPc",
+        "details": {
+            "artist": "Khalid",
+            "songName": "Young Dumb & Broke"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 4,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 214,
+        "id": "K_9tX4eHztY",
+        "details": {
+            "artist": "Future",
+            "songName": "Low Life ft. The Weeknd"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 215,
+        "id": "b8m9zhNAgKs",
+        "details": {
+            "artist": "Rae Sremmurd",
+            "songName": "Black Beatles ft. Gucci Mane"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 216,
+        "id": "UAWcs5H-qgQ",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "The A Team"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 1,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 217,
+        "id": "PxNYvk_0Onw",
+        "details": {
+            "artist": "Gabrielle Aplin",
+            "songName": "Please Don't Say You Love Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 3,
+            "Country": 3,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 218,
+        "id": "HoRkntoHkIE",
+        "details": {
+            "artist": "Phillip Phillips",
+            "songName": "Home"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 3,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 219,
+        "id": "zKmWd8DPrEc",
+        "details": {
+            "artist": "Vance Joy",
+            "songName": "Fire and the Flood"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 220,
+        "id": "0-7IHOXkiV8",
+        "details": {
+            "artist": "Kaleo",
+            "songName": "Way Down We Go"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 221,
+        "id": "F9kXstb9FF4",
+        "details": {
+            "artist": "The Strumbellas",
+            "songName": "Spirits"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 222,
+        "id": "r8BsuT0PWdI",
+        "details": {
+            "artist": "Milky Chance",
+            "songName": "Flashed Junk Mind"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 223,
+        "id": "qlGQoxzdwP4",
+        "details": {
+            "artist": "Milky Chance",
+            "songName": "Down by the River"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 224,
+        "id": "cWKTFuAFcOY",
+        "details": {
+            "artist": "Passenger",
+            "songName": "Scare Away The Dark"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 225,
+        "id": "kBqqlW6-99M",
+        "details": {
+            "artist": "Passenger",
+            "songName": "Heart's On Fire"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 226,
+        "id": "WbN0nX61rIs",
+        "details": {
+            "artist": "Florence + The Machine",
+            "songName": "Shake It Out"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 227,
+        "id": "zsyjS_vJfkw",
+        "details": {
+            "artist": "BOY",
+            "songName": "Little Numbers"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 1,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 228,
+        "id": "A76a_LNIYwE",
+        "details": {
+            "artist": "Of Monsters and Men",
+            "songName": "King And Lionheart"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 229,
+        "id": "DHEOF_rcND8",
+        "details": {
+            "artist": "Edward Sharpe & The Magnetic Zeros",
+            "songName": "Home"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 1,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 230,
+        "id": "zvCBSSwgtg4",
+        "details": {
+            "artist": "The Lumineers",
+            "songName": "Ho Hey"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 231,
+        "id": "UJWk_KNbDHo",
+        "details": {
+            "artist": "The Lumineers",
+            "songName": "Stubborn Love"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 232,
+        "id": "Sw-ko6aINI4",
+        "details": {
+            "artist": "Mumford and sons",
+            "songName": "White blank page"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 233,
+        "id": "YAl-vZsswb4",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "The Boxer"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 234,
+        "id": "iWOyfLBYtuU",
+        "details": {
+            "artist": "Florence + The Machine",
+            "songName": "Dog Days Are Over"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 235,
+        "id": "sXzDu071RdQ",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "Broken Crown"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 236,
+        "id": "DBOuqyqmtJk",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "Back Down South"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 2,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 237,
+        "id": "OblL026SvD4",
+        "details": {
+            "artist": "Paramore",
+            "songName": "Still Into You"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 2,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 238,
+        "id": "gGdGFtwCNBE",
+        "details": {
+            "artist": "The Killers",
+            "songName": "Mr. Brightside"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 239,
+        "id": "1G4isv_Fylg",
+        "details": {
+            "artist": "Coldplay",
+            "songName": "Paradise"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 240,
+        "id": "QtXby3twMmI",
+        "details": {
+            "artist": "Coldplay",
+            "songName": "Adventure Of A Lifetime"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 241,
+        "id": "BgfcToAjfdc",
+        "details": {
+            "artist": "Kygo",
+            "songName": "Stole The Show feat. Parson James"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 2,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 242,
+        "id": "08WeoqWilRQ",
+        "details": {
+            "artist": "Edward Sharpe and the Magnetic Zeros",
+            "songName": "Man On Fire"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 243,
+        "id": "G5Mv2iV0wkU",
+        "details": {
+            "artist": "The Chainsmokers",
+            "songName": "Roses ft. ROZES"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 2,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 244,
+        "id": "pTOC_q0NLTk",
+        "details": {
+            "artist": "The Lumineers",
+            "songName": "Ophelia"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 245,
+        "id": "opeETnB8m8w",
+        "details": {
+            "artist": "Cage The Elephant",
+            "songName": "Cigarette Daydreams"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 1,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 246,
+        "id": "GCdwKhTtNNw",
+        "details": {
+            "artist": "The Neighbourhood",
+            "songName": "Sweater Weather"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 1,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 247,
+        "id": "dX3k_QDnzHE",
+        "details": {
+            "artist": "M83",
+            "songName": "Midnight City"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 248,
+        "id": "VHrLPs3_1Fs",
+        "details": {
+            "artist": "George Ezra",
+            "songName": "Budapest"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 249,
+        "id": "TWcyIpul8OE",
+        "details": {
+            "artist": "Bon Iver",
+            "songName": "Holocene"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 3,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 250,
+        "id": "zMBTvuUlm98",
+        "details": {
+            "artist": "Florence + The Machine",
+            "songName": "Never Let Me Go"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 251,
+        "id": "iC-_lVzdiFE",
+        "details": {
+            "artist": "Florence + The Machine",
+            "songName": "Spectrum"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 252,
+        "id": "2EIeUlvHAiM",
+        "details": {
+            "artist": "Florence + The Machine",
+            "songName": "Cosmic Love"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 253,
+        "id": "rGKfrgqWcv0",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "I Will Wait"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 3,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 254,
+        "id": "8j741TUIET0",
+        "details": {
+            "artist": "X Ambassadors",
+            "songName": "Renegades"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 255,
+        "id": "aN5s9N_pTUs",
+        "details": {
+            "artist": "The Lumineers",
+            "songName": "Cleopatra"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 256,
+        "id": "mqiH0ZSkM9I",
+        "details": {
+            "artist": "James Bay",
+            "songName": "Hold Back The River"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 257,
+        "id": "VXXD1Qxpisw",
+        "details": {
+            "artist": "Vance Joy",
+            "songName": "Lay It On Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 258,
+        "id": "1C816p-KTNk",
+        "details": {
+            "artist": "Vance Joy",
+            "songName": "Mess is Mine"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 259,
+        "id": "AigOUsOEhSY",
+        "details": {
+            "artist": "Judah & the Lion",
+            "songName": "Suit and Jacket"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 260,
+        "id": "dW6SkvErFEE",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "Believe"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 261,
+        "id": "_m89rVfUn5s",
+        "details": {
+            "artist": "Sons Of The East",
+            "songName": "Into The Sun"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 262,
+        "id": "mHeK0Cwr9sg",
+        "details": {
+            "artist": "Family of the Year",
+            "songName": "Hero"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 263,
+        "id": "XUClIslXKZo",
+        "details": {
+            "artist": "Of Monsters And Men",
+            "songName": "Crystals"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 264,
+        "id": "UL_EXAyGCkw",
+        "details": {
+            "artist": "Sheppard",
+            "songName": "Geronimo"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 265,
+        "id": "OWlKZ6C7cDY",
+        "details": {
+            "artist": "Ben Howard",
+            "songName": "Only Love"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 1,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 266,
+        "id": "kMAzstG5O7E",
+        "details": {
+            "artist": "Echosmith",
+            "songName": "Bright"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 2,
+            "Country": 2,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 267,
+        "id": "W50zP8K04-E",
+        "details": {
+            "artist": "The Head and the Heart",
+            "songName": "All We Ever Knew"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 268,
+        "id": "zz0JXbwNUk8",
+        "details": {
+            "artist": "The Avett Brothers",
+            "songName": "Ain’t No Man"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 2,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 269,
+        "id": "1iAYhQsQhSY",
+        "details": {
+            "artist": "Nathaniel Rateliff & The Night Sweats",
+            "songName": "S.O.B."
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 2,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 270,
+        "id": "AYmlVPp_4TI",
+        "details": {
+            "artist": "James Bay",
+            "songName": "If You Ever Want To Be In Love"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 271,
+        "id": "_-PgPZ3F9P4",
+        "details": {
+            "artist": "Of Monsters and Men",
+            "songName": "Crystals"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 272,
+        "id": "B9v8jLBrvug",
+        "details": {
+            "artist": "Florence + The Machine",
+            "songName": "Ship To Wreck"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 273,
+        "id": "ilw-qmqZ5zY",
+        "details": {
+            "artist": "Lost Frequencies feat. Janieck Devy",
+            "songName": "Reality"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 274,
+        "id": "qQrgto184Tk",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Shots"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 275,
+        "id": "qt7ox1M_XG4",
+        "details": {
+            "artist": "Of Monsters And Men",
+            "songName": "Mountain Sound"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 276,
+        "id": "1LmX5c7HoUw",
+        "details": {
+            "artist": "The War on Drugs",
+            "songName": "Red Eyes"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 277,
+        "id": "MBqzrj18S2w",
+        "details": {
+            "artist": "Foster The People",
+            "songName": "Coming of Age"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 278,
+        "id": "ldk2pLyVZ4c",
+        "details": {
+            "artist": "Bleachers",
+            "songName": "Rollercoaster"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 279,
+        "id": "DKL4X0PZz7M",
+        "details": {
+            "artist": "First Aid Kit",
+            "songName": "My Silver Lining"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 280,
+        "id": "H4ifSrE8iSg",
+        "details": {
+            "artist": "George Ezra",
+            "songName": "Blame It on Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 2,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 281,
+        "id": "6tu4wWSbnIs",
+        "details": {
+            "artist": "X Ambassadors",
+            "songName": "Renegades"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 282,
+        "id": "dZX6Q-Bj_xg",
+        "details": {
+            "artist": "Passion Pit",
+            "songName": "Take a Walk"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 283,
+        "id": "F90Cw4l-8NY",
+        "details": {
+            "artist": "Bastille",
+            "songName": "Pompeii"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 284,
+        "id": "4ht80uzIhNs",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "I Bet My Life"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 285,
+        "id": "bPJSsAr2iu0",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Someone New"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 5,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 286,
+        "id": "Y56lpXvXbs0",
+        "details": {
+            "artist": "OneRepublic",
+            "songName": "Kids"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 287,
+        "id": "ZWCB3hpJDXM",
+        "details": {
+            "artist": "Bastille",
+            "songName": "Good Grief"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 288,
+        "id": "3tUh-x-fp8Q",
+        "details": {
+            "artist": "The Kooks",
+            "songName": "Bad Habit"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 289,
+        "id": "q31tGyBJhRY",
+        "details": {
+            "artist": "Calum Scott",
+            "songName": "Dancing On My Own"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 290,
+        "id": "Ek0SgwWmF9w",
+        "details": {
+            "artist": "Muse",
+            "songName": "Madness"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 291,
+        "id": "GsPq9mzFNGY",
+        "details": {
+            "artist": "James Bay",
+            "songName": "Let It Go"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 2,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 292,
+        "id": "_ZdsmLgCVdU",
+        "details": {
+            "artist": "Glass Animals",
+            "songName": "Youth"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 293,
+        "id": "Rl3ELiPXFRo",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "Gold"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 294,
+        "id": "scd-uNNxgrU",
+        "details": {
+            "artist": "Jaymes Young",
+            "songName": "I'll Be Good"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 295,
+        "id": "yI2oS2hoL0k",
+        "details": {
+            "artist": "Radiohead",
+            "songName": "Burn The Witch"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 296,
+        "id": "trbwqF0d7NA",
+        "details": {
+            "artist": "The 1975",
+            "songName": "A Change Of Heart"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 2,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 297,
+        "id": "Wm4CrOfbHMI",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Better Love"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 298,
+        "id": "m-nCLLnQA5c",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "Ruin"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 299,
+        "id": "nH7bjV0Q_44",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Work Song"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 5,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 300,
+        "id": "Y66j_BUCBMY",
+        "details": {
+            "artist": "American Authors",
+            "songName": "Best Day Of My Life"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 301,
+        "id": "cI0wUoCLnLk",
+        "details": {
+            "artist": "Hozier",
+            "songName": "From Eden"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 4,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 302,
+        "id": "v4pi1LxuDHc",
+        "details": {
+            "artist": "The Lumineers",
+            "songName": "Sleep On The Floor"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 303,
+        "id": "BdF41Ne2cnQ",
+        "details": {
+            "artist": "Kings Of Leon",
+            "songName": "WALLS"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 304,
+        "id": "SdSCCwtNEjA",
+        "details": {
+            "artist": "Hozier",
+            "songName": "Cherry Wine"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 5,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 305,
+        "id": "Iyy3YOpxL2k",
+        "details": {
+            "artist": "The 1975",
+            "songName": "Robbers"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 306,
+        "id": "Yj6V_a1-EUA",
+        "details": {
+            "artist": "Amber Run",
+            "songName": "I Found"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 307,
+        "id": "KkGVmN68ByU",
+        "details": {
+            "artist": "Shawn Mendes",
+            "songName": "Mercy"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 1,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 308,
+        "id": "oVslvM30EWI",
+        "details": {
+            "artist": "James Bay",
+            "songName": "Scars"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 309,
+        "id": "hNBlfyYHu80",
+        "details": {
+            "artist": "Niall Horan",
+            "songName": "This Town"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 2,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     }
 ]
