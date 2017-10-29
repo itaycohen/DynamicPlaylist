@@ -10848,5 +10848,3645 @@
             "hit": false,
             "trending": false
         }
+    },
+    {
+        "index": 310,
+        "id": "OrSadmwmmAs",
+        "details": {
+            "artist": "Yo Gotti",
+            "songName": "Rake It Up ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 311,
+        "id": "AsfVZqZhtUQ",
+        "details": {
+            "artist": "YBN Nahmir",
+            "songName": "Rubbin Off The Paint"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 312,
+        "id": "Ns167_llTiA",
+        "details": {
+            "artist": "Kodak Black",
+            "songName": "\"TRANSPORTIN\" Directed: By Kodak Black"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 313,
+        "id": "sV2t3tW_JTQ",
+        "details": {
+            "artist": "21 Savage",
+            "songName": "Bank Account"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 314,
+        "id": "_EyZUTDAH0U",
+        "details": {
+            "artist": "Travis Scott",
+            "songName": "Butterfly Effect"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 315,
+        "id": "5XK4v2fgMPU",
+        "details": {
+            "artist": "KYLE",
+            "songName": "iSpy (feat. Lil Yachty)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 316,
+        "id": "2DBBb3_p8eg",
+        "details": {
+            "artist": "Future",
+            "songName": "You Da Baddest ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 317,
+        "id": "K3uMMjZGhnI",
+        "details": {
+            "artist": "YoungBoy Never Broke Again",
+            "songName": "No Smoke"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 318,
+        "id": "XZl5YfGL3Qk",
+        "details": {
+            "artist": "Kodak Black",
+            "songName": "Patty Cake"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 319,
+        "id": "JzSUgOmP66Q",
+        "details": {
+            "artist": "Kodak Black",
+            "songName": "Tunnel Vision"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 320,
+        "id": "qxGapEwtq6g",
+        "details": {
+            "artist": "Wiz Khalifa",
+            "songName": "Something New feat. Ty Dolla $ign"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 321,
+        "id": "ipM9SkIkwCY",
+        "details": {
+            "artist": "YoungBoy Never Broke Again",
+            "songName": "Untouchable"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 322,
+        "id": "oCveByMXd_0",
+        "details": {
+            "artist": "Playboi Carti",
+            "songName": "Magnolia"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 323,
+        "id": "QoRgUlKxZ8M",
+        "details": {
+            "artist": "Kodak Black",
+            "songName": "First Day Out"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 324,
+        "id": "a2v_zGWawP0",
+        "details": {
+            "artist": "Zay Hilfigerrr & Zayion McCall",
+            "songName": "Juju On That Beat"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 325,
+        "id": "6Prfg3vyZkA",
+        "details": {
+            "artist": "Lil Pump",
+            "songName": "D Rose"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 326,
+        "id": "HeyfOEb7ET0",
+        "details": {
+            "artist": "Migos",
+            "songName": "Get Right Witcha"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 327,
+        "id": "1VUa99-tJqs",
+        "details": {
+            "artist": "Migos",
+            "songName": "T-Shirt"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 328,
+        "id": "obWywMv-N4k",
+        "details": {
+            "artist": "Future",
+            "songName": "PIE ft. Chris Brown"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 329,
+        "id": "LgbxbSSybmM",
+        "details": {
+            "artist": "Playboi Carti",
+            "songName": "Magnolia"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 330,
+        "id": "exbj5VQ_0Mg",
+        "details": {
+            "artist": "Migos",
+            "songName": "Call Casting"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 331,
+        "id": "HnCiU8mcPWs",
+        "details": {
+            "artist": "Kodak Black",
+            "songName": "Too Many Years (feat. PNB Rock)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 332,
+        "id": "K44j-sb1SRY",
+        "details": {
+            "artist": "DRAM",
+            "songName": "Broccoli feat. Lil Yachty"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 333,
+        "id": "zqflC-as2Qo",
+        "details": {
+            "artist": "Lil Uzi Vert",
+            "songName": "Do What I Want"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 334,
+        "id": "ZvUBGN4KoP0",
+        "details": {
+            "artist": "Young Thug, 2 Chainz, Wiz Khalifa & PnB",
+            "songName": "Gang Up"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 335,
+        "id": "vxCrqtdEXAA",
+        "details": {
+            "artist": "Migos",
+            "songName": "Deadz feat. 2 Chainz"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 336,
+        "id": "mH76VvWkNwA",
+        "details": {
+            "artist": "Chris Brown",
+            "songName": "Questions"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 337,
+        "id": "Dlh-dzB2U4Y",
+        "details": {
+            "artist": "Kendrick Lamar",
+            "songName": "LOYALTY. ft. Rihanna"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 338,
+        "id": "_EyZUTDAH0U",
+        "details": {
+            "artist": "Travis Scott",
+            "songName": "Butterfly Effect"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 339,
+        "id": "glaG64Ao7sM",
+        "details": {
+            "artist": "Kendrick Lamar",
+            "songName": "ELEMENT."
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 340,
+        "id": "Kp7eSUU9oy8",
+        "details": {
+            "artist": "Childish Gambino",
+            "songName": "Redbone"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 5,
+            "Rap": 1,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 4,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 341,
+        "id": "-59jGD4WrmE",
+        "details": {
+            "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons w/ Logic & Ty Dolla $ign ft X Ambassadors",
+            "songName": "Sucker for Pain"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 342,
+        "id": "Z9eMk051dYg",
+        "details": {
+            "artist": "Chris Brown",
+            "songName": "Party ft. Gucci Mane, Usher"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 343,
+        "id": "3j8ecF8Wt4E",
+        "details": {
+            "artist": "Aminé",
+            "songName": "Caroline"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 344,
+        "id": "JZjAg6fK-BQ",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Reminder"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 5,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 345,
+        "id": "QpbQ4I3Eidg",
+        "details": {
+            "artist": "Machine Gun Kelly, Camila Cabello",
+            "songName": "Bad Things"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 346,
+        "id": "6wtwpUwxQik",
+        "details": {
+            "artist": "21 Savage & Metro Boomin",
+            "songName": "No Heart"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 347,
+        "id": "bqlzoxTvOkE",
+        "details": {
+            "artist": "Migos",
+            "songName": "What The Price"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 348,
+        "id": "OnhXkCPMeMc",
+        "details": {
+            "artist": "Future",
+            "songName": "Draco"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 349,
+        "id": "0TxcJ3Ud-To",
+        "details": {
+            "artist": "Lil Uzi Vert, Quavo & Travis Scott",
+            "songName": "Go Off"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 350,
+        "id": "oorK4RPgZ8Q",
+        "details": {
+            "artist": "Russ",
+            "songName": "What They Want"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 351,
+        "id": "LAYgZEMMWxo",
+        "details": {
+            "artist": "Kehlani",
+            "songName": "Gangsta"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 4,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 352,
+        "id": "sxjC4CNG3_c",
+        "details": {
+            "artist": "Logic",
+            "songName": "Black SpiderMan ft. Damian Lemar Hudson"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 353,
+        "id": "tQjsAJhsSw8",
+        "details": {
+            "artist": "Post Malone",
+            "songName": "Go Flex"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 354,
+        "id": "phr1pOFK1V8",
+        "details": {
+            "artist": "Big Sean",
+            "songName": "Bounce Back"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 355,
+        "id": "vqW18C4plZ8",
+        "details": {
+            "artist": "WizKid",
+            "songName": "Come Closer ft. Drake"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 356,
+        "id": "nIEUJouS_Ig",
+        "details": {
+            "artist": "Kodak Black",
+            "songName": "There He Go"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 357,
+        "id": "ZkqyIoYAXV8",
+        "details": {
+            "artist": "Skrillex & Rick Ross",
+            "songName": "Purple Lamborghini"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 358,
+        "id": "_xGhK6qgPtM",
+        "details": {
+            "artist": "DJ Khaled",
+            "songName": "Do You Mind"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 359,
+        "id": "diW6jXhLE0E",
+        "details": {
+            "artist": "The Weeknd",
+            "songName": "Party Monster"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 4,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 360,
+        "id": "SZDmuHSqwtg",
+        "details": {
+            "artist": "Future",
+            "songName": "Used to This ft. Drake"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 361,
+        "id": "zmFm9Yp80dE",
+        "details": {
+            "artist": "Travis Scott",
+            "songName": "beibs in the trap ft. NAV"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 362,
+        "id": "SpXw0qiy3Wo",
+        "details": {
+            "artist": "21 Savage & Metro Boomin",
+            "songName": "X"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 363,
+        "id": "55iN4H6kRN4",
+        "details": {
+            "artist": "Lil Uzi Vert",
+            "songName": "You Was Right"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 364,
+        "id": "gVf_4Ns3qLU",
+        "details": {
+            "artist": "Young M.A",
+            "songName": "OOOUUU"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 365,
+        "id": "E5ONTXHS2mM",
+        "details": {
+            "artist": "Desiigner",
+            "songName": "Panda"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 366,
+        "id": "251cxou3yR4",
+        "details": {
+            "artist": "Lil Yachty",
+            "songName": "1 NIGHT"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 367,
+        "id": "hXs1fWCgOW4",
+        "details": {
+            "artist": "2 Chainz",
+            "songName": "Good Drank ft. Gucci Mane, Quavo"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 368,
+        "id": "P9rFeGAdX0A",
+        "details": {
+            "artist": "Tory Lanez",
+            "songName": "LUV"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 369,
+        "id": "wfN4PVaOU5Q",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Needed Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 5,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 4,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 370,
+        "id": "QxsmWxxouIM",
+        "details": {
+            "artist": "Beyoncé",
+            "songName": "Sorry"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 5,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 371,
+        "id": "jsbeemdD2rQ",
+        "details": {
+            "artist": "Fifth Harmony",
+            "songName": "All In My Head (Flex) ft. Fetty Wap"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 372,
+        "id": "BXhIT4MpRis",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Sledgehammer"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 5,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 373,
+        "id": "LHCob76kigA",
+        "details": {
+            "artist": "Lukas Graham",
+            "songName": "7 Years"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 4,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 374,
+        "id": "gdx7gN1UyX0",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Company"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 375,
+        "id": "HHP5MKgK0o8",
+        "details": {
+            "artist": "Selena Gomez",
+            "songName": "Kill Em With Kindness"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 376,
+        "id": "fk4BbF7B29w",
+        "details": {
+            "artist": "Adele",
+            "songName": "Send My Love (To Your New Lover)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 1,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 4,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 377,
+        "id": "BPNTC7uZYrI",
+        "details": {
+            "artist": "Coldplay",
+            "songName": "Up&Up"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 378,
+        "id": "qDRORgoZxZU",
+        "details": {
+            "artist": "Meghan Trainor",
+            "songName": "Me Too"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 379,
+        "id": "0GvLP2C2w9U",
+        "details": {
+            "artist": "J Balvin",
+            "songName": "Bobo"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 380,
+        "id": "1ekZEVeXwek",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Into You"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 381,
+        "id": "Pgmx7z49OEk",
+        "details": {
+            "artist": "Jennifer Lopez",
+            "songName": "Ain't Your Mama"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 382,
+        "id": "YBHQbu5rbdQ",
+        "details": {
+            "artist": "Fifth Harmony",
+            "songName": "Worth It ft. Kid Ink"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 383,
+        "id": "5Nrv5teMc9Y",
+        "details": {
+            "artist": "P!nk",
+            "songName": "Just Like Fire"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 384,
+        "id": "uuwfgXD8qV8",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Part Of Me"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 385,
+        "id": "wyK7YuwUWsU",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "New Romantics"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 386,
+        "id": "cMTAUr3Nm6I",
+        "details": {
+            "artist": "Meghan Trainor",
+            "songName": "NO"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 1,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 387,
+        "id": "OXWrjWDQh7Q",
+        "details": {
+            "artist": "OneRepublic",
+            "songName": "Wherever I Go"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 1,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 388,
+        "id": "HMUDVMiITOU",
+        "details": {
+            "artist": "DJ Snake, Lil Jon",
+            "songName": "Turn Down for What"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 389,
+        "id": "vjW8wmF5VWc",
+        "details": {
+            "artist": "Silentó",
+            "songName": "Watch Me (Whip/Nae Nae)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 390,
+        "id": "MoHnffhBwqs",
+        "details": {
+            "artist": "David Guetta ft. Zara Larsson",
+            "songName": "This One's For You"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 391,
+        "id": "kgUpRwMeRr4",
+        "details": {
+            "artist": "Little Mix",
+            "songName": "Hair ft. Sean Paul"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 392,
+        "id": "IvPT2QuCIOA",
+        "details": {
+            "artist": "DJ Snake",
+            "songName": "Middle ft. Bipolar Sunshine"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 393,
+        "id": "xFutjZEBTXs",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "DUELE EL CORAZON ft. Wisin"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 394,
+        "id": "5WL672bjJgM",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Let Me Love You ft. Lil Wayne"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 5,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 395,
+        "id": "bSfpSOBD30U",
+        "details": {
+            "artist": "G-Eazy x Bebe Rexha",
+            "songName": "Me, Myself & I"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 396,
+        "id": "5yXQJBU8A28",
+        "details": {
+            "artist": "Jonas Blue",
+            "songName": "Fast Car ft. Dakota"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 397,
+        "id": "vWaRiD5ym74",
+        "details": {
+            "artist": "DNCE",
+            "songName": "Cake By The Ocean"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 3,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 398,
+        "id": "XoiEkEuCWog",
+        "details": {
+            "artist": "Bebe Rexha",
+            "songName": "No Broken Hearts ft. Nicki Minaj"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 4,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 399,
+        "id": "fEOyePhElr4",
+        "details": {
+            "artist": "Dua Lipa",
+            "songName": "Hotter Than Hell"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 2
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 400,
+        "id": "2_wpOmM1d8w",
+        "details": {
+            "artist": "Benny Benassi & Chris Brown",
+            "songName": "Paradise"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 401,
+        "id": "e7eZUGB9HKU",
+        "details": {
+            "artist": "Major Lazer",
+            "songName": "Light It Up (feat. Nyla & Fuse ODG)"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 402,
+        "id": "ZhzN7-Q00KU",
+        "details": {
+            "artist": "Kygo",
+            "songName": "Raging ft. Kodaline"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 403,
+        "id": "Jwgf3wmiA04",
+        "details": {
+            "artist": "One Direction",
+            "songName": "Drag Me Down"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 404,
+        "id": "LrUvu1mlWco",
+        "details": {
+            "artist": "Miley Cyrus",
+            "songName": "We Can't Stop"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 405,
+        "id": "c6rP-YP4c5I",
+        "details": {
+            "artist": "Shakira",
+            "songName": "Try Everything"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 2,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 406,
+        "id": "IdneKLhsWOQ",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "Wildest Dreams"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 407,
+        "id": "KVGRN7Z7T1A",
+        "details": {
+            "artist": "Iggy Azalea",
+            "songName": "Team"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 408,
+        "id": "y2ak_oBeC-I",
+        "details": {
+            "artist": "Fat Joe, Remy Ma",
+            "songName": "All The Way Up ft. French Montana, Infared"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 409,
+        "id": "eBAHqRnSgRw",
+        "details": {
+            "artist": "Ariana Grande",
+            "songName": "Be Alright"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 1,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 410,
+        "id": "ShlW5plD_40",
+        "details": {
+            "artist": "Meghan Trainor",
+            "songName": "Dear Future Husband"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 411,
+        "id": "NmugSMBh_iI",
+        "details": {
+            "artist": "Maroon 5",
+            "songName": "Maps"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 412,
+        "id": "_EaPxw5exts",
+        "details": {
+            "artist": "ZAYN",
+            "songName": "BeFoUr"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 413,
+        "id": "yjmp8CoZBIo",
+        "details": {
+            "artist": "One Direction",
+            "songName": "History"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
     }
 ]

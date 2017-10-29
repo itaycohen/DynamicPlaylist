@@ -338,6 +338,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         } else if (angular.isUndefined(dataToParse.toptags) || dataToParse.toptags === '') {
             // alert("Error in Result - no toptags");
             textResult = "Error in Result - no toptags";
+        } else if (dataToParse.toptags.tag.length === 0) {
+            textResult = "empty toptags";
         } else {
             var genresScores = dataToParse.toptags.tag;
             for (var i = 0; i < genresScores.length; i++) {
