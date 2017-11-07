@@ -1,0 +1,64 @@
+<div flex layout="row" layout-align="space-between center">
+    <div layout="row" layout-align="space-around center">
+        <div class="genre-selector-container" layout="column" layout-align="center">
+            <div class="add-genre-button" layout="row">
+                <div class="plus-sign">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                        viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="13px" height="13px">
+                        <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z"
+                            fill="#FFFFFF" />
+                    </svg>
+                </div>
+                <div class="button-text">
+                    GENRES
+                </div>
+            </div>
+            <!-- we are using 'md-select' as placeholder for the user click of 'add genre' button -->
+            <md-select class="genre-selector-wrapper" data-md-container-class="selectGenreSelectorHeader" ng-model="$parent.selectedGenresNames"
+                md-on-close="clearSearchTerm()" ng-change="onGenreSelectorChange()" aria-label="Add Genre" multiple>
+
+
+                <md-select-header class="genre-selector-header">
+                    <input ng-model="searchTerm" type="search" placeholder="Search for a genre..." class="demo-header-searchbox md-text">
+                </md-select-header>
+                <md-optgroup label="allGenresNames">
+                    <md-option ng-click="onOptionClick(genre)" ng-value="genre" ng-repeat="genre in allGenresNames | filter:searchTerm" ng-disabled="isGenreDisabled(genre)">
+                        {{genre}}
+                    </md-option>
+                </md-optgroup>
+            </md-select>
+        </div>
+    </div>
+    <!-- <div class="tag-switchers-wrapper" layout="row" layout-align="end center">
+        <dp-tag-switcher tag-name="New"></dp-tag-switcher>
+        <dp-tag-switcher tag-name="Hit"></dp-tag-switcher>
+        <dp-tag-switcher tag-name="Trending"></dp-tag-switcher>
+    </div> -->
+
+    <div class="tag-switchers-wrapper" layout="row" layout-align="end center">
+        <!-- <div class="rounded-left-border"></div> -->
+        <dp-tag-switcher tag-name="New"></dp-tag-switcher>
+        <dp-tag-switcher tag-name="Hit"></dp-tag-switcher>
+        <dp-tag-switcher tag-name="Trending"></dp-tag-switcher>
+        <!-- <div class='buttons'>
+                    <a title='Title 1'>
+                      New
+                    </a>
+                    <a class='active' title='Title 2'>
+                      Hits
+                    </a>
+                    <a href='#' title='Title 3'>
+                      &#x2666;
+                    </a>
+                    <!-- <a href='#' title='Title 4'>
+                      &#x267A;
+                    </a> -->
+        <!-- </div> -->
+    </div>
+
+
+
+
+
+
+</div>

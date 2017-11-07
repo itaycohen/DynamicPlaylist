@@ -1,9 +1,12 @@
 <div flex class="genre-manager-wrapper" ng-class="getGenreManagerWarpperClass()" layout="column" layout-align="start center">
 
-<div flex class="genre-manager-container" layout="column" layout-align="start stretch">
-        
+    <div flex class="genre-manager-container" layout="column" layout-align="start stretch">
 
-    <div class="genre-selector-container" layout="column" layout-align="start start">
+
+        <!-- TODO - ADD TAGS -->
+        <!-- <div layout="row" layout-align="start center" ng-include src="getGenretManagerButtonsWrapperTemp()"></div> -->
+
+        <div class="genre-selector-container" layout="column" layout-align="start start">
         <div class="add-genre-button" layout="row">
             <div class="plus-sign">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
@@ -13,7 +16,7 @@
                 </svg>
                 </div>
             <div class="button-text">
-                ADD GENRE
+                GENRES
             </div>
         </div>
         <!-- we are using 'md-select' as placeholder for the user click of 'add genre' button -->
@@ -32,9 +35,9 @@
         </md-select>
     </div>
 
-    <div class="genre-widget-area" layout="column" layout-align="start stretch">
-        <dp-genre-widget ng-repeat="thisGenre in allGenresNames" genre={{thisGenre}} ng-if="shouldShowGenre(thisGenre)"></dp-genre-widget>
-    </div>
+        <div class="genre-widget-area" layout="column" layout-align="start stretch">
+            <dp-genre-widget ng-repeat="thisGenre in allGenresNames" genre={{thisGenre}} ng-if="shouldShowGenre(thisGenre)"></dp-genre-widget>
+        </div>
 
-</div>
+    </div>
 </div>
