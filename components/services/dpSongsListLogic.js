@@ -12,9 +12,13 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     // var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
     // var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
     var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    var allTagsNames = ["New", "Hit", "Trending"];
 
     var defaultGenresMap = [3, -1, -1, 3, -1, -1, -1, 3, -1, -1, -1, 3, -1, -1, -1, -1, -1, -1, -1, -1];
-    var LOCAL_STORAGE_KEY = 'mm-data-genres';
+    var LOCAL_STORAGE_GENRES_KEY = 'mm-data-genres';
+
+    var defaultTagsMap = [0, 0, 0]; // new, hit, trending
+    var LOCAL_STORAGE_TAGS_KEY = 'mm-data-tags';
 
     var service = {
         initCalcSongsList: initCalcSongsList,
@@ -24,19 +28,23 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         getUserGenresNames: getUserGenresNames,
         setSelectedGenresByNames: setSelectedGenresByNames,
         getWeightOfGenre: getWeightOfGenre,
+        getTagStateByName: getTagStateByName,
         geAllGenresNames: geAllGenresNames,
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
         updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
+        updateSongIndexesListByTagIfNeeded : updateSongIndexesListByTagIfNeeded,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
         updateSongsIndexesList: updateSongsIndexesList,
         // move
         getSongNameByIndex: getSongNameByIndex,
         getSongArtistByIndex: getSongArtistByIndex,
         updateWeightDistanceFactor: updateWeightDistanceFactor,
+        updateUserTagsMap : updateUserTagsMap,
 
-        storeUserGenresData: storeUserGenresData
+        storeUserGenresData: storeUserGenresData,
+        storeUserTagsData : storeUserTagsData
     };
     return service;
 
@@ -130,7 +138,15 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     }
 
+
+    // TODO - can move to different service - user data service 
     function initUserData() {
+        initUserGenresData();
+        initUserTagsData();
+    }
+
+    //TODO - unify 
+    function initUserGenresData() {
         //fallback if the user doesnt have localStorage
         $rootScope.userGenresMap = defaultGenresMap;
 
@@ -140,7 +156,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
             // window.onbeforeunload = storeUserGenresData;
 
             // Retrieve the users data.
-            var userGenresData = localStorage.getItem(LOCAL_STORAGE_KEY);
+            var userGenresData = localStorage.getItem(LOCAL_STORAGE_GENRES_KEY);
             if (typeof userGenresData !== 'undefined' && userGenresData != 'undefined' && userGenresData !== null) {
                 var userGenresDataArr;
                 try {
@@ -150,7 +166,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                         return;
                     } else {
                         // thu user has the an old data structure of userData
-                        setNewUserData();
+                        setNewUserGenresData();
                     }
                 } catch (e) {
                     console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresData);
@@ -158,19 +174,115 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                 // doc else - userGenresMap = defaultGenresMap;
             } else { //the user doesn't have the app data (mmData) - first login or clear cache
                 // setting the default genres for the user data 
-                setNewUserData();
+                setNewUserGenresData();
             }
         }
         //doc else  // No support
         // $rootScope.userGenresMap = defaultGenresMap;
     }
 
-    function setNewUserData() {
-        $rootScope.userGenresMap = defaultGenresMap;
-        var newUserGenresData = {};
-        newUserGenresData = JSON.stringify(defaultGenresMap);
+    function initUserTagsData() {
+        //fallback if the user doesnt have localStorage
+        $rootScope.userTagsMap = defaultTagsMap;
+
+        // user browser supports in localStorage
+        if (localStorage) {
+            //setting function for leaving the application
+            // window.onbeforeunload = storeUserTagsData;
+
+            // Retrieve the users data.
+            var userTagsData = localStorage.getItem(LOCAL_STORAGE_TAGS_KEY);
+            if (typeof userTagsData !== 'undefined' && userTagsData != 'undefined' && userTagsData !== null) { // TODO isObjectDefined
+                var userTagsDataArr;
+                try {
+                    userTagsDataArr = JSON.parse(userTagsData);
+                    if (isValidTagsData(userTagsDataArr)) {
+                        $rootScope.userTagsMap = userTagsDataArr;
+                        return;
+                    } else {
+                        // thu user has the an old data structure of userData
+                        setNewUserTagsData(); 
+                    }
+                } catch (e) {
+                    console.error("Error: " + e + " | Unable to parse local storage data. value: " + userTagsData);
+                }
+                // doc else - userTagsMap = defaultTagsMap;
+            } else { //the user doesn't have the app data (mmData) - first login or clear cache
+                // setting the default tags for the user data 
+                setNewUserTagsData();
+            }
+        }
+        //doc else  // No support
+        // $rootScope.userTagsMap = defaultTagsMap;
+    }
+
+    // replace all places and move to utils
+    function isObjectDefined(object) {
+        return typeof object !== 'undefined' && object != 'undefined' && object !== null;
+    }
+
+    function isValidGenresData(genresArr) {
+        return genresArr.length === allGenresNames.length;
+    }
+
+    function isValidTagsData(tagsArr) {
+        return tagsArr.length === allTagsNames.length;
+    }
+
+    //TODO - change to this one
+    function storeUserDataByType(dataType) {
+        var userDataToStore = {};
+        var localStorageKey;
+        if (dataType === "genres") {
+            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+            userDataToStore = JSON.stringify($rootScope.userGenresMap);
+        } else if (dataType === "tags"){
+            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+            userDataToStore = JSON.stringify($rootScope.userTagsMap);
+        }
         try {
-            localStorage.setItem(LOCAL_STORAGE_KEY, newUserGenresData);
+            localStorage.setItem(localStorageKey, userDataToStore);
+        }
+        catch (e) {
+            console.error("Error: " + e + " | Unable to set item to local storage data");
+        }
+    }
+
+    function storeUserGenresData() {
+        var userGenresDataToStore = JSON.stringify($rootScope.userGenresMap);
+        try {
+            localStorage.setItem(LOCAL_STORAGE_GENRES_KEY, userGenresDataToStore);
+        }
+        catch (e) {
+            console.error("Error: " + e + " | Unable to set genre map item to local storage data");
+        }
+    }
+
+    function storeUserTagsData() {
+        var userTagsDataToStore = JSON.stringify($rootScope.userTagsMap);
+        try {
+            localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, userTagsDataToStore);
+        }
+        catch (e) {
+            console.error("Error: " + e + " | Unable to set tags map item to local storage data");
+        }
+    }
+
+    //TODO - replace
+    function setNewUserDataByType(dataType) {
+        var localStorageKey;
+        var newUserDataToStore = {};
+        if (dataType === "genres") {
+            $rootScope.userGenresMap = defaultGenresMap;
+            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+            newUserDataToStore = JSON.stringify(defaultGenresMap);
+        } else if (dataType === "tags"){
+            $rootScope.userTagsMap = defaultTagsMap;
+            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+            newUserDataToStore = JSON.stringify(defaultTagsMap);
+        }
+        try {
+            localStorage.setItem(localStorageKey, newUserDataToStore);
         }
         catch (e) {
             console.error("Error: " + e + " | Unable to set item to local storage data");
@@ -178,19 +290,33 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return;
     }
 
-    function isValidGenresData(genresArr) {
-        return genresArr.length === allGenresNames.length;
-    }
 
-    function storeUserGenresData() {
-        var userGenresDataToStore = JSON.stringify($rootScope.userGenresMap);
+    function setNewUserGenresData() {
+        $rootScope.userGenresMap = defaultGenresMap;
+        var newUserGenresData = {};
+        newUserGenresData = JSON.stringify(defaultGenresMap);
         try {
-            localStorage.setItem(LOCAL_STORAGE_KEY, userGenresDataToStore);
+            localStorage.setItem(LOCAL_STORAGE_GENRES_KEY, newUserGenresData);
         }
         catch (e) {
             console.error("Error: " + e + " | Unable to set item to local storage data");
         }
+        return;
     }
+
+    function setNewUserTagsData() {
+        $rootScope.userTagsMap = defaultTagsMap;
+        var newUserTagsData = {};
+        newUserTagsData = JSON.stringify(defaultTagsMap);
+        try {
+            localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, newUserTagsData);
+        }
+        catch (e) {
+            console.error("Error: " + e + " | Unable to set item to local storage data");
+        }
+        return;
+    }
+
 
     function getSongsIndexesList() {
         return $rootScope.songsIndexesList;
@@ -207,6 +333,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         var songsListIndexes = Array.apply(null, { length: lengthOfRawSongsList }).map(Number.call, Number);
         // dpSongsListUtils.shuffle(songsListIndexes);
         $rootScope.songsIndexesList = songsListIndexes;
+        $rootScope.filteredSongsIndexesList = songsListIndexes;
     }
 
     // createGenreWeightsDistancesList
@@ -335,10 +462,11 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     // check if we can call this function only one time in the end
     function updateSongsIndexesList() {
 
-        // avoiding the case where the last played song is playing again
-        // var lastPlayedIndex = $rootScope.alreadyPlayedSongsIndexesListSingleCycle[$rootScope.alreadyPlayedSongsIndexesListSingleCycle.length - 1];
-
         var rawGenreWeightsDistancesList = $rootScope.genreWeightsDistancesList.slice();
+
+        //filter rawGenreWeightsDistancesList by tags
+        rawGenreWeightsDistancesList = filterRawGenreWeightsDistancesListByTags(rawGenreWeightsDistancesList);
+
         // array for genre weights distances OBJECTS that are smaller or equal to WeightDistanceFactor
         var lowerGenreWeightDistancesListToSort = [];
         // // array for genre weights distances INDEXES that are bigger than WeightDistanceFactor
@@ -405,6 +533,43 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         $rootScope.songsIndexesList = sortedGenreWeightsDistancesList;
     }
 
+    function filterRawGenreWeightsDistancesListByTags(rawGenreWeightsDistancesList) {
+        var currentUserTags = $rootScope.userTagsMap;
+        // if there is no need to filter songs we continue - e.g. user tags data is [0,0,0] - didnt click on any button
+        if (!needToFilter(currentUserTags)) {
+            return rawGenreWeightsDistancesList;
+        }
+        var rawSongList = $rootScope.rawSongsList;
+        var updatedRawGenreWeightsDistancesList = rawGenreWeightsDistancesList.filter(function(currentSong){
+            var currentSongTagData = rawSongList[currentSong.index].t;
+            return validateTagsOfSong(currentSongTagData, currentUserTags);
+        });
+        return updatedRawGenreWeightsDistancesList;
+    }
+
+    function validateTagsOfSong(currentSongTagData, currentUserTags) {
+        var aggBoolean = true;
+        for (var i = 0; i < currentUserTags.length; i++) {
+            var currentUserTagVal = currentUserTags[i];
+            // the user "wants" only new songs for example
+            if (currentUserTagVal === 1) {
+                // the song is new (tag = 1), if no (tag = 0) it will not be inside
+                aggBoolean = aggBoolean && currentSongTagData[getTagShortName(allTagsNames[i])] === 1;
+            }
+        }
+        // user tag is 0 - the song is inside
+        return aggBoolean;
+    } 
+
+    function needToFilter(userTags) {
+        for (var i = 0; i < userTags.length; i++) {
+            if (userTags[i] === 1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     //TODO - consider utils
     //TODO 5 - chnage method - is index in list
     function isIndexAlreadyPlayedInCycle(index) {
@@ -417,14 +582,57 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return $rootScope.rawSongsList[songIndex].id;
     }
 
+    function updateUserTagsMap(tagName, tagState) {
+        $rootScope.userTagsMap[allTagsNames.indexOf(tagName)] = convertBooleanToNum(tagState);
+    }
+
+    function updateSongIndexesListByTagIfNeeded(tagName, tagState) {
+
+        // console.log("new tag name: " + tagName + " new tagState " + tagState);
+
+        updateSongsIndexesList();
+
+        // var rawSongList = $rootScope.rawSongsList;
+        // var tagNumState = convertBooleanToNum(tagState);
+        // var tagShortName = getTagShortName(tagName);
+
+        // var updatedSongsIndexesList =  $rootScope.songsIndexesList.filter(function(songIndex){
+        //     var currentSongData = rawSongList[songIndex];
+        //     console.log("currentSongData: " + currentSongData);
+        //     var currentSongTagState = currentSongData.t[tagShortName];
+        //     return tagNumState === currentSongTagState;
+        //   });
+
+        //   $rootScope.songsIndexesList = updatedSongsIndexesList;
+
+
+
+    }
+
+    function getTagShortName(tagName) {
+        switch (tagName) {
+            case "New":
+                return "n";
+            case "Hit":
+                return "h";
+            case "Trending":
+                return "t";
+            default:
+                console.error("couldn't find tag short name | tag name: " + tagName);
+                return "n";
+        }
+    }
+
 
     function updateGenreWeightsDistancesList(genre, newWeightValue) {
+        // TODO - check if change was occur at all?
+
         // start of time stamp
         // var time0 = new Date();
         //printArrayWithObjToConsole($scope.genreWeightsDistancesList);
 
 
-        // TODO - remove to method - udate user genre map - check the '-1' update
+        // TODO - remove to method - udate user genre map - check the '-1' update!!!
         $rootScope.userGenresMap[allGenresNames.indexOf(genre)] = newWeightValue;
         updateWeightDistanceFactor();
 
@@ -541,7 +749,10 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     function getWeightOfGenre(genre) {
         return $rootScope.userGenresMap[allGenresNames.indexOf(genre)];
+    }
 
+    function getTagStateByName(tagName) {
+        return convertNumToBoolean($rootScope.userTagsMap[allTagsNames.indexOf(tagName)]);
     }
 
     function getWeightDistanceFactor() {
@@ -559,6 +770,18 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
                 updateGenreWeightsDistancesList(currentGenreName, -1);
             }
         }
+    }
+
+
+
+    // MOVE TO UTILS
+
+    function convertNumToBoolean(numVal) {
+        return numVal ? true : false;
+    }
+
+    function convertBooleanToNum(booleanVal) {
+        return booleanVal ? 1 : 0;
     }
 
 }

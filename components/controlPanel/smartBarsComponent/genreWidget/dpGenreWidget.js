@@ -4,17 +4,13 @@ angular
 
 dpGenreWidget.$inject = ["$rootScope", "dpSongsListLogic"];
 
-dpGenreWidgetManager.$inject = ['dpSongsListLogic'];
+// dpGenreWidgetManager.$inject = ['dpSongsListLogic'];
 
 function dpGenreWidget($rootScope, dpSongsListLogic) {
     var directive = {
         restrict: "E",
         scope: {
             genre: "@",
-            // TODO - Ticket 001 
-            //callback
-            changeHandler: "&"
-            // function & onValueChange 
         },
         // template: "<ng-include src='getTemplateUrl()'/>",
         templateUrl: "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidget.html",
@@ -31,14 +27,12 @@ function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
     $scope.widgetValue = dpSongsListLogic.getWeightOfGenre($scope.genre);
 
     $scope.onWidgetChange = function () {
-        // TODO - Ticket 001 
-        // $scope.changeHandler({genre: $scope.genre, widgetValue: $scope.widgetValue});
-        // $scope.changeHandler($scope.widgetValue);
+        // first we update the genre map
+        // TODO
         // updating dpGenreWidgetManager 
-        $scope.$parent.updateSongIndexesList($scope.genre, $scope.widgetValue);
+        $scope.$parent.updateSongIndexesListWithGenre($scope.genre, $scope.widgetValue);
         // we save the user genres data after each change
         dpSongsListLogic.storeUserGenresData();
-
     };
 
     $scope.getGenreContainerClass = function () {
@@ -57,14 +51,4 @@ function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
     //     return "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidgetLongVerticalScreen.html";
     // };
 
-    // TODO - Ticket 001 
-    // $scope.onWidgetChange = function() {
-    //     // updating dpGenreWidgetManager 
-    //     $rootScope.updateSongIndexesList($scope.genre, $scope.widgetValue);
-    // };
-    /* Reference
-$scope.onClick = function(values, $index, $event) {
-        $scope.data.onRowClick({values: values, $index: $index, $event: $event});
-};
-*/
 }

@@ -7,6 +7,7 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpYoutubeEmbedComponent',
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
+    'dpTagSwitcherComponent',
     'dpDynamicPlaylist'
 ]);
 

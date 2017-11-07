@@ -1,0 +1,163 @@
+.tag-switcher {
+    width: 111px;
+    height: 37px;
+    line-height: 38px;
+    // padding: 40px 30px 30px 30px;
+    // font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0 1px 0 0;
+    text-decoration: none;
+    text-align: center;
+    color: #7f8c8d;
+    //a675b3
+    cursor: pointer;
+    outline: none;
+    // background: #2c3e50;
+    background: #354c63;
+    // background-image: linear-gradient(#271739, #271739);
+    background-image: linear-gradient(#1f132e, #1f132e);
+    
+    // border-bottom: 4px solid #34495e;
+    border-bottom: 4px solid rgba(25, 46, 66, 0.78);
+    
+    
+    transition-property: border-bottom .6s linear 0s;
+    -moz-transition: border-bottom .6s linear 0s;
+    -webkit-transition: border-bottom .6s linear 0s;
+    -o-transition: border-bottom .6s linear 0s;
+}
+
+.tag-switcher.active {
+    border-bottom: 4px solid #13e3ed;
+    color: #13e3ed;
+  }
+
+
+    .switcher-text {
+    font-family: "Myriad_Pro_Regular";
+    text-transform: uppercase;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+  }
+
+
+
+// .tag-switcher-container {
+//     font-family: Arial, sans-serif;
+//     color: navy;
+//     font-weight: bold;
+//     font-size: 13px;
+//     padding-left: 14px;
+//     letter-spacing: 0.5px;
+//     width: 111px;
+//     line-height: 38px;
+//     height: 37px;
+//     min-height: 37px;
+//     border-radius: 15px;
+//     background: #D2DEF3;
+//     outline: none;
+//     margin-left: 6px;
+//     margin-right: 6px;
+//     // padding
+//     cursor: pointer;
+//     .plus-sign {
+//         padding-right: 6px;
+//         margin-top: 11px;
+//     }
+// }
+
+
+.not {
+
+
+.tag-switcher {
+    animation: bounceInDown 900ms 200ms ease-in-out both;
+    width: 120px;
+    height: 33px;
+    // position: absolute;
+    // top: 0;
+    text-decoration: none;
+    padding-top: 9px;
+    outline-width: 0px;
+    z-index: 990;
+    color: #a675b3;
+    text-align: center;
+    line-height: 18px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .switcher-text {
+    font-family: "Myriad_Pro_Regular";
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+  }
+
+  .tag-switcher:not(.active) {
+    box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+    background-image: linear-gradient(#3b2751, #271739);
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+  }
+
+  .tag-switcher:not(.active):hover,
+  .tag-switcher:not(.active):focus {
+    transition: color 200ms linear, text-shadow 500ms linear;
+    color: #caadd2;
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+  }
+
+  .tag-switcher:not(.active):active {
+    color: #13e3ed !important
+    //#60e8ef
+  }
+
+  .tag-switcher.active,
+  .tag-switcher:active {
+    box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(19, 227, 237, 0.78), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+    background-image: linear-gradient(#1f132e, #311d47);
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+    color: #13e3ed;
+  }
+
+  .tag-switcher.active:before,
+  .tag-switcher:active:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 1px;
+    height: 36px;
+    top: 1px;
+    left: -2px;
+    background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+    box-shadow: -2px 0 6px 0 #5b2369;
+  }
+
+  .tag-switcher.active:after,
+  .tag-switcher:active:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 1px;
+    height: 36px;
+    top: 1px;
+    right: -2px;
+    background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+    box-shadow: 2px 0 6px 0 #5b2369;
+  }
+
+  .tag-switcher.active {
+    z-index: 1000
+  }
+  
+  .tag-switcher:active {
+    z-index: 999
+  }
+}

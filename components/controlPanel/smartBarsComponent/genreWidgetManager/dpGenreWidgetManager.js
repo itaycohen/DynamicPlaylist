@@ -65,16 +65,14 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         ev.stopPropagation();
     });
 
-    // TODO - Ticket 001 
-    // $scope.updateSongIndexesList = function (widgetObject) {
-    //     $scope.updateGenreWeightsDistancesList(widgetObject.genre, widgetObject.widgetValue);
-    // };
-
-    $scope.updateSongIndexesList = function (genre, widgetValue) {
+    $scope.updateSongIndexesListWithGenre = function (genre, widgetValue) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
-        // we save the user genres data after each change
-        dpSongsListLogic.storeUserGenresData();
     };
+
+    $scope.updateSongIndexesListWithTagName = function (tagName, tagState) {
+        dpSongsListLogic.updateSongIndexesListByTagIfNeeded(tagName, tagState);
+    };
+    
 
     $scope.getGenreManagerWarpperClass = function () {
         if (dpAppUtils.isDesktop()) {
@@ -82,5 +80,16 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         }
         return "genre-manager-wrapper-vertical";
     };
+
+    $scope.getGenretManagerButtonsWrapperTemp = function () {
+		if (dpAppUtils.isMobile()) {
+            return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperSmall.html";
+            // return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
+            
+		}
+        return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
+	};
+
+    
 
 }

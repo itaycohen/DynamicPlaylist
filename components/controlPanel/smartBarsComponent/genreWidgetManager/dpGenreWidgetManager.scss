@@ -13,7 +13,7 @@
             font-size: 13px;
             padding-left: 14px;
             letter-spacing: 0.5px;
-            width: 132px;
+            width: 111px;
             line-height: 38px;
             height: 37px;
             min-height: 37px;
@@ -30,7 +30,7 @@
         }
         .genre-selector-wrapper {
             margin: -43px 0 0 0; // background: red;
-            width: 136px;
+            width: 125px;
             height: 47px;
             min-height: 47px;
             .md-select-value {
@@ -134,3 +134,66 @@ md-select-menu {
     max-height: 440px;
 }
 
+// .tag-switchers-wrapper dp-tag-switcher:first-child  {
+//     .tag-switcher {
+//         border-radius: 14px 0 0 14px;
+//     }
+// }
+
+// .tag-switchers-wrapper dp-tag-switcher:last-child  {
+//     .tag-switcher {
+//         border-radius: 0 14px 14px 0;
+//     }
+// }
+
+
+.tag-switchers-wrapper {
+    // white-space: nowrap;
+    // min-height: 33px;
+    // position: relative;
+    // width: 205px;
+    // margin: 0 auto;
+}
+
+// .rounded-left-border {
+//     width: 10px;
+//     height: 37px;
+//     background: #2c3e50;
+// }
+
+.tag-switchers-wrapper dp-tag-switcher {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    // zoom: 1;
+    // background: #7f8c8d;
+  }
+
+//   .tag-switchers-wrapper dp-tag-switcher .tag-switcher {
+//     float: left;
+//     margin-left: -4px;
+//   }
+
+  .tag-switchers-wrapper>.dp-tag-switcher:first-child,
+  .tag-switchers-wrapper dp-tag-switcher:first-child .tag-switcher {
+    // margin-left: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  
+  .tag-switchers-wrapper>.tag-switcher:last-child,
+  .tag-switchers-wrapper dp-tag-switcher:last-child>.tag-switcher {
+    // margin-right: 0;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  
