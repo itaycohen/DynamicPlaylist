@@ -57,6 +57,8 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         // update the number WeightDistanceFactor
         dpSongsListLogic.updateWeightDistanceFactor();
         dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
+        // we save the user genres data after each genre adding/removing
+        dpSongsListLogic.setNewUserGenresAndTagsData();
     };
 
     // The md-select directive eats keydown events for some quick select
@@ -67,10 +69,14 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     $scope.updateSongIndexesListWithGenre = function (genre, widgetValue) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
+        // we save the user genres data after each change
+        dpSongsListLogic.setNewUserGenresAndTagsData();
     };
 
     $scope.updateSongIndexesListWithTagName = function (tagName, tagState) {
         dpSongsListLogic.updateSongIndexesListByTagIfNeeded(tagName, tagState);
+        // we save the user genres data after each change
+        dpSongsListLogic.setNewUserGenresAndTagsData();
     };
     
 
