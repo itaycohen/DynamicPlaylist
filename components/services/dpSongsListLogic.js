@@ -14,11 +14,16 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
     var allTagsNames = ["New", "Hit", "Trending"];
 
-    var defaultGenresMap = [3, -1, -1, 3, -1, -1, -1, 3, -1, -1, -1, 3, -1, -1, -1, -1, -1, -1, -1, -1];
+    var defaultGenresMap = [3, -1, -1, 2, -1, -1, -1, 3, -1, -1, -1, 4, -1, -1, -1, -1, -1, -1, -1, -1];
     var LOCAL_STORAGE_GENRES_KEY = 'mm-data-genres';
 
     var defaultTagsMap = [0, 0, 0]; // new, hit, trending
     var LOCAL_STORAGE_TAGS_KEY = 'mm-data-tags';
+
+    var LOCAL_STORAGE_GENRES_AND_TAGS_KEY = 'mm-data-genrestags';
+    
+
+
 
     var service = {
         initCalcSongsList: initCalcSongsList,
@@ -43,8 +48,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         updateWeightDistanceFactor: updateWeightDistanceFactor,
         updateUserTagsMap : updateUserTagsMap,
 
-        storeUserGenresData: storeUserGenresData,
-        storeUserTagsData : storeUserTagsData
+        setNewUserGenresAndTagsData: setNewUserGenresAndTagsData
     };
     return service;
 
@@ -138,87 +142,147 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     }
 
-
     // TODO - can move to different service - user data service 
     function initUserData() {
-        initUserGenresData();
-        initUserTagsData();
+        // initUserGenresData();
+        // initUserTagsData();
+        if (isNavigationByUrlParams()) {
+            var videoGenreAndTagsPairArr = getVideoGenreAndTagsPairArr();
+            initUserDataWithValues(videoGenreAndTagsPairArr, true);
+        } else {
+            initUserDataWithValues([defaultGenresMap, defaultTagsMap], false);
+        }
     }
 
-    //TODO - unify 
-    function initUserGenresData() {
+    function isNavigationByUrlParams() {
+        return false;
+    }
+
+    function initUserDataWithValues(genreAndTagsPairArr, isUrlWithParams) {
         //fallback if the user doesnt have localStorage
-        $rootScope.userGenresMap = defaultGenresMap;
+        $rootScope.userGenresMap = genreAndTagsPairArr[0];
+        $rootScope.userTagsMap = genreAndTagsPairArr[1];
 
         // user browser supports in localStorage
         if (localStorage) {
+            // TODO 
+            // cleanHistoricDataStructure();
             //setting function for leaving the application
             // window.onbeforeunload = storeUserGenresData;
 
-            // Retrieve the users data.
-            var userGenresData = localStorage.getItem(LOCAL_STORAGE_GENRES_KEY);
-            if (typeof userGenresData !== 'undefined' && userGenresData != 'undefined' && userGenresData !== null) {
-                var userGenresDataArr;
-                try {
-                    userGenresDataArr = JSON.parse(userGenresData);
-                    if (isValidGenresData(userGenresDataArr)) {
-                        $rootScope.userGenresMap = userGenresDataArr;
-                        return;
-                    } else {
-                        // thu user has the an old data structure of userData
-                        setNewUserGenresData();
+            // the user didnt have video id as url params - regular flow
+            if (!isUrlWithParams) {
+                // Retrieve the users data.
+                var userGenresAndTagsDataStr = localStorage.getItem(LOCAL_STORAGE_GENRES_AND_TAGS_KEY);
+                if (isObjectDefined(userGenresAndTagsDataStr)) {
+                    var userGenresAndTagsDataObj;
+                    try {
+                        userGenresAndTagsDataObj = JSON.parse(userGenresAndTagsDataStr);
+                        if (isValidUserGenresAndTagsDataObj(userGenresAndTagsDataObj)) {
+                            $rootScope.userGenresMap = userGenresAndTagsDataObj.genres;
+                            $rootScope.userTagsMap = userGenresAndTagsDataObj.tags;
+                            return;
+                        } else {
+                            // thu user has the an old data structure of userData
+                            setNewUserGenresAndTagsData();
+                        }
+                    } catch (e) {
+                        console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresAndTagsDataStr);
                     }
-                } catch (e) {
-                    console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresData);
-                }
-                // doc else - userGenresMap = defaultGenresMap;
-            } else { //the user doesn't have the app data (mmData) - first login or clear cache
-                // setting the default genres for the user data 
-                setNewUserGenresData();
+                    // doc else - userGenresMap = defaultGenresMap;
+                } // doc else no user data setNewUserGenresData();
             }
-        }
-        //doc else  // No support
+            // 1. the user uses video id in url params -> need to store new data OR
+            // 2. the user doesn't have the app data (mmData) - first login or clear cache 
+            //    setting the default genres for the user data 
+            setNewUserGenresAndTagsData();
+        }         //doc else  // No support
         // $rootScope.userGenresMap = defaultGenresMap;
     }
 
-    function initUserTagsData() {
-        //fallback if the user doesnt have localStorage
-        $rootScope.userTagsMap = defaultTagsMap;
 
-        // user browser supports in localStorage
-        if (localStorage) {
-            //setting function for leaving the application
-            // window.onbeforeunload = storeUserTagsData;
 
-            // Retrieve the users data.
-            var userTagsData = localStorage.getItem(LOCAL_STORAGE_TAGS_KEY);
-            if (typeof userTagsData !== 'undefined' && userTagsData != 'undefined' && userTagsData !== null) { // TODO isObjectDefined
-                var userTagsDataArr;
-                try {
-                    userTagsDataArr = JSON.parse(userTagsData);
-                    if (isValidTagsData(userTagsDataArr)) {
-                        $rootScope.userTagsMap = userTagsDataArr;
-                        return;
-                    } else {
-                        // thu user has the an old data structure of userData
-                        setNewUserTagsData(); 
-                    }
-                } catch (e) {
-                    console.error("Error: " + e + " | Unable to parse local storage data. value: " + userTagsData);
-                }
-                // doc else - userTagsMap = defaultTagsMap;
-            } else { //the user doesn't have the app data (mmData) - first login or clear cache
-                // setting the default tags for the user data 
-                setNewUserTagsData();
-            }
-        }
-        //doc else  // No support
-        // $rootScope.userTagsMap = defaultTagsMap;
-    }
+
+    //TODO - unify 
+    // function initUserGenresData() {
+    //     //fallback if the user doesnt have localStorage
+    //     $rootScope.userGenresMap = defaultGenresMap;
+
+    //     // user browser supports in localStorage
+    //     if (localStorage) {
+    //         //setting function for leaving the application
+    //         // window.onbeforeunload = storeUserGenresData;
+
+    //         // Retrieve the users data.
+    //         var userGenresData = localStorage.getItem(LOCAL_STORAGE_GENRES_KEY);
+    //         if (isObjectDefined(userGenresData)) {
+    //             var userGenresDataArr;
+    //             try {
+    //                 userGenresDataArr = JSON.parse(userGenresData);
+    //                 if (isValidGenresData(userGenresDataArr)) {
+    //                     $rootScope.userGenresMap = userGenresDataArr;
+    //                     return;
+    //                 } else {
+    //                     // thu user has the an old data structure of userData
+    //                     setNewUserGenresAndTagsData();
+    //                 }
+    //             } catch (e) {
+    //                 console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresData);
+    //             }
+    //             // doc else - userGenresMap = defaultGenresMap;
+    //         } else { //the user doesn't have the app data (mmData) - first login or clear cache
+    //             // setting the default genres for the user data 
+    //             setNewUserGenresAndTagsData();
+    //         }
+    //     }
+    //     //doc else  // No support
+    //     // $rootScope.userGenresMap = defaultGenresMap;
+    // }
+
+    // function initUserTagsData() {
+    //     //fallback if the user doesnt have localStorage
+    //     $rootScope.userTagsMap = defaultTagsMap;
+
+    //     // user browser supports in localStorage
+    //     if (localStorage) {
+    //         //setting function for leaving the application
+    //         // window.onbeforeunload = setNewUserGenresAndTagsData;
+
+    //         // Retrieve the users data.
+    //         var userTagsData = localStorage.getItem(LOCAL_STORAGE_TAGS_KEY);
+    //         if (isObjectDefined(userTagsData)) { // TODO isObjectDefined
+    //         // if (typeof userTagsData !== 'undefined' && userTagsData != 'undefined' && userTagsData !== null) { // TODO isObjectDefined
+    //             var userTagsDataArr;
+    //             try {
+    //                 userTagsDataArr = JSON.parse(userTagsData);
+    //                 if (isValidTagsData(userTagsDataArr)) {
+    //                     $rootScope.userTagsMap = userTagsDataArr;
+    //                     return;
+    //                 } else {
+    //                     // thu user has the an old data structure of userData
+    //                     setNewUserTagsData(); 
+    //                 }
+    //             } catch (e) {
+    //                 console.error("Error: " + e + " | Unable to parse local storage data. value: " + userTagsData);
+    //             }
+    //             // doc else - userTagsMap = defaultTagsMap;
+    //         } else { //the user doesn't have the app data (mmData) - first login or clear cache
+    //             // setting the default tags for the user data 
+    //             setNewUserTagsData();
+    //         }
+    //     }
+    //     //doc else  // No support
+    //     // $rootScope.userTagsMap = defaultTagsMap;
+    // }
 
     // replace all places and move to utils
     function isObjectDefined(object) {
         return typeof object !== 'undefined' && object != 'undefined' && object !== null;
+    }
+
+    function isValidUserGenresAndTagsDataObj(dataObj) {
+        return isValidGenresData(dataObj.genres) && isValidTagsData(dataObj.tags);
+
     }
 
     function isValidGenresData(genresArr) {
@@ -230,59 +294,73 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     }
 
     //TODO - change to this one
-    function storeUserDataByType(dataType) {
-        var userDataToStore = {};
-        var localStorageKey;
-        if (dataType === "genres") {
-            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
-            userDataToStore = JSON.stringify($rootScope.userGenresMap);
-        } else if (dataType === "tags"){
-            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
-            userDataToStore = JSON.stringify($rootScope.userTagsMap);
-        }
-        try {
-            localStorage.setItem(localStorageKey, userDataToStore);
-        }
-        catch (e) {
-            console.error("Error: " + e + " | Unable to set item to local storage data");
-        }
-    }
+    // function storeUserDataByType(dataType) {
+    //     var userDataToStore = {};
+    //     var localStorageKey;
+    //     if (dataType === "genres") {
+    //         localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+    //         userDataToStore = JSON.stringify($rootScope.userGenresMap);
+    //     } else if (dataType === "tags"){
+    //         localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+    //         userDataToStore = JSON.stringify($rootScope.userTagsMap);
+    //     }
+    //     try {
+    //         localStorage.setItem(localStorageKey, userDataToStore);
+    //     }
+    //     catch (e) {
+    //         console.error("Error: " + e + " | Unable to set item to local storage data");
+    //     }
+    // }
 
-    function storeUserGenresData() {
-        var userGenresDataToStore = JSON.stringify($rootScope.userGenresMap);
-        try {
-            localStorage.setItem(LOCAL_STORAGE_GENRES_KEY, userGenresDataToStore);
-        }
-        catch (e) {
-            console.error("Error: " + e + " | Unable to set genre map item to local storage data");
-        }
-    }
+    // function storeUserGenresData() {
+    //     var userGenresDataToStore = JSON.stringify($rootScope.userGenresMap);
+    //     try {
+    //         localStorage.setItem(LOCAL_STORAGE_GENRES_KEY, userGenresDataToStore);
+    //     }
+    //     catch (e) {
+    //         console.error("Error: " + e + " | Unable to set genre map item to local storage data");
+    //     }
+    // }
 
-    function storeUserTagsData() {
-        var userTagsDataToStore = JSON.stringify($rootScope.userTagsMap);
-        try {
-            localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, userTagsDataToStore);
-        }
-        catch (e) {
-            console.error("Error: " + e + " | Unable to set tags map item to local storage data");
-        }
-    }
+    // function storeUserTagsData() {
+    //     var userTagsDataToStore = JSON.stringify($rootScope.userTagsMap);
+    //     try {
+    //         localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, userTagsDataToStore);
+    //     }
+    //     catch (e) {
+    //         console.error("Error: " + e + " | Unable to set tags map item to local storage data");
+    //     }
+    // }
 
     //TODO - replace
-    function setNewUserDataByType(dataType) {
-        var localStorageKey;
-        var newUserDataToStore = {};
-        if (dataType === "genres") {
-            $rootScope.userGenresMap = defaultGenresMap;
-            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
-            newUserDataToStore = JSON.stringify(defaultGenresMap);
-        } else if (dataType === "tags"){
-            $rootScope.userTagsMap = defaultTagsMap;
-            localStorageKey = LOCAL_STORAGE_GENRES_KEY;
-            newUserDataToStore = JSON.stringify(defaultTagsMap);
-        }
+    // function setNewUserDataByType(dataType) {
+    //     var localStorageKey;
+    //     var newUserDataToStore = {};
+    //     if (dataType === "genres") {
+    //         $rootScope.userGenresMap = defaultGenresMap;
+    //         localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+    //         newUserDataToStore = JSON.stringify(defaultGenresMap);
+    //     } else if (dataType === "tags"){
+    //         $rootScope.userTagsMap = defaultTagsMap;
+    //         localStorageKey = LOCAL_STORAGE_GENRES_KEY;
+    //         newUserDataToStore = JSON.stringify(defaultTagsMap);
+    //     }
+    //     try {
+    //         localStorage.setItem(localStorageKey, newUserDataToStore);
+    //     }
+    //     catch (e) {
+    //         console.error("Error: " + e + " | Unable to set item to local storage data");
+    //     }
+    //     return;
+    // }
+
+
+    function setNewUserGenresAndTagsData() {
+        var newUserGenreAndTagsData = {};
+        newUserGenreAndTagsData.genres = $rootScope.userGenresMap;
+        newUserGenreAndTagsData.tags = $rootScope.userTagsMap;
         try {
-            localStorage.setItem(localStorageKey, newUserDataToStore);
+            localStorage.setItem(LOCAL_STORAGE_GENRES_AND_TAGS_KEY, JSON.stringify(newUserGenreAndTagsData));
         }
         catch (e) {
             console.error("Error: " + e + " | Unable to set item to local storage data");
@@ -290,32 +368,18 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return;
     }
 
-
-    function setNewUserGenresData() {
-        $rootScope.userGenresMap = defaultGenresMap;
-        var newUserGenresData = {};
-        newUserGenresData = JSON.stringify(defaultGenresMap);
-        try {
-            localStorage.setItem(LOCAL_STORAGE_GENRES_KEY, newUserGenresData);
-        }
-        catch (e) {
-            console.error("Error: " + e + " | Unable to set item to local storage data");
-        }
-        return;
-    }
-
-    function setNewUserTagsData() {
-        $rootScope.userTagsMap = defaultTagsMap;
-        var newUserTagsData = {};
-        newUserTagsData = JSON.stringify(defaultTagsMap);
-        try {
-            localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, newUserTagsData);
-        }
-        catch (e) {
-            console.error("Error: " + e + " | Unable to set item to local storage data");
-        }
-        return;
-    }
+    // function setNewUserTagsData() {
+    //     $rootScope.userTagsMap = defaultTagsMap;
+    //     var newUserTagsData = {};
+    //     newUserTagsData = JSON.stringify(defaultTagsMap);
+    //     try {
+    //         localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, newUserTagsData);
+    //     }
+    //     catch (e) {
+    //         console.error("Error: " + e + " | Unable to set item to local storage data");
+    //     }
+    //     return;
+    // }
 
 
     function getSongsIndexesList() {

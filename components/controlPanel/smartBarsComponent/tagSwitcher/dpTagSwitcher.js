@@ -41,8 +41,6 @@ function dpTagSwitcherController($scope, dpSongsListLogic, dpAppUtils) {
         dpSongsListLogic.updateUserTagsMap($scope.tagName, $scope.tagState);
         // updating dpGenreWidgetManager 
         $scope.$parent.updateSongIndexesListWithTagName($scope.tagName, $scope.tagState);
-        // we save the user tags data after each change
-        dpSongsListLogic.storeUserTagsData();
     };
 
     function switchTagState(tagState) {

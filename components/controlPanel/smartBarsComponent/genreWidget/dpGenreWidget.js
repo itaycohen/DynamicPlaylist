@@ -31,8 +31,6 @@ function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
         // TODO
         // updating dpGenreWidgetManager 
         $scope.$parent.updateSongIndexesListWithGenre($scope.genre, $scope.widgetValue);
-        // we save the user genres data after each change
-        dpSongsListLogic.storeUserGenresData();
     };
 
     $scope.getGenreContainerClass = function () {
