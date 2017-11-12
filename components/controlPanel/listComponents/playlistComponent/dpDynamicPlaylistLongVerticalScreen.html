@@ -18,7 +18,7 @@
         </md-list-item>
 
         <div class="playlist-title sub-title"> Next Up </div>
-        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:10" ng-click="playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
+        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:10" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-last':$last}" layout="row">
             <div class="song-number song-number-small">
                 {{$index + 1}}

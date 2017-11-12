@@ -45,10 +45,6 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
             }, 200);
     };
 
-    $rootScope.shouldShowPlayButton = function () {
-        return !dpAppUtils.isMobile();
-    };
-
     // for sound bars
     $rootScope.isPlayerPlaying = function () {
         if (typeof YT !== 'undefined' && typeof YT.get === "function") {
@@ -62,10 +58,29 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
     };
 
     function loadNextSong() {
-        var playerRef = YT.get("player");
-        playerRef.videoId = dpSongsListLogic.getNextSongId();
-        playerRef.loadVideoById(playerRef.videoId);
-        playerRef.playVideo();
+        // we need to check if 'YT' was loaded
+        if (typeof YT !== 'undefined' && typeof YT.get === "function") {
+            var playerRef = YT.get("player");
+            playerRef.videoId = dpSongsListLogic.getNextSongId();
+            // even if 'YT' was loaded, we need to check if 'loadVideoById' is available    
+            if (typeof playerRef.loadVideoById === "function") {
+                playerRef.loadVideoById(playerRef.videoId);
+                playerRef.playVideo();
+            }
+        }
     }
+
+    $rootScope.isPlaySongEnabled = function () {
+        // we need to check if 'YT' was loaded
+        if (typeof YT !== 'undefined' && typeof YT.get === "function") {
+            var playerRef = YT.get("player");
+            // even if 'YT' was loaded, we need to check if 'loadVideoById' is available    
+            if (typeof playerRef.loadVideoById === "function") {
+                return true;
+            }
+        }
+        return false;
+    };
+
 
 }
