@@ -2,9 +2,9 @@ angular
     .module('dpSongsListLogic', [])
     .factory('dpSongsListLogic', dpSongsListLogic);
 
-dpSongsListLogic.$inject = ['$rootScope', 'dpSongsListUtils'];
+dpSongsListLogic.$inject = ['$rootScope', 'dpSongsListUtils', '$location'];
 
-function dpSongsListLogic($rootScope, dpSongsListUtils) {
+function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
     var FAKE_GENRE_WEIGHT = 2.5;
     var DEFAULT_WEIGHT = 3;
@@ -21,6 +21,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     var LOCAL_STORAGE_TAGS_KEY = 'mm-data-tags';
 
     var LOCAL_STORAGE_GENRES_AND_TAGS_KEY = 'mm-data-genrestags';
+
+    var VIDEO_ID_PARAM = "v";
+    var MAXIMUM_GENRES = 5;
     
 
 
@@ -42,6 +45,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         updateSongIndexesListByTagIfNeeded : updateSongIndexesListByTagIfNeeded,
         getCurrentPlayingSongIndex: getCurrentPlayingSongIndex,
         updateSongsIndexesList: updateSongsIndexesList,
+        initUrlParams : initUrlParams,
         // move
         getSongNameByIndex: getSongNameByIndex,
         getSongArtistByIndex: getSongArtistByIndex,
@@ -146,22 +150,89 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     function initUserData() {
         // initUserGenresData();
         // initUserTagsData();
-        if (isNavigationByUrlParams()) {
-            var videoGenreAndTagsPairArr = getVideoGenreAndTagsPairArr();
-            initUserDataWithValues(videoGenreAndTagsPairArr, true);
+        if (isUrlWithParams()) {
+            // getting the genres and tags array of the given url video id
+            var videoGenresAndTagsPairArr = getVideoGenresAndTagsPairArr(getUrlVideoId());
+            // fix the genre arr  1. switch all zeros to -1
+            //                    2.in case there are more than 5 genres
+            var videoGenreArr = fixVideoGenreArr(videoGenresAndTagsPairArr[0]);
+            var vidoeTagsArr = videoGenresAndTagsPairArr[1];
+            initUserDataWithValues([videoGenreArr, vidoeTagsArr], true);
         } else {
             initUserDataWithValues([defaultGenresMap, defaultTagsMap], false);
         }
     }
 
-    function isNavigationByUrlParams() {
-        return false;
+            
+    function fixVideoGenreArr(genresArr) {
+        // counting genres weightes bigger than 0
+        var countBiggerThanZero = 0;
+        for (var i = 0; i < genresArr.length; i++) {
+            var currentGenreWeight = genresArr[i];
+            // replacing all the '0's to '-1's in order to remove the sliders
+            if (currentGenreWeight === 0) {
+                genresArr[i] = -1;
+            }
+            if (currentGenreWeight > 0) {
+                countBiggerThanZero++;
+            }
+        }
+        var gneresArrPairs = [];
+        if (countBiggerThanZero > MAXIMUM_GENRES) {
+            //mapping the genre arr to {index : weight}
+            for (var j = 0; j < genresArr.length; j++) {
+                var pair = {};
+                // i is key name of song index, j is the index
+                // g is key name for  genres
+                pair = {i: j, g : genresArr[j]};
+                gneresArrPairs[j] = pair;
+            }
+            // sorting this new arr
+            gneresArrPairs.sort(function(genrePairA, genrePairB) {
+                return genrePairA.g - genrePairB.g;
+            });
+            var fixGenresArr = Array.apply(null, Array(gneresArrPairs.length)).map(Number.prototype.valueOf,-1);
+            for (var k = 0; k < 5; k++) {
+                // getting the higheset pair in the arr and reducing by 1 each time
+                topGenreArrPair = gneresArrPairs[gneresArrPairs.length - (k + 1)];
+                fixGenresArr[topGenreArrPair.i] = topGenreArrPair.g;
+            }
+            return fixGenresArr;
+        } else {
+            return genresArr;
+        }
     }
 
-    function initUserDataWithValues(genreAndTagsPairArr, isUrlWithParams) {
+
+    /**
+     * getting the genres and the tag (we dont use the tags) of a given vidoe id from URL
+     *  we use the UrlVideoIdIndex that we already calculated before
+     * we will get a pair of two arrays [videoGenreArr, vidoeTagsArr]
+     */
+    function getVideoGenresAndTagsPairArr(urlVideoId) {
+        var genreAndTagsPair = [];
+        var songList = $rootScope.rawSongsList;
+        // the index of the videoId in the url
+        var urlVideoIdIndex = getUrlVideoIdIndex();
+        songDataByIndexOfUrl = songList[getUrlVideoIdIndex()];
+        // checking for safety if the index in the array of all songs is the same as in the song data
+        if (urlVideoIdIndex === songDataByIndexOfUrl.i) {
+            return [songDataByIndexOfUrl.g, songDataByIndexOfUrl.t];
+        } else {
+            consolo.error("the index in the array of all songs is not the same as in the song data");
+            for (var i; i < songList.length; i++) {
+                var currentSongData = songList[i];
+                if (currentSongData.id === urlVideoId) {
+                    return [currentSongData.g, currentSongData.t];
+                }
+            }
+        }
+    }
+
+    function initUserDataWithValues(genresAndTagsPairArr, isUrlWithParams) {
         //fallback if the user doesnt have localStorage
-        $rootScope.userGenresMap = genreAndTagsPairArr[0];
-        $rootScope.userTagsMap = genreAndTagsPairArr[1];
+        $rootScope.userGenresMap = genresAndTagsPairArr[0];
+        $rootScope.userTagsMap = genresAndTagsPairArr[1];
 
         // user browser supports in localStorage
         if (localStorage) {
@@ -275,10 +346,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
     //     // $rootScope.userTagsMap = defaultTagsMap;
     // }
 
-    // replace all places and move to utils
-    function isObjectDefined(object) {
-        return typeof object !== 'undefined' && object != 'undefined' && object !== null;
-    }
+
 
     function isValidUserGenresAndTagsDataObj(dataObj) {
         return isValidGenresData(dataObj.genres) && isValidTagsData(dataObj.tags);
@@ -289,8 +357,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         return genresArr.length === allGenresNames.length;
     }
 
-    function isValidTagsData(tagsArr) {
-        return tagsArr.length === allTagsNames.length;
+    function isValidTagsData(tagsObj) {
+        return  Object.keys(tagsObj).length === allTagsNames.length;
     }
 
     //TODO - change to this one
@@ -397,7 +465,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         var songsListIndexes = Array.apply(null, { length: lengthOfRawSongsList }).map(Number.call, Number);
         // dpSongsListUtils.shuffle(songsListIndexes);
         $rootScope.songsIndexesList = songsListIndexes;
-        $rootScope.filteredSongsIndexesList = songsListIndexes;
     }
 
     // createGenreWeightsDistancesList
@@ -478,7 +545,18 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
 
     //pop song for the application loading
     function initCurrentSongIndex() {
-        popSongIndexFromListAndUpdate(false);
+        if (isUrlWithParams()) {
+            // the url has params, need to check if the song exists 
+            var urlVideoIdIndex = getUrlVideoIdIndex();
+            if (urlVideoIdIndex !== -1) {
+                // false because this 'pop' was not excuted by action
+                // urlVideoIdIndex - we have the index that we want to play (from url video id)
+                popSongIndexFromListAndUpdate(false, urlVideoIdIndex);
+            }
+        } else {
+            // false because this 'pop' was not excuted by action
+            popSongIndexFromListAndUpdate(false);
+        }
     }
 
     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
@@ -492,18 +570,27 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
             orderOfSong = 0;
             // get the first song index in list
             songIndex = $rootScope.songsIndexesList[0];
-        } else { // play by pressing on soong
+        } else { // play by pressing on song on playlist OR play by url params 
             orderOfSong = $rootScope.songsIndexesList.indexOf(indexOfSong);
             songIndex = indexOfSong;
         }
 
+        //TODO change url to video id
+        
         // update currentPlayingSongIndex
         $rootScope.currentPlayingSongIndex = songIndex;
 
         // remove songIndex out from songsIndexesList
-        // $rootScope.songsIndexesList.shift();
-        // cut orderOfSong=numberOf elements from the array from index 0 
-        var removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
+        var removedSongsIndexes;
+        var spliceStartIndex;
+        if (isPlayByUrlParams(byAction, indexOfSong)) {
+            // taking put the songIndex from the array
+            removedSongsIndexes = $rootScope.songsIndexesList.splice(orderOfSong, 1);
+        } else {
+            // cut orderOfSong=numberOf elements from the array from index 0 
+            removedSongsIndexes = $rootScope.songsIndexesList.splice(0, orderOfSong + 1);
+        }
+
         var i, len, playedSongIndex;
         for (i = 0, len = removedSongsIndexes.length; i < len; i++) {
             // note: this index can be of song that was skipped by click on other song play button
@@ -517,6 +604,10 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         if (!byAction) {
             $rootScope.$apply();
         }
+    }
+
+    function isPlayByUrlParams(byAction, indexOfSong) {
+        return !byAction && angular.isDefined(indexOfSong);
     }
 
     // update the songs indexes list after change in genre weights 
@@ -836,9 +927,75 @@ function dpSongsListLogic($rootScope, dpSongsListUtils) {
         }
     }
 
+    //setting the url video id varaible
+    // we set it to "" in case there is no url video id
+    function initUrlParams() {
+        var urlVideoId = gettingUrlParams();
+        // it can be also ""
+       
+        // searching for this video Id in our song list
+        // consider moving to a method
+        var songsList = $rootScope.rawSongsList; 
+        // init the url video id to "", in case this is a regular url 
+        $rootScope.urlVideoId = "";
+        // init the video id to -1, in case this is a regular url
+        $rootScope.urlVideoIdIndex = -1;
+        // we dont need to look for the video id when there is no video Id in the url
+        if (urlVideoId !== "") { 
+            for (var i = 0; i < songsList.length; i++) {
+                var currentSongData = songsList[i];
+                if (currentSongData.id === urlVideoId) {
+                    $rootScope.urlVideoId = urlVideoId;
+                    $rootScope.urlVideoIdIndex = currentSongData.i;
+                    break;
+                }
+            }
+        }
+    }
+
+    // parsing the url params into youtube video id 
+    function gettingUrlParams() {
+        var rawUrlParams = window.location.search.slice(1);
+        // checking if the url params == ""
+        if (rawUrlParams) {
+            // stuff after # is not part of query string, so get rid of it
+            rawUrlParams = rawUrlParams.split('#')[0];
+
+            // split our query string into its component parts
+            var arr = rawUrlParams.split('&');
+            for (var i = 0; i < arr.length; i++) {
+                var pair = arr[i].split("=");
+                if (pair[0] === VIDEO_ID_PARAM) { // if key of url params pair is equal to 'v';
+                    return pair[1];
+                }
+            }
+        }
+        return rawUrlParams;
+    }
+
+    function getUrlVideoId() {
+        return $rootScope.urlVideoId;
+    }
+
+    function isUrlWithParams() {
+        var urlVideoId = getUrlVideoId();
+        // urlVideoId can be "" also
+        return isObjectDefined(urlVideoId) && urlVideoId !== "";
+    }
+
+    function getUrlVideoIdIndex() {
+        return $rootScope.urlVideoIdIndex;
+    }
+    
+
 
 
     // MOVE TO UTILS
+
+    // replace all places and move to utils
+    function isObjectDefined(object) {
+        return typeof object !== 'undefined' && object != 'undefined' && object !== null;
+    }
 
     function convertNumToBoolean(numVal) {
         return numVal ? true : false;

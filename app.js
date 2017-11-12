@@ -13,11 +13,13 @@ var app = angular.module('dynamicPlaylistApp', [
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
 
+    $rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();
     debugger; 
+    dpSongsListLogic.initUrlParams();
+
     dpSongsListLogic.initUserData();
 
     //section 01
-    $rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();
     dpSongsListLogic.initCalcSongsList();
 
     //section 02
@@ -31,10 +33,15 @@ app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function 
 
 }]);
 
-app.config(function ($mdThemingProvider) {
+app.config(function ($mdThemingProvider, $locationProvider) {
     $mdThemingProvider.theme('default')
         .primaryPalette('deep-purple')
         .accentPalette('deep-purple');
+
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+        });
 });
 
 
