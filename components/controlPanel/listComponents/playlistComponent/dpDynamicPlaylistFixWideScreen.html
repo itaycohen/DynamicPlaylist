@@ -18,7 +18,7 @@
         </md-list-item>
 
         <div class="playlist-title sub-title"> Next Up </div>
-        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:10" ng-click="playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
+        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:10" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-last':$last}" layout="row">
             <div class="song-number song-number-big">
                 {{$index + 1}}
@@ -27,7 +27,7 @@
                 <p class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</p>
                 <p class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</p>
             </div>
-            <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" ng-show="shouldShowPlayButton()">
+            <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" ng-show="isPlaySongEnabled()">
         </md-list-item>
 
         <md-list-item class="md-2-line item-list" style="display: none;">

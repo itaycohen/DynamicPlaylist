@@ -124,7 +124,6 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 		}
 
 		function getFirstSongId() {
-			// return 'oyEuk8j8imI';
 			return dpSongsListLogic.getNextSongId();
 		}
 
@@ -239,9 +238,10 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 	};
 
 	$scope.onPlaySongClick = function () {
-		// console.log("play was clicked");
-		$scope.player.playVideo();
-		$scope.isPlaying = true;
+		if ($scope.player !== 'undefined' && typeof $scope.player.playVideo === "function") {
+			$scope.player.playVideo();
+			$scope.isPlaying = true;
+		}
 	};
 
 	$scope.executePlayerEndedActions = function (byAction) {
