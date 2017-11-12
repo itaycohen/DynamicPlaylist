@@ -240,8 +240,8 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 
 	$scope.onPlaySongClick = function () {
 		// console.log("play was clicked");
-		$scope.isPlaying = true;
 		$scope.player.playVideo();
+		$scope.isPlaying = true;
 	};
 
 	$scope.executePlayerEndedActions = function (byAction) {
