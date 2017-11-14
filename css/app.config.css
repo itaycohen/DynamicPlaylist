@@ -56,6 +56,19 @@ body {
   body #webklipper-publisher-widget-container-content[style] {
     border-width: 0 !important; }
 
+.text-no-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none; }
+
 @-moz-keyframes scroll-left {
   0% {
     -moz-transform: translateX(100%); }
