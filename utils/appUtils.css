@@ -1,3 +1,17 @@
 .appUtils {
     color: black;
 }
+
+
+.util-button {
+    font-size: 12px;
+    min-width: 70px;
+}
+
+.result-area {
+    font-size: 15px;
+}
+
+.result-area-small {
+    font-size: 11px;
+}
