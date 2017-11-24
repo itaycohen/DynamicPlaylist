@@ -6,7 +6,7 @@ var app = angular.module('appUtils', [
 
 app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
-    /// debugger; 
+    //  debugger; 
 
     $http.get("data/songs/tagging/songsShrinkTagging.json")
         .then(function (response) {
@@ -35,18 +35,31 @@ appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window'];
 function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
 
-    $rootScope.currentNavItem = 'page1';
-    $rootScope.data = {};
-    $rootScope.data.takeSongName = true;
-    $rootScope.genreInputStyle = { "width": "100px" };
+    var LAST_FM_API_KEY = "6c43957997d9e000c1678ee52dbacd54";
+    var LAST_FM_REQ_PREFIX = "http://ws.audioscrobbler.com/2.0/";
+
+    var ACOUSTIC_BRAINZ_REQ_PREFIX = "http://acousticbrainz.org/api/v1/";
+
+    var DISCOGS_API_KEY = "yRRYrVyDLpIeNaGgKMJR";
+    var DISCOGS_API_TOKEN = "kaTeeDorKwsemjQopZyPsGbloNcoJotb";
+    var DISCOGS_REQ_PREFIX = "https://api.discogs.com/database/search?";
+
+    var MUSIC_BRAINZ_QUERY_REQ_PREFIX = "http://musicbrainz.org/ws/2/recording/";
+
+    var rapid = new RapidAPI("default-application_5a0c63eee4b0218e3e35bf81", "e1bf6022-791c-4a2b-b878-4f0800b5ee14");
+
 
     var VIEW_COUNT_HIT_NORMALIZED_THRESHOLD = 100000000; //100M
     var DIFF_DAYS_NEW_THRESHOLD = 350;
     var DIFF_DAYS_TRENDING_THRESHOLD = 300;
     var VIEW_COUNT_TRENDING_NORMALIZED_THRESHOLD;
     var TRENDING_FACTOR_THRESHOLD = 250000; //25k
-    
-    
+
+
+    $rootScope.currentNavItem = 'page1';
+    $rootScope.data = {};
+    $rootScope.data.takeSongName = true;
+    $rootScope.genreInputStyle = { "width": "100px" };
 
 
     // TODO - change to array with object: {genreName, weight, index}
@@ -54,13 +67,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     // var newMapOfGenres2 = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
     // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
     var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
-    var mapOfHitFactorByGenre = [{"Alternative" : 2}, {"Chill Out" : 3}, {"Country" : 2.5}, {"Dance" : 0.7}, {"Folk" : 3}, {"Funk" : 3}, {"Hip-Hop" : 0.8}, {"Indie" : 3}, {"Latin" : 0.7}, {"Love" : 2}, {"Metal" : 3}, {"Pop" : 0.5}, {"Punk" : 2}, {"R&B" : 0.8}, {"Rap" : 0.8}, {"Reggae" : 1.2}, {"Reggaeton" : 0.8}, {"Rock" : 1}, {"Soul" : 1}, {"Trance" : 2}];
-    var mapOfHitFactors = [2,3,2.5,0.7,3,3,0.8,3,0.7,2,3,0.5,2,0.8,0.8,1.2,0.8,1,1,2];
-
+    var mapOfHitFactorByGenre = [{ "Alternative": 2 }, { "Chill Out": 3 }, { "Country": 2.5 }, { "Dance": 0.7 }, { "Folk": 3 }, { "Funk": 3 }, { "Hip-Hop": 0.8 }, { "Indie": 3 }, { "Latin": 0.7 }, { "Love": 2 }, { "Metal": 3 }, { "Pop": 0.5 }, { "Punk": 2 }, { "R&B": 0.8 }, { "Rap": 0.8 }, { "Reggae": 1.2 }, { "Reggaeton": 0.8 }, { "Rock": 1 }, { "Soul": 1 }, { "Trance": 2 }];
+    var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
     // Adding Songs
-
     $rootScope.song = {
         "id": '',
         "artist": '',
@@ -71,11 +82,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             0, 0, 0, 0, 0]
     };
 
-
     $rootScope.songToAdd = '';
     $rootScope.fromRawToShrink = '';
     $rootScope.fromShrinkToRaw = '';
-    
 
     $rootScope.loadSongDetails = function () {
         var songId = $rootScope.song.id;
@@ -89,7 +98,6 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         }
         alert('song id error');
     };
-
 
     $rootScope.addSong = function () {
         validateSong();
@@ -106,7 +114,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             newSong.genreWeights[key] = currentSong.songGenres[i];
         }
         newSong.tagging = {};
-        
+
         newSong.tagging.new = isSongNew($rootScope.YTSongResult);
         newSong.tagging.hit = isSongHit($rootScope.YTSongResult, newSong);
         newSong.tagging.trending = isSongTrending($rootScope.YTSongResult, newSong);
@@ -130,6 +138,18 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         }
     }
 
+    $rootScope.parseFullTitleAndGetData = function () {
+        $rootScope.getSongArtist();
+        $rootScope.getSongName();
+        $rootScope.parseSongName();
+        $rootScope.getTopTagsData();
+        $rootScope.getDiscogsData();
+        $rootScope.getMusixData();
+        $rootScope.getItunesData();
+        $rootScope.getMusicBrainzQueryData();
+        
+    };
+
     $rootScope.cleanSong = function () {
         $rootScope.song = {
             "id": '',
@@ -140,12 +160,37 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0]
         };
-        $rootScope.APIResult = "";
+        $rootScope.lastFmResultParsed = "";
+        $rootScope.brainzResultParsed = "";
+        $rootScope.discogsResultParsed = "";
+        $rootScope.musixResultParsed = "";
+        $rootScope.itunesResultParsed = "";
+        s
         $rootScope.data.takeSongName = true;
     };
 
     $rootScope.cleanAllSongs = function () {
         $rootScope.songToAdd = '';
+    };
+
+    $rootScope.cleanLastFmResult = function () {
+        $rootScope.lastFmResultParsed = "";
+    };
+
+    $rootScope.cleanAcousticResult = function () {
+        $rootScope.brainzResultParsed = "";
+    };
+
+    $rootScope.cleanDiscogsResult = function () {
+        $rootScope.discogsResultParsed = "";
+    };
+
+    $rootScope.cleanMusixResult = function () {
+        $rootScope.musixResultParsed = "";
+    };
+
+    $rootScope.cleanItunesResult = function () {
+        $rootScope.itunesResultParsed = "";
     };
 
     $rootScope.isNewSong = function (songId) {
@@ -179,18 +224,24 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     };
 
 
-    $rootScope.getSongGneres = function () {
-        var url = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&api_key=6c43957997d9e000c1678ee52dbacd54&format=json";
+    $rootScope.getTopTagsData = function () {
+        var url = "";
+        url += LAST_FM_REQ_PREFIX;
+        url += "?method=track.gettoptags";
+        url += "&api_key=";
+        url += LAST_FM_API_KEY;
+        url += "&format=json";
         url += "&artist=";
         url += $rootScope.song.artistAPI;
         url += "&track=";
         url += $rootScope.song.songNameAPI;
         $http.get(url).
             then(function (response) {
-                $rootScope.APIResultRaw = response.data;
-                parseAPIResult();
+                $rootScope.topTagsDataRes = response.data;
+                parseTopTagsReqResult();
             });
     };
+
 
 
     //http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1&q_artist=Bruno Mars&24k
@@ -198,26 +249,196 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     //http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1&q_artist=John Legend&q_track=All of Me
 
 
-    // $rootScope.getSongGneresMusix = function () {
-    //     var url = "http://api.musixmatch.com/ws/1.1/track.search?apikey=a69153fed18cb21638969ef9946de5ac&format=json&page_size=1&page=1";
-    //     url += "&q_artist=";
-    //     url += $rootScope.song.artistAPI;
-    //     url += "&q_track=";
-    //     url += $rootScope.song.songNameAPI;
-    //     $http.get(url).
-    //         then(function (response) {
-    //             $rootScope.musixAPIResultRaw = response.data;
-    //             parseMusixAPIResult();
-    //         });
-    // };
-
-    $rootScope.parseFullTitleAndGetData = function () {
-        $rootScope.getSongArtist();
-        $rootScope.getSongName();
-        $rootScope.parseSongName();
-        $rootScope.getSongGneres();
-        // $rootScope.getSongGneresMusix();
+    $rootScope.getMusixData = function () {
+        var url = "https://musixmatchcom-musixmatch.p.mashape.com/wsr/1.1/track.search?page=1&page_size=2&s_track_rating=desc";
+        url += "&q_artist=";
+        url += $rootScope.song.artistAPI;
+        url += "&q_track=";
+        url += $rootScope.song.songNameAPI;
+        var config = {
+            headers : {
+                'Access-Control-Allow-Origin' : '*',
+                "X-Mashape-Key": "xhbXUJofP3mshxXnY4aqqwZp42N3p1JLJ86jsnZ477l7kWuHrQ",
+                "X-Mashape-Host": "musixmatchcom-musixmatch.p.mashape.com"
+            }
+           };
+        $http.get(url, config).
+            then(function (response) {
+                $rootScope.musixDataRes = response.data;
+                parseMusixResult();
+            });
     };
+
+
+    function parseMusixResult() {
+        var textResult = "";
+        dataToParse = $rootScope.musixDataRes;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            textResult = "No API Result";
+        } else if (dataToParse.length === 0) {
+            textResult = "Empty result";
+        } else {
+            var resultsArr = dataToParse;
+            var primGenresStrPre = "Primary Genres: \n";
+            var secGenresStrPre = "\nSecondary Genres: \n";
+            var primGenresStr = "";
+            var secGenresStr = "";
+            $rootScope.musixMbidOne = "";
+            $rootScope.musixMbidTwo = "";
+            
+            for (var i = 0; i < resultsArr.length; i++) {
+                var currentSong = resultsArr[i];
+                if (!angular.isUndefined(currentSong.track_mbid)) {
+                    if (i === 0 ){
+                        $rootScope.musixMbidOne = currentSong.track_mbid;
+                    } else if (i === 1) {
+                        $rootScope.musixMbidTwo = currentSong.track_mbid;
+                    }
+                }
+                if (!angular.isUndefined(currentSong.primary_genres) && !angular.isUndefined(currentSong.primary_genres.music_genre)) {
+                    var primaryGenresArr = currentSong.primary_genres.music_genre;
+                    for (var j = 0; j < primaryGenresArr.length; j++) {
+                        var currentGenre = primaryGenresArr[j].music_genre_name;
+                        if (!primGenresStr.includes(currentGenre)) {
+                            primGenresStr += currentGenre;
+                            primGenresStr += "\n";
+                        }
+                    }
+                }
+                if (!angular.isUndefined(currentSong.secondary_genres) && !angular.isUndefined(currentSong.secondary_genres.music_genre)) {
+                    var secondaryGenresArr = currentSong.secondary_genres.music_genre;
+                    for (var k = 0; k < secondaryGenresArr.length; k++) {
+                        var currentSecGenre = secondaryGenresArr[k].music_genre_name;
+                        if (!secGenresStr.includes(currentSecGenre)) {
+                            secGenresStr += currentSecGenre;
+                            secGenresStr += "\n";
+                        }
+                    }
+                }
+            }
+            primGenresStr = primGenresStr !== "" ? primGenresStr : "NO GENRES DATA";
+            secGenresStr = secGenresStr !== "" ? secGenresStr : "NO STYLES DATA";
+            textResult += primGenresStrPre + primGenresStr + secGenresStrPre + secGenresStr;
+        }
+        $rootScope.musixResultParsed = textResult;
+
+        if ($rootScope.musixMbidOne !== "" || $rootScope.musixMbidTwo !== "") {
+            getBrainzDataIfNeededByMusixMbid();
+        }
+    }
+
+    function getBrainzDataIfNeededByMusixMbid() {
+        // we want to wait until last fm for sure tried to bring mbid 
+        // only than we will try to bring by using 
+        sleepFor(500);
+        // if (!angular.isUndefined($rootScope.lastFmMbid) && $rootScope.lastFmMbid === "") {
+            // acoustice brainz used last fm mbid and didnt recevie data yet
+        if (!$rootScope.acousticBrainzWithData) {
+            getAcousticBrainzDataByMbid($rootScope.musixMbidOne, "Musix One");
+
+            sleepFor(500);
+            // acoustice brainz used musixMbidOne and didnt recevie data yet
+            if (!$rootScope.acousticBrainzWithData) {
+                getAcousticBrainzDataByMbid($rootScope.musixMbidTwo, "Musix two");
+            }
+        } 
+    }
+
+    $rootScope.getItunesData = function () {
+
+        var termToSearch =  $rootScope.song.artistAPI + " " + $rootScope.song.songNameAPI;
+        rapid.call('iTunes', 'searchMusic', { 
+            'term': termToSearch,
+            'country': 'us',
+            'entity': 'song',
+            'limit': '3'
+        }).on('success', function (payload) {
+            $rootScope.itunesDataRes = payload;
+            parseItunesResult();
+        }).on('error', function (payload) {
+            console.log("lo tov");
+        });
+
+    };
+
+
+    function parseItunesResult() {
+        var textResult = "";
+        dataToParse = $rootScope.itunesDataRes;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.results) || dataToParse.results.length === 0) {
+            textResult = "Empty result";
+        } else {
+            var resultsArr = dataToParse.results;
+            var genresStrPre = "Genres: \n";
+            var genresStr = "";
+            for (var i = 0; i < resultsArr.length; i++) {
+                var currentSong = resultsArr[i];
+                if (!angular.isUndefined(currentSong.primaryGenreName)) {
+                    var currentGenre = currentSong.primaryGenreName;
+                    if (!genresStr.includes(currentGenre)) {
+                        genresStr += currentGenre;
+                        genresStr += "\n";
+                    }
+                }
+            }
+            genresStr = genresStr !== "" ? genresStr : "NO GENRES DATA";
+            textResult += genresStrPre + genresStr;
+        }
+        $rootScope.itunesResultParsed = textResult;
+    }
+
+
+
+    //http://musicbrainz.org/ws/2/recording/?query=recording:titanium%20AND%20artist:david%20guetta&fmt=json
+    
+    $rootScope.getMusicBrainzQueryData = function () {
+        var url = "";
+        url += MUSIC_BRAINZ_QUERY_REQ_PREFIX;
+        url += "?query=";
+        url += "recording:";
+        url += $rootScope.song.songNameAPI;
+        url += "%20AND%20";
+        url += "artist:";
+        url += $rootScope.song.artistAPI;
+        url += "&limit=2&fmt=json";
+        $http.get(url).
+            then(function (response) {
+                $rootScope.getMusicBrainzQueryRes = response.data;
+                parseMusicBrainzQueryReqResult();
+            });
+    };
+
+
+    function parseMusicBrainzQueryReqResult() {
+        var textResult = "";
+        dataToParse = $rootScope.getMusicBrainzQueryRes;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.recordings) || dataToParse.recordings.length === 0) {
+            textResult = "Empty recordings result";
+        } else {
+            var recordingArr = dataToParse.recordings;
+            var currentRecording = recordingArr[0];
+            $rootScope.brainzQueryOneMbid = currentRecording.id;
+            var songName = currentRecording.title;
+            var artistName = currentRecording["artist-credit"][0].artist.name;
+            $rootScope.brainzQueryOneFullSongName = artistName + " - " + songName;
+
+            if (recordingArr.length == 2) {
+                currentRecording = recordingArr[1];
+                $rootScope.brainzQueryTwoMbid = currentRecording.id;
+                songName = currentRecording.title;
+                artistName = currentRecording["artist-credit"][0].artist.name;
+                $rootScope.brainzQueryTwoFullSongName = artistName + " - " + songName;
+            }
+            return;
+
+        }
+        // in case there are no results
+        $rootScope.brainzQueryOneFullSongName = textResult;
+    }
 
     $rootScope.getSongArtist = function () {
         var fullSongTitle = $rootScope.song.fullTitle;
@@ -266,11 +487,6 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         }
     };
 
-    $rootScope.cleanResult = function () {
-        $rootScope.APIResultRaw = "";
-        // $rootScope.musixAPIResultRaw = "";
-    };
-
     $rootScope.goToBottom = function () {
         $window.scrollTo(0, document.body.scrollHeight);
     };
@@ -304,43 +520,28 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     }
 
 
-    // function parseMusixAPIResult() {
-    //     var textResult = "";
-    //     dataToParse = $rootScope.musixAPIesultRaw;
-    //     if (angular.isUndefined(dataToParse) || dataToParse === '') {
-    //         // alert("No API Result");
-    //         textResult = "No API Result";
-    //     } else if (angular.isUndefined(dataToParse.toptags) || dataToParse.toptags === '') {
-    //         // alert("Error in Result - no toptags");
-    //         textResult = "Error in Result - no toptags";
-    //     } else {
-    //         var genresScores = dataToParse.toptags.tag;
-    //         for (var i = 0; i < genresScores.length; i++) {
-    //             currentScore = genresScores[i];
-    //             // textResult += "Genre: ";
-    //             textResult += currentScore.name;
-    //             textResult += " | ";
-
-    //             // textResult += " | Count: ";
-    //             textResult += currentScore.count;
-    //             textResult += "\n";
-    //         }
-    //     }
-    //     $rootScope.musixAPIResult = textResult;
-    // }
-
-    function parseAPIResult() {
+    function parseTopTagsReqResult() {
+        $rootScope.topTagsWithData = false;
         var textResult = "";
-        dataToParse = $rootScope.APIResultRaw;
+        dataToParse = $rootScope.topTagsDataRes;
         if (angular.isUndefined(dataToParse) || dataToParse === '') {
             // alert("No API Result");
             textResult = "No API Result";
+            // in this case we init the result of brainz from last call
+            $rootScope.brainzResultParsed = "";
         } else if (angular.isUndefined(dataToParse.toptags) || dataToParse.toptags === '') {
             // alert("Error in Result - no toptags");
             textResult = "Error in Result - no toptags";
+            // in this case we init the result of brainz from last call
+            $rootScope.brainzResultParsed = "";
         } else if (dataToParse.toptags.tag.length === 0) {
             textResult = "empty toptags";
+            // in this case we init the result of brainz from last call
+            $rootScope.brainzResultParsed = "";
         } else {
+            $rootScope.topTagsWithData = true;
+            // if the call succeeds  we will try to get info about 'getInfo' for mbid 
+            getLastFmMbidData();
             var genresScores = dataToParse.toptags.tag;
             for (var i = 0; i < genresScores.length; i++) {
                 currentScore = genresScores[i];
@@ -351,7 +552,457 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                 textResult += "\n";
             }
         }
-        $rootScope.APIResult = textResult;
+        $rootScope.lastFmResultParsed = textResult;
+    }
+
+    function getLastFmMbidData() {
+        var url = "";
+        url += LAST_FM_REQ_PREFIX;
+        url += "?method=track.getInfo";
+        url += "&api_key=";
+        url += LAST_FM_API_KEY;
+        url += "&format=json";
+        url += "&artist=";
+        url += $rootScope.song.artistAPI;
+        url += "&track=";
+        url += $rootScope.song.songNameAPI;
+        $http.get(url).
+            then(function (response) {
+                $rootScope.getInfoDataRes = response.data;
+                parseGetInfoReqResult();
+            });
+
+    }
+
+    // for mbid 
+    function parseGetInfoReqResult() {
+        var textResult = "";
+        $rootScope.lastFmMbid = "";
+        dataToParse = $rootScope.getInfoDataRes;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            // alert("No API Result");
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.track) || dataToParse.track === '') {
+            // alert("Error in Result - no toptags");
+            textResult = "Error in Result - no track";
+        } else if (dataToParse.track.mbid === '') {
+            textResult = "empty mbid";
+        } else {
+            textResult = dataToParse.track.mbid;
+
+            $rootScope.lastFmMbid = textResult;
+
+            if (!angular.isUndefined($rootScope.lastFmMbid) || $rootScope.$rootScope.lastFmMbid !== '') {
+                getAcousticBrainzDataByMbid($rootScope.lastFmMbid, "Last FM");
+            }
+            
+
+        }
+
+    }
+
+    $rootScope.getLastFmTopInfoByMusixOneMbid = function () {
+        getLastFmTopInfoByMbid($rootScope.musixMbidOne, "Musix1");
+    };
+
+
+    $rootScope.getLastFmTopInfoByMusixTwoMbid = function () {
+        getLastFmTopInfoByMbid($rootScope.musixMbidTwo, "Musix2");
+    };
+
+    $rootScope.getLastFmTopInfoByBrainzQueryOneMbid = function () {
+        getLastFmTopInfoByMbid($rootScope.brainzQueryOneMbid, "Music Brainz Qry One");
+    };
+
+
+    $rootScope.getLastFmTopInfoByBrainzQueryTwoMbid = function () {
+        getLastFmTopInfoByMbid($rootScope.brainzQueryTwoMbid, "Music Brainz Qry Two");
+    };
+
+
+    function getLastFmTopInfoByMbid(mbid, byStr) {
+        var url = "";
+        url += LAST_FM_REQ_PREFIX;
+        url += "?method=track.getInfo";
+        url += "&api_key=";
+        url += LAST_FM_API_KEY;
+        url += "&format=json";
+        url += "&mbid=";
+        url += mbid;
+        $http.get(url).
+            then(function (response) {
+                parseGetInfoByMbidResult(response.data, byStr);
+            });
+    }
+
+
+    function parseGetInfoByMbidResult(dataToParse, byStr) {
+        var textResult = "";
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            // alert("No API Result");
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.track) || dataToParse.track === '') {
+            // alert("Error in Result - no toptags");
+            textResult = "Error in Result - no track";
+        } else if (dataToParse.track.name === '') {
+            textResult = "empty mbid";
+        } else {
+            var nameOfSong = dataToParse.track.name;
+            var artist = dataToParse.track.artist.name;
+
+            var url = "";
+            url += LAST_FM_REQ_PREFIX;
+            url += "?method=track.gettoptags";
+            url += "&api_key=";
+            url += LAST_FM_API_KEY;
+            url += "&format=json";
+            url += "&artist=";
+            url += artist;
+            url += "&track=";
+            url += nameOfSong;
+            $http.get(url).
+                then(function (response) {
+                    $rootScope.topTagsDataRes = response.data;
+                    parseTopTagsReqResult();
+                });
+        }
+
+        $rootScope.lastFmResultParsed = textResult;
+
+    }
+
+
+    // by click
+    function getAcousticBrainzData() {
+        if (!angular.isUndefined($rootScope.lastFmMbid) || $rootScope.$rootScope.lastFmMbid !== '') {
+            getAcousticBrainzDataByMbid($rootScope.lastFmMbid, "Last FM");
+        } else if (!angular.isUndefined($rootScope.musixMbidOne) || $rootScope.$rootScope.musixMbidOne !== '') {
+            getAcousticBrainzDataByMbid($rootScope.musixMbidOne, "Musix1");
+        } else if (!angular.isUndefined($rootScope.musixMbidTwo) || $rootScope.$rootScope.musixMbidTwo !== '') {
+            getAcousticBrainzDataByMbid($rootScope.musixMbidTwo, "Musix2");
+        } else {
+            var textResult = "";
+            textResult = "NO MBID";
+            $rootScope.brainzResultParsed = textResult;
+        }
+    }
+
+
+    $rootScope.getAcousticBrainzDataByMusixOneMbid = function() {
+        getAcousticBrainzDataByMbid($rootScope.musixMbidOne, "Musix1");
+    };
+
+    $rootScope.getAcousticBrainzDataByMusixTwoMbid = function() {
+        getAcousticBrainzDataByMbid($rootScope.musixMbidTwo, "Musix2");
+    };
+
+
+    $rootScope.getAcousticBrainzDataByBrainzQueryOneMbid = function() {
+        getAcousticBrainzDataByMbid($rootScope.brainzQueryOneMbid, "Music Brainz Qry One");
+    };
+
+    $rootScope.getAcousticBrainzDataByBrainzQueryTwoMbid = function() {
+        getAcousticBrainzDataByMbid($rootScope.brainzQueryTwoMbid, "Music Brainz Qry Two");
+    };
+
+
+
+    // http://acousticbrainz.org/api/v1/1a13c710-4b7e-4701-8968-cd61f2e58110/high-level
+    function getAcousticBrainzDataByMbid(mbid, byStr) {
+        var textResult = "";
+        textResult += "By: ";
+        textResult += byStr;
+        textResult += "\n";
+
+        if (angular.isUndefined(mbid) || mbid === '') {
+            textResult = "NO MBID";
+            $rootScope.brainzResultParsed = textResult;
+            return;
+        } else {
+            var url = "";
+            url += ACOUSTIC_BRAINZ_REQ_PREFIX;
+            url += mbid;
+            url += "/high-level";
+            $http.get(url).
+                then(function (response) {
+                    $rootScope.acousticBrainzData = response.data;
+                    parseAcousticBrainzResult(textResult);
+                });
+
+        }
+
+    }
+
+    function parseAcousticBrainzResult(textResult) {
+
+        dataToParse = $rootScope.acousticBrainzData;
+
+        $rootScope.acousticBrainzWithData = false;
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.highlevel) || dataToParse.highlevel === '' ||
+            angular.isUndefined(dataToParse.metadata) || dataToParse.metadata === '') {
+            textResult = "Error in Result - no highlevel or metadata";
+        } else {
+            $rootScope.acousticBrainzWithData = true;
+            textResult += "------------------------";
+
+            textResult += "\nGENRES: \n";
+
+            //main genre
+            
+
+            if (!angular.isUndefined(dataToParse.metadata.tags.genre) && dataToParse.metadata.tags.genre.length !== 0) {
+                textResult += dataToParse.metadata.tags.genre[0];
+                textResult += "\n";
+            }
+            
+
+            var highLevelData = dataToParse.highlevel;
+            
+            //danceability
+            // textResult += "G_Danceability: \n";
+            textResult += highLevelData.danceability.value + ": ";
+            textResult += Math.round(highLevelData.danceability.probability * 100);
+            textResult += "\n";
+
+            // genre_dortmund 
+            // textResult += "G_Dortmund : \n";
+            textResult += convertBrainzGenreName(highLevelData.genre_dortmund.value) + ": ";
+            textResult += Math.round(highLevelData.genre_dortmund.probability * 100);
+            textResult += "\n";
+
+             // genre_electronic 
+            //  textResult += "G_Electronic : \n";
+             textResult += highLevelData.genre_electronic.value + ": ";
+             textResult += Math.round(highLevelData.genre_electronic.probability * 100);
+             textResult += "\n";
+
+             //genre_rosamerica
+            //  textResult += "G_Rosamerica : \n";
+             textResult += convertBrainzGenreName(highLevelData.genre_rosamerica.value) + ": ";
+             textResult += Math.round(highLevelData.genre_rosamerica.probability * 100);
+             textResult += "\n";
+
+             //genre_tzanetakis
+            //  textResult += "G_Tzanetakis : \n";
+             textResult += convertBrainzGenreName(highLevelData.genre_tzanetakis.value) + ": ";
+             textResult += Math.round(highLevelData.genre_tzanetakis.probability * 100);
+             textResult += "\n";
+             
+             textResult += "\n";
+             textResult += "MOODS: \n";
+
+            //mood_acoustic
+            // textResult += "M_Acoustic: \n";
+            textResult += highLevelData.mood_acoustic.value + ": ";
+            textResult += Math.round(highLevelData.mood_acoustic.probability * 100);
+            textResult += "\n";
+
+            //mood_aggressive
+            // textResult += "M_Aggressive: \n";
+            textResult += highLevelData.mood_aggressive.value + ": ";
+            textResult += Math.round(highLevelData.mood_aggressive.probability * 100);
+            textResult += "\n";
+
+            //mood_electronic
+            // textResult += "M_Electronic: \n";
+            textResult += highLevelData.mood_electronic.value + ": ";
+            textResult += Math.round(highLevelData.mood_electronic.probability * 100);
+            textResult += "\n";
+
+            //mood_happy
+            // textResult += "M_Happy: \n";
+            textResult += highLevelData.mood_happy.value + ": ";
+            textResult += Math.round(highLevelData.mood_happy.probability * 100);
+            textResult += "\n";
+            
+            //mood_party
+            // textResult += "M_Party: \n";
+            textResult += highLevelData.mood_party.value + ": ";
+            textResult += Math.round(highLevelData.mood_party.probability * 100);
+            textResult += "\n";
+            
+            //mood_relaxed
+            // textResult += "M_Relaxed: \n";
+            textResult += highLevelData.mood_relaxed.value + ": ";
+            textResult += Math.round(highLevelData.mood_relaxed.probability * 100);
+            textResult += "\n";
+            
+            //mood_sad
+            // textResult += "M_Sad: \n";
+            textResult += highLevelData.mood_sad.value + ": ";
+            textResult += Math.round(highLevelData.mood_sad.probability * 100);
+            textResult += "\n";
+            
+            // OUT:
+            //ismir04_rhythm
+            // gender
+            // moods_mirex
+            // timbre
+            // tonal_atonal
+            // voice_instrumental
+            
+            textResult += "------------------------ \n";
+            
+                        // Additional data
+                        // showing only if above 10 precent
+
+            textResult += "\nMORE GENRES: \n";
+            // genre_dortmund 
+            // textResult += "G_dortmund : \n";
+            textResult += addMoreGenresToString(highLevelData.genre_dortmund);
+
+            // genre_electronic 
+            // textResult += "G_electronic  : \n";
+            textResult += addMoreGenresToString(highLevelData.genre_electronic);
+
+            // genre_rosamerica 
+            // textResult += "G_rosamerica : \n";
+            textResult += addMoreGenresToString(highLevelData.genre_rosamerica);
+ 
+            // genre_tzanetakis 
+            // textResult += "G_tzanetakis : \n";
+            textResult += addMoreGenresToString(highLevelData.genre_tzanetakis);
+            
+
+        }
+        //TODO parse all high level
+
+        $rootScope.brainzResultParsed = textResult;
+
+
+        //rYEDA3JcQqw
+
+    }
+
+
+    function addMoreGenresToString(genresObject) {
+        var allGenres = genresObject.all;
+        var mainGenre = genresObject.value;
+        var resStr = "";
+        for (var genre in allGenres) {
+            var currentGenreValue = allGenres[genre];
+            var currentGenreValueFormatted = Math.round(currentGenreValue * 100);
+            if (genre !== mainGenre && currentGenreValueFormatted > 10) {
+                resStr += convertBrainzGenreName(genre) + ": ";
+                resStr += Math.round(currentGenreValueFormatted);
+                resStr += "\n";
+            }
+        }
+        resStr += "\n";
+        return resStr;
+    }
+
+    function convertBrainzGenreName(shortName) {
+        switch (shortName) {
+            case "cla":
+                return "classical";
+            case "dan":
+                return "dance";
+            case "hip":
+                return "hip-hop";
+            case "jaz":
+                return "jazz";
+            case "dan":
+                return "classical";
+            case "rhy":
+                return "R&B";
+            case "roc":
+                return "rock";
+            case "spe":
+                return "speech";
+            case "cou":
+                return "country";
+            case "dan":
+                return "classical";
+            case "dis":
+                return "disco";
+            case "met":
+                return "metal";
+            case "reg":
+                return "reggae";
+            case "folkcountry":
+                return "folk/country";
+            case "funksoulrnb":
+                return "funk/soul/rnb";
+            case "raphiphop":
+                return "rap/hip hop";
+            case "blu":
+                return "blues";
+            default:
+                return shortName;
+        }
+    }
+
+
+    // EXMPLAE:
+    // https://api.discogs.com/database/search?per_page=10&page=1&key=yRRYrVyDLpIeNaGgKMJR&secret=kaTeeDorKwsemjQopZyPsGbloNcoJotb&release_title=swalla&artist=Jason%20Derulo
+
+    $rootScope.getDiscogsData = function () {
+        var url = "";
+        url += DISCOGS_REQ_PREFIX;
+        url += "key=";
+        url += DISCOGS_API_KEY;
+        url += "&secret=";
+        url += DISCOGS_API_TOKEN;
+        url += "&per_page=2&page=1";
+        url += "&artist=";
+        url += $rootScope.song.artistAPI;
+        url += "&release_title=";
+        url += $rootScope.song.songNameAPI;
+        $http.get(url).
+            then(function (response) {
+                $rootScope.discogsRes = response.data;
+                parseDiscogsReqResult();
+            });
+    };
+
+    function parseDiscogsReqResult() {
+
+        dataToParse = $rootScope.discogsRes;
+
+        var textResult = "";
+
+        if (angular.isUndefined(dataToParse) || dataToParse === '') {
+            textResult = "No API Result";
+        } else if (angular.isUndefined(dataToParse.results) || dataToParse.results === '') {
+            textResult = "Error in Result - no results tag";
+        } else {
+            var resultsArr = dataToParse.results;
+            var genresStrPre = "GENRES: \n";
+            var stylesStrPre = "\nSTYLES: \n";
+            var genresStr = "";
+            var stylesStr = "";
+            for (var i = 0; i < resultsArr.length; i++) {
+                var currentSong = resultsArr[i];
+                if (!angular.isUndefined(currentSong.genre)) {
+                    var genresArr = currentSong.genre;
+                    for (var j = 0; j < genresArr.length; j++) {
+                        currentGenre = genresArr[j];
+                        if (!genresStr.includes(currentGenre)) {
+                            genresStr += currentGenre;
+                            genresStr += "\n";
+                        }
+                    }
+                }
+                if (!angular.isUndefined(currentSong.style)) {
+                    var styleArr = currentSong.style;
+                    for (var k = 0; k < styleArr.length; k++) {
+                        currentStyle = styleArr[k];
+                        if (!stylesStr.includes(currentStyle)) {
+                            stylesStr += currentStyle;
+                            stylesStr += "\n";
+                        }
+                    }
+                }
+            }
+            genresStr = genresStr !== "" ? genresStr : "NO GENRES DATA";
+            stylesStr = stylesStr !== "" ? stylesStr : "NO STYLES DATA";
+            textResult += genresStrPre + genresStr + stylesStrPre + stylesStr;
+        }
+        $rootScope.discogsResultParsed = textResult;
     }
 
 
@@ -535,7 +1186,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.songStat.numOfNew = newCount;
         $rootScope.songStat.numOfHit = hitCount;
         $rootScope.songStat.numOfTrending = trendingCount;
-        
+
     }
 
 
@@ -628,14 +1279,14 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var rawSongList = $rootScope.songsRaw;
         // rawSongList = rawSongList.slice(0,SONG_COUNT);
         var newRawSongList = [];
-        angular.forEach(rawSongList, function(song) {
+        angular.forEach(rawSongList, function (song) {
             updateCurrentSong(song, newRawSongList);
         });
         console.log(JSON.stringify(newRawSongList));
     };
 
     function updateCurrentSong(currentSong, newRawSongList) {
-        
+
         sleepFor(200);
 
         var i = currentSong.index;
@@ -648,27 +1299,27 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "&part=snippet, statistics";
         url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
         $http.get(url).
-        then(function (response) {
-            youTubeData = response.data;
+            then(function (response) {
+                youTubeData = response.data;
 
-            currentSong.tagging.new = isSongNew(youTubeData);
-            currentSong.tagging.hit = isSongHit(youTubeData, currentSong);
-            currentSong.tagging.trending = isSongTrending(youTubeData, currentSong);
-            newRawSongList[i] = currentSong;
+                currentSong.tagging.new = isSongNew(youTubeData);
+                currentSong.tagging.hit = isSongHit(youTubeData, currentSong);
+                currentSong.tagging.trending = isSongTrending(youTubeData, currentSong);
+                newRawSongList[i] = currentSong;
 
-            if (newRawSongList.length === $rootScope.songsRaw.length && validateUpdatedRawSongList(newRawSongList) ) {
-            // if (newRawSongList.length === SONG_COUNT && validateUpdatedRawSongList(newRawSongList) ) {
-                var newRawSongListStr = JSON.stringify(newRawSongList);
-                $rootScope.updatedRawSongList = newRawSongListStr;
-                console.log(newRawSongListStr);
-            }
-        });
+                if (newRawSongList.length === $rootScope.songsRaw.length && validateUpdatedRawSongList(newRawSongList)) {
+                    // if (newRawSongList.length === SONG_COUNT && validateUpdatedRawSongList(newRawSongList) ) {
+                    var newRawSongListStr = JSON.stringify(newRawSongList);
+                    $rootScope.updatedRawSongList = newRawSongListStr;
+                    console.log(newRawSongListStr);
+                }
+            });
 
     }
 
     function validateUpdatedRawSongList(arr) {
         for (var i = 0; i < arr.length; i++) {
-            if(typeof arr[i] === 'undefined') {
+            if (typeof arr[i] === 'undefined') {
                 return false;
             }
         }
@@ -689,7 +1340,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var publishDate = new Date(publishDateStr);
         var currentDate = new Date();
         var timeDiff = currentDate.getTime() - publishDate.getTime();
-        var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+        var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
         return diffDays;
     }
 
@@ -701,7 +1352,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         }
         return false;
     }
-    
+
     function isSongTrending(youTubeData, currentSong) {
         if (isYouTubeDataValid(youTubeData)) {
             var diffDays = getDiffDaysOfSongDate(youTubeData);
@@ -759,14 +1410,14 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             return true;
         }
     }
-    
+
 
 
     // UTILS
 
-    function sleepFor( sleepDuration ){
+    function sleepFor(sleepDuration) {
         var now = new Date().getTime();
-        while(new Date().getTime() < now + sleepDuration){ /* do nothing */ } 
+        while (new Date().getTime() < now + sleepDuration) { /* do nothing */ }
     }
 
     function getSongGenresCount(currentSong) {
@@ -775,7 +1426,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         for (var i = 0; i < currentSongGenres.length; i++) {
             if (currentSongGenres[i] > 0) {
                 count++;
-            } 
+            }
         }
         return count;
     }
