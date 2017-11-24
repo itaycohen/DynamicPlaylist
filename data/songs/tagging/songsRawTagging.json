@@ -4026,36 +4026,36 @@
     },
     {
         "index": 115,
-        "id": "PVjiKRfKpPI",
+        "id": "y2ak_oBeC-I",
         "details": {
-            "artist": "Hozier",
-            "songName": "Take Me To Church"
+            "artist": "Fat Joe, Remy Ma",
+            "songName": "All The Way Up ft. French Montana, Infared"
         },
         "genreWeights": {
-            "Alternative": 2,
+            "Alternative": 0,
             "Chill Out": 0,
             "Country": 0,
             "Dance": 0,
             "Folk": 0,
             "Funk": 0,
-            "Hip-Hop": 0,
-            "Indie": 5,
+            "Hip-Hop": 2,
+            "Indie": 0,
             "Latin": 0,
             "Love": 0,
             "Metal": 0,
-            "Pop": 2,
+            "Pop": 0,
             "Punk": 0,
             "R&B": 0,
-            "Rap": 0,
+            "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3,
-            "Soul": 4,
+            "Rock": 0,
+            "Soul": 0,
             "Trance": 0
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -9486,30 +9486,30 @@
     },
     {
         "index": 271,
-        "id": "_-PgPZ3F9P4",
+        "id": "_EaPxw5exts",
         "details": {
-            "artist": "Of Monsters and Men",
-            "songName": "Crystals"
+            "artist": "ZAYN",
+            "songName": "BeFoUr"
         },
         "genreWeights": {
             "Alternative": 0,
             "Chill Out": 0,
             "Country": 0,
             "Dance": 0,
-            "Folk": 5,
+            "Folk": 0,
             "Funk": 0,
             "Hip-Hop": 0,
-            "Indie": 5,
+            "Indie": 0,
             "Latin": 0,
             "Love": 0,
             "Metal": 0,
-            "Pop": 0,
+            "Pop": 4,
             "Punk": 0,
-            "R&B": 0,
+            "R&B": 2,
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 2,
+            "Rock": 0,
             "Soul": 0,
             "Trance": 0
         },
@@ -9836,30 +9836,30 @@
     },
     {
         "index": 281,
-        "id": "6tu4wWSbnIs",
+        "id": "eBAHqRnSgRw",
         "details": {
-            "artist": "X Ambassadors",
-            "songName": "Renegades"
+            "artist": "Ariana Grande",
+            "songName": "Be Alright"
         },
         "genreWeights": {
-            "Alternative": 5,
+            "Alternative": 0,
             "Chill Out": 0,
             "Country": 0,
-            "Dance": 0,
-            "Folk": 2,
+            "Dance": 2,
+            "Folk": 0,
             "Funk": 0,
-            "Hip-Hop": 0,
-            "Indie": 4,
+            "Hip-Hop": 1,
+            "Indie": 0,
             "Latin": 0,
             "Love": 0,
             "Metal": 0,
-            "Pop": 0,
+            "Pop": 5,
             "Punk": 0,
             "R&B": 0,
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3,
+            "Rock": 0,
             "Soul": 0,
             "Trance": 0
         },
@@ -11516,10 +11516,10 @@
     },
     {
         "index": 329,
-        "id": "LgbxbSSybmM",
+        "id": "NmugSMBh_iI",
         "details": {
-            "artist": "Playboi Carti",
-            "songName": "Magnolia"
+            "artist": "Maroon 5",
+            "songName": "Maps"
         },
         "genreWeights": {
             "Alternative": 0,
@@ -11528,24 +11528,24 @@
             "Dance": 0,
             "Folk": 0,
             "Funk": 0,
-            "Hip-Hop": 3,
+            "Hip-Hop": 2,
             "Indie": 0,
             "Latin": 0,
             "Love": 0,
             "Metal": 0,
-            "Pop": 0,
+            "Pop": 5,
             "Punk": 0,
             "R&B": 0,
-            "Rap": 5,
+            "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0,
+            "Rock": 2,
             "Soul": 0,
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
+            "new": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -11831,27 +11831,27 @@
     },
     {
         "index": 338,
-        "id": "_EyZUTDAH0U",
+        "id": "yjmp8CoZBIo",
         "details": {
-            "artist": "Travis Scott",
-            "songName": "Butterfly Effect"
+            "artist": "One Direction",
+            "songName": "History"
         },
         "genreWeights": {
             "Alternative": 0,
             "Chill Out": 0,
             "Country": 0,
             "Dance": 0,
-            "Folk": 0,
+            "Folk": 2,
             "Funk": 0,
-            "Hip-Hop": 2,
+            "Hip-Hop": 0,
             "Indie": 0,
             "Latin": 0,
             "Love": 0,
             "Metal": 0,
-            "Pop": 0,
+            "Pop": 5,
             "Punk": 0,
             "R&B": 0,
-            "Rap": 5,
+            "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
@@ -11859,9 +11859,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
-            "trending": true
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -12776,27 +12776,27 @@
     },
     {
         "index": 365,
-        "id": "E5ONTXHS2mM",
+        "id": "ShlW5plD_40",
         "details": {
-            "artist": "Desiigner",
-            "songName": "Panda"
+            "artist": "Meghan Trainor",
+            "songName": "Dear Future Husband"
         },
         "genreWeights": {
             "Alternative": 0,
             "Chill Out": 0,
             "Country": 0,
-            "Dance": 0,
+            "Dance": 2,
             "Folk": 0,
             "Funk": 0,
-            "Hip-Hop": 3,
+            "Hip-Hop": 0,
             "Indie": 0,
             "Latin": 0,
             "Love": 0,
             "Metal": 0,
-            "Pop": 0,
+            "Pop": 5,
             "Punk": 0,
             "R&B": 0,
-            "Rap": 4,
+            "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
@@ -14276,216 +14276,6 @@
         "tagging": {
             "new": false,
             "hit": false,
-            "trending": false
-        }
-    },
-    {
-        "index": 408,
-        "id": "y2ak_oBeC-I",
-        "details": {
-            "artist": "Fat Joe, Remy Ma",
-            "songName": "All The Way Up ft. French Montana, Infared"
-        },
-        "genreWeights": {
-            "Alternative": 0,
-            "Chill Out": 0,
-            "Country": 0,
-            "Dance": 0,
-            "Folk": 0,
-            "Funk": 0,
-            "Hip-Hop": 2,
-            "Indie": 0,
-            "Latin": 0,
-            "Love": 0,
-            "Metal": 0,
-            "Pop": 0,
-            "Punk": 0,
-            "R&B": 0,
-            "Rap": 5,
-            "Reggae": 0,
-            "Reggaeton": 0,
-            "Rock": 0,
-            "Soul": 0,
-            "Trance": 0
-        },
-        "tagging": {
-            "new": false,
-            "hit": false,
-            "trending": false
-        }
-    },
-    {
-        "index": 409,
-        "id": "eBAHqRnSgRw",
-        "details": {
-            "artist": "Ariana Grande",
-            "songName": "Be Alright"
-        },
-        "genreWeights": {
-            "Alternative": 0,
-            "Chill Out": 0,
-            "Country": 0,
-            "Dance": 2,
-            "Folk": 0,
-            "Funk": 0,
-            "Hip-Hop": 1,
-            "Indie": 0,
-            "Latin": 0,
-            "Love": 0,
-            "Metal": 0,
-            "Pop": 5,
-            "Punk": 0,
-            "R&B": 0,
-            "Rap": 0,
-            "Reggae": 0,
-            "Reggaeton": 0,
-            "Rock": 0,
-            "Soul": 0,
-            "Trance": 0
-        },
-        "tagging": {
-            "new": false,
-            "hit": false,
-            "trending": false
-        }
-    },
-    {
-        "index": 410,
-        "id": "ShlW5plD_40",
-        "details": {
-            "artist": "Meghan Trainor",
-            "songName": "Dear Future Husband"
-        },
-        "genreWeights": {
-            "Alternative": 0,
-            "Chill Out": 0,
-            "Country": 0,
-            "Dance": 2,
-            "Folk": 0,
-            "Funk": 0,
-            "Hip-Hop": 0,
-            "Indie": 0,
-            "Latin": 0,
-            "Love": 0,
-            "Metal": 0,
-            "Pop": 5,
-            "Punk": 0,
-            "R&B": 0,
-            "Rap": 0,
-            "Reggae": 0,
-            "Reggaeton": 0,
-            "Rock": 0,
-            "Soul": 0,
-            "Trance": 0
-        },
-        "tagging": {
-            "new": false,
-            "hit": true,
-            "trending": false
-        }
-    },
-    {
-        "index": 411,
-        "id": "NmugSMBh_iI",
-        "details": {
-            "artist": "Maroon 5",
-            "songName": "Maps"
-        },
-        "genreWeights": {
-            "Alternative": 0,
-            "Chill Out": 0,
-            "Country": 0,
-            "Dance": 0,
-            "Folk": 0,
-            "Funk": 0,
-            "Hip-Hop": 2,
-            "Indie": 0,
-            "Latin": 0,
-            "Love": 0,
-            "Metal": 0,
-            "Pop": 5,
-            "Punk": 0,
-            "R&B": 0,
-            "Rap": 0,
-            "Reggae": 0,
-            "Reggaeton": 0,
-            "Rock": 2,
-            "Soul": 0,
-            "Trance": 0
-        },
-        "tagging": {
-            "new": false,
-            "hit": true,
-            "trending": false
-        }
-    },
-    {
-        "index": 412,
-        "id": "_EaPxw5exts",
-        "details": {
-            "artist": "ZAYN",
-            "songName": "BeFoUr"
-        },
-        "genreWeights": {
-            "Alternative": 0,
-            "Chill Out": 0,
-            "Country": 0,
-            "Dance": 0,
-            "Folk": 0,
-            "Funk": 0,
-            "Hip-Hop": 0,
-            "Indie": 0,
-            "Latin": 0,
-            "Love": 0,
-            "Metal": 0,
-            "Pop": 4,
-            "Punk": 0,
-            "R&B": 2,
-            "Rap": 0,
-            "Reggae": 0,
-            "Reggaeton": 0,
-            "Rock": 0,
-            "Soul": 0,
-            "Trance": 0
-        },
-        "tagging": {
-            "new": false,
-            "hit": false,
-            "trending": false
-        }
-    },
-    {
-        "index": 413,
-        "id": "yjmp8CoZBIo",
-        "details": {
-            "artist": "One Direction",
-            "songName": "History"
-        },
-        "genreWeights": {
-            "Alternative": 0,
-            "Chill Out": 0,
-            "Country": 0,
-            "Dance": 0,
-            "Folk": 2,
-            "Funk": 0,
-            "Hip-Hop": 0,
-            "Indie": 0,
-            "Latin": 0,
-            "Love": 0,
-            "Metal": 0,
-            "Pop": 5,
-            "Punk": 0,
-            "R&B": 0,
-            "Rap": 0,
-            "Reggae": 0,
-            "Reggaeton": 0,
-            "Rock": 0,
-            "Soul": 0,
-            "Trance": 0
-        },
-        "tagging": {
-            "new": false,
-            "hit": true,
             "trending": false
         }
     }

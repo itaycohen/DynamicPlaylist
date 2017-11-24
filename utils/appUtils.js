@@ -71,6 +71,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
+    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry"];
+
+
     // Adding Songs
     $rootScope.song = {
         "id": '',
@@ -1099,11 +1102,12 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     /// Test
 
     $rootScope.runAllTests = function () {
-        checkDuplicates();
+        checkDuplicatesIds();
+        checkDuplicatesSongNames();
     };
 
-    function checkDuplicates() {
-        $rootScope.duplicatesStatus = true;
+    function checkDuplicatesIds() {
+        $rootScope.duplicatesIdsStatus = true;
         var songsData = $rootScope.songsShrink;
         var songsIds = songsData.map(function (songObj) {
             return songObj.id;
@@ -1117,13 +1121,34 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             }
         }
         if (duplicatesArr.length !== 0) {
-            $rootScope.duplicatesStatus = false;
+            $rootScope.duplicatesIdsStatus = false;
         }
     }
 
-    $rootScope.getDuplicatesTestResult = function () {
-        if (angular.isDefined($rootScope.duplicatesStatus)) {
-            if ($rootScope.duplicatesStatus) {
+    function checkDuplicatesSongNames() {
+        $rootScope.duplicatesSongNamesStatus = true;
+        var songsData = $rootScope.songsShrink;
+        var songsNames = songsData.map(function (songObj) {
+            return songObj.s;
+        }).filter(function(songName) {
+            return duplicatesSongNames.indexOf(songName) == -1;
+        });
+        var sortedSongsNames = songsNames.slice().sort();
+        var duplicatesArr = [];
+        for (var i = 0; i < songsNames.length - 1; i++) {
+            if (sortedSongsNames[i + 1] == sortedSongsNames[i]) {
+                duplicatesArr.push(sortedSongsNames[i]);
+                console.log(sortedSongsNames[i]);
+            }
+        }
+        if (duplicatesArr.length !== 0) {
+            $rootScope.duplicatesSongNamesStatus = false;
+        }
+    }
+
+    $rootScope.getDuplicatesIdsTestResult = function () {
+        if (angular.isDefined($rootScope.duplicatesIdsStatus)) {
+            if ($rootScope.duplicatesIdsStatus) {
                 return "PASS";
             } else {
                 return "FAIL";
@@ -1132,6 +1157,19 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         return "CLICK ON RUN TEST";
     };
 
+
+    $rootScope.getDuplicatesSongNamesTestResult = function () {
+        if (angular.isDefined($rootScope.duplicatesSongNamesStatus)) {
+            if ($rootScope.duplicatesSongNamesStatus) {
+                return "PASS";
+            } else {
+                return "FAIL";
+            }
+        }
+        return "CLICK ON RUN TEST";
+    };
+
+    
 
     //// Statistics
 
