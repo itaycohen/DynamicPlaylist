@@ -168,7 +168,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.discogsResultParsed = "";
         $rootScope.musixResultParsed = "";
         $rootScope.itunesResultParsed = "";
-        s
+        
         $rootScope.data.takeSongName = true;
     };
 
@@ -588,7 +588,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         } else if (angular.isUndefined(dataToParse.track) || dataToParse.track === '') {
             // alert("Error in Result - no toptags");
             textResult = "Error in Result - no track";
-        } else if (dataToParse.track.mbid === '') {
+        } else if (angular.isUndefined(dataToParse.track.mbid) || dataToParse.track.mbid === '') {
             textResult = "empty mbid";
         } else {
             textResult = dataToParse.track.mbid;

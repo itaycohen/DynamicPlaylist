@@ -1,648 +1,2590 @@
-[
-    [
-        "comment_vpvd",
-        {
-            "comment_fbid": "1463959483687246",
-            "comment_id": "1463893533693841_1463959483687246",
-            "container_module": "newsstand",
-            "duration_ms": 1255,
-            "is_live_pinned_comment": false,
-            "is_on_sponsored_story": false,
-            "is_page_comment": false,
-            "is_reply": false,
-            "mf_story_key": null,
-            "order_mode": "toplevel",
-            "qid": null,
-            "referrer_source": null,
-            "streaming_comments_mode": 0
-        },
-        1505825983542,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "logger:LiveWWWFeedbackLoggerConfig",
-        {
-            "mechanism": "graphql_subscriptions",
-            "event": "receive_payload",
-            "update_type": "comment",
-            "time_since_sub": 114959,
-            "comment_id": "1630768740279323_1630778820278315"
-        },
-        1505825983561,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "video_player",
-        {
-            "logData": {
-                "ad_client_token": null,
-                "available_qualities": 1,
-                "autoplay_eligible": true,
-                "autoplay_setting": "default_autoplay",
-                "broadcaster_origin": null,
-                "projection": "flat",
-                "player_version": "pleasantville",
-                "video_id": "1705907169453774",
-                "player_state": "ready",
-                "player_origin": null,
-                "player_suborigin": "media_collage",
-                "playback_is_broadcast": false,
-                "playback_duration": 70.26358,
-                "streaming_format": "dash",
-                "video_time_position": 0,
-                "playback_is_live_streaming": false,
-                "video_channel_id": "",
-                "reaction_video_channel_type": null,
-                "fbcdn_pop": null,
-                "representation_id": "2028185464089639vd",
-                "video_bandwidth": 4768315.067340253,
-                "is_abr_enabled": true,
-                "feed_position": null,
-                "autoplay_failure_reasons": "[]",
-                "time_ms": 1505825983671,
-                "time": 1505825984,
-                "seq_num": 6,
-                "initial_event": true,
-                "is_stalling": false,
-                "ft": {
-                    "tn": "EH-R-R",
-                    "qid": "6467473184480610653",
-                    "mf_story_key": "-7216607318701449132",
-                    "top_level_post_id": "10155546754615943",
-                    "fbfeed_location": 1,
-                    "insertion_position": 36,
-                    "ordinal_position": "32:5"
-                }
-            },
-            "event": "ready_to_play",
-            "scriptPath": "/home.php:topnews",
-            "source": "media_collage"
-        },
-        1505825983671,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "tn_tree": "(-R(-RV<(Ckk)KH(HE)(Ck)cK(]OSJ)))",
-                "evt_value": 647,
-                "offset": 19992,
-                "inspos": "27",
-                "evt": 51,
-                "vpv_time": 1505825984,
-                "qid": "6467473184480610653",
-                "mf_story_key": "7696669323043522005",
-                "top_level_post_id": "1865778153438187",
-                "fbfeed_location": 1,
-                "insertion_position": 32,
-                "ordinal_position": "28:1",
-                "session_id": 27351040
-            }
-        },
-        1505825983877,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "xtrackable:swank",
-        {
-            "token": "7.qid.6467473184480610653:mf_story_key.-8584160415728736603:is_sponsored.1:ei.AI@048bd8080c5ee18f5b9e9d9027bd7a82:top_level_post_id.10155698688304161:call_to_action_type.BOOK_TRAVEL:page_id.125199507491867"
-        },
-        1505825984365,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "comment_vpvd",
-        {
-            "comment_fbid": "1463972367019291",
-            "comment_id": "1463893533693841_1463972367019291",
-            "container_module": "newsstand",
-            "duration_ms": 2640,
-            "is_live_pinned_comment": false,
-            "is_on_sponsored_story": false,
-            "is_page_comment": false,
-            "is_reply": false,
-            "mf_story_key": null,
-            "order_mode": "toplevel",
-            "qid": null,
-            "referrer_source": null,
-            "streaming_comments_mode": 0
-        },
-        1505825984767,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "marauder",
-        {
-            "app_ver": "3308679",
-            "data": [
-                {
-                    "name": "animated_image_session",
-                    "time": 1505825984.772,
-                    "module": null,
-                    "extra": {
-                        "autoplay": true,
-                        "download_time": null,
-                        "is_video": true,
-                        "image_src": "https://l.facebook.com/l.php?u=https%3A%2F%2Fmedia.tenor.co%2Fimages%2F2b6138c8abd50d00965e784d948a88df%2Ftenor.gif&h=ATM4C-NHo3uRLghrmoHiHKhSKNwaXoNKSDmLCCmScP7zJkLf6aTVOJUQZkefWE8fa5_BP3mnas6_Kb_rzET8X50PoIVZb8ShFEX7gpawZzzGrBoS5f8syB72JrqtiG5myWl-qBeEng&s=1",
-                        "fbid": "226547524203272:10155688594703670",
-                        "load_succeeded": false,
-                        "plays_inline": true,
-                        "time_spent": 1855,
-                        "was_tapped": true
-                    }
-                }
-            ],
-            "log_type": "client_event",
-            "seq": 0,
-            "session_id": "15e79fce845-459193"
-        },
-        1505825984773,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "logger:CommentsTimeSpentLoggerConfig",
-        {
-            "viewer_has_interacted": false,
-            "ordering_mode": "toplevel",
-            "post_fbid": "1463893533693841",
-            "start_time": 1505825982,
-            "end_time": 1505825984,
-            "time_spent_id": "lgya3j"
-        },
-        1505825984812,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "comment_vpvd",
-        {
-            "comment_fbid": "1464036317012896",
-            "comment_id": "1463893533693841_1464036317012896",
-            "container_module": "newsstand",
-            "duration_ms": 2687,
-            "is_live_pinned_comment": false,
-            "is_on_sponsored_story": false,
-            "is_page_comment": false,
-            "is_reply": false,
-            "mf_story_key": null,
-            "order_mode": "toplevel",
-            "qid": null,
-            "referrer_source": null,
-            "streaming_comments_mode": 0
-        },
-        1505825984821,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "comment_vpvd",
-        {
-            "comment_fbid": "1464076003675594",
-            "comment_id": "1463893533693841_1464076003675594",
-            "container_module": "newsstand",
-            "duration_ms": 2695,
-            "is_live_pinned_comment": false,
-            "is_on_sponsored_story": false,
-            "is_page_comment": false,
-            "is_reply": false,
-            "mf_story_key": null,
-            "order_mode": "toplevel",
-            "qid": null,
-            "referrer_source": null,
-            "streaming_comments_mode": 0
-        },
-        1505825984821,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "evt": 97,
-                "time_spent_id": "lgya3j",
-                "vpvd_start_timestamp": 1505825981394,
-                "vpvd_time_delta": 2183,
-                "story_height": 1805,
-                "viewport_height": 1070,
-                "qid": "6467473184480610653",
-                "mf_story_key": "-3616857007304998888",
-                "top_level_post_id": "1463893533693841",
-                "page_id": "357166177201",
-                "fbfeed_location": 1,
-                "insertion_position": 31,
-                "ordinal_position": "28:5",
-                "session_id": 27351040
-            }
-        },
-        1505825984899,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "evt": 97,
-                "time_spent_id": "lgya3j",
-                "vpvd_start_timestamp": 1505825983497,
-                "vpvd_time_delta": 1386,
-                "story_height": 647,
-                "viewport_height": 1070,
-                "qid": "6467473184480610653",
-                "mf_story_key": "7696669323043522005",
-                "top_level_post_id": "1865778153438187",
-                "fbfeed_location": 1,
-                "insertion_position": 32,
-                "ordinal_position": "28:1",
-                "session_id": 27351040
-            }
-        },
-        1505825984900,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "evt": 97,
-                "time_spent_id": "lgya3j",
-                "vpvd_start_timestamp": 1505825984798,
-                "vpvd_time_delta": 16,
-                "story_height": 235,
-                "viewport_height": 1070,
-                "qid": "6467473184480610653",
-                "mf_story_key": "2494839176036705854",
-                "og_action_id": "10103066743139714",
-                "top_level_post_id": "10103066742600794",
-                "fbfeed_location": 1,
-                "insertion_position": 33,
-                "ordinal_position": "29:2",
-                "session_id": 27351040
-            }
-        },
-        1505825984900,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "xtrackable:swank",
-        {
-            "token": "3.AI@79e581c2e30e02a8a7091c3d5a450872"
-        },
-        1505825984975,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "xtrackable:swank",
-        {
-            "token": "3.AI@f0be9fe543ed037ea3124eae71e54659"
-        },
-        1505825984975,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "logger:LiveWWWFeedbackLoggerConfig",
-        {
-            "mechanism": "graphql_subscriptions",
-            "event": "receive_payload",
-            "update_type": "comment",
-            "time_since_sub": 23382,
-            "comment_id": "1900468989974103_255544078300381"
-        },
-        1505825985171,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "tn_tree": "(-R(-RVm(Cl)KH(]S[)))",
-                "evt_value": 235,
-                "offset": 20649,
-                "inspos": "28",
-                "evt": 51,
-                "vpv_time": 1505825985,
-                "qid": "6467473184480610653",
-                "mf_story_key": "2494839176036705854",
-                "og_action_id": "10103066743139714",
-                "top_level_post_id": "10103066742600794",
-                "fbfeed_location": 1,
-                "insertion_position": 33,
-                "ordinal_position": "29:2",
-                "session_id": 27351040
-            }
-        },
-        1505825985240,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "tn_tree": "(-R(-RV(Cl)H(-R(-Rm(Cl-Ulk)K(HEE)(]S(R2T;N)(R1T;N)(R0T;N)(RT;N)[)))))",
-                "evt_value": 1037,
-                "offset": 20894,
-                "inspos": "30",
-                "evt": 51,
-                "vpv_time": 1505825985,
-                "qid": "6467473184480610653",
-                "mf_story_key": "7619531528638962103",
-                "top_level_post_id": "10155854623609273",
-                "fbfeed_location": 1,
-                "insertion_position": 35,
-                "ordinal_position": "31:4",
-                "session_id": 27351040
-            }
-        },
-        1505825985241,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "logger:LiveWWWFeedbackLoggerConfig",
-        {
-            "mechanism": "graphql_subscriptions",
-            "event": "receive_payload",
-            "update_type": "comment",
-            "time_since_sub": 116679,
-            "comment_id": "1630768740279323_1630779013611629"
-        },
-        1505825985281,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "video_player",
-        {
-            "logData": {
-                "ad_client_token": null,
-                "available_qualities": 2,
-                "autoplay_eligible": true,
-                "autoplay_setting": "default_autoplay",
-                "broadcaster_origin": "ash5",
-                "projection": "flat",
-                "player_version": "pleasantville",
-                "video_id": "1630768740279323",
-                "player_state": "paused",
-                "player_origin": null,
-                "player_suborigin": "inline",
-                "playback_is_broadcast": true,
-                "playback_duration": 2592264.07,
-                "streaming_format": "dash",
-                "video_time_position": 377.067,
-                "playback_is_live_streaming": true,
-                "video_channel_id": "387437888106301:1630768740279323",
-                "reaction_video_channel_type": null,
-                "fbcdn_pop": null,
-                "representation_id": "live-md-v",
-                "video_bandwidth": 4756755.61278195,
-                "is_abr_enabled": true,
-                "feed_position": "0",
-                "video_chaining_depth_level": 0,
-                "video_chaining_session_id": "f343ab1b087f4c",
-                "channel_eligibility": "eligible",
-                "autoplay_failure_reasons": "[]",
-                "buffered": 3.9839999999999804,
-                "video_play_reason": "autoplay_initiated",
-                "seq_num": 24,
-                "initial_event": false,
-                "time_ms": 1505825985478,
-                "time": 1505825985,
-                "is_stalling": false,
-                "ft": {
-                    "tn": "FHH-R-R",
-                    "qid": "6467472836596126738",
-                    "mf_story_key": "-4632536197500811869",
-                    "top_level_post_id": "1630768740279323",
-                    "page_id": "125249070831305",
-                    "fbfeed_location": 1
-                }
-            },
-            "event": "network_timeout",
-            "scriptPath": "/home.php:topnews",
-            "source": "inline"
-        },
-        1505825985478,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "logger:WWWImageLoadSrcEventLoggerConfig",
-        {
-            "surface": "feed",
-            "src": "https://scontent.flhr5-1.fna.fbcdn.net/v/t15.0-10/21858345_336939353385041_8762770441132572672_n.jpg?oh=d50c677bc95b376bcdd26157c1dcc0e9&oe=5A473E30",
-            "result": "success"
-        },
-        1505825986467,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "logger:WWWImageLoadSummaryEventLoggerConfig",
-        {
-            "surface": "feed",
-            "num_total": 177,
-            "num_success": 177,
-            "num_errors": 0,
-            "num_other": 0
-        },
-        1505825986470,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "feed_tracking",
-        {
-            "ft": {
-                "evt": 97,
-                "time_spent_id": "lgya3j",
-                "vpvd_start_timestamp": 1505825984899,
-                "vpvd_time_delta": 269,
-                "story_height": 1037,
-                "viewport_height": 1070,
-                "qid": "6467473184480610653",
-                "mf_story_key": "7619531528638962103",
-                "top_level_post_id": "10155854623609273",
-                "fbfeed_location": 1,
-                "insertion_position": 35,
-                "ordinal_position": "31:4",
-                "session_id": 27351040
-            }
-        },
-        1505825986531,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "time_spent_bit_array",
-        {
-            "tos_id": "lgya3j",
-            "start_time": 1505825940,
-            "tos_array": [
-                -168169089,
-                7804
-            ],
-            "tos_len": 47,
-            "tos_seq": 2,
-            "tos_cum": 83
-        },
-        1505825986545,
-        0,
-        {
-            "retry": true,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ],
-    [
-        "script_path_change",
-        {
-            "source_path": "/home.php:topnews",
-            "source_token": "22ccdf43",
-            "dest_path": null,
-            "dest_token": null,
-            "cause": "unload",
-            "extra_data": {
-                "via_banzai_vital": "1"
-            }
-        },
-        1505825986545,
-        0,
-        {
-            "retry": false,
-            "pageID": "lgya3j",
-            "userID": "674447127",
-            "status": 0
-        }
-    ]
-]
+{
+    "index": 408,
+    "id": "2Vv-BfVoq4g",
+    "details": {
+        "artist": "Ed Sheeran",
+        "songName": "Perfect"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 409,
+    "id": "HCjNJDNzw8Y",
+    "details": {
+        "artist": "Camila Cabello",
+        "songName": "Havana"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 3,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 410,
+    "id": "zDo0H8Fm7d0",
+    "details": {
+        "artist": "Bebe Rexha",
+        "songName": "Meant to Be"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 3,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 411,
+    "id": "tt2k8PGm-TI",
+    "details": {
+        "artist": "ZAYN",
+        "songName": "Dusk Till Dawn ft. Sia"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": true,
+        "trending": true
+    }
+},
+{
+    "index": 412,
+    "id": "wIft-t-MQuE",
+    "details": {
+        "artist": "Taylor Swift",
+        "songName": "…Ready For It?"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 413,
+    "id": "UceaB4D0jpo",
+    "details": {
+        "artist": "Post Malone",
+        "songName": "rockstar ft. 21 Savage"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 414,
+    "id": "CwfoyVa980U",
+    "details": {
+        "artist": "Charlie Puth",
+        "songName": "How Long"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 2,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 415,
+    "id": "ClU3fctbGls",
+    "details": {
+        "artist": "P!nk",
+        "songName": "What About Us"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 416,
+    "id": "5Wiio4KoGe8",
+    "details": {
+        "artist": "Maroon 5",
+        "songName": "What Lovers Do ft. SZA"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 417,
+    "id": "cH4E_t3m3xM",
+    "details": {
+        "artist": "Selena Gomez, Marshmello",
+        "songName": "Wolves"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 418,
+    "id": "UONnRMuuDps",
+    "details": {
+        "artist": "CNCO, Little Mix",
+        "songName": "Reggaetón Lento"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 5,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 5,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 419,
+    "id": "gOsM-DYAEhY",
+    "details": {
+        "artist": "Imagine Dragons",
+        "songName": "Whatever It Takes"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 2,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 420,
+    "id": "omzk3klIy0E",
+    "details": {
+        "artist": "Major Lazer",
+        "songName": "Sua Cara (feat. Anitta & Pabllo Vittar)"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 4,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": true,
+        "trending": true
+    }
+},
+{
+    "index": 421,
+    "id": "uZs1AHQBz24",
+    "details": {
+        "artist": "Clean Bandit",
+        "songName": "I Miss You feat. Julia Michaels"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 422,
+    "id": "6RLLOEzdxsM",
+    "details": {
+        "artist": "Alan Walker",
+        "songName": "All Falls Down (feat. Noah Cyrus with Digital Farm Animals)"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 423,
+    "id": "dPI-mRFEIH0",
+    "details": {
+        "artist": "Katy Perry",
+        "songName": "Bon Appétit ft. Migos"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 2,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": true,
+        "trending": true
+    }
+},
+{
+    "index": 424,
+    "id": "vQ3XgMKAgxc",
+    "details": {
+        "artist": "Avicii",
+        "songName": "Lonely Together ft. Rita Ora"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 425,
+    "id": "EUoe7cf0HYw",
+    "details": {
+        "artist": "Taylor Swift",
+        "songName": "Gorgeous"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 1,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 426,
+    "id": "8e4f9f-j-5Y",
+    "details": {
+        "artist": "Justin Bieber, BloodPop®",
+        "songName": "Friends"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 427,
+    "id": "V54CEElTF_U",
+    "details": {
+        "artist": "Taylor Swift",
+        "songName": "Call It What You Want"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 428,
+    "id": "7OrLroFa0AI",
+    "details": {
+        "artist": "MACKLEMORE FEAT SKYLAR GREY",
+        "songName": "GLORIOUS"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 3,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 429,
+    "id": "xdYFuCp3m9k",
+    "details": {
+        "artist": "Halsey",
+        "songName": "Bad At Love"
+    },
+    "genreWeights": {
+        "Alternative": 2,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 4,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 430,
+    "id": "Wv2rLZmbPMA",
+    "details": {
+        "artist": "Ed Sheeran",
+        "songName": "Dive"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 3,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 2,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 431,
+    "id": "pNNMr5glICM",
+    "details": {
+        "artist": "Martin Garrix & Troye Sivan",
+        "songName": "There For You"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 2,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 432,
+    "id": "E7q_wbbwGyU",
+    "details": {
+        "artist": "Liam Payne",
+        "songName": "Bedroom Floor"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 433,
+    "id": "P9-4xHVc7uk",
+    "details": {
+        "artist": "Robin Schulz",
+        "songName": "OK (feat. James Blunt)"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 2,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 434,
+    "id": "STO4-8vkG0U",
+    "details": {
+        "artist": "Selena Gomez",
+        "songName": "Fetish ft. Gucci Mane"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 435,
+    "id": "nBmNcLBaPUE",
+    "details": {
+        "artist": "Niall Horan",
+        "songName": "Slow Hands"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 3,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": true,
+        "trending": true
+    }
+},
+{
+    "index": 436,
+    "id": "hHXfCOjb3fk",
+    "details": {
+        "artist": "SZA",
+        "songName": "Love Galore ft. Travis Scott"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 5,
+        "Rap": 3,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 437,
+    "id": "9wg3v-01yKQ",
+    "details": {
+        "artist": "Harry Styles",
+        "songName": "Kiwi"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 438,
+    "id": "NZKXkD6EgBk",
+    "details": {
+        "artist": "Selena Gomez",
+        "songName": "Bad Liar"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 439,
+    "id": "hhREiAarjVY",
+    "details": {
+        "artist": "Sam Smith",
+        "songName": "Pray"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 2,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 440,
+    "id": "0qHGEgFucQU",
+    "details": {
+        "artist": "OneRepublic, Seeb",
+        "songName": "Rich Love"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 441,
+    "id": "Dw8B1q1tKgs",
+    "details": {
+        "artist": "Little Mix",
+        "songName": "Power ft. Stormzy"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 442,
+    "id": "QRF9TgkBCjc",
+    "details": {
+        "artist": "Tank",
+        "songName": "When We"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 4,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 443,
+    "id": "tksqqmQ5_XY",
+    "details": {
+        "artist": "Jason Derulo",
+        "songName": "If I'm Lucky Part 2"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 444,
+    "id": "g4hGRvs6HHU",
+    "details": {
+        "artist": "Alan Walker ft. Gavin James",
+        "songName": "Tired"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 445,
+    "id": "qBB_QOZNEdc",
+    "details": {
+        "artist": "Hailee Steinfeld",
+        "songName": "Most Girls"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 446,
+    "id": "jn40gqhxoSY",
+    "details": {
+        "artist": "Cheat Codes",
+        "songName": "No Promises ft. Demi Lovato"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 447,
+    "id": "MQXLpSl26q4",
+    "details": {
+        "artist": "Jax Jones",
+        "songName": "Instruction ft. Demi Lovato, Stefflon Don"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 448,
+    "id": "PbW14E2eHJ0",
+    "details": {
+        "artist": "Zedd, Liam Payne",
+        "songName": "Get Low"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 449,
+    "id": "8TpcBDJZsJA",
+    "details": {
+        "artist": "Ed Sheeran",
+        "songName": "Happier"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 3,
+        "Dance": 0,
+        "Folk": 3,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 4,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": true,
+        "trending": true
+    }
+},
+{
+    "index": 450,
+    "id": "hEdvvTF5js4",
+    "details": {
+        "artist": "Kygo",
+        "songName": "Stargazing ft. Justin Jesso"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 451,
+    "id": "hiP14ED28CA",
+    "details": {
+        "artist": "Jason Derulo",
+        "songName": "\"Wiggle\" feat. Snoop Dogg"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 4,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 452,
+    "id": "o3mP3mJDL2k",
+    "details": {
+        "artist": "Shakira",
+        "songName": "Can't Remember to Forget You ft. Rihanna"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 3,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 453,
+    "id": "PIh2xe4jnpk",
+    "details": {
+        "artist": "MAGIC!",
+        "songName": "Rude"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 3,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 454,
+    "id": "LDZX4ooRsWs",
+    "details": {
+        "artist": "Nicki Minaj",
+        "songName": "Anaconda"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 455,
+    "id": "0HDdjwpPM3Y",
+    "details": {
+        "artist": "Jessie J, Ariana Grande, Nicki Minaj",
+        "songName": "Bang Bang"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 456,
+    "id": "pB-5XG-DbAA",
+    "details": {
+        "artist": "Sam Smith",
+        "songName": "Stay With Me"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 457,
+    "id": "RbtPXFlZlHg",
+    "details": {
+        "artist": "Jason Derulo",
+        "songName": "\"Talk Dirty\" feat. 2 Chainz"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 458,
+    "id": "p1JPKLa-Ofc",
+    "details": {
+        "artist": "Beyoncé",
+        "songName": "Drunk in Love ft. JAY Z"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 459,
+    "id": "7RMQksXpQSk",
+    "details": {
+        "artist": "Katy Perry",
+        "songName": "This Is How We Do"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 460,
+    "id": "u3u22OYqFGo",
+    "details": {
+        "artist": "Iggy Azalea",
+        "songName": "Black Widow ft. Rita Ora"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 4,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 461,
+    "id": "JXRN_LkCa_o",
+    "details": {
+        "artist": "Chris Brown",
+        "songName": "Loyal ft. Lil Wayne, Tyga"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 5,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 462,
+    "id": "ESXgJ9-H-2U",
+    "details": {
+        "artist": "Kiesza",
+        "songName": "Hideaway"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 463,
+    "id": "qDc_5zpBj7s",
+    "details": {
+        "artist": "Meghan Trainor",
+        "songName": "Lips Are Movin"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 464,
+    "id": "bg1sT4ILG0w",
+    "details": {
+        "artist": "Nico & Vinz",
+        "songName": "Am I Wrong"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 465,
+    "id": "k4YRWT_Aldo",
+    "details": {
+        "artist": "Beyoncé",
+        "songName": "7/11"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 4,
+        "Rap": 1,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 466,
+    "id": "fiore9Z5iUg",
+    "details": {
+        "artist": "Lilly Wood & The Prick and Robin Schulz",
+        "songName": "Prayer In C"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 467,
+    "id": "qpgTC9MDx1o",
+    "details": {
+        "artist": "Maroon 5",
+        "songName": "Animals"
+    },
+    "genreWeights": {
+        "Alternative": 2,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 468,
+    "id": "93ASUImTedo",
+    "details": {
+        "artist": "Disclosure",
+        "songName": "Latch feat. Sam Smith"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 469,
+    "id": "nxtIRArhVD4",
+    "details": {
+        "artist": "Jennifer Lopez",
+        "songName": "Booty ft. Iggy Azalea"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 470,
+    "id": "tlYcUqEPN58",
+    "details": {
+        "artist": "Ed Sheeran",
+        "songName": "Sing"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 1,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 471,
+    "id": "6ACl8s_tBzE",
+    "details": {
+        "artist": "Calvin Harris",
+        "songName": "Blame ft. John Newman"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 5,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 472,
+    "id": "pZ12_E5R3qc",
+    "details": {
+        "artist": "Beyoncé",
+        "songName": "Partition"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 3,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 3,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 473,
+    "id": "50GQjUZ4P3M",
+    "details": {
+        "artist": "RITA ORA",
+        "songName": "I Will Never Let You Down"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 474,
+    "id": "W1tzURKYFNs",
+    "details": {
+        "artist": "Miley Cyrus",
+        "songName": "Adore You"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 2,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 475,
+    "id": "iD2rhdFRehU",
+    "details": {
+        "artist": "Ed Sheeran",
+        "songName": "Don't"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 2,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 2,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 476,
+    "id": "EVr__5Addjw",
+    "details": {
+        "artist": "David Guetta",
+        "songName": "Dangerous ft Sam Martin"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 477,
+    "id": "r5yaoMjaAmE",
+    "details": {
+        "artist": "Christina Perri",
+        "songName": "Human"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 1,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 478,
+    "id": "CFF0mV24WCY",
+    "details": {
+        "artist": "Tiësto",
+        "songName": "Red Lights"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 5,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 3
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 479,
+    "id": "Y4JfPlry-iQ",
+    "details": {
+        "artist": "Fifth Harmony",
+        "songName": "BO$$"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 480,
+    "id": "EFEmTsfFL5A",
+    "details": {
+        "artist": "Paramore",
+        "songName": "Ain't It Fun"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 3,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 481,
+    "id": "bltr_Dsk5EY",
+    "details": {
+        "artist": "Afrojack",
+        "songName": "Ten Feet Tall ft. Wrabel"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 5,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 3
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+}
