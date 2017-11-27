@@ -75,7 +75,7 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
         if (typeof YT !== 'undefined' && typeof YT.get === "function") {
             var playerRef = YT.get("player");
             // even if 'YT' was loaded, we need to check if 'loadVideoById' is available    
-            if (typeof playerRef.loadVideoById === "function") {
+            if (typeof playerRef !== 'undefined' && typeof playerRef.loadVideoById === "function") {
                 return true;
             }
         }
