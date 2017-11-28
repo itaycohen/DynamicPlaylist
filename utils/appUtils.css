@@ -15,3 +15,8 @@
 .result-area-small {
     font-size: 11px;
 }
+
+
+.genre-text {
+    color: red !important;
+}

@@ -84,6 +84,8 @@
                                         <p ng-if="!isNewSong(song.id)" style="color : red; font-size: 25px">Already Exist</p>
                                     </md-input-container>
                                     <md-button ng-click="getSongNameAndParseFullTitle()" class="md-raised md-primary">Get Name + Parse</md-button>
+                                    <md-button ng-click="getAllData()" class="md-raised">Get All Data</md-button>
+                                    
                                     <md-input-container style="width: 350px" md-no-float class="md-block">
                                         <label>Publish Date</label>
                                         <input ng-model="song.publishDate" type="text">
@@ -149,7 +151,7 @@
                                             <textarea ng-model="lastFmMbid" class="result-area-small" aria-label="lastFmMbid"></textarea>
                                         </md-input-container>
                                         <md-input-container class="md-block" style="margin-top: 0px">
-                                            <textarea ng-model="lastFmResultParsed" class="result-area" aria-label="lastFmResultParsed"></textarea>
+                                            <textarea ng-model="lastFmResultParsed" class="result-area genre-text" aria-label="lastFmResultParsed"></textarea>
                                         </md-input-container>
                                     </div>
 
@@ -165,7 +167,7 @@
                                             <textarea ng-model="musixMbidTwo" class="result-area-small" aria-label="musixMbidTwo"></textarea>
                                         </md-input-container>
                                         <md-input-container class="md-block" style="margin-top: 0px">
-                                            <textarea ng-model="musixResultParsed" class="result-area" aria-label="musixResultParsed"></textarea>
+                                            <textarea ng-model="musixResultParsed" class="result-area genre-text" aria-label="musixResultParsed"></textarea>
                                         </md-input-container>
 
                                     </div>
@@ -181,7 +183,7 @@
                                         <md-button ng-click="getAcousticBrainzDataByBrainzQueryTwoMbid()" class="md-raised md-primary util-button">MBrainz2</md-button>
 
                                         <md-input-container class="md-block">
-                                            <textarea ng-model="brainzResultParsed" class="result-area" aria-label="brainzResultParsed"></textarea>
+                                            <textarea ng-model="brainzResultParsed" class="result-area genre-text" aria-label="brainzResultParsed"></textarea>
                                         </md-input-container>
                                     </div>
 
@@ -191,17 +193,17 @@
                                             <md-button ng-click="getDiscogsData()" class="md-raised md-primary util-button">Get Data</md-button>
                                             <md-button ng-click="cleanDiscogsResult()" class="md-raised util-button">Clean</md-button>
                                             <md-input-container class="md-block" style="margin-bottom: 0px">
-                                                <textarea ng-model="discogsResultParsed" class="result-area" aria-label="discogsResultParsed"></textarea>
+                                                <textarea ng-model="discogsResultParsed" class="result-area genre-text" aria-label="discogsResultParsed"></textarea>
                                             </md-input-container>
                                         </div>
 
                                         <div style="width: 180px">
-                                            <h3> iTunes </h3>
+                                            <h3 style="margin-top: 0px"> iTunes </h3>
                                             <md-button ng-click="getItunesData()" class="md-raised md-primary util-button">Get Data</md-button>
                                             <md-button ng-click="cleanItunesResult()" class="md-raised util-button">Clean</md-button>
 
                                             <md-input-container class="md-block">
-                                                <textarea ng-model="itunesResultParsed" class="result-area" aria-label="itunesResultParsed"></textarea>
+                                                <textarea ng-model="itunesResultParsed" class="result-area genre-text" aria-label="itunesResultParsed"></textarea>
                                             </md-input-container>
                                         </div>
 

@@ -226,6 +226,17 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     };
 
+    $rootScope.getAllData = function () {
+        $rootScope.getTopTagsData();
+        $rootScope.getDiscogsData();
+        $rootScope.getMusixData();
+        $rootScope.getItunesData();
+        $rootScope.getMusicBrainzQueryData();
+    };
+
+
+    
+
 
     $rootScope.getTopTagsData = function () {
         var url = "";
