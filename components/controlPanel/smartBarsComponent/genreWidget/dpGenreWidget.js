@@ -24,13 +24,13 @@ function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
 
     // init the weight
     // TODO - save and load from chache for each user
-    $scope.widgetValue = dpSongsListLogic.getWeightOfGenre($scope.genre);
+    $scope.widgetValue = dpSongsListLogic.getWeightOfGenre($scope.genre) * 10;
 
     $scope.onWidgetChange = function () {
         // first we update the genre map
         // TODO
         // updating dpGenreWidgetManager 
-        $scope.$parent.updateSongIndexesListWithGenre($scope.genre, $scope.widgetValue);
+        $scope.$parent.updateSongIndexesListWithGenre($scope.genre, $scope.widgetValue / 10);
     };
 
     $scope.getGenreContainerClass = function () {
