@@ -13837,39 +13837,6 @@ function dpSongsListLoaderService($http, $q) {
         },
         {
             "i": 419,
-            "id": "gOsM-DYAEhY",
-            "a": "Imagine Dragons",
-            "s": "Whatever It Takes",
-            "g": [
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                2,
-                0,
-                0,
-                0,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                0
-            ],
-            "t": {
-                "n": 1,
-                "h": 0,
-                "t": 1
-            }
-        },
-        {
-            "i": 420,
             "id": "omzk3klIy0E",
             "a": "Major Lazer",
             "s": "Sua Cara (feat. Anitta & Pabllo Vittar)",
@@ -13902,7 +13869,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 421,
+            "i": 420,
             "id": "uZs1AHQBz24",
             "a": "Clean Bandit",
             "s": "I Miss You feat. Julia Michaels",
@@ -13935,7 +13902,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 422,
+            "i": 421,
             "id": "6RLLOEzdxsM",
             "a": "Alan Walker",
             "s": "All Falls Down (feat. Noah Cyrus with Digital Farm Animals)",
@@ -13968,7 +13935,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 423,
+            "i": 422,
             "id": "dPI-mRFEIH0",
             "a": "Katy Perry",
             "s": "Bon Appétit ft. Migos",
@@ -14001,7 +13968,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 424,
+            "i": 423,
             "id": "vQ3XgMKAgxc",
             "a": "Avicii",
             "s": "Lonely Together ft. Rita Ora",
@@ -14034,7 +14001,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 425,
+            "i": 424,
             "id": "EUoe7cf0HYw",
             "a": "Taylor Swift",
             "s": "Gorgeous",
@@ -14067,7 +14034,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 426,
+            "i": 425,
             "id": "8e4f9f-j-5Y",
             "a": "Justin Bieber, BloodPop®",
             "s": "Friends",
@@ -14100,7 +14067,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 427,
+            "i": 426,
             "id": "V54CEElTF_U",
             "a": "Taylor Swift",
             "s": "Call It What You Want",
@@ -14133,7 +14100,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 428,
+            "i": 427,
             "id": "7OrLroFa0AI",
             "a": "MACKLEMORE FEAT SKYLAR GREY",
             "s": "GLORIOUS",
@@ -14166,7 +14133,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 429,
+            "i": 428,
             "id": "xdYFuCp3m9k",
             "a": "Halsey",
             "s": "Bad At Love",
@@ -14199,7 +14166,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 430,
+            "i": 429,
             "id": "Wv2rLZmbPMA",
             "a": "Ed Sheeran",
             "s": "Dive",
@@ -14232,7 +14199,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 431,
+            "i": 430,
             "id": "pNNMr5glICM",
             "a": "Martin Garrix & Troye Sivan",
             "s": "There For You",
@@ -14265,7 +14232,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 432,
+            "i": 431,
             "id": "E7q_wbbwGyU",
             "a": "Liam Payne",
             "s": "Bedroom Floor",
@@ -14298,7 +14265,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 433,
+            "i": 432,
             "id": "P9-4xHVc7uk",
             "a": "Robin Schulz",
             "s": "OK (feat. James Blunt)",
@@ -14331,7 +14298,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 434,
+            "i": 433,
             "id": "STO4-8vkG0U",
             "a": "Selena Gomez",
             "s": "Fetish ft. Gucci Mane",
@@ -14364,7 +14331,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 435,
+            "i": 434,
             "id": "nBmNcLBaPUE",
             "a": "Niall Horan",
             "s": "Slow Hands",
@@ -14397,7 +14364,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 436,
+            "i": 435,
             "id": "hHXfCOjb3fk",
             "a": "SZA",
             "s": "Love Galore ft. Travis Scott",
@@ -14430,7 +14397,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 437,
+            "i": 436,
             "id": "9wg3v-01yKQ",
             "a": "Harry Styles",
             "s": "Kiwi",
@@ -14463,7 +14430,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 438,
+            "i": 437,
             "id": "NZKXkD6EgBk",
             "a": "Selena Gomez",
             "s": "Bad Liar",
@@ -14496,7 +14463,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 439,
+            "i": 438,
             "id": "hhREiAarjVY",
             "a": "Sam Smith",
             "s": "Pray",
@@ -14529,7 +14496,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 440,
+            "i": 439,
             "id": "0qHGEgFucQU",
             "a": "OneRepublic, Seeb",
             "s": "Rich Love",
@@ -14562,7 +14529,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 441,
+            "i": 440,
             "id": "Dw8B1q1tKgs",
             "a": "Little Mix",
             "s": "Power ft. Stormzy",
@@ -14595,7 +14562,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 442,
+            "i": 441,
             "id": "QRF9TgkBCjc",
             "a": "Tank",
             "s": "When We",
@@ -14628,7 +14595,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 443,
+            "i": 442,
             "id": "tksqqmQ5_XY",
             "a": "Jason Derulo",
             "s": "If I'm Lucky Part 2",
@@ -14661,7 +14628,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 444,
+            "i": 443,
             "id": "g4hGRvs6HHU",
             "a": "Alan Walker ft. Gavin James",
             "s": "Tired",
@@ -14694,7 +14661,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 445,
+            "i": 444,
             "id": "qBB_QOZNEdc",
             "a": "Hailee Steinfeld",
             "s": "Most Girls",
@@ -14727,7 +14694,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 446,
+            "i": 445,
             "id": "jn40gqhxoSY",
             "a": "Cheat Codes",
             "s": "No Promises ft. Demi Lovato",
@@ -14760,7 +14727,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 447,
+            "i": 446,
             "id": "MQXLpSl26q4",
             "a": "Jax Jones",
             "s": "Instruction ft. Demi Lovato, Stefflon Don",
@@ -14793,7 +14760,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 448,
+            "i": 447,
             "id": "PbW14E2eHJ0",
             "a": "Zedd, Liam Payne",
             "s": "Get Low",
@@ -14826,7 +14793,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 449,
+            "i": 448,
             "id": "8TpcBDJZsJA",
             "a": "Ed Sheeran",
             "s": "Happier",
@@ -14859,7 +14826,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 450,
+            "i": 449,
             "id": "hEdvvTF5js4",
             "a": "Kygo",
             "s": "Stargazing ft. Justin Jesso",
@@ -14892,7 +14859,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 451,
+            "i": 450,
             "id": "hiP14ED28CA",
             "a": "Jason Derulo",
             "s": "\"Wiggle\" feat. Snoop Dogg",
@@ -14925,7 +14892,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 452,
+            "i": 451,
             "id": "o3mP3mJDL2k",
             "a": "Shakira",
             "s": "Can't Remember to Forget You ft. Rihanna",
@@ -14958,7 +14925,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 453,
+            "i": 452,
             "id": "PIh2xe4jnpk",
             "a": "MAGIC!",
             "s": "Rude",
@@ -14991,7 +14958,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 454,
+            "i": 453,
             "id": "LDZX4ooRsWs",
             "a": "Nicki Minaj",
             "s": "Anaconda",
@@ -15024,7 +14991,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 455,
+            "i": 454,
             "id": "0HDdjwpPM3Y",
             "a": "Jessie J, Ariana Grande, Nicki Minaj",
             "s": "Bang Bang",
@@ -15057,7 +15024,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 456,
+            "i": 455,
             "id": "pB-5XG-DbAA",
             "a": "Sam Smith",
             "s": "Stay With Me",
@@ -15090,7 +15057,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 457,
+            "i": 456,
             "id": "RbtPXFlZlHg",
             "a": "Jason Derulo",
             "s": "\"Talk Dirty\" feat. 2 Chainz",
@@ -15123,7 +15090,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 458,
+            "i": 457,
             "id": "p1JPKLa-Ofc",
             "a": "Beyoncé",
             "s": "Drunk in Love ft. JAY Z",
@@ -15156,7 +15123,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 459,
+            "i": 458,
             "id": "7RMQksXpQSk",
             "a": "Katy Perry",
             "s": "This Is How We Do",
@@ -15189,7 +15156,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 460,
+            "i": 459,
             "id": "u3u22OYqFGo",
             "a": "Iggy Azalea",
             "s": "Black Widow ft. Rita Ora",
@@ -15222,7 +15189,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 461,
+            "i": 460,
             "id": "JXRN_LkCa_o",
             "a": "Chris Brown",
             "s": "Loyal ft. Lil Wayne, Tyga",
@@ -15255,7 +15222,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 462,
+            "i": 461,
             "id": "ESXgJ9-H-2U",
             "a": "Kiesza",
             "s": "Hideaway",
@@ -15288,7 +15255,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 463,
+            "i": 462,
             "id": "qDc_5zpBj7s",
             "a": "Meghan Trainor",
             "s": "Lips Are Movin",
@@ -15321,7 +15288,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 464,
+            "i": 463,
             "id": "bg1sT4ILG0w",
             "a": "Nico & Vinz",
             "s": "Am I Wrong",
@@ -15354,7 +15321,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 465,
+            "i": 464,
             "id": "k4YRWT_Aldo",
             "a": "Beyoncé",
             "s": "7/11",
@@ -15387,7 +15354,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 466,
+            "i": 465,
             "id": "fiore9Z5iUg",
             "a": "Lilly Wood & The Prick and Robin Schulz",
             "s": "Prayer In C",
@@ -15420,7 +15387,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 467,
+            "i": 466,
             "id": "qpgTC9MDx1o",
             "a": "Maroon 5",
             "s": "Animals",
@@ -15453,7 +15420,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 468,
+            "i": 467,
             "id": "93ASUImTedo",
             "a": "Disclosure",
             "s": "Latch feat. Sam Smith",
@@ -15486,7 +15453,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 469,
+            "i": 468,
             "id": "nxtIRArhVD4",
             "a": "Jennifer Lopez",
             "s": "Booty ft. Iggy Azalea",
@@ -15519,7 +15486,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 470,
+            "i": 469,
             "id": "tlYcUqEPN58",
             "a": "Ed Sheeran",
             "s": "Sing",
@@ -15552,7 +15519,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 471,
+            "i": 470,
             "id": "6ACl8s_tBzE",
             "a": "Calvin Harris",
             "s": "Blame ft. John Newman",
@@ -15585,7 +15552,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 472,
+            "i": 471,
             "id": "pZ12_E5R3qc",
             "a": "Beyoncé",
             "s": "Partition",
@@ -15618,7 +15585,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 473,
+            "i": 472,
             "id": "50GQjUZ4P3M",
             "a": "RITA ORA",
             "s": "I Will Never Let You Down",
@@ -15651,7 +15618,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 474,
+            "i": 473,
             "id": "W1tzURKYFNs",
             "a": "Miley Cyrus",
             "s": "Adore You",
@@ -15684,7 +15651,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 475,
+            "i": 474,
             "id": "iD2rhdFRehU",
             "a": "Ed Sheeran",
             "s": "Don't",
@@ -15717,7 +15684,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 476,
+            "i": 475,
             "id": "EVr__5Addjw",
             "a": "David Guetta",
             "s": "Dangerous ft Sam Martin",
@@ -15750,7 +15717,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 477,
+            "i": 476,
             "id": "r5yaoMjaAmE",
             "a": "Christina Perri",
             "s": "Human",
@@ -15783,7 +15750,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 478,
+            "i": 477,
             "id": "CFF0mV24WCY",
             "a": "Tiësto",
             "s": "Red Lights",
@@ -15816,7 +15783,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 479,
+            "i": 478,
             "id": "Y4JfPlry-iQ",
             "a": "Fifth Harmony",
             "s": "BO$$",
@@ -15849,7 +15816,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 480,
+            "i": 479,
             "id": "EFEmTsfFL5A",
             "a": "Paramore",
             "s": "Ain't It Fun",
@@ -15882,7 +15849,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 481,
+            "i": 480,
             "id": "bltr_Dsk5EY",
             "a": "Afrojack",
             "s": "Ten Feet Tall ft. Wrabel",
@@ -15915,7 +15882,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 482,
+            "i": 481,
             "id": "aKuivabiOns",
             "a": "Daddy Yankee",
             "s": "Shaky Shaky | Video Oficial",
@@ -15948,7 +15915,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 483,
+            "i": 482,
             "id": "Bznxx12Ptl0",
             "a": "AronChupa",
             "s": "I'm an Albatraoz",
@@ -15981,7 +15948,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 484,
+            "i": 483,
             "id": "O-zpOMYRi0w",
             "a": "Iggy Azalea",
             "s": "Fancy ft. Charli XCX",
@@ -16014,7 +15981,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 485,
+            "i": 484,
             "id": "tg00YEETFzg",
             "a": "Rihanna",
             "s": "We Found Love ft. Calvin Harris",
@@ -16047,7 +16014,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 486,
+            "i": 485,
             "id": "ALZHF5UqnU4",
             "a": "Marshmello",
             "s": "Alone",
@@ -16080,7 +16047,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 487,
+            "i": 486,
             "id": "CfihYWRWRTQ",
             "a": "John Newman",
             "s": "Love Me Again",
@@ -16113,7 +16080,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 488,
+            "i": 487,
             "id": "igNVdlXhKcI",
             "a": "Charlie Puth",
             "s": "Marvin Gaye ft. Meghan Trainor",
@@ -16146,7 +16113,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 489,
+            "i": 488,
             "id": "kdemFfbS5H0",
             "a": "#SELFIE",
             "s": "The Chainsmokers",
@@ -16179,7 +16146,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 490,
+            "i": 489,
             "id": "6GUm5g8SG4o",
             "a": "R. City",
             "s": "Locked Away ft. Adam Levine",
@@ -16212,7 +16179,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 491,
+            "i": 490,
             "id": "12CeaxLiMgE",
             "a": "Dillon Francis, DJ Snake",
             "s": "Get Low",
@@ -16245,7 +16212,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 492,
+            "i": 491,
             "id": "ANS9sSJA9Yc",
             "a": "Maroon 5",
             "s": "Don't Wanna Know",
@@ -16278,7 +16245,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 493,
+            "i": 492,
             "id": "bvC_0foemLY",
             "a": "Robin Schulz",
             "s": "Sugar (feat. Francesco Yates)",
@@ -16311,7 +16278,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 494,
+            "i": 493,
             "id": "Ho32Oh6b4jc",
             "a": "One Direction",
             "s": "Perfect",
@@ -16344,7 +16311,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 495,
+            "i": 494,
             "id": "BiQIc7fG9pA",
             "a": "gnash",
             "s": "i hate u, i love u ft. olivia o'brien",
@@ -16377,7 +16344,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 496,
+            "i": 495,
             "id": "AOPMlIIg_38",
             "a": "The Fault In Our Stars",
             "s": "Charli XCX - Boom Clap",
@@ -16410,7 +16377,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 497,
+            "i": 496,
             "id": "50-_oTkmF5I",
             "a": "Becky G",
             "s": "Shower",
@@ -16443,7 +16410,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 498,
+            "i": 497,
             "id": "KDxJlW6cxRk",
             "a": "Duke Dumont",
             "s": "Ocean Drive",
@@ -16476,7 +16443,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 499,
+            "i": 498,
             "id": "il9nqWw9W3Y",
             "a": "Demi Lovato",
             "s": "Cool for the Summer",
@@ -16509,7 +16476,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 500,
+            "i": 499,
             "id": "6JCLY0Rlx6Q",
             "a": "WALK THE MOON",
             "s": "Shut Up and Dance",
@@ -16542,7 +16509,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 501,
+            "i": 500,
             "id": "b8I-7Wk_Vbc",
             "a": "Enrique Iglesias",
             "s": "Bailando ft. Sean Paul, Descemer Bueno, Gente De Zona",
@@ -16575,7 +16542,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 502,
+            "i": 501,
             "id": "j3CaHeakZF4",
             "a": "Deorro x Chris Brown",
             "s": "Five More Hours",
@@ -16608,7 +16575,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 503,
+            "i": 502,
             "id": "uo35R9zQsAI",
             "a": "Flo Rida",
             "s": "My House",
@@ -16641,7 +16608,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 504,
+            "i": 503,
             "id": "cwLRQn61oUY",
             "a": "Demi Lovato",
             "s": "Confident",
@@ -16674,7 +16641,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 505,
+            "i": 504,
             "id": "IvN5h9BE444",
             "a": "Nicki Minaj",
             "s": "The Night Is Still Young",
@@ -16707,7 +16674,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 506,
+            "i": 505,
             "id": "taViGR5VT1U",
             "a": "Nick Jonas",
             "s": "Levels",
@@ -16740,7 +16707,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 507,
+            "i": 506,
             "id": "b8PPap4dJog",
             "a": "Kygo",
             "s": "Here for You ft. Ella Henderson",
@@ -16773,7 +16740,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 508,
+            "i": 507,
             "id": "pt8VYOfr8To",
             "a": "Britney Spears",
             "s": "Work B**ch",
@@ -16806,7 +16773,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 509,
+            "i": 508,
             "id": "9w9dXWU5nMI",
             "a": "Prince Royce",
             "s": "Back It Up ft. Jennifer Lopez, Pitbull",
@@ -16839,7 +16806,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 510,
+            "i": 509,
             "id": "7hPMmzKs62w",
             "a": "Madonna",
             "s": "Bitch I'm Madonna ft. Nicki Minaj",
@@ -16872,106 +16839,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 511,
-            "id": "0zGcUoRlhmw",
-            "a": "The Chainsmokers",
-            "s": "Closer ft. Halsey",
-            "g": [
-                0,
-                0,
-                0,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "t": {
-                "n": 0,
-                "h": 0,
-                "t": 0
-            }
-        },
-        {
-            "i": 512,
-            "id": "qDcFryDXQ7U",
-            "a": "Major Lazer",
-            "s": "Light It Up (feat. Nyla & Fuse ODG)",
-            "g": [
-                0,
-                0,
-                0,
-                3,
-                0,
-                0,
-                3,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "t": {
-                "n": 0,
-                "h": 1,
-                "t": 0
-            }
-        },
-        {
-            "i": 513,
-            "id": "FyASdjZE0R0",
-            "a": "The Chainsmokers",
-            "s": "Roses ft. ROZES",
-            "g": [
-                0,
-                0,
-                0,
-                3,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                3,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "t": {
-                "n": 0,
-                "h": 0,
-                "t": 0
-            }
-        },
-        {
-            "i": 514,
+            "i": 510,
             "id": "H202k7KfZL0",
             "a": "Ellie Goulding",
             "s": "On My Mind",
@@ -17004,7 +16872,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 515,
+            "i": 511,
             "id": "ngORmvyvAaI",
             "a": "Shawn Mendes, Camila Cabello",
             "s": "I Know What You Did Last Summer",
@@ -17037,7 +16905,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 516,
+            "i": 512,
             "id": "X2BYmmTI04I",
             "a": "5 Seconds of Summer",
             "s": "She Looks So Perfect",
@@ -17070,7 +16938,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 517,
+            "i": 513,
             "id": "XgJFqVvb2Ws",
             "a": "Nick Jonas",
             "s": "Close ft. Tove Lo",
@@ -17103,7 +16971,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 518,
+            "i": 514,
             "id": "bMpFmHSgC4Q",
             "a": "Hailee Steinfeld",
             "s": "Love Myself",
@@ -17136,7 +17004,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 519,
+            "i": 515,
             "id": "xwjwCFZpdns",
             "a": "Hailee Steinfeld, Grey",
             "s": "Starving ft. Zedd",
@@ -17169,7 +17037,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 520,
+            "i": 516,
             "id": "bTXJQ5ql5Fw",
             "a": "Pitbull, Ne-Yo",
             "s": "Time Of Our Lives",
@@ -17202,7 +17070,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 521,
+            "i": 517,
             "id": "fDrTbLXHKu8",
             "a": "Skrillex & Diplo",
             "s": "\"Mind\" feat. Kai",
@@ -17235,7 +17103,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 522,
+            "i": 518,
             "id": "ywvRgGAd2XI",
             "a": "twenty one pilots",
             "s": "Lane Boy",
@@ -17268,7 +17136,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 523,
+            "i": 519,
             "id": "8SeRU_ZPDkE",
             "a": "Grace",
             "s": "You Don't Own Me ft. G-Eazy",
@@ -17301,7 +17169,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 524,
+            "i": 520,
             "id": "jKbR7u8J5PU",
             "a": "Pitbull",
             "s": "Fun ft. Chris Brown",
@@ -17334,7 +17202,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 525,
+            "i": 521,
             "id": "oOAfz0H4f00",
             "a": "Jason Derulo",
             "s": "Trumpets",
@@ -17367,7 +17235,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 526,
+            "i": 522,
             "id": "JGhoLcsr8GA",
             "a": "MACKLEMORE & RYAN LEWIS",
             "s": "DOWNTOWN",
@@ -17400,7 +17268,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 527,
+            "i": 523,
             "id": "vAEwLvxHVVk",
             "a": "Robin Schulz",
             "s": "Headlights feat. Ilsey",
@@ -17433,7 +17301,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 528,
+            "i": 524,
             "id": "gCJ3rmiZFr8",
             "a": "Fifth Harmony",
             "s": "Sledgehammer",
@@ -17466,7 +17334,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 529,
+            "i": 525,
             "id": "8zqdo_Umd5c",
             "a": "Natalie La Rose",
             "s": "Somebody ft. Jeremih",
@@ -17499,7 +17367,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 530,
+            "i": 526,
             "id": "n49qi-dU9IE",
             "a": "Kent Jones",
             "s": "Dont Mind",
@@ -17532,7 +17400,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 531,
+            "i": 527,
             "id": "X46t8ZFqUB4",
             "a": "Zedd",
             "s": "I Want You To Know ft. Selena Gomez",
@@ -17565,7 +17433,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 532,
+            "i": 528,
             "id": "NLZRYQMLDW4",
             "a": "Kendrick Lamar",
             "s": "DNA.",
@@ -17598,7 +17466,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 533,
+            "i": 529,
             "id": "JLf9q36UsBk",
             "a": "Taylor Swift",
             "s": "Out Of The Woods",
@@ -17631,7 +17499,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 534,
+            "i": 530,
             "id": "yw04QD1LaB0",
             "a": "Nick Jonas",
             "s": "Jealous",
@@ -17664,7 +17532,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 535,
+            "i": 531,
             "id": "AzRyxGBGiAE",
             "a": "Tove Lo",
             "s": "Talking Body",
@@ -17697,7 +17565,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 536,
+            "i": 532,
             "id": "Mdh2p03cRfw",
             "a": "Sam Hunt",
             "s": "Body Like A Back Road",
@@ -17730,7 +17598,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 537,
+            "i": 533,
             "id": "XatXy6ZhKZw",
             "a": "Maroon 5",
             "s": "Cold ft. Future",
@@ -17763,7 +17631,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 538,
+            "i": 534,
             "id": "10IKRNNfCGU",
             "a": "Justin Bieber",
             "s": "Sorry (Latino Remix) ft. J Balvin",
@@ -17796,7 +17664,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 539,
+            "i": 535,
             "id": "NlrYn_dZdqk",
             "a": "Camila Cabello",
             "s": "Crying in the Club",
@@ -17829,7 +17697,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 540,
+            "i": 536,
             "id": "b_KfnGBtVeA",
             "a": "Disclosure",
             "s": "Magnets ft. Lorde",
@@ -17862,7 +17730,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 541,
+            "i": 537,
             "id": "WUcXQ--yGWQ",
             "a": "MØ",
             "s": "Final Song",
@@ -17895,7 +17763,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 542,
+            "i": 538,
             "id": "XYAghEq5Lfw",
             "a": "Troye Sivan",
             "s": "YOUTH",
@@ -17928,7 +17796,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 543,
+            "i": 539,
             "id": "C9slkeFXogU",
             "a": "Jack Ü",
             "s": "Take Ü There feat. Kiesza",
@@ -17961,7 +17829,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 544,
+            "i": 540,
             "id": "sO9cBXRcBvo",
             "a": "Kiiara",
             "s": "Gold",
@@ -17994,7 +17862,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 545,
+            "i": 541,
             "id": "UfGMj10wOzg",
             "a": "Pharrell Williams",
             "s": "Come Get It Bae",
@@ -18027,7 +17895,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 546,
+            "i": 542,
             "id": "V0lw3qylVfY",
             "a": "X Ambassadors",
             "s": "Unsteady",
@@ -18060,7 +17928,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 547,
+            "i": 543,
             "id": "U8UX2bbCHJw",
             "a": "Nick Jonas",
             "s": "Chains",
@@ -18093,7 +17961,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 548,
+            "i": 544,
             "id": "v-Dur3uXXCQ",
             "a": "Kesha",
             "s": "Praying",
@@ -18126,7 +17994,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 549,
+            "i": 545,
             "id": "d4_6N-k5VS4",
             "a": "Kelly Clarkson",
             "s": "Heartbeat Song",
@@ -18159,7 +18027,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 550,
+            "i": 546,
             "id": "g6xvHG8nd5U",
             "a": "Bebe Rexha",
             "s": "The Way I Are (Dance With Somebody) feat. Lil Wayne",
@@ -18192,7 +18060,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 551,
+            "i": 547,
             "id": "AmEIemQfk34",
             "a": "Tiësto",
             "s": "Wasted ft. Matthew Koma",
@@ -18225,7 +18093,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 552,
+            "i": 548,
             "id": "_IrQHeDcMi8",
             "a": "LunchMoney Lewis",
             "s": "Bills",
@@ -18258,7 +18126,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 553,
+            "i": 549,
             "id": "hmZ6ziQJByY",
             "a": "Jason Derulo",
             "s": "If It Ain't Love",
@@ -18291,7 +18159,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 554,
+            "i": 550,
             "id": "Wa64gOwuIyE",
             "a": "Maroon 5",
             "s": "This Summer's Gonna Hurt Like A Motherf****r",
@@ -18324,7 +18192,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 555,
+            "i": 551,
             "id": "2iFa5We6zqw",
             "a": "The Weeknd",
             "s": "In The Night",
@@ -18357,7 +18225,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 556,
+            "i": 552,
             "id": "eVD9j36Ke94",
             "a": "MØ",
             "s": "Kamikaze",
@@ -18390,40 +18258,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 557,
-            "id": "o0citpYDaVg",
-            "a": "The Chainsmokers",
-            "s": "Don't Let Me Down ft. Daya",
-            "g": [
-                0,
-                0,
-                0,
-                3,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "t": {
-                "n": 0,
-                "h": 0,
-                "t": 0
-            }
-        },
-        {
-            "i": 558,
+            "i": 553,
             "id": "tk36ovCMsU8",
             "a": "Marshmello ft. Khalid",
             "s": "Silence",
@@ -18456,7 +18291,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 559,
+            "i": 554,
             "id": "r3RXHOTMmLw",
             "a": "Anne-Marie",
             "s": "Alarm",
@@ -18489,7 +18324,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 560,
+            "i": 555,
             "id": "A3jzMyYgPQs",
             "a": "Lady Gaga",
             "s": "Do What U Want ft. R. Kelly",
@@ -18522,7 +18357,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 561,
+            "i": 556,
             "id": "8Ee4QjCEHHc",
             "a": "Calvin Harris",
             "s": "Slide ft. Frank Ocean, Migos",
@@ -18555,40 +18390,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 562,
-            "id": "3NmGGGlHpxQ",
-            "a": "Maroon 5",
-            "s": "What Lovers Do ft. SZA",
-            "g": [
-                0,
-                0,
-                0,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "t": {
-                "n": 1,
-                "h": 0,
-                "t": 0
-            }
-        },
-        {
-            "i": 563,
+            "i": 557,
             "id": "De30ET0dQpQ",
             "a": "Alessia Cara",
             "s": "Wild Things",
@@ -18621,7 +18423,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 564,
+            "i": 558,
             "id": "nv76KvFV748",
             "a": "Diplo",
             "s": "Revolution (feat. Faustix & Imanos and Kai)",
@@ -18654,7 +18456,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 565,
+            "i": 559,
             "id": "kzQTc0-iBX8",
             "a": "Halsey",
             "s": "Now Or Never",
@@ -18687,7 +18489,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 566,
+            "i": 560,
             "id": "oOyx3yFANXA",
             "a": "El Perdón (Forgiveness)",
             "s": "Nicky Jam & Enrique Iglesias",
@@ -18720,7 +18522,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 567,
+            "i": 561,
             "id": "BqaoAQbkeXo",
             "a": "The Vamps, Matoma",
             "s": "All Night",
@@ -18753,7 +18555,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 568,
+            "i": 562,
             "id": "DXKHCgNFk1I",
             "a": "Selena Gomez",
             "s": "Good For You ft. A$AP ROCKY",
@@ -18786,7 +18588,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 569,
+            "i": 563,
             "id": "Wlbb3DeA3jU",
             "a": "Prince Royce",
             "s": "Stuck On a Feeling ft. Snoop Dogg",
@@ -18819,7 +18621,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 570,
+            "i": 564,
             "id": "J5qWnG5RQTk",
             "a": "Train",
             "s": "Play That Song",
@@ -18852,7 +18654,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 571,
+            "i": 565,
             "id": "etfJCm0nfr4",
             "a": "Britney Spears",
             "s": "Make Me... ft. G-Eazy",
@@ -18885,7 +18687,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 572,
+            "i": 566,
             "id": "Mr29X77OA5g",
             "a": "CL",
             "s": "'LIFTED' M/V",
@@ -18918,7 +18720,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 573,
+            "i": 567,
             "id": "or0QNq4w2UA",
             "a": "Afrojack",
             "s": "SummerThing! ft. Mike Taylor",
@@ -18951,7 +18753,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 574,
+            "i": 568,
             "id": "8gz9NsNH96Q",
             "a": "Galantis & Hook N Sling",
             "s": "Love On Me",
@@ -18984,7 +18786,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 575,
+            "i": 569,
             "id": "uQ_DHRI-Xp0",
             "a": "ScHoolboy Q",
             "s": "THat Part ft. Kanye West",
@@ -19017,7 +18819,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 576,
+            "i": 570,
             "id": "DVkkYlQNmbc",
             "a": "Chance the Rapper ft. 2 Chainz & Lil Wayne",
             "s": "No Problem",
@@ -19050,7 +18852,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 577,
+            "i": 571,
             "id": "ProbPpO_8oo",
             "a": "Desiigner",
             "s": "Tiimmy Turner",
@@ -19083,7 +18885,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 578,
+            "i": 572,
             "id": "mDU-5jwPKmQ",
             "a": "French Montana",
             "s": "No Shopping ft. Drake",
@@ -19116,7 +18918,7 @@ function dpSongsListLoaderService($http, $q) {
             }
         },
         {
-            "i": 579,
+            "i": 573,
             "id": "1eoSanFCU-M",
             "a": "Lil Uzi Vert",
             "s": "Money Longer",

@@ -71,7 +71,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
-    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry"];
+    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer"];
 
 
     // Adding Songs
@@ -104,13 +104,21 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     $rootScope.addSong = function () {
         validateSong();
+
         var currentSong = $rootScope.song;
+
         var newSong = {};
         newSong.index = $rootScope.runningSongIndex;
         newSong.id = currentSong.id;
         newSong.details = {};
         newSong.details.artist = currentSong.artist;
         newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
+
+        if (hasSameNameLikeOtherSong(newSong.details.songName)) {
+            alert("warning! we have a song with the same name");
+            // we don't return because this song can be ok
+        }
+
         newSong.genreWeights = {};
         for (var i = 0; i < newMapOfGenres.length; i++) {
             var key = newMapOfGenres[i];
@@ -168,6 +176,15 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.discogsResultParsed = "";
         $rootScope.musixResultParsed = "";
         $rootScope.itunesResultParsed = "";
+
+        $rootScope.lastFmMbid = "";
+        $rootScope.musixMbidOne = "";
+        $rootScope.musixMbidTwo = "";
+        $rootScope.brainzQueryOneMbid = "";
+        $rootScope.brainzQueryOneFullSongName = "";
+        $rootScope.brainzQueryTwoMbid = "";
+        $rootScope.brainzQueryTwoFullSongName = "";
+
         
         $rootScope.data.takeSongName = true;
     };
@@ -211,6 +228,25 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         return true;
 
     };
+
+    function hasSameNameLikeOtherSong(songName) {
+        var songsData = $rootScope.songsShrink;
+        var songsNames = songsData.map(function (songObj) {
+            return songObj.s;
+        });
+        for (var i = 0; i < songsNames.length - 1; i++) {
+            if (songsNames[i].indexOf(songName) !== -1 || songName.indexOf(songsNames[i]) !== -1) {
+                return true;
+            }
+        }
+        var songToAddstr = $rootScope.songToAdd;
+        if (songName !== "" && songToAddstr.indexOf(songName) !== -1) {
+            return true;
+        }
+        return false;
+    };
+
+
 
     $rootScope.getSongNameAndParseFullTitle = function () {
         var url = "https://www.googleapis.com/youtube/v3/videos?";
@@ -476,6 +512,10 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             }
             var songName = fullSongTitle.substring(dashIndex + 1).trim();
             $rootScope.song.songName = songName;
+
+            if (hasSameNameLikeOtherSong(songName)) {
+                alert("warning! we have a song with the same name");
+            }
         }
     };
 
@@ -498,6 +538,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
 
             $rootScope.song.songNameAPI = songNameAPI;
+            if (hasSameNameLikeOtherSong(songNameAPI)) {
+                alert("warning! we have a song with the same name");
+            }
         }
     };
 
@@ -1115,6 +1158,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     $rootScope.runAllTests = function () {
         checkDuplicatesIds();
         checkDuplicatesSongNames();
+        checkSongsListIndexes();
+        checkBadSongNames();
     };
 
     function checkDuplicatesIds() {
@@ -1156,6 +1201,61 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             $rootScope.duplicatesSongNamesStatus = false;
         }
     }
+
+    function checkSongsListIndexes() {
+        $rootScope.songsListIndexesStatus = true;
+        var rawSongList = $rootScope.songsRaw;
+        for (var i = 0; i < rawSongList.length; i++) {
+            var currentSong = rawSongList[i];
+            if (currentSong.index !== i) {
+                console.log("currentSong.index: " + currentSong.index);
+                $rootScope.songsListIndexesStatus = false;
+                // /we dont return - we eant to check all foo console
+            }
+        }
+    }
+
+    
+
+    $rootScope.getSongsListIndexesTestResult = function () {
+        if (angular.isDefined($rootScope.songsListIndexesStatus)) {
+            if ($rootScope.songsListIndexesStatus) {
+                return "PASS";
+            } else {
+                return "FAIL";
+            }
+        }
+        return "CLICK ON RUN TEST";
+    };
+
+
+    function checkBadSongNames() {
+        $rootScope.badSongsNameStatus = true;
+        var shrinkSongList = $rootScope.songsShrink;
+        for (var i = 0; i < shrinkSongList.length; i++) {
+            var currentSong = shrinkSongList[i];
+            if (currentSong.s.toLowerCase().indexOf("official") != -1 ||  currentSong.s.toLowerCase().indexOf("audio") != -1 ) {
+                console.log(currentSong.s);
+                $rootScope.badSongsNameStatus = false;
+                return;
+            }
+        }
+    }
+
+    $rootScope.getSongsBadNamesTestResult = function () {
+        if (angular.isDefined($rootScope.badSongsNameStatus)) {
+            if ($rootScope.badSongsNameStatus) {
+                return "PASS";
+            } else {
+                return "FAIL";
+            }
+        }
+        return "CLICK ON RUN TEST";
+    };
+
+
+
+    
 
     $rootScope.getDuplicatesIdsTestResult = function () {
         if (angular.isDefined($rootScope.duplicatesIdsStatus)) {
@@ -1259,7 +1359,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             currentSong.genreWeights = newGenresWeightsOfSongObj;
             newRawSongList[i] = currentSong;
         }
-        console.log(JSON.stringify(newRawSongList));
+        var fixedSongsList = JSON.stringify(newRawSongList);
+        console.log(fixedSongsList);
+        $rootScope.fixedSongsList = fixedSongsList;
     };
 
 
@@ -1274,7 +1376,24 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             currentSong.tagging.trending = false;
             newRawSongList[i] = currentSong;
         }
-        console.log(JSON.stringify(newRawSongList));
+
+        var fixedSongsList = JSON.stringify(newRawSongList);
+        console.log(fixedSongsList);
+        $rootScope.fixedSongsList = fixedSongsList;
+    };
+
+
+    $rootScope.fixSongListIndexes = function () {
+        var rawSongList = $rootScope.songsRaw;
+        var newRawSongList = [];
+        for (var i = 0; i < rawSongList.length; i++) {
+            var currentSong = rawSongList[i];
+            currentSong.index = i;
+            newRawSongList[i] = currentSong;
+        }
+        var fixedSongsList = JSON.stringify(newRawSongList);
+        console.log(fixedSongsList);
+        $rootScope.fixedSongsList = fixedSongsList;
     };
 
 

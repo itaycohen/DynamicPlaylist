@@ -85,7 +85,7 @@
                                     </md-input-container>
                                     <md-button ng-click="getSongNameAndParseFullTitle()" class="md-raised md-primary">Get Name + Parse</md-button>
                                     <md-button ng-click="getAllData()" class="md-raised">Get All Data</md-button>
-                                    
+
                                     <md-input-container style="width: 350px" md-no-float class="md-block">
                                         <label>Publish Date</label>
                                         <input ng-model="song.publishDate" type="text">
@@ -494,15 +494,27 @@
                                     </div>
                                 </md-list-item>
                                 <md-list-item class="md-2-line">
-                                        <div class="md-list-item-text">
-                                            <h3>Duplicats Song Names Test</h3>
-                                            <h4>{{getDuplicatesSongNamesTestResult()}}</h4>
-                                        </div>
+                                    <div class="md-list-item-text">
+                                        <h3>Duplicats Song Names Test</h3>
+                                        <h4>{{getDuplicatesSongNamesTestResult()}}</h4>
+                                    </div>
+                                </md-list-item>
+                                <md-list-item class="md-2-line">
+                                    <div class="md-list-item-text">
+                                        <h3>Songs List Indexes</h3>
+                                        <h4>{{getSongsListIndexesTestResult()}}</h4>
+                                    </div>
+                                </md-list-item>
+                                <md-list-item class="md-2-line">
+                                    <div class="md-list-item-text">
+                                        <h3>Songs Bad Name(s) - "official" or "audio"</h3>
+                                        <h4>{{getSongsBadNamesTestResult()}}</h4>
+                                    </div>
                                 </md-list-item>
                             </md-list>
                         </md-content>
 
-
+                        
                     </div>
 
                     <div ng-show="currentNavItem === 'page4'">
@@ -537,6 +549,13 @@
                         <h2> Fix List </h2>
                         <md-button type="button" class="md-raised" ng-click="fixSongList()">Fix List</md-button>
                         <md-button type="button" class="md-raised" ng-click="fixSongListTagging()">Fix List with Tagging</md-button>
+                        <md-button type="button" class="md-raised" ng-click="fixSongListIndexes()">Fix List Indexes</md-button>
+
+                        <md-input-container class="md-block">
+                            <textarea id="fixedSongsList" rows="2" cols="50" ng-model="fixedSongsList" aria-label="fixedSongsList">
+                            </textarea>
+                            <md-button ngclipboard data-clipboard-target="#fixedSongsList" class="md-raised">Copy</md-button>
+                        </md-input-container>
 
                     </div>
 
