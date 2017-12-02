@@ -36,6 +36,10 @@
 .player-wrapper-horizontal {
     margin-left: 12px;
     .youtube-embed-container {
+        // height: 400px;
+        height: calc(50% - 48px);
+
+
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
     }
@@ -45,12 +49,17 @@
     }
 }
 
+.player-wrapper-vertical {
+    .youtube-embed-container {
+        padding-bottom: 40%; //was 56.25%
+        height: 0;
+    }
+}
+
 .youtube-embed-container {
+
     background: #615e79;
     position: relative;
-    padding-bottom: 40%; //was 56.25%
-    //padding-top: 30px; 
-    height: 0;
     overflow: hidden;
     .player {
         position: absolute;
