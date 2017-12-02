@@ -98,17 +98,20 @@ body {
 .player-wrapper-horizontal {
   margin-left: 12px; }
   .player-wrapper-horizontal .youtube-embed-container {
+    height: calc(50% - 48px);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px; }
   .player-wrapper-horizontal .current-playing-bar {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px; }
 
+.player-wrapper-vertical .youtube-embed-container {
+  padding-bottom: 40%;
+  height: 0; }
+
 .youtube-embed-container {
   background: #615e79;
   position: relative;
-  padding-bottom: 40%;
-  height: 0;
   overflow: hidden; }
   .youtube-embed-container .player {
     position: absolute;
