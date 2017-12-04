@@ -8,19 +8,14 @@ function dpAppUtils($mdMedia) {
 
     var service = {
         isMobile: isMobile,
-        isSmartphone: isSmartphone,
         isDesktop: isDesktop
     };
     return service;
 
     //////////
 
-    function isSmartphone() {
-        return $mdMedia('max-width: 375px');
-    }
-
     function isMobile() {
-        return $mdMedia('max-width: 1024px');
+        return !isDesktop();
     }
 
     function isDesktop() {

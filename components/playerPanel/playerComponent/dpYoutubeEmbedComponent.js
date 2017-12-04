@@ -331,10 +331,10 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 	};
 
 	$scope.getPlayingBarTempByDevice = function () {
-		if (dpAppUtils.isMobile()) {
-			return "components/playerPanel/playerComponent/playingBarTemplateSmall.html";
+		if (dpAppUtils.isDesktop()) {
+			return "components/playerPanel/playerComponent/playingBarTemplateBig.html";
 		}
-		return "components/playerPanel/playerComponent/playingBarTemplateBig.html";
+		return "components/playerPanel/playerComponent/playingBarTemplateSmall.html";
 	};
 
 	$scope.getPlayerWarpperClass = function () {

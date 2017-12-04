@@ -88,12 +88,10 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     };
 
     $scope.getGenretManagerButtonsWrapperTemp = function () {
-		if (dpAppUtils.isMobile()) {
-            return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperSmall.html";
-            // return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
-            
+		if (dpAppUtils.isDesktop()) {
+            return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
 		}
-        return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
+        return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperSmall.html";
 	};
 
     
