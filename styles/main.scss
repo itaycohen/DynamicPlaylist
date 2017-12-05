@@ -9,6 +9,7 @@ body {
             background: transparent;
             min-height: 56px;
             .md-toolbar-tools {
+                padding-left: 6px;
                 height: 56px;
                 color: white;
                 .toolbar-title {
@@ -59,10 +60,31 @@ body {
             // height: calc(100% - 48px);
         }
     }
+    .app-horizontal {
+        .icon-container {
+            width: 42px;
+            height: 42px;
+            margin-right:4px;
+
+        }
+    }
     .app-vertical {
         background-image: url("../media/images/app_bg_xlarge_vertical.jpg");
         .toolbar {
             .md-toolbar-tools {
+                padding-left: 6px;
+
+                .icon-container {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 3px;
+        
+                }
+
+                .toolbar-title {
+                    font-size: 20px;
+                }
+                
                 h1 {
                     padding-left: 0;
                     font-size: 22px;
