@@ -15,7 +15,14 @@ function dpDynamicPlaylist() {
 dpDynamicPlaylistController.$inject = ['$rootScope', 'dpSongsListLogic', 'dpAppUtils', '$window', '$timeout'];
 function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $window, $timeout) {
 
+    var NUMBER_SONGS_TO_SHOW_LESS = 10;
+    var NUMBER_SONGS_TO_SHOW_MORE = 25;
+
     $rootScope.logicService = dpSongsListLogic;
+
+
+
+    $rootScope.numberOfSongsToShow = NUMBER_SONGS_TO_SHOW_LESS; //default
 
     // workaround - can't hook on ng reapeat 
     $rootScope.songsIndexesList = dpSongsListLogic.getSongsIndexesList();
@@ -81,6 +88,8 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
         }
         return false;
     };
+
+
 
 
 }
