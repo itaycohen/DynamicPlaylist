@@ -13,7 +13,6 @@ body {
       background: transparent;
       min-height: 56px; }
       body .app .toolbar .md-toolbar-tools {
-        padding-left: 6px;
         height: 56px;
         color: white; }
         body .app .toolbar .md-toolbar-tools .toolbar-title {
