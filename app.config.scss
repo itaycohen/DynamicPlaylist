@@ -3,6 +3,11 @@
     src: url(/media/fonts/MyriadPro-Regular.otf);
  }
 
+ //External Styles
+ @import "styles/constants.scss";
+ @import "styles/styleFuncs.scss";
+
+
 // --------------- INFRA COMPONENTS ------ 
 @import "styles/main.scss";
 @import "styles/stylesUtils.scss";
