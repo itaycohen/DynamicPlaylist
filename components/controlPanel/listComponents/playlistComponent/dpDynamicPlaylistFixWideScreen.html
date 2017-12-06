@@ -20,9 +20,13 @@
         <div class="playlist-title sub-title"> Next Up </div>
         <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-teen-number':$index + 1 > 9}" layout="row">
-            <div class="song-number song-number-big">
+            <!-- <div class="song-number song-number-big">
                 {{$index + 1}}
-            </div>
+            </div> -->
+            <!-- <img ng-src="http://img.youtube.com/vi/HeyfOEb7ET0/hqdefault.jpg" class="md-avatar" alt="image" /> -->
+            <img ng-src="{{getSongImgSrc(songIndex)}}" class="md-avatar" alt="image" />
+            
+            <!-- //http://img.youtube.com/vi/JRfuAukYTKg/hqdefault.jpg -->
             <div class="md-list-item-text full-song-name full-song-name-big">
                 <p class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</p>
                 <p class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</p>
