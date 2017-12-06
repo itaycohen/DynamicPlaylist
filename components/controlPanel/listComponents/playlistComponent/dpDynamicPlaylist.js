@@ -20,9 +20,7 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
 
     $rootScope.logicService = dpSongsListLogic;
 
-
-
-    $rootScope.numberOfSongsToShow = NUMBER_SONGS_TO_SHOW_LESS; //default
+    $rootScope.isShowingLessSongs = true; //default - we show less
 
     // workaround - can't hook on ng reapeat 
     $rootScope.songsIndexesList = dpSongsListLogic.getSongsIndexesList();
@@ -90,6 +88,18 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
     };
 
 
+    $rootScope.getNumberOfSongsToShow = function() {
+        return $rootScope.isShowingLessSongs ? NUMBER_SONGS_TO_SHOW_LESS : NUMBER_SONGS_TO_SHOW_MORE;
+    };
+
+    $rootScope.showMoreLessToggle = function() {
+        $rootScope.isShowingLessSongs = !$rootScope.isShowingLessSongs;
+    };
+
+
+    $rootScope.getTextShowMoreLessButton = function() {
+        return $rootScope.isShowingLessSongs ? "SHOW MORE" : "SHOW LESS";
+    };
 
 
 }
