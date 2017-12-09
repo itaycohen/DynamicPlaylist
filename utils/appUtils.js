@@ -8,11 +8,11 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     //  debugger; 
 
-    $http.get("data/songs/tagging/songsShrinkTagging.json")
+    $http.get("data/songs/tagging.1/songsShrinkTagging.json")
         .then(function (response) {
             $rootScope.songsShrink = response.data;
 
-            $http.get("data/songs/tagging/songsRawTagging.json")
+            $http.get("data/songs/tagging.1/songsRawTagging.json")
                 .then(function (response) {
                     $rootScope.songsRaw = response.data;
                     validateSongLists();
@@ -58,8 +58,18 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     $rootScope.currentNavItem = 'page1';
     $rootScope.data = {};
-    $rootScope.data.takeSongName = true;
+    $rootScope.data.takeYoutube = false;
+    $rootScope.data.takeAPI = false;
+    $rootScope.data.takeExisting = false;
+    $rootScope.data.takeItunes = false;
+    
+    
+    $rootScope.isFixingSongsFlow = false;
     $rootScope.genreInputStyle = { "width": "100px" };
+
+    $rootScope.toggleExisting = function() {
+        $rootScope.data.takeExisting = !$rootScope.isFixingSongsFlow;
+    };
 
 
     // TODO - change to array with object: {genreName, weight, index}
@@ -108,11 +118,43 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var currentSong = $rootScope.song;
 
         var newSong = {};
-        newSong.index = $rootScope.runningSongIndex;
+        newSong.index = $rootScope.isFixingSongsFlow ? $rootScope.runningSongIndexFromList : $rootScope.runningSongIndex;
         newSong.id = currentSong.id;
         newSong.details = {};
-        newSong.details.artist = currentSong.artist;
-        newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
+        if ($rootScope.data.takeItunes) {
+            newSong.details.artist = $rootScope.itunesResArtist;
+            newSong.details.songName = $rootScope.itunesResSongName;
+        } else if ($rootScope.data.takeExisting) {
+            newSong.details.artist = $rootScope.song.exisitArtist;
+            newSong.details.songName = $rootScope.song.exisitSongName;
+        } else if ($rootScope.data.takeAPI) {
+            newSong.details.artist = $rootScope.song.artistAPI;
+            newSong.details.songName =  $rootScope.song.songNameAPI;
+        } else {
+            newSong.details.artist = currentSong.artist;
+            newSong.details.songName = currentSong.songName;
+        }
+
+        
+        newSong.misc = {};
+        if (angular.isUndefined(currentSong.year) || currentSong.year === "") {
+            alert("No year!");
+            currentSong.year = "NA";
+        }
+        newSong.misc.year = currentSong.year;
+
+        if (angular.isUndefined(currentSong.artwork) || currentSong.artwork === "") {
+            alert("No artwork!");
+            newSong.misc.artwork = "NA";
+        }
+        newSong.misc.artwork = currentSong.artwork;
+
+        if (angular.isUndefined(currentSong.duration) || currentSong.duration === "") {
+            alert("No duration!");
+            newSong.misc.duration = "NA";
+        }
+        newSong.misc.duration = currentSong.duration;
+        
 
         if (hasSameNameLikeOtherSong(newSong.details.songName)) {
             alert("warning! we have a song with the same name");
@@ -135,10 +177,14 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
         $rootScope.songToAdd += newSongStr;
         $rootScope.songToAdd += ",";
-        $rootScope.runningSongIndex++;
+        if ($rootScope.isFixingSongsFlow) {
+            $rootScope.runningSongIndexFromList++;
+        } else {
+            $rootScope.runningSongIndex++;
+        }
 
         $rootScope.cleanSong();
-        $rootScope.data.takeSongName = true;
+        $rootScope.data.takeYoutube = true;
     };
 
     function validateSong() {
@@ -185,8 +231,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.brainzQueryTwoMbid = "";
         $rootScope.brainzQueryTwoFullSongName = "";
 
+        $rootScope.itunesResArtist = "";
+        $rootScope.itunesResSongName = "";
+
         
-        $rootScope.data.takeSongName = true;
+        $rootScope.data.takeYoutube = true;
     };
 
     $rootScope.cleanAllSongs = function () {
@@ -230,6 +279,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     };
 
     function hasSameNameLikeOtherSong(songName) {
+        if ($rootScope.isFixingSongsFlow) {
+            return false;
+        }
         var songsData = $rootScope.songsShrink;
         var songsNames = songsData.map(function (songObj) {
             return songObj.s;
@@ -252,7 +304,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var url = "https://www.googleapis.com/youtube/v3/videos?";
         url += "id=";
         url += $rootScope.song.id;
-        url += "&part=snippet, statistics";
+        url += "&part=snippet, statistics, contentDetails";
         url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
         $http.get(url).
             then(function (response) {
@@ -423,6 +475,27 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             var resultsArr = dataToParse.results;
             var genresStrPre = "Genres: \n";
             var genresStr = "";
+            var releaseDate;
+            var artworkUrl30;
+            
+            
+            var firstSong = resultsArr[0];
+            if (!angular.isUndefined(firstSong.artistName) &&
+                !angular.isUndefined(firstSong.trackName)) {
+                $rootScope.itunesResArtist = firstSong.artistName;
+                $rootScope.itunesResSongName = firstSong.trackName;
+            }
+
+            if (!angular.isUndefined(firstSong.artworkUrl100) &&
+                !angular.isUndefined(firstSong.releaseDate)) {
+                artworkUrl30 = firstSong.artworkUrl30;
+                 console.log(artworkUrl30);
+                 releaseDate = firstSong.releaseDate;
+                 $rootScope.song.artwork = getArrOfArtwork(artworkUrl30);
+                 $rootScope.song.year = getYearOfReleaseDate(releaseDate);
+                 
+            }
+
             for (var i = 0; i < resultsArr.length; i++) {
                 var currentSong = resultsArr[i];
                 if (!angular.isUndefined(currentSong.primaryGenreName)) {
@@ -430,13 +503,49 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                     if (!genresStr.includes(currentGenre)) {
                         genresStr += currentGenre;
                         genresStr += "\n";
+                        
                     }
                 }
             }
+
+            genresStr += "\n";
+            genresStr += artworkUrl30 ? "artwork" : "NO artwork";
+            genresStr += "\n";
+            genresStr += releaseDate;
+            genresStr += "\n";
+
+
+
             genresStr = genresStr !== "" ? genresStr : "NO GENRES DATA";
             textResult += genresStrPre + genresStr;
         }
         $rootScope.itunesResultParsed = textResult;
+    }
+
+
+    //[is,music,version,pre1,pre2,pre3,code]
+    // http://is1.mzstatic.com/image/thumb/Music3/v4/81/bb/6f/81bb6f2b-228e-951b-9c91-8cf85e661b1c/source/30x30bb.jpg
+    // http://is4.mzstatic.com/image/thumb/Music30/v4/ac/87/29/ac8729b1-329b-cc0d-3b30-6d0301994a02/source/30x30bb.jpg
+    // (13) ["http:", "", "is1.mzstatic.com", "image", "thumb", "Music3", "v4", "81", "bb", "6f", "81bb6f2b-228e-951b-9c91-8cf85e661b1c", "source", "30x30bb.jpg"]
+    function getArrOfArtwork(artworkUrl) {
+        var artworkArr =[];
+        var arrOfUrl = artworkUrl.split("/");
+        var isStr = arrOfUrl[2].split(".")[0];
+        artworkArr[0] = isStr.charAt(isStr.length -1); //is1 -> 1
+        artworkArr[1] = arrOfUrl[5].charAt(arrOfUrl[5].length -1); // Music3 -> 3
+        artworkArr[2] = arrOfUrl[6].charAt(arrOfUrl[6].length -1); // v4 -> 4;
+        artworkArr[3] = arrOfUrl[7];
+        artworkArr[4] = arrOfUrl[8];
+        artworkArr[5] = arrOfUrl[9];
+        artworkArr[6] = arrOfUrl[10];
+        return artworkArr;
+    }
+
+    function getYearOfReleaseDate(releaseDateRaw) {
+        var releaseDateStr = releaseDateRaw.substring(0, 10).trim();
+        var releaseDate = new Date(releaseDateStr);
+        var year = releaseDate.getFullYear();
+        return year;
     }
 
 
@@ -528,7 +637,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                 bracket = songName.indexOf("[");
             }
             if (bracket !== -1) {
-                $rootScope.data.takeSongName = false;
+                $rootScope.data.takeYoutube = false;
             }
             //remove all brackets and it's content
             songName = songName.replace(/ *\([^)]*\) */g, " ").trim();
@@ -552,6 +661,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var songTitle = "";
         var publishDate = "";
         var viewCount = 0;
+        var duration = "";
         dataToParse = $rootScope.YTSongResult;
         if (angular.isUndefined(dataToParse) || dataToParse === '') {
             songTitle = "No YT Result";
@@ -567,13 +677,65 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             songTitle = dataToParse.items[0].snippet.title;
             publishDate = dataToParse.items[0].snippet.publishedAt;
             viewCount = dataToParse.items[0].statistics.viewCount;
+            duration = dataToParse.items[0].contentDetails.duration;
         }
         $rootScope.song.fullTitle = songTitle;
         $rootScope.song.publishDate = publishDate.substring(0, 10).trim();
         $rootScope.song.viewCount = viewCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        $rootScope.song.duration = formatYoutubeDuration(duration);
+        console.log($rootScope.song.duration);
 
         $rootScope.parseFullTitleAndGetData();
 
+    }
+
+    function formatYoutubeDuration2(rawDuration) {
+        var match = rawDuration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
+        
+          match = match.slice(1).map(function(x) {
+            if (x !== null) {
+                return x.replace(/\D/, '');
+            }
+          });
+        
+          var hours = (parseInt(match[0]) || 0);
+          var minutes = (parseInt(match[1]) || 0);
+          var seconds = (parseInt(match[2]) || 0);
+        
+          return hours * 3600 + minutes * 60 + seconds;
+    }
+
+    function formatYoutubeDuration(duration) {
+        var a = duration.match(/\d+/g);
+    
+        if (duration.indexOf('M') >= 0 && duration.indexOf('H') == -1 && duration.indexOf('S') == -1) {
+            a = [0, a[0], 0];
+        }
+    
+        if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1) {
+            a = [a[0], 0, a[1]];
+        }
+        if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1 && duration.indexOf('S') == -1) {
+            a = [a[0], 0, 0];
+        }
+    
+        var str = "";
+    
+        if (a.length == 3) {
+            str += a[0] + ":";
+            str += a[1] + ":";
+            str += a[2];
+        }
+    
+        if (a.length == 2) {
+            str += a[0] + ":";
+            str += a[1];
+        }
+    
+        if (a.length == 1) {
+            str += a[0];
+        }
+        return str;
     }
 
 
@@ -1102,6 +1264,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                 genresweightsOfSong[j] = genres[currentGenre];
             }
             newSong.g = genresweightsOfSong;
+
+            newSong.y = currentSong.misc.year;
+            newSong.w = currentSong.misc.artwork;
+            newSong.d = currentSong.misc.duration;
+
             var currentTagging = currentSong.tagging;
             newSong.t = {};
             newSong.t.n = convertBooleanToNum(currentTagging.new);
@@ -1131,6 +1298,13 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                 var key = newMapOfGenres[j];
                 newSong.genreWeights[key] = currentSong.g[j];
             }
+
+            newSong.misc = {};
+
+            newSong.misc.year = currentSong.y;
+            newSong.misc.artwork = currentSong.w;
+            newSong.misc.duration = currentSong.d;
+
             var currentTagging = currentSong.t;
             newSong.tagging = {};
             newSong.tagging.new = convertNumToBoolean(currentTagging.n);
@@ -1399,43 +1573,22 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     /// FIX SONGS
 
-    $rootScope.runningSongIndexFromList = 0;
+    $rootScope.runningSongIndexFromList = 543;
+
+
+
 
     $rootScope.loadSongFromList = function () {
+        $rootScope.isFixingSongsFlow = true;
         var rawSongList = $rootScope.songsRaw;
         var currentSong = rawSongList[$rootScope.runningSongIndexFromList];
         $rootScope.song.id = currentSong.id;
         for (var i = 0; i < newMapOfGenres.length; i++) {
             $rootScope.song.songGenres[i] = currentSong.genreWeights[newMapOfGenres[i]];
+            $rootScope.song.exisitArtist = currentSong.details.artist;
+            $rootScope.song.exisitSongName = currentSong.details.songName;
         }
         $rootScope.getSongNameAndParseFullTitle();
-    };
-
-    $rootScope.addSong2 = function () {
-        validateSong();
-        var currentSong = $rootScope.song;
-        var newSong = {};
-        newSong.index = $rootScope.runningSongIndexFromList;
-        newSong.id = currentSong.id;
-        newSong.details = {};
-        newSong.details.artist = currentSong.artist;
-        newSong.details.songName = $rootScope.data.takeSongName ? currentSong.songName : $rootScope.song.songNameAPI;
-        newSong.genreWeights = {};
-        for (var i = 0; i < newMapOfGenres.length; i++) {
-            var key = newMapOfGenres[i];
-            newSong.genreWeights[key] = currentSong.songGenres[i];
-        }
-        var newSongStr = JSON.stringify(newSong);
-        console.log(newSongStr);
-
-        $rootScope.songToAdd += newSongStr;
-        $rootScope.songToAdd += ",";
-        $rootScope.runningSongIndexFromList++;
-
-        $rootScope.cleanSong();
-        $rootScope.data.takeSongName = true;
-
-
     };
 
 

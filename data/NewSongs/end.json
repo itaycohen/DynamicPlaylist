@@ -1,0 +1,1488 @@
+{
+    "index": 543,
+    "id": "U8UX2bbCHJw",
+    "details": {
+        "artist": "Nick Jonas",
+        "songName": "Chains"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": [
+            "2",
+            "3",
+            "4",
+            "bc",
+            "0c",
+            "f5",
+            "bc0cf59e-0684-da85-8061-c843c4859a42"
+        ],
+        "duration": "3:36"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 544,
+    "id": "v-Dur3uXXCQ",
+    "details": {
+        "artist": "Kesha",
+        "songName": "Praying"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": [
+            "4",
+            "7",
+            "4",
+            "06",
+            "19",
+            "3e",
+            "06193ee9-3caa-642c-901c-d0097470c50b"
+        ],
+        "duration": "0:5:0"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 4,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 545,
+    "id": "d4_6N-k5VS4",
+    "details": {
+        "artist": "Kelly Clarkson",
+        "songName": "Heartbeat Song"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "4",
+            "3",
+            "4",
+            "bc",
+            "86",
+            "e4",
+            "bc86e419-34eb-9e79-1ab8-60a651f74447"
+        ],
+        "duration": "3:29"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 546,
+    "id": "g6xvHG8nd5U",
+    "details": {
+        "artist": "Bebe Rexha",
+        "songName": "The Way I Are (Dance With Somebody) feat. Lil Wayne"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": [
+            "1",
+            "8",
+            "4",
+            "65",
+            "c7",
+            "d0",
+            "65c7d06b-58ab-8455-6c30-7fe91b6ef827"
+        ],
+        "duration": "3:10"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 3,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 547,
+    "id": "AmEIemQfk34",
+    "details": {
+        "artist": "Tiësto",
+        "songName": "Wasted ft. Matthew Koma"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": [
+            "5",
+            "4",
+            "4",
+            "1d",
+            "d2",
+            "7e",
+            "1dd27e62-8296-9468-2131-1d8a8be1de9b"
+        ],
+        "duration": "3:21"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 5,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 2
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 548,
+    "id": "_IrQHeDcMi8",
+    "details": {
+        "artist": "LunchMoney Lewis",
+        "songName": "Bills"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "4",
+            "3",
+            "4",
+            "69",
+            "31",
+            "ec",
+            "6931ecb6-ef77-59af-6cdf-ac9df899d6b8"
+        ],
+        "duration": "3:37"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 4,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 549,
+    "id": "hmZ6ziQJByY",
+    "details": {
+        "artist": "Jason Derulo",
+        "songName": "If It Ain't Love"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "3",
+            "9",
+            "4",
+            "5d",
+            "04",
+            "ab",
+            "5d04ab48-8f2f-24df-ca2d-958ff19518d0"
+        ],
+        "duration": "4:4"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 550,
+    "id": "Wa64gOwuIyE",
+    "details": {
+        "artist": "Maroon 5",
+        "songName": "This Summer's Gonna Hurt Like A Motherf****r"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "3",
+            "7",
+            "4",
+            "b3",
+            "fb",
+            "cc",
+            "b3fbcca9-85a0-c25d-cb20-feee4900bdb2"
+        ],
+        "duration": "5:27"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 2,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 551,
+    "id": "2iFa5We6zqw",
+    "details": {
+        "artist": "The Weeknd",
+        "songName": "In The Night"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "3",
+            "1",
+            "4",
+            "27",
+            "9b",
+            "5e",
+            "279b5e45-e590-c661-c198-3242a6f76f62"
+        ],
+        "duration": "6:28"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 4,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 552,
+    "id": "eVD9j36Ke94",
+    "details": {
+        "artist": "MØ",
+        "songName": "Kamikaze"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "5",
+            "6",
+            "4",
+            "30",
+            "75",
+            "9a",
+            "30759a71-87c8-c9af-1fff-de2d7015b775"
+        ],
+        "duration": "3:40"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 3,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 553,
+    "id": "tk36ovCMsU8",
+    "details": {
+        "artist": "Marshmello ft. Khalid",
+        "songName": "Silence"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": [
+            "3",
+            "8",
+            "4",
+            "1c",
+            "fd",
+            "8f",
+            "1cfd8f86-463c-584b-36e8-cfe6f3192b8e"
+        ],
+        "duration": "3:7"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 3,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": true
+    }
+},
+{
+    "index": 554,
+    "id": "r3RXHOTMmLw",
+    "details": {
+        "artist": "Anne-Marie",
+        "songName": "Alarm"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "1",
+            "8",
+            "4",
+            "0e",
+            "0a",
+            "56",
+            "0e0a56bc-9aa8-2fac-a234-cebd47efa590"
+        ],
+        "duration": "4:6"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 555,
+    "id": "A3jzMyYgPQs",
+    "details": {
+        "artist": "Lady Gaga",
+        "songName": "Do What U Want ft. R. Kelly"
+    },
+    "misc": {
+        "year": 2013,
+        "artwork": [
+            "4",
+            "4",
+            "4",
+            "62",
+            "89",
+            "6c",
+            "62896ca8-5b52-9020-428b-b0f6dd596128"
+        ],
+        "duration": "3:48"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 556,
+    "id": "8Ee4QjCEHHc",
+    "details": {
+        "artist": "Calvin Harris",
+        "songName": "Slide ft. Frank Ocean, Migos"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": [
+            "3",
+            "2",
+            "4",
+            "4c",
+            "60",
+            "56",
+            "4c6056bf-ef5c-21e1-c330-b30f569a9e28"
+        ],
+        "duration": "3:52"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 3,
+        "Rap": 3,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 557,
+    "id": "De30ET0dQpQ",
+    "details": {
+        "artist": "Alessia Cara",
+        "songName": "Wild Things"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "4",
+            "6",
+            "4",
+            "0d",
+            "8d",
+            "b7",
+            "0d8db776-6d70-2e08-1976-03e71d9d4c0f"
+        ],
+        "duration": "3:57"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 558,
+    "id": "nv76KvFV748",
+    "details": {
+        "artist": "Diplo",
+        "songName": "Revolution (feat. Faustix & Imanos and Kai)"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": [
+            "2",
+            "4",
+            "4",
+            "77",
+            "84",
+            "91",
+            "7784912a-ac4d-fca5-9558-9d43150e3cfb"
+        ],
+        "duration": "4:16"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 559,
+    "id": "kzQTc0-iBX8",
+    "details": {
+        "artist": "Halsey",
+        "songName": "Now Or Never"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": [
+            "1",
+            "1",
+            "4",
+            "db",
+            "f9",
+            "36",
+            "dbf9369f-9b69-98d0-2b52-50541d3fff31"
+        ],
+        "duration": "6:8"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 560,
+    "id": "oOyx3yFANXA",
+    "details": {
+        "artist": "El Perdón (Forgiveness)",
+        "songName": "Nicky Jam & Enrique Iglesias"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": [
+            "1",
+            "1",
+            "4",
+            "9f",
+            "8b",
+            "32",
+            "9f8b327b-4f9a-a6d7-66dd-031706704762"
+        ],
+        "duration": "3:57"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 4,
+        "Love": 1,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 3,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 561,
+    "id": "BqaoAQbkeXo",
+    "details": {
+        "artist": "The Vamps, Matoma",
+        "songName": "All Night"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "1",
+            "1",
+            "4",
+            "a8",
+            "29",
+            "62",
+            "a82962c8-8fef-0d0d-8400-617295b7878e"
+        ],
+        "duration": "3:31"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 562,
+    "id": "DXKHCgNFk1I",
+    "details": {
+        "artist": "Selena Gomez",
+        "songName": "Good For You ft. A$AP ROCKY"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "3",
+            "9",
+            "4",
+            "90",
+            "05",
+            "08",
+            "90050857-fb5e-6c06-1885-02488c982f8f"
+        ],
+        "duration": "3:46"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 3,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 563,
+    "id": "Wlbb3DeA3jU",
+    "details": {
+        "artist": "Prince Royce",
+        "songName": "Stuck On a Feeling ft. Snoop Dogg"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "1",
+            "9",
+            "4",
+            "5e",
+            "10",
+            "9c",
+            "5e109ca3-153f-36e5-b359-fc8ffe25335b"
+        ],
+        "duration": "4:10"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 3,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 2,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 564,
+    "id": "J5qWnG5RQTk",
+    "details": {
+        "artist": "Train",
+        "songName": "Play That Song"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "3",
+            "1",
+            "4",
+            "56",
+            "1f",
+            "dd",
+            "561fdd14-d415-e7af-4a4b-a2e38d02c143"
+        ],
+        "duration": "4:42"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 2,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 3,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 565,
+    "id": "etfJCm0nfr4",
+    "details": {
+        "artist": "Britney Spears",
+        "songName": "Make Me... ft. G-Eazy"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "3",
+            "1",
+            "4",
+            "7a",
+            "ae",
+            "84",
+            "7aae84d5-fe5b-3db0-20e4-0bf849113819"
+        ],
+        "duration": "4:54"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 566,
+    "id": "Mr29X77OA5g",
+    "details": {
+        "artist": "CL",
+        "songName": "'LIFTED' M/V"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "5",
+            "8",
+            "4",
+            "07",
+            "e6",
+            "70",
+            "07e6703a-fc55-5b13-9b11-d85299893c81"
+        ],
+        "duration": "3:2"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 5,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 3,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 567,
+    "id": "or0QNq4w2UA",
+    "details": {
+        "artist": "Afrojack",
+        "songName": "SummerThing! ft. Mike Taylor"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": [
+            "5",
+            "7",
+            "4",
+            "a9",
+            "d2",
+            "7f",
+            "a9d27f3b-b90b-b688-6d57-3d9447d36cc3"
+        ],
+        "duration": "4:34"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 5,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 1
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 568,
+    "id": "8gz9NsNH96Q",
+    "details": {
+        "artist": "Galantis & Hook N Sling",
+        "songName": "Love On Me"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "5",
+            "8",
+            "4",
+            "8e",
+            "c3",
+            "ed",
+            "8ec3ede6-1513-5b96-8a52-f79f9637cb67"
+        ],
+        "duration": "3:33"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 569,
+    "id": "uQ_DHRI-Xp0",
+    "details": {
+        "artist": "ScHoolboy Q",
+        "songName": "THat Part ft. Kanye West"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "4",
+            "0",
+            "4",
+            "46",
+            "df",
+            "82",
+            "46df82e1-e711-9798-f88f-cb7af60de56e"
+        ],
+        "duration": "5:16"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 5,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 570,
+    "id": "DVkkYlQNmbc",
+    "details": {
+        "artist": "Chance the Rapper ft. 2 Chainz & Lil Wayne",
+        "songName": "No Problem"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "5",
+            "8",
+            "4",
+            "5a",
+            "42",
+            "0f",
+            "5a420f73-6490-abc9-bdcc-3001d5c4e9fc"
+        ],
+        "duration": "4:45"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 4,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 3,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 571,
+    "id": "ProbPpO_8oo",
+    "details": {
+        "artist": "Desiigner",
+        "songName": "Tiimmy Turner"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "4",
+            "8",
+            "4",
+            "59",
+            "18",
+            "20",
+            "59182018-66a7-00c9-e406-c4a2cb599598"
+        ],
+        "duration": "4:1"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 5,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 572,
+    "id": "mDU-5jwPKmQ",
+    "details": {
+        "artist": "French Montana",
+        "songName": "No Shopping ft. Drake"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "4",
+            "2",
+            "4",
+            "ec",
+            "af",
+            "7a",
+            "ecaf7a10-bc60-e16f-96f0-c32142e33db7"
+        ],
+        "duration": "5:22"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 5,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 573,
+    "id": "1eoSanFCU-M",
+    "details": {
+        "artist": "Lil Uzi Vert",
+        "songName": "Money Longer"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": [
+            "3",
+            "0",
+            "4",
+            "81",
+            "83",
+            "42",
+            "81834259-22eb-8699-dc94-8c8cc59a8dab"
+        ],
+        "duration": "4:1"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Chill Out": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hip-Hop": 5,
+        "Indie": 0,
+        "Latin": 0,
+        "Love": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 2,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
