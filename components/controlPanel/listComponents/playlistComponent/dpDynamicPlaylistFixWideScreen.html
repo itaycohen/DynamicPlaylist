@@ -8,7 +8,7 @@
                 <p class="artist-name">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
             </div>
             <div class="md-avatar">
-                <div id="bars" ng-show="isPlayerPlaying()">
+                <div class="bars bars-big" ng-show="isPlayerPlaying()">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
@@ -16,7 +16,9 @@
                     <div class="bar"></div>
                 </div>
             </div>
+            <p class="md-avatar song-duration song-duration-big-playing" ng-show="!isPlayerPlaying()">{{getDuration(logicService.getCurrentPlayingSongIndex())}}</p>
         </md-list-item>
+        
 
         <div class="playlist-title sub-title"> Up Next </div>
         <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"

@@ -79,11 +79,38 @@
             font-size: 17px;
         }
 
+        .song-duration-big-playing {
+            font-size: 19px;
+            margin-top: 36px;
+            margin-right: 17px;
+
+        }
+
         .song-duration-small {
             margin-right: 0px; 
             
             font-size: 13px;
         }
+
+        .song-duration-small-playing {
+            font-size: 14px;
+            margin-top: 36px;
+            margin-right: 1px;
+
+        }
+        
+        .bars-wrapper-small {
+            margin-right: 1px;
+        }
+
+        .bars-big {
+            height: 51px;
+        }
+
+        .bars-small {
+            height: 40px;
+        }
+            
  
     }
     .song-item-container-teen-number {
@@ -238,8 +265,10 @@
     opacity: 0.8;
 }
 
-#bars {
-    height: 51px;
+
+
+.bars {
+    
     position: absolute;
 
     .bar {
