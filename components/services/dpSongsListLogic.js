@@ -49,7 +49,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         updateWeightDistanceFactor: updateWeightDistanceFactor,
         updateUserTagsMap : updateUserTagsMap,
 
-        setNewUserGenresAndTagsData: setNewUserGenresAndTagsData
+        setNewUserGenresAndTagsData: setNewUserGenresAndTagsData,
+        getSongImgSrcByIndex : getSongImgSrcByIndex,
+        getSongDurationByIndex : getSongDurationByIndex
     };
     return service;
 
@@ -859,6 +861,23 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     function getUrlVideoIdIndex() {
         return $rootScope.urlVideoIdIndex;
     }
+
+    function getSongImgSrcByIndex(index) {
+        var songDetails = $rootScope.rawSongsList[index];
+        return getUrlOfWork(songDetails.w);
+    }
+
+    function getSongDurationByIndex(index) {
+        return $rootScope.rawSongsList[index].d;
+    }
+
+
+    // return format: http://is4.mzstatic.com/image/thumb/Music30/v4/ac/87/29/ac8729b1-329b-cc0d-3b30-6d0301994a02/source/100x100bb.jpg
+    // arr vars: [is,music,version,pre1,pre2,pre3,code]
+    function getUrlOfWork(artworkArr) {
+        //TODO fallback
+        return "http://is" + artworkArr[0] + ".mzstatic.com/image/thumb/Music" + artworkArr[1] + "/v" + artworkArr[2] + "/" + artworkArr[3] + "/"  + artworkArr[4] + "/"   + artworkArr[5] + "/" + artworkArr[6] + "/source/60x60bb.jpg" ;
+    }
     
 
     // MOVE TO UTILS
@@ -876,4 +895,4 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         return booleanVal ? 1 : 0;
     }
 
-}
+} 

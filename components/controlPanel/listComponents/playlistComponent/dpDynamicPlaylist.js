@@ -101,5 +101,14 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
         return $rootScope.isShowingLessSongs ? "SHOW MORE" : "SHOW LESS";
     };
 
+    $rootScope.getSongImgSrc = function(songIndex) {
+        return dpSongsListLogic.getSongImgSrcByIndex(songIndex);
+    };   
+    
+    $rootScope.getDuration = function(songIndex) {
+        return dpSongsListLogic.getSongDurationByIndex(songIndex);
+    };
+    
+    
 
 }
