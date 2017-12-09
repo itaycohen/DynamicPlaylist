@@ -740,11 +740,11 @@ md-select-menu {
   .playlist-wrapper .song-item .full-song-name-small .artist-name {
     font-size: 13.5px; }
   .playlist-wrapper .song-item .song-duration {
-    color: #ebe8ec;
-    margin-right: 0px; }
+    color: #ebe8ec; }
   .playlist-wrapper .song-item .song-duration-big {
     font-size: 17px; }
   .playlist-wrapper .song-item .song-duration-small {
+    margin-right: 0px;
     font-size: 13px; }
   .playlist-wrapper .song-item-container-teen-number .song-number-big {
     padding-left: 5px; }
