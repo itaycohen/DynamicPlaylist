@@ -140,18 +140,23 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         if (angular.isUndefined(currentSong.year) || currentSong.year === "") {
             alert("No year!");
             currentSong.year = "NA";
+            return;
         }
         newSong.misc.year = currentSong.year;
 
         if (angular.isUndefined(currentSong.artwork) || currentSong.artwork === "") {
             alert("No artwork!");
             newSong.misc.artwork = "NA";
+            return;
+            
         }
         newSong.misc.artwork = currentSong.artwork;
 
         if (angular.isUndefined(currentSong.duration) || currentSong.duration === "") {
             alert("No duration!");
             newSong.misc.duration = "NA";
+            return;
+            
         }
         newSong.misc.duration = currentSong.duration;
         
@@ -199,11 +204,12 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.getSongArtist();
         $rootScope.getSongName();
         $rootScope.parseSongName();
-        $rootScope.getTopTagsData();
-        $rootScope.getDiscogsData();
-        $rootScope.getMusixData();
         $rootScope.getItunesData();
-        $rootScope.getMusicBrainzQueryData();
+        //TODO - uncomment
+        // $rootScope.getTopTagsData();
+        // $rootScope.getDiscogsData();
+        // $rootScope.getMusixData();
+        // $rootScope.getMusicBrainzQueryData();
         
     };
 
@@ -476,7 +482,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             var genresStrPre = "Genres: \n";
             var genresStr = "";
             var releaseDate;
-            var artworkUrl30;
+            var artworkUrl100;
             
             
             var firstSong = resultsArr[0];
@@ -488,11 +494,14 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
             if (!angular.isUndefined(firstSong.artworkUrl100) &&
                 !angular.isUndefined(firstSong.releaseDate)) {
-                artworkUrl30 = firstSong.artworkUrl30;
-                 console.log(artworkUrl30);
+                artworkUrl100 = firstSong.artworkUrl100;
+                 console.log(artworkUrl100);
+                 alert(artworkUrl100);
                  releaseDate = firstSong.releaseDate;
-                 $rootScope.song.artwork = getArrOfArtwork(artworkUrl30);
-                 $rootScope.song.year = getYearOfReleaseDate(releaseDate);
+                 $rootScope.song.artwork = artworkUrl100;
+                //  $rootScope.song.artwork = getArrOfArtwork(artworkUrl30);
+
+                $rootScope.song.year = getYearOfReleaseDate(releaseDate);
                  
             }
 
@@ -509,7 +518,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             }
 
             genresStr += "\n";
-            genresStr += artworkUrl30 ? "artwork" : "NO artwork";
+            genresStr += artworkUrl100 ? "artwork" : "NO artwork";
             genresStr += "\n";
             genresStr += releaseDate;
             genresStr += "\n";
@@ -531,9 +540,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var artworkArr =[];
         var arrOfUrl = artworkUrl.split("/");
         var isStr = arrOfUrl[2].split(".")[0];
-        artworkArr[0] = isStr.charAt(isStr.length -1); //is1 -> 1
-        artworkArr[1] = arrOfUrl[5].charAt(arrOfUrl[5].length -1); // Music3 -> 3
-        artworkArr[2] = arrOfUrl[6].charAt(arrOfUrl[6].length -1); // v4 -> 4;
+        artworkArr[0] = isStr.substring(2,isStr.length);; //is1 -> 1
+        artworkArr[1] = arrOfUrl[5].substring(5,arrOfUrl[5].length); // Music3 -> 3
+        artworkArr[2] = arrOfUrl[6].substring(1,arrOfUrl[6].length); // v4 -> 4;
         artworkArr[3] = arrOfUrl[7];
         artworkArr[4] = arrOfUrl[8];
         artworkArr[5] = arrOfUrl[9];
@@ -689,23 +698,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     }
 
-    function formatYoutubeDuration2(rawDuration) {
-        var match = rawDuration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
-        
-          match = match.slice(1).map(function(x) {
-            if (x !== null) {
-                return x.replace(/\D/, '');
-            }
-          });
-        
-          var hours = (parseInt(match[0]) || 0);
-          var minutes = (parseInt(match[1]) || 0);
-          var seconds = (parseInt(match[2]) || 0);
-        
-          return hours * 3600 + minutes * 60 + seconds;
-    }
 
-    function formatYoutubeDuration(duration) {
+    function formatYoutubeDuration2(duration) {
         var a = duration.match(/\d+/g);
     
         if (duration.indexOf('M') >= 0 && duration.indexOf('H') == -1 && duration.indexOf('S') == -1) {
@@ -736,6 +730,59 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             str += a[0];
         }
         return str;
+    }
+
+    function formatYoutubeDuration(duration) {
+        var output = [];
+        var durationInSec = 0;
+        var matches = duration.match(/P(?:(\d*)Y)?(?:(\d*)M)?(?:(\d*)W)?(?:(\d*)D)?T?(?:(\d*)H)?(?:(\d*)M)?(?:(\d*)S)?/i);
+        var parts = [
+          { // years
+            pos: 1,
+            multiplier: 86400 * 365
+          },
+          { // months
+            pos: 2,
+            multiplier: 86400 * 30
+          },
+          { // weeks
+            pos: 3,
+            multiplier: 604800
+          },
+          { // days
+            pos: 4,
+            multiplier: 86400
+          },
+          { // hours
+            pos: 5,
+            multiplier: 3600
+          },
+          { // minutes
+            pos: 6,
+            multiplier: 60
+          },
+          { // seconds
+            pos: 7,
+            multiplier: 1
+          }
+        ];
+
+        for (var i = 0; i < parts.length; i++) {
+            if (typeof matches[parts[i].pos] != 'undefined') {
+              durationInSec += parseInt(matches[parts[i].pos]) * parts[i].multiplier;
+            }
+          }
+          var totalSec = durationInSec;
+          // Hours extraction
+          if (durationInSec > 3599) {
+            output.push(parseInt(durationInSec / 3600));
+            durationInSec %= 3600;
+          }
+          // Minutes extraction with leading zero
+          output.push(('' + parseInt(durationInSec / 60)).slice(-2));
+          // Seconds extraction with leading zero
+          output.push(('0' + durationInSec % 60).slice(-2));
+        return output.join(':');
     }
 
 
@@ -1266,7 +1313,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             newSong.g = genresweightsOfSong;
 
             newSong.y = currentSong.misc.year;
-            newSong.w = currentSong.misc.artwork;
+            newSong.w = getArrOfArtwork(currentSong.misc.artwork);
             newSong.d = currentSong.misc.duration;
 
             var currentTagging = currentSong.tagging;
@@ -1302,7 +1349,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             newSong.misc = {};
 
             newSong.misc.year = currentSong.y;
-            newSong.misc.artwork = currentSong.w;
+            newSong.misc.artwork = getUrlOfWork(currentSong.w);
             newSong.misc.duration = currentSong.d;
 
             var currentTagging = currentSong.t;
@@ -1317,6 +1364,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         console.log(fromShrinkToRaw);
         $rootScope.fromShrinkToRaw = fromShrinkToRaw;
 
+    }
+
+    function getUrlOfWork(artworkArr) {
+        //TODO fallback
+        return "http://is" + artworkArr[0] + ".mzstatic.com/image/thumb/Music" + artworkArr[1] + "/v" + artworkArr[2] + "/" + artworkArr[3] + "/"  + artworkArr[4] + "/"   + artworkArr[5] + "/" + artworkArr[6] + "/source/60x60bb.jpg" ;
     }
 
     function convertBooleanToNum(booleanVal) {
@@ -1573,7 +1625,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     /// FIX SONGS
 
-    $rootScope.runningSongIndexFromList = 543;
+    $rootScope.runningSongIndexFromList = 46;
 
 
 

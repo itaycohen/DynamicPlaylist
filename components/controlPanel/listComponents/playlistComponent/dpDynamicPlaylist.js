@@ -102,8 +102,13 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, $
     };
 
     $rootScope.getSongImgSrc = function(songIndex) {
-        var songVideoId = "vxCrqtdEXAA";
-        return "http://img.youtube.com/vi/" + songVideoId + "/mqdefault.jpg";
-    };         
+        return dpSongsListLogic.getSongImgSrcByIndex(songIndex);
+    };   
+    
+    $rootScope.getDuration = function(songIndex) {
+        return dpSongsListLogic.getSongDurationByIndex(songIndex);
+    };
+    
+    
 
 }

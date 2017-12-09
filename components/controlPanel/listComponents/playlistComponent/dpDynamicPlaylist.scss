@@ -46,6 +46,10 @@
                 color: #13e3ed;
             }
         }
+
+
+
+
         .full-song-name-big {
             font-size: 18px;
             .song-name {
@@ -65,6 +69,20 @@
                 font-size: 13.5px;
             }
         }
+
+        .song-duration {
+            color: #ebe8ec;
+            margin-right: 0px;
+        }
+
+        .song-duration-big {
+            font-size: 17px;
+        }
+
+        .song-duration-small {
+            font-size: 13px;
+        }
+ 
     }
     .song-item-container-teen-number {
         .song-number-big {
@@ -90,11 +108,32 @@
             ;
         }
 
-
-        .md-avatar {
-            width: 55px;
-            height:55px;
+        .song-image-big {
+            width: 70px;
+            height:70px;
+            background: transparent url("../../../../media/gifs/rollingBig.gif") center no-repeat;
         }
+
+        .song-image-small {
+            width: 50px;
+            height:50px;
+            background: transparent url("../../../../media/gifs/rollingSmall.gif") center no-repeat;
+        }
+
+        .song-image-big-play {
+            width: 85px;
+            height:85px;
+
+        }
+
+        .song-image-small-play {
+            width: 65px;
+            height:65px;
+            
+        }
+
+        
+
     }
     .now-playing-song { 
         padding-bottom: 10px;
@@ -106,7 +145,16 @@
         .hover-icon {
             display: block;
         }
+
+        .hover-duration{
+            display: none;
+        }
     }
+
+    // .hover-song:hover{
+    //     display: none;
+    // }
+
     .play-button {
         cursor: pointer;
     }
@@ -201,33 +249,32 @@
     }
 
     .bar:nth-child(1) {
+        background: #09b7bf;
         left: 1px;
         animation-duration: 524ms;
     }
     
     .bar:nth-child(2) {
+        background: #90d36b;
         left: 6px;
         animation-duration: 483ms;
     }
     
     .bar:nth-child(3) {
+        background: #f2d40d;
         left: 11px;
         animation-duration: 457ms;
     }
     
     .bar:nth-child(4) {
+        background: #fcb12b;
         left: 16px;
         animation-duration: 508ms;
     }
     
     .bar:nth-child(5) {
+        background: #ed1b72;
         left: 21px;
         animation-duration: 450ms;
     }
 }
-
-
-
-
-
-

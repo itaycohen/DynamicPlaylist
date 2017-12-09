@@ -2,6 +2,7 @@
     <div class="playlist-wrapper wrapper-with-scroll playlist-wrapper-horizontal">
         <div class="playlist-title main-title"> Now Playing </div>
         <md-list-item class="md-2-line item-list song-item now-playing-song" layout="row">
+            <img ng-src="{{getSongImgSrc(logicService.getCurrentPlayingSongIndex())}}" class="md-avatar song-image-big song-image-big-play" alt="image" />
             <div class="md-list-item-text full-song-name full-song-name-big">
                 <h3 class="song-name">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h3>
                 <p class="artist-name">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
@@ -23,16 +24,15 @@
             <!-- <div class="song-number song-number-big">
                 {{$index + 1}}
             </div> -->
-            <!-- <img ng-src="http://img.youtube.com/vi/HeyfOEb7ET0/hqdefault.jpg" class="md-avatar" alt="image" /> -->
-            <img ng-src="{{getSongImgSrc(songIndex)}}" class="md-avatar" alt="image" />
+            <img ng-src="{{getSongImgSrc(songIndex)}}" class="md-avatar song-image-big" alt="image" />
             
-            <!-- //http://img.youtube.com/vi/JRfuAukYTKg/hqdefault.jpg -->
             <div class="md-list-item-text full-song-name full-song-name-big">
                 <p class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</p>
                 <p class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</p>
             </div>
             <!-- <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" ng-show="isPlaySongEnabled()"> -->
             <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" >
+            <p class="md-avatar song-duration song-duration-big hover-duration">{{getDuration(songIndex)}}</p>
             
         </md-list-item>
 

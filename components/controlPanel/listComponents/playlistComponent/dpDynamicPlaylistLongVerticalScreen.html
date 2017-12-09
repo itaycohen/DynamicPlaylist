@@ -2,6 +2,7 @@
     <div class="playlist-wrapper playlist-wrapper-vertical text-no-select">
         <div class="playlist-title main-title"> Now Playing </div>
         <md-list-item class="md-2-line item-list song-item now-playing-song" layout="row">
+            <img ng-src="{{getSongImgSrc(logicService.getCurrentPlayingSongIndex())}}" class="md-avatar song-image-small song-image-small-play" alt="image" />
             <div class="md-list-item-text full-song-name">
                 <p class="song-name">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
                 <p class="artist-name">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
@@ -20,13 +21,15 @@
         <div class="playlist-title sub-title"> Next Up </div>
         <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-teen-number':$index + 1 > 9}" layout="row">
-            <div class="song-number song-number-small">
+            <!-- <div class="song-number song-number-small">
                 {{$index + 1}}
-            </div>
+            </div> -->
+            <img ng-src="{{getSongImgSrc(songIndex)}}" class="md-avatar song-image-small" alt="image" />
             <div class="md-list-item-text full-song-name full-song-name-small">
                 <p class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</p>
                 <p class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</p>
             </div>
+            <p class="md-avatar song-duration song-duration-small hover-duration">{{getDuration(songIndex)}}</p>
         </md-list-item>
         <md-list-item class="md-2-line item-list">
             <div class="md-list-item-text" layout="row" layout-align="center">
