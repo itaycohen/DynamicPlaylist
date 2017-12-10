@@ -51,9 +51,20 @@ function appController($scope, $mdMedia, $mdDialog, dpAppUtils) {
 
     $scope.getMainViewClass = function () {
         if (dpAppUtils.isDesktop()) {
-            return "main-view-big";
+            return "main-view-big layout-row";
+        } else {
+            return "layout-sm-column";
         }
     };
+
+    $scope.getPlayerAndWidgetViewClass = function () {
+        if (dpAppUtils.isDesktop()) {
+            return "left-view";
+        } else {
+            return "top-view";
+        }
+    };
+
 
     $scope.getToolbarTemplateUrl = function () {
         if (dpAppUtils.isDesktop()) {
