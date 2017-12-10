@@ -57,10 +57,13 @@
         <!--Main View-->
         <!--space-between: for stretching the left part-->
         <!--layout-xs="column" layout-sm="column" - when width is smaller than 960px we change to column layout-->
-        <div class="main-view" ng-class="getMainViewClass()" layout="row" layout-align="start space-between" layout-xs="column" layout-sm="column">
+        <!-- <div class="main-view" ng-class="getMainViewClass()" layout="row" layout-align="start space-between" layout-xs="column" layout-sm="column"> -->
+        <div class="main-view" ng-class="getMainViewClass()"  layout-align="start space-between" >
+                
 
             <!--Left side-->
-            <div flex-gt-sm="55" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start stretch" class="boxWithHeight">
+            <!-- <div flex-gt-sm="55" flex-sm="auto" flex-xs="auto" layout="column" layout-align="start stretch" class="boxWithHeight"> -->
+            <div ng-class="getPlayerAndWidgetViewClass()" layout="column" layout-align="start stretch" class="boxWithHeight">
 
 
                 <!--Youtube Player Container-->

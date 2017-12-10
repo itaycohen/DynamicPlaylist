@@ -44,7 +44,16 @@ body {
             .widget-manager-container {
                 overflow-y: auto;
             }
-            .right-side {}
+
+            .left-view {
+                flex: 1 1 50%;
+                max-width: 50%;
+            }
+
+            .top-view{
+                flex: 1 1 auto;
+            }
+
         } // CAN BE DELETED - ONLY FOR REF
         // default toolbar height is 56
         .main-view-big {

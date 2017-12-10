@@ -308,6 +308,11 @@ body {
       box-sizing: border-box; }
     body .app .main-view .widget-manager-container {
       overflow-y: auto; }
+    body .app .main-view .left-view {
+      flex: 1 1 50%;
+      max-width: 50%; }
+    body .app .main-view .top-view {
+      flex: 1 1 auto; }
     body .app .main-view-big {
       height: calc(100% - 56px); }
   body .app-horizontal .icon-container {
