@@ -8,7 +8,7 @@
                 <p class="artist-name">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
             </div>
             <div class="md-avatar bars-wrapper-small">
-                <div class="bars bars-small" ng-show="isPlayerPlaying()">
+                <div class="bars bars-small" ng-show="playerService.isPlaying()">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
@@ -16,11 +16,11 @@
                     <div class="bar"></div>
                 </div>
             </div>
-            <p class="md-avatar song-duration song-duration-small-playing" ng-show="!isPlayerPlaying()">{{getDuration(logicService.getCurrentPlayingSongIndex())}}</p>
+            <p class="md-avatar song-duration song-duration-small-playing" ng-show="!playerService.isPlaying()">{{getDuration(logicService.getCurrentPlayingSongIndex())}}</p>
         </md-list-item>
 
         <div class="playlist-title sub-title"> Up Next </div>
-        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
+        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="playerService.isPlayerEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-teen-number':$index + 1 > 9}" layout="row">
             <!-- <div class="song-number song-number-small">
                 {{$index + 1}}

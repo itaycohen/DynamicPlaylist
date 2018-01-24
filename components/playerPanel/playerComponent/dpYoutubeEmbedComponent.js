@@ -7,6 +7,7 @@ dpYoutubeEmbedService.$inject = ['$document', '$q', '$rootScope', '$window'];
 
 //TODO - investigate & change as our format
 function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
+	
 
 	// https://github.com/brandly/angular-youtube-embed/blob/master/src/angular-youtube-embed.js
 	var isReady = false;
@@ -28,19 +29,16 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	scriptTag.onreadystatechange = function () {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
-		// console.log("onreadystatechange was loaded, time: " + time0);
-		// console.log("onreadystatechange was loaded, mili: " + mili0);
+		console.log("onreadystatechange was loaded, time: " + time0);
+		console.log("onreadystatechange was loaded, mili: " + mili0);
 		if (this.readyState == 'complete')
 			onScriptLoad();
 	};
 	scriptTag.onload = onScriptLoad();
 	var s = $document[0].getElementsByTagName('body')[0];
 
-	var time0 = new Date();
-	var mili0 = time0.getMilliseconds();
-	// console.log("appendChild was loaded, time: " + time0);
-	// console.log("appendChild was loaded, mili: " + mili0);
-
+	var time1 = new Date();
+	console.log("component: appendChild, time: " + time1.getSeconds() + ":" + time1.getMilliseconds());
 	s.appendChild(scriptTag);
 
 	function applyServiceIsReady() {
@@ -61,11 +59,7 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	}
 
 	function getYoutubeEmbed() {
-		// var time0 = new Date();
-		// var mili0 = time0.getMilliseconds();
-		// console.log("promise was loaded, time: " + time0);
-		// console.log("promise was loaded, mili: " + mili0);
-
+		dpSongsListLogic.printTime("getYoutubeEmbed");
 		return defer.promise;
 	}
 
@@ -83,9 +77,9 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 }
 
 
-dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', '$window', '$http'];
+dpYoutubeEmbedDirective.$inject = ['dpYoutubeEmbedService', 'dpSongsListLogic', 'dpPlayerService', '$window', '$http'];
 
-function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $window, $http) {
+function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, dpPlayerService, $window, $http) {
 	var directive = {
 		restrict: "E",
 		templateUrl: "components/playerPanel/playerComponent/dpYoutubeEmbedTemplate.html",
@@ -96,12 +90,20 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 	function dpPlayerBoxPostLink($scope, element, attrs) {
 
+
+		var stopWatchingReady = $scope.$watch(
+			function () {
+				return dpYoutubeEmbedService.isAPIReady();
+			},
+			function (isReady) {
+				if (isReady) {
+					stopWatchingReady();
+					loadYoutubeEmbed();
+				}
+			});
+
 		function loadYoutubeEmbed() {
-			// var time1 = new Date();
-			// var mili = time1.getMilliseconds();
-			// console.log("onYouTubePlayerAPIReady loading, time: " + time1);
-			// console.log("onYouTubePlayerAPIReady loading, mili: " + mili);
-			// console.log("$window.onYouTubePlayerAPIReady");
+			dpSongsListLogic.printTime("loadYoutubeEmbed");
 			$scope.player = new YT.Player('player', {
 				playerVars: {
 					'autoplay': 0,
@@ -130,8 +132,6 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 		function onPlayerReadyCB(event) {
 			//TODO - aff name of directive
 			// console.log("Youtube Player Event - Player is ready");
-			// $scope.isPlayingState = true;
-			//$scope.isPlaying = true;
 			//event.target.playVideo();
 			// event.target.loadPlaylist(['PVzljDmoPVs','9NwZdxiLvGo']);
 		}
@@ -161,13 +161,13 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 		}
 
 		function handlePlayerPlaying() {
-			$scope.isPlaying = true;
+			dpPlayerService.setPlay();
 			$scope.$apply();
 			// console.log("Youtube Player Event - handlePlayerPlaying");
 		}
 
 		function handlePlayerPaused() {
-			$scope.isPlaying = false;
+			dpPlayerService.setPause();
 			$scope.$apply();
 			//TODO - save time of video to session user - for recover
 			// console.log("Youtube Player Event - handlePlayerPaused");
@@ -175,7 +175,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 
 		function handlePlayerEnded() {
 			// console.log("Youtube Player Event - handlePlayerEnded");
-			$scope.executePlayerEndedActions(false);
+			dpSongsListLogic.popSongIndexFromListAndUpdate(false);
+			loadNextSong();
 		}
 
 		function onPlaybackQualityChangeCB(playbackQuality) {
@@ -204,23 +205,23 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, $windo
 			return screenWidth;
 		}
 
-		var stopWatchingReady = $scope.$watch(
-			function () {
-				return dpYoutubeEmbedService.isAPIReady();
-			},
-			function (isReady) {
-				if (isReady) {
-					stopWatchingReady();
-					loadYoutubeEmbed();
-				}
-			});
+		// var stopWatchingReady = $scope.$watch(
+		// 	function () {
+		// 		return dpYoutubeEmbedService.isAPIReady();
+		// 	},
+		// 	function (isReady) {
+		// 		if (isReady) {
+		// 			stopWatchingReady();
+		// 			loadYoutubeEmbed();
+		// 		}
+		// 	});
 
 
 	} // dpPlayerBoxPostLink
 } // dpYoutubeEmbedDirective
 
-dpYoutubeEmbedController.$inject = ['$scope', 'dpSongsListLogic', 'dpAppUtils'];
-function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
+dpYoutubeEmbedController.$inject = ['$scope', 'dpSongsListLogic', 'dpAppUtils', 'dpPlayerService'];
+function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils, dpPlayerService) {
 
 	var playerScreenRatio = 0.52;
 	var playerwidthReducerFactor = 0.5; // factor that decide how wide the player width can be
@@ -229,39 +230,7 @@ function dpYoutubeEmbedController($scope, dpSongsListLogic, dpAppUtils) {
 
 	//hooking the dpSongsListLogic on logicService for html access
 	$scope.logicService = dpSongsListLogic;
-	$scope.isPlaying = false;
 
-	$scope.onPauseSongClick = function () {
-		// console.log("pasue was clicked");
-		$scope.isPlaying = false;
-		$scope.player.pauseVideo();
-	};
-
-	$scope.onPlaySongClick = function () {
-		if ($scope.player !== 'undefined' && typeof $scope.player.playVideo === "function") {
-			$scope.player.playVideo();
-			$scope.isPlaying = true;
-		}
-	};
-
-	$scope.executePlayerEndedActions = function (byAction) {
-		dpSongsListLogic.popSongIndexFromListAndUpdate(byAction);
-		loadNextSong();
-
-	};
-
-	function loadNextSong() {
-		$scope.player.videoId = dpSongsListLogic.getNextSongId();
-		$scope.player.loadVideoById($scope.player.videoId);
-		$scope.player.playVideo();
-	}
-
-	$scope.onNextSongClick = function () {
-		// console.log("Next Song was clicked");
-		$scope.player.stopVideo();
-		$scope.executePlayerEndedActions(true);
-
-	};
 
 	/**
 	 *  when do we show play/pause buttons

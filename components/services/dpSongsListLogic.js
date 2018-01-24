@@ -51,7 +51,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
         setNewUserGenresAndTagsData: setNewUserGenresAndTagsData,
         getSongImgSrcByIndex : getSongImgSrcByIndex,
-        getSongDurationByIndex : getSongDurationByIndex
+        getSongDurationByIndex : getSongDurationByIndex,
+        printTime : printTime
     };
     return service;
 
@@ -893,6 +894,11 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
     function convertBooleanToNum(booleanVal) {
         return booleanVal ? 1 : 0;
+    }
+
+    function printTime(component) {
+        var time1 = new Date();
+        console.log("component: " + component + " time: " + time1.getSeconds() + ":" + time1.getMilliseconds());
     }
 
 } 

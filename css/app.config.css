@@ -284,9 +284,9 @@ body {
     background-position: center; }
     body .app .toolbar {
       background: transparent;
-      min-height: 56px; }
+      min-height: 53px; }
       body .app .toolbar .md-toolbar-tools {
-        height: 56px;
+        height: 53px;
         color: white; }
         body .app .toolbar .md-toolbar-tools .toolbar-title {
           font-weight: bold;
@@ -314,7 +314,9 @@ body {
     body .app .main-view .top-view {
       flex: 1 1 auto; }
     body .app .main-view-big {
-      height: calc(100% - 56px); }
+      height: calc(100% - 113px); }
+    body .app .main-view-small {
+      padding-bottom: 60px; }
   body .app-horizontal .icon-container {
     width: 42px;
     height: 42px;
@@ -346,6 +348,10 @@ body {
   body #webklipper-publisher-widget-container-content[style] {
     border-width: 0 !important; }
 
+.now-playing-bar-container {
+  background-color: #181818;
+  height: 60px; }
+
 .text-no-select {
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -358,6 +364,87 @@ body {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none; }
+
+.playing-bar {
+  background: #282828;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 101; }
+  .playing-bar .player-controls {
+    margin-left: 10px; }
+    .playing-bar .player-controls .play-button-wrapper {
+      margin: 0 5px 0 10px;
+      cursor: pointer;
+      outline: none; }
+      .playing-bar .player-controls .play-button-wrapper .play-button {
+        height: 28px;
+        width: 28px;
+        display: block;
+        margin: 5px;
+        overflow: hidden;
+        position: relative;
+        outline: none; }
+        .playing-bar .player-controls .play-button-wrapper .play-button .left {
+          height: 100%;
+          float: left;
+          background-color: #fff;
+          width: 36%;
+          -webkit-transition: all 0.25s ease;
+          transition: all 0.25s ease;
+          overflow: hidden; }
+        .playing-bar .player-controls .play-button-wrapper .play-button .triangle-1 {
+          -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%); }
+        .playing-bar .player-controls .play-button-wrapper .play-button .triangle-2 {
+          -webkit-transform: translate(0, 100%);
+          transform: translate(0, 100%); }
+        .playing-bar .player-controls .play-button-wrapper .play-button .triangle-1,
+        .playing-bar .player-controls .play-button-wrapper .play-button .triangle-2 {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: transparent;
+          width: 0;
+          height: 0;
+          border-right: 28px solid #282828;
+          border-top: 14px solid transparent;
+          border-bottom: 14px solid transparent;
+          -webkit-transition: -webkit-transform 0.25s ease;
+          transition: -webkit-transform 0.25s ease;
+          transition: transform 0.25s ease;
+          transition: transform 0.25s ease, -webkit-transform 0.25s ease; }
+        .playing-bar .player-controls .play-button-wrapper .play-button .right {
+          height: 100%;
+          float: right;
+          width: 36%;
+          background-color: #fff;
+          -webkit-transition: all 0.25s ease;
+          transition: all 0.25s ease; }
+      .playing-bar .player-controls .play-button-wrapper .paused .left, .playing-bar .player-controls .play-button-wrapper .paused .right {
+        width: 50%; }
+      .playing-bar .player-controls .play-button-wrapper .paused .triangle-1 {
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%); }
+      .playing-bar .player-controls .play-button-wrapper .paused .triangle-2 {
+        -webkit-transform: translate(0, 50%);
+        transform: translate(0, 50%); }
+      .playing-bar .player-controls .play-button-wrapper:hover .left, .playing-bar .player-controls .play-button-wrapper:hover .right {
+        background-color: #42f1f8; }
+    .playing-bar .player-controls .next-button-wrapper {
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+      outline: none; }
+      .playing-bar .player-controls .next-button-wrapper .next-button {
+        width: 30px;
+        height: 30px; }
+      .playing-bar .player-controls .next-button-wrapper:hover .next-button svg {
+        fill: #42f1f8; }
+  .playing-bar .player-bar-middle-area .song-img-wrapper .song-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; }
 
 .player-wrapper-horizontal {
   margin-left: 12px; }

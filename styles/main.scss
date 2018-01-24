@@ -7,9 +7,9 @@ body {
         background-position: center;
         .toolbar {
             background: transparent;
-            min-height: 56px;
+            min-height: 53px;
             .md-toolbar-tools {
-                height: 56px;
+                height: 53px;
                 color: white;
                 .toolbar-title {
                     font-weight: bold;
@@ -55,10 +55,17 @@ body {
             }
 
         } // CAN BE DELETED - ONLY FOR REF
-        // default toolbar height is 56
+        // default toolbar height is 53 and now-plaing-bar 60
         .main-view-big {
-            height: calc(100% - 56px);
-        } // toolbar height is 56px
+            height: calc(100% - 113px);
+        }
+
+        .main-view-small {
+            padding-bottom: 60px;
+        }
+        
+        
+        // toolbar height is 56px
         // in @media (max-width: 959px) and (min-width: 0) and (orientation: portrait) {
         .main-view-small-portrait {
             //    height: calc(100% - 56px);
@@ -124,4 +131,13 @@ body {
     #webklipper-publisher-widget-container-content[style] {
         border-width: 0 !important;
     }
+}
+
+.now-playing-bar-container {
+    background-color: #181818;
+    // // position: fixed;
+    // width: 100%;
+    // bottom: 0;
+    // z-index: 101;
+    height:60px;
 }

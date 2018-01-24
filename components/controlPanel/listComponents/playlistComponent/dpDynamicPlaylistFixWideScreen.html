@@ -8,7 +8,7 @@
                 <p class="artist-name">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
             </div>
             <div class="md-avatar">
-                <div class="bars bars-big" ng-show="isPlayerPlaying()">
+                <div class="bars bars-big" ng-show="playerService.isPlaying()">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
@@ -16,12 +16,12 @@
                     <div class="bar"></div>
                 </div>
             </div>
-            <p class="md-avatar song-duration song-duration-big-playing" ng-show="!isPlayerPlaying()">{{getDuration(logicService.getCurrentPlayingSongIndex())}}</p>
+            <p class="md-avatar song-duration song-duration-big-playing" ng-show="!playerService.isPlaying()">{{logicService.getSongDurationByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
         </md-list-item>
         
 
         <div class="playlist-title sub-title"> Up Next </div>
-        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="isPlaySongEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
+        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="playerService.isPlayerEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-teen-number':$index + 1 > 9}" layout="row">
             <!-- <div class="song-number song-number-big">
                 {{$index + 1}}
@@ -32,7 +32,7 @@
                 <p class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</p>
                 <p class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</p>
             </div>
-            <!-- <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" ng-show="isPlaySongEnabled()"> -->
+            <!-- <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" ng-show="playerService.isPlayerEnabled()"> -->
             <img src="media/icons/ic_play_arrow_white_36px.svg" class="md-avatar hover-icon" >
             <p class="md-avatar song-duration song-duration-big hover-duration">{{getDuration(songIndex)}}</p>
             

@@ -1,0 +1,62 @@
+<div class="playing-bar" layout="row">
+    <div class="player-controls" layout="row">
+        <div class="play-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && onPlayPauseClick()">
+            <div class="play-button"  ng-class="getPlayPauseStyle()">
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="triangle-1"></div>
+                <div class="triangle-2"></div>
+            </div>
+        </div>
+
+        <div class="next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onNextSongClick()">
+            <!-- <img class="next-button" src="media/icons/ic_skip_next_white_36px.svg" /> -->
+            <div class="next-button" >
+                <svg fill="#FFFFFF" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+    <div class="player-bar-middle-area" layout="row">
+        <div class="song-img-wrapper" layout="column" layout-align="center">
+            <img ng-src="{{logicService.getSongImgSrcByIndex(logicService.getCurrentPlayingSongIndex())}}" class="song-image" alt="image" /> 
+        </div>
+        <div class="playing-now-area" layout="column" >
+            <div class="playing-now-song-name-wrapper" layout="row">
+                {{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}} - {{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}
+            </div>
+            <div class="player-progress-bar" layout="row">
+                <!-- <div class="current-duration" ng-model="getCurrentPlayerDuration"> -->
+                <div class="current-duration" >
+                        <input ng-model="currentPlayerDuration">
+                        
+                    <!-- {{getCurrentPlayerDuration()}} -->
+                </div>
+                <div class="progress-bar-wrapper">
+                        progress-bar-wrapper
+                </div>
+                <div class="total-duration">
+                        {{getDuration(logicService.getCurrentPlayingSongIndex())}}
+                </div>
+
+                progress bar
+            </div>
+        </div>
+
+    </div>
+    <!-- <div class="like-area">like</div> -->
+    <div class="volume-control" layout="row">
+        <div class="vol-icon-wrapper">
+                vol-icon-wrapper
+        </div>
+        <div class="vol-slider-wrapper">
+
+                {{playerService.getVolumeLevel()}}
+                
+        </div>
+        vol
+    </div>
+</div>

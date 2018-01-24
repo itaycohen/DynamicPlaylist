@@ -1,0 +1,159 @@
+
+$playing-bar-background-color: #282828;
+$playing-bar-height: 60px;
+$playing-bar-hover-highlight-color: #42f1f8;
+$play-button-size: 28px; 
+$next-button-size: 30px; 
+
+
+//the whole bar
+.playing-bar {
+    background: $playing-bar-background-color;
+    height: $playing-bar-height;
+    // background-color: #181818; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 101;
+
+    .player-controls {
+
+      margin-left: 10px;
+
+      .play-button-wrapper {
+        
+              // width: 40px;
+              // padding: 5px;
+              margin: 0 5px 0 10px;
+              cursor: pointer;
+              // border-radius: 3px;
+              outline: none;
+        
+        
+              .play-button {
+                height: $play-button-size;
+                width: $play-button-size;
+                display: block;
+                margin: 5px;
+                overflow: hidden;
+                position: relative;
+                outline: none;
+          
+                .left {
+                  height: 100%;
+                  float: left;
+                  background-color: #fff;
+                  width: 36%;
+                  -webkit-transition: all 0.25s ease;
+                  transition: all 0.25s ease;
+                  overflow: hidden;
+                }
+          
+                .triangle-1 {
+                  -webkit-transform: translate(0, -100%);
+                          transform: translate(0, -100%);
+                }
+                .triangle-2 {
+                  -webkit-transform: translate(0, 100%);
+                          transform: translate(0, 100%);
+                }
+          
+                .triangle-1,
+                .triangle-2 {
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  background-color: transparent;
+                  width: 0;
+                  height: 0;
+                  border-right: $play-button-size solid $playing-bar-background-color;
+                  border-top: $play-button-size/2 solid transparent;
+                  border-bottom: $play-button-size/2 solid transparent;
+                  -webkit-transition: -webkit-transform 0.25s ease;
+                  transition: -webkit-transform 0.25s ease;
+                  transition: transform 0.25s ease;
+                  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+                }
+          
+                .right {
+                  height: 100%;
+                  float: right;
+                  width: 36%;
+                  background-color: #fff;
+                  -webkit-transition: all 0.25s ease;
+                  transition: all 0.25s ease;
+                }
+          
+              }
+        
+              .paused {
+                .left, .right {
+                  width: 50%;
+                }
+                .triangle-1 {
+                  -webkit-transform: translate(0, -50%);
+                          transform: translate(0, -50%);
+                }
+                .triangle-2 {
+                  -webkit-transform: translate(0, 50%);
+                          transform: translate(0, 50%);
+                }
+              }
+
+
+              &:hover {
+                .left, .right {
+                  background-color: $playing-bar-hover-highlight-color;
+                }
+
+
+              }
+            }// play-button-wrapper
+        
+        
+            .next-button-wrapper {
+              margin: 0 10px 0 10px;
+              cursor: pointer;
+              outline: none;
+
+              .next-button {
+                width: $next-button-size;
+                height: $next-button-size;
+              }
+
+
+              &:hover {
+                .next-button {
+                  svg {
+                    fill: $playing-bar-hover-highlight-color;
+                  }
+                }
+
+              }
+              
+        
+        
+            }
+        
+
+    }
+
+    .player-bar-middle-area {
+
+      .song-img-wrapper {
+
+        .song-image {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+        }
+
+      }
+
+    }
+
+
+
+    
+
+}
