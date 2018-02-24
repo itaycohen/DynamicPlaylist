@@ -5,21 +5,31 @@ angular
 dpPlayerService.$inject = ["$rootScope", "$mdMedia", "dpSongsListLogic"];
 
 function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
+    
 
     var service = {
-        initPlayerService: initPlayerService,
+        // watchers
         isPlaying: isPlaying,
+        isPlayerEnabled: isPlayerEnabled,
+        isPlayerMuted : isPlayerMuted,
+        // functions
+        initPlayerService: initPlayerService,
         setPlay: setPlay,
         setPause: setPause,
         loadSongById: loadSongById,
-        isPlayerEnabled: isPlayerEnabled,
         onPlaySongClick: onPlaySongClick,
         onPauseSongClick: onPauseSongClick,
         onNextSongClick: onNextSongClick,
         getPlayerCurrentDuration : getPlayerCurrentDuration,
-        getVolumeLevel : getVolumeLevel
+        getPlayerCurrentDurationFormatted : getPlayerCurrentDurationFormatted,
+        getVolumeLevel : getVolumeLevel,
+        setVolumeLevel : setVolumeLevel,
+        mutePlayer, mutePlayer,
+        unMutePlayer : unMutePlayer,
+        playerSeekTo : playerSeekTo
     };
     return service;
+
 
     //////////
 
@@ -74,18 +84,66 @@ function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
     }
     
 
+    //getting the current time of the playing song
+    // for example: 
     function getPlayerCurrentDuration() {
         if (isPlayerEnabled()) {
-            return getPlayerRef().getCurrentTime();
+            // return typeof getPlayerRef().getCurrentTime() !== 'undefined' ? Math.floor(getPlayerRef().getCurrentTime()) : 0;
+            return typeof getPlayerRef().getCurrentTime() !== 'undefined' ? getPlayerRef().getCurrentTime() : 0;
+            
         }
-        return false;
-        // player.getCurrentTime()
-
+        return 0;
     }
+
+    function getPlayerCurrentDurationFormatted() {
+        // var rawDuration = Math.floor(getPlayerCurrentDuration());
+        var rawDuration = getPlayerCurrentDuration();
+        // console.log("getPlayerCurrentDuration(): " + getPlayerCurrentDuration())
+        var formattedDuration = "";
+        var seconds = parseInt(rawDuration % 60);
+        var minutes = parseInt(rawDuration / 60);
+        if (seconds < 10) {
+            formattedDuration = minutes + ":0" + seconds;
+        } else {
+            formattedDuration = minutes + ":" + seconds;
+        }
+        return formattedDuration;
+    }
+
 
     function getVolumeLevel() {
         return isPlayerEnabled() ? getPlayerRef().getVolume() : "100";
+    }
 
+    function setVolumeLevel(volLevel) {
+        if (isPlayerEnabled()) {
+            getPlayerRef().setVolume(volLevel);
+        }
+    }
+
+    function playerSeekTo(seconds) {
+        if (isPlayerEnabled()) {
+            getPlayerRef().seekTo(seconds, true);
+        }
+    }
+
+    function isPlayerMuted() {
+        if (isPlayerEnabled()) {
+            return getPlayerRef().isMuted();
+        }
+        return false;
+    }
+
+    function mutePlayer() {
+        if (isPlayerEnabled()) {
+            getPlayerRef().mute();
+        }
+    }
+
+    function unMutePlayer() {
+        if (isPlayerEnabled()) {
+            getPlayerRef().unMute();
+        }
     }
 
 

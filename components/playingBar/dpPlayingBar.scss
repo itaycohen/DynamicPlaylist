@@ -4,31 +4,26 @@ $playing-bar-height: 60px;
 $playing-bar-hover-highlight-color: #42f1f8;
 $play-button-size: 28px; 
 $next-button-size: 30px; 
+$playing-bar-main-color: #ebe8ec;
 
 
-//the whole bar
+//the whole bottom bar
 .playing-bar {
+    font-family: "Myriad_Pro_Regular";
     background: $playing-bar-background-color;
     height: $playing-bar-height;
-    // background-color: #181818; 
     position: fixed;
     width: 100%;
     bottom: 0;
     z-index: 101;
 
     .player-controls {
-
-      margin-left: 10px;
+      padding-left: 25px;
 
       .play-button-wrapper {
-        
-              // width: 40px;
-              // padding: 5px;
-              margin: 0 5px 0 10px;
+              padding: 0 10px 0 10px;
               cursor: pointer;
-              // border-radius: 3px;
               outline: none;
-        
         
               .play-button {
                 height: $play-button-size;
@@ -42,7 +37,7 @@ $next-button-size: 30px;
                 .left {
                   height: 100%;
                   float: left;
-                  background-color: #fff;
+                  background-color: $playing-bar-main-color;
                   width: 36%;
                   -webkit-transition: all 0.25s ease;
                   transition: all 0.25s ease;
@@ -79,11 +74,10 @@ $next-button-size: 30px;
                   height: 100%;
                   float: right;
                   width: 36%;
-                  background-color: #fff;
+                  background-color: $playing-bar-main-color;
                   -webkit-transition: all 0.25s ease;
                   transition: all 0.25s ease;
                 }
-          
               }
         
               .paused {
@@ -100,7 +94,6 @@ $next-button-size: 30px;
                 }
               }
 
-
               &:hover {
                 .left, .right {
                   background-color: $playing-bar-hover-highlight-color;
@@ -110,17 +103,19 @@ $next-button-size: 30px;
               }
             }// play-button-wrapper
         
-        
             .next-button-wrapper {
-              margin: 0 10px 0 10px;
+              padding: 0 10px 0 10px;
               cursor: pointer;
               outline: none;
 
               .next-button {
                 width: $next-button-size;
                 height: $next-button-size;
-              }
 
+                svg {
+                  fill: $playing-bar-main-color;
+                }
+              }
 
               &:hover {
                 .next-button {
@@ -128,27 +123,56 @@ $next-button-size: 30px;
                     fill: $playing-bar-hover-highlight-color;
                   }
                 }
-
               }
-              
-        
-        
             }
-        
 
+            .song-img-container {
+              padding-right: 10px;
+      
+              .song-image {
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+              }
+            }
     }
 
     .player-bar-middle-area {
+      color: $playing-bar-main-color;
+      
+      .playing-now-song-name-wrapper {
+        font-size: 15px;
+        padding-top: 9px;
 
-      .song-img-wrapper {
+      }
 
-        .song-image {
-          border-radius: 50%;
-          width: 50px;
-          height: 50px;
+      .player-progress-bar-container {
+
+        margin-bottom: 5px;
+
+        .current-duration, .total-duration {
+          font-size: 14px;
+          min-width: 30px;
+        }
+  
+        .current-duration {
+          margin-right: 10px;
+        }
+  
+        .total-duration {
+          margin-left: 10px;
+        }
+  
+        .progress-bar-wrapper {
+  
         }
 
       }
+
+
+
+
+
 
     }
 

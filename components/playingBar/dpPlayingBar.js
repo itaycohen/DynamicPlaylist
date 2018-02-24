@@ -20,9 +20,254 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     $scope.logicService = dpSongsListLogic;
     $scope.playerService = dpPlayerService;
 
-    $scope.currentPlayerDuration = "0:00";
+    $scope.currentPlayerDurationText = "0:00";
+
+    $scope.data = {};
+    $scope.data.progressBarDuration = 0;
+    $scope.data.currentVolumeLevel = 100;
+
+    // $scope.data.currentVolumeLevel = dpPlayerService.getVolumeLevel();
+
+    $scope.currentVolumeLevel = dpPlayerService.getVolumeLevel();
+
+    // Watchers
     
+    $scope.$watch(
+        function () {
+            return dpPlayerService.getVolumeLevel();
+        },
+        function () {
+            $scope.data.currentVolumeLevel = dpPlayerService.getVolumeLevel();
+    });
+
+    $scope.$watch(
+        function () {
+            return dpPlayerService.isPlayerMuted();
+        },
+        function () {
+            if (dpPlayerService.isPlayerMuted()) {
+                setVolumeBarToMute();
+            } else if ($scope.data.currentVolumeLevel === 0) {
+                setVolumeBarToUnMute();
+            }
+    });
+
+    $interval(function () {
+        if (dpPlayerService.isPlayerEnabled()) {
+            $scope.currentPlayerDurationText = dpPlayerService.getPlayerCurrentDurationFormatted(); // the duration text
+            // $scope.data.progressBarDuration = dpPlayerService.getPlayerCurrentDuration(); // the progress bar duration
+            
+        }
+    }, 100);   
     
+
+    // IMPORTANT - WORKING!!!!! ALSO
+    // $scope.$watch(
+    //     function () {
+    //         return dpPlayerService.getPlayerCurrentDuration();
+    //     },
+    //     function () {
+            
+    //         $scope.data.progressBarDuration = dpPlayerService.getPlayerCurrentDuration();
+    //         $scope.currentPlayerDurationText = dpPlayerService.getPlayerCurrentDurationFormatted(); // the duration text
+    // });
+
+    var duringChange = false;
+    
+    $interval(function () {
+        if (dpPlayerService.isPlayerEnabled() && !duringChange) {
+            $scope.data.progressBarDuration = dpPlayerService.getPlayerCurrentDuration();  // the progress bar duration
+        }
+    }, 1000);   
+
+    $scope.getRawDuration = formattedDurationToRaw(dpSongsListLogic.getSongDurationByIndex(dpSongsListLogic.getCurrentPlayingSongIndex()));
+
+    $scope.onProgressBarChange = function () {
+        if (dpPlayerService.isPlayerEnabled()) {
+            duringChange = true;
+
+            dpPlayerService.onPauseSongClick();
+            dpPlayerService.playerSeekTo($scope.data.progressBarDuration);
+            dpPlayerService.onPlaySongClick();
+        }
+        
+        //  dpPlayerService.playerSeekTo(100);
+         
+        // alert("change");
+    }
+
+    $scope.onProgressBarChangeDown = function () {
+        if (dpPlayerService.isPlayerEnabled()) {
+            dpPlayerService.onPauseSongClick();
+            dpPlayerService.playerSeekTo($scope.data.progressBarDuration);
+            // dpPlayerService.onPlaySongClick();
+        }
+        
+        //  dpPlayerService.playerSeekTo(100);
+         
+        // alert("change");
+    }
+    
+
+    $scope.onProgressBarChangeUp = function () {
+        if (dpPlayerService.isPlayerEnabled()) {
+            // console.log($scope.data.progressBarDuration);
+            // dpPlayerService.onPauseSongClick();
+            // dpPlayerService.playerSeekTo($scope.data.progressBarDuration);
+            dpPlayerService.onPlaySongClick();
+            duringChange = false;
+        }
+        
+        //  dpPlayerService.playerSeekTo(100);
+         
+        // alert("change");
+    }
+
+    function onProgressBarChange2() {
+         dpPlayerService.playerSeekTo($scope.progressBarDuration);
+    }
+
+
+    $scope.onVolumeBarChange = function() {
+        // alert("hello");
+        
+        // alert("hello" + $scope.currentVolumeLevel);
+        
+        if ($scope.data.currentVolumeLevel === 0) {
+            dpPlayerService.mutePlayer();
+        } else if ($scope.isMuted()) {
+            dpPlayerService.unMutePlayer();
+        }
+        dpPlayerService.setVolumeLevel($scope.data.currentVolumeLevel);
+    };
+
+    function formattedDurationToRaw(formattedDuration) {
+        var splitDuration = formattedDuration.split(':');
+        var totalSeconds = (+splitDuration[0]) * 60 + (+splitDuration[1]); 
+        return totalSeconds;
+    }
+
+    $scope.getBarTemplateUrl = function () {
+        if (dpAppUtils.isDesktop()) {
+            //big view - row layout (not small as in mobile - row)
+            // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
+            return "components/playingBar/dpPlayingBarFixWideScreen.html";
+        }
+        return "components/playingBar/dpPlayingBarLongVerticalScreen.html";
+    };
+
+    $scope.onPlayPauseClick = function() {
+        if (dpPlayerService.isPlaying()) {// needs to stop
+            dpPlayerService.onPauseSongClick();
+        } else {// needs to play
+            dpPlayerService.onPlaySongClick();
+        }
+    };
+
+   // no playing -> the pause icon is shown
+    $scope.getPlayPauseStyle = function() {
+        return dpPlayerService.isPlaying() ? "" : "paused";
+    };
+
+    function getPlayerRef() {
+        return YT.get("player");
+    }
+
+    $scope.isMuted = function() {
+        return dpPlayerService.isPlayerMuted();
+    };
+
+    $scope.onSpeakerIconClick = function() {
+        if ($scope.isMuted()) {
+            dpPlayerService.unMutePlayer();
+            setVolumeBarToUnMute();
+        } else {
+            dpPlayerService.mutePlayer();
+            setVolumeBarToMute();
+        }
+    };
+
+    function setVolumeBarToMute() {
+        $scope.data.currentVolumeLevel = 0;
+    }
+
+    function setVolumeBarToUnMute() {
+        $scope.data.currentVolumeLevel = dpPlayerService.getVolumeLevel();
+    }
+
+
+
+    
+
+}
+
+
+
+// $scope.$watch(
+//     function () {
+//         if (typeof YT !== 'undefined' && typeof YT.get === "function") {
+//             var playerRef = getPlayerRef();
+//             // even if 'YT' was loaded, we need to check if 'loadVideoById' is available    
+//             if (typeof playerRef !== 'undefined' && typeof  playerRef.loadVideoById === "function") {
+//                 return true;
+//             } else {
+//                 return false;
+                
+//                 // setTimeout(function() {
+//                 //     $rootScope.$apply();
+//                 //   }, 2000);
+//             }
+//         } else {
+//             return false;
+//         }
+//     },
+//     function (ready) {
+//         if (ready) {
+//             console.log("ready");
+//             dpSongsListLogic.printTime("ready");
+//             //playing();
+//             // $scope.currentPlayerDurationText = dpPlayerService.getPlayerCurrentDuration();
+//         } else {
+//             console.log("not ready");
+//             dpSongsListLogic.printTime("not ready");
+            
+            
+//         }
+// }); 
+
+
+    // $rootScope.getCurrentPlayerDuration = function() {
+    //     // return "5";
+    //     setTimeout(function() {
+    //         if (dpPlayerService.isPlayerEnabled()) {
+    //             var a = dpPlayerService.getPlayerCurrentDuration();
+    //             return a;
+    //         } else {
+    //             return "";
+    //         }
+     //       }, 1000);
+
+    // };
+
+        // };
+
+
+
+
+    // $scope.$watch($scope.progressBarDuration, onProgressBarChange2);
+
+
+    // $scope.$watch(function () {
+    //     return $scope.progressBarDuration;
+    // }, function () {
+    //     console.log($scope.progressBarDuration);
+    //     dpPlayerService.playerSeekTo($scope.progressBarDuration);
+    // });
+
+
+///------------------------
+
+
     // $rootScope.$watch(function() {
     //     return YT;
     // }, function(newValue) {
@@ -132,122 +377,7 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     //     });
 
 
-
-        $scope.$watch(
-        function () {
-            if (typeof YT !== 'undefined' && typeof YT.get === "function") {
-                var playerRef = getPlayerRef();
-                // even if 'YT' was loaded, we need to check if 'loadVideoById' is available    
-                if (typeof playerRef !== 'undefined' && typeof  playerRef.loadVideoById === "function") {
-                    return true;
-                } else {
-                    return false;
-                    
-                    // setTimeout(function() {
-                    //     $rootScope.$apply();
-                    //   }, 2000);
-                }
-            } else {
-                return false;
-            }
-        },
-        function (ready) {
-            if (ready) {
-                console.log("ready");
-                dpSongsListLogic.printTime("ready");
-                //playing();
-                // $scope.currentPlayerDuration = dpPlayerService.getPlayerCurrentDuration();
-            } else {
-                console.log("not ready");
-                dpSongsListLogic.printTime("not ready");
-                
-                
-            }
-        });
-
-
-        function playing() {
-            $interval(function () {
-
-                    $scope.currentPlayerDuration = dpPlayerService.getPlayerCurrentDuration();
-
-
-
-
-    }, 1000);   
-
-
-
-        }
-
-
-        $interval(function () {
-            
-                                   //     if (dpPlayerService.isPlaying()) {
-            if (dpPlayerService.isPlayerEnabled()) {
-                $scope.currentPlayerDuration = dpPlayerService.getPlayerCurrentDuration();
-            }
-            
-            
-            
-            
-                }, 1000);   
-    
-
-
-    // setTimeout(function () {
-
-    //     if (dpPlayerService.isPlaying()) {
-    //         if (dpPlayerService.isPlayerEnabled()) {
-    //             $scope.currentPlayerDuration = dpPlayerService.getPlayerCurrentDuration();
-    //         }
-    //     }
-
-
-    // }, 1000);   
-
-    
-
-
-    $scope.getBarTemplateUrl = function () {
-        if (dpAppUtils.isDesktop()) {
-            //big view - row layout (not small as in mobile - row)
-            // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
-            return "components/playingBar/dpPlayingBarFixWideScreen.html";
-        }
-        return "components/playingBar/dpPlayingBarLongVerticalScreen.html";
-    };
-
-    $scope.onPlayPauseClick = function() {
-        if (dpPlayerService.isPlaying()) {// needs to stop
-            dpPlayerService.onPauseSongClick();
-        } else {// needs to play
-            dpPlayerService.onPlaySongClick();
-        }
-
-    };
-
-   // no playing -> the pause icon is shown
-    $scope.getPlayPauseStyle = function() {
-        return dpPlayerService.isPlaying() ? "" : "paused";
-    };
-
-    // $rootScope.getCurrentPlayerDuration = function() {
-    //     // return "5";
-    //     setTimeout(function() {
-    //         if (dpPlayerService.isPlayerEnabled()) {
-    //             var a = dpPlayerService.getPlayerCurrentDuration();
-    //             return a;
-    //         } else {
-    //             return "";
-    //         }
-     //       }, 1000);
-
-    // };
-
-
-
-    // $scope.getCurrentPlayerDuration = function() {
+        // $scope.getCurrentPlayerDuration = function() {
     //     return "6";
     //     setTimeout(function () {
             
@@ -269,17 +399,11 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
 
 
 
-    // };
 
-    function getPlayerRef() {
-        return YT.get("player");
-    }
 
-    // $rootScope.$watch(function() {
+
+        // $rootScope.$watch(function() {
     //     return dpPlayerService.isPlayerEnabled();
     // }, function() {
     //     console.log(dpPlayerService.isPlayerEnabled());
     // });
-    
-
-}

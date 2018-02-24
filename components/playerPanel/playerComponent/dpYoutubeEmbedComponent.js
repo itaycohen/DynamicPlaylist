@@ -176,7 +176,9 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, dpPlay
 		function handlePlayerEnded() {
 			// console.log("Youtube Player Event - handlePlayerEnded");
 			dpSongsListLogic.popSongIndexFromListAndUpdate(false);
-			loadNextSong();
+			var songId = dpSongsListLogic.getNextSongId();
+        	dpPlayerService.loadSongById(songId);
+			// loadNextSong();
 		}
 
 		function onPlaybackQualityChangeCB(playbackQuality) {

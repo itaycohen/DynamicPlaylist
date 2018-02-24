@@ -1,62 +1,85 @@
-<div class="playing-bar" layout="row">
-    <div class="player-controls" layout="row">
-        <div class="play-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && onPlayPauseClick()">
-            <div class="play-button"  ng-class="getPlayPauseStyle()">
-                <div class="left"></div>
-                <div class="right"></div>
-                <div class="triangle-1"></div>
-                <div class="triangle-2"></div>
+<div class="playing-bar text-no-select" layout="row" layout-align="space-between" >
+    <div class="player-controls" layout="row" flex="25">
+        <div class="player-controls-wrapper" layout="row" flex>
+            <div class="play-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && onPlayPauseClick()">
+                <div class="play-button"  ng-class="getPlayPauseStyle()">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                    <div class="triangle-1"></div>
+                    <div class="triangle-2"></div>
+                </div>
+            </div>
+            <div class="next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onNextSongClick()">
+                <!-- <img class="next-button" src="media/icons/ic_skip_next_white_36px.svg" /> -->
+                <div class="next-button" >
+                    <svg  height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+
+                </div>
             </div>
         </div>
-
-        <div class="next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onNextSongClick()">
-            <!-- <img class="next-button" src="media/icons/ic_skip_next_white_36px.svg" /> -->
-            <div class="next-button" >
-                <svg fill="#FFFFFF" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
-                    <path d="M0 0h24v24H0z" fill="none"/>
-                </svg>
-
+        <!-- The image is here in order to locate the progress bar excatly in the middle of the screen -->
+        <div class="song-img-wrapper" layout="row" layout-align="end" flex>
+            <div class="song-img-container" layout="column" layout-align="center">
+                    <img ng-src="{{logicService.getSongImgSrcByIndex(logicService.getCurrentPlayingSongIndex())}}" class="song-image" alt="image" /> 
             </div>
         </div>
+        
     </div>
-    <div class="player-bar-middle-area" layout="row">
-        <div class="song-img-wrapper" layout="column" layout-align="center">
-            <img ng-src="{{logicService.getSongImgSrcByIndex(logicService.getCurrentPlayingSongIndex())}}" class="song-image" alt="image" /> 
-        </div>
-        <div class="playing-now-area" layout="column" >
-            <div class="playing-now-song-name-wrapper" layout="row">
+    <div class="player-bar-middle-area" layout="column" layout-align="center space-between" flex="50">
+        <!-- <div class="playing-now-area" layout="column" flex> -->
+            <div class="playing-now-song-name-wrapper" layout="row" layout-align="center">
                 {{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}} - {{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}
             </div>
-            <div class="player-progress-bar" layout="row">
-                <!-- <div class="current-duration" ng-model="getCurrentPlayerDuration"> -->
-                <div class="current-duration" >
-                        <input ng-model="currentPlayerDuration">
+            <div class="player-progress-bar-container" layout="row" layout-align="space-between center">
+                <div class="current-duration" layout="row" layout-align="center center" flex>
+                        {{currentPlayerDurationText}}
+                </div>
+                <md-slider-container class="progress-bar-wrapper" layout="column" layout-align="center" flex="grow">
+                        <!-- <md-slider ng-model="progressBarDuration" min="0" max="{{getRawDuration}}" aria-label="duration" class="md-accent" md-range="" ng-change="onProgressBarChange()"></md-slider> -->
+                        <!-- <md-slider ng-model="data.progressBarDuration" min="0" max="{{getRawDuration}}" aria-label="duration" class="md-accent" ng-change="onProgressBarChange()"></md-slider> -->
+                        <md-slider ng-model="data.progressBarDuration" min="0" max="{{getRawDuration}}" aria-label="duration" class="md-accent progress-bar" ng-change="onProgressBarChangeDown()" ng-mouseup="onProgressBarChangeUp()"></md-slider>
                         
-                    <!-- {{getCurrentPlayerDuration()}} -->
-                </div>
-                <div class="progress-bar-wrapper">
-                        progress-bar-wrapper
-                </div>
-                <div class="total-duration">
+                        <!-- <md-slider ng-model="progressBarDuration" min="0" max="{{getRawDuration}}" aria-label="duration" class="md-accent" md-range="" ></md-slider> --> 
+                </md-slider-container>
+                <div class="total-duration" layout="row" layout-align="center center" flex>
                         {{getDuration(logicService.getCurrentPlayingSongIndex())}}
                 </div>
 
-                progress bar
             </div>
-        </div>
+        <!-- </div> -->
 
     </div>
     <!-- <div class="like-area">like</div> -->
-    <div class="volume-control" layout="row">
+    <div class="volume-control" layout="row" flex="25">
         <div class="vol-icon-wrapper">
-                vol-icon-wrapper
+                <!-- vol-icon-wrapper -->
         </div>
-        <div class="vol-slider-wrapper">
-
+        <!-- <div class="vol-slider-wrapper">
                 {{playerService.getVolumeLevel()}}
-                
+        </div> -->
+
+        <div ng-show="isMuted()" >
+            Mute
+            <!-- {{playerService.getVolumeLevel()}} -->
         </div>
+
+        <div ng-show="!isMuted()" >
+           Not Mute
+            <!-- {{playerService.getVolumeLevel()}} -->
+        </div>
+
+        <button ng-click="onSpeakerIconClick()" style="width: 10px;">
+                <!-- mute-toggle -->
+        </button>
+
+        <md-slider-container class="slider-container" style="width: 80px;">
+            <!-- <md-slider ng-model="data.currentVolumeLevel" min="0" max="100" aria-label="volume" class="md-accent" ng-change="onVolumeBarChange()" ng-mouseup="onProgressBarChangeUp()"></md-slider> -->
+            <md-slider ng-model="data.currentVolumeLevel" min="0" max="100" aria-label="volume" class="md-accent" ng-change="onVolumeBarChange()"></md-slider>
+            <!-- <md-slider ng-model="progressBarDuration" min="0" max="{{getRawDuration}}" aria-label="duration" class="md-accent" md-range="" ></md-slider> --> 
+        </md-slider-container>
         vol
     </div>
 </div>
