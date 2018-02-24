@@ -216,7 +216,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         if (urlVideoIdIndex === songDataByIndexOfUrl.i) {
             return [songDataByIndexOfUrl.g, songDataByIndexOfUrl.t];
         } else {
-            consolo.error("the index in the array of all songs is not the same as in the song data");
+            console.error("the index in the array of all songs is not the same as in the song data");
             for (var i; i < songList.length; i++) {
                 var currentSongData = songList[i];
                 if (currentSongData.id === urlVideoId) {

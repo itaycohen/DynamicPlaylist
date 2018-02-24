@@ -20,3 +20,8 @@
 .genre-text {
     color: red !important;
 }
+
+
+md-slider-container md-input-container input[type=number] {
+    padding-left: 0;
+}
