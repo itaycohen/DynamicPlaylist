@@ -609,8 +609,7 @@ body {
 .player-wrapper-horizontal {
   margin-left: 12px; }
   .player-wrapper-horizontal .youtube-embed-container {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px; }
+    border-radius: 12px; }
   .player-wrapper-horizontal .current-playing-bar {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px; }
