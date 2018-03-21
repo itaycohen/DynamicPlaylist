@@ -10,7 +10,7 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpGenreWidgetComponent',
     'dpTagSwitcherComponent',
     'dpDynamicPlaylist',
-    'dpPlayingBar'
+    'dpPlayingBar' 
 ]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', 'dpPlayerService', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic, dpPlayerService) {
