@@ -16,11 +16,11 @@
     }
 
     .main-title {
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .sub-title {
-        font-size: 21px;
+        font-size: 20px;
     }
     .song-item {
         .song-number {
@@ -28,12 +28,12 @@
             color: #998d9f;
         }
         .song-number-big {
-            font-size: 20px;
+            font-size: 19x;
             padding-right: 20px;
             padding-left: 10px;
         }
         .song-number-small {
-            font-size: 20px;
+            font-size: 19px;
             padding-right: 14px;
             padding-left: 2px;
         }
@@ -51,22 +51,22 @@
 
 
         .full-song-name-big {
-            font-size: 18px;
+            font-size: 17px;
             .song-name {
                 letter-spacing: 1px;
-                font-size: 17px;
+                font-size: 16px;
             }
             .artist-name {
                 letter-spacing: 1px;
-                font-size: 15px;
+                font-size: 14px;
             }
         }
         .full-song-name-small {
             .song-name {
-                font-size: 14.5px;
+                font-size: 14px;
             }
             .artist-name {
-                font-size: 13.5px;
+                font-size: 13px; 
             }
         }
 
@@ -76,24 +76,24 @@
         }
 
         .song-duration-big {
-            font-size: 17px;
+            font-size: 16px;
         }
 
         .song-duration-big-playing {
-            font-size: 19px;
+            font-size: 18px;
             margin-top: 36px;
-            margin-right: 17px;
+            margin-right: 16px;
 
         }
 
         .song-duration-small {
             margin-right: 0px; 
             
-            font-size: 13px;
+            font-size: 12px;
         }
 
         .song-duration-small-playing {
-            font-size: 14px;
+            font-size: 13px;
             margin-top: 36px;
             margin-right: 1px;
 
@@ -157,7 +157,7 @@
 
         .song-image-small-play {
             width: 65px;
-            height:65px;
+            height: 65px;
             
         }
 

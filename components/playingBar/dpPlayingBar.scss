@@ -1,0 +1,434 @@
+$playing-bar-background-color: #282828;
+$playing-bar-height: 60px;
+$playing-bar-hover-highlight-color: #42f1f8;
+$play-button-size-big: 28px; 
+$next-button-size-big: 30px; 
+$play-button-size-small: 20px; 
+$next-button-size-small: 38px; 
+$playing-bar-main-color: #ebe8ec;
+
+//the whole bottom bar
+.playing-bar {
+    font-family: "Myriad_Pro_Regular";
+    background: $playing-bar-background-color;
+    height: $playing-bar-height;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 101;
+
+    // BIG SECTION
+
+    // first section - big (1/3)
+    .player-controls-area-big { 
+      padding-left: 25px;
+
+      .play-button-wrapper {
+        padding: 0 10px 0 10px;
+        cursor: pointer;
+        outline: none;
+        
+        .play-button {
+          height: $play-button-size-big;
+          width: $play-button-size-big;
+          display: block;
+          margin: 5px;
+          overflow: hidden;
+          position: relative;
+          outline: none;
+    
+          .left {
+            height: 100%;
+            float: left;
+            background-color: $playing-bar-main-color;
+            width: 36%;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+            overflow: hidden;
+          }
+    
+          .triangle-1 {
+            -webkit-transform: translate(0, -100%);
+                    transform: translate(0, -100%);
+          }
+          .triangle-2 {
+            -webkit-transform: translate(0, 100%);
+                    transform: translate(0, 100%);
+          }
+    
+          .triangle-1,
+          .triangle-2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: transparent;
+            width: 0;
+            height: 0;
+            border-right: $play-button-size-big solid $playing-bar-background-color;
+            border-top: $play-button-size-big/2 solid transparent;
+            border-bottom: $play-button-size-big/2 solid transparent;
+            -webkit-transition: -webkit-transform 0.25s ease;
+            transition: -webkit-transform 0.25s ease;
+            transition: transform 0.25s ease;
+            transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+          }
+    
+          .right {
+            height: 100%;
+            float: right;
+            width: 36%;
+            background-color: $playing-bar-main-color;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+          }
+        }
+  
+        .paused {
+          .left, .right {
+            width: 50%;
+          }
+          .triangle-1 {
+            -webkit-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+          }
+          .triangle-2 {
+            -webkit-transform: translate(0, 50%);
+                    transform: translate(0, 50%);
+          }
+        }
+
+        &:hover {
+          .left, .right {
+            background-color: $playing-bar-hover-highlight-color;
+          }
+        }
+      }// play-button-wrapper
+        
+      .next-button-wrapper {
+        padding: 0 10px 0 10px;
+        cursor: pointer;
+        outline: none;
+
+        .next-button {
+          width: $next-button-size-big;
+          height: $next-button-size-big;
+
+          svg {
+            fill: $playing-bar-main-color;
+          }
+        }
+
+        &:hover {
+          .next-button {
+            svg {
+              fill: $playing-bar-hover-highlight-color;
+            }
+          }
+        }
+      }
+
+      .song-img-container-big {
+        padding-right: 10px;
+
+        .song-image-big-bar {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+
+    // second section - big (2/3)
+    .player-bar-middle-area {
+      color: $playing-bar-main-color;
+      
+      .playing-now-song-name-wrapper {
+        position: relative;
+        top: 10px;
+        font-size: 14px;
+      }
+
+      .player-progress-bar-container {
+        margin-bottom: 5px;
+
+        .current-duration, .total-duration {
+          font-size: 14px;
+          min-width: 30px;
+        }
+  
+        .current-duration {
+          margin-right: 10px;
+        }
+  
+        .total-duration {
+          margin-left: 10px;
+        }
+
+        .progress-bar-wrapper {
+          cursor: pointer;
+        }
+      }
+    }
+
+    // third section - big (3/3)
+    .volume-control {
+      padding-right: 40px;
+
+      .speaker-icon-container {
+        cursor: pointer;
+        outline: none;
+        width: 30px;
+        height: 30px;
+
+        svg {
+          padding: 3px 4px 4px 4px;
+          fill: rgba(255, 255, 255, 0.8);
+        }
+
+        &:hover {
+          svg {
+            fill: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+
+      .volume-control-slider {
+        height: 20px;
+        cursor: pointer;
+
+        md-slider {
+          min-width: 100px;
+        }
+      }
+    }
+
+
+    // SMALL SECTION
+
+    // first section - small (1/2)
+    .song-details-area {
+
+      .song-img-container-small {
+        padding-left: 10px;
+
+        .song-image-small-bar {
+          border-radius: 50%;
+          width: 45px;
+          height: 45px;
+        }
+      }
+
+      .song-full-name {
+        padding-left: 10px;
+        padding-top: 3px;
+        font-size: 14px;
+        color: #ebe8ec;
+
+        .song-name {
+          color: rgba(255, 255, 255, 0.95);
+          // max-width: 200px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          
+        } 
+
+        .artist-name {
+          color: rgba(255, 255, 255, 0.83);
+          max-width: 200px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+    }
+
+    // second section - small (2/2)
+    .player-controls-area-small {
+
+      .play-button-wrapper {
+        padding: 15px 10px 15px 10px;
+        cursor: pointer;
+        outline: none;
+  
+        .play-button {
+          height: $play-button-size-small;
+          width: $play-button-size-small;
+          display: block;
+          margin: 5px;
+          overflow: hidden;
+          position: relative;
+          outline: none;
+    
+          .left {
+            height: 100%;
+            float: left;
+            background-color: $playing-bar-main-color;
+            width: 36%;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+            overflow: hidden;
+          }
+    
+          .triangle-1 {
+            -webkit-transform: translate(0, -100%);
+                    transform: translate(0, -100%);
+          }
+          .triangle-2 {
+            -webkit-transform: translate(0, 100%);
+                    transform: translate(0, 100%);
+          }
+    
+
+          // can't (currently) remove to one style for big and small style
+          .triangle-1,
+          .triangle-2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: transparent;
+            width: 0;
+            height: 0;
+            border-right: $play-button-size-small solid $playing-bar-background-color;
+            border-top: $play-button-size-small/2 solid transparent;
+            border-bottom: $play-button-size-small/2 solid transparent;
+            -webkit-transition: -webkit-transform 0.25s ease;
+            transition: -webkit-transform 0.25s ease;
+            transition: transform 0.25s ease;
+            transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+          }
+    
+          .right {
+            height: 100%;
+            float: right;
+            width: 36%;
+            background-color: $playing-bar-main-color;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+          }
+        }
+
+        .paused {
+          .left, .right {
+            width: 50%;
+          }
+          .triangle-1 {
+            -webkit-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+          }
+          .triangle-2 {
+            -webkit-transform: translate(0, 50%);
+                    transform: translate(0, 50%);
+          }
+        }
+
+        &:hover {
+          .left, .right {
+            background-color: $playing-bar-hover-highlight-color;
+          }
+        }
+      }// play-button-wrapper
+        
+      .next-button-wrapper {
+        padding: 11px 12px 11px 7px;
+        cursor: pointer;
+        outline: none;
+
+        .next-button {
+          width: $next-button-size-small;
+          height: $next-button-size-small;
+
+          svg {
+            height: $next-button-size-small;
+            width: $next-button-size-small;
+            fill: $playing-bar-main-color;
+          }
+        }
+
+        &:hover {
+          .next-button {
+            svg {
+              fill: $playing-bar-hover-highlight-color;
+            }
+          }
+        }
+      }
+
+    }
+
+    .playing-bar-slider-style {
+      md-slider {
+        .md-track {
+          background-color: rgba(255, 255, 255, 0.25);
+        }
+
+        .md-track-fill {
+          background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .md-thumb::after {
+            border-color: #13E3ED;
+            background-color: #13E3ED;
+        }
+      }
+
+      &:hover {
+        md-slider {
+          .md-track-fill {
+            background-color: #13E3ED;
+          }
+        }
+      }
+    }
+
+
+    // removing the thumb from slider
+    .no-thumb-slider {
+      md-slider { 
+        .md-thumb {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+          -webkit-transition: transform .15s cubic-bezier(1,0,.7,1);
+          transition: transform .15s cubic-bezier(1,0,.7,1);
+        }
+
+        .md-sign, .md-focus-thumb, .md-focus-ring { 
+          display: none;
+        }
+      }
+
+      &:hover {
+        md-slider {
+          .md-slider-wrapper {
+            .md-thumb {
+              -webkit-transform: scale(.7);
+              transform: scale(0.7);
+              -webkit-transition: transform .15s cubic-bezier(.3,0,0,1);
+              transition: transform .15s cubic-bezier(.3,0,0,1);
+            }
+          }
+        }
+      }
+
+      // disable the return of the thum after active
+      md-slider:not([md-discrete]):not([disabled]) .md-slider-wrapper.md-focused .md-thumb {
+        -webkit-animation: none;
+        animation: none;
+      }
+    }
+}
+
+
+// special case for ff 
+.playing-bar {
+  .player-bar-middle-area {
+    @-moz-document url-prefix() {
+      .playing-now-song-name-wrapper {
+        top: 14px;
+      }
+    } 
+  } 
+}
+      
+

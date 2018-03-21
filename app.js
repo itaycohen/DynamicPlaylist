@@ -4,17 +4,24 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpSongsListLoaderService',
     'dpSongsListUtils',
     'dpSongsListLogic',
+    'dpPlayerService',
     'dpYoutubeEmbedComponent',
     'dpGenreWidgetManagerComponent',
     'dpGenreWidgetComponent',
     'dpTagSwitcherComponent',
-    'dpDynamicPlaylist'
+    'dpDynamicPlaylist',
+    'dpPlayingBar'
 ]);
 
-app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic) {
+app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', 'dpPlayerService', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic, dpPlayerService) {
+
+
+    
+    // init the player state - pause
+    dpPlayerService.initPlayerService();
 
     $rootScope.rawSongsList = dpSongsListLoaderService.getTempSongsList();
-    
+
     dpSongsListLogic.initUrlParams();
 
     dpSongsListLogic.initUserData();
@@ -53,7 +60,7 @@ function appController($scope, $mdMedia, $mdDialog, dpAppUtils) {
         if (dpAppUtils.isDesktop()) {
             return "main-view-big layout-row";
         } else {
-            return "layout-sm-column";
+            return "main-view-small layout-sm-column";
         }
     };
 
