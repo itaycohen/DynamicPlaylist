@@ -6,13 +6,10 @@ dpPlayerService.$inject = ["$rootScope", "$mdMedia", "dpSongsListLogic"];
 
 function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
     
-
     var service = {
-        // watchers
         isPlaying: isPlaying,
         isPlayerEnabled: isPlayerEnabled,
         isPlayerMuted : isPlayerMuted,
-        // functions
         initPlayerService: initPlayerService,
         setPlay: setPlay,
         setPause: setPause,
@@ -24,7 +21,7 @@ function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
         getPlayerCurrentDurationFormatted : getPlayerCurrentDurationFormatted,
         getVolumeLevel : getVolumeLevel,
         setVolumeLevel : setVolumeLevel,
-        mutePlayer, mutePlayer,
+        mutePlayer: mutePlayer,
         unMutePlayer : unMutePlayer,
         playerSeekTo : playerSeekTo
     };
@@ -76,7 +73,7 @@ function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
         if (typeof YT !== 'undefined' && typeof YT.get === "function") {
             var playerRef = getPlayerRef();
             // even if 'YT' was loaded, we need to check if 'loadVideoById' is available    
-            if (typeof playerRef !== 'undefined' && typeof  playerRef.loadVideoById === "function") {
+            if (typeof playerRef !== 'undefined' && typeof playerRef.loadVideoById === "function") {
                 return true;
             }
         }
