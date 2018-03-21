@@ -1,6 +1,6 @@
 <div flex layout="column">
     <div class="playlist-wrapper playlist-wrapper-vertical text-no-select">
-        <div class="playlist-title main-title"> Now Playing </div>
+        <!-- <div class="playlist-title main-title"> Now Playing </div>
         <md-list-item class="md-2-line item-list song-item now-playing-song" layout="row">
             <img ng-src="{{getSongImgSrc(logicService.getCurrentPlayingSongIndex())}}" class="md-avatar song-image-small song-image-small-play" alt="image" />
             <div class="md-list-item-text full-song-name">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <p class="md-avatar song-duration song-duration-small-playing" ng-show="!playerService.isPlaying()">{{getSongDuration(logicService.getCurrentPlayingSongIndex())}}</p>
-        </md-list-item>
+        </md-list-item> -->
 
         <div class="playlist-title sub-title"> Up Next </div>
         <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="playerService.isPlayerEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"

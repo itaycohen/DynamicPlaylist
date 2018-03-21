@@ -29,8 +29,8 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	scriptTag.onreadystatechange = function () {
 		var time0 = new Date();
 		var mili0 = time0.getMilliseconds();
-		console.log("onreadystatechange was loaded, time: " + time0);
-		console.log("onreadystatechange was loaded, mili: " + mili0);
+		// console.log("onreadystatechange was loaded, time: " + time0);
+		// console.log("onreadystatechange was loaded, mili: " + mili0);
 		if (this.readyState == 'complete')
 			onScriptLoad();
 	};
@@ -38,7 +38,7 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	var s = $document[0].getElementsByTagName('body')[0];
 
 	var time1 = new Date();
-	console.log("component: appendChild, time: " + time1.getSeconds() + ":" + time1.getMilliseconds());
+	// console.log("component: appendChild, time: " + time1.getSeconds() + ":" + time1.getMilliseconds());
 	s.appendChild(scriptTag);
 
 	function applyServiceIsReady() {
