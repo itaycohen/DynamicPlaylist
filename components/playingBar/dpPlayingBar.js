@@ -75,8 +75,10 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     //         $scope.currentPlayerDurationText = dpPlayerService.getPlayerCurrentDurationFormatted(); // the duration text
     // });
 
+    $scope.getRawDurationByIndex = function(index) {
+        return formattedDurationToRaw(dpSongsListLogic.getSongDurationByIndex(index));
+    };
 
-    $scope.getRawDuration = formattedDurationToRaw(dpSongsListLogic.getSongDurationByIndex(dpSongsListLogic.getCurrentPlayingSongIndex()));
 
     // pressing on progress bar
     $scope.onProgressBarChangeDown = function () {

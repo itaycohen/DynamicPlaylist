@@ -36,7 +36,7 @@
                     {{currentPlayerDurationText}}
             </div>
             <md-slider-container class="progress-bar-wrapper playing-bar-slider-style no-thumb-slider" layout="column" layout-align="center" flex="grow">
-                <md-slider id="progress-bar" ng-model="data.progressBarDuration" min="0" max="{{getRawDuration}}" aria-label="duration" class="md-accent progress-bar" ng-change="onProgressBarChangeDown()" ng-mouseup="onProgressBarChangeUp()"></md-slider>
+                <md-slider id="progress-bar" ng-model="data.progressBarDuration" min="0" max="{{getRawDurationByIndex(logicService.getCurrentPlayingSongIndex())}}" aria-label="duration" class="md-accent progress-bar" ng-change="onProgressBarChangeDown()" ng-mouseup="onProgressBarChangeUp()"></md-slider>
             </md-slider-container>
             <div class="total-duration" layout="row" layout-align="center center" flex>
                 {{getSongDuration(logicService.getCurrentPlayingSongIndex())}}
