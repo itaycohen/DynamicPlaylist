@@ -70,7 +70,6 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, d
         return dpSongsListLogic.getSongImgSrcByIndex(songIndex);
     };   
     
-    $rootScope.getDuration = function(songIndex) {
     $rootScope.getSongDuration = function(songIndex) {
         return dpSongsListLogic.getSongDurationByIndex(songIndex);
     };
