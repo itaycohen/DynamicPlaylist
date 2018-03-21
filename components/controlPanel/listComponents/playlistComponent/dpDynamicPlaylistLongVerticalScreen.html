@@ -16,7 +16,7 @@
                     <div class="bar"></div>
                 </div>
             </div>
-            <p class="md-avatar song-duration song-duration-small-playing" ng-show="!playerService.isPlaying()">{{getDuration(logicService.getCurrentPlayingSongIndex())}}</p>
+            <p class="md-avatar song-duration song-duration-small-playing" ng-show="!playerService.isPlaying()">{{getSongDuration(logicService.getCurrentPlayingSongIndex())}}</p>
         </md-list-item>
 
         <div class="playlist-title sub-title"> Up Next </div>
@@ -30,7 +30,7 @@
                 <p class="song-name">{{logicService.getSongNameByIndex(songIndex)}}</p>
                 <p class="artist-name"> {{logicService.getSongArtistByIndex(songIndex)}}</p>
             </div>
-            <p class="md-avatar song-duration song-duration-small">{{getDuration(songIndex)}}</p>
+            <p class="md-avatar song-duration song-duration-small">{{getSongDuration(songIndex)}}</p>
         </md-list-item>
         <md-list-item class="md-2-line item-list">
             <div class="md-list-item-text" layout="row" layout-align="center">

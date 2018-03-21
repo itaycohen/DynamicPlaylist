@@ -15,8 +15,6 @@ function dpPlayingBar() {
 dpPlayingBarController.$inject = ['$scope', 'dpSongsListLogic', 'dpAppUtils', 'dpPlayerService', 'dpYoutubeEmbedService', '$window', '$timeout', '$interval'];
 function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerService, dpYoutubeEmbedService, $window, $timeout, $interval) {
 
-    dpSongsListLogic.printTime("dpPlayingBarController");
-
     $scope.logicService = dpSongsListLogic;
     $scope.playerService = dpPlayerService;
 
@@ -26,12 +24,9 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     $scope.data.progressBarDuration = 0;
     $scope.data.currentVolumeLevel = 100;
 
-    // $scope.data.currentVolumeLevel = dpPlayerService.getVolumeLevel();
-
     $scope.currentVolumeLevel = dpPlayerService.getVolumeLevel();
 
     // Watchers
-    
     $scope.$watch(
         function () {
             return dpPlayerService.getVolumeLevel();
@@ -52,14 +47,22 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
             }
     });
 
+
+    // changing the progress bar duration time (text)
     $interval(function () {
         if (dpPlayerService.isPlayerEnabled()) {
             $scope.currentPlayerDurationText = dpPlayerService.getPlayerCurrentDurationFormatted(); // the duration text
-            // $scope.data.progressBarDuration = dpPlayerService.getPlayerCurrentDuration(); // the progress bar duration
-            
         }
     }, 100);   
     
+
+    // changing the progress bar duration (visual)
+    var duringChange = false;
+    $interval(function () {
+        if (dpPlayerService.isPlayerEnabled() && !duringChange) {
+            $scope.data.progressBarDuration = dpPlayerService.getPlayerCurrentDuration();  // the progress bar duration
+        }
+    }, 1000);   
 
     // IMPORTANT - WORKING!!!!! ALSO
     // $scope.$watch(
@@ -72,66 +75,31 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     //         $scope.currentPlayerDurationText = dpPlayerService.getPlayerCurrentDurationFormatted(); // the duration text
     // });
 
-    var duringChange = false;
-    
-    $interval(function () {
-        if (dpPlayerService.isPlayerEnabled() && !duringChange) {
-            $scope.data.progressBarDuration = dpPlayerService.getPlayerCurrentDuration();  // the progress bar duration
-        }
-    }, 1000);   
 
     $scope.getRawDuration = formattedDurationToRaw(dpSongsListLogic.getSongDurationByIndex(dpSongsListLogic.getCurrentPlayingSongIndex()));
 
-    $scope.onProgressBarChange = function () {
-        if (dpPlayerService.isPlayerEnabled()) {
-            duringChange = true;
-
-            dpPlayerService.onPauseSongClick();
-            dpPlayerService.playerSeekTo($scope.data.progressBarDuration);
-            dpPlayerService.onPlaySongClick();
-        }
-        
-        //  dpPlayerService.playerSeekTo(100);
-         
-        // alert("change");
-    }
-
+    // pressing on progress bar
     $scope.onProgressBarChangeDown = function () {
+        //removine md-active class so we will not see the 'thumb' on the slider
+        removeActiveClass("progress-bar")
         if (dpPlayerService.isPlayerEnabled()) {
             dpPlayerService.onPauseSongClick();
             dpPlayerService.playerSeekTo($scope.data.progressBarDuration);
-            // dpPlayerService.onPlaySongClick();
         }
-        
-        //  dpPlayerService.playerSeekTo(100);
-         
-        // alert("change");
     }
     
 
+    // release progress bar press
     $scope.onProgressBarChangeUp = function () {
         if (dpPlayerService.isPlayerEnabled()) {
-            // console.log($scope.data.progressBarDuration);
-            // dpPlayerService.onPauseSongClick();
-            // dpPlayerService.playerSeekTo($scope.data.progressBarDuration);
             dpPlayerService.onPlaySongClick();
             duringChange = false;
         }
-        
-        //  dpPlayerService.playerSeekTo(100);
-         
-        // alert("change");
     }
-
-    function onProgressBarChange2() {
-         dpPlayerService.playerSeekTo($scope.progressBarDuration);
-    }
-
 
     $scope.onVolumeBarChange = function() {
-        // alert("hello");
-        
-        // alert("hello" + $scope.currentVolumeLevel);
+        //removine md-active class so we will not see the 'thumb' on the slider
+        removeActiveClass("volume-slider");
         
         if ($scope.data.currentVolumeLevel === 0) {
             dpPlayerService.mutePlayer();
@@ -141,6 +109,11 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
         dpPlayerService.setVolumeLevel($scope.data.currentVolumeLevel);
     };
 
+
+    function removeActiveClass(className) {
+        document.getElementById(className).classList.remove("md-active");
+    }
+    
     function formattedDurationToRaw(formattedDuration) {
         var splitDuration = formattedDuration.split(':');
         var totalSeconds = (+splitDuration[0]) * 60 + (+splitDuration[1]); 
@@ -195,9 +168,15 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
         $scope.data.currentVolumeLevel = dpPlayerService.getVolumeLevel();
     }
 
-
-
-    
+    $scope.getNameMaxWidth = function () {
+        // remove the width of the other elements in the control bar, sum of: 
+        // play & next - 107
+        // workart - 55
+        // song name - 10
+        var maxWidth = window.innerWidth - 172;
+        maxWidth = maxWidth + "px";
+        return {"max-width": maxWidth};
+    }
 
 }
 
@@ -254,7 +233,6 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
 
 
 
-    // $scope.$watch($scope.progressBarDuration, onProgressBarChange2);
 
 
     // $scope.$watch(function () {
@@ -396,10 +374,6 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     //     // return dpPlayerService.getPlayerCurrentDuration() || "0:00";
         
     // };
-
-
-
-
 
 
         // $rootScope.$watch(function() {

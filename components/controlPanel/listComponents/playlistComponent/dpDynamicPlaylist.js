@@ -71,9 +71,8 @@ function dpDynamicPlaylistController($rootScope, dpSongsListLogic, dpAppUtils, d
     };   
     
     $rootScope.getDuration = function(songIndex) {
+    $rootScope.getSongDuration = function(songIndex) {
         return dpSongsListLogic.getSongDurationByIndex(songIndex);
     };
     
-    
-
 }

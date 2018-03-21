@@ -59,7 +59,7 @@ function dpYoutubeEmbedService($document, $q, $rootScope, $window) {
 	}
 
 	function getYoutubeEmbed() {
-		dpSongsListLogic.printTime("getYoutubeEmbed");
+		// dpSongsListLogic.printTime("getYoutubeEmbed");
 		return defer.promise;
 	}
 
@@ -103,7 +103,7 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, dpPlay
 			});
 
 		function loadYoutubeEmbed() {
-			dpSongsListLogic.printTime("loadYoutubeEmbed");
+			// dpSongsListLogic.printTime("loadYoutubeEmbed");
 			$scope.player = new YT.Player('player', {
 				playerVars: {
 					'autoplay': 0,

@@ -16,7 +16,6 @@ var app = angular.module('dynamicPlaylistApp', [
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', 'dpPlayerService', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic, dpPlayerService) {
 
 
-    dpSongsListLogic.printTime("app.run");
     
     // init the player state - pause
     dpPlayerService.initPlayerService();

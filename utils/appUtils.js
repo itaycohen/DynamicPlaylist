@@ -8,11 +8,17 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     //  debugger; 
 
-    $http.get("data/songs/tagging.1/songsShrinkTagging.json")
+    // var RAW_SONGS_FILE_PATH = "data/songs/tagging.1/songsRawTagging.json";
+    var RAW_SONGS_FILE_PATH = "data/NewSongs/10000Songs.json";
+    
+    var SHRINK_SONGS_FILE_PATH = "data/songs/tagging.1/songsShrinkTagging.json";
+    
+
+    $http.get(SHRINK_SONGS_FILE_PATH)
         .then(function (response) {
             $rootScope.songsShrink = response.data;
 
-            $http.get("data/songs/tagging.1/songsRawTagging.json")
+            $http.get(RAW_SONGS_FILE_PATH)
                 .then(function (response) {
                     $rootScope.songsRaw = response.data;
                     validateSongLists();
