@@ -24758,5 +24758,1605 @@
             "hit": true,
             "trending": false
         }
+    },
+    {
+        "index": 619,
+        "id": "sGIm0-dQd8M",
+        "details": {
+            "artist": "Daddy Yankee",
+            "songName": "Dura"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/2f/69/9f/2f699fde-fab6-0550-c2e1-3af3874fa66c/source/100x100bb.jpg",
+            "duration": "3:38"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 620,
+        "id": "_I_D_8Z4sJE",
+        "details": {
+            "artist": "Nicky Jam & J Balvin",
+            "songName": "X"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/ac/c3/c1/acc3c1fa-7192-791d-e366-2d9c090450fa/source/100x100bb.jpg",
+            "duration": "3:12"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 621,
+        "id": "JyqD_zfXfi8",
+        "details": {
+            "artist": "Reik",
+            "songName": "Me Niego (feat. Ozuna & Wisin)"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/a5/ef/8a/a5ef8a33-e482-884c-1b59-9f53e6ed5864/source/100x100bb.jpg",
+            "duration": "5:26"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 622,
+        "id": "GmHrjFIWl6U",
+        "details": {
+            "artist": "Maluma",
+            "songName": "Corazón (feat. Nego do Borel)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/16/87/2e/16872ed1-289e-56d1-4e60-39ce4939a687/source/100x100bb.jpg",
+            "duration": "3:35"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 3,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 623,
+        "id": "y7d9VLRO3vc",
+        "details": {
+            "artist": "Piso 21",
+            "songName": "Déjala Que Vuelva (feat. Manuel Turizo)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/81/de/2b/81de2b80-568b-4693-d41e-6d9acbe8743d/source/100x100bb.jpg",
+            "duration": "3:55"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 624,
+        "id": "-BQJo3vK8O8",
+        "details": {
+            "artist": "Maluma",
+            "songName": "El Préstamo"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music128/v4/cb/92/6b/cb926bfd-ea0d-5bb0-bdb2-94f4b36f2093/source/100x100bb.jpg",
+            "duration": "4:52"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 3,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 625,
+        "id": "Dvpd9_5vuks",
+        "details": {
+            "artist": "Ozuna",
+            "songName": "Síguelo Bailando"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/ca/88/0d/ca880d63-6e36-c951-fc3a-e7430fa90ec6/source/100x100bb.jpg",
+            "duration": "4:28"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 626,
+        "id": "VqEbCxg2bNI",
+        "details": {
+            "artist": "Natti Natasha & Ozuna",
+            "songName": "Criminal"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/88/6f/13/886f137e-6e9b-19e6-df57-d0f068ec5157/source/100x100bb.jpg",
+            "duration": "4:34"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 627,
+        "id": "gu9_m0vm7fM",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "EL BAÑO (feat. Bad Bunny)"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/41/85/c2/4185c2c5-babb-6aca-e9a7-228bf5d49374/source/100x100bb.jpg",
+            "duration": "4:13"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 628,
+        "id": "8q1NFlE17qs",
+        "details": {
+            "artist": "Karol G",
+            "songName": "Pineapple"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music62/v4/da/c5/08/dac508d6-e7a7-5926-1d40-60f4e214b46e/source/100x100bb.jpg",
+            "duration": "3:14"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 3,
+            "Reggaeton": 3,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 629,
+        "id": "EedPfUeBf2A",
+        "details": {
+            "artist": "Greeicy",
+            "songName": "Más Fuerte"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music128/v4/74/12/76/741276f0-6bdb-34d4-e2ad-b4ffb2afa92a/source/100x100bb.jpg",
+            "duration": "3:18"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 630,
+        "id": "Mtau4v6foHA",
+        "details": {
+            "artist": "Carlos Vives & Sebastian Yatra",
+            "songName": "Robarte un Beso"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music118/v4/c1/a2/e8/c1a2e846-2314-d349-13f1-3c8fddcfc6aa/source/100x100bb.jpg",
+            "duration": "3:18"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 631,
+        "id": "GMFewiplIbw",
+        "details": {
+            "artist": "Becky G. & Bad Bunny",
+            "songName": "Mayores"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/e2/9c/5b/e29c5b5a-bf21-bd3d-eee5-cdd167fb60cb/source/100x100bb.jpg",
+            "duration": "3:32"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 632,
+        "id": "BQ31l1gPGKM",
+        "details": {
+            "artist": "J Balvin",
+            "songName": "Ahora"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/01/3b/87/013b87a7-470d-3947-c242-28b76bf179c9/source/100x100bb.jpg",
+            "duration": "4:08"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 633,
+        "id": "VTzD0jNdrmo",
+        "details": {
+            "artist": "RKM & Ken-Y & Natti Natasha",
+            "songName": "Tonta"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/b3/be/b8/b3beb8c4-bbf8-5d67-80da-c866f5c7ef13/source/100x100bb.jpg",
+            "duration": "5:32"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 634,
+        "id": "kQKGI24aydk",
+        "details": {
+            "artist": "Danny Ocean",
+            "songName": "Dembow"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/85/2f/57/852f57e6-d5c5-be00-6b84-3b6028037494/source/100x100bb.jpg",
+            "duration": "3:35"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 635,
+        "id": "zkOU-IBGsR0",
+        "details": {
+            "artist": "Ozuna",
+            "songName": "Quiero Repetir (feat. J Balvin)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/ca/88/0d/ca880d63-6e36-c951-fc3a-e7430fa90ec6/source/100x100bb.jpg",
+            "duration": "3:21"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 636,
+        "id": "cpN78ZjnCZY",
+        "details": {
+            "artist": "Silvestre Dangond & Nicky Jam",
+            "songName": "Cásate Conmigo"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/f6/2d/46/f62d46e2-5741-a938-59ff-8a28cf8e98ea/source/100x100bb.jpg",
+            "duration": "4:18"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 637,
+        "id": "wlS6Ix7mA0w",
+        "details": {
+            "artist": "Anitta & J Balvin",
+            "songName": "Downtown"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/be/5c/22/be5c2228-4d23-44a5-6c81-af8deb8edaf5/source/100x100bb.jpg",
+            "duration": "3:20"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 2,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 638,
+        "id": "OHELU6I10wQ",
+        "details": {
+            "artist": "CNCO",
+            "songName": "Mamita"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/52/6c/0e/526c0eaf-e874-0342-b7c2-63f07b3b70aa/source/100x100bb.jpg",
+            "duration": "3:28"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 639,
+        "id": "KWGrPNqz4uc",
+        "details": {
+            "artist": "Ozuna",
+            "songName": "Se Preparó"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/ca/88/0d/ca880d63-6e36-c951-fc3a-e7430fa90ec6/source/100x100bb.jpg",
+            "duration": "3:51"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 640,
+        "id": "0XElmYomloA",
+        "details": {
+            "artist": "Zion & Lennox",
+            "songName": "La Player (Bandolera)"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/e4/3a/46/e43a46b8-8f79-bda2-b4e4-837653eddf00/source/100x100bb.jpg",
+            "duration": "4:15"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 2,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 641,
+        "id": "RSRzIrOqaN4",
+        "details": {
+            "artist": "Romeo Santos, Daddy Yankee & Nicky Jam",
+            "songName": "Bella y Sensual"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/7e/fc/5b/7efc5b10-043b-c068-4c02-8a6dabba5cd4/source/100x100bb.jpg",
+            "duration": "4:54"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 642,
+        "id": "X8sSXU-J8fI",
+        "details": {
+            "artist": "Ozuna",
+            "songName": "La Modelo (feat. Cardi B)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/1e/dd/90/1edd90f8-6a8d-2188-dc93-f3376f8bd307/source/100x100bb.jpg",
+            "duration": "5:09"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 643,
+        "id": "sPTn0QEhxds",
+        "details": {
+            "artist": "Shakira",
+            "songName": "Me Enamoré"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music127/v4/06/e2/42/06e242b0-0ad5-6150-d13c-5ab77eae256c/source/100x100bb.jpg",
+            "duration": "3:52"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 644,
+        "id": "liczsmUSMA4",
+        "details": {
+            "artist": "J Balvin, Jeon & Anitta",
+            "songName": "Machika"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/01/33/42/013342d9-f3e8-3650-4997-109976118703/source/100x100bb.jpg",
+            "duration": "3:25"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 645,
+        "id": "FAq4OIRDo68",
+        "details": {
+            "artist": "Romeo Santos",
+            "songName": "Imitadora"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/7e/fc/5b/7efc5b10-043b-c068-4c02-8a6dabba5cd4/source/100x100bb.jpg",
+            "duration": "4:58"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 646,
+        "id": "t_jHrUE5IOk",
+        "details": {
+            "artist": "Maluma",
+            "songName": "Felices los 4"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music111/v4/98/ff/eb/98ffeb14-2158-3853-db05-96c998e87122/source/100x100bb.jpg",
+            "duration": "4:51"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 647,
+        "id": "aL2GrwBMvx4",
+        "details": {
+            "artist": "Maite Perroni",
+            "songName": "Loca (feat. Cali Y El Dandee)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music111/v4/e7/af/0d/e7af0d68-2d0e-2d21-2df2-cf4d2f357bc8/source/100x100bb.jpg",
+            "duration": "4:05"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 648,
+        "id": "SHq2qrFUlGY",
+        "details": {
+            "artist": "Shakira",
+            "songName": "Perro Fiel (feat. Nicky Jam)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music127/v4/06/e2/42/06e242b0-0ad5-6150-d13c-5ab77eae256c/source/100x100bb.jpg",
+            "duration": "3:16"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 649,
+        "id": "OX7daQbqlzc",
+        "details": {
+            "artist": "SanLuis",
+            "songName": "Como Yo (feat. Silvestre Dangond)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/41/95/7b/41957bcb-4cfa-bf88-5d6f-4002959d5b85/source/100x100bb.jpg",
+            "duration": "4:36"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 2,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 650,
+        "id": "T7VewKI44rQ",
+        "details": {
+            "artist": "Nacho, Yandel & Bad Bunny",
+            "songName": "Báilame"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music128/v4/62/a0/84/62a0847d-18a3-3c66-bc1a-123491b5e60f/source/100x100bb.jpg",
+            "duration": "3:46"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 651,
+        "id": "5sU5y9aMzB0",
+        "details": {
+            "artist": "Ricky Martin",
+            "songName": "Fiebre (feat. Wisin & Yandel)"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/b9/00/dc/b900dc43-d70b-5125-7d79-5a1e2c57f636/source/100x100bb.jpg",
+            "duration": "4:38"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 3,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 652,
+        "id": "lf8xoMhV8pI",
+        "details": {
+            "artist": "Gente de Zona",
+            "songName": "Si No Vuelves"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music111/v4/cc/7f/4f/cc7f4f5c-fdec-7004-7b08-12633b1d5a31/source/100x100bb.jpg",
+            "duration": "3:58"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 653,
+        "id": "9J9FlVCUeLM",
+        "details": {
+            "artist": "Alex Sensation & Ozuna",
+            "songName": "Que Va"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music128/v4/aa/5c/d5/aa5cd5a8-f2d2-0db6-7120-7993528bf6f0/source/100x100bb.jpg",
+            "duration": "4:06"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 654,
+        "id": "3X9wEwulYhk",
+        "details": {
+            "artist": "Wisin",
+            "songName": "Escápate Conmigo (feat. Ozuna)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/03/ab/05/03ab05b5-3688-fe2a-0158-52ce4e3843d2/source/100x100bb.jpg",
+            "duration": "4:33"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 655,
+        "id": "gmc4tkVJow8",
+        "details": {
+            "artist": "De La Ghetto, Daddy Yankee & Ozuna",
+            "songName": "La Fórmula (feat. Chris Jeday)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/86/45/69/86456971-fddf-9ff3-9967-5b2aaf708acf/source/100x100bb.jpg",
+            "duration": "3:56"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 656,
+        "id": "ks1CBTwtaU8",
+        "details": {
+            "artist": "Daddy Yankee",
+            "songName": "La Rompe Corazones (feat. Ozuna)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music111/v4/35/d6/19/35d619bf-0557-7490-ff64-0a413c00a5e5/source/100x100bb.jpg",
+            "duration": "3:41"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": true
+        }
+    },
+    {
+        "index": 657,
+        "id": "nI1YOQxJIHs",
+        "details": {
+            "artist": "Wisin, Daddy Yankee & Yandel",
+            "songName": "Todo Comienza en la Disco"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/03/ab/05/03ab05b5-3688-fe2a-0158-52ce4e3843d2/source/100x100bb.jpg",
+            "duration": "5:18"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 658,
+        "id": "afUx6AIG3Tg",
+        "details": {
+            "artist": "Ozuna",
+            "songName": "Tú Foto"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/ca/88/0d/ca880d63-6e36-c951-fc3a-e7430fa90ec6/source/100x100bb.jpg",
+            "duration": "4:42"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": true,
+            "trending": false
+        }
     }
 ]

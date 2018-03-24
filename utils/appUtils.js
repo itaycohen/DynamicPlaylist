@@ -1,7 +1,7 @@
 var app = angular.module('appUtils', [
     'ngMaterial',
-    'dpAppUtils',
-    'ngclipboard'
+    'dpAppUtils'
+    // 'ngclipboard'
 ]);
 
 app.run(['$rootScope', '$http', function ($rootScope, $http) {
@@ -9,7 +9,7 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
     //  debugger; 
 
     // var RAW_SONGS_FILE_PATH = "data/songs/tagging.1/songsRawTagging.json";
-    var RAW_SONGS_FILE_PATH = "data/NewSongs/10000Songs.json";
+    var RAW_SONGS_FILE_PATH = "data/songs/tagging.1/songsRawTagging.json";
     
     var SHRINK_SONGS_FILE_PATH = "data/songs/tagging.1/songsShrinkTagging.json";
     
@@ -87,7 +87,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
-    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer"];
+    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X"];
 
 
     // Adding Songs
