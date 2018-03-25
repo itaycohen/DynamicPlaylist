@@ -323,11 +323,11 @@ $playing-bar-main-color: #ebe8ec;
           }
         }
 
-        &:hover {
-          .left, .right {
-            background-color: $playing-bar-hover-highlight-color;
-          }
-        }
+        // &:hover {
+        //   .left, .right {
+        //     background-color: $playing-bar-hover-highlight-color;
+        //   }
+        // }
       }// play-button-wrapper
         
       .next-button-wrapper {
@@ -346,13 +346,13 @@ $playing-bar-main-color: #ebe8ec;
           }
         }
 
-        &:hover {
-          .next-button {
-            svg {
-              fill: $playing-bar-hover-highlight-color;
-            }
-          }
-        }
+        // &:hover {
+        //   .next-button {
+        //     svg {
+        //       fill: $playing-bar-hover-highlight-color;
+        //     }
+        //   }
+        // }
       }
 
     }

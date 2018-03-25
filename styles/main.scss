@@ -2,7 +2,8 @@ body {
     color: white;
     .app {
         background: rgb(26, 24, 41);
-        background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
+        background: linear-gradient(to top, #220538, #220A37);
+        // background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
         background-size: cover;
         background-position: center;
         .toolbar {
@@ -84,7 +85,10 @@ body {
         }
     }
     .app-vertical {
-        background-image: url("../media/images/app_bg_xlarge_vertical.jpg");
+        // background-image: url("../media/images/app_bg_xlarge_vertical.jpg");
+        background: linear-gradient(to top, #220538, #220A37);
+        // background: #2c0f42;
+        
         .toolbar {
             .md-toolbar-tools {
                 padding-left: 6px;

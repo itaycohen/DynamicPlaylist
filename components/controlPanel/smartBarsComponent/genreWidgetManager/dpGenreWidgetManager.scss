@@ -3,7 +3,9 @@
 
 .genre-manager-wrapper {
     // we always want left and top
-    background: rgba(0, 0, 0, 0.09);
+    // background: rgba(0, 0, 0, 0.09);
+    background: rgba(255, 255, 255, 0.03);
+    
     border-radius: 12px;
     .genre-selector-container {
         // in order to catch the hover & active event of the user pointer

@@ -279,7 +279,7 @@ body {
   color: white; }
   body .app {
     background: #1a1829;
-    background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
+    background: linear-gradient(to top, #220538, #220A37);
     background-size: cover;
     background-position: center; }
     body .app .toolbar {
@@ -322,7 +322,7 @@ body {
     height: 42px;
     margin-right: 4px; }
   body .app-vertical {
-    background-image: url("../media/images/app_bg_xlarge_vertical.jpg"); }
+    background: linear-gradient(to top, #220538, #220A37); }
     body .app-vertical .toolbar .md-toolbar-tools {
       padding-left: 6px; }
       body .app-vertical .toolbar .md-toolbar-tools .icon-container {
@@ -562,8 +562,6 @@ body {
     .playing-bar .player-controls-area-small .play-button-wrapper .paused .triangle-2 {
       -webkit-transform: translate(0, 50%);
       transform: translate(0, 50%); }
-    .playing-bar .player-controls-area-small .play-button-wrapper:hover .left, .playing-bar .player-controls-area-small .play-button-wrapper:hover .right {
-      background-color: #42f1f8; }
   .playing-bar .player-controls-area-small .next-button-wrapper {
     padding: 11px 12px 11px 7px;
     cursor: pointer;
@@ -575,8 +573,6 @@ body {
         height: 38px;
         width: 38px;
         fill: #ebe8ec; }
-    .playing-bar .player-controls-area-small .next-button-wrapper:hover .next-button svg {
-      fill: #42f1f8; }
   .playing-bar .playing-bar-slider-style md-slider .md-track {
     background-color: rgba(255, 255, 255, 0.25); }
   .playing-bar .playing-bar-slider-style md-slider .md-track-fill {
@@ -666,7 +662,7 @@ body {
       animation: scroll-left 16s linear infinite; }
 
 .genre-manager-wrapper {
-  background: rgba(0, 0, 0, 0.09);
+  background: rgba(255, 255, 255, 0.03);
   border-radius: 12px; }
   .genre-manager-wrapper .genre-selector-container {
     width: 136px;
@@ -950,7 +946,7 @@ md-select-menu {
 
 .playlist-wrapper {
   font-family: "Myriad_Pro_Regular";
-  background: rgba(0, 0, 0, 0.09);
+  background: rgba(255, 255, 255, 0.03);
   border-radius: 12px; }
   .playlist-wrapper .playlist-title {
     padding-left: 13px;
