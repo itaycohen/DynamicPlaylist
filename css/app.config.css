@@ -727,9 +727,9 @@ body {
       background: -moz-linear-gradient(180deg, #fb3c89 0%, #fc3286 80%, #fc3286 100%);
       background: -webkit-linear-gradient(180deg, #fb3c89 0%, #fc3286 80%, #fc3286 100%);
       background: linear-gradient(180deg, #fb3c89 0%, #fc3286 80%, #fc3286 100%); }
-      .genre-manager-wrapper .genre-selector-container .add-genre-button .plus-sign {
-        padding-right: 6px;
-        margin-top: 11px; }
+      .genre-manager-wrapper .genre-selector-container .add-genre-button .search-sign {
+        padding-right: 4px;
+        margin-top: 9px; }
     .genre-manager-wrapper .genre-selector-container .md-select:hover + .add-genre-button {
       background: #FB38A6;
       background: #fb38a6;
@@ -814,7 +814,12 @@ body {
   width: auto; }
 
 md-select-menu {
-  min-height: 275px; }
+  min-height: 300px;
+  min-width: 280px;
+  border-radius: 10px; }
+
+md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
+  border-radius: 50%; }
 
 .selectGenreSelectorHeader md-content._md {
   max-height: 440px; }

@@ -26,9 +26,9 @@
             background: #fb3c89;
             @include gradientBg(180deg, #fb3c89, #fc3286);
 
-            .plus-sign {
-                padding-right: 6px;
-                margin-top: 11px;
+            .search-sign {
+                padding-right: 4px;
+                margin-top: 9px;
             }
         }
         .md-select:hover+.add-genre-button {
@@ -139,8 +139,17 @@
 
 
 md-select-menu {
-    min-height: 275px;
+    min-height: 300px;
+    min-width: 280px;
+    border-radius: 10px;
+
 }
+
+
+md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
+    border-radius: 50%;
+}
+
 .selectGenreSelectorHeader md-content._md {
     max-height: 440px;
 }
