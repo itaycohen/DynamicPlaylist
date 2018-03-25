@@ -1,3 +1,5 @@
+
+
 body {
     color: white;
     .app {
@@ -21,21 +23,90 @@ body {
                         color: #42F6FC;
                     }
                 }
-                .feedback-button {
-                    min-height: 33px;
-                    line-height: 33px;
-                }
             }
         }
-        .feedback-button {
-            background: rgb(251, 247, 255);
-            color: #1a1829;
-            font-weight: 600;
-            opacity: 0.95;
+
+        .social-icons-container {
+            margin: 1px 10px 0px 0px;
+
+            .fa {
+                margin: 0px 2px 0px 2px;
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                line-height: 36px;
+                font-size: 19px;
+                text-align: center;
+                @include transition(.3s);
+            }
+
+            .fa-facebook:hover {
+                background-color: #3b5998;
+            }
+
+            .fa-twitter:hover {
+                background-color: #00aced;
+            }
+
+            .fa-instagram:hover {
+                background:
+                /////// Use radial gradients to get the rounded
+                /////// gradient effect in each corner
+
+                // left bottom
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+                radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                // left top
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                //  right top
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                // right bottom
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+                /////// create a base coat to smooth
+                /////// corner gradients
+                linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+            }
+
         }
+
+        .feedback-button {
+            cursor: pointer;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #231123;
+            font-weight: bold;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            width: 100px;
+            line-height: 31px;
+            height: 30px;
+            min-height: 30px;
+            border-radius: 20px;
+            outline: none;
+            background: #13e3ed;
+            @include gradientBg(180deg, #13e3ed, #49e1e8);
+            
+        }
+
+
+
+
         .toolbar-big {
+
             .feedback-button {
-                margin-right: -4px;
+            
+                &:hover {
+                    background: #13e3ed; // #ff00de
+                    @include gradientBg(180deg, #39ebf1, #5ef4f7);
+                    animation: hover 1200ms linear 2 alternate;
+                }
+            
+                &:active {
+                    animation: active 1200ms ease 1 alternate; 
+                }
             }
         }
         .main-view {
@@ -108,12 +179,18 @@ body {
                     padding-left: 0;
                     font-size: 22px;
                 }
-                .feedback-button {
-                    min-height: 25px;
-                    line-height: 25px;
-                    min-width: 77px;
-                    font-size: 10px;
-                }
+            }
+            
+            .feedback-button {
+                font-size: 11px;
+                letter-spacing: 0px;
+                width: 86px;
+                margin-right: -7px;
+                background: rgba(255, 255, 255, 0.9);
+                line-height: 25px;
+                height: 24px;
+                min-height: 24px;
+
             }
         }
     } 

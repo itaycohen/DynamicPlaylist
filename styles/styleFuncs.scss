@@ -5,6 +5,14 @@
 	background: -webkit-linear-gradient($direction,  $startColor 0%, $endColor 80%,$endColor 100%);
 	background: linear-gradient($direction,  $startColor 0%, $endColor 80%,$endColor 100%); 
 }
+
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
   
   
   /* Active state animation keyframes below */

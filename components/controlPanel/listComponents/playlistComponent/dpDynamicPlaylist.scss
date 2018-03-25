@@ -6,7 +6,7 @@
     font-family: "Myriad_Pro_Regular";
     
     //background: rgba(0, 0, 0, 0.09);
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.06);
     
     border-radius: 12px;
     .playlist-title {
@@ -208,22 +208,20 @@
         outline: none;
         background: #13e3ed;
         @include gradientBg(180deg, #13e3ed, #49e1e8);
+
+        &:hover {
+            background: #13e3ed; // #ff00de
+            @include gradientBg(180deg, #39ebf1, #5ef4f7);
+            animation: hover 1200ms linear 2 alternate;
+            // transform: scale(1.025);
+        }
+    
+        &:active {
+            animation: active 1200ms ease 1 alternate; 
+            // transform: scale(0.97);
+        }
         
     }
-
-    .show-more-less-button:hover {
-        background: #13e3ed; // #ff00de
-        @include gradientBg(180deg, #39ebf1, #5ef4f7);
-        animation: hover 1200ms linear 2 alternate;
-        // transform: scale(1.025);
-    }
-
-    .show-more-less-button:active {
-        animation: active 1200ms ease 1 alternate; 
-        // transform: scale(0.97);
-    }
-
-
 }
 
 .playlist-wrapper::-webkit-scrollbar {
