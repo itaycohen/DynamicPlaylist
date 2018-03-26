@@ -67,7 +67,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     $rootScope.data.takeYoutube = false;
     $rootScope.data.takeAPI = false;
     $rootScope.data.takeExisting = false;
-    $rootScope.data.takeItunes = false;
+    $rootScope.data.takeItunes = true;
     
     
     $rootScope.isFixingSongsFlow = false;
@@ -87,7 +87,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
-    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X"];
+    var duplicatesSongNames = ["Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X", "Anywhere"];
 
 
     // Adding Songs
@@ -195,7 +195,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         }
 
         $rootScope.cleanSong();
-        $rootScope.data.takeYoutube = true;
+        $rootScope.data.takeYoutube = false;
     };
 
     function validateSong() {
@@ -247,7 +247,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.itunesResSongName = "";
 
         
-        $rootScope.data.takeYoutube = true;
+        $rootScope.data.takeYoutube = false;
     };
 
     $rootScope.cleanAllSongs = function () {
@@ -502,13 +502,14 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                 !angular.isUndefined(firstSong.releaseDate)) {
                 artworkUrl100 = firstSong.artworkUrl100;
                  console.log(artworkUrl100);
-                 alert(artworkUrl100);
                  releaseDate = firstSong.releaseDate;
                  $rootScope.song.artwork = artworkUrl100;
                 //  $rootScope.song.artwork = getArrOfArtwork(artworkUrl30);
 
                 $rootScope.song.year = getYearOfReleaseDate(releaseDate);
                  
+            } else {
+                alert("no artwork");
             }
 
             for (var i = 0; i < resultsArr.length; i++) {
