@@ -278,8 +278,7 @@ keyframes active 100% {
 body {
   color: white; }
   body .app {
-    background: #1a1829;
-    background: linear-gradient(to top, #220538, #220A37);
+    background: #120e2d;
     background-size: cover;
     background-position: center; }
     body .app .toolbar {
