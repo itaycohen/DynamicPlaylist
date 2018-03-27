@@ -28158,6 +28158,5285 @@
             "hit": false,
             "trending": false
         }
+    },
+    {
+        "index": 704,
+        "id": "fe4EK4HSPkI",
+        "details": {
+            "artist": "MGMT",
+            "songName": "Kids"
+        },
+        "misc": {
+            "year": 2007,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/40/c0/b3/40c0b3bd-aae8-302d-4e1f-1e50dc6b5580/source/100x100bb.jpg",
+            "duration": "6:07"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 705,
+        "id": "uJ_1HMAGb4k",
+        "details": {
+            "artist": "Vance Joy",
+            "songName": "Riptide"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music6/v4/be/ff/8f/beff8f5a-dea1-c45c-8e38-f8645dd6812b/source/100x100bb.jpg",
+            "duration": "3:25"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 706,
+        "id": "Zx4Hjq6KwO0",
+        "details": {
+            "artist": "Keane",
+            "songName": "Everybody's Changing"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music49/v4/99/a7/99/99a7998e-34e2-c60a-44d9-e4435b559737/source/100x100bb.jpg",
+            "duration": "3:38"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 707,
+        "id": "VEpMj-tqixs",
+        "details": {
+            "artist": "Daughter",
+            "songName": "Youth"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/64/2c/9f/642c9f0f-227f-feec-81c5-e8680209fc4d/source/100x100bb.jpg",
+            "duration": "4:11"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 3,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 1,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 708,
+        "id": "eimgRedLkkU",
+        "details": {
+            "artist": "Empire of the Sun",
+            "songName": "Walking On a Dream"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/90/3f/67/903f67ba-2fcb-8de5-c61f-629a3246b049/source/100x100bb.jpg",
+            "duration": "3:20"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 709,
+        "id": "XFkzRNyygfk",
+        "details": {
+            "artist": "Radiohead",
+            "songName": "Creep"
+        },
+        "misc": {
+            "year": 1992,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music69/v4/32/44/08/324408b9-c9ad-e8c1-17ec-132b15dada48/source/100x100bb.jpg",
+            "duration": "3:56"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 710,
+        "id": "1lyu1KKwC74",
+        "details": {
+            "artist": "The Verve",
+            "songName": "Bitter Sweet Symphony"
+        },
+        "misc": {
+            "year": 1997,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music6/v4/70/bc/11/70bc11fb-ffa1-6c9e-7647-e62fdd930e3c/source/100x100bb.jpg",
+            "duration": "4:38"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 711,
+        "id": "1prhCWO_518",
+        "details": {
+            "artist": "Foster the People",
+            "songName": "Call It What You Want"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music3/v4/4a/52/dd/4a52dd7b-e15d-e5b1-a105-534b604ea66d/source/100x100bb.jpg",
+            "duration": "4:02"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 712,
+        "id": "8inJtTG_DuU",
+        "details": {
+            "artist": "The Paper Kites",
+            "songName": "Bloom (Bonus Track)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/68/6f/c1/686fc184-aacc-e137-7910-928bae97dfa1/source/100x100bb.jpg",
+            "duration": "3:34"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 1,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 713,
+        "id": "hN5X4kGhAtU",
+        "details": {
+            "artist": "Empire of the Sun",
+            "songName": "We Are the People (Wawa Remix) [UK Edit]"
+        },
+        "misc": {
+            "year": 2009,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/bd/18/eb/bd18eb97-8f15-3ebc-c432-7c47091bdc96/source/100x100bb.jpg",
+            "duration": "5:13"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 714,
+        "id": "5j4l_NdkYMQ",
+        "details": {
+            "artist": "Funeral Suits",
+            "songName": "All Those Friendly People"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music128/v4/2c/4a/61/2c4a61c4-07ac-523c-8e68-104a3ed5171a/source/100x100bb.jpg",
+            "duration": "4:52"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 715,
+        "id": "RIZdjT1472Y",
+        "details": {
+            "artist": "The Killers",
+            "songName": "Human"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music118/v4/0e/a1/e6/0ea1e6ea-00b9-8f61-5a10-ee9e2b7e983f/source/100x100bb.jpg",
+            "duration": "4:20"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 716,
+        "id": "YXwYJyrKK5A",
+        "details": {
+            "artist": "Two Door Cinema Club",
+            "songName": "What You Know"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/e5/b3/cf/e5b3cf01-53e4-e270-e9b5-59e6ef8683b9/source/100x100bb.jpg",
+            "duration": "3:12"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 5,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 717,
+        "id": "aqsL0QQaSP4",
+        "details": {
+            "artist": "Seafret",
+            "songName": "Oceans"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music1/v4/ac/03/4b/ac034ba3-b6b4-2df9-0435-6896d5fb823b/source/100x100bb.jpg",
+            "duration": "3:35"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 718,
+        "id": "B9dSYgd5Elk",
+        "details": {
+            "artist": "MGMT",
+            "songName": "Time to Pretend"
+        },
+        "misc": {
+            "year": 2007,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/8c/2a/62/8c2a6293-3103-2c52-597d-59bb6587a25c/source/100x100bb.jpg",
+            "duration": "4:19"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 719,
+        "id": "Y5fBdpreJiU",
+        "details": {
+            "artist": "The Killers",
+            "songName": "Somebody Told Me"
+        },
+        "misc": {
+            "year": 2004,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music118/v4/e7/81/7c/e7817c83-4aff-a339-cdd3-033342cc183a/source/100x100bb.jpg",
+            "duration": "3:22"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 720,
+        "id": "MmZexg8sxyk",
+        "details": {
+            "artist": "MGMT",
+            "songName": "Electric Feel"
+        },
+        "misc": {
+            "year": 2007,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/40/c0/b3/40c0b3bd-aae8-302d-4e1f-1e50dc6b5580/source/100x100bb.jpg",
+            "duration": "3:50"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 721,
+        "id": "zLAhRiUeJ8E",
+        "details": {
+            "artist": "Oh Wonder",
+            "songName": "Without You"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music1/v4/dd/c2/91/ddc29132-bf7f-5fde-8dea-53451659c7b3/source/100x100bb.jpg",
+            "duration": "3:58"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 722,
+        "id": "d_HlPboLRL8",
+        "details": {
+            "artist": "AURORA",
+            "songName": "Runaway"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music7/v4/46/3c/3b/463c3baa-97c6-c0c0-5db0-fe85d5bb0b78/source/100x100bb.jpg",
+            "duration": "4:10"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 723,
+        "id": "DiEwJTOderQ",
+        "details": {
+            "artist": "Passion Pit",
+            "songName": "Carried Away"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/bb/e8/cc/bbe8cca9-fd40-bfa7-eeb7-a557f0d8f935/source/100x100bb.jpg",
+            "duration": "4:02"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 724,
+        "id": "b8-tXG8KrWs",
+        "details": {
+            "artist": "The Strokes",
+            "songName": "Reptilia"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/80/35/17/803517b5-1ae6-ef9e-3398-99aadfff1987/source/100x100bb.jpg",
+            "duration": "3:35"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 725,
+        "id": "DJQQrjVmQG0",
+        "details": {
+            "artist": "M83",
+            "songName": "Reunion"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/30/55/e8/3055e810-838c-707a-eefb-3879b4abc07f/source/100x100bb.jpg",
+            "duration": "4:42"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 726,
+        "id": "_GMQLjzVGfw",
+        "details": {
+            "artist": "Foster the People",
+            "songName": "Houdini"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music3/v4/4a/52/dd/4a52dd7b-e15d-e5b1-a105-534b604ea66d/source/100x100bb.jpg",
+            "duration": "3:23"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 727,
+        "id": "xwtdhWltSIg",
+        "details": {
+            "artist": "R.E.M.",
+            "songName": "Losing My Religion"
+        },
+        "misc": {
+            "year": 1991,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music71/v4/36/b1/86/36b18615-3c5e-2d30-0d48-3e5cb70767be/source/100x100bb.jpg",
+            "duration": "4:54"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 728,
+        "id": "Oextk-If8HQ",
+        "details": {
+            "artist": "Keane",
+            "songName": "Somewhere Only We Know"
+        },
+        "misc": {
+            "year": 2004,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/7f/ea/5b/7fea5b96-eead-b9cc-85a5-a25a459f8162/source/100x100bb.jpg",
+            "duration": "3:55"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 729,
+        "id": "hTWKbfoikeg",
+        "details": {
+            "artist": "Nirvana",
+            "songName": "Smells Like Teen Spirit"
+        },
+        "misc": {
+            "year": 1991,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/7c/7d/1b/7c7d1b4f-6b3a-86af-dcbb-c955898dc874/source/100x100bb.jpg",
+            "duration": "4:38"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 1,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 730,
+        "id": "Sv6dMFF_yts",
+        "details": {
+            "artist": "Fun.",
+            "songName": "We Are Young (feat. Janelle Monáe)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/c0/5d/d4/c05dd415-6a49-241c-1814-7e66ba882964/source/100x100bb.jpg",
+            "duration": "4:13"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 731,
+        "id": "jlAgHt92lqE",
+        "details": {
+            "artist": "Foster the People",
+            "songName": "Don't Stop (Color On the Walls)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music3/v4/4a/52/dd/4a52dd7b-e15d-e5b1-a105-534b604ea66d/source/100x100bb.jpg",
+            "duration": "3:00"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 732,
+        "id": "90mzH1kvznQ",
+        "details": {
+            "artist": "Daughter",
+            "songName": "Candles"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/6f/9d/f8/6f9df805-8c60-9748-103b-a57a10596e0b/source/100x100bb.jpg",
+            "duration": "4:55"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 5,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 733,
+        "id": "ff0oWESdmH0",
+        "details": {
+            "artist": "The Killers",
+            "songName": "When You Were Young"
+        },
+        "misc": {
+            "year": 2006,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music118/v4/5d/cc/2e/5dcc2e9c-cd2f-30ff-7a9a-6c39d37b4e80/source/100x100bb.jpg",
+            "duration": "5:16"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 734,
+        "id": "b0jqPvpn3sY",
+        "details": {
+            "artist": "Tame Impala",
+            "songName": "Elephant"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/ef/23/4c/ef234c32-18ec-49fa-0ade-d68a2a2f2211/source/100x100bb.jpg",
+            "duration": "3:32"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 735,
+        "id": "4TV_128Fz2g",
+        "details": {
+            "artist": "Princess Chelsea",
+            "songName": "Positive Guy Meets Negative Man"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music111/v4/67/a1/75/67a175bc-c8c1-3776-7342-f3687c8aab3f/source/100x100bb.jpg",
+            "duration": "4:23"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 736,
+        "id": "6NXnxTNIWkc",
+        "details": {
+            "artist": "4 Non Blondes",
+            "songName": "What's Up?"
+        },
+        "misc": {
+            "year": 1992,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/84/49/05/844905a7-2244-819f-8f12-19c0fee3f5e9/source/100x100bb.jpg",
+            "duration": "4:59"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 737,
+        "id": "xQ04WbgI9rg",
+        "details": {
+            "artist": "Foo Fighters",
+            "songName": "All My Life"
+        },
+        "misc": {
+            "year": 2002,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/ef/82/b2/ef82b24c-1f0e-953c-fc78-d0b0480d188e/source/100x100bb.jpg",
+            "duration": "4:44"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 738,
+        "id": "1VQ_3sBZEm0",
+        "details": {
+            "artist": "Foo Fighters",
+            "songName": "Learn to Fly"
+        },
+        "misc": {
+            "year": 1999,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/ef/82/b2/ef82b24c-1f0e-953c-fc78-d0b0480d188e/source/100x100bb.jpg",
+            "duration": "4:36"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 739,
+        "id": "h_L4Rixya64",
+        "details": {
+            "artist": "Foo Fighters",
+            "songName": "Best of You"
+        },
+        "misc": {
+            "year": 2005,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/ef/82/b2/ef82b24c-1f0e-953c-fc78-d0b0480d188e/source/100x100bb.jpg",
+            "duration": "4:17"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 740,
+        "id": "2MRdtXWcgIw",
+        "details": {
+            "artist": "blink-182",
+            "songName": "Adam's Song"
+        },
+        "misc": {
+            "year": 1999,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music20/v4/33/47/ea/3347ea2b-5628-9283-da07-bcfb58e597d0/source/100x100bb.jpg",
+            "duration": "4:14"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 5,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 741,
+        "id": "SSbBvKaM6sk",
+        "details": {
+            "artist": "Blur",
+            "songName": "Song 2"
+        },
+        "misc": {
+            "year": 1997,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music6/v4/7b/9a/a5/7b9aa51d-ec0e-3fee-90bf-238f8fc36791/source/100x100bb.jpg",
+            "duration": "2:03"
+        },
+        "genreWeights": {
+            "Alternative": 1,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 742,
+        "id": "fregObNcHC8",
+        "details": {
+            "artist": "Nirvana",
+            "songName": "The Man Who Sold the World"
+        },
+        "misc": {
+            "year": 1994,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/4b/a9/36/4ba93614-2dee-21f7-7607-3037af3fbc41/source/100x100bb.jpg",
+            "duration": "3:38"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 743,
+        "id": "JaAWdljhD5o",
+        "details": {
+            "artist": "AWOLNATION",
+            "songName": "Sail"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music5/v4/42/d0/e6/42d0e684-7cc2-f03b-8374-1f1b37851368/source/100x100bb.jpg",
+            "duration": "4:09"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 744,
+        "id": "SBjQ9tuuTJQ",
+        "details": {
+            "artist": "Foo Fighters",
+            "songName": "The Pretender"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music5/v4/c6/ec/62/c6ec6282-669f-2370-6b48-e4d91ceabfa1/source/100x100bb.jpg",
+            "duration": "4:31"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 745,
+        "id": "TOypSnKFHrE",
+        "details": {
+            "artist": "The Strokes",
+            "songName": "Last Nite"
+        },
+        "misc": {
+            "year": 2001,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/54/e9/81/54e9818c-d152-affc-38d4-e8a6b8c98513/source/100x100bb.jpg",
+            "duration": "3:18"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 746,
+        "id": "6Ejga4kJUts",
+        "details": {
+            "artist": "The Cranberries",
+            "songName": "Zombie"
+        },
+        "misc": {
+            "year": 1994,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/73/1a/0c/731a0c80-dfe7-bd7a-772b-47f58b1889e7/source/100x100bb.jpg",
+            "duration": "5:16"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 747,
+        "id": "fV4DiAyExN0",
+        "details": {
+            "artist": "Hoobastank",
+            "songName": "The Reason"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music127/v4/31/43/dd/3143ddfe-f877-b4aa-aac5-e3e64c19e9d7/source/100x100bb.jpg",
+            "duration": "4:11"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 748,
+        "id": "xGytDsqkQY8",
+        "details": {
+            "artist": "Semisonic",
+            "songName": "Closing Time"
+        },
+        "misc": {
+            "year": 1998,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music111/v4/11/fd/a1/11fda111-eaf6-264c-8cad-ddabfe92713c/source/100x100bb.jpg",
+            "duration": "4:01"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 749,
+        "id": "G6Kspj3OO0s",
+        "details": {
+            "artist": "The Cranberries",
+            "songName": "Linger"
+        },
+        "misc": {
+            "year": 1993,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/73/1a/0c/731a0c80-dfe7-bd7a-772b-47f58b1889e7/source/100x100bb.jpg",
+            "duration": "4:36"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 750,
+        "id": "lwlogyj7nFE",
+        "details": {
+            "artist": "Red Hot Chili Peppers",
+            "songName": "Under the Bridge"
+        },
+        "misc": {
+            "year": 1991,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music3/v4/87/98/aa/8798aa47-233e-b3a4-8154-3a4f4dee0209/source/100x100bb.jpg",
+            "duration": "4:28"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 4,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 751,
+        "id": "3mbBbFH9fAg",
+        "details": {
+            "artist": "Soundgarden",
+            "songName": "Black Hole Sun"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/00/29/cb/0029cbbe-9a9f-6dc6-5312-6662cfbc8f43/source/100x100bb.jpg",
+            "duration": "5:21"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 752,
+        "id": "kPBzTxZQG5Q",
+        "details": {
+            "artist": "3 Doors Down",
+            "songName": "Here Without You"
+        },
+        "misc": {
+            "year": 2002,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/4d/ab/92/4dab92be-69e4-6312-9d6a-23379e5c8c24/source/100x100bb.jpg",
+            "duration": "3:56"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 4,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 753,
+        "id": "Zzyfcys1aLM",
+        "details": {
+            "artist": "The Wallflowers",
+            "songName": "One Headlight"
+        },
+        "misc": {
+            "year": 1996,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music20/v4/42/19/49/421949f4-3a48-6013-6d9f-09f4c8fe8b6f/source/100x100bb.jpg",
+            "duration": "4:45"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 754,
+        "id": "NRtvqT_wMeY",
+        "details": {
+            "artist": "Soul Asylum",
+            "songName": "Runaway Train"
+        },
+        "misc": {
+            "year": 1992,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/bd/bb/45/bdbb45e9-a615-e70c-ff8a-a7df2d78cf6d/source/100x100bb.jpg",
+            "duration": "4:23"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 755,
+        "id": "NUTGr5t3MoY",
+        "details": {
+            "artist": "Green Day",
+            "songName": "Basket Case"
+        },
+        "misc": {
+            "year": 1994,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music71/v4/c2/09/0b/c2090bd7-680b-6be3-1af5-6ac679f71633/source/100x100bb.jpg",
+            "duration": "3:13"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 5,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 756,
+        "id": "DL7-CKirWZE",
+        "details": {
+            "artist": "New Radicals",
+            "songName": "You Get What You Give"
+        },
+        "misc": {
+            "year": 1998,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/f6/a8/b8/f6a8b881-a58b-690c-ad46-2dfcb8e8a540/source/100x100bb.jpg",
+            "duration": "4:40"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 757,
+        "id": "NdYWuo9OFAw",
+        "details": {
+            "artist": "The Goo Goo Dolls",
+            "songName": "Iris"
+        },
+        "misc": {
+            "year": 1998,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/28/ab/74/28ab7438-7342-33cd-aa64-7e970a5761b8/source/100x100bb.jpg",
+            "duration": "3:36"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 4,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 758,
+        "id": "YgSPaXgAdzE",
+        "details": {
+            "artist": "Beck",
+            "songName": "Loser"
+        },
+        "misc": {
+            "year": 1994,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music5/v4/b1/ce/dd/b1ceddb4-1711-2b10-5f20-814453ddb24a/source/100x100bb.jpg",
+            "duration": "3:54"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 759,
+        "id": "vabnZ9-ex7o",
+        "details": {
+            "artist": "Nirvana",
+            "songName": "Come As You Are"
+        },
+        "misc": {
+            "year": 1991,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music7/v4/17/bb/50/17bb50ba-954d-a6f4-5b45-63f70b4bb1de/source/100x100bb.jpg",
+            "duration": "3:46"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 760,
+        "id": "TR3Vdo5etCQ",
+        "details": {
+            "artist": "No Doubt",
+            "songName": "Don't Speak"
+        },
+        "misc": {
+            "year": 1995,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/30/75/51/30755152-65f2-1f50-3ed9-6a90a31b27cd/source/100x100bb.jpg",
+            "duration": "5:03"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 761,
+        "id": "9Ht5RZpzPqw",
+        "details": {
+            "artist": "blink-182",
+            "songName": "All the Small Things"
+        },
+        "misc": {
+            "year": 1999,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music20/v4/33/47/ea/3347ea2b-5628-9283-da07-bcfb58e597d0/source/100x100bb.jpg",
+            "duration": "2:53"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 4,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 762,
+        "id": "knU9gRUWCno",
+        "details": {
+            "artist": "The Strokes",
+            "songName": "Someday"
+        },
+        "misc": {
+            "year": 2001,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/54/e9/81/54e9818c-d152-affc-38d4-e8a6b8c98513/source/100x100bb.jpg",
+            "duration": "3:06"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 763,
+        "id": "s1tAYmMjLdY",
+        "details": {
+            "artist": "blink-182",
+            "songName": "I Miss You"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music20/v4/e0/d2/78/e0d278a3-2a2a-a898-4d6d-b6e2c6fc8577/source/100x100bb.jpg",
+            "duration": "3:50"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 5,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 764,
+        "id": "vVy9Lgpg1m8",
+        "details": {
+            "artist": "blink-182",
+            "songName": "First Date"
+        },
+        "misc": {
+            "year": 2001,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music20/v4/b1/b4/66/b1b466cd-56c6-f91b-9d1e-9effd58ddecb/source/100x100bb.jpg",
+            "duration": "3:32"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 5,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 765,
+        "id": "xPU8OAjjS4k",
+        "details": {
+            "artist": "3 Doors Down",
+            "songName": "Kryptonite"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music111/v4/83/4a/dc/834adcab-9f03-6d40-cd86-7b9d453617c6/source/100x100bb.jpg",
+            "duration": "3:55"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 766,
+        "id": "iAP9AF6DCu4",
+        "details": {
+            "artist": "The Calling",
+            "songName": "Wherever You Will Go"
+        },
+        "misc": {
+            "year": 2001,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/28/32/2a/28322a1d-9fee-41e5-5691-8291544f77da/source/100x100bb.jpg",
+            "duration": "3:27"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 4,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 767,
+        "id": "-oqAU5VxFWs",
+        "details": {
+            "artist": "Counting Crows",
+            "songName": "Mr. Jones"
+        },
+        "misc": {
+            "year": 1993,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/23/21/56/2321565c-fac7-5290-d02d-b87f8e1d2c62/source/100x100bb.jpg",
+            "duration": "4:32"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 768,
+        "id": "7QU1nvuxaMA",
+        "details": {
+            "artist": "Audioslave",
+            "songName": "Like a Stone"
+        },
+        "misc": {
+            "year": 2002,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/8c/64/61/8c6461e2-0712-d9c1-f1d9-87efaefd440f/source/100x100bb.jpg",
+            "duration": "5:00"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 769,
+        "id": "rn_YodiJO6k",
+        "details": {
+            "artist": "Red Hot Chili Peppers",
+            "songName": "Otherside"
+        },
+        "misc": {
+            "year": 1999,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music3/v4/87/98/aa/8798aa47-233e-b3a4-8154-3a4f4dee0209/source/100x100bb.jpg",
+            "duration": "4:16"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 2,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 770,
+        "id": "YlUKcNNmywk",
+        "details": {
+            "artist": "Red Hot Chili Peppers",
+            "songName": "Dani California"
+        },
+        "misc": {
+            "year": 2006,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/fd/7f/e4/fd7fe4e5-8553-92c4-98e0-bce8ae6579e1/source/100x100bb.jpg",
+            "duration": "5:22"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 771,
+        "id": "Ee_uujKuJMI",
+        "details": {
+            "artist": "Green Day",
+            "songName": "American Idiot"
+        },
+        "misc": {
+            "year": 2004,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/dd/39/7a/dd397a2a-21b7-be2f-53f0-c727bd1441c3/source/100x100bb.jpg",
+            "duration": "3:03"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 4,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 772,
+        "id": "sENM2wA_FTg",
+        "details": {
+            "artist": "Imagine Dragons",
+            "songName": "It's Time"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/77/01/1c/77011c4b-63a8-ef20-f3c0-2a20bae39a1e/source/100x100bb.jpg",
+            "duration": "4:07"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 773,
+        "id": "Yam5uK6e-bQ",
+        "details": {
+            "artist": "The Cranberries",
+            "songName": "Dreams"
+        },
+        "misc": {
+            "year": 1992,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/73/1a/0c/731a0c80-dfe7-bd7a-772b-47f58b1889e7/source/100x100bb.jpg",
+            "duration": "4:26"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 774,
+        "id": "wsdy_rct6uo",
+        "details": {
+            "artist": "Spin Doctors",
+            "songName": "Two Princes"
+        },
+        "misc": {
+            "year": 1991,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/4e/a4/b7/4ea4b701-caff-6bb0-ff4f-d9e55daca8ef/source/100x100bb.jpg",
+            "duration": "4:20"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 775,
+        "id": "pkcJEvMcnEg",
+        "details": {
+            "artist": "Nirvana",
+            "songName": "Lithium"
+        },
+        "misc": {
+            "year": 1991,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/7c/7d/1b/7c7d1b4f-6b3a-86af-dcbb-c955898dc874/source/100x100bb.jpg",
+            "duration": "4:16"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 776,
+        "id": "x8ccDb6n5Wg",
+        "details": {
+            "artist": "Ben Howard",
+            "songName": "Old Pine"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music62/v4/17/a2/f1/17a2f1c8-111c-b16b-c84f-ea708fb565ff/source/100x100bb.jpg",
+            "duration": "5:34"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 777,
+        "id": "mS8xDo-qM8w",
+        "details": {
+            "artist": "City and Colour",
+            "songName": "The Girl"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music117/v4/bf/96/dd/bf96dd50-272b-1862-008f-3d998b75e305/source/100x100bb.jpg",
+            "duration": "4:48"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 3,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 778,
+        "id": "ssdgFoHLwnk",
+        "details": {
+            "artist": "Bon Iver",
+            "songName": "Skinny Love"
+        },
+        "misc": {
+            "year": 2007,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music1/v4/81/2c/38/812c380f-ec4b-f85f-aa8e-fefe904c2a3d/source/100x100bb.jpg",
+            "duration": "3:59"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 3,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 779,
+        "id": "rId6PKlDXeU",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "Hopeless Wanderer"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/18/72/ae/1872aeb8-2d80-ce83-835e-8c340712593a/source/100x100bb.jpg",
+            "duration": "5:15"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 780,
+        "id": "mCHUw7ACS8o",
+        "details": {
+            "artist": "Of Monsters and Men",
+            "songName": "Dirty Paws"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/87/56/f6/8756f6e6-221f-7803-a9eb-8917e70413aa/source/100x100bb.jpg",
+            "duration": "4:35"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 781,
+        "id": "FNwgOkl5nRY",
+        "details": {
+            "artist": "Kaleo",
+            "songName": "All the Pretty Girls"
+        },
+        "misc": {
+            "year": 2016,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music30/v4/a7/3b/be/a73bbe99-57d9-a10f-6638-b3b666a05c1f/source/100x100bb.jpg",
+            "duration": "4:32"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 782,
+        "id": "mtf7hC17IBM",
+        "details": {
+            "artist": "Kodaline",
+            "songName": "All I Want"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music6/v4/20/16/ab/2016ab6c-a799-aa31-69bc-b6f8bc2803a0/source/100x100bb.jpg",
+            "duration": "5:20"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 783,
+        "id": "CVUOTzoVeZA",
+        "details": {
+            "artist": "Ben Howard",
+            "songName": "Promise"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music62/v4/ca/26/30/ca263026-533a-4480-bb21-a5cd113b5a23/source/100x100bb.jpg",
+            "duration": "6:19"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 1,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 784,
+        "id": "_KCg_QEHtkY",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "Winter Winds"
+        },
+        "misc": {
+            "year": 2009,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music1/v4/b1/4d/48/b14d480b-f085-2968-3859-03b5a864dfe7/source/100x100bb.jpg",
+            "duration": "3:41"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 4,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 785,
+        "id": "DrQRS40OKNE",
+        "details": {
+            "artist": "Fleet Foxes",
+            "songName": "White Winter Hymnal"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/08/0d/40/080d4084-4239-61d4-1392-d34db2f413e6/source/100x100bb.jpg",
+            "duration": "2:28"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 786,
+        "id": "E4povfmX144",
+        "details": {
+            "artist": "Kodaline",
+            "songName": "High Hopes"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music6/v4/20/16/ab/2016ab6c-a799-aa31-69bc-b6f8bc2803a0/source/100x100bb.jpg",
+            "duration": "4:10"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 787,
+        "id": "yFTvbcNhEgc",
+        "details": {
+            "artist": "Angus & Julia Stone",
+            "songName": "Big Jet Plane"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/ef/78/9e/ef789e0c-0b49-eafd-06ba-f90e57bc79b3/source/100x100bb.jpg",
+            "duration": "4:06"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 2,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 788,
+        "id": "M0IDiVQxZYg",
+        "details": {
+            "artist": "The Paper Kites",
+            "songName": "Featherstone"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/68/6f/c1/686fc184-aacc-e137-7910-928bae97dfa1/source/100x100bb.jpg",
+            "duration": "3:53"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 789,
+        "id": "ADP65wbBUpc",
+        "details": {
+            "artist": "Ben Howard",
+            "songName": "Keep Your Head Up"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/82/13/a5/8213a5df-6a10-2dde-c857-eb61b115c7ea/source/100x100bb.jpg",
+            "duration": "3:55"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 790,
+        "id": "fNy8llTLvuA",
+        "details": {
+            "artist": "Mumford & Sons",
+            "songName": "The Cave"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/60/f9/26/60f92698-2dd4-8020-7962-23454eb9f23e/source/100x100bb.jpg",
+            "duration": "4:36"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 2,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 791,
+        "id": "P8a4iiOnzsc",
+        "details": {
+            "artist": "Radical Face",
+            "songName": "Welcome Home"
+        },
+        "misc": {
+            "year": 2007,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/87/0f/e2/870fe226-a21d-cbb9-b852-19fec58f8127/source/100x100bb.jpg",
+            "duration": "4:38"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 3,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 792,
+        "id": "PC57z-oDPLs",
+        "details": {
+            "artist": "First Aid Kit",
+            "songName": "Emmylou"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/c9/a9/51/c9a95145-2aa0-090f-af71-b51c34b47eda/source/100x100bb.jpg",
+            "duration": "4:25"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 793,
+        "id": "LuQrLsTUcN0",
+        "details": {
+            "artist": "Bon Iver",
+            "songName": "Flume"
+        },
+        "misc": {
+            "year": 2007,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music1/v4/81/2c/38/812c380f-ec4b-f85f-aa8e-fefe904c2a3d/source/100x100bb.jpg",
+            "duration": "3:39"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 794,
+        "id": "cchlCNlJUXw",
+        "details": {
+            "artist": "Wolf Larsen",
+            "songName": "If I Be Wrong"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music60/v4/b3/6b/ae/b36bae9a-e739-0d2d-6bb2-fcee8e0ec4c5/source/100x100bb.jpg",
+            "duration": "7:23"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 795,
+        "id": "lAwYodrBr2Q",
+        "details": {
+            "artist": "M83",
+            "songName": "Wait"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/30/55/e8/3055e810-838c-707a-eefb-3879b4abc07f/source/100x100bb.jpg",
+            "duration": "5:56"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 796,
+        "id": "VmMxZmerOFg",
+        "details": {
+            "artist": "The Middle East",
+            "songName": "Deep Water"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music71/v4/22/21/3f/22213f79-d718-81a8-0a44-5f8ebb84063b/source/100x100bb.jpg",
+            "duration": "8:25"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 5,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 797,
+        "id": "xLPGtQoRUbk",
+        "details": {
+            "artist": "Kodaline",
+            "songName": "The One"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music1/v4/f1/19/ce/f119ce6f-0577-52cf-aa58-b8e3feace442/source/100x100bb.jpg",
+            "duration": "4:02"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 5,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 798,
+        "id": "b3LJlZBWI8w",
+        "details": {
+            "artist": "SYML",
+            "songName": "Where's My Love"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music128/v4/7b/43/ec/7b43ecea-b50d-5f22-ac87-e4a749f0bd61/source/100x100bb.jpg",
+            "duration": "4:01"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 799,
+        "id": "MwpMEbgC7DA",
+        "details": {
+            "artist": "Tom Odell",
+            "songName": "Another Love"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music4/v4/9d/85/ca/9d85cad3-be31-8992-59cb-e8c2846e78d9/source/100x100bb.jpg",
+            "duration": "4:08"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 800,
+        "id": "LE7KVkm_YFU",
+        "details": {
+            "artist": "Kodaline",
+            "songName": "One Day"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music6/v4/20/16/ab/2016ab6c-a799-aa31-69bc-b6f8bc2803a0/source/100x100bb.jpg",
+            "duration": "3:47"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 2,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 801,
+        "id": "m6TXPNybrmk",
+        "details": {
+            "artist": "Kodaline",
+            "songName": "Brother"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music127/v4/24/bc/a5/24bca58b-412e-d9b6-83e0-0d3ef2ced90b/source/100x100bb.jpg",
+            "duration": "3:25"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 802,
+        "id": "FOjdXSrtUxA",
+        "details": {
+            "artist": "Ed Sheeran",
+            "songName": "Give Me Love"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/27/d6/e9/27d6e9ed-b0be-e4f1-716e-f805b2444fb8/source/100x100bb.jpg",
+            "duration": "4:23"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 4,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 2,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 803,
+        "id": "IkAOasSJro0",
+        "details": {
+            "artist": "Kodaline",
+            "songName": "Love Like This"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music4/v4/7f/45/bb/7f45bb8b-325c-5906-45c0-93d4f3caec5b/source/100x100bb.jpg",
+            "duration": "3:39"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 804,
+        "id": "luM6oeCM7Yw",
+        "details": {
+            "artist": "Mogwai",
+            "songName": "Take Me Somewhere Nice"
+        },
+        "misc": {
+            "year": 2000,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/17/df/43/17df4350-ce3c-46ec-a56a-ebce5bc83d4f/source/100x100bb.jpg",
+            "duration": "7:02"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 1,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 805,
+        "id": "_ovdm2yX4MA",
+        "details": {
+            "artist": "Avicii",
+            "songName": "Levels"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/9c/85/03/9c8503ad-fa65-a696-ee7c-298a1e321ac6/source/100x100bb.jpg",
+            "duration": "3:19"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 806,
+        "id": "1y6smkh6c-0",
+        "details": {
+            "artist": "Swedish House Mafia",
+            "songName": "Don't You Worry Child (Radio Edit) [feat. John Martin]"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/f6/9f/80/f69f8073-c611-3ac1-4c70-52355d8b614e/source/100x100bb.jpg",
+            "duration": "5:35"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 807,
+        "id": "o7iL2KzDh38",
+        "details": {
+            "artist": "Martin Garrix & David Guetta",
+            "songName": "So Far Away (feat. Jamie Scott & Romy Dya)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music118/v4/b2/11/2a/b2112a02-9742-ede6-0690-bbd4c6394467/source/100x100bb.jpg",
+            "duration": "3:04"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 808,
+        "id": "uGhKqb2Ow3E",
+        "details": {
+            "artist": "Jax Jones",
+            "songName": "Breathe (feat. Ina Wroldsen)"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music128/v4/15/2f/da/152fda01-0fbd-5697-0ace-df6a06a861a0/source/100x100bb.jpg",
+            "duration": "3:42"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": true
+        }
+    },
+    {
+        "index": 809,
+        "id": "LVEwL-sZzmM",
+        "details": {
+            "artist": "Lost Frequencies & Zonderling",
+            "songName": "Crazy"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/0a/99/30/0a9930eb-1d80-ea51-c565-1c3ac75b1d58/source/100x100bb.jpg",
+            "duration": "2:28"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 810,
+        "id": "M3mJkSqZbX4",
+        "details": {
+            "artist": "Zedd, Maren Morris & Grey",
+            "songName": "The Middle"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/c3/d9/4d/c3d94d41-14c2-6b92-830d-8aad65d9db19/source/100x100bb.jpg",
+            "duration": "3:11"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 811,
+        "id": "lAhHNCfA7NI",
+        "details": {
+            "artist": "Alexandra Stan",
+            "songName": "Mr. Saxobeat (Radio Edit)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music/v4/6c/a6/e6/6ca6e676-55d5-a6d1-f490-d87f2640dde1/source/100x100bb.jpg",
+            "duration": "3:14"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 812,
+        "id": "2h0bkuWzQeU",
+        "details": {
+            "artist": "Cashmere Cat, Major Lazer & Tory Lanez",
+            "songName": "Miss You"
+        },
+        "misc": {
+            "year": 2018,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music128/v4/ae/e3/d3/aee3d3ef-d650-943c-64c4-4a17349fbf34/source/100x100bb.jpg",
+            "duration": "3:08"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 813,
+        "id": "cHHLHGNpCSA",
+        "details": {
+            "artist": "Avicii",
+            "songName": "Waiting For Love"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music69/v4/6e/84/44/6e8444dd-597c-60a4-bce5-03979b5ceb85/source/100x100bb.jpg",
+            "duration": "3:51"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 814,
+        "id": "lWA2pjMjpBs",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Diamonds"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/2d/f8/4c/2df84c93-0458-6392-20bf-9a7e61ee1260/source/100x100bb.jpg",
+            "duration": "4:43"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 815,
+        "id": "pa14VNsdSYM",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Only Girl (In the World)"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2b/78/b4/2b78b4fd-dcac-018f-06a3-f8e1001f7c82/source/100x100bb.jpg",
+            "duration": "4:11"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 816,
+        "id": "5dbEhBKGOtY",
+        "details": {
+            "artist": "David Guetta",
+            "songName": "Play Hard (feat. Ne-Yo & Akon)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music6/v4/17/5e/00/175e008b-5889-a670-f576-13fc54939bc3/source/100x100bb.jpg",
+            "duration": "4:02"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 817,
+        "id": "SkTt9k4Y-a8",
+        "details": {
+            "artist": "LMFAO",
+            "songName": "Party Rock Anthem (feat. Lauren Bennett & GoonRock)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/ed/26/d6/ed26d6f0-ed83-217c-f2aa-f617c8bfdedd/source/100x100bb.jpg",
+            "duration": "7:19"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 818,
+        "id": "fLexgOxsZu0",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "The Lazy Song"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/cd/1f/84/cd1f8413-008a-6759-dccd-676ad72a017a/source/100x100bb.jpg",
+            "duration": "3:29"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 0,
+            "Reggae": 3,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 819,
+        "id": "U0CGsw6h60k",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "What's My Name? (feat. Drake)"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2b/78/b4/2b78b4fd-dcac-018f-06a3-f8e1001f7c82/source/100x100bb.jpg",
+            "duration": "4:24"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 820,
+        "id": "UA8rcLvS1BY",
+        "details": {
+            "artist": "LMFAO",
+            "songName": "Champagne Showers (feat. Natalia Kills)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/ed/26/d6/ed26d6f0-ed83-217c-f2aa-f617c8bfdedd/source/100x100bb.jpg",
+            "duration": "6:42"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 821,
+        "id": "XNtTEibFvlQ",
+        "details": {
+            "artist": "LMFAO & Lil Jon",
+            "songName": "Shots"
+        },
+        "misc": {
+            "year": 2009,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/f8/1a/2c/f81a2c5d-a515-adf8-7046-9464666265f4/source/100x100bb.jpg",
+            "duration": "4:14"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 822,
+        "id": "hHUbLv4ThOo",
+        "details": {
+            "artist": "Pitbull",
+            "songName": "Timber (feat. Ke$ha)"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music4/v4/a3/ca/ae/a3caaedd-2cb4-f8f6-7923-9c956d9fab9c/source/100x100bb.jpg",
+            "duration": "3:35"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 823,
+        "id": "YJVmu6yttiw",
+        "details": {
+            "artist": "Skrillex",
+            "songName": "Bangarang (feat. Sirah)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music/v4/24/44/80/244480d4-3b14-111e-759c-290e583045cd/source/100x100bb.jpg",
+            "duration": "3:39"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 824,
+        "id": "3OnnDqH6Wj8",
+        "details": {
+            "artist": "Flo Rida",
+            "songName": "Good Feeling"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music2/v4/4a/b1/0b/4ab10b92-829e-7580-60d3-4c40722f2d56/source/100x100bb.jpg",
+            "duration": "4:31"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 2,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 825,
+        "id": "9I9Ar6upx34",
+        "details": {
+            "artist": "will.i.am",
+            "songName": "This Is Love (feat. Eva Simons)"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music6/v4/ff/c8/4a/ffc84a5f-0d6a-4ad3-f193-da36a7384738/source/100x100bb.jpg",
+            "duration": "4:57"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 826,
+        "id": "SmM0653YvXU",
+        "details": {
+            "artist": "Pitbull",
+            "songName": "Rain Over Me (feat. Marc Anthony)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music111/v4/20/65/df/2065df83-04d4-465a-77fa-482c8b749d16/source/100x100bb.jpg",
+            "duration": "3:54"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 2,
+            "Indie": 0,
+            "Latin": 2,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 827,
+        "id": "kYtGl1dX5qI",
+        "details": {
+            "artist": "will.i.am",
+            "songName": "Scream & Shout (feat. Britney Spears)"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music6/v4/ce/e6/7a/cee67aaf-0dc1-fc3f-382b-c0031964fcd7/source/100x100bb.jpg",
+            "duration": "4:52"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 828,
+        "id": "bpOR_HuHRNs",
+        "details": {
+            "artist": "Flo Rida",
+            "songName": "Wild Ones (feat. Sia)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music2/v4/4a/b1/0b/4ab10b92-829e-7580-60d3-4c40722f2d56/source/100x100bb.jpg",
+            "duration": "3:55"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 829,
+        "id": "jUe8uoKdHao",
+        "details": {
+            "artist": "David Guetta",
+            "songName": "Without You (feat. Usher)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is3.mzstatic.com/image/thumb/Music5/v4/8f/80/b5/8f80b5c1-b6e2-0c93-b5e5-b83031dd4e60/source/100x100bb.jpg",
+            "duration": "3:31"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 2,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 830,
+        "id": "fwK7ggA3-bU",
+        "details": {
+            "artist": "Maroon 5",
+            "songName": "One More Night"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/44/df/68/44df684d-1501-6b3a-21c2-570800afdefa/source/100x100bb.jpg",
+            "duration": "3:43"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 831,
+        "id": "oC-GflRB0y4",
+        "details": {
+            "artist": "David Guetta & Showtek",
+            "songName": "Bad (feat. Vassy)"
+        },
+        "misc": {
+            "year": 2014,
+            "artwork": "http://is4.mzstatic.com/image/thumb/Music5/v4/55/3c/a6/553ca69a-cb29-4fcf-3ffe-983b2204ba60/source/100x100bb.jpg",
+            "duration": "2:51"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 832,
+        "id": "9vMh9f41pqE",
+        "details": {
+            "artist": "Dimitri Vegas, Martin Garrix & Like Mike",
+            "songName": "Tremor"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music4/v4/0e/92/9e/0e929e74-5310-ced2-bfde-a17c4cdd17f6/source/100x100bb.jpg",
+            "duration": "3:19"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 833,
+        "id": "KrVC5dm5fFc",
+        "details": {
+            "artist": "Nicky Romero",
+            "songName": "Toulouse"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "http://is2.mzstatic.com/image/thumb/Music/v4/8d/a2/b2/8da2b2d6-a152-440c-c7df-2fc3d7724346/source/100x100bb.jpg",
+            "duration": "4:20"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 834,
+        "id": "0EWbonj7f18",
+        "details": {
+            "artist": "DVBBS & Borgeous",
+            "songName": "Tsunami"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "http://is1.mzstatic.com/image/thumb/Music/v4/6d/1c/54/6d1c5489-73ad-ba58-3f7d-3e1db8921062/source/100x100bb.jpg",
+            "duration": "3:57"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 5,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 835,
+        "id": "F8Cg572dafQ",
+        "details": {
+            "artist": "Flo Rida",
+            "songName": "GDFR (feat. Sage the Gemini & Lookas)"
+        },
+        "misc": {
+            "year": 2014,
+            "artwork": "http://is5.mzstatic.com/image/thumb/Music1/v4/09/4d/51/094d5127-f353-9ae4-4688-65655a6d8574/source/100x100bb.jpg",
+            "duration": "3:41"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Chill Out": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hip-Hop": 4,
+            "Indie": 0,
+            "Latin": 0,
+            "Love": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
     }
-
 ]
