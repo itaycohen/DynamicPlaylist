@@ -87,7 +87,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         return "genre-manager-wrapper-vertical";
     };
 
-    $scope.getGenretManagerButtonsWrapperTemp = function () {
+    $scope.getGenreManagerButtonsWrapperTemp = function () {
 		if (dpAppUtils.isDesktop()) {
             return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
 		}
