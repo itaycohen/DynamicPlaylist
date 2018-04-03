@@ -595,12 +595,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
     function validateTagsOfSong(currentSongTagData, currentUserTags) {
         var aggBoolean = true;
-        for (var i = 0; i < currentUserTags.length; i++) {
-            var currentUserTagVal = currentUserTags[i];
+        for (tagName in currentUserTags) {
+            var currentUserTagVal = currentUserTags[tagName];
             // the user "wants" only new songs for example
             if (currentUserTagVal === 1) {
                 // the song is new (tag = 1), if no (tag = 0) it will not be inside
-                aggBoolean = aggBoolean && currentSongTagData[getTagShortName(allTagsNames[i])] === 1;
+                aggBoolean = aggBoolean && currentSongTagData[tagName] === 1;
             }
         }
         // user tag is 0 - the song is inside
@@ -608,13 +608,15 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     } 
 
     function needToFilter(userTags) {
-        for (var i = 0; i < userTags.length; i++) {
-            if (userTags[i] === 1) {
+        for (tag in userTags) {
+            if (userTags[tag] === 1) {
                 return true;
             }
         }
         return false;
     }
+
+    
 
     //TODO - consider utils
     //TODO 5 - chnage method - is index in list
@@ -629,7 +631,10 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     }
 
     function updateUserTagsMap(tagName, tagState) {
-        $rootScope.userTagsMap[allTagsNames.indexOf(tagName)] = convertBooleanToNum(tagState);
+        // $rootScope.userTagsMap[allTagsNames.indexOf(tagName)] = convertBooleanToNum(tagState);
+        $rootScope.userTagsMap[getTagShortName(tagName)] = convertBooleanToNum(tagState);
+        
+        
     }
 
     function updateSongIndexesListByTagIfNeeded(tagName, tagState) {
@@ -783,7 +788,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     }
 
     function getTagStateByName(tagName) {
-        return convertNumToBoolean($rootScope.userTagsMap[allTagsNames.indexOf(tagName)]);
+        return convertNumToBoolean($rootScope.userTagsMap[getTagShortName(tagName)]);
     }
 
     function getWeightDistanceFactor() {
