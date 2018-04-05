@@ -1,12 +1,30 @@
 .genre-widget {
     height: 60px;
 
-    .genre-name {
-        font-family: "Myriad_Pro_Regular";
+    .genre-name-wrapper {
+
+        padding: 6px;
+        min-width: 120px; // TODO - check the size
+
+
+        .remove-genre-container {
+            width: 20px;
+            content: "";
+        }
+
+        .genre-name {
+            font-family: "Myriad_Pro_Regular";
+        }
+
+        
+
     }
 
+
+
     .genre-name-container-small {
-        margin-left: 5px;
+        margin-left: 7px;
+        margin-right: 7px;
         font-size: 14px;
         width: 200px;
     }
@@ -34,5 +52,9 @@
                 background-color: #13E3ED;
             }
         }
+    }
+
+    .slider-container-small {
+        margin-right: 10px;
     }
 }

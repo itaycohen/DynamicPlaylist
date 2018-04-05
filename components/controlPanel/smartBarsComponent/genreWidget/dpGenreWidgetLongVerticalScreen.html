@@ -1,10 +1,10 @@
 <div class="genre-widget" layout="row" layout-align="space-between center">
 
-    <div class="genre-name-container-small" >
+    <div class="genre-name text-no-select genre-name-container-small" >
         {{genre}}
     </div>
     
-    <md-slider-container class="slider-container">
-        <md-slider ng-model="widgetValue" min="0" max="5" aria-label="volume" class="md-accent" md-range="" ng-change="onWidgetChange()"></md-slider>
+    <md-slider-container class="slider-container slider-container-small" >
+        <md-slider ng-model="$parent.widgetValue" min="0" max="5" aria-label="volume" class="md-accent" md-range="" ng-change="onWidgetChange()"></md-slider>
     </md-slider-container>
 </div>  

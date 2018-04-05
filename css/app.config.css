@@ -847,10 +847,17 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
 
 .genre-widget {
   height: 60px; }
-  .genre-widget .genre-name {
-    font-family: "Myriad_Pro_Regular"; }
+  .genre-widget .genre-name-wrapper {
+    padding: 6px;
+    min-width: 120px; }
+    .genre-widget .genre-name-wrapper .remove-genre-container {
+      width: 20px;
+      content: ""; }
+    .genre-widget .genre-name-wrapper .genre-name {
+      font-family: "Myriad_Pro_Regular"; }
   .genre-widget .genre-name-container-small {
-    margin-left: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
     font-size: 14px;
     width: 200px; }
   .genre-widget .genre-name-container-big {
@@ -868,6 +875,8 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
       .genre-widget .slider-container md-slider .md-thumb::after {
         border-color: #13E3ED;
         background-color: #13E3ED; }
+  .genre-widget .slider-container-small {
+    margin-right: 10px; }
 
 .tag-switcher {
   width: 111px;
