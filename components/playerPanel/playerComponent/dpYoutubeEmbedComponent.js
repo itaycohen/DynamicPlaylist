@@ -191,8 +191,8 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, dpPlay
 		}
 		function onErrorCB(error) {
 			console.log("Youtube Player Event - onErrorCB");
-			console.log("	Error Data: " + e.data);
-
+			console.log("Error Data: " + error.data);
+			handlePlayerEnded();
 		}
 
 		function getPlayerHeight() {
