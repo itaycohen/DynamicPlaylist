@@ -51,7 +51,7 @@
 </head>
 
 
-<body ng-cloak >
+<body ng-cloak>
     <!--The app-->
     <div class="app" ng-class="getAppClass()" ng-controller="appController">
 
@@ -77,7 +77,7 @@
 
             <!--Right side-->
             <div flex-gt-sm layout="column" layout-align="start stretch" class="right-side boxWithHeight">
-                <dp-dynamic-playlist></dp-dynamic-playlist>
+                <dp-dynamic-playlist ng-class="getPlaylistClass()"></dp-dynamic-playlist>
             </div>
         </div>
         <!-- <div ng-class="getPlayingBarClass()" layout="row" class="now-playing-bar-container"></div> -->

@@ -2,8 +2,10 @@
 
 body {
     color: white;
+    background: #120e2d;  // we need this in 'body' and 'app' for mobile
+
     .app {
-        background: #120e2d;
+        background: #120e2d;  // we need this in 'body' and 'app' for mobile
         // background: linear-gradient(to top, #220538, #220A37);
         // background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
         background-size: cover;
@@ -135,6 +137,10 @@ body {
         .main-view-small {
             padding-bottom: 60px;
         }
+
+        .dynamic-playlist-big {
+            overflow-y: auto;
+        }
         
         
         // toolbar height is 56px
@@ -148,6 +154,8 @@ body {
         }
     }
     .app-horizontal {
+        height: 100%;
+
         .icon-container {
             width: 42px;
             height: 42px;

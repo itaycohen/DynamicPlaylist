@@ -82,7 +82,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     $scope.getGenreManagerWarpperClass = function () {
         if (dpAppUtils.isDesktop()) {
-            return "genre-manager-wrapper-horizontal";
+            return "genre-manager-wrapper-horizontal scroll-style";
         }
         return "genre-manager-wrapper-vertical";
     };

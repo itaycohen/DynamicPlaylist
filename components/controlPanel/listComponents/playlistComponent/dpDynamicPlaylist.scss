@@ -224,23 +224,6 @@
     }
 }
 
-.playlist-wrapper::-webkit-scrollbar {
-    width: 8px;
-}
-
-.playlist-wrapper::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    background: hsla(0, 0%, 100%, .23);
-}
-
-.playlist-wrapper::-webkit-scrollbar-track {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background: hsla(0, 0%, 100%, .15);
-}
 
 // making the playlist to be scrollable (only in desktop)
 //big view - row layout (not small as in mobile - row)
@@ -264,8 +247,6 @@
     fill: white;
     opacity: 0.8;
 }
-
-
 
 .bars {
     

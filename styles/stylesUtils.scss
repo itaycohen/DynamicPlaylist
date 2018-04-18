@@ -6,3 +6,21 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; 
   }
+
+.scroll-style::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: hsla(0, 0%, 100%, .23);
+}
+
+.scroll-style::-webkit-scrollbar-track {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: hsla(0, 0%, 100%, .15);
+}

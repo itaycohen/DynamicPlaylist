@@ -10,13 +10,13 @@ var app = angular.module('dynamicPlaylistApp', [
     'dpGenreWidgetComponent',
     'dpTagSwitcherComponent',
     'dpDynamicPlaylist',
-    'dpPlayingBar' 
+    'dpPlayingBar'
 ]);
 
 app.run(['$rootScope', 'dpSongsListLoaderService', 'dpSongsListLogic', 'dpPlayerService', function ($rootScope, dpSongsListLoaderService, dpSongsListLogic, dpPlayerService) {
 
 
-    
+
     // init the player state - pause
     dpPlayerService.initPlayerService();
 
@@ -48,7 +48,7 @@ app.config(function ($mdThemingProvider, $locationProvider) {
     $locationProvider.html5Mode({
         enabled: true,
         requireBase: false
-        });
+    });
 });
 
 
@@ -90,5 +90,15 @@ function appController($scope, $mdMedia, $mdDialog, dpAppUtils) {
         }
         return "app-vertical";
     };
-}
 
+    $scope.getPlaylistClass = function () {
+        var classes = [];
+        if (dpAppUtils.isDesktop()) {
+            classes.push("dynamic-playlist-big");
+        }
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            classes.push("scroll-style");
+        } 
+        return classes.join(" ");
+    };
+}
