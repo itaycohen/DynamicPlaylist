@@ -49,7 +49,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         updateWeightDistanceFactor: updateWeightDistanceFactor,
         updateUserTagsMap : updateUserTagsMap,
 
-        setNewUserGenresAndTagsData: setNewUserGenresAndTagsData,
+        storeUserGenresAndTagsData : storeUserGenresAndTagsData,
         getSongImgSrcByIndex : getSongImgSrcByIndex,
         getSongDurationByIndex : getSongDurationByIndex,
         printTime : printTime
@@ -146,22 +146,42 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
     }
 
+
     // TODO - can move to different service - user data service 
     function initUserData() {
-        if (isUrlWithParams()) {
-            // getting the genres and tags array of the given url video id
-            var videoGenresAndTagsPairArr = getVideoGenresAndTagsPairArr(getUrlVideoId());
-            // fix the genre arr  1. switch all zeros to -1
-            //                    2.in case there are more than 5 genres
-            var videoGenreArr = fixVideoGenreArr(videoGenresAndTagsPairArr[0]);
-            var vidoeTagsArr = videoGenresAndTagsPairArr[1];
-            initUserDataWithValues([videoGenreArr, vidoeTagsArr], true);
-        } else {
-            initUserDataWithValues([defaultGenresMap, defaultTagsMap], false);
+        // user browser supports in localStorage
+        if (localStorage) {
+            // Retrieve the users data.
+            var userGenresAndTagsDataStr = localStorage.getItem(LOCAL_STORAGE_GENRES_AND_TAGS_KEY);
+            if (isObjectDefined(userGenresAndTagsDataStr)) { // exist/old user
+                var userGenresAndTagsDataObj;
+                try {
+                    userGenresAndTagsDataObj = JSON.parse(userGenresAndTagsDataStr);
+                    if (isValidUserGenresAndTagsDataObj(userGenresAndTagsDataObj)) {
+                        $rootScope.userGenresMap = userGenresAndTagsDataObj.genres;
+                        // TODO TICKET 003 - adding tagging
+                        // $rootScope.userTagsMap = userGenresAndTagsDataObj.tags;
+                        $rootScope.userTagsMap = {"n":0,"h":0,"t":0};
+                        return;
+                    } else {
+                        // thu user has the an old data structure of userData
+                        // as new user
+                        setNewUserGenresAndTagsData();
+                    }
+                } catch (e) {
+                    console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresAndTagsDataStr);
+                }
+
+            } else { // new user
+                setNewUserGenresAndTagsData();
+            }
+
+        } else { // no local storage
+            setNewUserGenresAndTagsData();
         }
+
     }
 
-            
     function fixVideoGenreArr(genresArr) {
         // counting genres weightes bigger than 0
         var countBiggerThanZero = 0;
@@ -227,48 +247,6 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         }
     }
 
-    function initUserDataWithValues(genresAndTagsPairArr, isUrlWithParams) {
-        //fallback if the user doesnt have localStorage
-        $rootScope.userGenresMap = genresAndTagsPairArr[0];
-        $rootScope.userTagsMap = genresAndTagsPairArr[1];
-
-        // user browser supports in localStorage
-        if (localStorage) {
-            // TODO 
-            // cleanHistoricDataStructure();
-            //setting function for leaving the application
-            // window.onbeforeunload = storeUserGenresData;
-
-            // the user didnt have video id as url params - regular flow
-            if (!isUrlWithParams) {
-                // Retrieve the users data.
-                var userGenresAndTagsDataStr = localStorage.getItem(LOCAL_STORAGE_GENRES_AND_TAGS_KEY);
-                if (isObjectDefined(userGenresAndTagsDataStr)) {
-                    var userGenresAndTagsDataObj;
-                    try {
-                        userGenresAndTagsDataObj = JSON.parse(userGenresAndTagsDataStr);
-                        if (isValidUserGenresAndTagsDataObj(userGenresAndTagsDataObj)) {
-                            $rootScope.userGenresMap = userGenresAndTagsDataObj.genres;
-                            $rootScope.userTagsMap = userGenresAndTagsDataObj.tags;
-                            return;
-                        } else {
-                            // thu user has the an old data structure of userData
-                            setNewUserGenresAndTagsData();
-                        }
-                    } catch (e) {
-                        console.error("Error: " + e + " | Unable to parse local storage data. value: " + userGenresAndTagsDataStr);
-                    }
-                    // doc else - userGenresMap = defaultGenresMap;
-                } // doc else no user data setNewUserGenresData();
-            }
-            // 1. the user uses video id in url params -> need to store new data OR
-            // 2. the user doesn't have the app data (mmData) - first login or clear cache 
-            //    setting the default genres for the user data 
-            setNewUserGenresAndTagsData();
-        }         //doc else  // No support
-        // $rootScope.userGenresMap = defaultGenresMap;
-    }
-
     function isValidUserGenresAndTagsDataObj(dataObj) {
         return isValidGenresData(dataObj.genres) && isValidTagsData(dataObj.tags);
 
@@ -283,17 +261,44 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     }
 
     function setNewUserGenresAndTagsData() {
+        if (isUrlWithParams()) { // with url
+            // getting the genres and tags array of the given url video id
+            var videoGenresAndTagsPairArr = getVideoGenresAndTagsPairArr(getUrlVideoId());
+            // fix the genre arr  1. switch all zeros to -1
+            //                    2.in case there are more than 5 genres
+            updateUserMaps(fixVideoGenreArr(videoGenresAndTagsPairArr[0]),videoGenresAndTagsPairArr[1]);
+            if(localStorage) {
+                storeUserGenresAndTagsData()
+            }
+        } else { // without url
+            updateUserMaps(defaultGenresMap, defaultTagsMap);
+            if(localStorage) {
+                storeUserGenresAndTagsData()
+            }
+        }
+    }
+
+    function updateUserMaps(genresMap, tagsMap) {
+        $rootScope.userGenresMap = genresMap;
+        // TODO TICKET 003 - adding tagging
+        // $rootScope.userTagsMap = tagsMap;
+        $rootScope.userTagsMap = {"n":0,"h":0,"t":0};
+    }
+
+    function storeUserGenresAndTagsData() {
         var newUserGenreAndTagsData = {};
         newUserGenreAndTagsData.genres = $rootScope.userGenresMap;
-        newUserGenreAndTagsData.tags = $rootScope.userTagsMap;
+        // TODO TICKET 003 - adding tagging
+        // newUserGenreAndTagsData.tags = $rootScope.userTagsMap;
+        newUserGenreAndTagsData.tags = {"n":0,"h":0,"t":0};
         try {
             localStorage.setItem(LOCAL_STORAGE_GENRES_AND_TAGS_KEY, JSON.stringify(newUserGenreAndTagsData));
         }
         catch (e) {
             console.error("Error: " + e + " | Unable to set item to local storage data");
         }
-        return;
     }
+
 
     function getSongsIndexesList() {
         return $rootScope.songsIndexesList;
