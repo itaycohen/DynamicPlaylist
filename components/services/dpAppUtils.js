@@ -19,7 +19,7 @@ function dpAppUtils($mdMedia) {
     }
 
     function isDesktop() {
-        return $mdMedia('min-width: 1024px') && window.innerWidth > window.innerHeight;
+        return $mdMedia('min-width: 960px') && window.innerWidth > window.innerHeight;
     }
 
 

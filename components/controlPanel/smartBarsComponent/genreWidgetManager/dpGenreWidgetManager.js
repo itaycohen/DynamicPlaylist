@@ -55,7 +55,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         } else {
             $scope.showOnlySelectedGenreHint = false;
         }
-        
+
         if ($scope.selectedGenresNames.length > 4) {
             $scope.showMaxGenresHint = true;
         } else {
@@ -77,7 +77,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         dpSongsListLogic.updateWeightDistanceFactor();
         dpSongsListLogic.updateGenreWeightsDistancesListByCurrentWidget();
         // we save the user genres data after each genre adding/removing
-        dpSongsListLogic.setNewUserGenresAndTagsData();
+        dpSongsListLogic.storeUserGenresAndTagsData();
     };
 
     // The md-select directive eats keydown events for some quick select
@@ -89,19 +89,19 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     $scope.updateSongIndexesListWithGenre = function (genre, widgetValue) {
         dpSongsListLogic.updateGenreWeightsDistancesList(genre, widgetValue);
         // we save the user genres data after each change
-        dpSongsListLogic.setNewUserGenresAndTagsData();
+        dpSongsListLogic.storeUserGenresAndTagsData();
     };
 
     $scope.updateSongIndexesListWithTagName = function (tagName, tagState) {
         dpSongsListLogic.updateSongIndexesListByTagIfNeeded(tagName, tagState);
         // we save the user genres data after each change
-        dpSongsListLogic.setNewUserGenresAndTagsData();
+        dpSongsListLogic.storeUserGenresAndTagsData();
     };
     
 
     $scope.getGenreManagerWarpperClass = function () {
         if (dpAppUtils.isDesktop()) {
-            return "genre-manager-wrapper-horizontal";
+            return "genre-manager-wrapper-horizontal scroll-style";
         }
         return "genre-manager-wrapper-vertical";
     };

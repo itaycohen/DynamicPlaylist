@@ -95,24 +95,6 @@
     overflow-y: auto;
 }
 
-.genre-manager-wrapper-horizontal::-webkit-scrollbar {
-    width: 8px;
-}
-
-.genre-manager-wrapper-horizontal::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    background: hsla(0, 0%, 100%, .23);
-}
-
-.genre-manager-wrapper-horizontal::-webkit-scrollbar-track {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background: hsla(0, 0%, 100%, .15);
-}
-
 .selectGenreSelectorHeader {
     /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */
     margin-left: 50px;
