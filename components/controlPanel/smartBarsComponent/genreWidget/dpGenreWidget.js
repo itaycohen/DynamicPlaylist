@@ -13,7 +13,6 @@ function dpGenreWidget($rootScope, dpSongsListLogic) {
             genre: "@",
         },
         template: "<ng-include src='getTemplateUrl()'/>",
-        // templateUrl: "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidget.html",
         controller: dpGenreWidgetController
     };
     return directive;
@@ -44,9 +43,27 @@ function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
         if (dpAppUtils.isDesktop()) {
             //big view - row layout (not small as in mobile - row)
             // we want scrollbar on the playlit (not like in mobile that we want to use the "device" scroll)
-            return "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidgeFixWideScreen.html";
+            return "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidgetFixWideScreen.html";
         }
         return "components/controlPanel/smartBarsComponent/genreWidget/dpGenreWidgetLongVerticalScreen.html";
+    };
+
+    $scope.getRemoveGenreContainerClass = function() {
+        if ($scope.widgetValue == 0 && $scope.$parent.selectedGenresNames.length > 1) {
+            return "show-remove-genre-icon";
+        }
+        return "";
+    };
+
+    $scope.removeGenre = function(genre) {
+        $scope.$parent.removeGenreParent(genre);
+    };
+
+    $scope.getGenreNameWrapperClass = function() {
+        if ($scope.$parent.selectedGenresNames.length == 1) {
+            return "hide-remove-genre-icon";
+        }
+        return "";
     };
 
 }

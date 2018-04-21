@@ -2,28 +2,51 @@
     height: 60px;
 
     .genre-name-wrapper {
-
-        padding: 6px;
+        padding: 6px 6px 6px 0;
         min-width: 120px; // TODO - check the size
 
+        .genre-name-container {
+            padding: 5px 5px 5px 0; 
 
-        .remove-genre-container {
-            width: 20px;
-            content: "";
+            .remove-genre-container {
+                padding: 5px;
+                outline: none;
+                margin: 0 4px 3px 0;
+                opacity: 0;
+                cursor: auto;
+            }
+    
+            .show-remove-genre-icon {
+                opacity: 1;
+            }
+    
+            .genre-name {
+                font-family: "Myriad_Pro_Regular";
+            }
+    
+            &:hover {
+                .remove-genre-container {
+                    opacity: 1;
+                    cursor: pointer;
+                }
+            }
         }
 
-        .genre-name {
-            font-family: "Myriad_Pro_Regular";
+        .hide-remove-genre-icon:hover {
+            .remove-genre-container {
+                // we want to override the above remove-genre-container opacity class 
+                // we don't need important
+                // it's just in case the classes will be reoredered 
+                opacity: 0 !important;
+                cursor: auto;
+            }
         }
-
-        
 
     }
 
 
-
     .genre-name-container-small {
-        margin-left: 7px;
+        margin-left: 11px;
         margin-right: 7px;
         font-size: 14px;
         width: 200px;
@@ -36,6 +59,7 @@
     }
     .slider-container {
         width: 600px;
+        margin-left: 4px; 
         cursor: pointer;
         
         md-slider { 

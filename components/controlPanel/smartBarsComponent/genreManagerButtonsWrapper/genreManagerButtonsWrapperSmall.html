@@ -22,7 +22,7 @@
                         <input ng-model="searchTerm" type="search" placeholder="Search for a genre..." class="demo-header-searchbox md-text">
                     </md-select-header>
                     <md-optgroup label="allGenresNames">
-                        <md-option ng-click="onOptionClick(genre)" ng-value="genre" ng-repeat="genre in allGenresNames | filter:searchTerm" ng-disabled="isGenreDisabled(genre)">
+                        <md-option ng-value="genre" ng-repeat="genre in allGenresNames | filter:searchTerm" ng-disabled="isGenreDisabled(genre)">
                             {{genre}}
                         </md-option>
                     </md-optgroup>

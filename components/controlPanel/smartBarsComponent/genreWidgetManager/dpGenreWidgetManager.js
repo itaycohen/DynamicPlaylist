@@ -19,6 +19,10 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     var MAXIMUM_GENRES = 5;
     var MINIMUM_GENRES = 1;
 
+    $scope.showOnlySelectedGenreHint = false;
+    $scope.showMaxGenresHint = false;
+    
+
     // getting the genres NAMES from the logic
     $scope.selectedGenresNames = dpSongsListLogic.getUserGenresNames();
     // $scope.allGenresNames = dpSongsListLogic.geAllGenresNames();
@@ -29,7 +33,7 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         return $scope.selectedGenresNames.indexOf(genre) > -1;
     };
 
-    $scope.isGenreDisabled = function (genre) {
+    $scope.isGenreDisabled = function(genre) {
         //checking if the genre is already selected, 
         // if yes, we want to enabled this genre in order to remove it
         if ($scope.selectedGenresNames.indexOf(genre) > -1) {
@@ -40,11 +44,26 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         return $scope.selectedGenresNames.length >= MAXIMUM_GENRES;
     };
 
-    // $scope.onOptionClick = function (genre) {
-    //     if ($scope.isGenreDisabled(genre)) {
-    //         alert("disabled");
-    //     }
-    // };
+    $scope.isOnlySelectedGenre = function(genre) {
+        //checking if the genre is the only selected, 
+        return ($scope.selectedGenresNames[0] === genre);
+    };
+
+    $scope.onOptionClick = function(genre) {
+        if ($scope.selectedGenresNames.length == 1 && $scope.selectedGenresNames[0] === genre) {
+            $scope.showOnlySelectedGenreHint = true;
+        } else {
+            $scope.showOnlySelectedGenreHint = false;
+        }
+        
+        if ($scope.selectedGenresNames.length > 4) {
+            $scope.showMaxGenresHint = true;
+        } else {
+            $scope.showMaxGenresHint = false;
+        }
+    };
+
+    
 
     $scope.searchTerm = '';
     $scope.clearSearchTerm = function () {
@@ -92,7 +111,18 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
             return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
 		}
         return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperSmall.html";
-	};
+    };
+    
+    $scope.removeGenreParent = function(genre) {
+        if ($scope.selectedGenresNames.length > 1) {
+            var index = $scope.selectedGenresNames.indexOf(genre);
+            if (index > -1) {
+                $scope.selectedGenresNames.splice(index, 1);
+                $scope.onGenreSelectorChange();
+            }
+        }
+
+    };
 
     
 

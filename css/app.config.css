@@ -738,7 +738,8 @@ body {
       margin: -43px 0 0 0;
       width: 125px;
       height: 47px;
-      min-height: 47px; }
+      min-height: 47px;
+      z-index: 10; }
       .genre-manager-wrapper .genre-selector-container .genre-selector-wrapper .md-select-value span {
         display: none; }
     .genre-manager-wrapper .genre-selector-container md-select.md-default-theme .md-select-value,
@@ -755,7 +756,6 @@ body {
   .genre-manager-wrapper .genre-selector-container:active .add-genre-button {
     animation: active 1200ms ease 1 alternate; }
   .genre-manager-wrapper .genre-widget-area {
-    padding-left: 5px;
     padding-right: 8px; }
 
 .genre-manager-wrapper-vertical {
@@ -848,15 +848,28 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
 .genre-widget {
   height: 60px; }
   .genre-widget .genre-name-wrapper {
-    padding: 6px;
+    padding: 6px 6px 6px 0;
     min-width: 120px; }
-    .genre-widget .genre-name-wrapper .remove-genre-container {
-      width: 20px;
-      content: ""; }
-    .genre-widget .genre-name-wrapper .genre-name {
-      font-family: "Myriad_Pro_Regular"; }
+    .genre-widget .genre-name-wrapper .genre-name-container {
+      padding: 5px 5px 5px 0; }
+      .genre-widget .genre-name-wrapper .genre-name-container .remove-genre-container {
+        padding: 5px;
+        outline: none;
+        margin: 0 4px 3px 0;
+        opacity: 0;
+        cursor: auto; }
+      .genre-widget .genre-name-wrapper .genre-name-container .show-remove-genre-icon {
+        opacity: 1; }
+      .genre-widget .genre-name-wrapper .genre-name-container .genre-name {
+        font-family: "Myriad_Pro_Regular"; }
+      .genre-widget .genre-name-wrapper .genre-name-container:hover .remove-genre-container {
+        opacity: 1;
+        cursor: pointer; }
+    .genre-widget .genre-name-wrapper .hide-remove-genre-icon:hover .remove-genre-container {
+      opacity: 0 !important;
+      cursor: auto; }
   .genre-widget .genre-name-container-small {
-    margin-left: 7px;
+    margin-left: 11px;
     margin-right: 7px;
     font-size: 14px;
     width: 200px; }
@@ -865,6 +878,7 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
     letter-spacing: 1px; }
   .genre-widget .slider-container {
     width: 600px;
+    margin-left: 4px;
     cursor: pointer; }
     .genre-widget .slider-container md-slider {
       margin-right: 4px; }
