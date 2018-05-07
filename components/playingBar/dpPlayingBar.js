@@ -180,6 +180,15 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
         return {"max-width": maxWidth};
     }
 
+
+    $scope.onShareIconClick = function() {
+        FB.ui({
+            method: 'share',
+            display: 'popup',
+            href: 'https://www.mixshakemusic.com',
+          }, function(response){});
+    };
+
 }
 
 

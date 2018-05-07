@@ -527,22 +527,36 @@ body {
         margin-left: 10px; }
       .playing-bar .player-bar-middle-area .player-progress-bar-container .progress-bar-wrapper {
         cursor: pointer; }
-  .playing-bar .volume-control {
-    padding-right: 40px; }
-    .playing-bar .volume-control .speaker-icon-container {
+  .playing-bar .player-bar-right-area .share-area {
+    padding-left: 8px; }
+    .playing-bar .player-bar-right-area .share-area .share-icon-container {
       cursor: pointer;
       outline: none;
       width: 30px;
       height: 30px; }
-      .playing-bar .volume-control .speaker-icon-container svg {
+      .playing-bar .player-bar-right-area .share-area .share-icon-container svg {
+        width: 24px;
+        height: 24px;
         padding: 3px 4px 4px 4px;
         fill: rgba(255, 255, 255, 0.8); }
-      .playing-bar .volume-control .speaker-icon-container:hover svg {
+      .playing-bar .player-bar-right-area .share-area .share-icon-container:hover svg {
         fill: white; }
-    .playing-bar .volume-control .volume-control-slider {
+  .playing-bar .player-bar-right-area .volume-control {
+    padding-right: 40px; }
+    .playing-bar .player-bar-right-area .volume-control .speaker-icon-container {
+      cursor: pointer;
+      outline: none;
+      width: 30px;
+      height: 30px; }
+      .playing-bar .player-bar-right-area .volume-control .speaker-icon-container svg {
+        padding: 3px 4px 4px 4px;
+        fill: rgba(255, 255, 255, 0.8); }
+      .playing-bar .player-bar-right-area .volume-control .speaker-icon-container:hover svg {
+        fill: white; }
+    .playing-bar .player-bar-right-area .volume-control .volume-control-slider {
       height: 20px;
       cursor: pointer; }
-      .playing-bar .volume-control .volume-control-slider md-slider {
+      .playing-bar .player-bar-right-area .volume-control .volume-control-slider md-slider {
         min-width: 100px; }
   .playing-bar .song-details-area .song-img-container-small {
     padding-left: 10px; }
