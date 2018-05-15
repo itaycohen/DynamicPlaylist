@@ -188,10 +188,9 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
             display: 'popup',
             href: url,
             caption: 'An example caption',
-            hashtag: 'mixshake',
+            // hashtag: 'mixshake',
             quote: 'quote',
             description: 'description'
-
 
           }, function(response){});
     };
