@@ -432,7 +432,7 @@ body {
   position: fixed;
   width: 100%;
   bottom: 0;
-  z-index: 101; }
+  z-index: 51; }
   .playing-bar .player-controls-area-big {
     padding-left: 25px; }
     .playing-bar .player-controls-area-big .play-button-wrapper {
@@ -529,20 +529,8 @@ body {
         cursor: pointer; }
   .playing-bar .player-bar-right-area .share-area {
     padding-left: 8px; }
-    .playing-bar .player-bar-right-area .share-area .share-icon-container {
-      cursor: pointer;
-      outline: none;
-      width: 30px;
-      height: 30px; }
-      .playing-bar .player-bar-right-area .share-area .share-icon-container svg {
-        width: 24px;
-        height: 24px;
-        padding: 3px 4px 4px 4px;
-        fill: rgba(255, 255, 255, 0.8); }
-      .playing-bar .player-bar-right-area .share-area .share-icon-container:hover svg {
-        fill: white; }
   .playing-bar .player-bar-right-area .volume-control {
-    padding-right: 40px; }
+    padding-right: 30px; }
     .playing-bar .player-bar-right-area .volume-control .speaker-icon-container {
       cursor: pointer;
       outline: none;
@@ -675,6 +663,103 @@ body {
 @-moz-document url-prefix() {
   .playing-bar .player-bar-middle-area .playing-now-song-name-wrapper {
     top: 14px; } }
+
+.menu-item, .menu-open-button {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  transform: translate3d(0, 0, 0);
+  transition: transform ease-out 200ms;
+  z-index: 1;
+  text-decoration: none; }
+
+.menu-open {
+  display: none; }
+
+.menu-item:hover {
+  background: white; }
+
+.menu-item:nth-child(3) {
+  transition-duration: 180ms; }
+
+.menu-item:nth-child(4) {
+  transition-duration: 180ms; }
+
+.share-icon-container {
+  cursor: pointer;
+  outline: none;
+  width: 30px;
+  height: 30px; }
+  .share-icon-container svg {
+    fill: rgba(255, 255, 255, 0.8); }
+  .share-icon-container #share {
+    width: 22px;
+    height: 22px;
+    margin-left: -2px; }
+  .share-icon-container #close {
+    width: 15px;
+    height: 15px; }
+
+.facebook-icon {
+  background-color: #3b5998;
+  transform: scale(0.8, 0.8); }
+  .facebook-icon:hover {
+    color: #3b5998; }
+
+.twitter-icon {
+  background-color: #00aced;
+  transform: scale(0.8, 0.8); }
+  .twitter-icon:hover {
+    color: #00aced; }
+
+.menu-open-button {
+  background: #282828;
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  transform: translate3d(0, 0, 0);
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .menu-open-button #close {
+    display: none; }
+
+.menu-open-button:hover {
+  background: white;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0); }
+  .menu-open-button:hover svg {
+    fill: #282828; }
+
+.menu-open:checked + .menu-open-button {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+  background: white; }
+  .menu-open:checked + .menu-open-button svg {
+    fill: #282828; }
+  .menu-open:checked + .menu-open-button #share {
+    display: none; }
+  .menu-open:checked + .menu-open-button #close {
+    display: inline; }
+
+.menu-open:checked ~ .menu-item {
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .menu-open:checked ~ .menu-item:nth-child(3) {
+    transition-duration: 190ms;
+    transform: translate3d(45px, 0, 0); }
+  .menu-open:checked ~ .menu-item:nth-child(4) {
+    transition-duration: 290ms;
+    transform: translate3d(90px, 0, 0); }
+
+.share-icon-tooltip {
+  padding-bottom: 4px; }
 
 .player-wrapper-horizontal {
   margin-left: 12px; }
@@ -876,7 +961,12 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
         outline: none;
         margin: 0 4px 3px 0;
         opacity: 0;
-        cursor: auto; }
+        cursor: auto;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s; }
       .genre-widget .genre-name-wrapper .genre-name-container .show-remove-genre-icon {
         opacity: 1; }
       .genre-widget .genre-name-wrapper .genre-name-container .genre-name {

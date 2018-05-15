@@ -181,13 +181,25 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     }
 
 
-    $scope.onShareIconClick = function() {
+    $scope.onFacebookShareIconClick = function() {
+        var url = window.location.href;
         FB.ui({
             method: 'share',
             display: 'popup',
-            href: 'https://www.mixshakemusic.com',
+            href: url,
+            caption: 'An example caption'
           }, function(response){});
     };
+
+    $scope.onTwitterShareIconClick = function() {
+        var url = window.location.href;
+        var text = "I'm listening to Mixshake! " + url + "&hashtags=mixshake";
+        var twiiterParam = "http://twitter.com/intent/tweet?text=" + text;
+        window.open(twiiterParam, 'twitterwindow','left=200,top=200,width=600,height=300,toolbar=0,resizable=1'); return false;
+    };
+
+
+    
 
 }
 
