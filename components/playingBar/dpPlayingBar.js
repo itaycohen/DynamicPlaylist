@@ -184,7 +184,7 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     $scope.onFacebookShareIconClick = function() {
         var url = window.location.href;
         FB.ui({
-            // picture: 'https://i.imgur.com/uqgN5en.png'
+            picture: 'https://i.imgur.com/uqgN5en.png',
             method: 'share',
             display: 'popup',
             href: url,
