@@ -1,47 +1,48 @@
 
+$search-genres-button-width-horizontal: 250px;
+$search-genres-button-width-vertical: 250px;
+$genre-selector-text-color:$app-background-color;
+
+
 
 
 .genre-manager-wrapper {
     // we always want left and top
-    // background: rgba(0, 0, 0, 0.09);
     background: rgba(255, 255, 255, 0.06);
     
     border-radius: 12px;
     .genre-selector-container {
-        // in order to catch the hover & active event of the user pointer
-        width: 136px;
-        height: 47px;
+
+        $search-genres-button-height: 37px;
+
         .add-genre-button {
             font-family: Arial, sans-serif;
-            color: white;
+            // color: white;
+            color: $genre-selector-text-color;
             font-weight: bold;
             font-size: 13px;
             padding-left: 14px;
             letter-spacing: 0.5px;
-            width: 111px;
-            line-height: 38px;
-            height: 37px;
-            min-height: 37px;
+           
+            line-height: $search-genres-button-height + 1px;
+            height: $search-genres-button-height;
+            min-height: $search-genres-button-height;
             border-radius: 20px;
-            background: #fb3c89;
-            @include gradientBg(180deg, #fb3c89, #fc3286);
+            background: rgba(255, 255,255, 0.95); 
 
             .search-sign {
                 padding-right: 4px;
                 margin-top: 9px;
+
+                svg {
+                    fill: $genre-selector-text-color;
+                }
             }
         }
-        .md-select:hover+.add-genre-button {
-            background: #FB38A6; // #ff00de
-            @include gradientBg(180deg, #fb38a6, #fc2ea2);
-            animation: hover 1200ms linear 2 alternate;
-            // transform: scale(1.025);
-        }
         .genre-selector-wrapper {
-            margin: -43px 0 0 0; // background: red;
-            width: 125px;
-            height: 47px;
-            min-height: 47px;
+            margin: -43px 0 0 0; 
+            height: $search-genres-button-height + 10px;;
+            min-height: $search-genres-button-height + 10px;;
             z-index: 10;
             .md-select-value {
                 span {
@@ -57,35 +58,15 @@
             border-bottom: none;
         }
     }
-    .genre-selector-container:hover {
-        .add-genre-button {
-            @include gradientBg(180deg, #FB38A6, #fc2ea2);
-            animation: hover 1200ms linear 2 alternate;
-            // transform: scale(1.025);
-        }
-    }
-    .genre-selector-container:active {
-        .add-genre-button {
-            // background: #FB38A6; // #ff00de
-            animation: active 1200ms ease 1 alternate; 
-            // transform: scale(0.97);
-        }
-    }
+
     .genre-widget-area {
         padding-right: 8px;
     }
-}
 
-.genre-manager-wrapper-vertical {
-    padding-top: 4px; // common sides
-    margin-left: 6px;
-    margin-top: 6px; //different side
-    margin-right: 6px;
-    .genre-selector-container {
-        margin-top: 10px;
-        margin-left: 12px;
+    .tag-switchers-wrapper {
+        margin-top: 5px;
     }
-}
+} //.genre-manager-wrapper
 
 .genre-manager-wrapper-horizontal {
     padding: 15px 15px 0 15px; // common sides
@@ -93,12 +74,69 @@
     margin-top: 12px; //different side
     margin-bottom: 12px; // adding scroll bar when the window heigt is too small for all the genres
     overflow-y: auto;
+
+    .genre-selector-container {
+        // in order to catch the hover & active event of the user pointer
+        width: $search-genres-button-width-horizontal + 9px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        .add-genre-button {
+            width: $search-genres-button-width-horizontal;
+        }
+
+        .md-select:hover+.add-genre-button {
+            animation: hover 1200ms linear 2 alternate;
+        }
+
+        .genre-selector-wrapper {
+            width: $search-genres-button-width-horizontal + 14px;
+        }
+
+    }
+
+    .genre-selector-container:hover {
+        .add-genre-button {
+            animation: hover 1200ms linear 2 alternate;
+        }
+    }
+
+}
+
+
+.genre-manager-wrapper-vertical {
+    padding-top: 4px; // common sides
+    margin-left: 6px;
+    margin-top: 6px; //different side
+    margin-right: 6px;
+    .genre-selector-container {
+        // in order to catch the hover & active event of the user pointer
+        width: $search-genres-button-width-vertical + 9px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+        margin-left: 12px;
+
+        .add-genre-button {
+            width: $search-genres-button-width-vertical;
+        }
+        .genre-selector-wrapper {
+            width: $search-genres-button-width-vertical + 14px;
+        }
+
+    }
+
+    .tag-switchers-wrapper {
+        margin-top: 0px;
+    }
 }
 
 .selectGenreSelectorHeader {
     /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 42px;
+    min-width: $search-genres-button-width-vertical +1px !important;
 }
+
+
 
 .selectGenreSelectorHeader .demo-header-searchbox {
     border: none;
@@ -122,9 +160,10 @@
 
 md-select-menu {
     min-height: 300px;
-    min-width: 280px;
+    // min-width: 280px;
     border-radius: 10px;
-
+    border: 1px solid lightgray;
+    background: white;
 }
 
 
@@ -136,66 +175,4 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
     max-height: 440px;
 }
 
-// .tag-switchers-wrapper dp-tag-switcher:first-child  {
-//     .tag-switcher {
-//         border-radius: 14px 0 0 14px;
-//     }
-// }
 
-// .tag-switchers-wrapper dp-tag-switcher:last-child  {
-//     .tag-switcher {
-//         border-radius: 0 14px 14px 0;
-//     }
-// }
-
-
-.tag-switchers-wrapper {
-    // white-space: nowrap;
-    // min-height: 33px;
-    // position: relative;
-    // width: 205px;
-    // margin: 0 auto;
-}
-
-// .rounded-left-border {
-//     width: 10px;
-//     height: 37px;
-//     background: #2c3e50;
-// }
-
-.tag-switchers-wrapper dp-tag-switcher {
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    // zoom: 1;
-    // background: #7f8c8d;
-  }
-
-//   .tag-switchers-wrapper dp-tag-switcher .tag-switcher {
-//     float: left;
-//     margin-left: -4px;
-//   }
-
-  .tag-switchers-wrapper>.dp-tag-switcher:first-child,
-  .tag-switchers-wrapper dp-tag-switcher:first-child .tag-switcher {
-    // margin-left: 0;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-  }
-  
-  .tag-switchers-wrapper>.tag-switcher:last-child,
-  .tag-switchers-wrapper dp-tag-switcher:last-child>.tag-switcher {
-    // margin-right: 0;
-    -webkit-border-top-right-radius: 3px;
-    -webkit-border-bottom-right-radius: 3px;
-    -moz-border-radius-topright: 3px;
-    -moz-border-radius-bottomright: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-  }
- 

@@ -28,7 +28,7 @@ function dpTagSwitcherController($scope, dpSongsListLogic, dpAppUtils) {
     $scope.tagState = dpSongsListLogic.getTagStateByName($scope.tagName);
 
     $scope.getTagSwitcherStateClass = function() {
-        return $scope.tagState ? "active" : "";
+        return $scope.tagState ? "active-switch" : "";
     };
 
     $scope.getTagName = function () {
@@ -46,5 +46,20 @@ function dpTagSwitcherController($scope, dpSongsListLogic, dpAppUtils) {
     function switchTagState(tagState) {
         return !tagState;
     }
+
+    $scope.shouldShowIcon = function (tagName) {
+        return tagName === $scope.tagName;
+    };
+
+    $scope.getTagSwitcherClass = function () {
+        if (!dpAppUtils.isDesktop()) {
+            return "small-view";
+        } else {
+            return "big-view";
+            
+        }
+    };
+
+    
 
 }

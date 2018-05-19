@@ -1,163 +1,143 @@
-.tag-switcher {
+$bounce: cubic-bezier(.5, 0, 0, 1.5);
+$bounce-lg: cubic-bezier(.5, 0, 0, 3);
+$duration: 0.15s;
+$button-inactive-inner-color:rgba(255, 255, 255, 0.6);
+$button-active-inner-color: $app-background-color;
+$tag-switcher-height-big: 37px;
+$tag-switcher-height-small: 30px;
+
+
+
+.tag-switcher-container {
+  padding: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  outline: none;
+  cursor: pointer;
+
+  .tag-switcher {
     width: 111px;
-    height: 37px;
-    line-height: 38px;
-    // padding: 40px 30px 30px 30px;
-    // font-family: Arial, sans-serif;
-    font-size: 15px;
-    margin: 0 1px 0 0;
-    text-decoration: none;
-    text-align: center;
-    color: #7f8c8d;
-    //a675b3
-    cursor: pointer;
-    outline: none;
-    // background: #2c3e50;
-    background: #354c63;
-    // background-image: linear-gradient(#271739, #271739);
-    background-image: linear-gradient(#1f132e, #1f132e);
-    
-    // border-bottom: 4px solid #34495e;
-    border-bottom: 4px solid rgba(25, 46, 66, 0.78);
-    
-    
-    transition-property: border-bottom .6s linear 0s;
-    -moz-transition: border-bottom .6s linear 0s;
-    -webkit-transition: border-bottom .6s linear 0s;
-    -o-transition: border-bottom .6s linear 0s;
+    height: $tag-switcher-height-big;
+    min-height: $tag-switcher-height-big;
+    line-height: $tag-switcher-height-big;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    color: $button-inactive-inner-color;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    background-color: rgba(105, 105, 105, 0.42);
+    @include transition(all $duration $bounce);
+
+    .icon-sign {
+      @include transition(all $duration $bounce);
+      .icon-sign-container {
+        padding-top: 9px;
+        padding-left: 14px;
+        padding-right: 10px;
+
+        svg {
+          width: 18px;
+          height: 18px;
+          fill: $button-inactive-inner-color;
+        }
+      }
+
+      .new-sign {
+        padding-top: 10px;
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      .trending-sign {
+        padding-right: 7px;
+      }
+    }
+  
+    &.active-switch { //tag-switcher 
+      @include gradientBg(180deg, #ffc900, #ffa400);
+      color: $button-active-inner-color;
+
+      .icon-sign-container {
+        svg {
+          fill: $button-active-inner-color;
+        }
+      }
+    } //&.active-switch
+  }// .tag-switcher
+
 }
 
-.tag-switcher.active {
-    border-bottom: 4px solid #13e3ed;
-    color: #13e3ed;
+.big-view {
+
+  .tag-switcher {
+    @include transition(all $duration $bounce);
+
+    &:hover {
+      animation: hover 1200ms linear 2 alternate;
+      background-color: rgba(0,0,0,0.4);
+      color: white;
+
+      .icon-sign-container {
+        svg {
+          fill:white;
+        }
+      }
+    }
+
+    &.active-switch { //tag-switcher 
+      color: $button-active-inner-color;
+
+      .icon-sign-container {
+        svg {
+          fill: $button-active-inner-color;
+        }
+      }
+    }
+
+    &:active {
+        animation: active 1200ms ease 1 alternate; 
+    }
   }
 
+}
 
-    .switcher-text {
-    font-family: "Myriad_Pro_Regular";
-    text-transform: uppercase;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; 
+.small-view {
+  margin-left: 2px;
+  margin-right: 2px;
+  .tag-switcher {
+    width: 92px;
+    height: $tag-switcher-height-small;
+    min-height: $tag-switcher-height-small;
+    line-height: $tag-switcher-height-small;
+    font-size: 12px;
+
+    .icon-sign {
+      .icon-sign-container {
+        padding-left:12px;
+        padding-right: 7px;
+        padding-top: 7px;
+
+        svg {
+          width: 15px;
+          height: 15px;
+        }
+      }
+      .new-sign {
+        padding-top: 8px;
+        padding-left:14px;
+        svg {
+          width: 14px;
+          height: 14px;
+        }
+      }
+      .trending-sign {
+        padding-left:10px;
+        padding-right: 5px;
+      }
+    }
   }
 
-
-
-// .tag-switcher-container {
-//     font-family: Arial, sans-serif;
-//     color: navy;
-//     font-weight: bold;
-//     font-size: 13px;
-//     padding-left: 14px;
-//     letter-spacing: 0.5px;
-//     width: 111px;
-//     line-height: 38px;
-//     height: 37px;
-//     min-height: 37px;
-//     border-radius: 15px;
-//     background: #D2DEF3;
-//     outline: none;
-//     margin-left: 6px;
-//     margin-right: 6px;
-//     // padding
-//     cursor: pointer;
-//     .search-sign {
-//         padding-right: 6px;
-//         margin-top: 11px;
-//     }
-// }
-
-
-.not {
-
-
-.tag-switcher {
-    animation: bounceInDown 900ms 200ms ease-in-out both;
-    width: 120px;
-    height: 33px;
-    // position: absolute;
-    // top: 0;
-    text-decoration: none;
-    padding-top: 9px;
-    outline-width: 0px;
-    z-index: 990;
-    color: #a675b3;
-    text-align: center;
-    line-height: 18px;
-    display: block;
-    cursor: pointer;
-  }
-
-  .switcher-text {
-    font-family: "Myriad_Pro_Regular";
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; 
-  }
-
-  .tag-switcher:not(.active) {
-    box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
-    background-image: linear-gradient(#3b2751, #271739);
-    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
-  }
-
-  .tag-switcher:not(.active):hover,
-  .tag-switcher:not(.active):focus {
-    transition: color 200ms linear, text-shadow 500ms linear;
-    color: #caadd2;
-    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
-  }
-
-  .tag-switcher:not(.active):active {
-    color: #13e3ed !important
-    //#60e8ef
-  }
-
-  .tag-switcher.active,
-  .tag-switcher:active {
-    box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(19, 227, 237, 0.78), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
-    background-image: linear-gradient(#1f132e, #311d47);
-    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
-    color: #13e3ed;
-  }
-
-  .tag-switcher.active:before,
-  .tag-switcher:active:before {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 1px;
-    height: 36px;
-    top: 1px;
-    left: -2px;
-    background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
-    box-shadow: -2px 0 6px 0 #5b2369;
-  }
-
-  .tag-switcher.active:after,
-  .tag-switcher:active:after {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 1px;
-    height: 36px;
-    top: 1px;
-    right: -2px;
-    background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
-    box-shadow: 2px 0 6px 0 #5b2369;
-  }
-
-  .tag-switcher.active {
-    z-index: 1000
-  }
-  
-  .tag-switcher:active {
-    z-index: 999
-  }
 }

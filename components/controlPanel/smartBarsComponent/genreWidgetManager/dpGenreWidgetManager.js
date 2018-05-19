@@ -13,8 +13,8 @@ function dpGenreWidgetManager(dpSongsListLogic) {
     return directive;
 }
 
-dpGenreWidgetManagerController.$inject = ["$scope", "$element", 'dpAppUtils', 'dpSongsListLogic'];
-function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsListLogic) {
+dpGenreWidgetManagerController.$inject = ["$scope", "$element", 'dpAppUtils', 'dpSongsListLogic', '$document', '$interval'];
+function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsListLogic, $document, $interval) {
 
     var MAXIMUM_GENRES = 5;
     var MINIMUM_GENRES = 1;
@@ -107,10 +107,10 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     };
 
     $scope.getGenreManagerButtonsWrapperTemp = function () {
-		if (dpAppUtils.isDesktop()) {
+		// if (dpAppUtils.isDesktop()) {
             return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperBig.html";
-		}
-        return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperSmall.html";
+		// }
+        // return "components/controlPanel/smartBarsComponent/genreManagerButtonsWrapper/genreManagerButtonsWrapperSmall.html";
     };
     
     $scope.removeGenreParent = function(genre) {
@@ -124,6 +124,24 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     };
 
-    
+    $scope.onGenreSelectorClick = function() {
+        $scope.isOpen = false;
+        $interval(scrollGenreSelectorToTop, 100, 10, false)
+    };
+
+
+    function scrollGenreSelectorToTop() {
+        var s = $document[0].getElementsByTagName('md-select-menu')[0];
+        var v = s.getElementsByTagName('md-content');
+        if (!$scope.isOpen && v.length > 0) {
+            $scope.isOpen = true;
+            v[0].scrollTo(0,0)
+        }
+    }
+
+    $scope.getMdContainerClass = function() {
+        return "selectGenreSelectorHeader";
+    };
+
 
 }

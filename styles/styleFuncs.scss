@@ -13,6 +13,14 @@
     -o-transition: $duration;
     transition: $duration;
 }
+
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+}
   
   
   /* Active state animation keyframes below */

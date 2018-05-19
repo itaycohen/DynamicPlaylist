@@ -9,12 +9,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     var FAKE_GENRE_WEIGHT = 2.5;
     var DEFAULT_WEIGHT = 3;
     var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
-    var allTagsNames = ["New", "Hit", "Trending"];
+    var allTagsNames = ["New", "Hits", "Trending"];
 
     var defaultGenresMap = [3, -1, -1, 2, -1, -1, -1, 3, -1, -1, -1, 4, -1, -1, -1, -1, -1, -1, -1, -1];
     var LOCAL_STORAGE_GENRES_KEY = 'mm-data-genres';
 
-    var defaultTagsMap = [0, 0, 0]; // new, hit, trending
+    var defaultTagsMap = {"n":0,"h":1,"t":0}; // new, hits, trending
     var LOCAL_STORAGE_TAGS_KEY = 'mm-data-tags';
 
     var LOCAL_STORAGE_GENRES_AND_TAGS_KEY = 'mm-data-genrestags';
@@ -159,9 +159,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
                     userGenresAndTagsDataObj = JSON.parse(userGenresAndTagsDataStr);
                     if (isValidUserGenresAndTagsDataObj(userGenresAndTagsDataObj)) {
                         $rootScope.userGenresMap = userGenresAndTagsDataObj.genres;
-                        // TODO TICKET 003 - adding tagging
-                        // $rootScope.userTagsMap = userGenresAndTagsDataObj.tags;
-                        $rootScope.userTagsMap = {"n":0,"h":0,"t":0};
+                        $rootScope.userTagsMap = userGenresAndTagsDataObj.tags;
                         return;
                     } else {
                         // thu user has the an old data structure of userData
@@ -253,11 +251,21 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     }
 
     function isValidGenresData(genresArr) {
-        return genresArr.length === allGenresNames.length;
+        return isArray(genresArr) && genresArr.length === allGenresNames.length;
     }
 
     function isValidTagsData(tagsObj) {
-        return  Object.keys(tagsObj).length === allTagsNames.length;
+        return isObject(tagsObj) && Object.keys(tagsObj).length === allTagsNames.length;
+    }
+
+    function isArray(arr) {
+        var arrayConstructor = [].constructor;
+        return arr.constructor === arrayConstructor;
+    }
+
+    function isObject(object) {
+        var objectConstructor = {}.constructor;
+        return object.constructor === objectConstructor;
     }
 
     function setNewUserGenresAndTagsData() {
@@ -280,17 +288,13 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
     function updateUserMaps(genresMap, tagsMap) {
         $rootScope.userGenresMap = genresMap;
-        // TODO TICKET 003 - adding tagging
-        // $rootScope.userTagsMap = tagsMap;
-        $rootScope.userTagsMap = {"n":0,"h":0,"t":0};
+        $rootScope.userTagsMap = tagsMap;
     }
 
     function storeUserGenresAndTagsData() {
         var newUserGenreAndTagsData = {};
         newUserGenreAndTagsData.genres = $rootScope.userGenresMap;
-        // TODO TICKET 003 - adding tagging
-        // newUserGenreAndTagsData.tags = $rootScope.userTagsMap;
-        newUserGenreAndTagsData.tags = {"n":0,"h":0,"t":0};
+        newUserGenreAndTagsData.tags = $rootScope.userTagsMap;
         try {
             localStorage.setItem(LOCAL_STORAGE_GENRES_AND_TAGS_KEY, JSON.stringify(newUserGenreAndTagsData));
         }
@@ -668,7 +672,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         switch (tagName) {
             case "New":
                 return "n";
-            case "Hit":
+            case "Hits":
                 return "h";
             case "Trending":
                 return "t";

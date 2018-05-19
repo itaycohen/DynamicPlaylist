@@ -4,11 +4,9 @@
 
 .playlist-wrapper {
     font-family: "Myriad_Pro_Regular";
-    
-    //background: rgba(0, 0, 0, 0.09);
     background: rgba(255, 255, 255, 0.06);
-    
     border-radius: 12px;
+
     .playlist-title {
         padding-left: 13px;
         margin-top: 11px;
@@ -24,6 +22,7 @@
     .sub-title {
         font-size: 20px;
     }
+
     .song-item {
         .song-number {
             width: 20px;
@@ -49,11 +48,9 @@
             }
         }
 
-
-
-
         .full-song-name-big {
             font-size: 17px;
+
             .song-name {
                 letter-spacing: 1px;
                 font-size: 16px;
@@ -71,49 +68,36 @@
                 font-size: 13px; 
             }
         }
-
         .song-duration {
             color: #ebe8ec;
             
         }
-
         .song-duration-big {
             font-size: 16px;
         }
-
         .song-duration-big-playing {
             font-size: 18px;
             margin-top: 36px;
             margin-right: 16px;
-
         }
-
         .song-duration-small {
             margin-right: 0px; 
-            
             font-size: 12px;
         }
-
         .song-duration-small-playing {
             font-size: 13px;
             margin-top: 36px;
             margin-right: 1px;
-
         }
-        
         .bars-wrapper-small {
             margin-right: 1px;
         }
-
         .bars-big {
             height: 51px;
         }
-
         .bars-small {
             height: 40px;
         }
-            
- 
     }
     .song-item-container-teen-number {
         .song-number-big {
@@ -138,33 +122,24 @@
             background-color: transparent;
             ;
         }
-
         .song-image-big {
             width: 58px;
             height: 58px;
             background: transparent url("../../../../media/gifs/rollingBig.gif") center no-repeat;
         }
-
         .song-image-small {
             width: 47px;
             height: 47px;
             background: transparent url("../../../../media/gifs/rollingSmall.gif") center no-repeat;
         }
-
         .song-image-big-play {
             width: 70px;
             height: 70px;
-
         }
-
         .song-image-small-play {
             width: 62px;
             height: 62px;
-            
         }
-
-        
-
     }
     .now-playing-song { 
         padding-bottom: 10px;
@@ -181,15 +156,9 @@
             display: none;
         }
     }
-
-    // .hover-song:hover{
-    //     display: none;
-    // }
-
     .play-button {
         cursor: pointer;
     }
-
 
     .show-more-less-button {
         margin: 3px 0 3px 0;
@@ -208,14 +177,12 @@
         outline: none;
         background: #13e3ed;
         @include gradientBg(180deg, #13e3ed, #49e1e8);
-
         &:hover {
             background: #13e3ed; // #ff00de
             @include gradientBg(180deg, #39ebf1, #5ef4f7);
             animation: hover 1200ms linear 2 alternate;
             // transform: scale(1.025);
         }
-    
         &:active {
             animation: active 1200ms ease 1 alternate; 
             // transform: scale(0.97);

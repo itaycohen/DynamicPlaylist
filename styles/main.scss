@@ -1,11 +1,9 @@
-
-
 body {
     color: white;
-    background: #120e2d;  // we need this in 'body' and 'app' for mobile
+    background: $app-background-color;  // we need this in 'body' and 'app' for mobile
 
     .app {
-        background: #120e2d;  // we need this in 'body' and 'app' for mobile
+        background: $app-background-color;  // we need this in 'body' and 'app' for mobile
         // background: linear-gradient(to top, #220538, #220A37);
         // background-image: url("../media/images/app_bg_xlarge_horizontal.jpg");
         background-size: cover;
