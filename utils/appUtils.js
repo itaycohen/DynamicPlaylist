@@ -87,7 +87,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
-    var duplicatesSongNames = ["Levels","Youth","Shots","Call It What You Want","Kids", "Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X", "Anywhere"];
+    var duplicatesSongNames = ["Levels","Youth","Shots","Call It What You Want","Kids", "Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X", "Anywhere", "Zombie"];
 
 
     // Adding Songs
