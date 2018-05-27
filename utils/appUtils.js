@@ -1667,7 +1667,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     function updateCurrentSong(currentSong, newRawSongList) {
 
-        sleepFor(200);
+        sleepFor(100);
 
         var i = currentSong.index;
         currentSong.tagging = {};

@@ -434,9 +434,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": true,
-            "trending": true
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -754,7 +754,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -834,7 +834,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -874,9 +874,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -954,7 +954,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -1354,8 +1354,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
+            "new": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -1434,7 +1434,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -1554,7 +1554,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -2196,7 +2196,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2234,9 +2234,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2276,7 +2276,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2314,7 +2314,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -2354,9 +2354,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2394,9 +2394,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2434,9 +2434,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2474,9 +2474,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2514,9 +2514,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2554,9 +2554,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2594,9 +2594,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2714,9 +2714,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2794,9 +2794,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2834,9 +2834,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2874,9 +2874,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -2914,7 +2914,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -2996,7 +2996,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3034,9 +3034,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3074,9 +3074,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3114,9 +3114,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3154,9 +3154,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3194,9 +3194,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3234,9 +3234,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3474,9 +3474,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": true,
-            "trending": true
+            "new": false,
+            "hit": false,
+            "trending": false
         }
     },
     {
@@ -3676,7 +3676,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -3714,9 +3714,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -4114,9 +4114,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -4715,8 +4715,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -4796,7 +4796,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -4834,8 +4834,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
+            "new": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -4994,7 +4994,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -5276,7 +5276,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -5635,7 +5635,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -6154,9 +6154,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -6194,9 +6194,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -6235,8 +6235,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -6274,7 +6274,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -6315,8 +6315,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -7634,7 +7634,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -7794,7 +7794,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -7834,7 +7834,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -7874,7 +7874,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -7914,7 +7914,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -7954,7 +7954,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -7994,7 +7994,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -8034,7 +8034,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -8074,7 +8074,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -8154,9 +8154,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -8194,7 +8194,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -8234,9 +8234,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -8276,7 +8276,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -8315,7 +8315,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -8354,9 +8354,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -8394,9 +8394,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -8434,9 +8434,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
-            "trending": true
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -8474,7 +8474,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -8555,8 +8555,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -8755,7 +8755,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -8835,7 +8835,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -9995,7 +9995,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -10394,7 +10394,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -11555,7 +11555,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -12435,7 +12435,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -12555,8 +12555,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -12596,7 +12596,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -12634,9 +12634,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -12676,7 +12676,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -12716,7 +12716,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -12794,9 +12794,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -12874,9 +12874,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -13034,7 +13034,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13074,7 +13074,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13114,7 +13114,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -13234,7 +13234,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13274,7 +13274,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13354,7 +13354,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13394,7 +13394,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13434,7 +13434,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13516,7 +13516,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -13794,7 +13794,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13914,7 +13914,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13954,7 +13954,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -13994,7 +13994,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -14114,7 +14114,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -14234,7 +14234,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -14394,7 +14394,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -14474,7 +14474,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -14714,7 +14714,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -15635,7 +15635,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -15875,7 +15875,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -16435,7 +16435,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -16555,7 +16555,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -16595,7 +16595,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -16755,7 +16755,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -16796,7 +16796,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -16836,7 +16836,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -16876,7 +16876,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -16914,9 +16914,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -16996,7 +16996,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17036,7 +17036,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17076,7 +17076,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17116,7 +17116,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17194,9 +17194,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
-            "trending": true
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -17234,9 +17234,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
-            "trending": true
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -17314,9 +17314,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17356,7 +17356,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17394,9 +17394,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17434,7 +17434,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -17476,7 +17476,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17515,8 +17515,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -17556,7 +17556,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17634,9 +17634,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17754,7 +17754,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -17794,7 +17794,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -17834,7 +17834,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -17954,9 +17954,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -17996,7 +17996,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -19195,7 +19195,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -20155,7 +20155,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -20595,7 +20595,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -21154,9 +21154,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
-            "hit": false,
-            "trending": true
+            "new": false,
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -21314,7 +21314,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -21354,7 +21354,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -21434,9 +21434,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -21796,7 +21796,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -21874,7 +21874,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -22156,7 +22156,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -22394,7 +22394,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -23196,7 +23196,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -23315,7 +23315,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -23516,7 +23516,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -23676,7 +23676,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -23876,7 +23876,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -23996,7 +23996,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -24114,7 +24114,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -24274,7 +24274,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -24435,7 +24435,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -24475,7 +24475,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -24596,7 +24596,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -24875,7 +24875,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -25236,7 +25236,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -25276,7 +25276,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -25515,7 +25515,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -25754,7 +25754,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -25835,8 +25835,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
-            "trending": true
+            "hit": true,
+            "trending": false
         }
     },
     {
@@ -25874,7 +25874,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -25914,9 +25914,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -26114,7 +26114,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -26274,9 +26274,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -26354,7 +26354,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -26516,7 +26516,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -26594,7 +26594,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -26636,7 +26636,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -26674,9 +26674,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -26834,7 +26834,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": true,
             "trending": false
         }
@@ -26876,7 +26876,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": true
+            "trending": false
         }
     },
     {
@@ -26914,7 +26914,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -27315,7 +27315,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -27434,7 +27434,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -27634,7 +27634,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": true,
+            "new": false,
             "hit": false,
             "trending": false
         }
@@ -28195,7 +28195,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -31835,7 +31835,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -35715,7 +35715,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": false,
+            "hit": true,
             "trending": true
         }
     },
@@ -36035,7 +36035,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
