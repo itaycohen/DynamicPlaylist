@@ -19,8 +19,11 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     var MAXIMUM_GENRES = 5;
     var MINIMUM_GENRES = 1;
 
+    $scope.appUtils = dpAppUtils;
+
     $scope.showOnlySelectedGenreHint = false;
     $scope.showMaxGenresHint = false;
+    $scope.isManagerAreaOpen = true;    
     
 
     // getting the genres NAMES from the logic
@@ -141,6 +144,10 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
 
     $scope.getMdContainerClass = function() {
         return "selectGenreSelectorHeader";
+    };
+
+    $scope.onMinimizeMaximizeButtonClick = function() {
+        $scope.isManagerAreaOpen = !$scope.isManagerAreaOpen;
     };
 
 

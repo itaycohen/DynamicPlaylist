@@ -1,5 +1,6 @@
 var app = angular.module('dynamicPlaylistApp', [
     'ngMaterial',
+    'ngAnimate',
     'dpAppUtils',
     'dpSongsListLoaderService',
     'dpSongsListUtils',

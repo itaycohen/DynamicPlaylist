@@ -1,7 +1,18 @@
+$app-background-color: #120e2d;
 
 $search-genres-button-width-horizontal: 250px;
-$search-genres-button-width-vertical: 250px;
+$search-genres-button-width-vertical: 210px;
 $genre-selector-text-color:$app-background-color;
+$search-genres-button-height: 37px;
+
+
+@mixin gradientBg($direction, $startColor, $endColor) { 
+	background: $startColor;
+	background: -moz-linear-gradient($direction,  $startColor 0%, $endColor 80%,$endColor 100%);
+	background: -webkit-linear-gradient($direction,  $startColor 0%, $endColor 80%,$endColor 100%);
+	background: linear-gradient($direction,  $startColor 0%, $endColor 80%,$endColor 100%); 
+}
+
 
 
 
@@ -9,63 +20,143 @@ $genre-selector-text-color:$app-background-color;
 .genre-manager-wrapper {
     // we always want left and top
     background: rgba(255, 255, 255, 0.06);
-    
     border-radius: 12px;
-    .genre-selector-container {
 
-        $search-genres-button-height: 37px;
+    .minimize-sign {
+        padding: 7px;
 
-        .add-genre-button {
-            font-family: Arial, sans-serif;
-            // color: white;
-            color: $genre-selector-text-color;
-            font-weight: bold;
-            font-size: 13px;
-            padding-left: 14px;
-            letter-spacing: 0.5px;
-           
-            line-height: $search-genres-button-height + 1px;
-            height: $search-genres-button-height;
-            min-height: $search-genres-button-height;
-            border-radius: 20px;
-            background: rgba(255, 255,255, 0.95); 
+        position: absolute;
+        right:6px;
+        // top: 190px;
 
-            .search-sign {
-                padding-right: 4px;
-                margin-top: 9px;
+        svg {
+            fill: white;
+        }
+    }
 
-                svg {
-                    fill: $genre-selector-text-color;
+    .genre-manager-container-minimized {
+
+        .adjust-playlist-button-container {
+            padding: 5px; 
+            
+            .adjust-playlist-button {
+                
+                font-family: Arial, sans-serif;
+                color: $genre-selector-text-color;
+                font-weight: bold;
+                font-size: 13px;
+                padding-left: 20px;
+                letter-spacing: 0.5px;
+                line-height: 21px;
+                height: 30px;
+                width: 180px;
+                min-height: 30px;
+                border-radius: 20px;
+                @include gradientBg(180deg, #ffc900, #ffa400);
+
+                .sliders-sign {
+                    
+                    padding-right: 8px;
+                    svg {
+                        fill: $genre-selector-text-color;
+                    }
+                }
+            } 
+        }
+
+        .dragger {
+            padding: 10px 50px 10px 50px;
+            .left {
+                @include transform(rotate(16deg));
+                float: left;
+            }
+            .right {
+                @include transform(rotate(-16deg));
+                margin-left: 28px;
+            }
+            .left, .right {
+                background: rgba(255, 255,255, 0.95); 
+                width: 32px;
+                height: 4px; 
+                border-radius: 2px;
+            }
+    
+        }
+    }
+
+    .genre-manager-container {
+
+        .genre-selector-container {
+            .add-genre-button {
+                font-family: Arial, sans-serif;
+                // color: white;
+                color: $genre-selector-text-color;
+                font-weight: bold;
+                font-size: 13px;
+                padding-left: 14px;
+                letter-spacing: 0.5px;
+            
+                line-height: $search-genres-button-height + 1px;
+                height: $search-genres-button-height;
+                min-height: $search-genres-button-height;
+                border-radius: 20px;
+                background: rgba(255, 255,255, 0.95); 
+
+                .search-sign {
+                    padding-right: 4px;
+                    margin-top: 9px;
+
+                    svg {
+                        fill: $genre-selector-text-color;
+                    }
                 }
             }
-        }
-        .genre-selector-wrapper {
-            margin: -43px 0 0 0; 
-            height: $search-genres-button-height + 10px;;
-            min-height: $search-genres-button-height + 10px;;
-            z-index: 10;
-            .md-select-value {
-                span {
-                    display: none;
+            .genre-selector-wrapper {
+                margin: -43px 0 0 0; 
+                height: $search-genres-button-height + 10px;;
+                min-height: $search-genres-button-height + 10px;;
+                z-index: 10;
+                .md-select-value {
+                    span {
+                        display: none;
+                    }
                 }
             }
+            md-select.md-default-theme .md-select-value,
+            md-select .md-select-value {
+                border-bottom-color: transparent;
+            }
+            md-select:not([disabled]):focus .md-select-value {
+                border-bottom: none;
+            }
         }
-        md-select.md-default-theme .md-select-value,
-        md-select .md-select-value {
-            border-bottom-color: transparent;
+
+        .genre-widget-area {
+            padding-right: 8px;
+
+            .genre-widget-item.ng-enter,
+            .genre-widget-item.ng-leave {
+                @include transition(all linear 0.2s);
+            }
+            .genre-widget-item.ng-enter {
+                opacity: 0;
+            }
+            .genre-widget-item.ng-enter.ng-enter-active {
+                opacity: 1;
+            }
+            .genre-widget-item.ng-leave {
+                opacity: 1;
+            }
+            .genre-widget-item.ng-leave.ng-leave-active {
+                opacity: 0;
+            }
         }
-        md-select:not([disabled]):focus .md-select-value {
-            border-bottom: none;
+
+        .tag-switchers-wrapper {
+            margin-top: 5px;
         }
     }
 
-    .genre-widget-area {
-        padding-right: 8px;
-    }
-
-    .tag-switchers-wrapper {
-        margin-top: 5px;
-    }
 } //.genre-manager-wrapper
 
 .genre-manager-wrapper-horizontal {
@@ -174,5 +265,37 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
 .selectGenreSelectorHeader md-content._md {
     max-height: 440px;
 }
+
+
+// animations
+
+.genre-manager-container {
+    @include transition(all 0.2s linear 0.2s);
+}
+
+.genre-manager-container.ng-hide-add {
+    opacity: 1;
+    @include transition(all 0s linear 1s);
+}
+
+.genre-manager-container.ng-hide-remove {
+    opacity: 0;
+    @include transition(all 0s linear 1s);
+}
+
+.genre-manager-container-minimized{
+    @include transition(all 0.2s linear 0.15s);
+}
+.genre-manager-container-minimized.ng-hide-add {
+    opacity: 1;
+    @include transition(all 0s linear 1s);
+}
+.genre-manager-container-minimized.ng-hide-remove {
+    opacity: 0;
+    @include transition(all 0s linear 1s);
+}
+
+// animations - end
+
 
 

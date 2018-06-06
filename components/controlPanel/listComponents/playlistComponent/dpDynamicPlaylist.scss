@@ -141,6 +141,25 @@
             height: 62px;
         }
     }
+
+    .item-list.ng-enter,
+    .item-list.ng-leave {
+        @include transition(all linear 0.5s);
+        
+    }
+    .item-list.ng-enter {
+        opacity: 0;
+    }
+    .item-list.ng-enter.ng-enter-active {
+        opacity: 1;
+    }
+    .item-list.ng-leave {
+        opacity: 1;
+    }
+    .item-list.ng-leave.ng-leave-active {
+        opacity: 0;
+    }
+
     .now-playing-song { 
         padding-bottom: 10px;
     }
@@ -216,7 +235,6 @@
 }
 
 .bars {
-    
     position: absolute;
 
     .bar {

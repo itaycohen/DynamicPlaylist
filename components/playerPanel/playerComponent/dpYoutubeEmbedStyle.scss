@@ -75,9 +75,7 @@
             line-height: 50px;
             text-align: center;
             /* Starting position */
-            -moz-transform: translateX(100%);
-            -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+            @include transform(translateX(100%));
             /* Apply animation to this element */
             -moz-animation: scroll-left 16s linear infinite;
             -webkit-animation: scroll-left 16s linear infinite;

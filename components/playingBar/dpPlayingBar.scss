@@ -22,8 +22,8 @@ $opening-angle:$pi*2;
   color:white;
   text-align:center;
   line-height:60px;
-  transform:translate3d(0,0,0);
-  transition:transform ease-out 200ms;
+  @include transform(translate3d(0,0,0));
+  @include transition(transform ease-out 200ms);
   z-index: 1;
   text-decoration: none;
 }
@@ -63,18 +63,16 @@ $opening-angle:$pi*2;
             float: left;
             background-color: $playing-bar-main-color;
             width: 36%;
-            -webkit-transition: all 0.25s ease;
-            transition: all 0.25s ease;
+            @include transition(all 0.25s ease);
             overflow: hidden;
           }
     
           .triangle-1 {
-            -webkit-transform: translate(0, -100%);
-                    transform: translate(0, -100%);
+            @include transform(translate(0, -100%));
+                    
           }
           .triangle-2 {
-            -webkit-transform: translate(0, 100%);
-                    transform: translate(0, 100%);
+            @include transform(translate(0, 100%));
           }
     
           .triangle-1,
@@ -88,10 +86,8 @@ $opening-angle:$pi*2;
             border-right: $play-button-size-big solid $playing-bar-background-color;
             border-top: $play-button-size-big/2 solid transparent;
             border-bottom: $play-button-size-big/2 solid transparent;
-            -webkit-transition: -webkit-transform 0.25s ease;
-            transition: -webkit-transform 0.25s ease;
-            transition: transform 0.25s ease;
-            transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+            @include transition(transform 0.25s ease);
+            
           }
     
           .right {
@@ -99,8 +95,8 @@ $opening-angle:$pi*2;
             float: right;
             width: 36%;
             background-color: $playing-bar-main-color;
-            -webkit-transition: all 0.25s ease;
-            transition: all 0.25s ease;
+            @include transition(all 0.25s ease);
+            
           }
         }
   
@@ -109,12 +105,10 @@ $opening-angle:$pi*2;
             width: 50%;
           }
           .triangle-1 {
-            -webkit-transform: translate(0, -50%);
-                    transform: translate(0, -50%);
+            @include transform(translate(0, -50%));
           }
           .triangle-2 {
-            -webkit-transform: translate(0, 50%);
-                    transform: translate(0, 50%);
+            @include transform(translate(0, 50%));
           }
         }
 
@@ -238,7 +232,8 @@ $opening-angle:$pi*2;
 
           .facebook-icon {
             background-color: $facebook-color;
-            transform: scale(0.8,0.8);
+            @include transform(scale(0.8,0.8));
+            
             &:hover{
               color: $facebook-color;
             }
@@ -246,7 +241,7 @@ $opening-angle:$pi*2;
           
           .twitter-icon {
             background-color: $twitter-color;
-            transform: scale(0.8,0.8);
+            @include transform(scale(0.8,0.8));
             &:hover{
               color: $twitter-color;
             }
@@ -258,8 +253,7 @@ $opening-angle:$pi*2;
             z-index: 2;
             transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
             transition-duration: 400ms;
-            transform: translate3d(0,0,0);
-            
+            @include transform(translate3d(0,0,0));
             cursor:pointer;
             @include transition(.3s);
           
@@ -269,8 +263,8 @@ $opening-angle:$pi*2;
           
             &:hover {
               background: white;
-              transform: scale(1.1,1.1) translate3d(0,0,0);
-            
+              @include transform(scale(1.1,1.1) translate3d(0,0,0));
+              
               svg {
                 fill: $playing-bar-background-color;
               }
@@ -280,7 +274,7 @@ $opening-angle:$pi*2;
           .menu-open:checked+.menu-open-button {
             transition-timing-function: linear;
             transition-duration: 200ms;
-            transform: scale(0.8,0.8) translate3d(0,0,0);
+            @include transform(scale(0.8,0.8) translate3d(0,0,0));
             background: white;
           
             svg {
@@ -300,7 +294,7 @@ $opening-angle:$pi*2;
             @for $i from 1 through $menu-items{
               &:nth-child(#{$i+2}){
                 transition-duration: 90ms+(100ms*$i);
-                transform: translate3d(45px*$i, 0, 0);
+                @include transform(translate3d(45px*$i, 0, 0));
               }
             }
           }
@@ -404,18 +398,15 @@ $opening-angle:$pi*2;
             float: left;
             background-color: $playing-bar-main-color;
             width: 36%;
-            -webkit-transition: all 0.25s ease;
-            transition: all 0.25s ease;
+            @include transition(all 0.25s ease);
             overflow: hidden;
           }
     
           .triangle-1 {
-            -webkit-transform: translate(0, -100%);
-                    transform: translate(0, -100%);
+            @include transform(translate(0, -100%));
           }
           .triangle-2 {
-            -webkit-transform: translate(0, 100%);
-                    transform: translate(0, 100%);
+            @include transform(translate(0, 100%));
           }
     
 
@@ -431,10 +422,8 @@ $opening-angle:$pi*2;
             border-right: $play-button-size-small solid $playing-bar-background-color;
             border-top: $play-button-size-small/2 solid transparent;
             border-bottom: $play-button-size-small/2 solid transparent;
-            -webkit-transition: -webkit-transform 0.25s ease;
-            transition: -webkit-transform 0.25s ease;
-            transition: transform 0.25s ease;
-            transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+            @include transition(all 0.25s ease);
+            
           }
     
           .right {
@@ -442,8 +431,7 @@ $opening-angle:$pi*2;
             float: right;
             width: 36%;
             background-color: $playing-bar-main-color;
-            -webkit-transition: all 0.25s ease;
-            transition: all 0.25s ease;
+            @include transition(all 0.25s ease);
           }
         }
 
@@ -452,12 +440,10 @@ $opening-angle:$pi*2;
             width: 50%;
           }
           .triangle-1 {
-            -webkit-transform: translate(0, -50%);
-                    transform: translate(0, -50%);
+            @include transform(translate(0, -50%));
           }
           .triangle-2 {
-            -webkit-transform: translate(0, 50%);
-                    transform: translate(0, 50%);
+            @include transform(translate(0, 50%));
           }
         }
 
@@ -517,10 +503,10 @@ $opening-angle:$pi*2;
     .no-thumb-slider {
       md-slider { 
         .md-thumb {
-          -webkit-transform: scale(0);
-          transform: scale(0);
-          -webkit-transition: transform .15s cubic-bezier(1,0,.7,1);
-          transition: transform .15s cubic-bezier(1,0,.7,1);
+          @include transform(scale(0));
+          @include transition(transform .15s cubic-bezier(1,0,.7,1));
+
+          
         }
 
         .md-sign, .md-focus-thumb, .md-focus-ring { 
@@ -532,10 +518,9 @@ $opening-angle:$pi*2;
         md-slider {
           .md-slider-wrapper {
             .md-thumb {
-              -webkit-transform: scale(.7);
-              transform: scale(0.7);
-              -webkit-transition: transform .15s cubic-bezier(.3,0,0,1);
-              transition: transform .15s cubic-bezier(.3,0,0,1);
+              @include transform(scale(0.7));
+              @include transition(transform .15s cubic-bezier(.3,0,0,1));
+              
             }
           }
         }
