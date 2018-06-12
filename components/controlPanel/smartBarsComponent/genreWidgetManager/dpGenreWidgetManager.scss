@@ -1,4 +1,4 @@
-$app-background-color: #120e2d;
+$app-background-color: #090523;
 
 $search-genres-button-width-horizontal: 250px;
 $search-genres-button-width-vertical: 210px;
@@ -52,7 +52,7 @@ $search-genres-button-height: 37px;
                 width: 180px;
                 min-height: 30px;
                 border-radius: 20px;
-                @include gradientBg(180deg, #ffc900, #ffa400);
+                @include gradientBg(180deg, #ffffff , #f6f6f6);
 
                 .sliders-sign {
                     
@@ -75,7 +75,8 @@ $search-genres-button-height: 37px;
                 margin-left: 28px;
             }
             .left, .right {
-                background: rgba(255, 255,255, 0.95); 
+                background: rgba(255, 255,255, 0.95);
+                @include gradientBg(180deg, #ffffff , #f6f6f6); 
                 width: 32px;
                 height: 4px; 
                 border-radius: 2px;
@@ -101,6 +102,7 @@ $search-genres-button-height: 37px;
                 min-height: $search-genres-button-height;
                 border-radius: 20px;
                 background: rgba(255, 255,255, 0.95); 
+                @include gradientBg(180deg, #ffffff , #f6f6f6);
 
                 .search-sign {
                     padding-right: 4px;
@@ -224,7 +226,7 @@ $search-genres-button-height: 37px;
     /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */
     margin-top: 30px;
     margin-left: 42px;
-    min-width: $search-genres-button-width-vertical +1px !important;
+    min-width: $search-genres-button-width-vertical +41px !important;
 }
 
 

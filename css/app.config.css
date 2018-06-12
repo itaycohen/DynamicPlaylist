@@ -277,9 +277,9 @@ keyframes active 100% {
 
 body {
   color: white;
-  background: #120e2d; }
+  background: #090523; }
   body .app {
-    background: #120e2d;
+    background: #090523;
     background-size: cover;
     background-position: center; }
     body .app .toolbar {
@@ -909,7 +909,7 @@ body {
     padding: 5px; }
     .genre-manager-wrapper .genre-manager-container-minimized .adjust-playlist-button-container .adjust-playlist-button {
       font-family: Arial, sans-serif;
-      color: #120e2d;
+      color: #090523;
       font-weight: bold;
       font-size: 13px;
       padding-left: 20px;
@@ -919,14 +919,14 @@ body {
       width: 180px;
       min-height: 30px;
       border-radius: 20px;
-      background: #ffc900;
-      background: -moz-linear-gradient(180deg, #ffc900 0%, #ffa400 80%, #ffa400 100%);
-      background: -webkit-linear-gradient(180deg, #ffc900 0%, #ffa400 80%, #ffa400 100%);
-      background: linear-gradient(180deg, #ffc900 0%, #ffa400 80%, #ffa400 100%); }
+      background: #ffffff;
+      background: -moz-linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
+      background: -webkit-linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
+      background: linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%); }
       .genre-manager-wrapper .genre-manager-container-minimized .adjust-playlist-button-container .adjust-playlist-button .sliders-sign {
         padding-right: 8px; }
         .genre-manager-wrapper .genre-manager-container-minimized .adjust-playlist-button-container .adjust-playlist-button .sliders-sign svg {
-          fill: #120e2d; }
+          fill: #090523; }
   .genre-manager-wrapper .genre-manager-container-minimized .dragger {
     padding: 10px 50px 10px 50px; }
     .genre-manager-wrapper .genre-manager-container-minimized .dragger .left {
@@ -945,12 +945,16 @@ body {
       margin-left: 28px; }
     .genre-manager-wrapper .genre-manager-container-minimized .dragger .left, .genre-manager-wrapper .genre-manager-container-minimized .dragger .right {
       background: rgba(255, 255, 255, 0.95);
+      background: #ffffff;
+      background: -moz-linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
+      background: -webkit-linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
+      background: linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
       width: 32px;
       height: 4px;
       border-radius: 2px; }
   .genre-manager-wrapper .genre-manager-container .genre-selector-container .add-genre-button {
     font-family: Arial, sans-serif;
-    color: #120e2d;
+    color: #090523;
     font-weight: bold;
     font-size: 13px;
     padding-left: 14px;
@@ -959,12 +963,16 @@ body {
     height: 37px;
     min-height: 37px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.95); }
+    background: rgba(255, 255, 255, 0.95);
+    background: #ffffff;
+    background: -moz-linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
+    background: -webkit-linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #f6f6f6 80%, #f6f6f6 100%); }
     .genre-manager-wrapper .genre-manager-container .genre-selector-container .add-genre-button .search-sign {
       padding-right: 4px;
       margin-top: 9px; }
       .genre-manager-wrapper .genre-manager-container .genre-selector-container .add-genre-button .search-sign svg {
-        fill: #120e2d; }
+        fill: #090523; }
   .genre-manager-wrapper .genre-manager-container .genre-selector-container .genre-selector-wrapper {
     margin: -43px 0 0 0;
     height: 47px;
@@ -1037,7 +1045,7 @@ body {
   /* Please note: All these selectors are only applied to children of elements with the 'selectGenreSelectorHeader' class */
   margin-top: 30px;
   margin-left: 42px;
-  min-width: 211px !important; }
+  min-width: 251px !important; }
 
 .selectGenreSelectorHeader .demo-header-searchbox {
   border: none;
@@ -1215,9 +1223,9 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
       background: -moz-linear-gradient(180deg, #ffc900 0%, #ffa400 80%, #ffa400 100%);
       background: -webkit-linear-gradient(180deg, #ffc900 0%, #ffa400 80%, #ffa400 100%);
       background: linear-gradient(180deg, #ffc900 0%, #ffa400 80%, #ffa400 100%);
-      color: #120e2d; }
+      color: #090523; }
       .tag-switcher-container .tag-switcher.active-switch .icon-sign-container svg {
-        fill: #120e2d; }
+        fill: #090523; }
 
 .big-view .tag-switcher {
   -webkit-transition: all 0.15s cubic-bezier(0.5, 0, 0, 1.5);
@@ -1232,9 +1240,9 @@ md-select-menu[multiple] md-option.md-checkbox-enabled .md-icon {
     .big-view .tag-switcher:hover .icon-sign-container svg {
       fill: white; }
   .big-view .tag-switcher.active-switch {
-    color: #120e2d; }
+    color: #090523; }
     .big-view .tag-switcher.active-switch .icon-sign-container svg {
-      fill: #120e2d; }
+      fill: #090523; }
   .big-view .tag-switcher:active {
     animation: active 1200ms ease 1 alternate; }
 
