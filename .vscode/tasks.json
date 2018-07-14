@@ -1,27 +1,51 @@
+// {
+//     "version": "0.1.0",
+//     "tasks": [
+//         {
+//             "taskName": "mainCss",
+//             "command": "node-sass",
+//             "isShellCommand": true,
+//             "isBuildCommand" : true,
+//             "args": [
+//                 "-w",
+//                 "${workspaceRoot}/app.config.scss",
+//                 "${workspaceRoot}/css/app.config.css"
+//             ]
+//         }
+//         // ,{
+//         //     "taskName": "apputilsCss",
+//         //     "command": "node-sass",
+//         //     "isShellCommand": true,
+//         //     "isBuildCommand" : true,
+//         //     "args": [
+//         //         "-w",
+//         //         "${workspaceRoot}/utils/appUtils.scss",
+//         //         "${workspaceRoot}/utils/appUtils.css"
+//         //     ]
+//         // }
+//     ]
+// }
+
+// Sass configuration
 {
-    "version": "0.1.0",
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "mainCss",
+            "label": "Sass Compile",
+            "type": "shell",
             "command": "node-sass",
-            "isShellCommand": true,
-            "isBuildCommand" : true,
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ],
             "args": [
-                "-w",
-                "${workspaceRoot}/app.config.scss",
-                "${workspaceRoot}/css/app.config.css"
-            ]
+                        "-w",
+                        "${workspaceRoot}/app.config.scss",
+                        "${workspaceRoot}/css/app.config.css"
+                    ]
+
         }
-        // ,{
-        //     "taskName": "apputilsCss",
-        //     "command": "node-sass",
-        //     "isShellCommand": true,
-        //     "isBuildCommand" : true,
-        //     "args": [
-        //         "-w",
-        //         "${workspaceRoot}/utils/appUtils.scss",
-        //         "${workspaceRoot}/utils/appUtils.css"
-        //     ]
-        // }
     ]
 }
