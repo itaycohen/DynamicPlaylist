@@ -321,7 +321,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "id=";
         url += $rootScope.song.id;
         url += "&part=snippet, statistics, contentDetails";
-        url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
+        url += "&key=AIzaSyAx3LWvZLEeti6NtEXJmS1sbCBMMOLGMtY";
         $http.get(url).
             then(function (response) {
                 $rootScope.YTSongResult = response.data;
@@ -1639,7 +1639,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     /// FIX SONGS
 
-    $rootScope.runningSongIndexFromList = 310;
+    $rootScope.runningSongIndexFromList = 735;
 
 
 
