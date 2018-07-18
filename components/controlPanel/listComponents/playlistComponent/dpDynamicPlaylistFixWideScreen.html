@@ -4,7 +4,7 @@
         <md-list-item class="md-2-line item-list song-item now-playing-song" layout="row">
             <img ng-src="{{getSongImgSrc(logicService.getCurrentPlayingSongIndex())}}" class="md-avatar song-image-big song-image-big-play" alt="image" />
             <div class="md-list-item-text full-song-name full-song-name-big">
-                <h3 class="song-name">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</h3>
+                <p class="song-name">{{logicService.getSongNameByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
                 <p class="artist-name">{{logicService.getSongArtistByIndex(logicService.getCurrentPlayingSongIndex())}}</p>
             </div>
             <div class="md-avatar">
