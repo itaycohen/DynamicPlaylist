@@ -112,8 +112,9 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
     };
 
 
-    function removeActiveClass(className) {
-        document.getElementById(className).classList.remove("md-active");
+    //removine md-active class so we will not see the 'thumb' on the slider
+    function removeActiveClass(idName) {
+        document.getElementById(idName).classList.remove("md-active");
     }
     
     function formattedDurationToRaw(formattedDuration) {

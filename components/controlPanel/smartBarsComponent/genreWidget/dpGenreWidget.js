@@ -21,15 +21,20 @@ function dpGenreWidget($rootScope, dpSongsListLogic) {
 dpGenreWidgetController.$inject = ["$scope", "dpSongsListLogic", "dpAppUtils"];
 function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
 
+
+    // Normalization - multiple by 2 because we add more steps for the genre sliders 
+    var GENRE_NORMALIZARION_FACOR = 20
+
     // init the weight
     // TODO - save and load from chache for each user
-    $scope.widgetValue = dpSongsListLogic.getWeightOfGenre($scope.genre) * 2;
+    $scope.widgetValue = dpSongsListLogic.getWeightOfGenre($scope.genre) * GENRE_NORMALIZARION_FACOR;
 
     $scope.onWidgetChange = function () {
         // first we update the genre map
         // TODO
+        removeActiveClass("genre-slider");
         // updating dpGenreWidgetManager 
-        $scope.$parent.updateSongIndexesListWithGenre($scope.genre, $scope.widgetValue / 2);
+        $scope.$parent.updateSongIndexesListWithGenre($scope.genre, $scope.widgetValue / GENRE_NORMALIZARION_FACOR);
     };
 
     $scope.getGenreContainerClass = function () {
@@ -65,5 +70,12 @@ function dpGenreWidgetController($scope, dpSongsListLogic, dpAppUtils) {
         }
         return "";
     };
+
+    function removeActiveClass(className) {
+        var allSliders = document.getElementsByClassName(className);
+        for (var i = 0; i < allSliders.length; i++) {
+            allSliders[i].classList.remove("md-active");
+        }
+    }
 
 }

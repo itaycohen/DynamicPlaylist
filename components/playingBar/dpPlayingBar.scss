@@ -505,8 +505,6 @@ $opening-angle:$pi*2;
         .md-thumb {
           @include transform(scale(0));
           @include transition(transform .15s cubic-bezier(1,0,.7,1));
-
-          
         }
 
         .md-sign, .md-focus-thumb, .md-focus-ring { 
