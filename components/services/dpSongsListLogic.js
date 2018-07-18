@@ -8,10 +8,16 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
 
     var FAKE_GENRE_WEIGHT = 2.5;
     var DEFAULT_WEIGHT = 3;
-    var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    // var allGenresNames = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    var allGenresNames = ["Alternative", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"]; 
+        // ["Alternative", "Chill Out", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Techno", "Trance", "Trap"];
+    
     var allTagsNames = ["New", "Hits", "Trending"];
-
-    var defaultGenresMap = [3, -1, -1, 2, -1, -1, -1, 3, -1, -1, -1, 4, -1, -1, -1, -1, -1, -1, -1, -1];
+    var defaultGenresMap = [3, -1, -1, 4, 2,
+                           -1, -1, -1, -1, -1,
+                            1, -1, -1, 4, -1,
+                           -1, -1, -1, -1, -1,
+                           -1, -1];
     var LOCAL_STORAGE_GENRES_KEY = 'mm-data-genres';
 
     var defaultTagsMap = {"n":0,"h":1,"t":0}; // new, hits, trending

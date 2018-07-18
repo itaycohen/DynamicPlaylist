@@ -40,6 +40,7 @@ app.controller('appUtilsController', appUtilsController);
 appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window'];
 function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
+    var GOOGLE_YOUTUBE_API_KEY = "AIzaSyAx3LWvZLEeti6NtEXJmS1sbCBMMOLGMtY";
 
     var LAST_FM_API_KEY = "6c43957997d9e000c1678ee52dbacd54";
     var LAST_FM_REQ_PREFIX = "http://ws.audioscrobbler.com/2.0/";
@@ -87,9 +88,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
 
 
-    var newMapOfGenres = ["Alternative", "Chill Out", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Techno", "Trance", "Trap"];
-    var mapOfHitFactorByGenre = [{ "Alternative": 2 }, { "Chill Out": 3 }, { "Classic Rock": 3 }, { "Country": 2.5 }, { "Dance": 0.7 }, { "Electronic": 0.8 }, { "Folk": 3 }, { "Funk": 3 }, { "Hard Rock": 3 }, { "Hip-Hop": 0.8 }, { "House": 2 }, { "Indie": 3 }, { "Latin": 0.7 }, { "Metal": 3 }, { "Pop": 0.5 }, { "Punk": 2 }, { "R&B": 0.8 }, { "Rap": 0.8 }, { "Reggae": 1.2 }, { "Reggaeton": 0.8 }, { "Rock": 1 }, { "Soul": 1 }, { "Techno": 2 }, { "Trance": 2 }, { "Trap": 2 }];
-    var mapOfHitFactors = [2, 3, 3, 2.5, 0.7, 0.8, 3, 3, 3, 0.8, 2, 3, 0.7, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2, 2, 2];
+    var newMapOfGenres = ["Alternative", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    var mapOfHitFactorByGenre = [{ "Alternative": 2 }, { "Classic Rock": 3 }, { "Country": 2.5 }, { "Dance": 0.7 }, { "Electronic": 0.8 }, { "Folk": 3 }, { "Funk": 3 }, { "Hard Rock": 3 }, { "Hip-Hop": 0.8 }, { "House": 2 }, { "Indie": 3 }, { "Latin": 0.7 }, { "Metal": 3 }, { "Pop": 0.5 }, { "Punk": 2 }, { "R&B": 0.8 }, { "Rap": 0.8 }, { "Reggae": 1.2 }, { "Reggaeton": 0.8 }, { "Rock": 1 }, { "Soul": 1 }, { "Trance": 2 }];
+    var mapOfHitFactors = [2, 3, 2.5, 0.7, 0.8, 3, 3, 3, 0.8, 2, 3, 0.7, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
     var duplicatesSongNames = ["Levels", "Youth", "Shots", "Call It What You Want", "Kids", "Gold", "Home", "Paradise", "Sorry", "Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X", "Anywhere", "Zombie"];
@@ -100,9 +101,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         "id": '',
         "artist": '',
         "songName": '',
-        "songGenres": [0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0]
+        "songGenres": [0, 0, 0, 0, 0,
+                       0, 0, 0, 0, 0, 
+                       0, 0, 0, 0, 0, 
+                       0, 0, 0, 0, 0,
+                       0, 0]
     };
 
     $rootScope.songToAdd = '';
@@ -321,7 +324,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "id=";
         url += $rootScope.song.id;
         url += "&part=snippet, statistics, contentDetails";
-        url += "&key=AIzaSyAx3LWvZLEeti6NtEXJmS1sbCBMMOLGMtY";
+        url += "&key=";
+        url += GOOGLE_YOUTUBE_API_KEY;
         $http.get(url).
             then(function (response) {
                 $rootScope.YTSongResult = response.data;
@@ -1685,7 +1689,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "id=";
         url += songId;
         url += "&part=snippet, statistics";
-        url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
+        url += "&key=";
+        url += GOOGLE_YOUTUBE_API_KEY;
         $http.get(url).
             then(function (response) {
                 youTubeData = response.data;
