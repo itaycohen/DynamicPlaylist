@@ -34,7 +34,6 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     $scope.allGenresNames = ["Alternative", "Country", "Dance", "Electronic", "Folk", "Funk", "Hip-Hop", "House", "Indie", "Latin", "Pop", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul"];
 
 
-
     $scope.shouldShowGenre = function (genre) {
         return $scope.selectedGenresNames.indexOf(genre) > -1;
     };

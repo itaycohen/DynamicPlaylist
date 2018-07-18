@@ -13,7 +13,7 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         // ["Alternative", "Chill Out", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Techno", "Trance", "Trap"];
     
     var allTagsNames = ["New", "Hits", "Trending"];
-    var defaultGenresMap = [3, -1, -1, 4, 2,
+    var defaultGenresMap = [3, -1, -1, -1, 2,
                            -1, -1, -1, -1, -1,
                             1, -1, -1, 4, -1,
                            -1, -1, -1, -1, -1,
