@@ -29,8 +29,11 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
     // getting the genres NAMES from the logic
     $scope.selectedGenresNames = dpSongsListLogic.getUserGenresNames();
     // $scope.allGenresNames = dpSongsListLogic.geAllGenresNames();
-    // TEMP
-    $scope.allGenresNames = ["Alternative", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Pop", "R&B", "Rap", "Reggaeton", "Rock", "Soul"];
+    // TEMP - because we dont display all the genres (we hide part of them)
+    // the full list of genres:  $scope.allGenresNames = ["Alternative", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    $scope.allGenresNames = ["Alternative", "Country", "Dance", "Electronic", "Folk", "Funk", "Hip-Hop", "House", "Indie", "Latin", "Pop", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul"];
+
+
 
     $scope.shouldShowGenre = function (genre) {
         return $scope.selectedGenresNames.indexOf(genre) > -1;

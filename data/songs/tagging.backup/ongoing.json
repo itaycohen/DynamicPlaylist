@@ -4950,7 +4950,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -5456,7 +5456,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -6380,7 +6380,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -6546,7 +6546,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -8732,7 +8732,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -8982,7 +8982,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -10159,7 +10159,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -10830,7 +10830,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13099,8 +13099,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -13224,7 +13224,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13308,7 +13308,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13560,7 +13560,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13687,7 +13687,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -14190,7 +14190,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18055,7 +18055,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -35987,7 +35987,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": false,
+            "hit": true,
             "trending": false
         }
     },
@@ -38615,12 +38615,12 @@
             "Electronic": 0,
             "Folk": 0,
             "Funk": 0,
-            "Hard Rock": 5,
+            "Hard Rock": 0,
             "Hip-Hop": 0,
             "House": 0,
             "Indie": 0,
             "Latin": 0,
-            "Metal": 5,
+            "Metal": 0,
             "Pop": 0,
             "Punk": 0,
             "R&B": 0,

@@ -10,9 +10,9 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
     // var RAW_SONGS_FILE_PATH = "data/songs/tagging.1/songsRawTagging.json";
     var RAW_SONGS_FILE_PATH = "data/songs/tagging.1/songsRawTagging.json";
-    
+
     var SHRINK_SONGS_FILE_PATH = "data/songs/tagging.1/songsShrinkTagging.json";
-    
+
 
     $http.get(SHRINK_SONGS_FILE_PATH)
         .then(function (response) {
@@ -40,6 +40,7 @@ app.controller('appUtilsController', appUtilsController);
 appUtilsController.$inject = ["$rootScope", 'dpAppUtils', '$http', '$window'];
 function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
+    var GOOGLE_YOUTUBE_API_KEY = "AIzaSyAx3LWvZLEeti6NtEXJmS1sbCBMMOLGMtY";
 
     var LAST_FM_API_KEY = "6c43957997d9e000c1678ee52dbacd54";
     var LAST_FM_REQ_PREFIX = "http://ws.audioscrobbler.com/2.0/";
@@ -68,12 +69,12 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     $rootScope.data.takeAPI = false;
     $rootScope.data.takeExisting = false;
     $rootScope.data.takeItunes = true;
-    
-    
+
+
     $rootScope.isFixingSongsFlow = false;
     $rootScope.genreInputStyle = { "width": "100px" };
 
-    $rootScope.toggleExisting = function() {
+    $rootScope.toggleExisting = function () {
         $rootScope.data.takeExisting = !$rootScope.isFixingSongsFlow;
     };
 
@@ -82,12 +83,17 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     // var mapOfGenres = ['Pop', 'Alternative', 'Dance', 'R&B', 'Latin', 'Soul', 'Hip-Hop'];
     // var newMapOfGenres2 = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "R&B", "Rock", "Soul"];
     // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Rock", "Soul", "Trance"];
-    var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
-    var mapOfHitFactorByGenre = [{ "Alternative": 2 }, { "Chill Out": 3 }, { "Country": 2.5 }, { "Dance": 0.7 }, { "Folk": 3 }, { "Funk": 3 }, { "Hip-Hop": 0.8 }, { "Indie": 3 }, { "Latin": 0.7 }, { "Love": 2 }, { "Metal": 3 }, { "Pop": 0.5 }, { "Punk": 2 }, { "R&B": 0.8 }, { "Rap": 0.8 }, { "Reggae": 1.2 }, { "Reggaeton": 0.8 }, { "Rock": 1 }, { "Soul": 1 }, { "Trance": 2 }];
-    var mapOfHitFactors = [2, 3, 2.5, 0.7, 3, 3, 0.8, 3, 0.7, 2, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
 
 
-    var duplicatesSongNames = ["Levels","Youth","Shots","Call It What You Want","Kids", "Gold", "Home", "Paradise", "Sorry","Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X", "Anywhere", "Zombie"];
+    // var newMapOfGenres = ["Alternative", "Chill Out", "Country", "Dance", "Folk", "Funk", "Hip-Hop", "Indie", "Latin", "Love", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+
+
+    var newMapOfGenres = ["Alternative", "Classic Rock", "Country", "Dance", "Electronic", "Folk", "Funk", "Hard Rock", "Hip-Hop", "House", "Indie", "Latin", "Metal", "Pop", "Punk", "R&B", "Rap", "Reggae", "Reggaeton", "Rock", "Soul", "Trance"];
+    var mapOfHitFactorByGenre = [{ "Alternative": 2 }, { "Classic Rock": 3 }, { "Country": 2.5 }, { "Dance": 0.7 }, { "Electronic": 0.8 }, { "Folk": 3 }, { "Funk": 3 }, { "Hard Rock": 3 }, { "Hip-Hop": 0.8 }, { "House": 2 }, { "Indie": 3 }, { "Latin": 0.7 }, { "Metal": 3 }, { "Pop": 0.5 }, { "Punk": 2 }, { "R&B": 0.8 }, { "Rap": 0.8 }, { "Reggae": 1.2 }, { "Reggaeton": 0.8 }, { "Rock": 1 }, { "Soul": 1 }, { "Trance": 2 }];
+    var mapOfHitFactors = [2, 3, 2.5, 0.7, 0.8, 3, 3, 3, 0.8, 2, 3, 0.7, 3, 0.5, 2, 0.8, 0.8, 1.2, 0.8, 1, 1, 2];
+
+
+    var duplicatesSongNames = ["Levels", "Youth", "Shots", "Call It What You Want", "Kids", "Gold", "Home", "Paradise", "Sorry", "Human", "Alone", "Animals", "Get Low", "Perfect", "Sledgehammer", "X", "Anywhere", "Zombie"];
 
 
     // Adding Songs
@@ -96,9 +102,10 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         "artist": '',
         "songName": '',
         "songGenres": [0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0]
+                       0, 0, 0, 0, 0, 
+                       0, 0, 0, 0, 0, 
+                       0, 0, 0, 0, 0,
+                       0, 0]
     };
 
     $rootScope.songToAdd = '';
@@ -128,20 +135,20 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         newSong.id = currentSong.id;
         newSong.details = {};
         if ($rootScope.data.takeItunes) {
-            newSong.details.artist = $rootScope.itunesResArtist;
-            newSong.details.songName = $rootScope.itunesResSongName;
+            newSong.details.artist = $rootScope.song.itunesResArtist;
+            newSong.details.songName = $rootScope.song.itunesResSongName;
         } else if ($rootScope.data.takeExisting) {
             newSong.details.artist = $rootScope.song.exisitArtist;
             newSong.details.songName = $rootScope.song.exisitSongName;
         } else if ($rootScope.data.takeAPI) {
             newSong.details.artist = $rootScope.song.artistAPI;
-            newSong.details.songName =  $rootScope.song.songNameAPI;
+            newSong.details.songName = $rootScope.song.songNameAPI;
         } else {
             newSong.details.artist = currentSong.artist;
             newSong.details.songName = currentSong.songName;
         }
 
-        
+
         newSong.misc = {};
         if (angular.isUndefined(currentSong.year) || currentSong.year === "") {
             alert("No year!");
@@ -154,7 +161,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             alert("No artwork!");
             newSong.misc.artwork = "NA";
             return;
-            
+
         }
         newSong.misc.artwork = currentSong.artwork;
 
@@ -162,10 +169,10 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             alert("No duration!");
             newSong.misc.duration = "NA";
             return;
-            
+
         }
         newSong.misc.duration = currentSong.duration;
-        
+
 
         if (hasSameNameLikeOtherSong(newSong.details.songName)) {
             alert("warning! we have a song with the same name");
@@ -216,7 +223,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         // $rootScope.getDiscogsData();
         // $rootScope.getMusixData();
         // $rootScope.getMusicBrainzQueryData();
-        
+
     };
 
     $rootScope.cleanSong = function () {
@@ -243,10 +250,10 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         $rootScope.brainzQueryTwoMbid = "";
         $rootScope.brainzQueryTwoFullSongName = "";
 
-        $rootScope.itunesResArtist = "";
-        $rootScope.itunesResSongName = "";
+        $rootScope.song.itunesResArtist = "";
+        $rootScope.song.itunesResSongName = "";
 
-        
+
         $rootScope.data.takeYoutube = false;
     };
 
@@ -317,7 +324,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "id=";
         url += $rootScope.song.id;
         url += "&part=snippet, statistics, contentDetails";
-        url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
+        url += "&key=";
+        url += GOOGLE_YOUTUBE_API_KEY;
         $http.get(url).
             then(function (response) {
                 $rootScope.YTSongResult = response.data;
@@ -335,7 +343,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     };
 
 
-    
+
 
 
     $rootScope.getTopTagsData = function () {
@@ -370,12 +378,12 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "&q_track=";
         url += $rootScope.song.songNameAPI;
         var config = {
-            headers : {
-                'Access-Control-Allow-Origin' : '*',
+            headers: {
+                'Access-Control-Allow-Origin': '*',
                 "X-Mashape-Key": "xhbXUJofP3mshxXnY4aqqwZp42N3p1JLJ86jsnZ477l7kWuHrQ",
                 "X-Mashape-Host": "musixmatchcom-musixmatch.p.mashape.com"
             }
-           };
+        };
         $http.get(url, config).
             then(function (response) {
                 $rootScope.musixDataRes = response.data;
@@ -399,11 +407,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             var secGenresStr = "";
             $rootScope.musixMbidOne = "";
             $rootScope.musixMbidTwo = "";
-            
+
             for (var i = 0; i < resultsArr.length; i++) {
                 var currentSong = resultsArr[i];
                 if (!angular.isUndefined(currentSong.track_mbid)) {
-                    if (i === 0 ){
+                    if (i === 0) {
                         $rootScope.musixMbidOne = currentSong.track_mbid;
                     } else if (i === 1) {
                         $rootScope.musixMbidTwo = currentSong.track_mbid;
@@ -446,7 +454,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         // only than we will try to bring by using 
         sleepFor(500);
         // if (!angular.isUndefined($rootScope.lastFmMbid) && $rootScope.lastFmMbid === "") {
-            // acoustice brainz used last fm mbid and didnt recevie data yet
+        // acoustice brainz used last fm mbid and didnt recevie data yet
         if (!$rootScope.acousticBrainzWithData) {
             getAcousticBrainzDataByMbid($rootScope.musixMbidOne, "Musix One");
 
@@ -455,13 +463,13 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             if (!$rootScope.acousticBrainzWithData) {
                 getAcousticBrainzDataByMbid($rootScope.musixMbidTwo, "Musix two");
             }
-        } 
+        }
     }
 
     $rootScope.getItunesData = function () {
 
-        var termToSearch =  $rootScope.song.artistAPI + " " + $rootScope.song.songNameAPI;
-        rapid.call('iTunes', 'searchMusic', { 
+        var termToSearch = $rootScope.song.artistAPI + " " + $rootScope.song.songNameAPI;
+        rapid.call('iTunes', 'searchMusic', {
             'term': termToSearch,
             'country': 'us',
             'entity': 'song',
@@ -489,25 +497,25 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             var genresStr = "";
             var releaseDate;
             var artworkUrl100;
-            
-            
+
+
             var firstSong = resultsArr[0];
             if (!angular.isUndefined(firstSong.artistName) &&
                 !angular.isUndefined(firstSong.trackName)) {
-                $rootScope.itunesResArtist = firstSong.artistName;
-                $rootScope.itunesResSongName = firstSong.trackName;
+                $rootScope.song.itunesResArtist = firstSong.artistName;
+                $rootScope.song.itunesResSongName = firstSong.trackName;
             }
 
             if (!angular.isUndefined(firstSong.artworkUrl100) &&
                 !angular.isUndefined(firstSong.releaseDate)) {
                 artworkUrl100 = firstSong.artworkUrl100;
-                 console.log(artworkUrl100);
-                 releaseDate = firstSong.releaseDate;
-                 $rootScope.song.artwork = artworkUrl100;
+                console.log(artworkUrl100);
+                releaseDate = firstSong.releaseDate;
+                $rootScope.song.artwork = artworkUrl100;
                 //  $rootScope.song.artwork = getArrOfArtwork(artworkUrl30);
 
                 $rootScope.song.year = getYearOfReleaseDate(releaseDate);
-                 
+
             } else {
                 alert("no artwork");
             }
@@ -519,7 +527,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
                     if (!genresStr.includes(currentGenre)) {
                         genresStr += currentGenre;
                         genresStr += "\n";
-                        
+
                     }
                 }
             }
@@ -544,12 +552,12 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     // http://is4.mzstatic.com/image/thumb/Music30/v4/ac/87/29/ac8729b1-329b-cc0d-3b30-6d0301994a02/source/30x30bb.jpg
     // (13) ["http:", "", "is1.mzstatic.com", "image", "thumb", "Music3", "v4", "81", "bb", "6f", "81bb6f2b-228e-951b-9c91-8cf85e661b1c", "source", "30x30bb.jpg"]
     function getArrOfArtwork(artworkUrl) {
-        var artworkArr =[];
+        var artworkArr = [];
         var arrOfUrl = artworkUrl.split("/");
         var isStr = arrOfUrl[2].split(".")[0];
-        artworkArr[0] = isStr.substring(2,isStr.length);; //is1 -> 1
-        artworkArr[1] = arrOfUrl[5].substring(5,arrOfUrl[5].length); // Music3 -> 3
-        artworkArr[2] = arrOfUrl[6].substring(1,arrOfUrl[6].length); // v4 -> 4;
+        artworkArr[0] = isStr.substring(2, isStr.length);; //is1 -> 1
+        artworkArr[1] = arrOfUrl[5].substring(5, arrOfUrl[5].length); // Music3 -> 3
+        artworkArr[2] = arrOfUrl[6].substring(1, arrOfUrl[6].length); // v4 -> 4;
         artworkArr[3] = arrOfUrl[7];
         artworkArr[4] = arrOfUrl[8];
         artworkArr[5] = arrOfUrl[9];
@@ -567,7 +575,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
 
     //http://musicbrainz.org/ws/2/recording/?query=recording:titanium%20AND%20artist:david%20guetta&fmt=json
-    
+
     $rootScope.getMusicBrainzQueryData = function () {
         var url = "";
         url += MUSIC_BRAINZ_QUERY_REQ_PREFIX;
@@ -708,31 +716,31 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     function formatYoutubeDuration2(duration) {
         var a = duration.match(/\d+/g);
-    
+
         if (duration.indexOf('M') >= 0 && duration.indexOf('H') == -1 && duration.indexOf('S') == -1) {
             a = [0, a[0], 0];
         }
-    
+
         if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1) {
             a = [a[0], 0, a[1]];
         }
         if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1 && duration.indexOf('S') == -1) {
             a = [a[0], 0, 0];
         }
-    
+
         var str = "";
-    
+
         if (a.length == 3) {
             str += a[0] + ":";
             str += a[1] + ":";
             str += a[2];
         }
-    
+
         if (a.length == 2) {
             str += a[0] + ":";
             str += a[1];
         }
-    
+
         if (a.length == 1) {
             str += a[0];
         }
@@ -744,51 +752,51 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var durationInSec = 0;
         var matches = duration.match(/P(?:(\d*)Y)?(?:(\d*)M)?(?:(\d*)W)?(?:(\d*)D)?T?(?:(\d*)H)?(?:(\d*)M)?(?:(\d*)S)?/i);
         var parts = [
-          { // years
-            pos: 1,
-            multiplier: 86400 * 365
-          },
-          { // months
-            pos: 2,
-            multiplier: 86400 * 30
-          },
-          { // weeks
-            pos: 3,
-            multiplier: 604800
-          },
-          { // days
-            pos: 4,
-            multiplier: 86400
-          },
-          { // hours
-            pos: 5,
-            multiplier: 3600
-          },
-          { // minutes
-            pos: 6,
-            multiplier: 60
-          },
-          { // seconds
-            pos: 7,
-            multiplier: 1
-          }
+            { // years
+                pos: 1,
+                multiplier: 86400 * 365
+            },
+            { // months
+                pos: 2,
+                multiplier: 86400 * 30
+            },
+            { // weeks
+                pos: 3,
+                multiplier: 604800
+            },
+            { // days
+                pos: 4,
+                multiplier: 86400
+            },
+            { // hours
+                pos: 5,
+                multiplier: 3600
+            },
+            { // minutes
+                pos: 6,
+                multiplier: 60
+            },
+            { // seconds
+                pos: 7,
+                multiplier: 1
+            }
         ];
 
         for (var i = 0; i < parts.length; i++) {
             if (typeof matches[parts[i].pos] != 'undefined') {
-              durationInSec += parseInt(matches[parts[i].pos]) * parts[i].multiplier;
+                durationInSec += parseInt(matches[parts[i].pos]) * parts[i].multiplier;
             }
-          }
-          var totalSec = durationInSec;
-          // Hours extraction
-          if (durationInSec > 3599) {
+        }
+        var totalSec = durationInSec;
+        // Hours extraction
+        if (durationInSec > 3599) {
             output.push(parseInt(durationInSec / 3600));
             durationInSec %= 3600;
-          }
-          // Minutes extraction with leading zero
-          output.push(('' + parseInt(durationInSec / 60)).slice(-2));
-          // Seconds extraction with leading zero
-          output.push(('0' + durationInSec % 60).slice(-2));
+        }
+        // Minutes extraction with leading zero
+        output.push(('' + parseInt(durationInSec / 60)).slice(-2));
+        // Seconds extraction with leading zero
+        output.push(('0' + durationInSec % 60).slice(-2));
         return output.join(':');
     }
 
@@ -868,7 +876,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             if (!angular.isUndefined($rootScope.lastFmMbid) || $rootScope.$rootScope.lastFmMbid !== '') {
                 getAcousticBrainzDataByMbid($rootScope.lastFmMbid, "Last FM");
             }
-            
+
 
         }
 
@@ -961,20 +969,20 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     }
 
 
-    $rootScope.getAcousticBrainzDataByMusixOneMbid = function() {
+    $rootScope.getAcousticBrainzDataByMusixOneMbid = function () {
         getAcousticBrainzDataByMbid($rootScope.musixMbidOne, "Musix1");
     };
 
-    $rootScope.getAcousticBrainzDataByMusixTwoMbid = function() {
+    $rootScope.getAcousticBrainzDataByMusixTwoMbid = function () {
         getAcousticBrainzDataByMbid($rootScope.musixMbidTwo, "Musix2");
     };
 
 
-    $rootScope.getAcousticBrainzDataByBrainzQueryOneMbid = function() {
+    $rootScope.getAcousticBrainzDataByBrainzQueryOneMbid = function () {
         getAcousticBrainzDataByMbid($rootScope.brainzQueryOneMbid, "Music Brainz Qry One");
     };
 
-    $rootScope.getAcousticBrainzDataByBrainzQueryTwoMbid = function() {
+    $rootScope.getAcousticBrainzDataByBrainzQueryTwoMbid = function () {
         getAcousticBrainzDataByMbid($rootScope.brainzQueryTwoMbid, "Music Brainz Qry Two");
     };
 
@@ -1024,16 +1032,16 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             textResult += "\nGENRES: \n";
 
             //main genre
-            
+
 
             if (!angular.isUndefined(dataToParse.metadata.tags.genre) && dataToParse.metadata.tags.genre.length !== 0) {
                 textResult += dataToParse.metadata.tags.genre[0];
                 textResult += "\n";
             }
-            
+
 
             var highLevelData = dataToParse.highlevel;
-            
+
             //danceability
             // textResult += "G_Danceability: \n";
             textResult += highLevelData.danceability.value + ": ";
@@ -1046,26 +1054,26 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             textResult += Math.round(highLevelData.genre_dortmund.probability * 100);
             textResult += "\n";
 
-             // genre_electronic 
+            // genre_electronic 
             //  textResult += "G_Electronic : \n";
-             textResult += highLevelData.genre_electronic.value + ": ";
-             textResult += Math.round(highLevelData.genre_electronic.probability * 100);
-             textResult += "\n";
+            textResult += highLevelData.genre_electronic.value + ": ";
+            textResult += Math.round(highLevelData.genre_electronic.probability * 100);
+            textResult += "\n";
 
-             //genre_rosamerica
+            //genre_rosamerica
             //  textResult += "G_Rosamerica : \n";
-             textResult += convertBrainzGenreName(highLevelData.genre_rosamerica.value) + ": ";
-             textResult += Math.round(highLevelData.genre_rosamerica.probability * 100);
-             textResult += "\n";
+            textResult += convertBrainzGenreName(highLevelData.genre_rosamerica.value) + ": ";
+            textResult += Math.round(highLevelData.genre_rosamerica.probability * 100);
+            textResult += "\n";
 
-             //genre_tzanetakis
+            //genre_tzanetakis
             //  textResult += "G_Tzanetakis : \n";
-             textResult += convertBrainzGenreName(highLevelData.genre_tzanetakis.value) + ": ";
-             textResult += Math.round(highLevelData.genre_tzanetakis.probability * 100);
-             textResult += "\n";
-             
-             textResult += "\n";
-             textResult += "MOODS: \n";
+            textResult += convertBrainzGenreName(highLevelData.genre_tzanetakis.value) + ": ";
+            textResult += Math.round(highLevelData.genre_tzanetakis.probability * 100);
+            textResult += "\n";
+
+            textResult += "\n";
+            textResult += "MOODS: \n";
 
             //mood_acoustic
             // textResult += "M_Acoustic: \n";
@@ -1090,25 +1098,25 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             textResult += highLevelData.mood_happy.value + ": ";
             textResult += Math.round(highLevelData.mood_happy.probability * 100);
             textResult += "\n";
-            
+
             //mood_party
             // textResult += "M_Party: \n";
             textResult += highLevelData.mood_party.value + ": ";
             textResult += Math.round(highLevelData.mood_party.probability * 100);
             textResult += "\n";
-            
+
             //mood_relaxed
             // textResult += "M_Relaxed: \n";
             textResult += highLevelData.mood_relaxed.value + ": ";
             textResult += Math.round(highLevelData.mood_relaxed.probability * 100);
             textResult += "\n";
-            
+
             //mood_sad
             // textResult += "M_Sad: \n";
             textResult += highLevelData.mood_sad.value + ": ";
             textResult += Math.round(highLevelData.mood_sad.probability * 100);
             textResult += "\n";
-            
+
             // OUT:
             //ismir04_rhythm
             // gender
@@ -1116,11 +1124,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             // timbre
             // tonal_atonal
             // voice_instrumental
-            
+
             textResult += "------------------------ \n";
-            
-                        // Additional data
-                        // showing only if above 10 precent
+
+            // Additional data
+            // showing only if above 10 precent
 
             textResult += "\nMORE GENRES: \n";
             // genre_dortmund 
@@ -1134,11 +1142,11 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             // genre_rosamerica 
             // textResult += "G_rosamerica : \n";
             textResult += addMoreGenresToString(highLevelData.genre_rosamerica);
- 
+
             // genre_tzanetakis 
             // textResult += "G_tzanetakis : \n";
             textResult += addMoreGenresToString(highLevelData.genre_tzanetakis);
-            
+
 
         }
         //TODO parse all high level
@@ -1375,7 +1383,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     function getUrlOfWork(artworkArr) {
         //TODO fallback
-        return "http://is" + artworkArr[0] + ".mzstatic.com/image/thumb/Music" + artworkArr[1] + "/v" + artworkArr[2] + "/" + artworkArr[3] + "/"  + artworkArr[4] + "/"   + artworkArr[5] + "/" + artworkArr[6] + "/source/60x60bb.jpg" ;
+        return "http://is" + artworkArr[0] + ".mzstatic.com/image/thumb/Music" + artworkArr[1] + "/v" + artworkArr[2] + "/" + artworkArr[3] + "/" + artworkArr[4] + "/" + artworkArr[5] + "/" + artworkArr[6] + "/source/60x60bb.jpg";
     }
 
     function convertBooleanToNum(booleanVal) {
@@ -1419,7 +1427,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var songsData = $rootScope.songsShrink;
         var songsNames = songsData.map(function (songObj) {
             return songObj.s;
-        }).filter(function(songName) {
+        }).filter(function (songName) {
             return duplicatesSongNames.indexOf(songName) == -1;
         });
         var sortedSongsNames = songsNames.slice().sort();
@@ -1448,7 +1456,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         }
     }
 
-    
+
 
     $rootScope.getSongsListIndexesTestResult = function () {
         if (angular.isDefined($rootScope.songsListIndexesStatus)) {
@@ -1467,7 +1475,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var shrinkSongList = $rootScope.songsShrink;
         for (var i = 0; i < shrinkSongList.length; i++) {
             var currentSong = shrinkSongList[i];
-            if (currentSong.s.toLowerCase().indexOf("official") != -1 ||  currentSong.s.toLowerCase().indexOf("audio") != -1 ) {
+            if (currentSong.s.toLowerCase().indexOf("official") != -1 || currentSong.s.toLowerCase().indexOf("audio") != -1) {
                 console.log(currentSong.s);
                 $rootScope.badSongsNameStatus = false;
                 return;
@@ -1488,7 +1496,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
 
 
-    
+
 
     $rootScope.getDuplicatesIdsTestResult = function () {
         if (angular.isDefined($rootScope.duplicatesIdsStatus)) {
@@ -1513,7 +1521,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         return "CLICK ON RUN TEST";
     };
 
-    
+
 
     //// Statistics
 
@@ -1587,6 +1595,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             }
             for (var genre in oldGenres) {
                 var currentGenreWeight = oldGenres[genre];
+                if (genre === "Love") {
+                    continue;
+                }
                 newGenresWeightsOfSongObj[genre] = currentGenreWeight;
             }
             currentSong.genreWeights = newGenresWeightsOfSongObj;
@@ -1632,7 +1643,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     /// FIX SONGS
 
-    $rootScope.runningSongIndexFromList = 46;
+    $rootScope.runningSongIndexFromList = 735;
 
 
 
@@ -1654,6 +1665,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     // Update Tagging
 
 
+    // update the new/trends/hit
     $rootScope.updateTagging = function () {
         $rootScope.updatedRawSongList = "";
         var rawSongList = $rootScope.songsRaw;
@@ -1677,7 +1689,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         url += "id=";
         url += songId;
         url += "&part=snippet, statistics";
-        url += "&key=AIzaSyA14y8xNuOkVU-G4GzdOM2H7vmJ78becgA";
+        url += "&key=";
+        url += GOOGLE_YOUTUBE_API_KEY;
         $http.get(url).
             then(function (response) {
                 youTubeData = response.data;
