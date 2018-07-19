@@ -2,9 +2,9 @@ $playing-bar-background-color: #282828;
 $playing-bar-height: 60px;
 $playing-bar-hover-highlight-color: #42f1f8;
 $play-button-size-big: 28px; 
-$next-button-size-big: 30px; 
+$back-next-button-size-big: 30px; 
 $play-button-size-small: 20px; 
-$next-button-size-small: 38px; 
+$back-next-button-size-small: 38px; 
 $playing-bar-main-color: #ebe8ec;
 
 //vars
@@ -119,14 +119,14 @@ $opening-angle:$pi*2;
         }
       }// play-button-wrapper
         
-      .next-button-wrapper {
-        padding: 0 10px 0 10px;
+      .back-next-button-wrapper {
+        padding-right:10px;
         cursor: pointer;
         outline: none;
 
-        .next-button {
-          width: $next-button-size-big;
-          height: $next-button-size-big;
+        .back-next-button {
+          width: $back-next-button-size-big;
+          height: $back-next-button-size-big;
 
           svg {
             fill: $playing-bar-main-color;
@@ -134,13 +134,19 @@ $opening-angle:$pi*2;
         }
 
         &:hover {
-          .next-button {
+          .back-next-button {
             svg {
               fill: $playing-bar-hover-highlight-color;
             }
           }
         }
       }
+
+      .next-button-wrapper {
+          padding-left: 10px;
+      }
+      
+      
 
       .song-img-container-big {
         padding-right: 10px;
@@ -454,22 +460,23 @@ $opening-angle:$pi*2;
         // }
       }// play-button-wrapper
         
-      .next-button-wrapper {
+      .back-next-button-wrapper {
         padding: 11px 12px 11px 7px;
         cursor: pointer;
         outline: none;
 
-        .next-button {
-          width: $next-button-size-small;
-          height: $next-button-size-small;
+        .back-next-button {
+          width: $back-next-button-size-small;
+          height: $back-next-button-size-small;
 
           svg {
-            height: $next-button-size-small;
-            width: $next-button-size-small;
+            height: $back-next-button-size-small;
+            width: $back-next-button-size-small;
             fill: $playing-bar-main-color;
           }
         }
       }
+      
 
     }
 

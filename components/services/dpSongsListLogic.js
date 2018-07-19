@@ -2,9 +2,9 @@ angular
     .module('dpSongsListLogic', [])
     .factory('dpSongsListLogic', dpSongsListLogic);
 
-dpSongsListLogic.$inject = ['$rootScope', 'dpSongsListUtils', '$location'];
+dpSongsListLogic.$inject = ['$rootScope', '$location'];
 
-function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
+function dpSongsListLogic($rootScope, $location) {
 
     var FAKE_GENRE_WEIGHT = 2.5;
     var DEFAULT_WEIGHT = 3;
@@ -43,6 +43,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         geAllGenresNames: geAllGenresNames,
         popSongIndexFromListAndUpdate: popSongIndexFromListAndUpdate,
         getNextSongId: getNextSongId,
+        playLastPlayedSong : playLastPlayedSong,
+        isAnySongWasPlayed : isAnySongWasPlayed,
+        getLastPlayedSongId :getLastPlayedSongId,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
         updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
         updateSongIndexesListByTagIfNeeded : updateSongIndexesListByTagIfNeeded,
@@ -106,7 +109,8 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         updateWeightDistanceFactor();
         // init genres weights list
         initGenreWeightsDistancesList();
-        initAlreadyPlayedSongsIndexes();
+        initAlreadyPlayedSongsIndexesSingleCycle();
+        initAlreadyPlayedSongsIndexesAll();
 
         //update the list according to the existing genre widgets
         updateGenreWeightsDistancesListByCurrentWidget();
@@ -353,8 +357,12 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
         $rootScope.genreWeightsDistancesList = arr;
     }
 
-    function initAlreadyPlayedSongsIndexes() {
+    function initAlreadyPlayedSongsIndexesSingleCycle() {
         $rootScope.alreadyPlayedSongsIndexesListSingleCycle = [];
+    }
+
+    function initAlreadyPlayedSongsIndexesAll() {
+        $rootScope.alreadyPlayedSongsIndexesListAll = [];
     }
 
     function calculateSongScore(songWeights, userGenresMap) {
@@ -417,6 +425,9 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
     // pop song from list and update alreadyPlayedSongsIndexesListSingleCycle
     function popSongIndexFromListAndUpdate(byAction, givenSongIndex) {
 
+        // saving the last played song index (before it's updated)
+        addingLastPlayedSong()
+
         var orderOfSong;
         var songIndexToPlay;
 
@@ -463,11 +474,40 @@ function dpSongsListLogic($rootScope, dpSongsListUtils, $location) {
             $rootScope.alreadyPlayedSongsIndexesListSingleCycle.push(playedSongIndex);
         }
 
+        // note2: in this array we want only the songs that were actually played
+        // $rootScope.alreadyPlayedSongsIndexesListAll.push(songIndexToPlay);
+
         updateSongsIndexesList();
 
         if (!byAction) {
             $rootScope.$apply();
         }
+    }
+
+    function addingLastPlayedSong() {
+        //adding the last played song index before it's updated
+        if (angular.isDefined($rootScope.currentPlayingSongIndex)) {
+            $rootScope.alreadyPlayedSongsIndexesListAll.push($rootScope.currentPlayingSongIndex);
+        }
+    }
+
+    function isAnySongWasPlayed() {
+        return $rootScope.alreadyPlayedSongsIndexesListAll.length > 0; 
+    }
+
+    function playLastPlayedSong() {
+        // we want to add the "last current song" to the songsIndexesList so it will be added to the current playlist
+        $rootScope.songsIndexesList.unshift($rootScope.currentPlayingSongIndex);
+        // taking the song id to be played
+        var lastPlayedSongIndex = $rootScope.alreadyPlayedSongsIndexesListAll.pop();
+        changeUrlWithVideoIDIfNeeded(lastPlayedSongIndex);
+        $rootScope.currentPlayingSongIndex = lastPlayedSongIndex;
+    }
+
+    // TODO - conisder to move to differnt service
+    function getLastPlayedSongId() {
+        var songIndex = $rootScope.lastPlayedSongIndex;
+        return $rootScope.rawSongsList[songIndex].id;
     }
 
     function isPlayByUrlParams(byAction, indexOfSong) {

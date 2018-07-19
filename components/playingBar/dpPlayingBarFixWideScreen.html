@@ -1,6 +1,14 @@
 <div class="playing-bar text-no-select" layout="row" layout-align="space-between" >
     <div class="player-controls-area-big" layout="row" flex="25">
         <div class="player-controls-wrapper" layout="row" flex>
+            <div class="back-next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onBackSongClick()">
+                <div class="back-next-button" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                        <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                </div>
+            </div>
             <div class="play-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && onPlayPauseClick()">
                 <div class="play-button"  ng-class="getPlayPauseStyle()">
                     <div class="left"></div>
@@ -9,8 +17,8 @@
                     <div class="triangle-2"></div>
                 </div>
             </div>
-            <div class="next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onNextSongClick()">
-                <div class="next-button" >
+            <div class="back-next-button-wrapper next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onNextSongClick()">
+                <div class="back-next-button" >
                     <svg  height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
                         <path d="M0 0h24v24H0z" fill="none"/>

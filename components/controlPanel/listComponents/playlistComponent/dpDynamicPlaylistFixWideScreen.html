@@ -21,7 +21,7 @@
         
 
         <div class="playlist-title sub-title"> Up Next </div>
-        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow()" ng-click="playerService.isPlayerEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
+        <md-list-item ng-repeat="songIndex in songsIndexesList | limitTo:getNumberOfSongsToShow() track by $index" ng-click="playerService.isPlayerEnabled() && playSelectedSong(songIndex)" class="md-2-line hover-item item-list song-item"
             ng-class="{'song-item-container-teen-number':$index + 1 > 9}" layout="row">
             <!-- <div class="song-number song-number-big">
                 {{$index + 1}}

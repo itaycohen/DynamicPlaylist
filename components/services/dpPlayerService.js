@@ -2,9 +2,9 @@ angular
     .module('dpPlayerService', [])
     .factory('dpPlayerService', dpPlayerService);
 
-dpPlayerService.$inject = ["$rootScope", "$mdMedia", "dpSongsListLogic"];
+dpPlayerService.$inject = ["$rootScope", "dpSongsListLogic"];
 
-function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
+function dpPlayerService($rootScope, dpSongsListLogic) {
     
     var service = {
         isPlaying: isPlaying,
@@ -17,6 +17,7 @@ function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
         onPlaySongClick: onPlaySongClick,
         onPauseSongClick: onPauseSongClick,
         onNextSongClick: onNextSongClick,
+        onBackSongClick : onBackSongClick,
         getPlayerCurrentDuration : getPlayerCurrentDuration,
         getPlayerCurrentDurationFormatted : getPlayerCurrentDurationFormatted,
         getVolumeLevel : getVolumeLevel,
@@ -60,6 +61,24 @@ function dpPlayerService($rootScope, $mdMedia, dpSongsListLogic) {
         var songId = dpSongsListLogic.getNextSongId();
         loadSongById(songId);
     }
+
+    function onBackSongClick() {
+        // we seek to the begining of the song when: 1. there is no played song (begining of playing)
+        //                                           2. the song was played less than 3 seconds
+        if (dpSongsListLogic.isAnySongWasPlayed() && isCurrnetSongWasPlayedMoreThanGivenSeconds(3)) {
+            getPlayerRef().stopVideo();
+            dpSongsListLogic.playLastPlayedSong();
+            var songId = dpSongsListLogic.getNextSongId();
+            loadSongById(songId);
+        } else {
+            playerSeekTo(0);
+        }
+    }
+
+    function isCurrnetSongWasPlayedMoreThanGivenSeconds(minimumSeconds) {
+        return getPlayerCurrentDuration() < minimumSeconds;
+    }
+
 
     function loadSongById(songId) {
         // note: we don't need to check if 'YT' was loaded - it was done before
