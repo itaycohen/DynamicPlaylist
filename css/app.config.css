@@ -545,7 +545,7 @@ body {
       .playing-bar .player-controls-area-big .back-next-button-wrapper:hover .back-next-button svg {
         fill: #42f1f8; }
     .playing-bar .player-controls-area-big .next-button-wrapper {
-      padding-left: 10px; }
+      padding-left: 9px; }
     .playing-bar .player-controls-area-big .song-img-container-big {
       padding-right: 10px; }
       .playing-bar .player-controls-area-big .song-img-container-big .song-image-big-bar {
