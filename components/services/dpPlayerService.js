@@ -18,6 +18,8 @@ function dpPlayerService($rootScope, dpSongsListLogic) {
         onPauseSongClick: onPauseSongClick,
         onNextSongClick: onNextSongClick,
         onBackSongClick : onBackSongClick,
+        onRepeatSongClick : onRepeatSongClick,
+        seekToBeginningOfSong : seekToBeginningOfSong,
         getPlayerCurrentDuration : getPlayerCurrentDuration,
         getPlayerCurrentDurationFormatted : getPlayerCurrentDurationFormatted,
         getVolumeLevel : getVolumeLevel,
@@ -71,7 +73,7 @@ function dpPlayerService($rootScope, dpSongsListLogic) {
             var songId = dpSongsListLogic.getNextSongId();
             loadSongById(songId);
         } else {
-            playerSeekTo(0);
+            seekToBeginningOfSong();
         }
     }
 
@@ -79,6 +81,9 @@ function dpPlayerService($rootScope, dpSongsListLogic) {
         return getPlayerCurrentDuration() < minimumSeconds;
     }
 
+    function onRepeatSongClick() {
+        dpSongsListLogic.switchRepeatSongToggle();
+    }
 
     function loadSongById(songId) {
         // note: we don't need to check if 'YT' was loaded - it was done before
@@ -141,6 +146,10 @@ function dpPlayerService($rootScope, dpSongsListLogic) {
         if (isPlayerEnabled()) {
             getPlayerRef().seekTo(seconds, true);
         }
+    }
+
+    function seekToBeginningOfSong() {
+        playerSeekTo(0);
     }
 
     function isPlayerMuted() {

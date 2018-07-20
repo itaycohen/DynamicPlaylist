@@ -27,8 +27,8 @@ function dpSongsListLogic($rootScope, $location) {
 
     var VIDEO_ID_PARAM = "v";
     var MAXIMUM_GENRES = 5;
-    
 
+    var isRepeatSong = false;
 
 
     var service = {
@@ -46,6 +46,8 @@ function dpSongsListLogic($rootScope, $location) {
         playLastPlayedSong : playLastPlayedSong,
         isAnySongWasPlayed : isAnySongWasPlayed,
         getLastPlayedSongId :getLastPlayedSongId,
+        switchRepeatSongToggle : switchRepeatSongToggle,
+        isRepeatSongOn : isRepeatSongOn,
         updateGenreWeightsDistancesList: updateGenreWeightsDistancesList,
         updateGenreWeightsDistancesListByCurrentWidget: updateGenreWeightsDistancesListByCurrentWidget,
         updateSongIndexesListByTagIfNeeded : updateSongIndexesListByTagIfNeeded,
@@ -508,6 +510,14 @@ function dpSongsListLogic($rootScope, $location) {
     function getLastPlayedSongId() {
         var songIndex = $rootScope.lastPlayedSongIndex;
         return $rootScope.rawSongsList[songIndex].id;
+    }
+
+    function switchRepeatSongToggle() {
+        isRepeatSong = !isRepeatSong;
+    }
+
+    function isRepeatSongOn() {
+        return isRepeatSong;
     }
 
     function isPlayByUrlParams(byAction, indexOfSong) {

@@ -175,6 +175,10 @@ function dpYoutubeEmbedDirective(dpYoutubeEmbedService, dpSongsListLogic, dpPlay
 
 		function handlePlayerEnded() {
 			// console.log("Youtube Player Event - handlePlayerEnded");
+			if (dpSongsListLogic.isRepeatSongOn()) {
+				dpPlayerService.seekToBeginningOfSong();
+				return;
+			}
 			dpSongsListLogic.popSongIndexFromListAndUpdate(false);
 			var songId = dpSongsListLogic.getNextSongId();
         	dpPlayerService.loadSongById(songId);

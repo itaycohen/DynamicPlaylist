@@ -455,7 +455,7 @@ body {
   bottom: 0;
   z-index: 51; }
   .playing-bar .player-controls-area-big {
-    padding-left: 25px; }
+    padding-left: 22px; }
     .playing-bar .player-controls-area-big .play-button-wrapper {
       padding: 0 10px 0 10px;
       cursor: pointer;
@@ -471,7 +471,7 @@ body {
         .playing-bar .player-controls-area-big .play-button-wrapper .play-button .left {
           height: 100%;
           float: left;
-          background-color: #ebe8ec;
+          background-color: rgba(255, 255, 255, 0.7);
           width: 36%;
           -webkit-transition: all 0.25s ease;
           -moz-transition: all 0.25s ease;
@@ -511,7 +511,7 @@ body {
           height: 100%;
           float: right;
           width: 36%;
-          background-color: #ebe8ec;
+          background-color: rgba(255, 255, 255, 0.7);
           -webkit-transition: all 0.25s ease;
           -moz-transition: all 0.25s ease;
           -ms-transition: all 0.25s ease;
@@ -532,7 +532,7 @@ body {
         -webkit-transform: translate(0, 50%);
         transform: translate(0, 50%); }
       .playing-bar .player-controls-area-big .play-button-wrapper:hover .left, .playing-bar .player-controls-area-big .play-button-wrapper:hover .right {
-        background-color: #42f1f8; }
+        background-color: white; }
     .playing-bar .player-controls-area-big .back-next-button-wrapper {
       padding-right: 10px;
       cursor: pointer;
@@ -541,11 +541,27 @@ body {
         width: 30px;
         height: 30px; }
         .playing-bar .player-controls-area-big .back-next-button-wrapper .back-next-button svg {
-          fill: #ebe8ec; }
+          fill: rgba(255, 255, 255, 0.7); }
       .playing-bar .player-controls-area-big .back-next-button-wrapper:hover .back-next-button svg {
-        fill: #42f1f8; }
+        fill: white; }
     .playing-bar .player-controls-area-big .next-button-wrapper {
       padding-left: 9px; }
+    .playing-bar .player-controls-area-big .repeat-button-wrapper {
+      padding-right: 10px;
+      padding-left: 10px;
+      cursor: pointer;
+      outline: none; }
+      .playing-bar .player-controls-area-big .repeat-button-wrapper .repeat-button {
+        width: 15px;
+        height: 15px; }
+        .playing-bar .player-controls-area-big .repeat-button-wrapper .repeat-button svg {
+          stroke: rgba(255, 255, 255, 0.7); }
+      .playing-bar .player-controls-area-big .repeat-button-wrapper:hover .repeat-button svg {
+        stroke: white; }
+      .playing-bar .player-controls-area-big .repeat-button-wrapper:hover .repeat-on svg {
+        stroke: #00f3ff; }
+      .playing-bar .player-controls-area-big .repeat-button-wrapper .repeat-on svg {
+        stroke: rgba(19, 227, 237, 0.9); }
     .playing-bar .player-controls-area-big .song-img-container-big {
       padding-right: 10px; }
       .playing-bar .player-controls-area-big .song-img-container-big .song-image-big-bar {
@@ -722,7 +738,7 @@ body {
       .playing-bar .player-controls-area-small .play-button-wrapper .play-button .left {
         height: 100%;
         float: left;
-        background-color: #ebe8ec;
+        background-color: rgba(255, 255, 255, 0.7);
         width: 36%;
         -webkit-transition: all 0.25s ease;
         -moz-transition: all 0.25s ease;
@@ -762,7 +778,7 @@ body {
         height: 100%;
         float: right;
         width: 36%;
-        background-color: #ebe8ec;
+        background-color: rgba(255, 255, 255, 0.7);
         -webkit-transition: all 0.25s ease;
         -moz-transition: all 0.25s ease;
         -ms-transition: all 0.25s ease;
@@ -792,7 +808,7 @@ body {
       .playing-bar .player-controls-area-small .back-next-button-wrapper .back-next-button svg {
         height: 38px;
         width: 38px;
-        fill: #ebe8ec; }
+        fill: rgba(255, 255, 255, 0.7); }
   .playing-bar .playing-bar-slider-style md-slider .md-track {
     background-color: rgba(255, 255, 255, 0.25); }
   .playing-bar .playing-bar-slider-style md-slider .md-track-fill {

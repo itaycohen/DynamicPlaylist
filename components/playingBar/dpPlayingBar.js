@@ -145,6 +145,10 @@ function dpPlayingBarController($scope, dpSongsListLogic, dpAppUtils, dpPlayerSe
         return dpPlayerService.isPlaying() ? "" : "paused";
     };
 
+    $scope.getRepeatButtonClass = function() {
+        return dpSongsListLogic.isRepeatSongOn() ? "repeat-on" : "";
+    };
+
     function getPlayerRef() {
         return YT.get("player");
     }

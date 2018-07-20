@@ -1,11 +1,14 @@
 $playing-bar-background-color: #282828;
 $playing-bar-height: 60px;
-$playing-bar-hover-highlight-color: #42f1f8;
 $play-button-size-big: 28px; 
 $back-next-button-size-big: 30px; 
 $play-button-size-small: 20px; 
 $back-next-button-size-small: 38px; 
-$playing-bar-main-color: #ebe8ec;
+$playing-bar-middle-area-color: #ebe8ec;
+$playing-bar-hover-highlight-color: rgba(255, 255, 255, 1);
+$playing-bar-main-color: rgba(255, 255, 255, 0.7);
+$playing-bar-main-color-on: #13E3ED;
+
 
 //vars
 $pi:3.14;
@@ -42,7 +45,7 @@ $opening-angle:$pi*2;
 
     // first section - big (1/3)
     .player-controls-area-big { 
-      padding-left: 25px;
+      padding-left: 22px;
 
       .play-button-wrapper {
         padding: 0 10px 0 10px;
@@ -145,8 +148,42 @@ $opening-angle:$pi*2;
       .next-button-wrapper {
           padding-left: 9px;
       }
-      
-      
+
+      .repeat-button-wrapper {
+        padding-right:10px;
+        padding-left: 10px;
+        cursor: pointer;
+        outline: none;
+
+        .repeat-button {
+          width: 15px;
+          height: 15px;
+
+          svg {
+            stroke: $playing-bar-main-color;
+          }
+        }
+
+        &:hover {
+          .repeat-button {
+            svg {
+              stroke: $playing-bar-hover-highlight-color;
+            }
+          }
+
+          .repeat-on {
+            svg {
+              stroke: #00f3ff;
+            }
+          }
+        }
+
+        .repeat-on {
+            svg {
+              stroke: rgba($playing-bar-main-color-on, 0.9);
+            }
+        }
+      }
 
       .song-img-container-big {
         padding-right: 10px;
@@ -161,7 +198,7 @@ $opening-angle:$pi*2;
 
     // second section - big (2/3)
     .player-bar-middle-area {
-      color: $playing-bar-main-color;
+      color: $playing-bar-middle-area-color;
       
       .playing-now-song-name-wrapper {
         position: relative;
@@ -318,12 +355,12 @@ $opening-angle:$pi*2;
   
           svg {
             padding: 3px 4px 4px 4px;
-            fill: rgba(255, 255, 255, 0.8);
+            fill: rgba(255, 255, 255, 0.8); 
           }
   
           &:hover {
             svg {
-              fill: rgba(255, 255, 255, 1);
+              fill: $playing-bar-hover-highlight-color;
             }
           }
         }
@@ -491,15 +528,15 @@ $opening-angle:$pi*2;
         }
 
         .md-thumb::after {
-            border-color: #13E3ED;
-            background-color: #13E3ED;
+            border-color: $playing-bar-main-color-on;
+            background-color: $playing-bar-main-color-on;
         }
       }
 
       &:hover {
         md-slider {
           .md-track-fill {
-            background-color: #13E3ED;
+            background-color: $playing-bar-main-color-on;
           }
         }
       }

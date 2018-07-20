@@ -1,5 +1,5 @@
 <div class="playing-bar text-no-select" layout="row" layout-align="space-between" >
-    <div class="player-controls-area-big" layout="row" flex="25">
+    <div class="player-controls-area-big" layout="row" flex="30">
         <div class="player-controls-wrapper" layout="row" flex>
             <div class="back-next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onBackSongClick()">
                 <div class="back-next-button" >
@@ -18,12 +18,22 @@
                 </div>
             </div>
             <div class="back-next-button-wrapper next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onNextSongClick()">
-                <div class="back-next-button" >
+                <div class="back-next-button">
                     <svg  height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
                         <path d="M0 0h24v24H0z" fill="none"/>
                     </svg>
 
+                </div>
+            </div>
+            <div class="repeat-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onRepeatSongClick()">
+                <div class="repeat-button" ng-class="getRepeatButtonClass()" >
+                    <svg height="15" viewBox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+                        <polyline fill="none" points="17 1 21 5 17 9"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path d="M3 11V9a4 4 0 0 1 4-4h14" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <polyline fill="none" points="7 23 3 19 7 15"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path d="M21 13v2a4 4 0 0 1-4 4H3" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    </svg>
                 </div>
             </div>
         </div>
@@ -53,7 +63,7 @@
     </div>
 
     <!-- <div class="like-area">like</div> -->
-    <div class="player-bar-right-area" layout="row" flex="25" >
+    <div class="player-bar-right-area" layout="row" flex="30" >
         <div class="share-area" layout="row" flex layout-align="start center"> 
             <nav class="share-icon-container" >
                 <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
