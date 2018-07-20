@@ -623,7 +623,7 @@ function dpSongsListLogic($rootScope, $location) {
                     return -1;
                 } else {
                     dif = genreWeightsDistanceB.score - genreWeightsDistanceA.score;
-                    if (dif !== 0) {
+                    if (Math.abs(dif) > 0.1) {
                         return dif;
                     } else {
                         // in case the dif is the same we want to give each song unique order
