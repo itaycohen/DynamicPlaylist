@@ -9,6 +9,16 @@ $playing-bar-hover-highlight-color: rgba(255, 255, 255, 1);
 $playing-bar-main-color: rgba(255, 255, 255, 0.7);
 $playing-bar-main-color-on: #13E3ED;
 
+$base-line-height-player-controls: 24px;
+$white: rgb(255,255,255);
+$off-white: rgba($white, 0.4);
+$pulse-duration: 1000ms;
+
+@keyframes pulse {	
+  50% { 
+    background: $white;
+  } 
+}
 
 //vars
 $pi:3.14;
@@ -47,142 +57,145 @@ $opening-angle:$pi*2;
     .player-controls-area-big { 
       padding-left: 22px;
 
-      .play-button-wrapper {
-        padding: 0 10px 0 10px;
-        cursor: pointer;
-        outline: none;
-        
-        .play-button {
-          height: $play-button-size-big;
-          width: $play-button-size-big;
-          display: block;
-          margin: 5px;
-          overflow: hidden;
-          position: relative;
+      .player-controls-wrapper {
+        .play-button-wrapper {
+          padding: 0 10px 0 10px;
+          cursor: pointer;
           outline: none;
-    
-          .left {
-            height: 100%;
-            float: left;
-            background-color: $playing-bar-main-color;
-            width: 36%;
-            @include transition(all 0.25s ease);
+          
+          .play-button {
+            height: $play-button-size-big;
+            width: $play-button-size-big;
+            display: block;
+            margin: 5px;
             overflow: hidden;
+            position: relative;
+            outline: none;
+      
+            .left {
+              height: 100%;
+              float: left;
+              background-color: $playing-bar-main-color;
+              width: 36%;
+              @include transition(all 0.25s ease);
+              overflow: hidden;
+            }
+      
+            .triangle-1 {
+              @include transform(translate(0, -100%));
+                      
+            }
+            .triangle-2 {
+              @include transform(translate(0, 100%));
+            }
+      
+            .triangle-1,
+            .triangle-2 {
+              position: absolute;
+              top: 0;
+              right: 0;
+              background-color: transparent;
+              width: 0;
+              height: 0;
+              border-right: $play-button-size-big solid $playing-bar-background-color;
+              border-top: $play-button-size-big/2 solid transparent;
+              border-bottom: $play-button-size-big/2 solid transparent;
+              @include transition(transform 0.25s ease);
+              
+            }
+      
+            .right {
+              height: 100%;
+              float: right;
+              width: 36%;
+              background-color: $playing-bar-main-color;
+              @include transition(all 0.25s ease);
+              
+            }
           }
     
-          .triangle-1 {
-            @include transform(translate(0, -100%));
-                    
+          .paused {
+            .left, .right {
+              width: 50%;
+            }
+            .triangle-1 {
+              @include transform(translate(0, -50%));
+            }
+            .triangle-2 {
+              @include transform(translate(0, 50%));
+            }
           }
-          .triangle-2 {
-            @include transform(translate(0, 100%));
+  
+          &:hover {
+            .left, .right {
+              background-color: $playing-bar-hover-highlight-color;
+            }
           }
-    
-          .triangle-1,
-          .triangle-2 {
-            position: absolute;
-            top: 0;
-            right: 0;
-            background-color: transparent;
-            width: 0;
-            height: 0;
-            border-right: $play-button-size-big solid $playing-bar-background-color;
-            border-top: $play-button-size-big/2 solid transparent;
-            border-bottom: $play-button-size-big/2 solid transparent;
-            @include transition(transform 0.25s ease);
-            
+        }// play-button-wrapper
+          
+        .back-next-button-wrapper {
+          padding-right:10px;
+          cursor: pointer;
+          outline: none;
+  
+          .back-next-button {
+            width: $back-next-button-size-big;
+            height: $back-next-button-size-big;
+  
+            svg {
+              fill: $playing-bar-main-color;
+            }
           }
-    
-          .right {
-            height: 100%;
-            float: right;
-            width: 36%;
-            background-color: $playing-bar-main-color;
-            @include transition(all 0.25s ease);
-            
+  
+          &:hover {
+            .back-next-button {
+              svg {
+                fill: $playing-bar-hover-highlight-color;
+              }
+            }
           }
+        }
+
+        .next-button-wrapper {
+            padding-left: 9px;
         }
   
-        .paused {
-          .left, .right {
-            width: 50%;
-          }
-          .triangle-1 {
-            @include transform(translate(0, -50%));
-          }
-          .triangle-2 {
-            @include transform(translate(0, 50%));
-          }
-        }
-
-        &:hover {
-          .left, .right {
-            background-color: $playing-bar-hover-highlight-color;
-          }
-        }
-      }// play-button-wrapper
-        
-      .back-next-button-wrapper {
-        padding-right:10px;
-        cursor: pointer;
-        outline: none;
-
-        .back-next-button {
-          width: $back-next-button-size-big;
-          height: $back-next-button-size-big;
-
-          svg {
-            fill: $playing-bar-main-color;
-          }
-        }
-
-        &:hover {
-          .back-next-button {
-            svg {
-              fill: $playing-bar-hover-highlight-color;
-            }
-          }
-        }
-      }
-
-      .next-button-wrapper {
-          padding-left: 9px;
-      }
-
-      .repeat-button-wrapper {
-        padding-right:10px;
-        padding-left: 10px;
-        cursor: pointer;
-        outline: none;
-
-        .repeat-button {
-          width: 15px;
-          height: 15px;
-
-          svg {
-            stroke: $playing-bar-main-color;
-          }
-        }
-
-        &:hover {
+        .repeat-button-wrapper {
+          padding-right:10px;
+          padding-left: 10px;
+          cursor: pointer;
+          outline: none;
+  
           .repeat-button {
+            width: 15px;
+            height: 15px;
+  
             svg {
-              stroke: $playing-bar-hover-highlight-color;
+              stroke: $playing-bar-main-color;
             }
           }
-
+  
+          &:hover {
+            .repeat-button {
+              svg {
+                stroke: $playing-bar-hover-highlight-color;
+              }
+            }
+  
+            .repeat-on {
+              svg {
+                stroke: #00f3ff;
+              }
+            }
+          }
+  
           .repeat-on {
-            svg {
-              stroke: #00f3ff;
-            }
+              svg {
+                stroke: rgba($playing-bar-main-color-on, 0.9);
+              }
           }
         }
 
-        .repeat-on {
-            svg {
-              stroke: rgba($playing-bar-main-color-on, 0.9);
-            }
-        }
       }
 
       .song-img-container-big {
@@ -517,6 +530,7 @@ $opening-angle:$pi*2;
 
     }
 
+
     .playing-bar-slider-style {
       md-slider {
         .md-track {
@@ -577,7 +591,7 @@ $opening-angle:$pi*2;
 }
 
 
-// special case for ff 
+// special case for firefox
 .playing-bar {
   .player-bar-middle-area {
     @-moz-document url-prefix() {
@@ -592,3 +606,41 @@ $opening-angle:$pi*2;
 .share-icon-tooltip {
   padding-bottom: 4px;   
 }
+
+
+// shared style for big and small layout
+.player-controls-loader-wrapper-big {
+  padding-left: 35px;
+}
+
+.player-controls-loader-wrapper-small {
+  padding-right: 35px;
+}
+
+.loading-pulse {
+  position: relative;
+  width: ($base-line-height-player-controls / 4);
+  height: $base-line-height-player-controls;
+  background: $off-white;
+  animation: pulse $pulse-duration infinite;
+  animation-delay: ($pulse-duration / 3);
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: ($base-line-height-player-controls / 1.5);
+    width: ($base-line-height-player-controls / 4);
+    background: $off-white;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: pulse $pulse-duration infinite;
+  }
+  &:before {
+    left: -($base-line-height-player-controls / 2);
+  }
+  &:after {
+    left: ($base-line-height-player-controls / 2);
+    animation-delay: ($pulse-duration / 1.5);
+  }
+}
+

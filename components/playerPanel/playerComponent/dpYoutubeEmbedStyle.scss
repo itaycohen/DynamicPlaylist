@@ -1,20 +1,29 @@
+$base-line-height-player: 32px;
+$white: rgb(255,255,255);
+$off-white: rgba($white, 0.4);
+$pulse-duration: 1000ms;
 
+@keyframes pulse {	
+    50% { 
+      background: $white;
+    } 
+  }
 
 .player-wrapper-horizontal {
     margin-left: 12px;
     .youtube-embed-container {
         // height: 400px;
         // height: calc(50% - 48px);
-
-
         // border-top-left-radius: 12px;
         // border-top-right-radius: 12px;
         border-radius: 12px;
     }
-    .current-playing-bar {
-        border-bottom-left-radius: 12px;
-        border-bottom-right-radius: 12px;
-    }
+    // .current-playing-bar {
+    //     border-bottom-left-radius: 12px;
+    //     border-bottom-right-radius: 12px;
+    // }
+
+
 }
 
 // .player-wrapper-vertical {
@@ -28,8 +37,7 @@
 
     padding-bottom: 35%; //was 56.25%
     height: 0;
-
-    background: #615e79;
+    background: black;
     position: relative;
     overflow: hidden;
     .player {
@@ -39,48 +47,84 @@
         width: 100%;
         height: 100%;
     }
+
+    .player-loader-container {
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -14px;
+        margin-top: -26px;
+
+        .loading-pulse {
+            position: relative;
+            width: ($base-line-height-player / 4);
+            height: $base-line-height-player;
+            background: $off-white;
+            animation: pulse $pulse-duration infinite;
+            animation-delay: ($pulse-duration / 3);
+            &:before, &:after {
+                content: '';
+                position: absolute;
+                display: block;
+                height: ($base-line-height-player / 1.5);
+                width: ($base-line-height-player / 4);
+                background: $off-white;
+                top: 50%;
+                transform: translateY(-50%);
+                animation: pulse $pulse-duration infinite;
+            }
+            &:before {
+                left: -($base-line-height-player / 2);
+            }
+            &:after {
+                left: ($base-line-height-player / 2);
+                animation-delay: ($pulse-duration / 1.5);
+            }
+        }
+    }
 }
 
-.current-playing-bar {
-    background: rgba(0, 0, 0, 0.57);
-    height: 48px;
-    .control-song-button {
-        min-width: 26px;
-    }
-    .song-fullname-container {
-        white-space: normal;
-        padding-left: 5px;
-        font-family: Roboto, sans-serif;
-        .song-name-container {
-            margin-top: 4px;
-            margin-bottom: 2px;
-        }
-        .artist-name-container {
-            margin-top: 2px;
-            margin-bottom: 4px;
-        }
-        .scrolling-song-fullname {
-            color: white;
-            height: 48px;
-            line-height: 48px;
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-        .song-fullname-text {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            line-height: 50px;
-            text-align: center;
-            /* Starting position */
-            @include transform(translateX(100%));
-            /* Apply animation to this element */
-            -moz-animation: scroll-left 16s linear infinite;
-            -webkit-animation: scroll-left 16s linear infinite;
-            animation: scroll-left 16s linear infinite;
-        }
+// .current-playing-bar {
+//     background: rgba(0, 0, 0, 0.57);
+//     height: 48px;
+//     .control-song-button {
+//         min-width: 26px;
+//     }
+//     .song-fullname-container {
+//         white-space: normal;
+//         padding-left: 5px;
+//         font-family: Roboto, sans-serif;
+//         .song-name-container {
+//             margin-top: 4px;
+//             margin-bottom: 2px;
+//         }
+//         .artist-name-container {
+//             margin-top: 2px;
+//             margin-bottom: 4px;
+//         }
+//         .scrolling-song-fullname {
+//             color: white;
+//             height: 48px;
+//             line-height: 48px;
+//             width: 100%;
+//             overflow: hidden;
+//             position: relative;
+//         }
+//         .song-fullname-text {
+//             position: absolute;
+//             width: 100%;
+//             height: 100%;
+//             margin: 0;
+//             line-height: 50px;
+//             text-align: center;
+//             /* Starting position */
+//             @include transform(translateX(100%));
+//             /* Apply animation to this element */
+//             -moz-animation: scroll-left 16s linear infinite;
+//             -webkit-animation: scroll-left 16s linear infinite;
+//             animation: scroll-left 16s linear infinite;
+//         }
         
-    }
-}
+//     }
+// }

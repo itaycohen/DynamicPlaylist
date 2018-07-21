@@ -1,6 +1,6 @@
 <div class="playing-bar text-no-select" layout="row" layout-align="space-between" >
     <div class="player-controls-area-big" layout="row" flex="30">
-        <div class="player-controls-wrapper" layout="row" flex>
+        <div class="player-controls-wrapper" layout="row" flex ng-show="playerService.isPlayerEnabled()">
             <div class="back-next-button-wrapper" layout="row" layout-align="start center" ng-click="playerService.isPlayerEnabled() && playerService.onBackSongClick()">
                 <div class="back-next-button" >
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
@@ -37,6 +37,12 @@
                 </div>
             </div>
         </div>
+
+        <div class="player-controls-loader-wrapper-big" layout="row" layout-align="start center" ng-show="!playerService.isPlayerEnabled()" >
+            <div class="loading-pulse">
+            </div>
+        </div>
+
         <!-- The image is here (part player-controls-area-big) of in order to locate the progress bar excatly in the middle of the screen -->
         <div layout="row" layout-align="end" flex>
             <div class="song-img-container-big" layout="column" layout-align="center">
