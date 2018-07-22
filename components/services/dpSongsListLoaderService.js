@@ -4445,12 +4445,12 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 0,
-                null,
+                0,
                 0,
                 0,
                 0,
                 5,
-                null,
+                0,
                 0
             ],
             "y": 2012,
@@ -33798,8 +33798,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2012,
             "w": [
@@ -43090,8 +43090,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43136,8 +43136,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -43182,8 +43182,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43228,8 +43228,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 5,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43274,8 +43274,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43320,8 +43320,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43366,8 +43366,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43413,7 +43413,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null
+                0
             ],
             "y": 2018,
             "w": [
@@ -43458,8 +43458,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43504,8 +43504,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43550,8 +43550,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 2,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43596,8 +43596,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 5,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43643,7 +43643,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null
+                0
             ],
             "y": 2018,
             "w": [
@@ -43688,8 +43688,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43734,8 +43734,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43780,8 +43780,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43826,8 +43826,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43872,8 +43872,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -43919,7 +43919,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null
+                0
             ],
             "y": 2017,
             "w": [
@@ -43964,8 +43964,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 4,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -44010,8 +44010,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -44057,7 +44057,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 2,
-                null
+                0
             ],
             "y": 2018,
             "w": [
@@ -44103,7 +44103,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 4,
                 3,
-                null
+                0
             ],
             "y": 2001,
             "w": [
@@ -44148,8 +44148,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2009,
             "w": [
@@ -44194,8 +44194,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2002,
             "w": [
@@ -44240,8 +44240,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2003,
             "w": [
@@ -44286,8 +44286,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2007,
             "w": [
@@ -44332,8 +44332,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2001,
             "w": [
@@ -44378,8 +44378,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2002,
             "w": [
@@ -44424,8 +44424,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 1995,
             "w": [
@@ -44470,8 +44470,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2002,
             "w": [
@@ -44516,8 +44516,8 @@ function dpSongsListLoaderService($http, $q) {
                 3,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2008,
             "w": [
@@ -44562,8 +44562,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 1987,
             "w": [
@@ -44609,7 +44609,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null
+                0
             ],
             "y": 2010,
             "w": [
@@ -44655,7 +44655,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 1,
                 1,
-                null
+                0
             ],
             "y": 2008,
             "w": [
@@ -44700,8 +44700,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2000,
             "w": [
@@ -44746,8 +44746,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -44793,7 +44793,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 1,
-                null
+                0
             ],
             "y": 2010,
             "w": [
@@ -44838,8 +44838,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 2,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2007,
             "w": [
@@ -44884,8 +44884,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2002,
             "w": [
@@ -44931,7 +44931,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 2,
                 3,
-                null
+                0
             ],
             "y": 2006,
             "w": [
@@ -44976,8 +44976,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 1998,
             "w": [
@@ -45022,8 +45022,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 1998,
             "w": [
@@ -45068,8 +45068,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -45114,8 +45114,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2008,
             "w": [
@@ -45161,7 +45161,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null
+                0
             ],
             "y": 2005,
             "w": [
@@ -45206,8 +45206,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2005,
             "w": [
@@ -45252,8 +45252,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2004,
             "w": [
@@ -45298,8 +45298,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2001,
             "w": [
@@ -45344,8 +45344,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2006,
             "w": [
@@ -45390,8 +45390,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2014,
             "w": [
@@ -45436,8 +45436,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 1999,
             "w": [
@@ -45482,8 +45482,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2014,
             "w": [
@@ -45528,8 +45528,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2005,
             "w": [
@@ -45574,8 +45574,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 4,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2005,
             "w": [
@@ -45621,7 +45621,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 2,
-                null
+                0
             ],
             "y": 2001,
             "w": [
@@ -45666,8 +45666,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2007,
             "w": [
@@ -45712,8 +45712,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -45758,8 +45758,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -45804,8 +45804,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -45850,8 +45850,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -45896,8 +45896,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -45942,8 +45942,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 1,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -45989,7 +45989,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null
+                0
             ],
             "y": 2016,
             "w": [
@@ -46034,8 +46034,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2016,
             "w": [
@@ -46080,8 +46080,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -46126,8 +46126,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2016,
             "w": [
@@ -46172,8 +46172,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2015,
             "w": [
@@ -46218,8 +46218,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2014,
             "w": [
@@ -46264,8 +46264,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2013,
             "w": [
@@ -46311,7 +46311,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 3,
-                null
+                0
             ],
             "y": 2015,
             "w": [
@@ -46356,8 +46356,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2015,
             "w": [
@@ -46402,8 +46402,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2015,
             "w": [
@@ -46448,8 +46448,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2013,
             "w": [
@@ -46494,8 +46494,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -46540,8 +46540,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2010,
             "w": [
@@ -46586,8 +46586,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2010,
             "w": [
@@ -46632,8 +46632,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -46679,7 +46679,7 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 5,
-                null
+                0
             ],
             "y": 2010,
             "w": [
@@ -46724,8 +46724,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -46770,8 +46770,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2016,
             "w": [
@@ -46816,8 +46816,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2010,
             "w": [
@@ -46862,8 +46862,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 4,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2016,
             "w": [
@@ -46908,8 +46908,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2015,
             "w": [
@@ -46954,8 +46954,8 @@ function dpSongsListLoaderService($http, $q) {
                 2,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2013,
             "w": [
@@ -47000,8 +47000,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2010,
             "w": [
@@ -47046,8 +47046,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2010,
             "w": [
@@ -47092,8 +47092,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -47138,8 +47138,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2013,
             "w": [
@@ -47184,8 +47184,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 5,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2013,
             "w": [
@@ -47230,8 +47230,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 5,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2014,
             "w": [
@@ -47276,8 +47276,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2017,
             "w": [
@@ -47322,8 +47322,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2018,
             "w": [
@@ -47368,8 +47368,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 2,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2011,
             "w": [
@@ -47414,8 +47414,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2015,
             "w": [
@@ -47460,8 +47460,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2013,
             "w": [
@@ -47506,8 +47506,8 @@ function dpSongsListLoaderService($http, $q) {
                 0,
                 0,
                 0,
-                null,
-                null
+                0,
+                0
             ],
             "y": 2009,
             "w": [
@@ -47527,7 +47527,6 @@ function dpSongsListLoaderService($http, $q) {
             }
         }
     ];
-
 
     var service = {
         loadSongsList: loadSongsList,

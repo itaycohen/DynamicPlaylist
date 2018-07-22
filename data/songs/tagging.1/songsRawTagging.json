@@ -4059,12 +4059,12 @@
             "Metal": 0,
             "Pop": 1,
             "Punk": 0,
-            "R&B": null,
+            "R&B": 0,
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 5,
-            "Soul": null,
+            "Soul": 0,
             "Trance": 0
         },
         "tagging": {
@@ -30859,7 +30859,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -39341,7 +39343,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39381,7 +39385,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39421,7 +39427,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39461,7 +39469,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 5,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39501,7 +39511,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39541,7 +39553,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39581,7 +39595,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39622,7 +39638,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39662,7 +39679,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39702,7 +39721,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39742,7 +39763,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 2
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39782,7 +39805,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 5,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39823,7 +39848,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39863,7 +39889,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39903,7 +39931,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39943,7 +39973,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -39983,7 +40015,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -40023,7 +40057,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -40064,7 +40100,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -40104,7 +40141,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 4,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -40144,7 +40183,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -40185,7 +40226,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 2
+            "Soul": 2,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -40226,7 +40268,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 4,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40266,7 +40309,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40306,7 +40351,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40346,7 +40393,9 @@
             "Rap": 4,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40386,7 +40435,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40426,7 +40477,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40466,7 +40519,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40506,7 +40561,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40546,7 +40603,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40586,7 +40645,9 @@
             "Rap": 0,
             "Reggae": 3,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40626,7 +40687,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40667,7 +40730,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40708,7 +40772,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 1,
-            "Soul": 1
+            "Soul": 1,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40748,7 +40813,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40788,7 +40855,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40829,7 +40898,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 1
+            "Soul": 1,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40869,7 +40939,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 2
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40909,7 +40981,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40950,7 +41024,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 2,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -40990,7 +41065,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41030,7 +41107,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41070,7 +41149,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41110,7 +41191,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41151,7 +41234,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41191,7 +41275,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41231,7 +41317,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41271,7 +41359,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41311,7 +41401,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41351,7 +41443,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41391,7 +41485,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41431,7 +41527,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41471,7 +41569,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41511,7 +41611,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 4
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41552,7 +41654,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 2
+            "Soul": 2,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41592,7 +41695,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 3
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41632,7 +41737,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -41672,7 +41779,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -41712,7 +41821,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -41752,7 +41863,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41792,7 +41905,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41832,7 +41947,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 1
+            "Rock": 1,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": true,
@@ -41873,7 +41990,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 0
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41913,7 +42031,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41953,7 +42073,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -41993,7 +42115,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42033,7 +42157,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42073,7 +42199,9 @@
             "Rap": 5,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42113,7 +42241,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42154,7 +42284,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 3
+            "Soul": 3,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42194,7 +42325,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42234,7 +42367,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42274,7 +42409,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42314,7 +42451,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42354,7 +42493,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42394,7 +42535,9 @@
             "Rap": 4,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42434,7 +42577,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42475,7 +42620,8 @@
             "Reggae": 0,
             "Reggaeton": 0,
             "Rock": 0,
-            "Soul": 5
+            "Soul": 5,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42515,7 +42661,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42555,7 +42703,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42595,7 +42745,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42635,7 +42787,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 4,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42675,7 +42829,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42715,7 +42871,9 @@
             "Rap": 0,
             "Reggae": 2,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42755,7 +42913,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42795,7 +42955,9 @@
             "Rap": 4,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42835,7 +42997,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42875,7 +43039,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42915,7 +43081,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 5,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42955,7 +43123,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 5,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -42995,7 +43165,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -43035,7 +43207,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -43075,7 +43249,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 2
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -43115,7 +43291,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -43155,7 +43333,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
@@ -43195,7 +43375,9 @@
             "Rap": 0,
             "Reggae": 0,
             "Reggaeton": 0,
-            "Rock": 0
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
         },
         "tagging": {
             "new": false,
