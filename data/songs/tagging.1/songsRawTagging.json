@@ -456,7 +456,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -961,7 +961,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -1003,7 +1003,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -2304,7 +2304,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2346,7 +2346,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2388,9 +2388,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -2472,7 +2472,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2598,7 +2598,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2640,7 +2640,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2682,7 +2682,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2724,7 +2724,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -2976,7 +2976,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -3018,7 +3018,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -3144,9 +3144,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -3186,8 +3186,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -3228,7 +3228,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -3270,7 +3270,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -3396,7 +3396,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -3648,7 +3648,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -3858,9 +3858,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -4320,7 +4320,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -4950,9 +4950,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
-            "trending": false
+            "new": true,
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -5034,9 +5034,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -5244,7 +5244,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -5456,7 +5456,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -5917,7 +5917,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -6001,7 +6001,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -6043,7 +6043,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -6337,7 +6337,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -6380,7 +6380,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -6422,7 +6422,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -6462,7 +6462,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -6504,8 +6504,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -6546,9 +6546,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -6630,7 +6630,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -7848,7 +7848,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8016,7 +8016,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8142,7 +8142,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8226,7 +8226,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8268,7 +8268,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8310,7 +8310,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8352,7 +8352,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8394,7 +8394,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8436,7 +8436,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8478,7 +8478,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8520,7 +8520,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8562,7 +8562,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8604,7 +8604,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8647,7 +8647,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -8688,9 +8688,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -8732,7 +8732,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -8772,7 +8772,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -8814,7 +8814,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8856,7 +8856,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -8898,7 +8898,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -8942,7 +8942,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -8982,9 +8982,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -9193,7 +9193,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -9991,7 +9991,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -10830,7 +10830,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -10914,7 +10914,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -12133,7 +12133,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -13057,8 +13057,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -13099,8 +13099,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -13182,9 +13182,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -13224,7 +13224,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13266,7 +13266,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -13308,7 +13308,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13518,7 +13518,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13560,7 +13560,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13602,7 +13602,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13728,7 +13728,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13812,7 +13812,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -13938,7 +13938,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14022,7 +14022,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14064,7 +14064,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14190,7 +14190,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14274,7 +14274,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14317,7 +14317,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -14569,7 +14569,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -14610,7 +14610,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14820,7 +14820,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -14946,7 +14946,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -16417,7 +16417,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -16459,7 +16459,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -16501,7 +16501,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -16585,7 +16585,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -16669,7 +16669,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -16753,7 +16753,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -17216,7 +17216,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -17300,7 +17300,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -17468,7 +17468,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -17593,8 +17593,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -17634,9 +17634,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -17760,7 +17760,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -17970,7 +17970,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18014,7 +18014,7 @@
         "tagging": {
             "new": true,
             "hit": false,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -18096,7 +18096,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18180,7 +18180,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18222,7 +18222,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18264,7 +18264,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -18306,7 +18306,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18390,8 +18390,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -18516,7 +18516,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18642,7 +18642,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18684,7 +18684,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -18726,7 +18726,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -19483,7 +19483,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -19651,7 +19651,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -20113,7 +20113,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -20155,7 +20155,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -20827,7 +20827,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -20953,7 +20953,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21037,7 +21037,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21079,7 +21079,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21121,7 +21121,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21373,7 +21373,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21415,7 +21415,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21499,7 +21499,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21541,7 +21541,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21583,7 +21583,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21625,7 +21625,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -21667,7 +21667,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -22171,7 +22171,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -22212,8 +22212,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -22339,7 +22339,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -22506,7 +22506,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -22884,7 +22884,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -22968,7 +22968,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -23388,7 +23388,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -23514,7 +23514,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -23935,7 +23935,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -24019,7 +24019,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -24188,7 +24188,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -24565,7 +24565,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -25278,7 +25278,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -25320,7 +25320,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -25488,7 +25488,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -25657,7 +25657,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -25699,7 +25699,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -25741,7 +25741,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -25950,7 +25950,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -26245,7 +26245,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -26330,7 +26330,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -26371,7 +26371,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -26496,9 +26496,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -26538,9 +26538,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -26707,8 +26707,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -26750,7 +26750,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -26791,7 +26791,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -26876,7 +26876,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -27042,7 +27042,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -27126,9 +27126,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -27168,7 +27168,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -27210,8 +27210,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -27254,7 +27254,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -27338,7 +27338,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -27420,7 +27420,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -27464,7 +27464,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -27504,7 +27504,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -27547,8 +27547,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -27588,7 +27588,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -27672,7 +27672,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -27840,9 +27840,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -27883,7 +27883,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -27924,7 +27924,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -27966,9 +27966,9 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -28008,7 +28008,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -28052,7 +28052,7 @@
         "tagging": {
             "new": true,
             "hit": true,
-            "trending": false
+            "trending": true
         }
     },
     {
@@ -28135,8 +28135,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -28176,7 +28176,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -28218,7 +28218,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -28260,7 +28260,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -28345,8 +28345,8 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
-            "trending": false
+            "hit": false,
+            "trending": true
         }
     },
     {
@@ -28806,7 +28806,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -28974,7 +28974,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -29016,7 +29016,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -29605,7 +29605,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -30067,7 +30067,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -30193,7 +30193,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -30823,7 +30823,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -31033,7 +31033,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -31117,7 +31117,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -31495,7 +31495,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -31705,7 +31705,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -32419,7 +32419,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -33678,7 +33678,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -34477,7 +34477,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -34687,7 +34687,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -35275,7 +35275,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -35694,7 +35694,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -36451,7 +36451,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -37752,7 +37752,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -37837,7 +37837,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -38130,7 +38130,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -38257,7 +38257,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -38719,7 +38719,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -39096,7 +39096,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -39138,7 +39138,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -39180,7 +39180,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -39222,7 +39222,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -39349,7 +39349,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -40189,7 +40189,7 @@
         },
         "tagging": {
             "new": true,
-            "hit": true,
+            "hit": false,
             "trending": true
         }
     },
@@ -40861,7 +40861,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -41868,7 +41868,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -41910,7 +41910,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -41994,7 +41994,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": false,
             "trending": false
         }
@@ -42036,8 +42036,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -42078,8 +42078,8 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
-            "hit": true,
+            "new": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -42331,7 +42331,7 @@
         },
         "tagging": {
             "new": false,
-            "hit": true,
+            "hit": false,
             "trending": false
         }
     },
@@ -43212,7 +43212,7 @@
             "Trance": 0
         },
         "tagging": {
-            "new": false,
+            "new": true,
             "hit": true,
             "trending": false
         }
@@ -43370,6 +43370,2064 @@
             "Latin": 0,
             "Metal": 0,
             "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1033,
+        "id": "Ys7-6_t7OEQ",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Beauty and a Beat"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/80/6b/3d/806b3d74-6eb8-6d91-1a3e-fdd644eb837c/source/100x100bb.jpg",
+            "duration": "4:53"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Electronic": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1034,
+        "id": "OXq-JP8w5H4",
+        "details": {
+            "artist": "Maluma",
+            "songName": "Cuatro Babys (feat. Noriel, Bryant Myers & Juhn)"
+        },
+        "misc": {
+            "year": 2016,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music62/v4/0a/10/da/0a10da87-4922-7e61-78cc-54e2940ec7fb/source/100x100bb.jpg",
+            "duration": "4:39"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1035,
+        "id": "k0BWlvnBmIE",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Wide Awake"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/7b/89/f6/7b89f61f-fe83-f5bc-84e6-bac2b8980681/source/100x100bb.jpg",
+            "duration": "4:37"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1036,
+        "id": "VuNIsY6JdUw",
+        "details": {
+            "artist": "Taylor Swift",
+            "songName": "You Belong With Me"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/ae/35/ac/ae35ac3b-5c14-818e-a54c-a1f73ef13c54/source/100x100bb.jpg",
+            "duration": "3:49"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 4,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1037,
+        "id": "Xk0wdDTTPA0",
+        "details": {
+            "artist": "Maluma",
+            "songName": "Borro Cassette"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/0c/ad/98/0cad98c6-3723-ee23-2667-5cbb834d7321/source/100x100bb.jpg",
+            "duration": "4:08"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1038,
+        "id": "6R5i6wQCOCQ",
+        "details": {
+            "artist": "Zion & Lennox",
+            "songName": "Otra Vez (feat. J Balvin)"
+        },
+        "misc": {
+            "year": 2016,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music42/v4/8d/42/1d/8d421df3-ff3c-64f6-5628-0708350f8839/source/100x100bb.jpg",
+            "duration": "3:33"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1039,
+        "id": "zZjSX01P5dE",
+        "details": {
+            "artist": "J Balvin",
+            "songName": "Ginza"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music60/v4/e9/81/78/e98178b6-848f-9a95-1217-baa53e565e8c/source/100x100bb.jpg",
+            "duration": "3:49"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1040,
+        "id": "bbEoRnaOIbs",
+        "details": {
+            "artist": "Mike WiLL Made-It",
+            "songName": "23 (feat. Miley Cyrus, Wiz Khalifa & Juicy J)"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/a4/be/55/a4be555c-c8de-29d7-00f9-4a7047e0f79b/source/100x100bb.jpg",
+            "duration": "5:18"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 4,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 3,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1041,
+        "id": "_Z5-P9v3F8w",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Never Say Never (feat. Jaden Smith)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/fd/50/66/fd5066a0-281f-f40f-c7e7-eba16407a675/source/100x100bb.jpg",
+            "duration": "3:50"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1042,
+        "id": "kTHNpusq654",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "Hot n Cold"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/8d/57/6d/8d576da8-a4bf-0f35-07cd-f41d1da7a874/source/100x100bb.jpg",
+            "duration": "4:44"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1043,
+        "id": "AtKZKl7Bgu0",
+        "details": {
+            "artist": "Calvin Harris",
+            "songName": "I Need Your Love (feat. Ellie Goulding) [Nicky Romero Remix]"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music2/v4/ea/1c/84/ea1c8417-4872-71b8-3957-86ae1f21ec54/source/100x100bb.jpg",
+            "duration": "3:47"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 4,
+            "Electronic": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 3,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1044,
+        "id": "tLcfAnN2QgY",
+        "details": {
+            "artist": "Enrique Iglesias",
+            "songName": "El Perdedor (feat. Marco Antonio Solís)"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music4/v4/69/5f/02/695f02f1-c047-7a9a-d48e-edd0059004f7/source/100x100bb.jpg",
+            "duration": "4:22"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1045,
+        "id": "6BTjG-dhf5s",
+        "details": {
+            "artist": "Daddy Yankee",
+            "songName": "Limbo"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/01/58/c1/0158c1a1-de11-b847-857e-765b97d190b9/source/100x100bb.jpg",
+            "duration": "4:15"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1046,
+        "id": "SR6iYWJxHqs",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "Grenade"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/ae/aa/ca/aeaaca46-b213-5675-98e8-7ce83e060c57/source/100x100bb.jpg",
+            "duration": "3:56"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 3,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1047,
+        "id": "ME2Hufquz0k",
+        "details": {
+            "artist": "Wisin",
+            "songName": "Adrenalina (feat. Jennifer Lopez & Ricky Martin)"
+        },
+        "misc": {
+            "year": 2014,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/06/11/2f/06112f93-5acb-048b-e33c-e868c462357d/source/100x100bb.jpg",
+            "duration": "4:28"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 4,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1048,
+        "id": "4GuqB1BQVr4",
+        "details": {
+            "artist": "Justin Bieber",
+            "songName": "Boyfriend"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/db/f7/13/dbf71386-70ce-05f7-9f34-158573b16c59/source/100x100bb.jpg",
+            "duration": "3:31"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 2,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1049,
+        "id": "_kxz7WX4mLU",
+        "details": {
+            "artist": "Cali y El Dandee",
+            "songName": "Por Fin Te Encontré (feat. Juan Magan & Sebastian Yatra)"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/79/01/c5/7901c501-6b28-5161-442e-274cd8f153ed/source/100x100bb.jpg",
+            "duration": "4:43"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 3,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1050,
+        "id": "kXYiU_JCYtU",
+        "details": {
+            "artist": "LINKIN PARK",
+            "songName": "Numb"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f7/81/cc/f781cc75-f0d3-52dd-da73-c56c53455195/source/100x100bb.jpg",
+            "duration": "3:07"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 2,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 3,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1051,
+        "id": "ekzHIouo8Q4",
+        "details": {
+            "artist": "Bruno Mars",
+            "songName": "When I Was Your Man"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/35/b8/aa/35b8aab0-d693-e316-4a46-e22eed3126ba/source/100x100bb.jpg",
+            "duration": "3:55"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 4,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1052,
+        "id": "JF8BRvqGCNs",
+        "details": {
+            "artist": "Rihanna",
+            "songName": "Stay (feat. Mikky Ekko)"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/7a/d3/8d/7ad38df1-c8da-f278-af55-e346a073451a/source/100x100bb.jpg",
+            "duration": "4:08"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 2,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 3,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1053,
+        "id": "JWESLtAKKlU",
+        "details": {
+            "artist": "J Balvin",
+            "songName": "Safari (feat. Pharrell Williams, BIA & Sky)"
+        },
+        "misc": {
+            "year": 2016,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music60/v4/e9/81/78/e98178b6-848f-9a95-1217-baa53e565e8c/source/100x100bb.jpg",
+            "duration": "3:25"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 1,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1054,
+        "id": "4m1EFMoRFvY",
+        "details": {
+            "artist": "Beyoncé",
+            "songName": "Single Ladies (Put a Ring On It)"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/1b/93/48/1b9348ed-c859-5ac0-c040-b54d0ec5bc50/source/100x100bb.jpg",
+            "duration": "3:19"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 3,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1055,
+        "id": "8iPcqtHoR3U",
+        "details": {
+            "artist": "Romeo Santos",
+            "songName": "Eres Mía"
+        },
+        "misc": {
+            "year": 2014,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/19/41/22/194122c7-fee7-f5ba-4fc2-8cf130611faf/source/100x100bb.jpg",
+            "duration": "4:52"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 4,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1056,
+        "id": "wzMrK-aGCug",
+        "details": {
+            "artist": "Rae Sremmurd",
+            "songName": "No Type"
+        },
+        "misc": {
+            "year": 2014,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music3/v4/93/fd/d4/93fdd443-1dab-c8ca-00bd-ec976e74abfd/source/100x100bb.jpg",
+            "duration": "3:18"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 5,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1057,
+        "id": "7fEQmJ98x_Y",
+        "details": {
+            "artist": "Farruko",
+            "songName": "Chillax (feat. Ky-Mani Marley)"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/3a/e1/00/3ae100af-a938-e99f-9b00-65d61a8ae0b1/source/100x100bb.jpg",
+            "duration": "5:37"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 5,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 3,
+            "Reggaeton": 5,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1058,
+        "id": "CSvFpBOe8eY",
+        "details": {
+            "artist": "System Of A Down",
+            "songName": "Chop Suey!"
+        },
+        "misc": {
+            "year": 2001,
+            "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/f7/7d/78/f77d7847-9831-fead-de75-5e17468f14ac/source/100x100bb.jpg",
+            "duration": "3:27"
+        },
+        "genreWeights": {
+            "Alternative": 2,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 3,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 5,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1059,
+        "id": "Ahha3Cqe_fk",
+        "details": {
+            "artist": "Katy Perry",
+            "songName": "The One That Got Away"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/22/9e/4f/229e4fba-e5c0-14fd-84fb-9abbf3a2b9bb/source/100x100bb.jpg",
+            "duration": "4:51"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1060,
+        "id": "W-TE_Ys4iwM",
+        "details": {
+            "artist": "One Direction",
+            "songName": "Story of My Life"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/95/04/94/95049410-2dd5-29e8-13c8-fedf0b83450f/source/100x100bb.jpg",
+            "duration": "4:08"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1061,
+        "id": "TGtWWb9emYI",
+        "details": {
+            "artist": "Pitbull",
+            "songName": "We Are One (Ole Ola) [feat. Jennifer Lopez & Cláudia Leitte]"
+        },
+        "misc": {
+            "year": 2014,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/2c/4b/ac/2c4bac79-3df8-d9d5-7fe9-9a6e7ce65db5/source/100x100bb.jpg",
+            "duration": "4:06"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 2,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1062,
+        "id": "5qm8PH4xAss",
+        "details": {
+            "artist": "50 Cent",
+            "songName": "In da Club"
+        },
+        "misc": {
+            "year": 2003,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music69/v4/a8/1d/58/a81d584c-5e50-430d-9c42-78acd2de33a9/source/100x100bb.jpg",
+            "duration": "4:10"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 4,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 5,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1063,
+        "id": "qMxX-QOV9tI",
+        "details": {
+            "artist": "Jessie J",
+            "songName": "Price Tag (feat. B.o.B)"
+        },
+        "misc": {
+            "year": 2011,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/1b/ea/35/1bea350b-2950-5382-eda6-ba9a7847bb18/source/100x100bb.jpg",
+            "duration": "4:07"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 3,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 5,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1064,
+        "id": "1wYNFfgrXTI",
+        "details": {
+            "artist": "Eminem",
+            "songName": "When I'm Gone"
+        },
+        "misc": {
+            "year": 2005,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music1/v4/8a/0e/6b/8a0e6b78-e353-1728-2183-653bd2158efe/source/100x100bb.jpg",
+            "duration": "6:09"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 4,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 4,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1065,
+        "id": "qQkBeOisNM0",
+        "details": {
+            "artist": "Fun.",
+            "songName": "Some Nights"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/c0/5d/d4/c05dd415-6a49-241c-1814-7e66ba882964/source/100x100bb.jpg",
+            "duration": "5:40"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 2,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1066,
+        "id": "NlXTv5Ondgs",
+        "details": {
+            "artist": "Kings of Leon",
+            "songName": "Closer"
+        },
+        "misc": {
+            "year": 2008,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/10/c6/2c/10c62cca-ce17-f71d-a057-28b081c87a80/source/100x100bb.jpg",
+            "duration": "4:00"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1067,
+        "id": "u9Dg-g7t2l4",
+        "details": {
+            "artist": "Disturbed",
+            "songName": "The Sound of Silence"
+        },
+        "misc": {
+            "year": 2015,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music7/v4/93/88/3a/93883a8a-d7a9-7f9b-9d91-7f354e349841/source/100x100bb.jpg",
+            "duration": "4:20"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 3,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": true,
+            "trending": false
+        }
+    },
+    {
+        "index": 1068,
+        "id": "u5CVsCnxyXg",
+        "details": {
+            "artist": "Radiohead",
+            "songName": "No Surprises"
+        },
+        "misc": {
+            "year": 1997,
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/4e/b8/ba/4eb8ba96-6ee2-8a60-f012-a7a61a4fe097/source/100x100bb.jpg",
+            "duration": "3:47"
+        },
+        "genreWeights": {
+            "Alternative": 3,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1069,
+        "id": "1uYWYWPc9HU",
+        "details": {
+            "artist": "Radiohead",
+            "songName": "Karma Police"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/f3/f2/ee/f3f2eea2-fc0c-5562-78ce-093114465fbc/source/100x100bb.jpg",
+            "duration": "4:27"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1070,
+        "id": "n5h0qHwNrHk",
+        "details": {
+            "artist": "Radiohead",
+            "songName": "Fake Plastic Trees (Acoustic Version)"
+        },
+        "misc": {
+            "year": 1995,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music4/v4/c3/09/4e/c3094e31-957d-d9bf-20b4-30baa132eba3/source/100x100bb.jpg",
+            "duration": "4:58"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 3,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 5,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1071,
+        "id": "7qFfFVSerQo",
+        "details": {
+            "artist": "Radiohead",
+            "songName": "High and Dry"
+        },
+        "misc": {
+            "year": 1995,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music49/v4/be/5d/0e/be5d0e68-c3eb-6aa7-739e-aa6ced08edc1/source/100x100bb.jpg",
+            "duration": "4:19"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 4,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1072,
+        "id": "qqflFMhkqHM",
+        "details": {
+            "artist": "The xx",
+            "songName": "I Dare You"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/8d/de/b0/8ddeb0e6-1163-6d8b-5d3a-4962efd12747/source/100x100bb.jpg",
+            "duration": "6:54"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1073,
+        "id": "blJKoXWlqJk",
+        "details": {
+            "artist": "The xx",
+            "songName": "On Hold"
+        },
+        "misc": {
+            "year": 2016,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/8d/de/b0/8ddeb0e6-1163-6d8b-5d3a-4962efd12747/source/100x100bb.jpg",
+            "duration": "4:32"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1074,
+        "id": "_nW5AF0m9Zw",
+        "details": {
+            "artist": "The xx",
+            "songName": "Angels"
+        },
+        "misc": {
+            "year": 2012,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/fb/bc/94/fbbc9439-5835-19cd-5c52-117a61ab04f4/source/100x100bb.jpg",
+            "duration": "2:54"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1075,
+        "id": "yoj2I6ZJLx8",
+        "details": {
+            "artist": "The xx",
+            "songName": "Together"
+        },
+        "misc": {
+            "year": 2013,
+            "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music4/v4/64/fb/5d/64fb5dec-3859-f626-75f4-7d48307c9fd9/source/100x100bb.jpg",
+            "duration": "5:29"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1076,
+        "id": "PElhV8z7I60",
+        "details": {
+            "artist": "The xx",
+            "songName": "Islands"
+        },
+        "misc": {
+            "year": 2009,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/11/dc/de/11dcde3a-c728-ef6e-20db-d20620462ade/source/100x100bb.jpg",
+            "duration": "2:43"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 3,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 3,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1077,
+        "id": "gI2eO_mNM88",
+        "details": {
+            "artist": "The xx",
+            "songName": "VCR"
+        },
+        "misc": {
+            "year": 2009,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/11/dc/de/11dcde3a-c728-ef6e-20db-d20620462ade/source/100x100bb.jpg",
+            "duration": "2:57"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1078,
+        "id": "Pib8eYDSFEI",
+        "details": {
+            "artist": "The xx",
+            "songName": "Crystalised"
+        },
+        "misc": {
+            "year": 2009,
+            "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/11/dc/de/11dcde3a-c728-ef6e-20db-d20620462ade/source/100x100bb.jpg",
+            "duration": "3:22"
+        },
+        "genreWeights": {
+            "Alternative": 5,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 2,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 4,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 2,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1079,
+        "id": "MV_3Dpw-BRY",
+        "details": {
+            "artist": "Kavinsky",
+            "songName": "Nightcall"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/cc/59/e8/cc59e8ad-69de-cfc2-8ef0-87b87c62ecd1/source/100x100bb.jpg",
+            "duration": "4:17"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 4,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 0,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": false,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1080,
+        "id": "fS5xHHqW-6E",
+        "details": {
+            "artist": "X Ambassadors",
+            "songName": "Ahead of Myself"
+        },
+        "misc": {
+            "year": 2017,
+            "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/84/fa/52/84fa523e-b5ce-1fd7-4a3b-9d1c6ea1dd26/source/100x100bb.jpg",
+            "duration": "3:54"
+        },
+        "genreWeights": {
+            "Alternative": 4,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 0,
+            "Electronic": 0,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 0,
+            "Punk": 0,
+            "R&B": 0,
+            "Rap": 0,
+            "Reggae": 0,
+            "Reggaeton": 0,
+            "Rock": 3,
+            "Soul": 0,
+            "Trance": 0
+        },
+        "tagging": {
+            "new": true,
+            "hit": false,
+            "trending": false
+        }
+    },
+    {
+        "index": 1081,
+        "id": "pRpeEdMmmQ0",
+        "details": {
+            "artist": "Shakira",
+            "songName": "Waka Waka (This Time for Africa)[feat. Freshlyground]"
+        },
+        "misc": {
+            "year": 2010,
+            "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/0c/70/38/0c70384c-2176-f311-59ab-0ae2a88ce174/source/100x100bb.jpg",
+            "duration": "3:31"
+        },
+        "genreWeights": {
+            "Alternative": 0,
+            "Classic Rock": 0,
+            "Country": 0,
+            "Dance": 3,
+            "Electronic": 1,
+            "Folk": 0,
+            "Funk": 0,
+            "Hard Rock": 0,
+            "Hip-Hop": 0,
+            "House": 0,
+            "Indie": 0,
+            "Latin": 0,
+            "Metal": 0,
+            "Pop": 4,
             "Punk": 0,
             "R&B": 0,
             "Rap": 0,

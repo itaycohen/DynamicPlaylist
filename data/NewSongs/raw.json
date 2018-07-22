@@ -1,488 +1,26 @@
 {
-    "index": 935,
-    "id": "xTlNMmZKwpA",
+    "index": 1033,
+    "id": "Ys7-6_t7OEQ",
     "details": {
-        "artist": "Cardi B, Bad Bunny & J Balvin",
-        "songName": "I Like It"
+        "artist": "Justin Bieber",
+        "songName": "Beauty and a Beat"
     },
     "misc": {
-        "year": 2018,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/30/f9/52/30f952dd-d4cd-a9be-907c-d66bf19bfe23/source/100x100bb.jpg",
-        "duration": "4:17"
+        "year": 2013,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/80/6b/3d/806b3d74-6eb8-6d91-1a3e-fdd644eb837c/source/100x100bb.jpg",
+        "duration": "4:53"
     },
     "genreWeights": {
         "Alternative": 0,
         "Classic Rock": 0,
         "Country": 0,
         "Dance": 3,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 4,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 3,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 4,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 936,
-    "id": "U9BwWKXjVaI",
-    "details": {
-        "artist": "Drake",
-        "songName": "Nice For What"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/d0/76/ec/d076ec98-e18d-ccc2-f609-2810e78734e2/source/100x100bb.jpg",
-        "duration": "4:23"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 1,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 937,
-    "id": "mzB1VGEGcSU",
-    "details": {
-        "artist": "Juice WRLD",
-        "songName": "Lucid Dreams"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/69/d1/c8/69d1c853-5072-1108-9203-58c8a4e23fd2/source/100x100bb.jpg",
-        "duration": "3:51"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 938,
-    "id": "aJOTlE1K90k",
-    "details": {
-        "artist": "Maroon 5",
-        "songName": "Girls Like You (feat. Cardi B)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/a4/79/e7/a479e75e-42a2-45f5-2d88-c743c9f4535c/source/100x100bb.jpg",
-        "duration": "4:31"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 939,
-    "id": "9jI-z9QN6g8",
-    "details": {
-        "artist": "Nio Garcia, Casper Magico & Bad Bunny",
-        "songName": "Te Boté (feat. Darell, Ozuna & Nicky Jam)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/81/8d/e3/818de303-8d2b-d2a2-cba7-f187ab56216a/source/100x100bb.jpg",
-        "duration": "7:03"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
         "Electronic": 3,
         "Folk": 0,
         "Funk": 0,
         "Hard Rock": 0,
         "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 5,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 940,
-    "id": "8JnfIa84TnU",
-    "details": {
-        "artist": "Clean Bandit",
-        "songName": "Solo (feat. Demi Lovato)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/82/84/1c/82841c1c-0abd-f9a5-ad67-3b45918ce0c9/source/100x100bb.jpg",
-        "duration": "3:44"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 4,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 941,
-    "id": "Jqs5EaAaueA",
-    "details": {
-        "artist": "5 Seconds of Summer",
-        "songName": "Youngblood"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/91/ff/60/91ff6033-6326-a170-375b-bfcadcfb4a72/source/100x100bb.jpg",
-        "duration": "3:26"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 2,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 942,
-    "id": "au2n7VVGv_c",
-    "details": {
-        "artist": "Post Malone",
-        "songName": "Psycho (feat. Ty Dolla $ign)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/41/c0/1a/41c01a78-cdfa-0c06-4b9b-8e00bf07aaad/source/100x100bb.jpg",
-        "duration": "3:57"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 943,
-    "id": "VYOjWnS4cMY",
-    "details": {
-        "artist": "Childish Gambino",
-        "songName": "This Is America"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/30/43/56/3043564a-ebb0-7d7c-a1be-318ebbbf0963/source/100x100bb.jpg",
-        "duration": "4:05"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 3,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 4,
-        "Rap": 3,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 944,
-    "id": "LjxulQ1bEWg",
-    "details": {
-        "artist": "Tyga",
-        "songName": "Taste (feat. Offset)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/9d/ec/59/9dec59db-6010-e366-6c78-1ec97d1c5327/source/100x100bb.jpg",
-        "duration": "3:53"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 945,
-    "id": "Kbj2Zss-5GY",
-    "details": {
-        "artist": "A$AP Rocky",
-        "songName": "Praise the Lord (Da Shine) [feat. Skepta]"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/ae/62/68/ae6268f3-6430-3936-a4f0-1d8065533c56/source/100x100bb.jpg",
-        "duration": "3:47"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 946,
-    "id": "36tggrpRoTI",
-    "details": {
-        "artist": "Shawn Mendes",
-        "songName": "In My Blood"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/bb/ca/eb/bbcaeb6e-c981-15c1-2d5d-ffc0935d27b7/source/100x100bb.jpg",
-        "duration": "3:38"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
+        "House": 3,
         "Indie": 0,
         "Latin": 0,
         "Metal": 0,
@@ -492,69 +30,27 @@
         "Rap": 0,
         "Reggae": 0,
         "Reggaeton": 0,
-        "Rock": 2,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 947,
-    "id": "zEf423kYfqk",
-    "details": {
-        "artist": "Becky G. & Natti Natasha",
-        "songName": "Sin Pijama"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/9d/5f/d0/9d5fd0b5-f968-4e1c-aa75-c975153e4671/source/100x100bb.jpg",
-        "duration": "3:37"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 3,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 5,
         "Rock": 0,
         "Soul": 0,
         "Trance": 0
     },
     "tagging": {
-        "new": true,
+        "new": false,
         "hit": true,
-        "trending": true
+        "trending": false
     }
 },
 {
-    "index": 948,
-    "id": "M4ZoCHID9GI",
+    "index": 1034,
+    "id": "OXq-JP8w5H4",
     "details": {
-        "artist": "The Weeknd",
-        "songName": "Call Out My Name"
+        "artist": "Maluma",
+        "songName": "Cuatro Babys (feat. Noriel, Bryant Myers & Juhn)"
     },
     "misc": {
-        "year": 2018,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/f7/0e/e8/f70ee86e-c7a7-8711-9304-15304d455ff5/source/100x100bb.jpg",
-        "duration": "3:59"
+        "year": 2016,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music62/v4/0a/10/da/0a10da87-4922-7e61-78cc-54e2940ec7fb/source/100x100bb.jpg",
+        "duration": "4:39"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -568,35 +64,35 @@
         "Hip-Hop": 0,
         "House": 0,
         "Indie": 0,
-        "Latin": 0,
+        "Latin": 4,
         "Metal": 0,
         "Pop": 0,
         "Punk": 0,
-        "R&B": 4,
+        "R&B": 0,
         "Rap": 0,
         "Reggae": 0,
         "Reggaeton": 0,
         "Rock": 0,
-        "Soul": 3,
+        "Soul": 0,
         "Trance": 0
     },
     "tagging": {
-        "new": true,
+        "new": false,
         "hit": true,
-        "trending": true
+        "trending": false
     }
 },
 {
-    "index": 949,
-    "id": "kHLHSlExFis",
+    "index": 1035,
+    "id": "k0BWlvnBmIE",
     "details": {
-        "artist": "Ariana Grande",
-        "songName": "God is a woman"
+        "artist": "Katy Perry",
+        "songName": "Wide Awake"
     },
     "misc": {
-        "year": 2018,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/eb/45/1d/eb451db3-53c9-5ba5-ba44-b059be004d29/source/100x100bb.jpg",
-        "duration": "4:02"
+        "year": 2012,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/7b/89/f6/7b89f61f-fe83-f5bc-84e6-bac2b8980681/source/100x100bb.jpg",
+        "duration": "4:37"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -623,69 +119,27 @@
         "Trance": 0
     },
     "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
+        "new": false,
+        "hit": true,
+        "trending": false
     }
 },
 {
-    "index": 950,
-    "id": "btrzs54s1Rc",
+    "index": 1036,
+    "id": "VuNIsY6JdUw",
     "details": {
-        "artist": "Jonas Blue",
-        "songName": "Rise (feat. Jack & Jack)"
+        "artist": "Taylor Swift",
+        "songName": "You Belong With Me"
     },
     "misc": {
-        "year": 2018,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/63/3c/66/633c667d-9d82-cd41-5bf0-2f8941776843/source/100x100bb.jpg",
-        "duration": "3:39"
+        "year": 2008,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/ae/35/ac/ae35ac3b-5c14-818e-a54c-a1f73ef13c54/source/100x100bb.jpg",
+        "duration": "3:49"
     },
     "genreWeights": {
         "Alternative": 0,
         "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 3,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 951,
-    "id": "LdH7aFjDzjI",
-    "details": {
-        "artist": "Bebe Rexha",
-        "songName": "I'm a Mess"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/91/e1/69/91e16957-4e51-44d8-129d-cccf0f47c85b/source/100x100bb.jpg",
-        "duration": "3:23"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
+        "Country": 4,
         "Dance": 0,
         "Electronic": 0,
         "Folk": 0,
@@ -707,106 +161,22 @@
         "Trance": 0
     },
     "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
+        "new": false,
+        "hit": true,
+        "trending": false
     }
 },
 {
-    "index": 952,
-    "id": "BDocp-VpCwY",
+    "index": 1037,
+    "id": "Xk0wdDTTPA0",
     "details": {
-        "artist": "Martin Garrix",
-        "songName": "Ocean (feat. Khalid)"
+        "artist": "Maluma",
+        "songName": "Borro Cassette"
     },
     "misc": {
-        "year": 2018,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/64/90/5b/64905b06-b977-033e-6f86-cec476ff8298/source/100x100bb.jpg",
-        "duration": "3:35"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 1,
-        "Electronic": 3,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 3,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 953,
-    "id": "kbMqWXnpXcA",
-    "details": {
-        "artist": "THE CARTERS",
-        "songName": "APES**T"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/ea/27/c3/ea27c379-89ea-b463-af98-f9cd65c83d08/source/100x100bb.jpg",
-        "duration": "6:06"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 954,
-    "id": "6YNZlXfW6Ho",
-    "details": {
-        "artist": "Ella Mai",
-        "songName": "Boo'd Up"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music111/v4/46/72/0e/46720e78-e99a-0f2a-5fa3-46c34a974459/source/100x100bb.jpg",
-        "duration": "4:02"
+        "year": 2015,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/0c/ad/98/0cad98c6-3723-ee23-2667-5cbb834d7321/source/100x100bb.jpg",
+        "duration": "4:08"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -820,49 +190,7 @@
         "Hip-Hop": 0,
         "House": 0,
         "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 4,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 955,
-    "id": "kLpH1nSLJSs",
-    "details": {
-        "artist": "Bad Bunny",
-        "songName": "Amorfoda"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/ba/f1/3b/baf13b62-27de-1dea-fb8b-7f1400e4de6f/source/100x100bb.jpg",
-        "duration": "2:57"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 4,
+        "Latin": 5,
         "Metal": 0,
         "Pop": 0,
         "Punk": 0,
@@ -875,273 +203,21 @@
         "Trance": 0
     },
     "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 956,
-    "id": "LPTlvQ1Zet0",
-    "details": {
-        "artist": "Offset & Metro Boomin",
-        "songName": "Ric Flair Drip"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/10/ba/42/10ba42d9-5af2-8a40-6f82-2b528149138f/source/100x100bb.jpg",
-        "duration": "3:09"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": true,
-        "trending": true
-    }
-},
-{
-    "index": 957,
-    "id": "TdyllLZeviY",
-    "details": {
-        "artist": "Charlie Puth",
-        "songName": "Done For Me (feat. Kehlani)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/06/b6/f4/06b6f4df-09e6-f341-d5b1-02f393b61ef3/source/100x100bb.jpg",
-        "duration": "2:57"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 3,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 2,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 958,
-    "id": "N5EnGwXV_Pg",
-    "details": {
-        "artist": "John Mayer",
-        "songName": "Your Body Is a Wonderland"
-    },
-    "misc": {
-        "year": 2001,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/e0/a4/62/e0a462e3-b592-1b93-cf5b-64ac00fba5c2/source/100x100bb.jpg",
-        "duration": "4:17"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 959,
-    "id": "kVpv8-5XWOI",
-    "details": {
-        "artist": "Train",
-        "songName": "Hey, Soul Sister"
-    },
-    "misc": {
-        "year": 2009,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/b3/f6/e3/b3f6e3f2-f4f1-69ca-a7a4-205168f6f44c/source/100x100bb.jpg",
-        "duration": "3:38"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 960,
-    "id": "S2Cti12XBw4",
-    "details": {
-        "artist": "Maroon 5",
-        "songName": "Sunday Morning"
-    },
-    "misc": {
-        "year": 2002,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music4/v4/73/7c/f0/737cf096-a846-fcb4-eff9-70bb35410850/source/100x100bb.jpg",
-        "duration": "4:23"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 961,
-    "id": "WpYeekQkAdc",
-    "details": {
-        "artist": "The Black Eyed Peas",
-        "songName": "Where Is the Love?"
-    },
-    "misc": {
-        "year": 2003,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/33/ed/8e/33ed8eb0-4768-c14a-7e21-c421b9647e09/source/100x100bb.jpg",
-        "duration": "4:13"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 2,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 4,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
         "new": false,
         "hit": true,
         "trending": false
     }
 },
 {
-    "index": 962,
-    "id": "SPUJIbXN0WY",
+    "index": 1038,
+    "id": "6R5i6wQCOCQ",
     "details": {
-        "artist": "Michael Bublé",
-        "songName": "Everything"
+        "artist": "Zion & Lennox",
+        "songName": "Otra Vez (feat. J Balvin)"
     },
     "misc": {
-        "year": 2007,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/2e/c5/76/2ec57663-d67f-8670-4a83-a55aae2f04ea/source/100x100bb.jpg",
+        "year": 2016,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music42/v4/8d/42/1d/8d421df3-ff3c-64f6-5628-0708350f8839/source/100x100bb.jpg",
         "duration": "3:33"
     },
     "genreWeights": {
@@ -1156,9 +232,9 @@
         "Hip-Hop": 0,
         "House": 0,
         "Indie": 0,
-        "Latin": 0,
+        "Latin": 5,
         "Metal": 0,
-        "Pop": 4,
+        "Pop": 0,
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
@@ -1170,21 +246,21 @@
     },
     "tagging": {
         "new": false,
-        "hit": false,
+        "hit": true,
         "trending": false
     }
 },
 {
-    "index": 963,
-    "id": "Cwkej79U3ek",
+    "index": 1039,
+    "id": "zZjSX01P5dE",
     "details": {
-        "artist": "Vanessa Carlton",
-        "songName": "A Thousand Miles"
+        "artist": "J Balvin",
+        "songName": "Ginza"
     },
     "misc": {
-        "year": 2001,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/83/6c/8a/836c8a61-9453-86f6-2f61-6bbde832b5c1/source/100x100bb.jpg",
-        "duration": "4:29"
+        "year": 2015,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music60/v4/e9/81/78/e98178b6-848f-9a95-1217-baa53e565e8c/source/100x100bb.jpg",
+        "duration": "3:49"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -1198,99 +274,15 @@
         "Hip-Hop": 0,
         "House": 0,
         "Indie": 0,
-        "Latin": 0,
+        "Latin": 5,
         "Metal": 0,
-        "Pop": 4,
+        "Pop": 0,
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
         "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 964,
-    "id": "0yBnIUX0QAE",
-    "details": {
-        "artist": "Toploader",
-        "songName": "Dancing In the Moonlight"
-    },
-    "misc": {
-        "year": 2002,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/08/e2/e1/08e2e13b-c5ab-e47e-e056-bc35ef0ae4c1/source/100x100bb.jpg",
-        "duration": "3:46"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 2,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 965,
-    "id": "6hzrDeceEKc",
-    "details": {
-        "artist": "Oasis",
-        "songName": "Wonderwall"
-    },
-    "misc": {
-        "year": 1995,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/30/22/36/302236ff-a3bf-77d7-ba61-238a3d223ad9/source/100x100bb.jpg",
-        "duration": "4:40"
-    },
-    "genreWeights": {
-        "Alternative": 4,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 2,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
+        "Reggaeton": 4,
+        "Rock": 0,
         "Soul": 0,
         "Trance": 0
     },
@@ -1301,16 +293,16 @@
     }
 },
 {
-    "index": 966,
-    "id": "3bdOefF_tyU",
+    "index": 1040,
+    "id": "bbEoRnaOIbs",
     "details": {
-        "artist": "Sixpence None the Richer",
-        "songName": "Don't Dream It's Over"
+        "artist": "Mike WiLL Made-It",
+        "songName": "23 (feat. Miley Cyrus, Wiz Khalifa & Juicy J)"
     },
     "misc": {
-        "year": 2002,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music62/v4/9e/37/20/9e372066-899e-2ae2-beee-3ef810c972dc/source/100x100bb.jpg",
-        "duration": "3:37"
+        "year": 2013,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/a4/be/55/a4be555c-c8de-29d7-00f9-4a7047e0f79b/source/100x100bb.jpg",
+        "duration": "5:18"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -1321,228 +313,18 @@
         "Folk": 0,
         "Funk": 0,
         "Hard Rock": 0,
-        "Hip-Hop": 0,
+        "Hip-Hop": 4,
         "House": 0,
         "Indie": 0,
         "Latin": 0,
         "Metal": 0,
-        "Pop": 2,
+        "Pop": 0,
         "Punk": 0,
         "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 967,
-    "id": "EkHTsc9PU2A",
-    "details": {
-        "artist": "Jason Mraz",
-        "songName": "I'm Yours"
-    },
-    "misc": {
-        "year": 2008,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/46/8e/a3/468ea3fc-139e-9e83-c603-de6b34c1f726/source/100x100bb.jpg",
-        "duration": "3:41"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 3,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 968,
-    "id": "3wxyN3z9PL4",
-    "details": {
-        "artist": "Starship",
-        "songName": "Nothing's Gonna Stop Us Now"
-    },
-    "misc": {
-        "year": 1987,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/a3/3a/eb/a33aebf4-7d35-87fe-a09c-24429d9384a4/source/100x100bb.jpg",
-        "duration": "4:30"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 969,
-    "id": "LjhCEhWiKXk",
-    "details": {
-        "artist": "Bruno Mars",
-        "songName": "Just the Way You Are"
-    },
-    "misc": {
-        "year": 2010,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/cd/1f/84/cd1f8413-008a-6759-dccd-676ad72a017a/source/100x100bb.jpg",
-        "duration": "4:02"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 4,
-        "Hard Rock": 0,
-        "Hip-Hop": 1,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
+        "Rap": 3,
         "Reggae": 0,
         "Reggaeton": 0,
         "Rock": 0,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 970,
-    "id": "acvIVA9-FMQ",
-    "details": {
-        "artist": "Jason Mraz & Colbie Caillat",
-        "songName": "Lucky (feat. Colbie Caillat)"
-    },
-    "misc": {
-        "year": 2008,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/46/8e/a3/468ea3fc-139e-9e83-c603-de6b34c1f726/source/100x100bb.jpg",
-        "duration": "3:22"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 1,
-        "Soul": 1,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 971,
-    "id": "yKNxeF4KMsY",
-    "details": {
-        "artist": "Coldplay",
-        "songName": "Yellow"
-    },
-    "misc": {
-        "year": 2000,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music60/v4/79/a4/7a/79a47aba-d16b-ec72-8b77-ff3969cec409/source/100x100bb.jpg",
-        "duration": "4:33"
-    },
-    "genreWeights": {
-        "Alternative": 4,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 2,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
         "Soul": 0,
         "Trance": 0
     },
@@ -1553,183 +335,15 @@
     }
 },
 {
-    "index": 972,
-    "id": "jZhQOvvV45w",
+    "index": 1041,
+    "id": "_Z5-P9v3F8w",
     "details": {
-        "artist": "OneRepublic",
-        "songName": "Good Life (Remix) [feat. B.O.B.]"
+        "artist": "Justin Bieber",
+        "songName": "Never Say Never (feat. Jaden Smith)"
     },
     "misc": {
         "year": 2011,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/4e/e2/ac/4ee2aca0-0b4b-a65b-e1ac-40d33867278c/source/100x100bb.jpg",
-        "duration": "4:09"
-    },
-    "genreWeights": {
-        "Alternative": 4,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 973,
-    "id": "bKxodgpyGec",
-    "details": {
-        "artist": "CeeLo Green",
-        "songName": "Forget You"
-    },
-    "misc": {
-        "year": 2010,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/4f/f2/1c/4ff21c06-143d-d9ef-c697-1e1dcc35c9fa/source/100x100bb.jpg",
-        "duration": "3:54"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 4,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 1,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 974,
-    "id": "qi7Yh16dA0w",
-    "details": {
-        "artist": "Sara Bareilles",
-        "songName": "Love Song"
-    },
-    "misc": {
-        "year": 2007,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/46/70/ed/4670ed95-a161-04a5-c35e-ee67d5e2d9ec/source/100x100bb.jpg",
-        "duration": "4:25"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 2,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 975,
-    "id": "tvtJPs8IDgU",
-    "details": {
-        "artist": "Counting Crows",
-        "songName": "Big Yellow Taxi"
-    },
-    "misc": {
-        "year": 2002,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/34/a5/8d/34a58de1-f336-e173-f92a-cd01c218cc3d/source/100x100bb.jpg",
-        "duration": "3:46"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 976,
-    "id": "UZp6dhheriM",
-    "details": {
-        "artist": "James Morrison",
-        "songName": "You Give Me Something"
-    },
-    "misc": {
-        "year": 2006,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/38/9e/98/389e98f4-dcca-dc5e-f800-ef3222b0dd7d/source/100x100bb.jpg",
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/fd/50/66/fd5066a0-281f-f40f-c7e7-eba16407a675/source/100x100bb.jpg",
         "duration": "3:50"
     },
     "genreWeights": {
@@ -1746,133 +360,7 @@
         "Indie": 0,
         "Latin": 0,
         "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 2,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 977,
-    "id": "8N-qO3sPMjc",
-    "details": {
-        "artist": "Sixpence None the Richer",
-        "songName": "Kiss Me"
-    },
-    "misc": {
-        "year": 1998,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music71/v4/60/6f/80/606f808e-cae0-090b-58e5-f094a33771e6/source/100x100bb.jpg",
-        "duration": "3:22"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 978,
-    "id": "_ElORM9O-0U",
-    "details": {
-        "artist": "Tal Bachman",
-        "songName": "She's So High"
-    },
-    "misc": {
-        "year": 1998,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/5b/45/d8/5b45d8b7-3fd1-3d67-da65-eddad0373eb4/source/100x100bb.jpg",
-        "duration": "3:46"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 979,
-    "id": "KU5o6M7S5nQ",
-    "details": {
-        "artist": "Colbie Caillat",
-        "songName": "Brighter Than the Sun"
-    },
-    "misc": {
-        "year": 2011,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/a7/42/7e/a7427e5e-2ea0-7f5c-e552-a21ad68f34b1/source/100x100bb.jpg",
-        "duration": "3:55"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 3,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 2,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
+        "Pop": 5,
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
@@ -1884,1239 +372,21 @@
     },
     "tagging": {
         "new": false,
-        "hit": false,
+        "hit": true,
         "trending": false
     }
 },
 {
-    "index": 980,
-    "id": "gS9o1FAszdk",
+    "index": 1042,
+    "id": "kTHNpusq654",
     "details": {
-        "artist": "The Script",
-        "songName": "The Man Who Can't Be Moved"
+        "artist": "Katy Perry",
+        "songName": "Hot n Cold"
     },
     "misc": {
         "year": 2008,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/74/78/f7/7478f7d7-0783-ed20-3981-1815ac754842/source/100x100bb.jpg",
-        "duration": "4:00"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 981,
-    "id": "K1uNjmxJQUo",
-    "details": {
-        "artist": "The Pussycat Dolls",
-        "songName": "Stickwitu"
-    },
-    "misc": {
-        "year": 2005,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/b2/05/88/b2058898-3503-fb21-3adc-43d66dfe3c47/source/100x100bb.jpg",
-        "duration": "3:34"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 3,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 982,
-    "id": "ac3HkriqdGQ",
-    "details": {
-        "artist": "Lifehouse",
-        "songName": "You and Me"
-    },
-    "misc": {
-        "year": 2005,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/c3/66/7f/c3667ffb-f766-d7af-81f7-809eef2366a6/source/100x100bb.jpg",
-        "duration": "3:37"
-    },
-    "genreWeights": {
-        "Alternative": 3,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 983,
-    "id": "ek2PDE1cAyY",
-    "details": {
-        "artist": "Jesse McCartney",
-        "songName": "Because You Live"
-    },
-    "misc": {
-        "year": 2004,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/10/39/60/10396038-d4b3-bb0d-ff5f-47e0a28f658f/source/100x100bb.jpg",
-        "duration": "3:24"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 984,
-    "id": "GRz4FY0ZcwI",
-    "details": {
-        "artist": "Five for Fighting & John Ondrasik",
-        "songName": "Superman (It's Not Easy)"
-    },
-    "misc": {
-        "year": 2001,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/59/a7/c7/59a7c745-1f06-12e6-9f3a-7739ceaeae0a/source/100x100bb.jpg",
-        "duration": "3:39"
-    },
-    "genreWeights": {
-        "Alternative": 4,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 985,
-    "id": "agrXgrAgQ0U",
-    "details": {
-        "artist": "Fergie",
-        "songName": "Big Girls Don't Cry (Personal)"
-    },
-    "misc": {
-        "year": 2006,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/cb/50/2b/cb502b1c-eb57-d07b-4de7-e468a952c59e/source/100x100bb.jpg",
-        "duration": "5:07"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 2,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 986,
-    "id": "cL4uhaQ58Rk",
-    "details": {
-        "artist": "Adam Levine",
-        "songName": "Lost Stars"
-    },
-    "misc": {
-        "year": 2014,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music6/v4/2c/3c/d5/2c3cd50d-8ca9-7b25-2dd3-9869afeb08b4/source/100x100bb.jpg",
-        "duration": "4:35"
-    },
-    "genreWeights": {
-        "Alternative": 2,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 987,
-    "id": "tMfXeuv4kZE",
-    "details": {
-        "artist": "Sixpence None the Richer",
-        "songName": "There She Goes"
-    },
-    "misc": {
-        "year": 1999,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music71/v4/60/6f/80/606f808e-cae0-090b-58e5-f094a33771e6/source/100x100bb.jpg",
-        "duration": "2:45"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 988,
-    "id": "nSDgHBxUbVQ",
-    "details": {
-        "artist": "Ed Sheeran",
-        "songName": "Photograph"
-    },
-    "misc": {
-        "year": 2014,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music4/v4/5d/1f/56/5d1f56ae-fa9d-8ae4-724e-172504571be4/source/100x100bb.jpg",
-        "duration": "4:35"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 2,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 989,
-    "id": "cjVQ36NhbMk",
-    "details": {
-        "artist": "The Fray",
-        "songName": "How to Save a Life (New Version)"
-    },
-    "misc": {
-        "year": 2005,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music3/v4/2c/93/4d/2c934dc6-e73b-9dce-1ff4-ebb6bc76df0e/source/100x100bb.jpg",
-        "duration": "4:27"
-    },
-    "genreWeights": {
-        "Alternative": 3,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 990,
-    "id": "gH476CxJxfg",
-    "details": {
-        "artist": "Daniel Powter",
-        "songName": "Bad Day"
-    },
-    "misc": {
-        "year": 2005,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/b3/0d/dd/b30ddd2f-7818-f552-d3ad-032e7a31878f/source/100x100bb.jpg",
-        "duration": "3:48"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 4,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 991,
-    "id": "uwBwKcQ1k84",
-    "details": {
-        "artist": "Shakira",
-        "songName": "Underneath Your Clothes"
-    },
-    "misc": {
-        "year": 2001,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/d5/d2/7a/d5d27a5e-5220-4c5d-e587-d596943b168d/source/100x100bb.jpg",
-        "duration": "4:02"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 2,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 992,
-    "id": "AWGqoCNbsvM",
-    "details": {
-        "artist": "Colbie Caillat",
-        "songName": "Bubbly"
-    },
-    "misc": {
-        "year": 2007,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ff/d4/1f/ffd41fc4-5b12-175e-66c6-d6a6020f8536/source/100x100bb.jpg",
-        "duration": "3:15"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 3,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 993,
-    "id": "DGzy8FE1Rhk",
-    "details": {
-        "artist": "Shawn Mendes",
-        "songName": "Nervous"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/bb/ca/eb/bbcaeb6e-c981-15c1-2d5d-ffc0935d27b7/source/100x100bb.jpg",
-        "duration": "2:47"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 994,
-    "id": "3iCbphY30qk",
-    "details": {
-        "artist": "Andra",
-        "songName": "Sudamericana (feat. Pachanga)"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/70/08/0f/70080f55-41f3-3d41-24af-512f9e5a8cae/source/100x100bb.jpg",
-        "duration": "3:16"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": true
-    }
-},
-{
-    "index": 995,
-    "id": "ghSQz2BcDQU",
-    "details": {
-        "artist": "Sigala & Paloma Faith",
-        "songName": "Lullaby"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/3e/bd/39/3ebd39f7-6c4f-b015-e8be-37b601ebde12/source/100x100bb.jpg",
-        "duration": "3:30"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 4,
-        "Electronic": 4,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 4,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 996,
-    "id": "STmLv9pLuX0",
-    "details": {
-        "artist": "Martin Solveig",
-        "songName": "All Stars (feat. Alma)"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/09/43/c0/0943c00d-d9b5-c125-42e6-a52bab68668d/source/100x100bb.jpg",
-        "duration": "2:57"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 4,
-        "Electronic": 4,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 3,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 997,
-    "id": "Uq8fE3kKIBk",
-    "details": {
-        "artist": "Sigala & Ella Eyre",
-        "songName": "Came Here For Love"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music117/v4/aa/c7/de/aac7dea6-7481-0470-9ca3-99e420d243a5/source/100x100bb.jpg",
-        "duration": "3:23"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 4,
-        "Electronic": 4,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 3,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 998,
-    "id": "-LX2kpeyp80",
-    "details": {
-        "artist": "Miley Cyrus",
-        "songName": "Younger Now"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/e9/2f/ec/e92fec60-dbfc-9b18-0425-c878ca71a3b6/source/100x100bb.jpg",
-        "duration": "4:03"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 2,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 5,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 1,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": true,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 999,
-    "id": "eXDU9um19HM",
-    "details": {
-        "artist": "The Weeknd",
-        "songName": "Secrets"
-    },
-    "misc": {
-        "year": 2016,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music62/v4/82/5b/e4/825be489-3cea-e52f-61a3-5457324c8a4e/source/100x100bb.jpg",
-        "duration": "3:19"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 2,
-        "Electronic": 1,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 4,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 1000,
-    "id": "Dst9gZkq1a8",
-    "details": {
-        "artist": "Travis Scott",
-        "songName": "goosebumps"
-    },
-    "misc": {
-        "year": 2016,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/1c/dd/24/1cdd2473-ef12-a562-3b88-9561ded591f9/source/100x100bb.jpg",
-        "duration": "4:11"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 1,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 4,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1001,
-    "id": "VkXjvHfP3MM",
-    "details": {
-        "artist": "Nicki Minaj, Drake & Lil Wayne",
-        "songName": "No Frauds"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/c1/84/1e/c1841ef7-9ae8-5d7c-39f3-b1c745bad125/source/100x100bb.jpg",
-        "duration": "5:25"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1002,
-    "id": "7qaHdHpSjX8",
-    "details": {
-        "artist": "Brett Young",
-        "songName": "In Case You Didn't Know"
-    },
-    "misc": {
-        "year": 2016,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music122/v4/e2/16/e3/e216e3db-3444-2768-9d15-ddf765745a5a/source/100x100bb.jpg",
-        "duration": "3:57"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 4,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1003,
-    "id": "rClUOdS5Zyw",
-    "details": {
-        "artist": "Jason Derulo",
-        "songName": "Want to Want Me"
-    },
-    "misc": {
-        "year": 2015,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/2c/ef/32/2cef3296-63f4-fb35-956a-08bcbf46626f/source/100x100bb.jpg",
-        "duration": "3:48"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 4,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1004,
-    "id": "i_kF4zLNKio",
-    "details": {
-        "artist": "Fetty Wap",
-        "songName": "Trap Queen"
-    },
-    "misc": {
-        "year": 2014,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music60/v4/1a/9c/44/1a9c442e-a53a-0a97-4740-eebd457a019b/source/100x100bb.jpg",
-        "duration": "4:05"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 5,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 5,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1005,
-    "id": "6vopR3ys8Kw",
-    "details": {
-        "artist": "Flume & Chet Faker",
-        "songName": "Drop the Game"
-    },
-    "misc": {
-        "year": 2013,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music49/v4/70/20/38/7020386f-6dcb-6504-7dbd-aa1c4a214fb9/source/100x100bb.jpg",
-        "duration": "4:09"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 3,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 3,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 1006,
-    "id": "UKp2CrfmVfw",
-    "details": {
-        "artist": "Alessia Cara",
-        "songName": "Here"
-    },
-    "misc": {
-        "year": 2015,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music6/v4/0d/8d/b7/0d8db776-6d70-2e08-1976-03e71d9d4c0f/source/100x100bb.jpg",
-        "duration": "3:30"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 2,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 3,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 3,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 1007,
-    "id": "eJSik6ejkr0",
-    "details": {
-        "artist": "Naughty Boy",
-        "songName": "Runnin' (Lose It All) [feat. Beyoncé & Arrow Benjamin]"
-    },
-    "misc": {
-        "year": 2015,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music60/v4/57/95/16/57951618-e0b5-97b8-a5f9-3dccbbd8e63e/source/100x100bb.jpg",
-        "duration": "3:44"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 1,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1008,
-    "id": "B3eAMGXFw1o",
-    "details": {
-        "artist": "Rihanna",
-        "songName": "Bitch Better Have My Money"
-    },
-    "misc": {
-        "year": 2015,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music5/v4/96/a6/25/96a62516-0cf5-c8f3-027f-d1cd09ca0619/source/100x100bb.jpg",
-        "duration": "7:02"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 1,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 4,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 3,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": false,
-        "trending": false
-    }
-},
-{
-    "index": 1009,
-    "id": "My2FRPA3Gf8",
-    "details": {
-        "artist": "Miley Cyrus",
-        "songName": "Wrecking Ball"
-    },
-    "misc": {
-        "year": 2013,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/8b/b9/29/8bb92986-1b86-188a-ef1b-60d627b62577/source/100x100bb.jpg",
-        "duration": "3:42"
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/8d/57/6d/8d576da8-a4bf-0f35-07cd-f41d1da7a874/source/100x100bb.jpg",
+        "duration": "4:44"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -3149,144 +419,18 @@
     }
 },
 {
-    "index": 1010,
-    "id": "47dtFZ8CFo8",
+    "index": 1043,
+    "id": "AtKZKl7Bgu0",
     "details": {
-        "artist": "Capital Cities",
-        "songName": "Safe and Sound"
+        "artist": "Calvin Harris",
+        "songName": "I Need Your Love (feat. Ellie Goulding) [Nicky Romero Remix]"
     },
     "misc": {
-        "year": 2011,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/c4/8d/b8/c48db837-d409-a8ec-998d-8af22f04ca26/source/100x100bb.jpg",
+        "year": 2013,
+        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music2/v4/ea/1c/84/ea1c8417-4872-71b8-3957-86ae1f21ec54/source/100x100bb.jpg",
         "duration": "3:47"
     },
     "genreWeights": {
-        "Alternative": 4,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 4,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1011,
-    "id": "kffacxfA7G4",
-    "details": {
-        "artist": "Justin Bieber",
-        "songName": "Baby"
-    },
-    "misc": {
-        "year": 2010,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/8c/db/f8/8cdbf81f-ee40-5a21-0271-74b4bdd623e3/source/100x100bb.jpg",
-        "duration": "3:45"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 5,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1012,
-    "id": "uelHwf8o7_U",
-    "details": {
-        "artist": "Eminem",
-        "songName": "Love the Way You Lie (feat. Rihanna)"
-    },
-    "misc": {
-        "year": 2010,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/e1/48/37/e148379b-30a2-6d4f-a7a9-da5ae15b2b0a/source/100x100bb.jpg",
-        "duration": "4:27"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 4,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 4,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1013,
-    "id": "KQ6zr6kCPj8",
-    "details": {
-        "artist": "LMFAO",
-        "songName": "Party Rock Anthem (feat. Lauren Bennett & GoonRock)"
-    },
-    "misc": {
-        "year": 2011,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/ed/26/d6/ed26d6f0-ed83-217c-f2aa-f617c8bfdedd/source/100x100bb.jpg",
-        "duration": "6:16"
-    },
-    "genreWeights": {
         "Alternative": 0,
         "Classic Rock": 0,
         "Country": 0,
@@ -3296,11 +440,11 @@
         "Funk": 0,
         "Hard Rock": 0,
         "Hip-Hop": 0,
-        "House": 4,
+        "House": 3,
         "Indie": 0,
         "Latin": 0,
         "Metal": 0,
-        "Pop": 3,
+        "Pop": 2,
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
@@ -3317,106 +461,22 @@
     }
 },
 {
-    "index": 1014,
-    "id": "rYEDA3JcQqw",
+    "index": 1044,
+    "id": "tLcfAnN2QgY",
     "details": {
-        "artist": "Adele",
-        "songName": "Rolling in the Deep"
+        "artist": "Enrique Iglesias",
+        "songName": "El Perdedor (feat. Marco Antonio Solís)"
     },
     "misc": {
-        "year": 2010,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/cf/7e/47/cf7e47a8-bb18-9156-43d0-7591d0e0855e/source/100x100bb.jpg",
-        "duration": "3:54"
+        "year": 2013,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music4/v4/69/5f/02/695f02f1-c047-7a9a-d48e-edd0059004f7/source/100x100bb.jpg",
+        "duration": "4:22"
     },
     "genreWeights": {
         "Alternative": 0,
         "Classic Rock": 0,
         "Country": 0,
         "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 5,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1015,
-    "id": "t4H_Zoh7G5A",
-    "details": {
-        "artist": "Jennifer Lopez",
-        "songName": "On the Floor (feat. Pitbull)"
-    },
-    "misc": {
-        "year": 2011,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/5b/28/8a/5b288a0a-91cf-7766-ab41-8bc22f08b7e4/source/100x100bb.jpg",
-        "duration": "4:27"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 3,
-        "Electronic": 2,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 2,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1016,
-    "id": "AMTAQ-AJS4Y",
-    "details": {
-        "artist": "Chino & Nacho",
-        "songName": "Andas En Mi Cabeza (feat. Daddy Yankee)"
-    },
-    "misc": {
-        "year": 2016,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/09/3b/be/093bbeae-eb16-34ed-747e-82b8265a726f/source/100x100bb.jpg",
-        "duration": "5:05"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 2,
         "Electronic": 0,
         "Folk": 0,
         "Funk": 0,
@@ -3426,7 +486,7 @@
         "Indie": 0,
         "Latin": 4,
         "Metal": 0,
-        "Pop": 0,
+        "Pop": 3,
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
@@ -3443,58 +503,16 @@
     }
 },
 {
-    "index": 1017,
-    "id": "QGJuMBdaqIw",
+    "index": 1045,
+    "id": "6BTjG-dhf5s",
     "details": {
-        "artist": "Katy Perry",
-        "songName": "Firework"
+        "artist": "Daddy Yankee",
+        "songName": "Limbo"
     },
     "misc": {
-        "year": 2010,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/22/9e/4f/229e4fba-e5c0-14fd-84fb-9abbf3a2b9bb/source/100x100bb.jpg",
-        "duration": "3:54"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 5,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1018,
-    "id": "-UV0QGLmYys",
-    "details": {
-        "artist": "Carlos Vives & Shakira",
-        "songName": "La Bicicleta"
-    },
-    "misc": {
-        "year": 2016,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music127/v4/06/e2/42/06e242b0-0ad5-6150-d13c-5ab77eae256c/source/100x100bb.jpg",
-        "duration": "3:58"
+        "year": 2012,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/01/58/c1/0158c1a1-de11-b847-857e-765b97d190b9/source/100x100bb.jpg",
+        "duration": "4:15"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -3510,7 +528,91 @@
         "Indie": 0,
         "Latin": 5,
         "Metal": 0,
-        "Pop": 2,
+        "Pop": 1,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 5,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1046,
+    "id": "SR6iYWJxHqs",
+    "details": {
+        "artist": "Bruno Mars",
+        "songName": "Grenade"
+    },
+    "misc": {
+        "year": 2010,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/ae/aa/ca/aeaaca46-b213-5675-98e8-7ce83e060c57/source/100x100bb.jpg",
+        "duration": "3:56"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 3,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1047,
+    "id": "ME2Hufquz0k",
+    "details": {
+        "artist": "Wisin",
+        "songName": "Adrenalina (feat. Jennifer Lopez & Ricky Martin)"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/06/11/2f/06112f93-5acb-048b-e33c-e868c462357d/source/100x100bb.jpg",
+        "duration": "4:28"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 5,
+        "Metal": 0,
+        "Pop": 3,
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
@@ -3527,100 +629,16 @@
     }
 },
 {
-    "index": 1019,
-    "id": "lBztnahrOFw",
+    "index": 1048,
+    "id": "4GuqB1BQVr4",
     "details": {
-        "artist": "Ricky Martin",
-        "songName": "La Mordidita (feat. Yotuel)"
+        "artist": "Justin Bieber",
+        "songName": "Boyfriend"
     },
     "misc": {
-        "year": 2015,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/4b/0e/ed/4b0eed82-5ff8-3b43-034a-616cf5bede4e/source/100x100bb.jpg",
-        "duration": "3:43"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 3,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 4,
-        "Metal": 0,
-        "Pop": 2,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1020,
-    "id": "y6Sxv-sUYtM",
-    "details": {
-        "artist": "Pharrell Williams",
-        "songName": "Happy (From \"Despicable Me 2\")"
-    },
-    "misc": {
-        "year": 2013,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music42/v4/8d/be/a3/8dbea3d2-a771-edb5-0103-3ae2321925b6/source/100x100bb.jpg",
-        "duration": "4:07"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 1,
-        "Folk": 0,
-        "Funk": 3,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 2,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1021,
-    "id": "KlyXNRrsk4A",
-    "details": {
-        "artist": "Katy Perry",
-        "songName": "Last Friday Night (T.G.I.F.)"
-    },
-    "misc": {
-        "year": 2010,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/22/9e/4f/229e4fba-e5c0-14fd-84fb-9abbf3a2b9bb/source/100x100bb.jpg",
-        "duration": "8:11"
+        "year": 2012,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/db/f7/13/dbf71386-70ce-05f7-9f34-158573b16c59/source/100x100bb.jpg",
+        "duration": "3:31"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -3631,7 +649,7 @@
         "Folk": 0,
         "Funk": 0,
         "Hard Rock": 0,
-        "Hip-Hop": 0,
+        "Hip-Hop": 2,
         "House": 0,
         "Indie": 0,
         "Latin": 0,
@@ -3653,16 +671,16 @@
     }
 },
 {
-    "index": 1022,
-    "id": "j5-yKhDd64s",
+    "index": 1049,
+    "id": "_kxz7WX4mLU",
     "details": {
-        "artist": "Eminem",
-        "songName": "Not Afraid"
+        "artist": "Cali y El Dandee",
+        "songName": "Por Fin Te Encontré (feat. Juan Magan & Sebastian Yatra)"
     },
     "misc": {
-        "year": 2010,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/e1/48/37/e148379b-30a2-6d4f-a7a9-da5ae15b2b0a/source/100x100bb.jpg",
-        "duration": "4:19"
+        "year": 2015,
+        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/79/01/c5/7901c501-6b28-5161-442e-274cd8f153ed/source/100x100bb.jpg",
+        "duration": "4:43"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -3673,12 +691,306 @@
         "Folk": 0,
         "Funk": 0,
         "Hard Rock": 0,
-        "Hip-Hop": 4,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 5,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 3,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1050,
+    "id": "kXYiU_JCYtU",
+    "details": {
+        "artist": "LINKIN PARK",
+        "songName": "Numb"
+    },
+    "misc": {
+        "year": 2003,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f7/81/cc/f781cc75-f0d3-52dd-da73-c56c53455195/source/100x100bb.jpg",
+        "duration": "3:07"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 2,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 3,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1051,
+    "id": "ekzHIouo8Q4",
+    "details": {
+        "artist": "Bruno Mars",
+        "songName": "When I Was Your Man"
+    },
+    "misc": {
+        "year": 2012,
+        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/35/b8/aa/35b8aab0-d693-e316-4a46-e22eed3126ba/source/100x100bb.jpg",
+        "duration": "3:55"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
         "House": 0,
         "Indie": 0,
         "Latin": 0,
         "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 4,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1052,
+    "id": "JF8BRvqGCNs",
+    "details": {
+        "artist": "Rihanna",
+        "songName": "Stay (feat. Mikky Ekko)"
+    },
+    "misc": {
+        "year": 2012,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/7a/d3/8d/7ad38df1-c8da-f278-af55-e346a073451a/source/100x100bb.jpg",
+        "duration": "4:08"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 2,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 3,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1053,
+    "id": "JWESLtAKKlU",
+    "details": {
+        "artist": "J Balvin",
+        "songName": "Safari (feat. Pharrell Williams, BIA & Sky)"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music60/v4/e9/81/78/e98178b6-848f-9a95-1217-baa53e565e8c/source/100x100bb.jpg",
+        "duration": "3:25"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 5,
+        "Metal": 0,
         "Pop": 1,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 5,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1054,
+    "id": "4m1EFMoRFvY",
+    "details": {
+        "artist": "Beyoncé",
+        "songName": "Single Ladies (Put a Ring On It)"
+    },
+    "misc": {
+        "year": 2008,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/1b/93/48/1b9348ed-c859-5ac0-c040-b54d0ec5bc50/source/100x100bb.jpg",
+        "duration": "3:19"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 3,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1055,
+    "id": "8iPcqtHoR3U",
+    "details": {
+        "artist": "Romeo Santos",
+        "songName": "Eres Mía"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/19/41/22/194122c7-fee7-f5ba-4fc2-8cf130611faf/source/100x100bb.jpg",
+        "duration": "4:52"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 4,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1056,
+    "id": "wzMrK-aGCug",
+    "details": {
+        "artist": "Rae Sremmurd",
+        "songName": "No Type"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music3/v4/93/fd/d4/93fdd443-1dab-c8ca-00bd-ec976e74abfd/source/100x100bb.jpg",
+        "duration": "3:18"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 5,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
         "Punk": 0,
         "R&B": 0,
         "Rap": 4,
@@ -3695,310 +1007,16 @@
     }
 },
 {
-    "index": 1023,
-    "id": "fWNaR-rxAic",
+    "index": 1057,
+    "id": "7fEQmJ98x_Y",
     "details": {
-        "artist": "Carly Rae Jepsen",
-        "songName": "Call Me Maybe"
-    },
-    "misc": {
-        "year": 2011,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/8d/37/0e/8d370e7b-85f7-9b3e-5bf6-8c855428a0ea/source/100x100bb.jpg",
-        "duration": "3:20"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 5,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1024,
-    "id": "bdOXnTbyk0g",
-    "details": {
-        "artist": "Prince Royce",
-        "songName": "Darte un Beso"
-    },
-    "misc": {
-        "year": 2013,
-        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/59/9c/1b/599c1b62-62b3-36d4-28cc-589196c2ed1a/source/100x100bb.jpg",
-        "duration": "3:31"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 1,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1025,
-    "id": "yUV9JwiQLog",
-    "details": {
-        "artist": "J Balvin",
-        "songName": "6 AM (feat. Farruko)"
-    },
-    "misc": {
-        "year": 2013,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/e0/f0/0d/e0f00d19-d2e1-ff62-76c0-b00e32ea0a92/source/100x100bb.jpg",
-        "duration": "4:38"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 5,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1026,
-    "id": "OxxggwHFj7M",
-    "details": {
-        "artist": "Nicky Jam",
-        "songName": "Travesuras"
-    },
-    "misc": {
-        "year": 2014,
-        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music1/v4/d3/18/3b/d3183bab-f3d2-4baf-e55d-e33bba96ed72/source/100x100bb.jpg",
-        "duration": "4:35"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 5,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1027,
-    "id": "YG2p6XBuSKA",
-    "details": {
-        "artist": "Nicky Jam",
-        "songName": "El Amante"
-    },
-    "misc": {
-        "year": 2017,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/9f/8b/32/9f8b327b-4f9a-a6d7-66dd-031706704762/source/100x100bb.jpg",
-        "duration": "4:37"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 1,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1028,
-    "id": "c73Cu3TQnlg",
-    "details": {
-        "artist": "Chris Jeday, J Balvin & Ozuna",
-        "songName": "Ahora Dice (Real Hasta La Muerte Remix) [feat. Cardi B, Offset, Anuel & Arcángel]"
-    },
-    "misc": {
-        "year": 2018,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/92/4b/10/924b102d-09d2-1c66-85ba-235dc8078b98/source/100x100bb.jpg",
-        "duration": "4:41"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 2,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 5,
-        "Metal": 0,
-        "Pop": 0,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1029,
-    "id": "QJO3ROT-A4E",
-    "details": {
-        "artist": "One Direction",
-        "songName": "What Makes You Beautiful"
-    },
-    "misc": {
-        "year": 2011,
-        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music7/v4/1b/57/79/1b57792e-2c00-7c60-b0f7-6eab10382c03/source/100x100bb.jpg",
-        "duration": "3:27"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 0,
-        "Electronic": 0,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 5,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 2,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1030,
-    "id": "9xByMBYDRmY",
-    "details": {
-        "artist": "Maluma",
-        "songName": "Sin Contrato"
+        "artist": "Farruko",
+        "songName": "Chillax (feat. Ky-Mani Marley)"
     },
     "misc": {
         "year": 2015,
-        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/0c/ad/98/0cad98c6-3723-ee23-2667-5cbb834d7321/source/100x100bb.jpg",
-        "duration": "4:40"
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/3a/e1/00/3ae100af-a938-e99f-9b00-65d61a8ae0b1/source/100x100bb.jpg",
+        "duration": "5:37"
     },
     "genreWeights": {
         "Alternative": 0,
@@ -4018,8 +1036,8 @@
         "Punk": 0,
         "R&B": 0,
         "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
+        "Reggae": 3,
+        "Reggaeton": 5,
         "Rock": 0,
         "Soul": 0,
         "Trance": 0
@@ -4031,64 +1049,64 @@
     }
 },
 {
-    "index": 1031,
-    "id": "3O1_3zBUKM8",
+    "index": 1058,
+    "id": "CSvFpBOe8eY",
     "details": {
-        "artist": "Naughty Boy",
-        "songName": "La La La (feat. Sam Smith)"
+        "artist": "System Of A Down",
+        "songName": "Chop Suey!"
     },
     "misc": {
-        "year": 2013,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/1a/4c/07/1a4c07c4-2e4a-0ed8-0c11-6987cc308df3/source/100x100bb.jpg",
-        "duration": "4:04"
+        "year": 2001,
+        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/f7/7d/78/f77d7847-9831-fead-de75-5e17468f14ac/source/100x100bb.jpg",
+        "duration": "3:27"
+    },
+    "genreWeights": {
+        "Alternative": 2,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 3,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 5,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 3,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1059,
+    "id": "Ahha3Cqe_fk",
+    "details": {
+        "artist": "Katy Perry",
+        "songName": "The One That Got Away"
+    },
+    "misc": {
+        "year": 2010,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/22/9e/4f/229e4fba-e5c0-14fd-84fb-9abbf3a2b9bb/source/100x100bb.jpg",
+        "duration": "4:51"
     },
     "genreWeights": {
         "Alternative": 0,
         "Classic Rock": 0,
         "Country": 0,
         "Dance": 0,
-        "Electronic": 1,
-        "Folk": 0,
-        "Funk": 0,
-        "Hard Rock": 0,
-        "Hip-Hop": 0,
-        "House": 0,
-        "Indie": 0,
-        "Latin": 0,
-        "Metal": 0,
-        "Pop": 4,
-        "Punk": 0,
-        "R&B": 0,
-        "Rap": 0,
-        "Reggae": 0,
-        "Reggaeton": 0,
-        "Rock": 0,
-        "Soul": 0,
-        "Trance": 0
-    },
-    "tagging": {
-        "new": false,
-        "hit": true,
-        "trending": false
-    }
-},
-{
-    "index": 1032,
-    "id": "qrO4YZeyl0I",
-    "details": {
-        "artist": "Lady Gaga",
-        "songName": "Bad Romance"
-    },
-    "misc": {
-        "year": 2009,
-        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/37/12/95/371295fc-fce3-21c3-3dbc-ba660b17af6c/source/100x100bb.jpg",
-        "duration": "5:08"
-    },
-    "genreWeights": {
-        "Alternative": 0,
-        "Classic Rock": 0,
-        "Country": 0,
-        "Dance": 3,
         "Electronic": 2,
         "Folk": 0,
         "Funk": 0,
@@ -4114,3 +1132,927 @@
         "trending": false
     }
 },
+{
+    "index": 1060,
+    "id": "W-TE_Ys4iwM",
+    "details": {
+        "artist": "One Direction",
+        "songName": "Story of My Life"
+    },
+    "misc": {
+        "year": 2013,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/95/04/94/95049410-2dd5-29e8-13c8-fedf0b83450f/source/100x100bb.jpg",
+        "duration": "4:08"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1061,
+    "id": "TGtWWb9emYI",
+    "details": {
+        "artist": "Pitbull",
+        "songName": "We Are One (Ole Ola) [feat. Jennifer Lopez & Cláudia Leitte]"
+    },
+    "misc": {
+        "year": 2014,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/2c/4b/ac/2c4bac79-3df8-d9d5-7fe9-9a6e7ce65db5/source/100x100bb.jpg",
+        "duration": "4:06"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 2,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1062,
+    "id": "5qm8PH4xAss",
+    "details": {
+        "artist": "50 Cent",
+        "songName": "In da Club"
+    },
+    "misc": {
+        "year": 2003,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music69/v4/a8/1d/58/a81d584c-5e50-430d-9c42-78acd2de33a9/source/100x100bb.jpg",
+        "duration": "4:10"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 4,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 5,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1063,
+    "id": "qMxX-QOV9tI",
+    "details": {
+        "artist": "Jessie J",
+        "songName": "Price Tag (feat. B.o.B)"
+    },
+    "misc": {
+        "year": 2011,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/1b/ea/35/1bea350b-2950-5382-eda6-ba9a7847bb18/source/100x100bb.jpg",
+        "duration": "4:07"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 3,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 5,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1064,
+    "id": "1wYNFfgrXTI",
+    "details": {
+        "artist": "Eminem",
+        "songName": "When I'm Gone"
+    },
+    "misc": {
+        "year": 2005,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music1/v4/8a/0e/6b/8a0e6b78-e353-1728-2183-653bd2158efe/source/100x100bb.jpg",
+        "duration": "6:09"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 4,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 4,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1065,
+    "id": "qQkBeOisNM0",
+    "details": {
+        "artist": "Fun.",
+        "songName": "Some Nights"
+    },
+    "misc": {
+        "year": 2012,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/c0/5d/d4/c05dd415-6a49-241c-1814-7e66ba882964/source/100x100bb.jpg",
+        "duration": "5:40"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 2,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 3,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1066,
+    "id": "NlXTv5Ondgs",
+    "details": {
+        "artist": "Kings of Leon",
+        "songName": "Closer"
+    },
+    "misc": {
+        "year": 2008,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/10/c6/2c/10c62cca-ce17-f71d-a057-28b081c87a80/source/100x100bb.jpg",
+        "duration": "4:00"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1067,
+    "id": "u9Dg-g7t2l4",
+    "details": {
+        "artist": "Disturbed",
+        "songName": "The Sound of Silence"
+    },
+    "misc": {
+        "year": 2015,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music7/v4/93/88/3a/93883a8a-d7a9-7f9b-9d91-7f354e349841/source/100x100bb.jpg",
+        "duration": "4:20"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 3,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+},
+{
+    "index": 1068,
+    "id": "u5CVsCnxyXg",
+    "details": {
+        "artist": "Radiohead",
+        "songName": "No Surprises"
+    },
+    "misc": {
+        "year": 1997,
+        "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/4e/b8/ba/4eb8ba96-6ee2-8a60-f012-a7a61a4fe097/source/100x100bb.jpg",
+        "duration": "3:47"
+    },
+    "genreWeights": {
+        "Alternative": 3,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1069,
+    "id": "1uYWYWPc9HU",
+    "details": {
+        "artist": "Radiohead",
+        "songName": "Karma Police"
+    },
+    "misc": {
+        "year": 2013,
+        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/f3/f2/ee/f3f2eea2-fc0c-5562-78ce-093114465fbc/source/100x100bb.jpg",
+        "duration": "4:27"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1070,
+    "id": "n5h0qHwNrHk",
+    "details": {
+        "artist": "Radiohead",
+        "songName": "Fake Plastic Trees (Acoustic Version)"
+    },
+    "misc": {
+        "year": 1995,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music4/v4/c3/09/4e/c3094e31-957d-d9bf-20b4-30baa132eba3/source/100x100bb.jpg",
+        "duration": "4:58"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 3,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 5,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1071,
+    "id": "7qFfFVSerQo",
+    "details": {
+        "artist": "Radiohead",
+        "songName": "High and Dry"
+    },
+    "misc": {
+        "year": 1995,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music49/v4/be/5d/0e/be5d0e68-c3eb-6aa7-739e-aa6ced08edc1/source/100x100bb.jpg",
+        "duration": "4:19"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 4,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1072,
+    "id": "qqflFMhkqHM",
+    "details": {
+        "artist": "The xx",
+        "songName": "I Dare You"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/8d/de/b0/8ddeb0e6-1163-6d8b-5d3a-4962efd12747/source/100x100bb.jpg",
+        "duration": "6:54"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 3,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1073,
+    "id": "blJKoXWlqJk",
+    "details": {
+        "artist": "The xx",
+        "songName": "On Hold"
+    },
+    "misc": {
+        "year": 2016,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/8d/de/b0/8ddeb0e6-1163-6d8b-5d3a-4962efd12747/source/100x100bb.jpg",
+        "duration": "4:32"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1074,
+    "id": "_nW5AF0m9Zw",
+    "details": {
+        "artist": "The xx",
+        "songName": "Angels"
+    },
+    "misc": {
+        "year": 2012,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/fb/bc/94/fbbc9439-5835-19cd-5c52-117a61ab04f4/source/100x100bb.jpg",
+        "duration": "2:54"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1075,
+    "id": "yoj2I6ZJLx8",
+    "details": {
+        "artist": "The xx",
+        "songName": "Together"
+    },
+    "misc": {
+        "year": 2013,
+        "artwork": "https://is5-ssl.mzstatic.com/image/thumb/Music4/v4/64/fb/5d/64fb5dec-3859-f626-75f4-7d48307c9fd9/source/100x100bb.jpg",
+        "duration": "5:29"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1076,
+    "id": "PElhV8z7I60",
+    "details": {
+        "artist": "The xx",
+        "songName": "Islands"
+    },
+    "misc": {
+        "year": 2009,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/11/dc/de/11dcde3a-c728-ef6e-20db-d20620462ade/source/100x100bb.jpg",
+        "duration": "2:43"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 3,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 3,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1077,
+    "id": "gI2eO_mNM88",
+    "details": {
+        "artist": "The xx",
+        "songName": "VCR"
+    },
+    "misc": {
+        "year": 2009,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/11/dc/de/11dcde3a-c728-ef6e-20db-d20620462ade/source/100x100bb.jpg",
+        "duration": "2:57"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 4,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 3,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1078,
+    "id": "Pib8eYDSFEI",
+    "details": {
+        "artist": "The xx",
+        "songName": "Crystalised"
+    },
+    "misc": {
+        "year": 2009,
+        "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/11/dc/de/11dcde3a-c728-ef6e-20db-d20620462ade/source/100x100bb.jpg",
+        "duration": "3:22"
+    },
+    "genreWeights": {
+        "Alternative": 5,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 2,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 4,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 2,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1079,
+    "id": "MV_3Dpw-BRY",
+    "details": {
+        "artist": "Kavinsky",
+        "songName": "Nightcall"
+    },
+    "misc": {
+        "year": 2010,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/cc/59/e8/cc59e8ad-69de-cfc2-8ef0-87b87c62ecd1/source/100x100bb.jpg",
+        "duration": "4:17"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 4,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1080,
+    "id": "fS5xHHqW-6E",
+    "details": {
+        "artist": "X Ambassadors",
+        "songName": "Ahead of Myself"
+    },
+    "misc": {
+        "year": 2017,
+        "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/84/fa/52/84fa523e-b5ce-1fd7-4a3b-9d1c6ea1dd26/source/100x100bb.jpg",
+        "duration": "3:54"
+    },
+    "genreWeights": {
+        "Alternative": 4,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 0,
+        "Electronic": 0,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 0,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 3,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": true,
+        "hit": false,
+        "trending": false
+    }
+},
+{
+    "index": 1081,
+    "id": "pRpeEdMmmQ0",
+    "details": {
+        "artist": "Shakira",
+        "songName": "Waka Waka (This Time for Africa)[feat. Freshlyground]"
+    },
+    "misc": {
+        "year": 2010,
+        "artwork": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/0c/70/38/0c70384c-2176-f311-59ab-0ae2a88ce174/source/100x100bb.jpg",
+        "duration": "3:31"
+    },
+    "genreWeights": {
+        "Alternative": 0,
+        "Classic Rock": 0,
+        "Country": 0,
+        "Dance": 3,
+        "Electronic": 1,
+        "Folk": 0,
+        "Funk": 0,
+        "Hard Rock": 0,
+        "Hip-Hop": 0,
+        "House": 0,
+        "Indie": 0,
+        "Latin": 0,
+        "Metal": 0,
+        "Pop": 4,
+        "Punk": 0,
+        "R&B": 0,
+        "Rap": 0,
+        "Reggae": 0,
+        "Reggaeton": 0,
+        "Rock": 0,
+        "Soul": 0,
+        "Trance": 0
+    },
+    "tagging": {
+        "new": false,
+        "hit": true,
+        "trending": false
+    }
+}

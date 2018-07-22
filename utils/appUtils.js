@@ -31,6 +31,8 @@ app.run(['$rootScope', '$http', function ($rootScope, $http) {
 
         }
         $rootScope.runningSongIndex = $rootScope.songsShrink.length;
+        // $rootScope.runningSongIndex = 1038;
+
     }
 
 }]);
@@ -56,9 +58,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
     var rapid = new RapidAPI("default-application_5a0c63eee4b0218e3e35bf81", "e1bf6022-791c-4a2b-b878-4f0800b5ee14");
 
 
-    var VIEW_COUNT_HIT_NORMALIZED_THRESHOLD = 100000000; //100M
-    var DIFF_DAYS_NEW_THRESHOLD = 350;
-    var DIFF_DAYS_TRENDING_THRESHOLD = 300;
+    var VIEW_COUNT_HIT_NORMALIZED_THRESHOLD = 130000000; //100M
+    var DIFF_DAYS_NEW_THRESHOLD = 500;
+    var DIFF_DAYS_TRENDING_THRESHOLD = 400;
     var VIEW_COUNT_TRENDING_NORMALIZED_THRESHOLD;
     var TRENDING_FACTOR_THRESHOLD = 250000; //25k
 
@@ -101,16 +103,19 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         "id": '',
         "artist": '',
         "songName": '',
-        "songGenres": [0, 0, 0, 0, 0,
-                       0, 0, 0, 0, 0, 
-                       0, 0, 0, 0, 0, 
+        "songGenres": [0, 0, 0, 0, 0, 
+                       0, 0, 0, 0, 0,
+                       0, 0, 0, 0, 0,
                        0, 0, 0, 0, 0,
                        0, 0]
+                       // MUST BE THE SAME SIZE OF newMapOfGenres -> 22 !!
     };
+    
 
     $rootScope.songToAdd = '';
     $rootScope.fromRawToShrink = '';
     $rootScope.fromShrinkToRaw = '';
+    
 
     $rootScope.loadSongDetails = function () {
         var songId = $rootScope.song.id;
@@ -195,6 +200,8 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
         $rootScope.songToAdd += newSongStr;
         $rootScope.songToAdd += ",";
+        $rootScope.songToAdd += "\n";
+
         if ($rootScope.isFixingSongsFlow) {
             $rootScope.runningSongIndexFromList++;
         } else {
@@ -240,15 +247,17 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     };
 
+    function createMapOfZeroGenres() {
+        return Array.apply(null, Array(newMapOfGenres.length)).map(Number.prototype.valueOf,0);
+    }
+
     $rootScope.cleanSong = function () {
+        var songsGenresArr = createMapOfZeroGenres();
         $rootScope.song = {
             "id": '',
             "artist": '',
             "songName": '',
-            "songGenres": [0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0]
+            "songGenres": songsGenresArr
         };
         $rootScope.lastFmResultParsed = "";
         $rootScope.brainzResultParsed = "";
@@ -660,9 +669,9 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             var songName = fullSongTitle.substring(dashIndex + 1).trim();
             $rootScope.song.songName = songName;
 
-            if (hasSameNameLikeOtherSong(songName)) {
-                alert("warning! we have a song with the same name");
-            }
+            // if (hasSameNameLikeOtherSong(songName)) {
+            //     alert("warning! we have a song with the same name");
+            // }
         }
     };
 
@@ -1512,7 +1521,7 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
         var shrinkSongList = $rootScope.songsShrink;
         for (var i = 0; i < shrinkSongList.length; i++) {
             var currentSong = shrinkSongList[i];
-            if (currentSong.s.toLowerCase().indexOf("official") != -1 || currentSong.s.toLowerCase().indexOf("audio") != -1) {
+            if (currentSong.s.toLowerCase().indexOf("official") != -1 || currentSong.s.toLowerCase().indexOf("audio") != -1 || currentSong.s.toLowerCase().indexOf("lyric") != -1) {
                 console.log(currentSong.s);
                 $rootScope.badSongsNameStatus = false;
                 return;
