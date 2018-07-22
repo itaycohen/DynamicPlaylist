@@ -7,6 +7,7 @@ dpSongsListLoaderService.$inject = ["$http", "$q"];
 
 function dpSongsListLoaderService($http, $q) {
 
+    
     var songsShrink = [
         {
             "i": 0,
