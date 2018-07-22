@@ -207,7 +207,21 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
 
     function validateSong() {
         var currentSong = $rootScope.song;
-        if (angular.isUndefined(currentSong) || currentSong.id === '' || currentSong.artist === '' || currentSong.songName === '') {
+        var artist, songName;
+        if ($rootScope.data.takeItunes) {
+            artist = $rootScope.song.itunesResArtist;
+            songName = $rootScope.song.itunesResSongName;
+        } else if ($rootScope.data.takeExisting) {
+            artist = $rootScope.song.exisitArtist;
+            songName = $rootScope.song.exisitSongName;
+        } else if ($rootScope.data.takeAPI) {
+            artist = $rootScope.song.artistAPI;
+            songName = $rootScope.song.songNameAPI;
+        } else {
+            artist = currentSong.artist;
+            songName = currentSong.songName;
+        }
+        if (angular.isUndefined(currentSong) || currentSong.id === '' || artist === '' || songName === '') {
             alert("Error in song details");
             return;
         }
@@ -663,6 +677,16 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             if (bracket !== -1) {
                 $rootScope.data.takeYoutube = false;
             }
+
+            var fullSongTitle = $rootScope.song.fullTitle;
+            if (containsStrings(fullSongTitle, "lyric") || containsStrings(fullSongTitle, "audio")) {
+                alert('warning! song name contains "lyric" or "audio" strings');
+            }
+
+            if (containsStrings(fullSongTitle, "remix") ) {
+                alert('warning! song name contains "remix" string');
+            }
+            
             //remove all brackets and it's content
             songName = songName.replace(/ *\([^)]*\) */g, " ").trim();
             songName = songName.replace(/ *\[[^\]]*]/, '').trim();
@@ -670,12 +694,25 @@ function appUtilsController($rootScope, dpAppUtils, $http, $window) {
             bracket = songName.indexOf("ft");
             var songNameAPI = bracket != -1 ? songName.substring(0, bracket - 1).trim() : songName;
 
+            songNameAPI = stripquotes(songNameAPI);
+
             $rootScope.song.songNameAPI = songNameAPI;
             if (hasSameNameLikeOtherSong(songNameAPI)) {
                 alert("warning! we have a song with the same name");
             }
         }
     };
+
+    function stripquotes(a) {
+        if (a.charAt(0) === '"' && a.charAt(a.length-1) === '"') {
+            return a.substr(1, a.length-2);
+        }
+        return a;
+    }
+
+    function containsStrings(mainString, str) {
+        return mainString.toLowerCase().includes(str);
+    }
 
     $rootScope.goToBottom = function () {
         $window.scrollTo(0, document.body.scrollHeight);
