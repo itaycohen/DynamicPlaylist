@@ -140,7 +140,10 @@ function dpGenreWidgetManagerController($scope, $element, dpAppUtils, dpSongsLis
         var v = s.getElementsByTagName('md-content');
         if (!$scope.isOpen && v.length > 0) {
             $scope.isOpen = true;
-            v[0].scrollTo(0,0)
+            var obj = v[0];
+            if (angular.isDefined(obj.scrollTo)) {
+                obj.scrollTo(0,0)
+            }
         }
     }
 
