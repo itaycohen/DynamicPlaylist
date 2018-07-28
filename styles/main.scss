@@ -27,32 +27,46 @@ body {
         }
 
         .social-icons-container {
-            margin: 1px 10px 0px 0px;
+            margin: 1px 12px 0px 0px;
 
-            .fa {
-                margin: 0px 2px 0px 2px;
+            .social-icon {
+                margin: 0px 4px 0px 4px;
                 border-radius: 50%;
-                width: 35px;
-                height: 35px;
-                line-height: 36px;
-                font-size: 19px;
+                width: 33px;
+                height: 33px;
                 text-align: center;
                 @include transition(.3s);
+
+                .facebook-icon {
+                    margin: 7px 1px 0 0;
+                }
+
+                .twitter-icon, .instagram-icon {
+                    margin: 8px 1px 0 0;
+                }
+
+                svg {
+                    width: 17px;
+                    height: 17px;
+                    fill: white;
+                }
+
             }
 
-            .fa-facebook:hover {
+            .facebook-icon-wrapper:hover {
                 background-color: $facebook-color;
             }
 
-            .fa-twitter:hover {
+            .twitter-icon-wrapper:hover  {
                 background-color: $twitter-color;
             }
 
-            .fa-instagram:hover {
+            .instagram-icon-wrapper:hover  {
                 background: $instagram-color
             }
 
         }
+
         .feedback-button {
             cursor: pointer;
             text-align: center;
@@ -73,12 +87,8 @@ body {
         }
 
 
-
-
         .toolbar-big {
-
             .feedback-button {
-            
                 &:hover {
                     background: #13e3ed; // #ff00de
                     @include gradientBg(180deg, #39ebf1, #5ef4f7);

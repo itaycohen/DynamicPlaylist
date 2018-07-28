@@ -32,18 +32,14 @@ $opening-angle:$pi*2;
   width:32px;
   height:32px;
   position:absolute;
-  color:white;
-  text-align:center;
-  line-height:60px;
   @include transform(translate3d(0,0,0));
   @include transition(transform ease-out 200ms);
   z-index: 1;
-  text-decoration: none;
 }
 
 //the whole bottom bar
 .playing-bar {
-    font-family: "Myriad_Pro_Regular";
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
     background: $playing-bar-background-color;
     height: $playing-bar-height;
     position: fixed;
@@ -52,7 +48,6 @@ $opening-angle:$pi*2;
     z-index: 51;
 
     // BIG SECTION
-
     // first section - big (1/3)
     .player-controls-area-big { 
       padding-left: 22px;
@@ -216,14 +211,14 @@ $opening-angle:$pi*2;
       .playing-now-song-name-wrapper {
         position: relative;
         top: 10px;
-        font-size: 14px;
+        font-size: 13px;
       }
 
       .player-progress-bar-container {
         margin-bottom: 5px;
 
         .current-duration, .total-duration {
-          font-size: 14px;
+          font-size: 13px;
           min-width: 30px;
         }
   
@@ -286,20 +281,43 @@ $opening-angle:$pi*2;
             }
           }
 
-          .facebook-icon {
+          .facebook-icon-wrapper {
             background-color: $facebook-color;
-            @include transform(scale(0.8,0.8));
-            
-            &:hover{
-              color: $facebook-color;
+
+            .facebook-icon {
+              @include transform(scale(0.8,0.8));
+
+              svg {
+                fill: white;
+              }
+            }
+
+            &:hover {
+              .facebook-icon {
+                svg {
+                  fill: $facebook-color;
+                }
+              }
             }
           }
           
-          .twitter-icon {
+          .twitter-icon-wrapper {
             background-color: $twitter-color;
-            @include transform(scale(0.8,0.8));
-            &:hover{
-              color: $twitter-color;
+
+            .twitter-icon {
+              @include transform(scale(0.8,0.8));
+
+              svg {
+                fill: white;
+              }
+            }
+
+            &:hover {
+              .twitter-icon {
+                svg {
+                  fill: $twitter-color;
+                }
+              }
             }
           }
 
@@ -312,6 +330,7 @@ $opening-angle:$pi*2;
             @include transform(translate3d(0,0,0));
             cursor:pointer;
             @include transition(.3s);
+            @include transform(scale(1.05 ,1.05));
           
             #close {
               display: none;
@@ -409,7 +428,7 @@ $opening-angle:$pi*2;
       .song-full-name {
         padding-left: 10px;
         padding-top: 3px;
-        font-size: 14px;
+        font-size: 13px;
         color: #ebe8ec;
 
         .song-name {

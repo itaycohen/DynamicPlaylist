@@ -2,13 +2,40 @@
     <div class="md-toolbar-tools">
         <img class="icon-container text-no-select" src="media/icons/logoMixshakeTrans.svg" alt="logo">
         <h1 flex md-truncate class="toolbar-title text-no-select">MIX<span>SHAKE</span></h1>
-        <div class="social-icons-container">
-            <a target="_blank" href="https://www.facebook.com/mixshakemusicapp" class="fa fa-facebook"></a>
-            <a target="_blank" href="https://twitter.com/mixshakemusic" class="fa fa-twitter"></a>
-            <a target="_blank" href="https://www.instagram.com/mixshakemusic/" class="fa fa-instagram"></a>
+        <div class="social-icons-container" layout="row">
+            <a target="_blank" href="https://www.facebook.com/mixshakemusicapp" class="social-icon facebook-icon-wrapper">
+                <div class="facebook-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 486.037 1007" width="21" height="21">
+                        <path d="M124 1005V536H0V367h124V223C124 110 197 5 366 5c68 0 119 7 119 7l-4 158s-52-1-108-1c-61 0-71 28-71 75v123h183l-8 169H302v469H123"/>
+                    </svg>
+                </div>
+            </a>
+            <a target="_blank" href="https://twitter.com/mixshakemusic" class="social-icon twitter-icon-wrapper">
+                <div class="twitter-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="21" height="21">
+                        <path d="M64 12.15c-2.355 1.045-4.885 1.75-7.54 2.068 2.71-1.625 4.792-4.198 5.772-7.264-2.537 1.505-5.347
+                         2.597-8.338 3.186-2.395-2.552-5.808-4.146-9.584-4.146-7.25 0-13.13 5.88-13.13 13.13 0 1.03.116 2.03.34
+                          2.992-10.912-.548-20.588-5.775-27.064-13.72-1.13 1.94-1.778 4.196-1.778 6.602 0 4.556 2.318 8.575 5.84
+                           10.93-2.15-.07-4.176-.66-5.946-1.643v.165c0 6.362 4.525 11.668 10.532 12.875-1.102.3-2.262.46-3.46.46-.845
+                            0-1.668-.082-2.47-.235 1.672 5.216 6.52 9.013 12.267 9.118-4.493 3.522-10.154 5.62-16.306 5.62-1.06
+                             0-2.105-.06-3.132-.183 5.81 3.726 12.713 5.9 20.128 5.9 24.15 0 37.358-20.008 37.358-37.36 0-.568-.013-1.135-.038-1.698 2.566-1.85 4.792-4.164 6.552-6.797z"/>
+                    </svg>
+                </div>
+            </a>
+
+            <a target="_blank" href="https://www.instagram.com/mixshakemusic/" class="social-icon instagram-icon-wrapper">
+                <div class="instagram-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1007" width="21" height="21">
+                        <path d="M749 6H250C113 6 1 117 1 254v501c0 137 112 248 249 248h499c137 0 249-111 249-248V254C998 117
+                         886 6 749 6zm157 749c0 86-70 156-157 156H250c-87 0-157-70-157-156V431h197c-14 30-22 64-22 100 0 130 106
+                          236 237 236s237-106 237-236c0-36-8-70-22-100h187v324zM407 532c0-54 44-98 98-98s98 44 98 98-44 98-98
+                           98-98-44-98-98zm499-192H642c-39-27-86-44-137-44s-98 16-137 44H94v-85c0-86 70-156 157-156h499c87 0 157
+                         70 157 156v85zM806 154h-86c-15 0-28 12-28 28v85c0 15 12 28 28 28h86c15 0 28-12 28-28v-85c0-15-12-28-28-28z"/>
+                    </svg>
+                </div>
+            </a>
         </div>
         <div class="feedback-button text-no-select" ng-click="openFeedbackForm()">FEEDBACK</div>
-        
         <!-- <md-button id="feedback-widget" class="md-raised feedback-button">FEEDBACK</md-button> -->
         
     </div>

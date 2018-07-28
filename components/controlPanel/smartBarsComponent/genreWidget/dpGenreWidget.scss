@@ -22,7 +22,7 @@
             }
     
             .genre-name {
-                font-family: "Myriad_Pro_Regular";
+                font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
             }
     
             &:hover {
@@ -49,12 +49,12 @@
     .genre-name-container-small {
         margin-left: 11px;
         margin-right: 7px;
-        font-size: 14px;
+        font-size: 12px;
         width: 200px;
     }
 
     .genre-name-container-big {
-        font-size: 17px;
+        font-size: 15px;
         letter-spacing: 1px;
 
     }
